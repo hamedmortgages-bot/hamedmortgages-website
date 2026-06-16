@@ -350,3 +350,29 @@ li { margin-bottom: .4rem; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; }
 }
+
+/* ---------- Home hero: executive portrait split (home page only) ---------- */
+.hero--portrait .container {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+  padding-top: clamp(3rem, 7vw, 5rem);
+  padding-bottom: clamp(3rem, 7vw, 5rem);
+}
+.hero--portrait .hero__inner { padding: 0; max-width: 600px; }
+.hero__portrait { margin: 0; }
+.hero__portrait img {
+  display: block; width: 100%; height: auto;
+  border-radius: var(--radius); box-shadow: var(--shadow-lg);
+}
+@media (max-width: 860px) {
+  .hero--portrait .container { grid-template-columns: 1fr; gap: 1.75rem; }
+  .hero--portrait .hero__portrait { order: -1; width: 100%; max-width: 360px; margin-inline: auto; }
+}
+
+/* ---------- About: executive headshot ---------- */
+.about-portrait {
+  display: block; width: 100%; height: auto;
+  border-radius: var(--radius); box-shadow: var(--shadow-md);
+}

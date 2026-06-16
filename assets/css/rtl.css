@@ -55,3 +55,12 @@ html[dir="rtl"] .brand__name { text-align: right; }
 /* Lists: bullets/checks already flip via padding-inline-start + inset-inline-start */
 
 /* Hamburger lines unaffected; menu panel inherits logical inset-inline */
+
+/* Home hero portrait split: text aligns to the start (right) in RTL, not centered.
+   The grid places the text column first (inline-start = right) and the photo left. */
+html[dir="rtl"] .hero--portrait .hero__inner {
+  margin: 0;
+  max-width: 600px;
+  text-align: right;
+  padding-inline: 0;
+}
