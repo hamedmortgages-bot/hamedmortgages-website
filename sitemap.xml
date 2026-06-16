@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url><loc>https://hamedmortgages.ca/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/solutions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/solutions.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/solutions.html"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/business-owners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/business-owners.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/business-owners.html"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/refinance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/refinance.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/refinance.html"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/investment.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/investment.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/investment.html"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/about.html"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/resources.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/resources.html"/>
+  </url>
+  <url><loc>https://hamedmortgages.ca/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/contact.html"/>
+  </url>
+
+  <url><loc>https://hamedmortgages.ca/fa/</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/solutions.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/business-owners.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/refinance.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/investment.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/about.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/resources.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/contact.html</loc></url>
+
+</urlset>
