@@ -21,8 +21,17 @@ html[dir="rtl"] h2,
 html[dir="rtl"] h3,
 html[dir="rtl"] h4 { letter-spacing: 0; font-weight: 700; }
 
-/* Hero text block aligns to the right edge */
-html[dir="rtl"] .hero__inner { margin-inline-start: 0; margin-inline-end: auto; }
+/* Persian hero: centered and balanced (not pushed to the edge), with
+   comfortable horizontal padding. Mirrors the premium feel of the EN hero. */
+html[dir="rtl"] .hero__inner {
+  margin-inline: auto;
+  max-width: 860px;
+  text-align: center;
+  padding-inline: clamp(1.5rem, 5vw, 3rem);
+}
+html[dir="rtl"] .hero .lead { margin-inline: auto; }
+html[dir="rtl"] .hero .btn-row { justify-content: center; }
+html[dir="rtl"] .hero__trust { justify-content: center; }
 
 /* Numbers, prices, phone numbers, and the calculator stay LTR for legibility */
 html[dir="rtl"] .ltr,
