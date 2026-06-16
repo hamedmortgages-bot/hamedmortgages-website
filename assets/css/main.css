@@ -71,10 +71,11 @@ li { margin-bottom: .4rem; }
 
 /* ---------- Accessibility ---------- */
 .skip-link {
-  position: absolute; left: -999px; top: 0; z-index: 1000;
+  position: absolute; inset-inline-start: 0; top: -100px; z-index: 1000;
   background: var(--green-800); color: #fff; padding: .75rem 1.25rem; border-radius: 0 0 var(--radius-sm) 0;
+  transition: top var(--transition);
 }
-.skip-link:focus { left: 0; }
+.skip-link:focus { top: 0; }
 :focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
