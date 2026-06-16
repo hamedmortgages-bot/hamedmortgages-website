@@ -1,0 +1,48 @@
+/* ===================================================================
+   Hamed Mortgages — RTL overlay (rtl.css)
+   Loaded ONLY on Persian (/fa/) pages, after main.css.
+   main.css already uses logical properties (inline-start/end, padding-inline)
+   so most layout flips automatically with dir="rtl". This file handles
+   the Farsi font and the few visual details that need explicit tuning.
+   =================================================================== */
+
+:root {
+  /* Vazirmatn is a professional, purpose-built Persian web font (self-hosted) */
+  --font-sans: "Vazirmatn", "Segoe UI", Tahoma, system-ui, sans-serif;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-sans);
+  line-height: 1.85;            /* Farsi reads better with a touch more leading */
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4 { letter-spacing: 0; font-weight: 700; }
+
+/* Hero text block aligns to the right edge */
+html[dir="rtl"] .hero__inner { margin-inline-start: 0; margin-inline-end: auto; }
+
+/* Numbers, prices, phone numbers, and the calculator stay LTR for legibility */
+html[dir="rtl"] .ltr,
+html[dir="rtl"] input[type="number"],
+html[dir="rtl"] input[type="tel"],
+html[dir="rtl"] .calc__result .amount,
+html[dir="rtl"] .calc__result .row span:last-child {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+/* In RTL, push the numeric value in result rows to the left side */
+html[dir="rtl"] .calc__result .row span:last-child { text-align: left; }
+
+/* FAQ marker sits on the correct side automatically via inset-inline-end;
+   nudge the toggle padding so text doesn't collide with the +/× icon */
+html[dir="rtl"] .faq__q { padding: 1.1rem 0 1.1rem 2.5rem; }
+
+/* Keep the brand mark glyph upright */
+html[dir="rtl"] .brand__name { text-align: right; }
+
+/* Lists: bullets/checks already flip via padding-inline-start + inset-inline-start */
+
+/* Hamburger lines unaffected; menu panel inherits logical inset-inline */
