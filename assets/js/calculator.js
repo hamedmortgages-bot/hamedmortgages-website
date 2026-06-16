@@ -13,7 +13,8 @@
   var lang = document.documentElement.getAttribute("lang") || "en";
   var isFa = lang === "fa";
 
-  var locale = isFa ? "fa-IR" : "en-CA";
+  // Always use Latin (English) digits for numeric consistency across EN and FA.
+  var locale = "en-CA";
   var fmtMoney = function (n) {
     return new Intl.NumberFormat(locale, {
       style: "currency", currency: "CAD", maximumFractionDigits: 0
