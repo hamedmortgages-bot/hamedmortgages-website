@@ -23,6 +23,7 @@
     action: "https://crm.zohocloud.ca/crm/WebToLeadForm",
     xnQsjsdp: "15cbe3bc57ad44e16846b2404afaf7d96465a0ddc098813336880744594029eb",
     xmIwtLD: "fc7f370331ec16a19a7ec54bccbb030060ef404cae7152804648fe07124804f7aa51f7239c6f3f4e17a1690444a8d253",
+    returnURL: "https://hamedmortgages-bot.github.io/cmhc-rental/thank-you.html",
     leadSource: "Web Download"
   }, CFG.zoho || {});
   var STORE = "hm_intake_v1";
@@ -77,30 +78,42 @@
   }
   function identified() { var i = read(); return !!(i && i.email); }
 
-  /* ---------- CRM submit (Zoho Web-to-Lead, fire-and-forget) ---------- */
+  /* ---------- CRM submit (Zoho Web-to-Lead via hidden-iframe form POST) ---------- */
   function toCRM(d, tool) {
-    var p = new URLSearchParams();
-    p.append("xnQsjsdp", ZOHO.xnQsjsdp);
-    p.append("xmIwtLD", ZOHO.xmIwtLD);
-    p.append("actionType", "TGVhZHM=");
-    p.append("Last Name", (d.first + " " + d.last).trim() || d.last || "-");
-    p.append("First Name", d.first || "");
-    p.append("Email", d.email);
-    p.append("Phone", d.phone || "");
-    p.append("Lead Source", ZOHO.leadSource);
-    p.append("Description",
-      "--- INTAKE (Intake-First Gate) ---\n" +
-      "Name: " + d.first + " " + d.last + "\n" +
-      "Position / User type: " + d.position + "\n" +
-      "Language: " + lang() + "\n" +
-      "Source page: " + location.href + "\n" +
-      "Tool requested: " + (tool || CFG.tool || document.title) + "\n" +
-      "--- Source: Website — Intake Gate ---");
-    return fetch(ZOHO.action, {
-      method: "POST", mode: "no-cors",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: p.toString()
-    }).catch(function () { /* no-cors: response is opaque; treat as sent */ });
+    return new Promise(function (resolve) {
+      var sink = "hmGateSink_" + Date.now();
+      var ifr = document.createElement("iframe");
+      ifr.name = sink; ifr.style.display = "none";
+      document.body.appendChild(ifr);
+      var f = document.createElement("form");
+      f.method = "POST"; f.action = ZOHO.action; f.target = sink;
+      f.acceptCharset = "UTF-8"; f.style.display = "none";
+      function add(n, v) { var i = document.createElement("input"); i.type = "hidden"; i.name = n; i.value = (v == null ? "" : v); f.appendChild(i); }
+      add("xnQsjsdp", ZOHO.xnQsjsdp);
+      add("xmIwtLD", ZOHO.xmIwtLD);
+      add("actionType", "TGVhZHM=");
+      add("returnURL", ZOHO.returnURL);
+      add("Lead Source", ZOHO.leadSource);
+      add("aG9uZXlwb3Q", ""); // honeypot (leave empty)
+      add("Last Name", (d.first + " " + d.last).trim() || d.last || "-");
+      add("First Name", d.first || "");
+      add("Email", d.email);
+      add("Phone", d.phone || "");
+      add("Description",
+        "--- INTAKE (Intake-First Gate) ---\n" +
+        "Name: " + d.first + " " + d.last + "\n" +
+        "Position / User type: " + d.position + "\n" +
+        "Language: " + lang() + "\n" +
+        "Source page: " + location.href + "\n" +
+        "Tool requested: " + (tool || CFG.tool || document.title) + "\n" +
+        "--- Source: Website — Intake Gate ---");
+      document.body.appendChild(f);
+      var done = false;
+      function finish() { if (done) return; done = true; resolve(); }
+      ifr.addEventListener("load", finish);
+      try { f.submit(); } catch (e) { finish(); }
+      setTimeout(finish, 2600); // proceed even if the cross-origin load event doesn't fire
+    });
   }
 
   /* ---------- styles ---------- */
@@ -181,6 +194,7 @@
 
   /* ---------- locks (whole-tool gating) ---------- */
   function lockEl(el) {
+    css();
     if (el.querySelector(":scope > .hmg-lock")) return;
     if (getComputedStyle(el).position === "static") el.style.position = "relative";
     el.setAttribute("data-gate-locked", "1");
