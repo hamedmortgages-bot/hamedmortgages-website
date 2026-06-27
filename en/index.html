@@ -18,13 +18,17 @@
   <meta property="og:url" content="https://hamedmortgages.ca/en/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="../assets/img/hero-hamed-900.webp" imagesrcset="../assets/img/hero-hamed-600.webp 600w, ../assets/img/hero-hamed-900.webp 900w, ../assets/img/hero-hamed-1254.webp 1254w" imagesizes="(max-width: 860px) 360px, 500px" fetchpriority="high">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet"></noscript>
   <meta property="og:image" content="https://hamedmortgages.ca/assets/img/hero-hamed.jpg">
   <meta property="og:site_name" content="Hamed Ashouri — Mortgage Broker & Financial Strategist">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://hamedmortgages.ca/assets/img/hero-hamed.jpg">
   <meta name="theme-color" content="#0F3D2E">
   <link rel="stylesheet" href="../assets/css/main.css">
+  <style>.hero__portrait picture{display:block}</style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -99,7 +103,10 @@
           </div>
         </div>
         <figure class="hero__portrait">
-          <img src="../assets/img/hero-hamed.jpg" alt="Hamed Ashouri, Mortgage Broker and Financial Strategist" width="1254" height="1254" decoding="async" fetchpriority="high">
+          <picture>
+            <source type="image/webp" srcset="../assets/img/hero-hamed-600.webp 600w, ../assets/img/hero-hamed-900.webp 900w, ../assets/img/hero-hamed-1254.webp 1254w" sizes="(max-width: 860px) 360px, 500px">
+            <img src="../assets/img/hero-hamed.jpg" alt="Hamed Ashouri, Mortgage Broker and Financial Strategist" width="1254" height="1254" decoding="async" fetchpriority="high">
+          </picture>
         </figure>
       </div>
     </section>
@@ -248,7 +255,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="brand" style="margin-bottom:1rem;"><img class="brand__logo brand__logo--footer" src="../assets/img/logo.png" alt="Hamed Ashouri" onerror="this.classList.add('is-missing')"><span class="brand__name brand__fallback"><b style="color:#fff;">Hamed Ashouri</b><span style="color:var(--on-dark-muted);">Mortgage Broker &amp; Strategist</span></span></div>
+          <div class="brand" style="margin-bottom:1rem;"><img class="brand__logo brand__logo--footer" src="../assets/img/logo.png" alt="Hamed Ashouri" loading="lazy" decoding="async" onerror="this.classList.add('is-missing')"><span class="brand__name brand__fallback"><b style="color:#fff;">Hamed Ashouri</b><span style="color:var(--on-dark-muted);">Mortgage Broker &amp; Strategist</span></span></div>
           <p>Strategic mortgage solutions for home buyers, homeowners, business owners, and real estate investors across Ontario.</p>
         </div>
         <div>
