@@ -64,7 +64,62 @@
     data.language = (document.documentElement.lang || "en");
     data.pageUrl = window.location.href;
     data.submittedAt = new Date().toISOString();
+    data.requiredDocs = buildChecklist(data);
     return data;
+  }
+
+  /* ---------- Checklist Engine (MRD) ----------
+     Maps the client's profile to the exact documents we need.
+     Tune the lists below anytime your requirements change. */
+  function buildChecklist(d) {
+    var items = [];
+    var purpose = (d.purpose || "").toLowerCase();
+    var emp = (d.employment || "").toLowerCase();
+    var isRefiLike = purpose.indexOf("refinance") > -1 || purpose.indexOf("renewal") > -1 ||
+                     purpose.indexOf("equity") > -1 || purpose.indexOf("heloc") > -1;
+
+    // Core (always)
+    items.push("Government-issued photo ID");
+    items.push(isRefiLike
+      ? "Most recent mortgage statement"
+      : "Proof of down payment + 90-day history of those funds (bank/investment statements)");
+
+    // Income (by employment type)
+    if (emp.indexOf("t4") > -1) {
+      items.push("Letter of employment (current, on company letterhead)");
+      items.push("Two most recent pay stubs");
+      items.push("T4 slips for the last 2 years");
+    } else if (emp.indexOf("incorporat") > -1) {
+      items.push("T1 Generals + Notices of Assessment for the last 2 years");
+      items.push("Company financial statements for the last 2 years");
+      items.push("Articles of incorporation");
+    } else if (emp.indexOf("self") > -1) {
+      items.push("T1 Generals + Notices of Assessment (NOA) for the last 2 years");
+      items.push("Business registration / licence");
+    } else if (emp.indexOf("commission") > -1) {
+      items.push("T4 slips + two recent pay stubs");
+      items.push("Notices of Assessment for the last 2 years (commission history)");
+    } else if (emp.indexOf("retired") > -1 || emp.indexOf("pension") > -1) {
+      items.push("Pension / retirement income statements");
+      items.push("T4A and Notices of Assessment for the last 2 years");
+    } else {
+      items.push("Most recent income documentation (we'll confirm the specifics with you)");
+    }
+
+    // Purpose-specific
+    if (purpose.indexOf("purchase") > -1) {
+      items.push("Accepted Agreement of Purchase and Sale (once you have an accepted offer)");
+      items.push("Deposit confirmation");
+    }
+    if (isRefiLike || purpose.indexOf("investment") > -1) {
+      items.push("Most recent property tax bill");
+      items.push("Home insurance details");
+    }
+    if (purpose.indexOf("investment") > -1) {
+      items.push("Lease agreement(s) and proof of rental income (T776 if already owned)");
+    }
+
+    return items.map(function (i) { return "• " + i; }).join("\n");
   }
 
   function saveLocalBackup(data) {
