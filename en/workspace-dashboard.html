@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#0F3D2E">
-  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/main.css?v=20260627a">
   <style>
     .ws-wrap { max-width: 1100px; margin-inline: auto; }
     .ws-topbar { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between; margin-bottom:1.5rem; }
@@ -72,6 +72,8 @@
     .ai-suggest { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.8rem; }
     .ai-suggest button { font-size:.8rem; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .75rem; cursor:pointer; }
     .live-note { font-size:.78rem; color:var(--text-muted); margin-top:.6rem; }
+    .ws-preview { display:flex; gap:.7rem; align-items:flex-start; background:#fff7e6; border:1px solid #f0d693; color:#7a5b00; border-radius:var(--radius-sm); padding:.85rem 1.1rem; margin-bottom:1.25rem; font-size:.9rem; line-height:1.55; }
+    .ws-preview b { color:#5e4600; }
   </style>
 </head>
 <body>
@@ -100,11 +102,11 @@
           </div>
           <div class="panel" style="margin:0; padding:1rem 1.2rem;">
             <div class="readiness">
-              <div class="ring" style="--p:10"><span>10%</span></div>
+              <div class="ring" style="--p:10" data-bind="readinessRing"><span data-bind="readinessPct">10%</span></div>
               <div>
                 <div class="stat" style="background:transparent;border:0;padding:0;">
                   <div class="k">Readiness score</div>
-                  <div class="v small">Just getting started</div>
+                  <div class="v small" data-bind="readinessLabel">Just getting started</div>
                 </div>
                 <p class="live-note" style="margin:.3rem 0 0;">Grows as you complete documents &amp; conditions.</p>
               </div>
@@ -112,13 +114,19 @@
           </div>
         </div>
 
+        <!-- Preview banner (Phase 1: live data is gated behind secure sign-in) -->
+        <div class="ws-preview" id="ws-preview">
+          <span aria-hidden="true">👁️</span>
+          <div><b>Preview of your Workspace.</b> This is the exact layout of your live file. Your private details — documents, strategy, conditions, messages — appear here automatically once secure sign-in is enabled. Nothing below is pulled from your file yet.</div>
+        </div>
+
         <!-- Status band -->
         <div class="panel">
           <div class="statband">
-            <div class="stat"><div class="k">Current stage</div><div class="v">Intake complete</div></div>
-            <div class="stat"><div class="k">Next action</div><div class="v small">Hamed reviews your file &amp; reaches out within 1 business day</div></div>
-            <div class="stat"><div class="k">Outstanding items</div><div class="v">None yet</div></div>
-            <div class="stat"><div class="k">Open conditions</div><div class="v">0</div></div>
+            <div class="stat"><div class="k">Current stage</div><div class="v" data-bind="stage">Intake complete</div></div>
+            <div class="stat"><div class="k">Next action</div><div class="v small" data-bind="nextAction">Hamed reviews your file &amp; reaches out within 1 business day</div></div>
+            <div class="stat"><div class="k">Outstanding items</div><div class="v" data-bind="outstanding">None yet</div></div>
+            <div class="stat"><div class="k">Open conditions</div><div class="v" data-bind="openConditions">0</div></div>
           </div>
         </div>
 
@@ -131,7 +139,7 @@
               <div class="doc-tabs">
                 <span class="doc-tab">Required</span><span class="doc-tab">Uploaded</span><span class="doc-tab">Missing</span><span class="doc-tab">Rejected</span>
               </div>
-              <div class="emptybox">
+              <div class="emptybox" data-bind="documents">
                 Your personalized required-documents list appears here as soon as Hamed reviews your file. Each item shows its status — <b>missing</b>, <b>received</b>, <b>in review</b>, or <b>needs re-upload</b> — and connects to your secure WorkDrive folder.
               </div>
               <div class="uploadbox">
@@ -165,7 +173,7 @@
             <!-- Progress / timeline -->
             <div class="panel">
               <h2>📈 Progress</h2>
-              <ul class="timeline">
+              <ul class="timeline" data-bind="timeline">
                 <li class="done"><span class="dot">✓</span><div class="tl-body"><b>Assessment / Intake</b><small>Completed</small></div></li>
                 <li class="current"><span class="dot">2</span><div class="tl-body"><b>Application</b><small>Up next with Hamed</small></div></li>
                 <li><span class="dot">3</span><div class="tl-body"><b>Documents</b></div></li>
@@ -180,6 +188,7 @@
             <!-- Broker messages -->
             <div class="panel">
               <h2>📨 Broker Messages</h2>
+              <div data-bind="messages"></div>
               <div class="msg">
                 <div class="who">Hamed Ashouri <span class="when">· just now</span></div>
                 <p style="margin:.4rem 0 0;">Welcome to your Mortgage Workspace. I've received your file and will personally review it, then reach out within one business day to map out your strategy and the documents we'll need.</p>
@@ -189,7 +198,7 @@
             <!-- Conditions -->
             <div class="panel">
               <h2>✅ Conditions</h2>
-              <div class="emptybox">Open and completed approval conditions — with due dates — will appear here once your file reaches approval. <b>0 open conditions.</b></div>
+              <div class="emptybox" data-bind="conditions">Open and completed approval conditions — with due dates — will appear here once your file reaches approval. <b>0 open conditions.</b></div>
             </div>
           </div>
         </div>
@@ -226,33 +235,69 @@
     </div>
   </footer>
 
-  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/main.js?v=20260627a" defer></script>
+  <script defer src="../assets/js/intake-gate.js?v=20260627a"></script>
   <script>
-    /* Intake Gate: no Workspace without completed intake. */
+    /* ============================================================
+       Workspace Dashboard controller.
+       - Gated by the ONE shared Intake session (window.IntakeGate).
+       - All live data flows through the AUTH SEAM (window.HM_AUTH).
+         Phase 1: canLoadLiveData() is false -> PLACEHOLDER MODE
+         (production layout, zero private data). Phase 2: implement
+         HM_AUTH.fetchClientFile() and populate the [data-bind] nodes
+         in renderLive() — no layout changes required.
+       ============================================================ */
     (function () {
       "use strict";
-      var qs = new URLSearchParams(location.search);
-      var saved = {};
-      try { saved = JSON.parse(localStorage.getItem("hm_workspace_intake") || "{}"); } catch (e) {}
-      var name = qs.get("name") || saved.firstName || "";
-      var hasIntake = !!(saved.email || qs.get("email"));
-      if (!hasIntake) { location.replace("workspace.html"); return; }
+      function boot() {
+        var Gate = window.IntakeGate, Auth = window.HM_AUTH;
+        var qs = new URLSearchParams(location.search);
+        var id = (Gate && Gate.get && Gate.get()) || {};
 
-      var g = document.getElementById("ws-greeting");
-      if (g && name) { g.textContent = "Welcome back, " + name; }
-      var sub = document.getElementById("ws-sub");
-      if (sub && saved.position) { sub.textContent = saved.position + " · Your mortgage file, in one secure place."; }
+        // Intake Gate: no Workspace without completed intake.
+        var identified = !!((id && id.email) || qs.get("email"));
+        if (!identified) { location.replace("workspace.html"); return; }
 
-      // AI suggestion chips fill the input (real answers wire up in Phase 2).
-      document.querySelectorAll(".ai-fill").forEach(function (b) {
-        b.addEventListener("click", function () { document.getElementById("ai-q").value = b.textContent; document.getElementById("ai-q").focus(); });
-      });
-      var aiForm = document.getElementById("ai-form");
-      if (aiForm) aiForm.addEventListener("submit", function (e) {
-        e.preventDefault();
-        document.getElementById("ai-log").textContent = "Connecting the assistant to your file is part of Phase 2 — once live, it will answer this from your actual mortgage file and never fabricate. For now, message Hamed directly and he'll respond inside your Workspace.";
-        document.getElementById("ai-q").value = "";
-      });
+        var name = qs.get("name") || id.first || "";
+        var g = document.getElementById("ws-greeting");
+        if (g && name) { g.textContent = "Welcome back, " + name; }
+        var sub = document.getElementById("ws-sub");
+        if (sub && id.position) { sub.textContent = id.position + " · Your mortgage file, in one secure place."; }
+
+        // ----- DATA LAYER (the single Phase 1 / Phase 2 seam) -----
+        var live = !!(Auth && Auth.canLoadLiveData && Auth.canLoadLiveData());
+        var banner = document.getElementById("ws-preview");
+        if (live) {
+          if (banner) { banner.style.display = "none"; }
+          // Phase 2: Auth.fetchClientFile().then(renderLive) populates every [data-bind] node.
+          if (Auth.fetchClientFile) { Auth.fetchClientFile().then(renderLive).catch(function(){}); }
+        } else {
+          if (banner) { banner.style.display = ""; }   // preview mode (placeholder layout)
+        }
+
+        // AI suggestion chips fill the input (real answers wire up in Phase 2).
+        document.querySelectorAll(".ai-fill").forEach(function (b) {
+          b.addEventListener("click", function () { var q=document.getElementById("ai-q"); q.value = b.textContent; q.focus(); });
+        });
+        var aiForm = document.getElementById("ai-form");
+        if (aiForm) aiForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          document.getElementById("ai-log").textContent = "Connecting the assistant to your file is part of Phase 2 — once live, it will answer only from your actual mortgage file and never fabricate. For now, message Hamed directly and he'll respond inside your Workspace.";
+          document.getElementById("ai-q").value = "";
+        });
+      }
+
+      // Phase 2 hook: given a client file object, fill the [data-bind] nodes.
+      function renderLive(file) {
+        if (!file) { return; }
+        Object.keys(file).forEach(function (key) {
+          var node = document.querySelector('[data-bind="' + key + '"]');
+          if (node && typeof file[key] === "string") { node.textContent = file[key]; }
+        });
+      }
+
+      if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", boot); }
+      else { boot(); }
     })();
   </script>
 </body>

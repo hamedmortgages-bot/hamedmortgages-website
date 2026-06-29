@@ -21,7 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://hamedmortgages.ca/assets/img/hero-hamed.jpg">
   <meta name="theme-color" content="#0F3D2E">
-  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/main.css?v=20260627a">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -73,7 +73,7 @@
     <section class="section section--alt" id="calculator">
       <div class="container">
         <div class="section-head center"><p class="eyebrow">Tools</p><h2>Mortgage payment calculator</h2></div>
-        <div class="calc">
+        <div class="calc" data-gate-lock="Mortgage Calculator">
           <form class="calc__form" data-calc>
             <div class="field"><label for="price">Property price (CAD)</label><input type="number" id="price" data-price value="750000" min="0" step="1000"></div>
             <div class="field"><label for="down">Down payment (CAD)</label><input type="number" id="down" data-down value="150000" min="0" step="1000"></div>
@@ -129,7 +129,8 @@
       <div class="footer-bottom"><span>© <span data-year>2026</span> Hamed Ashouri. All rights reserved.</span><span>Powered by Keys &amp; Capitals</span><span>Ontario, Canada · EN | <a href="../fa/resources.html" lang="fa" style="display:inline;">فارسی</a></span></div>
     </div>
   </footer>
-  <script src="../assets/js/main.js" defer></script>
-  <script src="../assets/js/calculator.js" defer></script>
+  <script src="../assets/js/main.js?v=20260627a" defer></script>
+  <script defer src="../assets/js/intake-gate.js?v=20260627a"></script>
+  <script src="../assets/js/calculator.js?v=20260627a" defer></script>
 </body>
 </html>
