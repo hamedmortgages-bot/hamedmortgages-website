@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فضای کاری وام مسکن من | حامد عاشوری</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0F3D2E">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .ws-wrap { max-width: 1100px; margin-inline: auto; }
+    .ws-topbar { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between; margin-bottom:1.5rem; }
+    .ws-hello h1 { margin:.2rem 0 .25rem; font-size:1.6rem; }
+    .ws-hello p { margin:0; color:var(--text-muted); }
+    .ws-pill { display:inline-flex; align-items:center; gap:.4rem; font-weight:700; font-size:.78rem; color:var(--green-700); background:var(--mist); border:1px solid var(--line); padding:.3rem .7rem; border-radius:999px; }
+    .ws-grid { display:grid; grid-template-columns: 2fr 1fr; gap:1.25rem; align-items:start; }
+    @media (max-width: 880px){ .ws-grid{ grid-template-columns:1fr; } }
+    .panel { background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:1.4rem 1.5rem; box-shadow:var(--shadow-sm); margin-bottom:1.25rem; }
+    .panel h2 { font-size:1.05rem; margin:0 0 1rem; display:flex; align-items:center; gap:.5rem; }
+    .panel h2 .muted { font-weight:600; font-size:.8rem; color:var(--text-muted); margin-inline-start:auto; }
+    .statband { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:1rem; }
+    .stat { background:var(--mist); border:1px solid var(--line); border-radius:var(--radius-sm); padding:1rem; }
+    .stat .k { font-size:.72rem; color:var(--text-muted); font-weight:700; }
+    .stat .v { font-weight:800; color:var(--heading); margin-top:.25rem; font-size:1.02rem; }
+    .stat .v.small { font-size:.92rem; font-weight:700; }
+    .readiness { display:flex; align-items:center; gap:1rem; }
+    .ring { --p:8; width:74px; height:74px; border-radius:50%; flex:0 0 auto; background: conic-gradient(var(--green-600) calc(var(--p)*1%), var(--mist) 0); display:grid; place-items:center; }
+    .ring span { width:56px; height:56px; border-radius:50%; background:#fff; display:grid; place-items:center; font-weight:800; color:var(--green-800); }
+    .timeline { list-style:none; padding:0; margin:0; display:grid; gap:.1rem; }
+    .timeline li { display:flex; gap:.8rem; align-items:flex-start; }
+    .timeline .dot { width:1.5rem; height:1.5rem; flex:0 0 auto; border-radius:50%; border:2px solid var(--line); background:#fff; display:grid; place-items:center; font-size:.75rem; color:var(--text-muted); position:relative; }
+    .timeline li:not(:last-child) .dot::after { content:""; position:absolute; top:1.5rem; inset-inline-start:50%; transform:translateX(-50%); width:2px; height:1.4rem; background:var(--line); }
+    .timeline .done .dot { background:var(--green-600); border-color:var(--green-600); color:#fff; }
+    .timeline .current .dot { border-color:var(--green-600); color:var(--green-700); box-shadow:0 0 0 3px rgba(28,107,80,.12); }
+    .timeline .tl-body { padding-bottom:1rem; }
+    .timeline .tl-body b { color:var(--heading); }
+    .timeline .tl-body small { display:block; color:var(--text-muted); }
+    .timeline .current .tl-body b { color:var(--green-700); }
+    .doc-tabs { display:flex; gap:.4rem; flex-wrap:wrap; margin-bottom:1rem; }
+    .doc-tab { font-size:.8rem; font-weight:700; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .8rem; }
+    .emptybox { border:1px dashed var(--line); border-radius:var(--radius-sm); padding:1.1rem; color:var(--text-muted); background:var(--mist); }
+    .uploadbox { border:2px dashed var(--green-600); border-radius:var(--radius-sm); padding:1.2rem; text-align:center; color:var(--green-700); background:rgba(28,107,80,.04); margin-top:1rem; }
+    .msg { background:var(--mist); border:1px solid var(--line); border-radius:var(--radius-sm); padding:.9rem 1rem; margin-bottom:.7rem; }
+    .msg .who { font-weight:800; font-size:.85rem; color:var(--green-800); }
+    .msg .when { font-size:.75rem; color:var(--text-muted); }
+    .strat { display:grid; gap:.7rem; }
+    .strat details { border:1px solid var(--line); border-radius:var(--radius-sm); padding:.2rem .9rem; background:#fff; }
+    .strat summary { font-weight:700; color:var(--heading); cursor:pointer; padding:.7rem 0; }
+    .strat p { margin:0 0 .9rem; color:var(--text-muted); }
+    .ai-box { border:1px solid var(--line); border-radius:var(--radius-sm); overflow:hidden; }
+    .ai-log { padding:1rem; min-height:90px; background:var(--mist); color:var(--text-muted); font-size:.92rem; }
+    .ai-input { display:flex; border-top:1px solid var(--line); }
+    .ai-input input { flex:1; border:0; padding:.85rem 1rem; font:inherit; }
+    .ai-input button { border:0; background:var(--green-700); color:#fff; font-weight:700; padding:0 1.2rem; cursor:pointer; }
+    .ai-suggest { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.8rem; }
+    .ai-suggest button { font-size:.8rem; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .75rem; cursor:pointer; }
+    .live-note { font-size:.78rem; color:var(--text-muted); margin-top:.6rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوا</a>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="اصلی">
+        <a class="brand" href="index.html" aria-label="خانه"><img class="brand__logo" src="../assets/img/logo.png" alt="حامد عاشوری" loading="lazy" onerror="this.classList.add('is-missing')"><span class="brand__name brand__fallback"><b>حامد عاشوری</b><span>مشاور و استراتژیست وام مسکن</span></span></a>
+        <div class="nav__actions">
+          <a class="btn btn--outline" href="workspace.html">ثبت‌نام من</a>
+          <a class="btn btn--primary" href="contact.html">تماس با حامد</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container ws-wrap">
+
+        <div class="ws-topbar">
+          <div class="ws-hello">
+            <span class="ws-pill">🔐 فضای کاری وام مسکن</span>
+            <h1 id="ws-greeting">فضای کاری وام مسکن شما</h1>
+            <p id="ws-sub">همه‌چیزِ پروندهٔ وام مسکن شما — در یک‌جای امن.</p>
+          </div>
+          <div class="panel" style="margin:0; padding:1rem 1.2rem;">
+            <div class="readiness">
+              <div class="ring" style="--p:10"><span>۱۰٪</span></div>
+              <div>
+                <div class="stat" style="background:transparent;border:0;padding:0;">
+                  <div class="k">امتیاز آمادگی</div>
+                  <div class="v small">تازه شروع شده</div>
+                </div>
+                <p class="live-note" style="margin:.3rem 0 0;">با تکمیل مدارک و شرایط رشد می‌کند.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="statband">
+            <div class="stat"><div class="k">مرحلهٔ فعلی</div><div class="v">ثبت‌نام تکمیل شد</div></div>
+            <div class="stat"><div class="k">اقدام بعدی</div><div class="v small">حامد پرونده را بررسی می‌کند و ظرف ۱ روز کاری تماس می‌گیرد</div></div>
+            <div class="stat"><div class="k">موارد باقی‌مانده</div><div class="v">فعلاً هیچ</div></div>
+            <div class="stat"><div class="k">شرایط باز</div><div class="v">۰</div></div>
+          </div>
+        </div>
+
+        <div class="ws-grid">
+          <div>
+            <div class="panel">
+              <h2>📄 مدارک <span class="muted">لازم · بارگذاری‌شده · ناقص · رد‌شده</span></h2>
+              <div class="doc-tabs">
+                <span class="doc-tab">لازم</span><span class="doc-tab">بارگذاری‌شده</span><span class="doc-tab">ناقص</span><span class="doc-tab">رد‌شده</span>
+              </div>
+              <div class="emptybox">فهرست شخصی‌سازی‌شدهٔ مدارک لازم شما به‌محض بررسی پرونده توسط حامد اینجا نمایش داده می‌شود. هر مورد وضعیت خود را نشان می‌دهد — <b>ناقص</b>، <b>دریافت‌شده</b>، <b>در حال بررسی</b> یا <b>نیازمند بارگذاری مجدد</b> — و به پوشهٔ امن WorkDrive شما متصل است.</div>
+              <div class="uploadbox">⬆️ <b>بارگذاری امن</b> — به‌محض آماده‌شدن فهرست، مدارک را اینجا رها کنید. هرگز با ایمیل یا پیامک.</div>
+              <p class="live-note">مدارک با پروندهٔ CRM و پوشهٔ WorkDrive شما همگام می‌شوند. (همگام‌سازی زنده در فاز ۲ فعال می‌شود.)</p>
+            </div>
+
+            <div class="panel">
+              <h2>🧭 استراتژی وام مسکن <span class="muted">به زبان ساده</span></h2>
+              <div class="strat">
+                <details><summary>چرا این وام‌دهنده؟</summary><p>پس از تنظیم استراتژی توسط حامد، به زبان ساده می‌بینید چرا وام‌دهندهٔ پیشنهادی با درآمد، اهداف و زمان‌بندی شما هماهنگ است.</p></details>
+                <details><summary>چرا این مدارک؟</summary><p>هر مدرک لازم به چیزی که وام‌دهنده باید تأیید کند مربوط است. توضیح می‌دهیم هرکدام چه چیزی را برای پروندهٔ شما اثبات می‌کند.</p></details>
+                <details><summary>چرا این محاسبهٔ درآمد؟</summary><p>اینکه درآمد شما چگونه ارائه می‌شود (حقوق‌بگیر، خویش‌فرما، شرکتی) و چرا این‌گونه محاسبه می‌شود.</p></details>
+                <details><summary>ریسک‌های فعلی</summary><p>هر چیزی که می‌تواند بر تأیید اثر بگذارد، زودهنگام مطرح می‌شود تا با هم آن را برطرف کنیم.</p></details>
+                <details><summary>ساختار پیشنهادی</summary><p>ساختار وام مسکنی که حامد پیشنهاد می‌دهد و دلیل آن.</p></details>
+              </div>
+              <p class="live-note">فقط محتوای مناسب مشتری — یادداشت‌های داخلی کارگزار هرگز اینجا نمایش داده نمی‌شود.</p>
+            </div>
+
+            <div class="panel">
+              <h2>💬 پرسش‌ها و درخواست‌ها <span class="muted">پاسخ در پرونده، نه ایمیل</span></h2>
+              <div class="emptybox">هرگاه حامد یا کارشناس تعهد به اطلاعاتی نیاز داشته باشد، درخواست اینجا نمایش داده می‌شود و شما همان‌جا داخل فضای کاری پاسخ می‌دهید — تا همه‌چیز روی پرونده بماند. در حال حاضر درخواست بازی وجود ندارد.</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="panel">
+              <h2>📈 پیشرفت</h2>
+              <ul class="timeline">
+                <li class="done"><span class="dot">✓</span><div class="tl-body"><b>ارزیابی / ثبت‌نام</b><small>تکمیل شد</small></div></li>
+                <li class="current"><span class="dot">۲</span><div class="tl-body"><b>درخواست</b><small>مرحلهٔ بعد با حامد</small></div></li>
+                <li><span class="dot">۳</span><div class="tl-body"><b>مدارک</b></div></li>
+                <li><span class="dot">۴</span><div class="tl-body"><b>ارسال</b></div></li>
+                <li><span class="dot">۵</span><div class="tl-body"><b>تأیید</b></div></li>
+                <li><span class="dot">۶</span><div class="tl-body"><b>شرایط</b></div></li>
+                <li><span class="dot">۷</span><div class="tl-body"><b>تأمین مالی</b></div></li>
+                <li><span class="dot">۸</span><div class="tl-body"><b>تمدید</b></div></li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h2>📨 پیام‌های کارگزار</h2>
+              <div class="msg">
+                <div class="who">حامد عاشوری <span class="when">· هم‌اکنون</span></div>
+                <p style="margin:.4rem 0 0;">به فضای کاری وام مسکن خود خوش آمدید. پروندهٔ شما را دریافت کردم و شخصاً آن را بررسی می‌کنم، سپس ظرف یک روز کاری تماس می‌گیرم تا استراتژی و مدارک لازم را با هم مرور کنیم.</p>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h2>✅ شرایط</h2>
+              <div class="emptybox">شرایط باز و تکمیل‌شدهٔ تأیید — همراه با مهلت‌ها — به‌محض رسیدن پرونده به مرحلهٔ تأیید اینجا نمایش داده می‌شوند. <b>۰ شرط باز.</b></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>🤖 دستیار هوش مصنوعی وام مسکن <span class="muted">پاسخ فقط از پروندهٔ شما</span></h2>
+          <div class="ai-box">
+            <div class="ai-log" id="ai-log">دربارهٔ پروندهٔ وام مسکن خود بپرسید — مثلاً چه چیزی کم است، چرا وام‌دهنده‌ای انتخاب شده، یا مرحلهٔ بعد چیست. پاسخ‌ها فقط از پروندهٔ واقعی شما خواهد بود (هرگز ساختگی نیست). دستیار در فاز ۲ به پروندهٔ CRM شما متصل می‌شود.</div>
+            <form class="ai-input" id="ai-form" autocomplete="off">
+              <input type="text" id="ai-q" placeholder="دربارهٔ پروندهٔ خود بپرسید…" aria-label="پرسش از دستیار">
+              <button type="submit">بپرس</button>
+            </form>
+          </div>
+          <div class="ai-suggest">
+            <button type="button" class="ai-fill">چه مدارکی کم است؟</button>
+            <button type="button" class="ai-fill">چرا این وام‌دهنده انتخاب شد؟</button>
+            <button type="button" class="ai-fill">مرحلهٔ بعد چیست؟</button>
+            <button type="button" class="ai-fill">این شرط یعنی چه؟</button>
+          </div>
+        </div>
+
+        <p class="disclaimer" style="margin-top:1.5rem;">این فضای کاری پروندهٔ زندهٔ وام مسکن شما را منعکس می‌کند. مشاورهٔ مالی، حقوقی یا وام مسکن ارائه نمی‌دهد. تأییدها، نرخ‌ها و محصولات تابع شرایط وام‌دهنده و درخواست هستند.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© <span data-year>۲۰۲۶</span> حامد عاشوری — مشاور و استراتژیست وام مسکن، مجوز #M22004433 · FSRA #10530.</span>
+        <span>انتاریو، کانادا</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    (function () {
+      "use strict";
+      var qs = new URLSearchParams(location.search);
+      var saved = {};
+      try { saved = JSON.parse(localStorage.getItem("hm_workspace_intake") || "{}"); } catch (e) {}
+      var name = qs.get("name") || saved.firstName || "";
+      var hasIntake = !!(saved.email || qs.get("email"));
+      if (!hasIntake) { location.replace("workspace.html"); return; }
+      var g = document.getElementById("ws-greeting");
+      if (g && name) { g.textContent = "خوش برگشتید، " + name; }
+      document.querySelectorAll(".ai-fill").forEach(function (b) {
+        b.addEventListener("click", function () { var q = document.getElementById("ai-q"); q.value = b.textContent; q.focus(); });
+      });
+      var aiForm = document.getElementById("ai-form");
+      if (aiForm) aiForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        document.getElementById("ai-log").textContent = "اتصال دستیار به پروندهٔ شما بخشی از فاز ۲ است — پس از فعال‌شدن، این پرسش را از پروندهٔ واقعی شما پاسخ می‌دهد و هرگز چیزی نمی‌سازد. فعلاً مستقیم به حامد پیام دهید و او داخل فضای کاری پاسخ می‌دهد.";
+        document.getElementById("ai-q").value = "";
+      });
+    })();
+  </script>
+</body>
+</html>
