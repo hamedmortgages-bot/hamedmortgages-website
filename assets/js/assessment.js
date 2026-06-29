@@ -153,7 +153,25 @@
     window.location.href = href;
   }
 
-  function showConfirmation() {
+  function setWorkspaceBridge(data) {
+    // Carry the client's details to the Workspace intake so nothing is re-asked.
+    var link = document.getElementById("assessment-to-workspace");
+    if (!link || !data) { return; }
+    var full = (data.fullName || "").trim();
+    var sp = full.indexOf(" ");
+    var first = sp > -1 ? full.slice(0, sp) : full;
+    var last = sp > -1 ? full.slice(sp + 1) : "";
+    var qs = new URLSearchParams();
+    if (first) qs.set("firstName", first);
+    if (last) qs.set("lastName", last);
+    if (data.email) qs.set("email", data.email);
+    if (data.phone) qs.set("phone", data.phone);
+    var q = qs.toString();
+    link.setAttribute("href", "workspace.html" + (q ? "?" + q : ""));
+  }
+
+  function showConfirmation(data) {
+    setWorkspaceBridge(data);
     form.style.display = "none";
     success.classList.add("is-visible");
     // Move focus + scroll so the user sees the confirmation
@@ -179,16 +197,16 @@
 
     if (LEAD_ENDPOINT) {
       sendToEndpoint(data)
-        .then(showConfirmation)
+        .then(function () { showConfirmation(data); })
         .catch(function () {
           // Network failed — fall back to email so the lead is never lost.
           openEmailFallback(data);
-          showConfirmation();
+          showConfirmation(data);
         });
     } else {
       // No endpoint configured yet — deliver via email draft + local backup.
       openEmailFallback(data);
-      showConfirmation();
+      showConfirmation(data);
     }
   });
 
