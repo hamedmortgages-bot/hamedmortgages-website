@@ -1,20 +1,36 @@
 /* ============================================================
-   Hamed Ashouri — GLOBAL INTAKE GATE  (Intake-First architecture)
-   Reusable, bilingual (EN/FA), client-side gate.
-   No visitor may use a gated tool/calculator/report/download
-   before completing Intake. Identity is remembered across
-   hamedmortgages.ca and its subdomains via a shared cookie.
+   Hamed Ashouri — GLOBAL INTAKE GATE  +  SHARED SESSION
+   ------------------------------------------------------------
+   ONE platform, ONE intake. This file is the single identity
+   authority for the whole site (Assessment, Workspace,
+   calculators, AI tools, downloads, advanced analysis).
+
+   "Intake-First" rule: no premium feature is reachable before
+   the visitor has completed Intake (First, Last, Position,
+   Phone, Email). Intake is captured ONCE and reused EVERYWHERE
+   — across hamedmortgages.ca and its subdomains via a shared
+   cookie + localStorage.
+
+   ARCHITECTURE
+   ------------
+   - window.IntakeGate  -> identity store + gating API
+   - window.HM_AUTH     -> the AUTH SEAM (Phase 2 plugs in here
+                           with NO redesign). In Phase 1 the user
+                           is "identified" (intake done) but NOT
+                           "authenticated", so no private CRM data
+                           is ever exposed. Phase 2 swaps the two
+                           methods below for a real auth check.
 
    USAGE
    -----
-   1) (optional) set config before this script:
-        <script>window.HM_INTAKE={tool:"CMHC Rental Calculator"};</script>
-   2) include this file on any page:
-        <script defer src="https://hamedmortgages.ca/assets/js/intake-gate.js"></script>
-   3) mark anything that must be gated:
-        - a whole tool/calculator panel:  <div class="calc" data-gate-lock> ... </div>
-        - a single action (button/link):  <a data-gate="Mortgage Guide PDF" ...>
-   Future tools are gated automatically just by adding those attributes.
+   1) (optional) per-page config BEFORE this script:
+        <script>window.HM_INTAKE={tool:"CMHC Calculator"};</script>
+   2) include on EVERY page:
+        <script defer src="/assets/js/intake-gate.js?v=VER"></script>
+   3) gate anything:
+        - whole tool/calculator/report panel:  <div data-gate-lock> … </div>
+        - a single action (download/AI/report):  <a data-gate="Strategy PDF" …>
+   Future tools are gated automatically by adding those attributes.
    ============================================================ */
 (function () {
   "use strict";
@@ -23,20 +39,36 @@
     action: "https://crm.zohocloud.ca/crm/WebToLeadForm",
     xnQsjsdp: "15cbe3bc57ad44e16846b2404afaf7d96465a0ddc098813336880744594029eb",
     xmIwtLD: "fc7f370331ec16a19a7ec54bccbb030060ef404cae7152804648fe07124804f7aa51f7239c6f3f4e17a1690444a8d253",
-    returnURL: "https://hamedmortgages-bot.github.io/cmhc-rental/thank-you.html",
-    leadSource: "Web Download"
+    returnURL: "https://hamedmortgages-bot.github.io/cmhc-rental/thank-you.html"
   }, CFG.zoho || {});
-  var STORE = "hm_intake_v1";
-  var COOKIE = "hm_intake";
+  var STORE = "hm_intake_v1";   // canonical identity (localStorage)
+  var COOKIE = "hm_intake";     // canonical identity (shared cookie)
+  var LEGACY = ["hm_workspace_intake"]; // older keys we still read once, then migrate
 
   function lang() {
     var l = (document.documentElement.getAttribute("lang") || "en").toLowerCase();
     return l.indexOf("fa") === 0 ? "fa" : "en";
   }
+
+  /* ---------- ONE canonical position list (EN value + localized label) ---------- */
+  var POSITIONS = [
+    { v: "Home Buyer",        en: "Home Buyer",        fa: "خریدار خانه" },
+    { v: "Home Owner",        en: "Home Owner",        fa: "صاحب‌خانه" },
+    { v: "Investor",          en: "Investor",          fa: "سرمایه‌گذار" },
+    { v: "Builder",           en: "Builder",           fa: "سازنده" },
+    { v: "Real Estate Agent", en: "Real Estate Agent", fa: "مشاور املاک" },
+    { v: "Mortgage Broker",   en: "Mortgage Broker",   fa: "کارگزار وام مسکن" },
+    { v: "Business Owner",    en: "Business Owner",    fa: "صاحب کسب‌وکار" },
+    { v: "Accountant",        en: "Accountant",        fa: "حسابدار" },
+    { v: "Lawyer",            en: "Lawyer",            fa: "وکیل" },
+    { v: "Financial Planner", en: "Financial Planner", fa: "برنامه‌ریز مالی" },
+    { v: "Other",             en: "Other",             fa: "سایر" }
+  ];
+
   var T = {
     en: {
       title: "Quick intake before you continue",
-      sub: "Tell us who you are and you'll get instant access to the tools — and any report stays tied to your file.",
+      sub: "Tell us who you are and you'll get instant access — and any report or file stays tied to your record.",
       first: "First name", last: "Last name", email: "Email", phone: "Phone",
       pos: "I am a…", choose: "Choose one…",
       submit: "Get access", cancel: "Cancel",
@@ -44,12 +76,11 @@
       unlock: "Unlock the tool",
       sending: "Setting up your access…",
       err: "Please fill in your name, a valid email, phone, and your role.",
-      privacy: "Your details go to Hamed Ashouri (Mortgage Advisory, Ontario) so he can follow up. No spam.",
-      positions: ["Builder", "Real Estate Agent", "Investor", "Mortgage Broker", "Home Buyer", "Home Owner", "Business Owner", "Other"]
+      privacy: "Your details go to Hamed Ashouri (Mortgage Advisory, Ontario) so he can follow up. No spam."
     },
     fa: {
       title: "ثبت‌نام سریع پیش از ادامه",
-      sub: "بگویید چه کسی هستید تا فوراً به ابزارها دسترسی پیدا کنید — و هر گزارش به پرونده‌ی شما متصل می‌ماند.",
+      sub: "بگویید چه کسی هستید تا فوراً دسترسی پیدا کنید — و هر گزارش یا پرونده به سابقه‌ی شما متصل می‌ماند.",
       first: "نام", last: "نام خانوادگی", email: "ایمیل", phone: "تلفن",
       pos: "من … هستم", choose: "یکی را انتخاب کنید…",
       submit: "دریافت دسترسی", cancel: "انصراف",
@@ -57,17 +88,32 @@
       unlock: "باز کردن ابزار",
       sending: "در حال آماده‌سازی دسترسی شما…",
       err: "لطفاً نام، یک ایمیل معتبر، تلفن و نقش خود را وارد کنید.",
-      privacy: "اطلاعات شما برای پیگیری به حامد عاشوری (مشاوره وام مسکن، انتاریو) ارسال می‌شود. بدون هرزنامه.",
-      positions: ["سازنده", "مشاور املاک", "سرمایه‌گذار", "بروکر وام مسکن", "خریدار مسکن", "صاحب‌خانه", "صاحب بیزنس", "سایر"]
+      privacy: "اطلاعات شما برای پیگیری به حامد عاشوری (مشاوره وام مسکن، انتاریو) ارسال می‌شود. بدون هرزنامه."
     }
   };
   function t(k) { return (T[lang()] || T.en)[k]; }
+  function posLabel(p) { return lang() === "fa" ? p.fa : p.en; }
 
-  /* ---------- identity ---------- */
+  /* ---------- canonical identity store ---------- */
   function read() {
     try { var v = localStorage.getItem(STORE); if (v) return JSON.parse(v); } catch (e) {}
     var m = document.cookie.match(/(?:^|;\s*)hm_intake=([^;]+)/);
     if (m) { try { return JSON.parse(decodeURIComponent(m[1])); } catch (e) {} }
+    // migrate any legacy per-tool key into the canonical store
+    for (var i = 0; i < LEGACY.length; i++) {
+      try {
+        var lv = localStorage.getItem(LEGACY[i]);
+        if (lv) {
+          var o = JSON.parse(lv);
+          var norm = {
+            first: o.first || o.firstName || "", last: o.last || o.lastName || "",
+            email: o.email || "", phone: o.phone || "", position: o.position || "",
+            source: o.source || o.journey || "", ts: o.ts || Date.now()
+          };
+          if (norm.email) { write(norm); return norm; }
+        }
+      } catch (e) {}
+    }
     return null;
   }
   function write(o) {
@@ -77,9 +123,29 @@
     document.cookie = COOKIE + "=" + encodeURIComponent(JSON.stringify(o)) + "; expires=" + exp + "; path=/" + shared + "; SameSite=Lax";
   }
   function identified() { var i = read(); return !!(i && i.email); }
+  function get() { return read() || null; }
+  function setIdentity(d) {
+    var cur = read() || {};
+    var merged = {
+      first: d.first || d.firstName || cur.first || "",
+      last:  d.last  || d.lastName  || cur.last  || "",
+      email: d.email || cur.email || "",
+      phone: d.phone || cur.phone || "",
+      position: d.position || cur.position || "",
+      source: d.source || cur.source || "",
+      ts: Date.now()
+    };
+    write(merged);
+    return merged;
+  }
 
-  /* ---------- CRM submit (Zoho Web-to-Lead via hidden-iframe form POST) ---------- */
-  function toCRM(d, tool) {
+  /* ---------- CRM submit (Zoho Web-to-Lead via hidden-iframe POST) ----------
+     Centralized so every journey writes to CRM the same reliable way.
+     `source` = the journey's distinct Lead Source (keeps journeys separate). */
+  function toCRM(d, opts) {
+    opts = opts || {};
+    var source = opts.source || "Website — Intake Gate";
+    var tool = opts.tool || CFG.tool || document.title;
     return new Promise(function (resolve) {
       var sink = "hmGateSink_" + Date.now();
       var ifr = document.createElement("iframe");
@@ -93,26 +159,29 @@
       add("xmIwtLD", ZOHO.xmIwtLD);
       add("actionType", "TGVhZHM=");
       add("returnURL", ZOHO.returnURL);
-      add("Lead Source", ZOHO.leadSource);
+      add("Lead Source", source);
       add("aG9uZXlwb3Q", ""); // honeypot (leave empty)
       add("Last Name", (d.first + " " + d.last).trim() || d.last || "-");
       add("First Name", d.first || "");
       add("Email", d.email);
       add("Phone", d.phone || "");
+      // Dedicated Position field (mapped in the Web-to-Lead form). Harmless if unmapped.
+      add("Position", d.position || "");
       add("Description",
-        "--- INTAKE (Intake-First Gate) ---\n" +
+        "--- WEBSITE INTAKE ---\n" +
         "Name: " + d.first + " " + d.last + "\n" +
-        "Position / User type: " + d.position + "\n" +
+        "Position: " + d.position + "\n" +
         "Language: " + lang() + "\n" +
+        "Journey / Source: " + source + "\n" +
         "Source page: " + location.href + "\n" +
-        "Tool requested: " + (tool || CFG.tool || document.title) + "\n" +
-        "--- Source: Website — Intake Gate ---");
+        "Feature requested: " + tool + "\n" +
+        "----------------------");
       document.body.appendChild(f);
       var done = false;
       function finish() { if (done) return; done = true; resolve(); }
       ifr.addEventListener("load", finish);
       try { f.submit(); } catch (e) { finish(); }
-      setTimeout(finish, 2600); // proceed even if the cross-origin load event doesn't fire
+      setTimeout(finish, 2600);
     });
   }
 
@@ -150,7 +219,7 @@
     var rtl = lang() === "fa";
     var ov = document.createElement("div");
     ov.className = "hmg-ov";
-    var opts = t("positions").map(function (p) { return '<option value="' + p + '">' + p + "</option>"; }).join("");
+    var opts = POSITIONS.map(function (p) { return '<option value="' + p.v + '">' + posLabel(p) + "</option>"; }).join("");
     ov.innerHTML =
       '<div class="hmg-card" dir="' + (rtl ? "rtl" : "ltr") + '">' +
         '<div class="hmg-hd"><h3>' + t("title") + "</h3><p>" + t("sub") + "</p></div>" +
@@ -184,8 +253,9 @@
       }
       var btn = ov.querySelector("#hmg-go");
       btn.disabled = true; btn.textContent = t("sending");
-      toCRM(d, tool).then(function () {
-        write({ first: d.first, last: d.last, email: d.email, phone: d.phone, position: d.position, ts: Date.now() });
+      var source = (CFG.source || "Website — Intake Gate");
+      toCRM(d, { source: source, tool: tool }).then(function () {
+        setIdentity({ first: d.first, last: d.last, email: d.email, phone: d.phone, position: d.position, source: source });
         close();
         onDone && onDone();
       });
@@ -200,9 +270,10 @@
     el.setAttribute("data-gate-locked", "1");
     var lock = document.createElement("div");
     lock.className = "hmg-lock";
+    var label = el.getAttribute("data-gate-lock") || CFG.tool || t("locked");
     lock.innerHTML = '<div class="ic">🔒</div><p>' + t("locked") + '</p><button type="button">' + t("unlock") + "</button>";
     lock.querySelector("button").onclick = function () {
-      modal(CFG.tool, function () { unlockAll(); });
+      modal(label, function () { unlockAll(); });
     };
     el.appendChild(lock);
   }
@@ -215,7 +286,7 @@
     [].forEach.call(document.querySelectorAll("[data-gate-lock]"), lockEl);
   }
 
-  /* ---------- single-action gating (buttons/links/downloads) ---------- */
+  /* ---------- single-action gating (buttons/links/downloads/AI/reports) ---------- */
   document.addEventListener("click", function (e) {
     var el = e.target.closest("[data-gate]");
     if (!el || identified()) return;
@@ -227,17 +298,46 @@
     });
   }, true);
 
-  /* ---------- public API ---------- */
+  /* ---------- public API: identity store + gating + CRM submit ---------- */
   window.IntakeGate = {
+    positions: POSITIONS,
     isIdentified: identified,
+    get: get,
+    set: setIdentity,
+    submitLead: function (identity, opts) { return toCRM({
+      first: identity.first || identity.firstName || "",
+      last: identity.last || identity.lastName || "",
+      email: identity.email || "", phone: identity.phone || "",
+      position: identity.position || ""
+    }, opts || {}); },
     require: function (tool, proceed) { identified() ? (proceed && proceed()) : modal(tool, proceed); },
     open: function (tool, proceed) { modal(tool, proceed); },
     reset: function () {
       try { localStorage.removeItem(STORE); } catch (e) {}
+      LEGACY.forEach(function (k) { try { localStorage.removeItem(k); } catch (e) {} });
       document.cookie = "hm_intake=; Max-Age=0; path=/; domain=.hamedmortgages.ca";
       document.cookie = "hm_intake=; Max-Age=0; path=/";
       applyLocks();
     }
+  };
+
+  /* ============================================================
+     AUTH SEAM — Phase 2 plugs in here, no redesign required.
+     Phase 1: visitor is IDENTIFIED (intake done) but NOT
+     AUTHENTICATED. Therefore canLoadLiveData() is false and the
+     dashboard stays in placeholder mode — no private CRM data is
+     ever exposed by a static page.
+     Phase 2: replace isAuthenticated() with a real check (e.g.
+     a verified session token / Zoho portal login) and implement
+     fetchClientFile(). Everything else already reads through here.
+     ============================================================ */
+  window.HM_AUTH = window.HM_AUTH || {
+    mode: "intake-only",                 // Phase 2: "authenticated"
+    isIdentified: identified,            // intake complete?
+    isAuthenticated: function () { return false; },   // Phase 2 replaces this
+    canLoadLiveData: function () { return this.isAuthenticated(); }, // false in Phase 1
+    getClient: function () { return get(); },          // identity (not verified data)
+    fetchClientFile: function () { return Promise.resolve(null); }   // Phase 2 implements
   };
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", applyLocks);

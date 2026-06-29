@@ -170,8 +170,26 @@
     link.setAttribute("href", "workspace.html" + (q ? "?" + q : ""));
   }
 
+  function mirrorToSession(data) {
+    // Write the client into the ONE shared session so completing an
+    // Assessment also satisfies the global Intake Gate (store once,
+    // reuse everywhere). The Assessment's own CRM/Make automation is
+    // untouched — this only records identity locally.
+    if (!data || !window.IntakeGate || !window.IntakeGate.set) { return; }
+    var full = (data.fullName || "").trim();
+    var sp = full.indexOf(" ");
+    window.IntakeGate.set({
+      first: sp > -1 ? full.slice(0, sp) : full,
+      last:  sp > -1 ? full.slice(sp + 1) : "",
+      email: data.email || "", phone: data.phone || "",
+      position: data.position || "",
+      source: "Website — Quick Assessment"
+    });
+  }
+
   function showConfirmation(data) {
     setWorkspaceBridge(data);
+    mirrorToSession(data);
     form.style.display = "none";
     success.classList.add("is-visible");
     // Move focus + scroll so the user sees the confirmation
