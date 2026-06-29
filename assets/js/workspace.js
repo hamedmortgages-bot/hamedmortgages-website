@@ -3,19 +3,27 @@
    Mortgage Workspace — Intake handler (Journey 2).
 
    This page IS the platform's single Intake Gate, rendered full-page.
-   It writes to the ONE shared session (window.IntakeGate) so the
-   client is recognized everywhere and never asked twice, and it
-   submits to CRM through the centralized lead pipe with a DEDICATED
-   Workspace Lead Source — fully separate from the Assessment
-   automation (different Source, different follow-up).
+   It writes to the ONE shared session (window.IntakeGate) so the client
+   is recognized everywhere and never asked twice, and it delivers the
+   lead to CRM through the proven webhook with a DEDICATED Workspace
+   marker — a distinct journey + source, fully separated from the
+   Assessment so the CRM/Make side can branch follow-up and emails.
 
-   Requires intake-gate.js to be loaded first (it provides the
-   shared session + CRM submit).
+   CRM ingress note:
+   The webhook below reliably CREATES the CRM lead. The Workspace is
+   tagged with journey="Mortgage Workspace" + source so the Make
+   scenario can branch (set Lead Source, map Position, send the
+   Workspace welcome email — NOT the Assessment email). That branching
+   is a Make-side config step; lead creation works today.
+
+   Requires intake-gate.js to be loaded first (shared session).
    =================================================================== */
 (function () {
   "use strict";
 
+  var LEAD_ENDPOINT = "https://hook.us2.make.com/p2jg76wu1f19or87ibptgs9l6m8ortu7";
   var WORKSPACE_SOURCE = "Website — Mortgage Workspace";
+  var WORKSPACE_JOURNEY = "Mortgage Workspace";
 
   var form = document.getElementById("workspace-form");
   var success = document.getElementById("workspace-success");
@@ -68,6 +76,27 @@
     return data;
   }
 
+  function buildPayload(d) {
+    return {
+      firstName: d.firstName || "",
+      lastName: d.lastName || "",
+      fullName: ((d.firstName || "") + " " + (d.lastName || "")).trim(),
+      email: d.email || "",
+      phone: d.phone || "",
+      position: d.position || "",
+      journey: WORKSPACE_JOURNEY,
+      source: WORKSPACE_SOURCE,
+      language: (document.documentElement.lang || "en"),
+      pageUrl: window.location.href,
+      submittedAt: new Date().toISOString()
+    };
+  }
+
+  function sendToCRM(payload) {
+    // form-urlencoded + no-cors = reliable delivery from a static site.
+    return fetch(LEAD_ENDPOINT, { method: "POST", mode: "no-cors", body: new URLSearchParams(payload) });
+  }
+
   function showSuccess(d) {
     if (formCard) { formCard.style.display = "none"; }
     if (intro) { intro.style.display = "none"; }
@@ -96,25 +125,20 @@
     if (bad) { bad.focus(); bad.scrollIntoView({ behavior: "smooth", block: "center" }); return; }
 
     var d = readForm();
-    var identity = {
-      first: d.firstName, last: d.lastName, email: d.email,
-      phone: d.phone, position: d.position, source: WORKSPACE_SOURCE
-    };
 
     // 1) Save to the ONE shared session immediately (so no tool re-asks, even offline).
-    if (Gate && Gate.set) { Gate.set(identity); }
+    if (Gate && Gate.set) {
+      Gate.set({ first: d.firstName, last: d.lastName, email: d.email,
+                 phone: d.phone, position: d.position, source: WORKSPACE_SOURCE });
+    }
 
     form.classList.add("is-submitting");
     if (submitBtn) { submitBtn.disabled = true; }
 
-    // 2) Submit to CRM via the centralized pipe with the dedicated Workspace Source.
+    // 2) Deliver the lead to CRM (proven webhook) tagged as the Workspace journey.
+    var payload = buildPayload(d);
     var done = function () { showSuccess(d); };
-    if (Gate && Gate.submitLead) {
-      Gate.submitLead(identity, { source: WORKSPACE_SOURCE, tool: "Mortgage Workspace" })
-        .then(done).catch(done);
-    } else {
-      done(); // session is saved regardless; CRM pipe will pick up on the next gated action
-    }
+    sendToCRM(payload).then(done).catch(done); // session is saved regardless
   });
 
 })();
