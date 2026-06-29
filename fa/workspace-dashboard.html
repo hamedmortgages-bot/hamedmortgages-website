@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#0F3D2E">
-  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/main.css?v=20260627a">
   <style>
     .ws-wrap { max-width: 1100px; margin-inline: auto; }
     .ws-topbar { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between; margin-bottom:1.5rem; }
@@ -58,6 +58,8 @@
     .ai-suggest { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.8rem; }
     .ai-suggest button { font-size:.8rem; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .75rem; cursor:pointer; }
     .live-note { font-size:.78rem; color:var(--text-muted); margin-top:.6rem; }
+    .ws-preview { display:flex; gap:.7rem; align-items:flex-start; background:#fff7e6; border:1px solid #f0d693; color:#7a5b00; border-radius:var(--radius-sm); padding:.85rem 1.1rem; margin-bottom:1.25rem; font-size:.9rem; line-height:1.7; }
+    .ws-preview b { color:#5e4600; }
   </style>
 </head>
 <body>
@@ -86,11 +88,11 @@
           </div>
           <div class="panel" style="margin:0; padding:1rem 1.2rem;">
             <div class="readiness">
-              <div class="ring" style="--p:10"><span>۱۰٪</span></div>
+              <div class="ring" style="--p:10" data-bind="readinessRing"><span data-bind="readinessPct">۱۰٪</span></div>
               <div>
                 <div class="stat" style="background:transparent;border:0;padding:0;">
                   <div class="k">امتیاز آمادگی</div>
-                  <div class="v small">تازه شروع شده</div>
+                  <div class="v small" data-bind="readinessLabel">تازه شروع شده</div>
                 </div>
                 <p class="live-note" style="margin:.3rem 0 0;">با تکمیل مدارک و شرایط رشد می‌کند.</p>
               </div>
@@ -98,12 +100,17 @@
           </div>
         </div>
 
+        <div class="ws-preview" id="ws-preview">
+          <span aria-hidden="true">👁️</span>
+          <div><b>پیش‌نمایش فضای کاری شما.</b> این دقیقاً چیدمان پروندهٔ زندهٔ شماست. جزئیات خصوصی شما — مدارک، استراتژی، شرایط و پیام‌ها — پس از فعال‌شدن ورود امن به‌صورت خودکار اینجا ظاهر می‌شود. در حال حاضر هیچ‌چیزِ زیر از پروندهٔ شما گرفته نشده است.</div>
+        </div>
+
         <div class="panel">
           <div class="statband">
-            <div class="stat"><div class="k">مرحلهٔ فعلی</div><div class="v">ثبت‌نام تکمیل شد</div></div>
-            <div class="stat"><div class="k">اقدام بعدی</div><div class="v small">حامد پرونده را بررسی می‌کند و ظرف ۱ روز کاری تماس می‌گیرد</div></div>
-            <div class="stat"><div class="k">موارد باقی‌مانده</div><div class="v">فعلاً هیچ</div></div>
-            <div class="stat"><div class="k">شرایط باز</div><div class="v">۰</div></div>
+            <div class="stat"><div class="k">مرحلهٔ فعلی</div><div class="v" data-bind="stage">ثبت‌نام تکمیل شد</div></div>
+            <div class="stat"><div class="k">اقدام بعدی</div><div class="v small" data-bind="nextAction">حامد پرونده را بررسی می‌کند و ظرف ۱ روز کاری تماس می‌گیرد</div></div>
+            <div class="stat"><div class="k">موارد باقی‌مانده</div><div class="v" data-bind="outstanding">فعلاً هیچ</div></div>
+            <div class="stat"><div class="k">شرایط باز</div><div class="v" data-bind="openConditions">۰</div></div>
           </div>
         </div>
 
@@ -114,7 +121,7 @@
               <div class="doc-tabs">
                 <span class="doc-tab">لازم</span><span class="doc-tab">بارگذاری‌شده</span><span class="doc-tab">ناقص</span><span class="doc-tab">رد‌شده</span>
               </div>
-              <div class="emptybox">فهرست شخصی‌سازی‌شدهٔ مدارک لازم شما به‌محض بررسی پرونده توسط حامد اینجا نمایش داده می‌شود. هر مورد وضعیت خود را نشان می‌دهد — <b>ناقص</b>، <b>دریافت‌شده</b>، <b>در حال بررسی</b> یا <b>نیازمند بارگذاری مجدد</b> — و به پوشهٔ امن WorkDrive شما متصل است.</div>
+              <div class="emptybox" data-bind="documents">فهرست شخصی‌سازی‌شدهٔ مدارک لازم شما به‌محض بررسی پرونده توسط حامد اینجا نمایش داده می‌شود. هر مورد وضعیت خود را نشان می‌دهد — <b>ناقص</b>، <b>دریافت‌شده</b>، <b>در حال بررسی</b> یا <b>نیازمند بارگذاری مجدد</b> — و به پوشهٔ امن WorkDrive شما متصل است.</div>
               <div class="uploadbox">⬆️ <b>بارگذاری امن</b> — به‌محض آماده‌شدن فهرست، مدارک را اینجا رها کنید. هرگز با ایمیل یا پیامک.</div>
               <p class="live-note">مدارک با پروندهٔ CRM و پوشهٔ WorkDrive شما همگام می‌شوند. (همگام‌سازی زنده در فاز ۲ فعال می‌شود.)</p>
             </div>
@@ -140,7 +147,7 @@
           <div>
             <div class="panel">
               <h2>📈 پیشرفت</h2>
-              <ul class="timeline">
+              <ul class="timeline" data-bind="timeline">
                 <li class="done"><span class="dot">✓</span><div class="tl-body"><b>ارزیابی / ثبت‌نام</b><small>تکمیل شد</small></div></li>
                 <li class="current"><span class="dot">۲</span><div class="tl-body"><b>درخواست</b><small>مرحلهٔ بعد با حامد</small></div></li>
                 <li><span class="dot">۳</span><div class="tl-body"><b>مدارک</b></div></li>
@@ -154,6 +161,7 @@
 
             <div class="panel">
               <h2>📨 پیام‌های کارگزار</h2>
+              <div data-bind="messages"></div>
               <div class="msg">
                 <div class="who">حامد عاشوری <span class="when">· هم‌اکنون</span></div>
                 <p style="margin:.4rem 0 0;">به فضای کاری وام مسکن خود خوش آمدید. پروندهٔ شما را دریافت کردم و شخصاً آن را بررسی می‌کنم، سپس ظرف یک روز کاری تماس می‌گیرم تا استراتژی و مدارک لازم را با هم مرور کنیم.</p>
@@ -162,7 +170,7 @@
 
             <div class="panel">
               <h2>✅ شرایط</h2>
-              <div class="emptybox">شرایط باز و تکمیل‌شدهٔ تأیید — همراه با مهلت‌ها — به‌محض رسیدن پرونده به مرحلهٔ تأیید اینجا نمایش داده می‌شوند. <b>۰ شرط باز.</b></div>
+              <div class="emptybox" data-bind="conditions">شرایط باز و تکمیل‌شدهٔ تأیید — همراه با مهلت‌ها — به‌محض رسیدن پرونده به مرحلهٔ تأیید اینجا نمایش داده می‌شوند. <b>۰ شرط باز.</b></div>
             </div>
           </div>
         </div>
@@ -198,27 +206,52 @@
     </div>
   </footer>
 
-  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/main.js?v=20260627a" defer></script>
+  <script defer src="../assets/js/intake-gate.js?v=20260627a"></script>
   <script>
+    /* Workspace Dashboard controller — shared session + AUTH SEAM (see EN file). */
     (function () {
       "use strict";
-      var qs = new URLSearchParams(location.search);
-      var saved = {};
-      try { saved = JSON.parse(localStorage.getItem("hm_workspace_intake") || "{}"); } catch (e) {}
-      var name = qs.get("name") || saved.firstName || "";
-      var hasIntake = !!(saved.email || qs.get("email"));
-      if (!hasIntake) { location.replace("workspace.html"); return; }
-      var g = document.getElementById("ws-greeting");
-      if (g && name) { g.textContent = "خوش برگشتید، " + name; }
-      document.querySelectorAll(".ai-fill").forEach(function (b) {
-        b.addEventListener("click", function () { var q = document.getElementById("ai-q"); q.value = b.textContent; q.focus(); });
-      });
-      var aiForm = document.getElementById("ai-form");
-      if (aiForm) aiForm.addEventListener("submit", function (e) {
-        e.preventDefault();
-        document.getElementById("ai-log").textContent = "اتصال دستیار به پروندهٔ شما بخشی از فاز ۲ است — پس از فعال‌شدن، این پرسش را از پروندهٔ واقعی شما پاسخ می‌دهد و هرگز چیزی نمی‌سازد. فعلاً مستقیم به حامد پیام دهید و او داخل فضای کاری پاسخ می‌دهد.";
-        document.getElementById("ai-q").value = "";
-      });
+      function boot() {
+        var Gate = window.IntakeGate, Auth = window.HM_AUTH;
+        var qs = new URLSearchParams(location.search);
+        var id = (Gate && Gate.get && Gate.get()) || {};
+        var identified = !!((id && id.email) || qs.get("email"));
+        if (!identified) { location.replace("workspace.html"); return; }
+        var name = qs.get("name") || id.first || "";
+        var g = document.getElementById("ws-greeting");
+        if (g && name) { g.textContent = "خوش برگشتید، " + name; }
+        var sub = document.getElementById("ws-sub");
+        if (sub && id.position) { sub.textContent = id.position + " · پروندهٔ وام مسکن شما، در یک‌جای امن."; }
+
+        var live = !!(Auth && Auth.canLoadLiveData && Auth.canLoadLiveData());
+        var banner = document.getElementById("ws-preview");
+        if (live) {
+          if (banner) { banner.style.display = "none"; }
+          if (Auth.fetchClientFile) { Auth.fetchClientFile().then(renderLive).catch(function(){}); }
+        } else {
+          if (banner) { banner.style.display = ""; }
+        }
+
+        document.querySelectorAll(".ai-fill").forEach(function (b) {
+          b.addEventListener("click", function () { var q = document.getElementById("ai-q"); q.value = b.textContent; q.focus(); });
+        });
+        var aiForm = document.getElementById("ai-form");
+        if (aiForm) aiForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          document.getElementById("ai-log").textContent = "اتصال دستیار به پروندهٔ شما بخشی از فاز ۲ است — پس از فعال‌شدن، این پرسش را فقط از پروندهٔ واقعی شما پاسخ می‌دهد و هرگز چیزی نمی‌سازد. فعلاً مستقیم به حامد پیام دهید و او داخل فضای کاری پاسخ می‌دهد.";
+          document.getElementById("ai-q").value = "";
+        });
+      }
+      function renderLive(file) {
+        if (!file) { return; }
+        Object.keys(file).forEach(function (key) {
+          var node = document.querySelector('[data-bind="' + key + '"]');
+          if (node && typeof file[key] === "string") { node.textContent = file[key]; }
+        });
+      }
+      if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", boot); }
+      else { boot(); }
     })();
   </script>
 </body>
