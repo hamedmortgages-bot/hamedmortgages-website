@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Mortgage Workspace | Hamed Ashouri</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0F3D2E">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .ws-wrap { max-width: 1100px; margin-inline: auto; }
+    .ws-topbar { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between; margin-bottom:1.5rem; }
+    .ws-hello h1 { margin:.2rem 0 .25rem; font-size:1.6rem; }
+    .ws-hello p { margin:0; color:var(--text-muted); }
+    .ws-pill { display:inline-flex; align-items:center; gap:.4rem; font-weight:700; font-size:.78rem; letter-spacing:.03em; text-transform:uppercase; color:var(--green-700); background:var(--mist); border:1px solid var(--line); padding:.3rem .7rem; border-radius:999px; }
+    .ws-grid { display:grid; grid-template-columns: 2fr 1fr; gap:1.25rem; align-items:start; }
+    @media (max-width: 880px){ .ws-grid{ grid-template-columns:1fr; } }
+    .panel { background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:1.4rem 1.5rem; box-shadow:var(--shadow-sm); margin-bottom:1.25rem; }
+    .panel h2 { font-size:1.05rem; margin:0 0 1rem; display:flex; align-items:center; gap:.5rem; }
+    .panel h2 .muted { font-weight:600; font-size:.8rem; color:var(--text-muted); margin-inline-start:auto; }
+    /* status / next-action band */
+    .statband { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:1rem; }
+    .stat { background:var(--mist); border:1px solid var(--line); border-radius:var(--radius-sm); padding:1rem; }
+    .stat .k { font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; color:var(--text-muted); font-weight:700; }
+    .stat .v { font-weight:800; color:var(--heading); margin-top:.25rem; font-size:1.02rem; }
+    .stat .v.small { font-size:.92rem; font-weight:700; }
+    /* readiness ring */
+    .readiness { display:flex; align-items:center; gap:1rem; }
+    .ring { --p:8; width:74px; height:74px; border-radius:50%; flex:0 0 auto;
+      background: conic-gradient(var(--green-600) calc(var(--p)*1%), var(--mist) 0); display:grid; place-items:center; }
+    .ring span { width:56px; height:56px; border-radius:50%; background:#fff; display:grid; place-items:center; font-weight:800; color:var(--green-800); }
+    /* progress timeline */
+    .timeline { list-style:none; padding:0; margin:0; display:grid; gap:.1rem; }
+    .timeline li { display:flex; gap:.8rem; align-items:flex-start; }
+    .timeline .dot { width:1.5rem; height:1.5rem; flex:0 0 auto; border-radius:50%; border:2px solid var(--line); background:#fff; display:grid; place-items:center; font-size:.75rem; color:var(--text-muted); position:relative; }
+    .timeline li:not(:last-child) .dot::after { content:""; position:absolute; top:1.5rem; inset-inline-start:50%; transform:translateX(-50%); width:2px; height:1.4rem; background:var(--line); }
+    .timeline .done .dot { background:var(--green-600); border-color:var(--green-600); color:#fff; }
+    .timeline .current .dot { border-color:var(--green-600); color:var(--green-700); box-shadow:0 0 0 3px rgba(28,107,80,.12); }
+    .timeline .tl-body { padding-bottom:1rem; }
+    .timeline .tl-body b { color:var(--heading); }
+    .timeline .tl-body small { display:block; color:var(--text-muted); }
+    .timeline .current .tl-body b { color:var(--green-700); }
+    /* doc rows */
+    .doc-tabs { display:flex; gap:.4rem; flex-wrap:wrap; margin-bottom:1rem; }
+    .doc-tab { font-size:.8rem; font-weight:700; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .8rem; }
+    .doc-row { display:flex; align-items:center; gap:.8rem; padding:.7rem 0; border-top:1px solid var(--line); }
+    .doc-row:first-of-type { border-top:0; }
+    .doc-row .name { font-weight:700; color:var(--heading); }
+    .status-pill { font-size:.72rem; font-weight:800; padding:.2rem .6rem; border-radius:999px; margin-inline-start:auto; }
+    .s-missing{ background:#fdeceb; color:#b3261e; } .s-received{ background:#e7f3ec; color:#1c6b50; }
+    .s-review{ background:#fff4e0; color:#9a6b00; } .s-rejected{ background:#fdeceb; color:#b3261e; }
+    .emptybox { border:1px dashed var(--line); border-radius:var(--radius-sm); padding:1.1rem; color:var(--text-muted); background:var(--mist); }
+    .uploadbox { border:2px dashed var(--green-600); border-radius:var(--radius-sm); padding:1.2rem; text-align:center; color:var(--green-700); background:rgba(28,107,80,.04); margin-top:1rem; }
+    /* messages / questions */
+    .msg { background:var(--mist); border:1px solid var(--line); border-radius:var(--radius-sm); padding:.9rem 1rem; margin-bottom:.7rem; }
+    .msg .who { font-weight:800; font-size:.85rem; color:var(--green-800); }
+    .msg .when { font-size:.75rem; color:var(--text-muted); }
+    /* strategy */
+    .strat { display:grid; gap:.7rem; }
+    .strat details { border:1px solid var(--line); border-radius:var(--radius-sm); padding:.2rem .9rem; background:#fff; }
+    .strat summary { font-weight:700; color:var(--heading); cursor:pointer; padding:.7rem 0; }
+    .strat p { margin:0 0 .9rem; color:var(--text-muted); }
+    /* AI box */
+    .ai-box { border:1px solid var(--line); border-radius:var(--radius-sm); overflow:hidden; }
+    .ai-log { padding:1rem; min-height:90px; background:var(--mist); color:var(--text-muted); font-size:.92rem; }
+    .ai-input { display:flex; border-top:1px solid var(--line); }
+    .ai-input input { flex:1; border:0; padding:.85rem 1rem; font:inherit; }
+    .ai-input button { border:0; background:var(--green-700); color:#fff; font-weight:700; padding:0 1.2rem; cursor:pointer; }
+    .ai-suggest { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.8rem; }
+    .ai-suggest button { font-size:.8rem; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .75rem; cursor:pointer; }
+    .live-note { font-size:.78rem; color:var(--text-muted); margin-top:.6rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="Hamed Mortgages home"><img class="brand__logo" src="../assets/img/logo.png" alt="Hamed Ashouri" loading="lazy" onerror="this.classList.add('is-missing')"><span class="brand__name brand__fallback"><b>Hamed Ashouri</b><span>Mortgage Broker &amp; Strategist</span></span></a>
+        <div class="nav__actions">
+          <a class="btn btn--outline" href="workspace.html">My Intake</a>
+          <a class="btn btn--primary" href="contact.html">Contact Hamed</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container ws-wrap">
+
+        <div class="ws-topbar">
+          <div class="ws-hello">
+            <span class="ws-pill">🔐 Mortgage Workspace</span>
+            <h1 id="ws-greeting">Your Mortgage Workspace</h1>
+            <p id="ws-sub">Everything for your mortgage file — in one secure place.</p>
+          </div>
+          <div class="panel" style="margin:0; padding:1rem 1.2rem;">
+            <div class="readiness">
+              <div class="ring" style="--p:10"><span>10%</span></div>
+              <div>
+                <div class="stat" style="background:transparent;border:0;padding:0;">
+                  <div class="k">Readiness score</div>
+                  <div class="v small">Just getting started</div>
+                </div>
+                <p class="live-note" style="margin:.3rem 0 0;">Grows as you complete documents &amp; conditions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Status band -->
+        <div class="panel">
+          <div class="statband">
+            <div class="stat"><div class="k">Current stage</div><div class="v">Intake complete</div></div>
+            <div class="stat"><div class="k">Next action</div><div class="v small">Hamed reviews your file &amp; reaches out within 1 business day</div></div>
+            <div class="stat"><div class="k">Outstanding items</div><div class="v">None yet</div></div>
+            <div class="stat"><div class="k">Open conditions</div><div class="v">0</div></div>
+          </div>
+        </div>
+
+        <div class="ws-grid">
+          <!-- LEFT column -->
+          <div>
+            <!-- Documents -->
+            <div class="panel">
+              <h2>📄 Documents <span class="muted">Required · Uploaded · Missing · Rejected</span></h2>
+              <div class="doc-tabs">
+                <span class="doc-tab">Required</span><span class="doc-tab">Uploaded</span><span class="doc-tab">Missing</span><span class="doc-tab">Rejected</span>
+              </div>
+              <div class="emptybox">
+                Your personalized required-documents list appears here as soon as Hamed reviews your file. Each item shows its status — <b>missing</b>, <b>received</b>, <b>in review</b>, or <b>needs re-upload</b> — and connects to your secure WorkDrive folder.
+              </div>
+              <div class="uploadbox">
+                ⬆️ <b>Secure upload</b> — drop documents here once your list is ready. Never by email or text.
+              </div>
+              <p class="live-note">Documents sync with your CRM file and WorkDrive folder. (Live syncing activates in Phase 2.)</p>
+            </div>
+
+            <!-- Mortgage Strategy -->
+            <div class="panel">
+              <h2>🧭 Mortgage Strategy <span class="muted">Plain-language</span></h2>
+              <div class="strat">
+                <details><summary>Why this lender?</summary><p>Once Hamed sets your strategy, you'll see — in plain language — why the recommended lender fits your income, goals, and timeline.</p></details>
+                <details><summary>Why these documents?</summary><p>Each required document maps to something a lender must verify. We'll explain what each one proves for your file.</p></details>
+                <details><summary>Why this income calculation?</summary><p>How your income is positioned (employment, self-employed, corporate) and why it's calculated the way it is.</p></details>
+                <details><summary>Current risks</summary><p>Anything that could affect approval, surfaced early so we can address it together.</p></details>
+                <details><summary>Recommended structure</summary><p>The mortgage structure Hamed recommends and the reasoning behind it.</p></details>
+              </div>
+              <p class="live-note">Client-friendly only — internal broker notes are never shown here.</p>
+            </div>
+
+            <!-- Questions -->
+            <div class="panel">
+              <h2>💬 Questions &amp; Requests <span class="muted">Answer in-file, not by email</span></h2>
+              <div class="emptybox">When Hamed or the underwriter needs information, the request appears here and you reply right inside your Workspace — keeping everything on your file. No outstanding requests right now.</div>
+            </div>
+          </div>
+
+          <!-- RIGHT column -->
+          <div>
+            <!-- Progress / timeline -->
+            <div class="panel">
+              <h2>📈 Progress</h2>
+              <ul class="timeline">
+                <li class="done"><span class="dot">✓</span><div class="tl-body"><b>Assessment / Intake</b><small>Completed</small></div></li>
+                <li class="current"><span class="dot">2</span><div class="tl-body"><b>Application</b><small>Up next with Hamed</small></div></li>
+                <li><span class="dot">3</span><div class="tl-body"><b>Documents</b></div></li>
+                <li><span class="dot">4</span><div class="tl-body"><b>Submission</b></div></li>
+                <li><span class="dot">5</span><div class="tl-body"><b>Approval</b></div></li>
+                <li><span class="dot">6</span><div class="tl-body"><b>Conditions</b></div></li>
+                <li><span class="dot">7</span><div class="tl-body"><b>Funding</b></div></li>
+                <li><span class="dot">8</span><div class="tl-body"><b>Renewal</b></div></li>
+              </ul>
+            </div>
+
+            <!-- Broker messages -->
+            <div class="panel">
+              <h2>📨 Broker Messages</h2>
+              <div class="msg">
+                <div class="who">Hamed Ashouri <span class="when">· just now</span></div>
+                <p style="margin:.4rem 0 0;">Welcome to your Mortgage Workspace. I've received your file and will personally review it, then reach out within one business day to map out your strategy and the documents we'll need.</p>
+              </div>
+            </div>
+
+            <!-- Conditions -->
+            <div class="panel">
+              <h2>✅ Conditions</h2>
+              <div class="emptybox">Open and completed approval conditions — with due dates — will appear here once your file reaches approval. <b>0 open conditions.</b></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Assistant (full width) -->
+        <div class="panel">
+          <h2>🤖 AI Mortgage Assistant <span class="muted">Answers from your file only</span></h2>
+          <div class="ai-box">
+            <div class="ai-log" id="ai-log">Ask about your mortgage file — for example, what's missing, why a lender was chosen, or what happens next. Answers will come only from your actual file (never made up). The assistant connects to your CRM file in Phase 2.</div>
+            <form class="ai-input" id="ai-form" autocomplete="off">
+              <input type="text" id="ai-q" placeholder="Ask about your file…" aria-label="Ask the assistant">
+              <button type="submit">Ask</button>
+            </form>
+          </div>
+          <div class="ai-suggest">
+            <button type="button" class="ai-fill">What documents are missing?</button>
+            <button type="button" class="ai-fill">Why was this lender selected?</button>
+            <button type="button" class="ai-fill">What happens next?</button>
+            <button type="button" class="ai-fill">What does this condition mean?</button>
+          </div>
+        </div>
+
+        <p class="disclaimer" style="margin-top:1.5rem;">This Workspace reflects your live mortgage file. It does not provide mortgage, financial, or legal advice. Approvals, rates, and products are subject to lender criteria and application.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Hamed Ashouri — Mortgage Broker &amp; Strategist, License #M22004433 · FSRA #10530.</span>
+        <span>Ontario, Canada</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    /* Intake Gate: no Workspace without completed intake. */
+    (function () {
+      "use strict";
+      var qs = new URLSearchParams(location.search);
+      var saved = {};
+      try { saved = JSON.parse(localStorage.getItem("hm_workspace_intake") || "{}"); } catch (e) {}
+      var name = qs.get("name") || saved.firstName || "";
+      var hasIntake = !!(saved.email || qs.get("email"));
+      if (!hasIntake) { location.replace("workspace.html"); return; }
+
+      var g = document.getElementById("ws-greeting");
+      if (g && name) { g.textContent = "Welcome back, " + name; }
+      var sub = document.getElementById("ws-sub");
+      if (sub && saved.position) { sub.textContent = saved.position + " · Your mortgage file, in one secure place."; }
+
+      // AI suggestion chips fill the input (real answers wire up in Phase 2).
+      document.querySelectorAll(".ai-fill").forEach(function (b) {
+        b.addEventListener("click", function () { document.getElementById("ai-q").value = b.textContent; document.getElementById("ai-q").focus(); });
+      });
+      var aiForm = document.getElementById("ai-form");
+      if (aiForm) aiForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        document.getElementById("ai-log").textContent = "Connecting the assistant to your file is part of Phase 2 — once live, it will answer this from your actual mortgage file and never fabricate. For now, message Hamed directly and he'll respond inside your Workspace.";
+        document.getElementById("ai-q").value = "";
+      });
+    })();
+  </script>
+</body>
+</html>
