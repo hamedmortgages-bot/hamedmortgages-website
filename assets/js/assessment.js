@@ -197,7 +197,7 @@
     success.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  /* ---------- submit ---------- */
+  /* ---------- submit: Assessment is a JOURNEY — hand off to the engine ---------- */
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -213,16 +213,32 @@
     form.classList.add("is-submitting");
     if (submitBtn) { submitBtn.disabled = true; }
 
-    if (LEAD_ENDPOINT) {
+    var Engine = window.IntakeEngine || null;
+    if (Engine && Engine.emit) {
+      // The engine attaches identity and emits the ONE standard event.
+      // Assessment-specific answers ride along in `details` (flattened to
+      // top level) so existing CRM field maps keep working unchanged.
+      var first = "", last = "", full = (data.fullName || "").trim();
+      var sp = full.indexOf(" "); first = sp > -1 ? full.slice(0, sp) : full; last = sp > -1 ? full.slice(sp + 1) : "";
+      Engine.identify({ first: first, last: last, email: data.email, phone: data.phone,
+                        position: data.position, source: "Website — Quick Assessment" });
+      Engine.emit({
+        journey: (Engine.JOURNEYS && Engine.JOURNEYS.ASSESSMENT) || "Quick Assessment",
+        feature: "Mortgage Assessment",
+        source: "Website — Quick Assessment",
+        action: "submit_assessment",
+        stage: "Assessment",
+        firstName: first, lastName: last, fullName: data.fullName,
+        email: data.email, phone: data.phone, position: data.position,
+        details: data
+      }).then(function () { showConfirmation(data); })
+        .catch(function () { showConfirmation(data); });
+    } else if (LEAD_ENDPOINT) {
+      // Fallback if the engine didn't load: direct post (legacy path).
       sendToEndpoint(data)
         .then(function () { showConfirmation(data); })
-        .catch(function () {
-          // Network failed — fall back to email so the lead is never lost.
-          openEmailFallback(data);
-          showConfirmation(data);
-        });
+        .catch(function () { openEmailFallback(data); showConfirmation(data); });
     } else {
-      // No endpoint configured yet — deliver via email draft + local backup.
       openEmailFallback(data);
       showConfirmation(data);
     }

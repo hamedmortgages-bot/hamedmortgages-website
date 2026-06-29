@@ -1,49 +1,68 @@
 /* ============================================================
-   Hamed Ashouri — GLOBAL INTAKE GATE  +  SHARED SESSION
+   Hamed Ashouri — UNIVERSAL INTAKE ENGINE
    ------------------------------------------------------------
-   ONE platform, ONE intake. This file is the single identity
-   authority for the whole site (Assessment, Workspace,
-   calculators, AI tools, downloads, advanced analysis).
+   ONE engine. Every page/tool is a JOURNEY, not a workflow.
 
-   "Intake-First" rule: no premium feature is reachable before
-   the visitor has completed Intake (First, Last, Position,
-   Phone, Email). Intake is captured ONCE and reused EVERYWHERE
-   — across hamedmortgages.ca and its subdomains via a shared
-   cookie + localStorage.
+        Client
+          ↓
+        Universal Intake Engine      (this file)
+          ↓  identity resolution (session) + ONE standard event
+        Journey Router               (single Make scenario)
+          ↓
+        Mortgage AI OS               (CRM / WorkDrive / Sign / automations)
 
-   ARCHITECTURE
-   ------------
-   - window.IntakeGate  -> identity store + gating API
-   - window.HM_AUTH     -> the AUTH SEAM (Phase 2 plugs in here
-                           with NO redesign). In Phase 1 the user
-                           is "identified" (intake done) but NOT
-                           "authenticated", so no private CRM data
-                           is ever exposed. Phase 2 swaps the two
-                           methods below for a real auth check.
+   A page never contains journey-specific submission logic. It just
+   declares its journey and calls one method:
 
-   USAGE
-   -----
-   1) (optional) per-page config BEFORE this script:
-        <script>window.HM_INTAKE={tool:"CMHC Calculator"};</script>
-   2) include on EVERY page:
-        <script defer src="/assets/js/intake-gate.js?v=VER"></script>
-   3) gate anything:
-        - whole tool/calculator/report panel:  <div data-gate-lock> … </div>
-        - a single action (download/AI/report):  <a data-gate="Strategy PDF" …>
-   Future tools are gated automatically by adding those attributes.
+       IntakeEngine.emit({
+         journey: "Mortgage Workspace",   // WHICH journey
+         feature: "Workspace Intake",     // WHAT was used
+         source:  "Website — Mortgage Workspace",
+         action:  "create_workspace",     // WHAT happened
+         stage:   "Workspace",            // current stage
+         details: { ... }                 // optional journey extras
+       });
+
+   The engine attaches identity (contact, email, phone, position) from
+   the ONE shared session and POSTs a single STANDARD EVENT to the ONE
+   router endpoint. The router (Make) resolves identity
+   (Contact → Borrower → Deal → Mortgage → Workspace; update, never
+   duplicate) and decides what happens next based on `journey`.
+
+   FUTURE-PROOF: adding a tool NEVER means a new engine — it means a new
+   `journey` value. Ten new AI tools next year = ten new journey strings.
+
+   PUBLIC API
+   ----------
+   - window.IntakeEngine : identity + emit + journey registry
+   - window.IntakeGate   : gating UI (modal/locks) — thin layer on the engine
+   - window.HM_AUTH      : auth seam (Phase 2 plugs in here, no redesign)
    ============================================================ */
 (function () {
   "use strict";
   var CFG = window.HM_INTAKE || {};
-  var ZOHO = Object.assign({
-    action: "https://crm.zohocloud.ca/crm/WebToLeadForm",
-    xnQsjsdp: "15cbe3bc57ad44e16846b2404afaf7d96465a0ddc098813336880744594029eb",
-    xmIwtLD: "fc7f370331ec16a19a7ec54bccbb030060ef404cae7152804648fe07124804f7aa51f7239c6f3f4e17a1690444a8d253",
-    returnURL: "https://hamedmortgages-bot.github.io/cmhc-rental/thank-you.html"
-  }, CFG.zoho || {});
+
+  /* ---------- the ONE router endpoint (single Make scenario) ---------- */
+  var ENDPOINT = (CFG.endpoint) || "https://hook.us2.make.com/p2jg76wu1f19or87ibptgs9l6m8ortu7";
+  var EVENT_VERSION = "1";
+
   var STORE = "hm_intake_v1";   // canonical identity (localStorage)
   var COOKIE = "hm_intake";     // canonical identity (shared cookie)
-  var LEGACY = ["hm_workspace_intake"]; // older keys we still read once, then migrate
+  var LEGACY = ["hm_workspace_intake"];
+
+  /* ---------- journey registry (add a value = support a new tool) ---------- */
+  var JOURNEYS = {
+    ASSESSMENT:      "Quick Assessment",
+    WORKSPACE:       "Mortgage Workspace",
+    CMHC_CALCULATOR: "CMHC Calculator",
+    CALCULATOR:      "Mortgage Calculator",
+    BUILDER_PROGRAM: "Builder Program",
+    RENEWAL:         "Renewal",
+    INVESTMENT:      "Investment",
+    AI_ASSISTANT:    "AI Assistant",
+    DOCUMENT_UPLOAD: "Document Upload",
+    INTAKE_GATE:     "Intake Gate"
+  };
 
   function lang() {
     var l = (document.documentElement.getAttribute("lang") || "en").toLowerCase();
@@ -94,12 +113,11 @@
   function t(k) { return (T[lang()] || T.en)[k]; }
   function posLabel(p) { return lang() === "fa" ? p.fa : p.en; }
 
-  /* ---------- canonical identity store ---------- */
+  /* ================= IDENTITY (the ONE shared session) ================= */
   function read() {
     try { var v = localStorage.getItem(STORE); if (v) return JSON.parse(v); } catch (e) {}
     var m = document.cookie.match(/(?:^|;\s*)hm_intake=([^;]+)/);
     if (m) { try { return JSON.parse(decodeURIComponent(m[1])); } catch (e) {} }
-    // migrate any legacy per-tool key into the canonical store
     for (var i = 0; i < LEGACY.length; i++) {
       try {
         var lv = localStorage.getItem(LEGACY[i]);
@@ -124,7 +142,8 @@
   }
   function identified() { var i = read(); return !!(i && i.email); }
   function get() { return read() || null; }
-  function setIdentity(d) {
+  function identify(d) {
+    d = d || {};
     var cur = read() || {};
     var merged = {
       first: d.first || d.firstName || cur.first || "",
@@ -139,53 +158,54 @@
     return merged;
   }
 
-  /* ---------- CRM submit (Zoho Web-to-Lead via hidden-iframe POST) ----------
-     Centralized so every journey writes to CRM the same reliable way.
-     `source` = the journey's distinct Lead Source (keeps journeys separate). */
-  function toCRM(d, opts) {
-    opts = opts || {};
-    var source = opts.source || "Website — Intake Gate";
-    var tool = opts.tool || CFG.tool || document.title;
+  /* ================= THE STANDARD EVENT (one shape for every journey) ===== */
+  function buildEvent(e) {
+    e = e || {};
+    var id = read() || {};
+    // identity can be supplied inline (form submit) or come from the session
+    var first = e.firstName || e.first || id.first || "";
+    var last  = e.lastName  || e.last  || id.last  || "";
+    var fullName = (e.fullName || (first + " " + last)).trim();
+
+    // 1) journey-specific extras go in FIRST (so the standard envelope wins on collisions)
+    var event = {};
+    if (e.details) { Object.keys(e.details).forEach(function (k) { event[k] = e.details[k]; }); }
+
+    // 2) the STANDARD ENVELOPE — identical shape for every journey
+    event.event_version = EVENT_VERSION;
+    event.journey       = e.journey  || "Intake Gate";
+    event.feature       = e.feature  || (CFG.tool || document.title || "");
+    event.source        = e.source   || ("Website — " + (e.journey || "Intake Gate"));
+    event.action        = e.action   || "intake";
+    event.timestamp     = new Date().toISOString();
+    event.currentStage  = e.stage || e.currentStage || "Lead";
+    event.position      = e.position || id.position || "";
+    event.contact       = fullName || last || "-";
+    event.fullName      = fullName || last || "-";
+    event.firstName     = first;
+    event.lastName      = last || "-";
+    event.email         = e.email || id.email || "";
+    event.phone         = e.phone || id.phone || "";
+    event.language      = lang();
+    event.pageUrl       = location.href;
+    return event;
+  }
+
+  // POST one standard event to the single router endpoint.
+  function emit(e) {
+    var event = buildEvent(e);
     return new Promise(function (resolve) {
-      var sink = "hmGateSink_" + Date.now();
-      var ifr = document.createElement("iframe");
-      ifr.name = sink; ifr.style.display = "none";
-      document.body.appendChild(ifr);
-      var f = document.createElement("form");
-      f.method = "POST"; f.action = ZOHO.action; f.target = sink;
-      f.acceptCharset = "UTF-8"; f.style.display = "none";
-      function add(n, v) { var i = document.createElement("input"); i.type = "hidden"; i.name = n; i.value = (v == null ? "" : v); f.appendChild(i); }
-      add("xnQsjsdp", ZOHO.xnQsjsdp);
-      add("xmIwtLD", ZOHO.xmIwtLD);
-      add("actionType", "TGVhZHM=");
-      add("returnURL", ZOHO.returnURL);
-      add("Lead Source", source);
-      add("aG9uZXlwb3Q", ""); // honeypot (leave empty)
-      add("Last Name", (d.first + " " + d.last).trim() || d.last || "-");
-      add("First Name", d.first || "");
-      add("Email", d.email);
-      add("Phone", d.phone || "");
-      // Dedicated Position field (mapped in the Web-to-Lead form). Harmless if unmapped.
-      add("Position", d.position || "");
-      add("Description",
-        "--- WEBSITE INTAKE ---\n" +
-        "Name: " + d.first + " " + d.last + "\n" +
-        "Position: " + d.position + "\n" +
-        "Language: " + lang() + "\n" +
-        "Journey / Source: " + source + "\n" +
-        "Source page: " + location.href + "\n" +
-        "Feature requested: " + tool + "\n" +
-        "----------------------");
-      document.body.appendChild(f);
       var done = false;
-      function finish() { if (done) return; done = true; resolve(); }
-      ifr.addEventListener("load", finish);
-      try { f.submit(); } catch (e) { finish(); }
+      function finish() { if (done) return; done = true; resolve(event); }
+      try {
+        fetch(ENDPOINT, { method: "POST", mode: "no-cors", body: new URLSearchParams(event) })
+          .then(finish).catch(finish);
+      } catch (err) { finish(); }
       setTimeout(finish, 2600);
     });
   }
 
-  /* ---------- styles ---------- */
+  /* ================= GATING UI (modal + locks) — thin layer ============== */
   function css() {
     if (document.getElementById("hmGateCSS")) return;
     var s = document.createElement("style");
@@ -213,8 +233,9 @@
     document.head.appendChild(s);
   }
 
-  /* ---------- modal ---------- */
-  function modal(tool, onDone) {
+  // modal(feature, onDone): completes intake for a gated feature.
+  // The gate is itself a journey: journey="Intake Gate", feature=<tool>.
+  function modal(feature, onDone) {
     css();
     var rtl = lang() === "fa";
     var ov = document.createElement("div");
@@ -253,16 +274,15 @@
       }
       var btn = ov.querySelector("#hmg-go");
       btn.disabled = true; btn.textContent = t("sending");
-      var source = (CFG.source || "Website — Intake Gate");
-      toCRM(d, { source: source, tool: tool }).then(function () {
-        setIdentity({ first: d.first, last: d.last, email: d.email, phone: d.phone, position: d.position, source: source });
-        close();
-        onDone && onDone();
-      });
+      var source = (CFG.source || ("Website — Intake Gate"));
+      identify({ first: d.first, last: d.last, email: d.email, phone: d.phone, position: d.position, source: source });
+      emit({
+        journey: JOURNEYS.INTAKE_GATE, feature: feature || CFG.tool || "Gated tool",
+        source: source, action: "unlock_feature", stage: "Lead"
+      }).then(function () { close(); onDone && onDone(); });
     };
   }
 
-  /* ---------- locks (whole-tool gating) ---------- */
   function lockEl(el) {
     css();
     if (el.querySelector(":scope > .hmg-lock")) return;
@@ -270,11 +290,9 @@
     el.setAttribute("data-gate-locked", "1");
     var lock = document.createElement("div");
     lock.className = "hmg-lock";
-    var label = el.getAttribute("data-gate-lock") || CFG.tool || t("locked");
+    var feature = el.getAttribute("data-gate-lock") || CFG.tool || "this tool";
     lock.innerHTML = '<div class="ic">🔒</div><p>' + t("locked") + '</p><button type="button">' + t("unlock") + "</button>";
-    lock.querySelector("button").onclick = function () {
-      modal(label, function () { unlockAll(); });
-    };
+    lock.querySelector("button").onclick = function () { modal(feature, function () { unlockAll(); }); };
     el.appendChild(lock);
   }
   function unlockAll() {
@@ -286,32 +304,33 @@
     [].forEach.call(document.querySelectorAll("[data-gate-lock]"), lockEl);
   }
 
-  /* ---------- single-action gating (buttons/links/downloads/AI/reports) ---------- */
   document.addEventListener("click", function (e) {
     var el = e.target.closest("[data-gate]");
     if (!el || identified()) return;
     e.preventDefault(); e.stopPropagation();
-    var tool = el.getAttribute("data-gate") || el.textContent.trim();
-    modal(tool, function () {
+    var feature = el.getAttribute("data-gate") || el.textContent.trim();
+    modal(feature, function () {
       if (el.tagName === "A" && el.getAttribute("href")) { window.location.href = el.href; }
       else { el.click(); }
     });
   }, true);
 
-  /* ---------- public API: identity store + gating + CRM submit ---------- */
-  window.IntakeGate = {
+  /* ================= PUBLIC API ================= */
+  window.IntakeEngine = {
+    VERSION: EVENT_VERSION,
+    ENDPOINT: ENDPOINT,
+    JOURNEYS: JOURNEYS,
     positions: POSITIONS,
+    registerJourney: function (key, label) { JOURNEYS[key] = label; return label; },
+    // identity
     isIdentified: identified,
     get: get,
-    set: setIdentity,
-    submitLead: function (identity, opts) { return toCRM({
-      first: identity.first || identity.firstName || "",
-      last: identity.last || identity.lastName || "",
-      email: identity.email || "", phone: identity.phone || "",
-      position: identity.position || ""
-    }, opts || {}); },
-    require: function (tool, proceed) { identified() ? (proceed && proceed()) : modal(tool, proceed); },
-    open: function (tool, proceed) { modal(tool, proceed); },
+    identify: identify,
+    // the one thing every page calls
+    emit: emit,
+    // require intake for a feature, then proceed
+    require: function (feature, proceed) { identified() ? (proceed && proceed()) : modal(feature, proceed); },
+    open: function (feature, proceed) { modal(feature, proceed); },
     reset: function () {
       try { localStorage.removeItem(STORE); } catch (e) {}
       LEGACY.forEach(function (k) { try { localStorage.removeItem(k); } catch (e) {} });
@@ -321,23 +340,35 @@
     }
   };
 
-  /* ============================================================
-     AUTH SEAM — Phase 2 plugs in here, no redesign required.
-     Phase 1: visitor is IDENTIFIED (intake done) but NOT
-     AUTHENTICATED. Therefore canLoadLiveData() is false and the
-     dashboard stays in placeholder mode — no private CRM data is
-     ever exposed by a static page.
-     Phase 2: replace isAuthenticated() with a real check (e.g.
-     a verified session token / Zoho portal login) and implement
-     fetchClientFile(). Everything else already reads through here.
-     ============================================================ */
+  /* Back-compat: existing pages call window.IntakeGate.* — keep it working
+     as a thin alias over the engine. */
+  window.IntakeGate = {
+    positions: POSITIONS,
+    isIdentified: identified,
+    get: get,
+    set: identify,
+    submitLead: function (identity, opts) {
+      opts = opts || {};
+      identify(identity);
+      return emit({
+        journey: opts.journey || JOURNEYS.INTAKE_GATE,
+        feature: opts.tool || opts.feature || "Gated tool",
+        source: opts.source, action: opts.action || "intake", stage: opts.stage
+      });
+    },
+    require: window.IntakeEngine.require,
+    open: window.IntakeEngine.open,
+    reset: window.IntakeEngine.reset
+  };
+
+  /* ================= AUTH SEAM (Phase 2 plugs in here) ================= */
   window.HM_AUTH = window.HM_AUTH || {
-    mode: "intake-only",                 // Phase 2: "authenticated"
-    isIdentified: identified,            // intake complete?
-    isAuthenticated: function () { return false; },   // Phase 2 replaces this
-    canLoadLiveData: function () { return this.isAuthenticated(); }, // false in Phase 1
-    getClient: function () { return get(); },          // identity (not verified data)
-    fetchClientFile: function () { return Promise.resolve(null); }   // Phase 2 implements
+    mode: "intake-only",
+    isIdentified: identified,
+    isAuthenticated: function () { return false; },
+    canLoadLiveData: function () { return this.isAuthenticated(); },
+    getClient: function () { return get(); },
+    fetchClientFile: function () { return Promise.resolve(null); }
   };
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", applyLocks);

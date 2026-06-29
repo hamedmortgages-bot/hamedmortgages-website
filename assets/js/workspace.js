@@ -1,29 +1,19 @@
 /* ===================================================================
    Hamed Mortgages — workspace.js
-   Mortgage Workspace — Intake handler (Journey 2).
+   Mortgage Workspace is NOT a workflow — it is a JOURNEY.
 
-   This page IS the platform's single Intake Gate, rendered full-page.
-   It writes to the ONE shared session (window.IntakeGate) so the client
-   is recognized everywhere and never asked twice, and it delivers the
-   lead to CRM through the proven webhook with a DEDICATED Workspace
-   marker — a distinct journey + source, fully separated from the
-   Assessment so the CRM/Make side can branch follow-up and emails.
+   This page declares its journey and hands off to the ONE Universal
+   Intake Engine. It contains no submission/CRM logic of its own:
+   the engine attaches identity and emits the single standard event;
+   the Journey Router decides what happens next.
 
-   CRM ingress note:
-   The webhook below reliably CREATES the CRM lead. The Workspace is
-   tagged with journey="Mortgage Workspace" + source so the Make
-   scenario can branch (set Lead Source, map Position, send the
-   Workspace welcome email — NOT the Assessment email). That branching
-   is a Make-side config step; lead creation works today.
-
-   Requires intake-gate.js to be loaded first (shared session).
+   Requires intake-gate.js (the Universal Intake Engine) loaded first.
    =================================================================== */
 (function () {
   "use strict";
 
-  var LEAD_ENDPOINT = "https://hook.us2.make.com/p2jg76wu1f19or87ibptgs9l6m8ortu7";
-  var WORKSPACE_SOURCE = "Website — Mortgage Workspace";
-  var WORKSPACE_JOURNEY = "Mortgage Workspace";
+  var Engine = window.IntakeEngine || null;
+  var SOURCE = "Website — Mortgage Workspace";
 
   var form = document.getElementById("workspace-form");
   var success = document.getElementById("workspace-success");
@@ -33,7 +23,7 @@
 
   var submitBtn = document.getElementById("submitBtn");
   var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  var Gate = window.IntakeGate || null;
+  var journey = (Engine && Engine.JOURNEYS && Engine.JOURNEYS.WORKSPACE) || "Mortgage Workspace";
 
   function fieldOf(el) { return el.closest(".field"); }
   function clearError(el) { var f = fieldOf(el); if (f) { f.classList.remove("has-error"); } }
@@ -44,7 +34,7 @@
 
   /* ---------- prefill from the shared session (or the bridge URL params) ---------- */
   function prefill() {
-    var saved = (Gate && Gate.get && Gate.get()) || {};
+    var saved = (Engine && Engine.get && Engine.get()) || {};
     function set(id, val) { var el = document.getElementById(id); if (el && val) { el.value = val; } }
     set("firstName", param("firstName") || saved.first);
     set("lastName",  param("lastName")  || saved.last);
@@ -76,27 +66,6 @@
     return data;
   }
 
-  function buildPayload(d) {
-    return {
-      firstName: d.firstName || "",
-      lastName: d.lastName || "",
-      fullName: ((d.firstName || "") + " " + (d.lastName || "")).trim(),
-      email: d.email || "",
-      phone: d.phone || "",
-      position: d.position || "",
-      journey: WORKSPACE_JOURNEY,
-      source: WORKSPACE_SOURCE,
-      language: (document.documentElement.lang || "en"),
-      pageUrl: window.location.href,
-      submittedAt: new Date().toISOString()
-    };
-  }
-
-  function sendToCRM(payload) {
-    // form-urlencoded + no-cors = reliable delivery from a static site.
-    return fetch(LEAD_ENDPOINT, { method: "POST", mode: "no-cors", body: new URLSearchParams(payload) });
-  }
-
   function showSuccess(d) {
     if (formCard) { formCard.style.display = "none"; }
     if (intro) { intro.style.display = "none"; }
@@ -117,7 +86,7 @@
     success.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  /* ---------- submit ---------- */
+  /* ---------- submit: declare the journey, hand off to the engine ---------- */
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (form.company && form.company.value) { showSuccess(readForm()); return; } // bot
@@ -125,20 +94,29 @@
     if (bad) { bad.focus(); bad.scrollIntoView({ behavior: "smooth", block: "center" }); return; }
 
     var d = readForm();
-
-    // 1) Save to the ONE shared session immediately (so no tool re-asks, even offline).
-    if (Gate && Gate.set) {
-      Gate.set({ first: d.firstName, last: d.lastName, email: d.email,
-                 phone: d.phone, position: d.position, source: WORKSPACE_SOURCE });
-    }
+    var identity = {
+      first: d.firstName, last: d.lastName, email: d.email,
+      phone: d.phone, position: d.position, source: SOURCE
+    };
 
     form.classList.add("is-submitting");
     if (submitBtn) { submitBtn.disabled = true; }
 
-    // 2) Deliver the lead to CRM (proven webhook) tagged as the Workspace journey.
-    var payload = buildPayload(d);
     var done = function () { showSuccess(d); };
-    sendToCRM(payload).then(done).catch(done); // session is saved regardless
+    if (Engine && Engine.emit) {
+      Engine.identify(identity); // ONE shared session — never asked twice
+      Engine.emit({
+        journey: journey,
+        feature: "Mortgage Workspace Intake",
+        source: SOURCE,
+        action: "create_workspace",
+        stage: "Workspace",
+        firstName: d.firstName, lastName: d.lastName,
+        email: d.email, phone: d.phone, position: d.position
+      }).then(done).catch(done);
+    } else {
+      done(); // engine unavailable — UX still proceeds; session is local
+    }
   });
 
 })();
