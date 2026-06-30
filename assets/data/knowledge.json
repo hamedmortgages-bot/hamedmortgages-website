@@ -904,6 +904,180 @@
           }
         }
       ]
+    },
+    {
+      "id": "underwriting",
+      "title": {
+        "en": "Underwriting & Conditions",
+        "fa": "تعهد و شرایط (آندرایتینگ)"
+      },
+      "summary": {
+        "en": "What the underwriter asks for after your application — and how to clear it fast.",
+        "fa": "پس از درخواست، آندرایتر چه می‌خواهد — و چگونه سریع آن را رفع کنید."
+      },
+      "audience": [
+        "home-buyer",
+        "home-owner",
+        "investor",
+        "business-owner"
+      ],
+      "blocks": [
+        {
+          "type": "guide",
+          "id": "uw-docs",
+          "reuse": [
+            "resources",
+            "workspace",
+            "ai",
+            "academy"
+          ],
+          "title": {
+            "en": "When the underwriter asks for documents",
+            "fa": "وقتی آندرایتر مدارک می‌خواهد"
+          },
+          "body": {
+            "en": "<p><strong>What it means.</strong> After your application is submitted, the lender's underwriter (UW) reviews it and almost always issues a <em>conditional approval</em> — a list of documents and conditions to satisfy before the mortgage is final.</p><p><strong>Why it matters.</strong> Most approvals start conditional. Clearing the conditions quickly keeps your closing date on track — delays can put a closing at risk.</p><p><strong>What the underwriter usually asks for.</strong> Confirmation of income (a recent pay stub, letter of employment, or Notices of Assessment), proof of down payment with a 90-day history (and a gift letter if applicable), property documents (the Agreement of Purchase and Sale, MLS listing, tax bill, and a condo status certificate for condos), and a brief explanation for any large or unusual deposits.</p><p><strong>How Hamed handles it.</strong> I receive the underwriter's condition list, translate it into exactly what you need, you upload it securely to your Mortgage Workspace, and I package and submit it to the lender — then follow up until every condition is cleared.</p><p><strong>Next step.</strong> <a href='workspace.html'>Open your Workspace to upload requested documents →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> پس از ارسال درخواست، آندرایتر وام‌دهنده آن را بررسی می‌کند و تقریباً همیشه یک <em>تأیید مشروط</em> صادر می‌کند — فهرستی از مدارک و شرایطی که باید پیش از نهایی‌شدن وام برآورده شوند.</p><p><strong>چرا مهم است.</strong> بیشتر تأییدها مشروط آغاز می‌شوند. رفع سریع شرایط، تاریخ بستن قرارداد شما را سر وقت نگه می‌دارد — تأخیر می‌تواند بستن را به خطر بیندازد.</p><p><strong>آندرایتر معمولاً چه می‌خواهد.</strong> تأیید درآمد (فیش حقوقی اخیر، نامه کارفرما یا اظهارنامه‌های مالیاتی)، اثبات پیش‌پرداخت با سابقه ۹۰ روزه (و نامه هدیه در صورت لزوم)، مدارک ملک (قرارداد خرید و فروش، آگهی MLS، قبض مالیات، و گواهی وضعیت کاندو برای کاندوها)، و توضیح کوتاه برای هر واریز بزرگ یا غیرعادی.</p><p><strong>حامد چگونه رسیدگی می‌کند.</strong> فهرست شرایط آندرایتر را دریافت می‌کنم، به آنچه دقیقاً نیاز دارید تبدیل می‌کنم، شما آن را به‌صورت امن در فضای کاری وام مسکن بارگذاری می‌کنید، و من آن را بسته‌بندی و به وام‌دهنده ارسال می‌کنم — سپس پیگیری می‌کنم تا همه شرایط رفع شود.</p><p><strong>گام بعدی.</strong> <a href='workspace.html'>فضای کاری خود را برای بارگذاری مدارک درخواست‌شده باز کنید ←</a></p>"
+          }
+        },
+        {
+          "type": "faq",
+          "id": "uw-faq-conditional",
+          "reuse": [
+            "resources",
+            "workspace",
+            "ai"
+          ],
+          "title": {
+            "en": "What does 'conditional approval' mean?",
+            "fa": "«تأیید مشروط» یعنی چه؟"
+          },
+          "body": {
+            "en": "<p>Your mortgage is approved provided you satisfy a list of conditions — usually documents or requirements. Once they're all cleared, the approval becomes firm and you can close.</p>",
+            "fa": "<p>وام شما به‌شرط برآورده‌کردن فهرستی از شرایط — معمولاً مدارک یا الزامات — تأیید شده است. وقتی همه رفع شوند، تأیید قطعی می‌شود و می‌توانید قرارداد را ببندید.</p>"
+          }
+        },
+        {
+          "type": "faq",
+          "id": "uw-faq-speed",
+          "reuse": [
+            "resources",
+            "workspace",
+            "ai"
+          ],
+          "title": {
+            "en": "How quickly should I send requested documents?",
+            "fa": "مدارک درخواست‌شده را چقدر سریع بفرستم؟"
+          },
+          "body": {
+            "en": "<p>As fast as you can. Conditions are often tied to your closing timeline, and lenders may set deadlines. The sooner everything is in, the safer your closing date.</p>",
+            "fa": "<p>هرچه سریع‌تر بهتر. شرایط اغلب به زمان‌بندی بستن قرارداد شما گره خورده‌اند و وام‌دهندگان ممکن است مهلت تعیین کنند. هرچه زودتر همه‌چیز ارسال شود، تاریخ بستن شما امن‌تر است.</p>"
+          }
+        },
+        {
+          "type": "faq",
+          "id": "uw-faq-again",
+          "reuse": [
+            "resources",
+            "workspace",
+            "ai"
+          ],
+          "title": {
+            "en": "Why is the underwriter asking for the same document again?",
+            "fa": "چرا آندرایتر دوباره همان مدرک را می‌خواهد؟"
+          },
+          "body": {
+            "en": "<p>Usually they need a more recent version — for example a pay stub dated within the last 30 days — or a clearer, complete copy that shows every page and your name.</p>",
+            "fa": "<p>معمولاً به نسخه جدیدتری نیاز دارند — مثلاً فیش حقوقی با تاریخ ۳۰ روز اخیر — یا یک کپی واضح‌تر و کامل که همه صفحات و نام شما را نشان دهد.</p>"
+          }
+        },
+        {
+          "type": "mistake",
+          "id": "uw-mistakes",
+          "reuse": [
+            "resources",
+            "workspace",
+            "ai"
+          ],
+          "items": {
+            "en": [
+              "Sending a screenshot or a single page instead of the full statement.",
+              "Sending an out-of-date document when the underwriter needs a recent one.",
+              "Moving the down payment between accounts after approval — it breaks the paper trail.",
+              "Making a new purchase on credit, or changing jobs, before closing."
+            ],
+            "fa": [
+              "ارسال اسکرین‌شات یا یک صفحه به‌جای صورت‌حساب کامل.",
+              "ارسال مدرک قدیمی درحالی‌که آندرایتر به نسخه اخیر نیاز دارد.",
+              "جابه‌جایی پیش‌پرداخت بین حساب‌ها پس از تأیید — سابقه را خراب می‌کند.",
+              "خرید قسطی جدید یا تغییر شغل پیش از بستن قرارداد."
+            ]
+          }
+        },
+        {
+          "type": "lender_insight",
+          "id": "uw-li",
+          "reuse": [
+            "workspace",
+            "ai",
+            "broker-training"
+          ],
+          "title": {
+            "en": "What underwriters are really verifying",
+            "fa": "آندرایترها واقعاً چه چیزی را تأیید می‌کنند"
+          },
+          "body": {
+            "en": "Underwriters confirm that the story your application tells holds up — that your income, your down payment, and the property all check out and are documented to the lender's exact policy. Anything that can't be confirmed becomes a condition.",
+            "fa": "آندرایترها تأیید می‌کنند که روایت درخواست شما درست است — این‌که درآمد، پیش‌پرداخت و ملک شما همگی تأیید شوند و دقیقاً مطابق سیاست وام‌دهنده مستند باشند. هر چیزی که قابل‌تأیید نباشد به یک شرط تبدیل می‌شود."
+          }
+        },
+        {
+          "type": "broker_tip",
+          "id": "uw-tip",
+          "reuse": [
+            "workspace",
+            "ai"
+          ],
+          "title": {
+            "en": "Keep a clean file all the way to closing",
+            "fa": "پرونده را تا لحظه بستن تمیز نگه دارید"
+          },
+          "body": {
+            "en": "Between approval and closing, don't change jobs, move money around, or take on new debt. If something has to change, tell me first — I can usually manage it with the lender before it becomes a problem.",
+            "fa": "بین تأیید و بستن قرارداد، شغل عوض نکنید، پول جابه‌جا نکنید و بدهی جدید نگیرید. اگر چیزی باید تغییر کند، اول به من بگویید — معمولاً می‌توانم پیش از آن‌که مشکل شود با وام‌دهنده مدیریتش کنم."
+          }
+        },
+        {
+          "type": "download",
+          "id": "uw-dl-checklist",
+          "status": "coming-soon",
+          "reuse": [
+            "workspace",
+            "resources"
+          ],
+          "title": {
+            "en": "Underwriting conditions checklist",
+            "fa": "چک‌لیست شرایط آندرایتینگ"
+          }
+        },
+        {
+          "type": "ai_rec",
+          "id": "uw-ai",
+          "status": "coming-soon",
+          "reuse": [
+            "workspace",
+            "ai"
+          ],
+          "title": {
+            "en": "Condition helper",
+            "fa": "دستیار شرایط"
+          },
+          "body": {
+            "en": "Soon the AI Assistant will read each underwriter request, tell you in plain words what's needed, and check whether what you uploaded matches.",
+            "fa": "به‌زودی دستیار هوش مصنوعی هر درخواست آندرایتر را می‌خواند، به زبان ساده می‌گوید چه لازم است، و بررسی می‌کند که آنچه بارگذاری کرده‌اید مطابقت دارد یا نه."
+          }
+        }
+      ]
     }
   ]
 }
