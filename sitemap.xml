@@ -30,6 +30,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/resources.html"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/resources.html"/>
   </url>
+  <url><loc>https://hamedmortgages.ca/en/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/news.html"/>
+  </url>
   <url><loc>https://hamedmortgages.ca/en/contact.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hamedmortgages.ca/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="fa" href="https://hamedmortgages.ca/fa/contact.html"/>
@@ -42,6 +46,7 @@
   <url><loc>https://hamedmortgages.ca/fa/investment.html</loc></url>
   <url><loc>https://hamedmortgages.ca/fa/about.html</loc></url>
   <url><loc>https://hamedmortgages.ca/fa/resources.html</loc></url>
+  <url><loc>https://hamedmortgages.ca/fa/news.html</loc></url>
   <url><loc>https://hamedmortgages.ca/fa/contact.html</loc></url>
 
 </urlset>
