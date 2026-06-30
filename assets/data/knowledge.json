@@ -1,0 +1,287 @@
+{
+  "version": "1",
+  "updated": "2026-06-29",
+  "note": "LIVING KNOWLEDGE BASE — single source of truth. Add topics and blocks here; every page and surface (Workspace, AI, Portal, Academy) renders from this file. Block types: guide, faq, example, case_study, mistake, lender_insight, broker_tip, download, video, ai_rec. reuse = where a block may appear.",
+  "topics": [
+    {
+      "id": "first-time-buyer",
+      "title": { "en": "First-Time Home Buyers", "fa": "خریداران اولین خانه" },
+      "summary": { "en": "From pre-approval to keys in hand.", "fa": "از پیش‌تأیید تا کلید خانه." },
+      "audience": ["home-buyer"],
+      "blocks": [
+        {
+          "type": "guide", "id": "ftb-roadmap",
+          "title": { "en": "First-Time Buyer Roadmap", "fa": "نقشه راه خریداران اولین خانه" },
+          "reuse": ["resources", "workspace", "ai", "academy"],
+          "body": {
+            "en": "<p><strong>What it means.</strong> The path from 'thinking about it' to keys in hand: get pre-approved, find a home, firm up financing, satisfy conditions, and close with your lawyer.</p><p><strong>Why it matters.</strong> A real pre-approval sets a realistic budget and usually holds a rate for about 90–120 days, so you can make an offer with confidence.</p><p><strong>What lenders look for.</strong> Stable, documented income; a down payment with a 90-day paper trail; manageable debt (your GDS/TDS ratios); and a reasonable credit history.</p><p><strong>Common mistakes.</strong> Changing jobs or financing a car mid-application, large unexplained deposits, or forgetting closing costs — in Ontario that includes Land Transfer Tax (with an extra municipal LTT in Toronto), though first-time buyers may qualify for rebates.</p><p><strong>Documents you may need.</strong> Government ID, proof of income (letter of employment, recent pay stubs, T4s/Notices of Assessment), and 90 days of statements showing your down payment.</p><p><strong>How Hamed reviews it.</strong> I confirm a realistic price range, check which first-time programs and rebates apply, and hold a competitive rate while you shop.</p><p><strong>Next step.</strong> <a href='assessment.html'>Start your free assessment →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> مسیر از «در حال فکر کردن» تا کلید خانه: دریافت پیش‌تأیید، یافتن خانه، نهایی‌کردن تأمین مالی، رفع شرایط، و بستن قرارداد با وکیل شما.</p><p><strong>چرا مهم است.</strong> یک پیش‌تأیید واقعی بودجه واقع‌بینانه‌ای تعیین می‌کند و معمولاً نرخ را حدود ۹۰ تا ۱۲۰ روز نگه می‌دارد، تا با اطمینان پیشنهاد بدهید.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> درآمد پایدار و مستند؛ پیش‌پرداخت با سابقه ۹۰ روزه؛ بدهی قابل‌مدیریت (نسبت‌های GDS/TDS شما)؛ و سابقه اعتباری معقول.</p><p><strong>اشتباهات رایج.</strong> تغییر شغل یا خرید قسطی خودرو در میانه درخواست، واریزهای بزرگ بدون توضیح، یا فراموش‌کردن هزینه‌های بستن — در انتاریو شامل مالیات انتقال زمین (و مالیات شهری اضافی در تورنتو) است، هرچند خریداران اولین خانه ممکن است مشمول تخفیف شوند.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> کارت شناسایی دولتی، اثبات درآمد (نامه کارفرما، فیش‌های حقوقی اخیر، T4/اظهارنامه مالیاتی)، و ۹۰ روز صورت‌حساب که پیش‌پرداخت را نشان دهد.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> محدوده قیمتی واقع‌بینانه را تأیید می‌کنم، بررسی می‌کنم کدام برنامه‌ها و تخفیف‌های خریداران اولین خانه شامل شما می‌شود، و در حین جست‌وجو نرخ رقابتی را نگه می‌دارم.</p><p><strong>گام بعدی.</strong> <a href='assessment.html'>ارزیابی رایگان خود را آغاز کنید ←</a></p>"
+          }
+        },
+        {
+          "type": "lender_insight", "id": "ftb-li-1",
+          "title": { "en": "What strengthens a first-time file", "fa": "چه چیزی پرونده خریدار اول را قوی می‌کند" },
+          "reuse": ["resources", "workspace", "ai"],
+          "body": {
+            "en": "Lenders favour a stable income history (ideally past probation), a clear 90-day source of the down payment, and total debt payments comfortably inside GDS/TDS limits. A gifted down payment is fine — but it needs a signed gift letter and proof the funds landed in your account.",
+            "fa": "وام‌دهندگان به سابقه درآمد پایدار (ترجیحاً پس از دوره آزمایشی)، منشأ روشن ۹۰ روزه پیش‌پرداخت، و مجموع پرداخت‌های بدهی در محدوده راحت GDS/TDS اهمیت می‌دهند. پیش‌پرداخت هدیه اشکالی ندارد — اما به نامه هدیه امضاشده و اثبات ورود وجه به حساب شما نیاز دارد."
+          }
+        }
+      ]
+    },
+    {
+      "id": "self-employed",
+      "title": { "en": "Self-Employed & Business Owners", "fa": "خوداشتغال و صاحبان کسب‌وکار" },
+      "summary": { "en": "Positioning business income the right way.", "fa": "ارائه درست درآمد کسب‌وکار." },
+      "audience": ["business-owner", "investor"],
+      "blocks": [
+        {
+          "type": "guide", "id": "se-income",
+          "title": { "en": "Self-Employed Income Explained", "fa": "درآمد خوداشتغالی به‌زبان ساده" },
+          "reuse": ["resources", "workspace", "ai", "academy", "broker-training"],
+          "body": {
+            "en": "<p><strong>What it means.</strong> If you're self-employed or incorporated, lenders read your income differently than a salaried T4 employee — often a two-year average of your filed income, sometimes with reasonable add-backs, and occasionally through alternative programs.</p><p><strong>Why it matters.</strong> How your income is positioned can change what you qualify for dramatically. The same business can look 'thin' or 'strong' depending on how the file is built.</p><p><strong>What lenders look for.</strong> Two years of Notices of Assessment with no taxes owing, consistent or rising income, business longevity, and clean separation between business and personal finances.</p><p><strong>Common mistakes.</strong> Writing income down to near-zero for tax purposes and then expecting full qualification; carrying a balance owing to CRA; or mixing personal and business accounts.</p><p><strong>Documents you may need.</strong> T1 Generals and Notices of Assessment (2 years), business registration or articles of incorporation, recent business financial statements, and bank statements.</p><p><strong>How Hamed reviews it.</strong> I choose the income approach and the lender that fit your real numbers — including lenders who understand business-for-self income.</p><p><strong>Next step.</strong> <a href='business-owners.html'>See Business Owner solutions →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> اگر خوداشتغال یا دارای شرکت هستید، وام‌دهندگان درآمد شما را متفاوت از یک کارمند حقوق‌بگیر T4 می‌خوانند — اغلب میانگین دو سال درآمد اظهارشده، گاهی با افزودنی‌های معقول، و گاهی از طریق برنامه‌های جایگزین.</p><p><strong>چرا مهم است.</strong> نحوه ارائه درآمد می‌تواند واجد شرایط بودن شما را به‌شدت تغییر دهد. یک کسب‌وکار یکسان بسته به نحوه ساخت پرونده می‌تواند «ضعیف» یا «قوی» به‌نظر برسد.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> دو سال اظهارنامه مالیاتی بدون بدهی مالیاتی، درآمد ثابت یا رو به رشد، سابقه کسب‌وکار، و تفکیک تمیز مالی کسب‌وکار و شخصی.</p><p><strong>اشتباهات رایج.</strong> پایین‌نوشتن درآمد برای مالیات و سپس انتظار واجد شرایط بودن کامل؛ داشتن بدهی به اداره مالیات (CRA)؛ یا درآمیختن حساب‌های شخصی و کسب‌وکار.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> اظهارنامه‌های T1 و مالیاتی (۲ سال)، ثبت کسب‌وکار یا اساسنامه شرکت، صورت‌های مالی اخیر کسب‌وکار، و صورت‌حساب‌های بانکی.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> رویکرد درآمدی و وام‌دهنده‌ای را که با اعداد واقعی شما هماهنگ است انتخاب می‌کنم.</p><p><strong>گام بعدی.</strong> <a href='business-owners.html'>راهکارهای صاحبان کسب‌وکار را ببینید ←</a></p>"
+          }
+        },
+        {
+          "type": "broker_tip", "id": "se-tip-1",
+          "title": { "en": "Plan two years ahead", "fa": "دو سال جلوتر برنامه‌ریزی کنید" },
+          "reuse": ["resources", "workspace", "ai", "broker-training"],
+          "body": {
+            "en": "If a purchase or refinance is on your horizon, talk to me before you file your next two tax returns. Small, legitimate choices about how you report income — made in advance — can meaningfully change what you qualify for later.",
+            "fa": "اگر خرید یا ریفاینانس در افق شماست، پیش از تنظیم دو اظهارنامه مالیاتی بعدی با من صحبت کنید. انتخاب‌های کوچک و قانونی درباره نحوه گزارش درآمد — اگر از پیش انجام شوند — می‌توانند به‌طور معناداری واجد شرایط بودن آینده شما را تغییر دهند."
+          }
+        }
+      ]
+    },
+    {
+      "id": "refinance",
+      "title": { "en": "Refinancing & Equity", "fa": "ریفاینانس و سرمایه خانه" },
+      "summary": { "en": "Access equity, consolidate debt, or change terms — when the math works.", "fa": "دسترسی به سرمایه، تجمیع بدهی یا تغییر دوره — وقتی محاسبه به‌نفع شماست." },
+      "audience": ["home-owner", "investor"],
+      "blocks": [
+        {
+          "type": "guide", "id": "refi-should-you",
+          "title": { "en": "Should You Refinance?", "fa": "آیا باید ریفاینانس کنید؟" },
+          "reuse": ["resources", "refinance", "workspace", "ai", "academy"],
+          "body": {
+            "en": "<p><strong>What it means.</strong> Refinancing replaces or restructures your current mortgage — to access equity, consolidate higher-interest debt, fund a renovation or investment, or change your term.</p><p><strong>Why it matters.</strong> Done at the right time it can free up cash flow or fund a goal; done at the wrong time the costs can outweigh the benefit, so the math has to be run first.</p><p><strong>What lenders look for.</strong> Sufficient equity (a refinance typically lets you borrow up to 80% of your home's value), provable income, and acceptable credit.</p><p><strong>Common mistakes.</strong> Breaking a fixed mortgage without first calculating the penalty (often an Interest Rate Differential), refinancing for short-term wants, or not comparing a blend-and-extend with your current lender.</p><p><strong>Documents you may need.</strong> Your current mortgage statement, a recent property tax bill, income documents, and ID.</p><p><strong>How Hamed reviews it.</strong> I calculate your penalty versus your projected savings, model the break-even point, and only recommend it when the numbers genuinely work.</p><p><strong>Next step.</strong> <a href='refinance.html'>Explore refinancing →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> ریفاینانس وام مسکن فعلی شما را جایگزین یا بازساختاردهی می‌کند — برای دسترسی به سرمایه (اکوئیتی)، تجمیع بدهی‌های پربهره، تأمین مالی بازسازی یا سرمایه‌گذاری، یا تغییر دوره.</p><p><strong>چرا مهم است.</strong> در زمان درست می‌تواند جریان نقدی را آزاد کند؛ در زمان نادرست هزینه‌ها می‌تواند از منفعت بیشتر شود، پس ابتدا باید محاسبه شود.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> سرمایه کافی (ریفاینانس معمولاً اجازه می‌دهد تا ۸۰٪ ارزش خانه وام بگیرید)، درآمد قابل‌اثبات، و اعتبار قابل‌قبول.</p><p><strong>اشتباهات رایج.</strong> شکستن وام با نرخ ثابت بدون محاسبه جریمه (اغلب تفاوت نرخ بهره/IRD)، ریفاینانس برای خواسته‌های کوتاه‌مدت، یا نسنجیدن گزینه ترکیب‌و‌تمدید با وام‌دهنده فعلی.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> صورت‌حساب وام فعلی، قبض مالیات ملک اخیر، مدارک درآمد، و شناسایی.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> جریمه را در برابر صرفه‌جویی پیش‌بینی‌شده محاسبه می‌کنم، نقطه سربه‌سر را مدل می‌کنم، و تنها زمانی توصیه می‌کنم که اعداد واقعاً به نفع شما باشند.</p><p><strong>گام بعدی.</strong> <a href='refinance.html'>ریفاینانس را بررسی کنید ←</a></p>"
+          }
+        },
+        {
+          "type": "faq", "id": "refi-faq-penalty",
+          "title": { "en": "How is the penalty to break my mortgage calculated?", "fa": "جریمه شکستن وام چگونه محاسبه می‌شود؟" },
+          "reuse": ["resources", "refinance", "ai"],
+          "body": {
+            "en": "<p>On a variable mortgage it's usually three months' interest. On a fixed mortgage it's the greater of three months' interest or the Interest Rate Differential (IRD) — and IRD can be large. I always pull your exact penalty before recommending a move.</p>",
+            "fa": "<p>در وام با نرخ متغیر معمولاً سه ماه بهره است. در وام با نرخ ثابت، بیشترِ سه ماه بهره یا تفاوت نرخ بهره (IRD) — و IRD می‌تواند بزرگ باشد. همیشه جریمه دقیق شما را پیش از توصیه استخراج می‌کنم.</p>"
+          }
+        },
+        {
+          "type": "faq", "id": "refi-faq-howmuch",
+          "title": { "en": "How much equity can I access?", "fa": "چه میزان سرمایه می‌توانم برداشت کنم؟" },
+          "reuse": ["resources", "refinance", "ai"],
+          "body": {
+            "en": "<p>A refinance generally lets you borrow up to 80% of your home's appraised value, minus your current balance. Example: an $800,000 home at 80% is $640,000 of room; if you owe $480,000, up to about $160,000 may be available — subject to qualifying.</p>",
+            "fa": "<p>ریفاینانس معمولاً اجازه می‌دهد تا ۸۰٪ ارزش ارزیابی‌شده خانه منهای مانده فعلی وام بگیرید. مثال: خانه ۸۰۰٬۰۰۰ دلاری در ۸۰٪ یعنی ۶۴۰٬۰۰۰ دلار ظرفیت؛ اگر ۴۸۰٬۰۰۰ دلار بدهکارید، تا حدود ۱۶۰٬۰۰۰ دلار ممکن است در دسترس باشد — مشروط به واجد شرایط بودن.</p>"
+          }
+        },
+        {
+          "type": "example", "id": "refi-ex-debt",
+          "title": { "en": "Example: debt consolidation", "fa": "مثال: تجمیع بدهی" },
+          "reuse": ["resources", "refinance", "academy"],
+          "body": {
+            "en": "<p>A homeowner carrying $60,000 across cards and a line of credit at 12–20% rolls it into the mortgage during a refinance. The monthly outflow drops substantially and the interest rate on that debt falls to mortgage levels — freeing cash flow. The trade-off: that debt is now amortized over a longer period, so we model the true total cost together.</p>",
+            "fa": "<p>صاحب‌خانه‌ای با ۶۰٬۰۰۰ دلار بدهی روی کارت‌ها و خط اعتباری با نرخ ۱۲ تا ۲۰٪، آن را هنگام ریفاینانس وارد وام مسکن می‌کند. خروجی ماهانه به‌طور چشمگیری کاهش می‌یابد و نرخ بهره آن بدهی به سطح وام مسکن می‌رسد — و جریان نقدی آزاد می‌شود. نکته: آن بدهی اکنون در دوره طولانی‌تری بازپرداخت می‌شود، پس هزینه کل واقعی را با هم مدل می‌کنیم.</p>"
+          }
+        },
+        {
+          "type": "case_study", "id": "refi-cs-reno",
+          "title": { "en": "Case study: renovation before sale", "fa": "مطالعه موردی: بازسازی پیش از فروش" },
+          "reuse": ["refinance", "academy"],
+          "body": {
+            "en": "<p><strong>Situation.</strong> A couple wanted to renovate before listing but had no liquid cash. <strong>Approach.</strong> We accessed equity through a refinance to fund the work. <strong>Outcome.</strong> The improved home sold faster and higher; the equity drawn was repaid at closing. <em>Illustrative example — every file differs.</em></p>",
+            "fa": "<p><strong>وضعیت.</strong> زوجی می‌خواستند پیش از فروش بازسازی کنند اما نقدینگی نداشتند. <strong>رویکرد.</strong> از طریق ریفاینانس به سرمایه دسترسی پیدا کردیم تا کار را تأمین مالی کنیم. <strong>نتیجه.</strong> خانه بهبودیافته سریع‌تر و گران‌تر فروخته شد؛ سرمایه برداشت‌شده هنگام بستن قرارداد بازپرداخت شد. <em>مثال توضیحی — هر پرونده متفاوت است.</em></p>"
+          }
+        },
+        {
+          "type": "mistake", "id": "refi-mistakes",
+          "reuse": ["resources", "refinance", "ai"],
+          "items": {
+            "en": [
+              "Breaking a fixed mortgage without first getting the exact penalty in writing.",
+              "Refinancing to fund short-term spending instead of a lasting goal.",
+              "Ignoring a blend-and-extend offer from your current lender.",
+              "Forgetting legal, appraisal, and discharge costs in the break-even math."
+            ],
+            "fa": [
+              "شکستن وام با نرخ ثابت بدون دریافت جریمه دقیق به‌صورت کتبی.",
+              "ریفاینانس برای تأمین هزینه‌های کوتاه‌مدت به‌جای یک هدف ماندگار.",
+              "نادیده‌گرفتن پیشنهاد ترکیب‌و‌تمدید از وام‌دهنده فعلی.",
+              "فراموش‌کردن هزینه‌های حقوقی، ارزیابی و تسویه در محاسبه نقطه سربه‌سر."
+            ]
+          }
+        },
+        {
+          "type": "lender_insight", "id": "refi-li",
+          "title": { "en": "What lenders watch on a refinance", "fa": "وام‌دهندگان در ریفاینانس به چه نگاه می‌کنند" },
+          "reuse": ["refinance", "ai", "broker-training"],
+          "body": {
+            "en": "Beyond the 80% loan-to-value ceiling, lenders re-check income and credit as if it were a new approval, and they confirm the property value with an appraisal. Recent missed payments or a thin income picture can shrink how much is approved.",
+            "fa": "فراتر از سقف ۸۰٪ نسبت وام به ارزش، وام‌دهندگان درآمد و اعتبار را مانند یک تأیید جدید دوباره بررسی می‌کنند و ارزش ملک را با ارزیابی تأیید می‌کنند. پرداخت‌های ازدست‌رفته اخیر یا تصویر درآمدی ضعیف می‌تواند مبلغ تأییدشده را کاهش دهد."
+          }
+        },
+        {
+          "type": "broker_tip", "id": "refi-tip",
+          "title": { "en": "Time it with your maturity date", "fa": "آن را با تاریخ سررسید هماهنگ کنید" },
+          "reuse": ["refinance", "ai"],
+          "body": {
+            "en": "If your renewal is within a few months, waiting to refinance at maturity can avoid most of the penalty. If not, a blend-and-extend with your current lender sometimes beats breaking the mortgage outright. We compare both.",
+            "fa": "اگر تمدید شما ظرف چند ماه است، صبر برای ریفاینانس در سررسید می‌تواند بیشتر جریمه را حذف کند. در غیر این صورت، ترکیب‌و‌تمدید با وام‌دهنده فعلی گاهی بهتر از شکستن کامل وام است. هر دو را مقایسه می‌کنیم."
+          }
+        },
+        {
+          "type": "download", "id": "refi-dl-worksheet",
+          "title": { "en": "Refinance break-even worksheet", "fa": "کاربرگ نقطه سربه‌سر ریفاینانس" },
+          "status": "coming-soon", "reuse": ["refinance", "workspace"]
+        },
+        {
+          "type": "video", "id": "refi-vid",
+          "title": { "en": "Refinancing in 3 minutes", "fa": "ریفاینانس در ۳ دقیقه" },
+          "status": "coming-soon", "reuse": ["refinance", "academy"],
+          "body": { "en": "A short walkthrough of when refinancing helps and when it doesn't.", "fa": "مرور کوتاهی از این‌که ریفاینانس چه زمانی کمک می‌کند و چه زمانی نه." }
+        },
+        {
+          "type": "ai_rec", "id": "refi-ai",
+          "title": { "en": "Personalized refinance check", "fa": "بررسی شخصی‌سازی‌شده ریفاینانس" },
+          "status": "coming-soon", "reuse": ["refinance", "workspace", "ai"],
+          "body": { "en": "Soon the AI Assistant will use your file to estimate whether a refinance is worth exploring right now.", "fa": "به‌زودی دستیار هوش مصنوعی با استفاده از پرونده شما تخمین می‌زند که آیا ریفاینانس همین حالا ارزش بررسی دارد." }
+        }
+      ]
+    },
+    {
+      "id": "renewal",
+      "title": { "en": "Mortgage Renewal", "fa": "تمدید وام مسکن" },
+      "summary": { "en": "Don't auto-sign — the first offer is rarely the best.", "fa": "خودکار امضا نکنید — اولین پیشنهاد به‌ندرت بهترین است." },
+      "audience": ["home-owner"],
+      "blocks": [
+        {
+          "type": "guide", "id": "renewal-checklist",
+          "title": { "en": "Renewal Checklist", "fa": "چک‌لیست تمدید" },
+          "reuse": ["resources", "workspace", "ai", "academy"],
+          "body": {
+            "en": "<p><strong>What it means.</strong> When your term ends, your current lender mails a renewal offer. You can accept it, renegotiate, or switch your mortgage to another lender.</p><p><strong>Why it matters.</strong> The first renewal offer is rarely the lowest rate available. Reviewing it — and switching when it makes sense — can save thousands over the next term.</p><p><strong>What lenders look for (to switch).</strong> A switch is re-qualified like a new approval: income, credit, and your property's value all matter, so prepare early.</p><p><strong>Common mistakes.</strong> Auto-signing to 'keep it simple,' waiting until the final week, or assuming you're locked in when you're not.</p><p><strong>Documents you may need.</strong> Your renewal letter, your latest mortgage statement, and income documents if you switch.</p><p><strong>How Hamed reviews it.</strong> I shop your renewal about 120 days before maturity and compare staying put against switching, including any switch costs.</p><p><strong>Next step.</strong> <a href='contact.html'>Book a renewal review →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> در پایان دوره، وام‌دهنده فعلی یک پیشنهاد تمدید می‌فرستد. می‌توانید بپذیرید، مذاکره مجدد کنید، یا وام را به وام‌دهنده دیگری منتقل کنید.</p><p><strong>چرا مهم است.</strong> اولین پیشنهاد تمدید به‌ندرت کمترین نرخ موجود است. بررسی آن — و انتقال در صورت منطقی بودن — می‌تواند هزاران دلار صرفه‌جویی کند.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند (برای انتقال).</strong> انتقال مانند یک تأیید جدید دوباره ارزیابی می‌شود: درآمد، اعتبار و ارزش ملک همگی مهم‌اند، پس زود آماده شوید.</p><p><strong>اشتباهات رایج.</strong> امضای خودکار برای «ساده نگه‌داشتن»، صبر تا هفته آخر، یا تصور این‌که قفل شده‌اید درحالی‌که نیستید.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> نامه تمدید، آخرین صورت‌حساب وام، و در صورت انتقال مدارک درآمد.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> تمدید شما را حدود ۱۲۰ روز پیش از سررسید بررسی می‌کنم و ماندن را با انتقال مقایسه می‌کنم.</p><p><strong>گام بعدی.</strong> <a href='contact.html'>یک بازبینی تمدید رزرو کنید ←</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "title": { "en": "Investment Properties", "fa": "املاک سرمایه‌گذاری" },
+      "summary": { "en": "Rental income rules, down payments, and portfolio growth.", "fa": "قوانین درآمد اجاره، پیش‌پرداخت و رشد پورتفولیو." },
+      "audience": ["investor"],
+      "blocks": [
+        {
+          "type": "guide", "id": "inv-basics",
+          "title": { "en": "Investor Financing Basics", "fa": "مبانی تأمین مالی سرمایه‌گذار" },
+          "reuse": ["resources", "investment", "workspace", "ai", "academy"],
+          "body": {
+            "en": "<p><strong>What it means.</strong> Financing a rental or investment property follows different rules than your home — larger down payments and specific ways lenders count rental income.</p><p><strong>Why it matters.</strong> How the file is structured affects how much you qualify for today and how easily you can grow a portfolio later.</p><p><strong>What lenders look for.</strong> Typically at least 20% down on a rental, how they treat rental income (a 'rental offset' versus 'add-back'), sometimes a debt-coverage ratio, and cash reserves.</p><p><strong>Common mistakes.</strong> Assuming owner-occupied rates and down payments apply, ignoring vacancy and expenses, or over-leveraging.</p><p><strong>Documents you may need.</strong> Lease agreements, a T776 if already owned, the property tax bill, and statements for existing mortgages.</p><p><strong>How Hamed reviews it.</strong> I structure the application and select lenders whose rental-income treatment maximizes what you qualify for.</p><p><strong>Next step.</strong> <a href='investment.html'>See Investment Property financing →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> تأمین مالی ملک اجاره‌ای یا سرمایه‌گذاری قوانینی متفاوت از خانه شما دارد — پیش‌پرداخت بزرگ‌تر و روش‌های خاص محاسبه درآمد اجاره.</p><p><strong>چرا مهم است.</strong> نحوه ساختاردهی پرونده بر میزان واجد شرایط بودن امروز و سهولت رشد پورتفولیو در آینده اثر می‌گذارد.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> معمولاً حداقل ۲۰٪ پیش‌پرداخت برای اجاره، نحوه محاسبه درآمد اجاره (افست در برابر افزودنی)، گاهی نسبت پوشش بدهی، و ذخیره نقدی.</p><p><strong>اشتباهات رایج.</strong> فرض نرخ و پیش‌پرداخت ملک شخصی، نادیده‌گرفتن خالی‌ماندن و هزینه‌ها، یا اهرم بیش از حد.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> قراردادهای اجاره، فرم T776 اگر ملک قبلاً در مالکیت است، قبض مالیات ملک، و صورت‌حساب وام‌های موجود.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> درخواست را ساختار می‌دهم و وام‌دهندگانی را انتخاب می‌کنم که نحوه محاسبه درآمد اجاره‌شان واجد شرایط بودن شما را بیشینه می‌کند.</p><p><strong>گام بعدی.</strong> <a href='investment.html'>تأمین مالی ملک سرمایه‌گذاری را ببینید ←</a></p>"
+          }
+        },
+        {
+          "type": "lender_insight", "id": "inv-li",
+          "title": { "en": "Rental offset vs add-back", "fa": "افست اجاره در برابر افزودنی" },
+          "reuse": ["investment", "ai", "broker-training"],
+          "body": {
+            "en": "Lenders count rental income two main ways. An 'offset' subtracts a percentage of the rent from the property's costs; an 'add-back' adds a percentage of the rent to your income. The same property can qualify very differently depending on which method — and which lender — we use.",
+            "fa": "وام‌دهندگان درآمد اجاره را به دو روش اصلی محاسبه می‌کنند. «افست» درصدی از اجاره را از هزینه‌های ملک کم می‌کند؛ «افزودنی» درصدی از اجاره را به درآمد شما اضافه می‌کند. یک ملک یکسان بسته به روش — و وام‌دهنده — می‌تواند بسیار متفاوت واجد شرایط شود."
+          }
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": { "en": "Documents", "fa": "مدارک" },
+      "summary": { "en": "The paperwork that strengthens any application.", "fa": "مدارکی که هر درخواست را تقویت می‌کند." },
+      "audience": ["home-buyer", "home-owner", "investor", "business-owner"],
+      "blocks": [
+        {
+          "type": "guide", "id": "docs-checklist",
+          "title": { "en": "Documents Checklist", "fa": "چک‌لیست مدارک" },
+          "reuse": ["resources", "workspace", "ai", "academy"],
+          "body": {
+            "en": "<p><strong>What it means.</strong> The paperwork that verifies four things: who you are, your income, your down payment, and the property itself.</p><p><strong>Why it matters.</strong> Complete, well-organized documents mean a faster approval, fewer last-minute conditions, and a smoother close.</p><p><strong>The usual core.</strong> Government ID; income proof (letter of employment, pay stubs, T4s/NOAs — or the self-employed set); proof of down payment with a 90-day history; and property documents (Agreement of Purchase and Sale, listing, tax bill).</p><p><strong>Common mistakes.</strong> Sending partial screenshots instead of full statements, missing pages, or large unexplained deposits.</p><p><strong>How Hamed reviews it.</strong> Your Mortgage Workspace builds a personalized required-documents list for your exact situation and flags gaps early — never by email or text.</p><p><strong>Next step.</strong> <a href='workspace.html'>Create your Mortgage Workspace →</a></p>",
+            "fa": "<p><strong>یعنی چه.</strong> مدارکی که چهار چیز را تأیید می‌کند: هویت شما، درآمد شما، پیش‌پرداخت شما، و خود ملک.</p><p><strong>چرا مهم است.</strong> مدارک کامل و منظم یعنی تأیید سریع‌تر، شرایط لحظه‌آخری کمتر، و بستن قرارداد روان‌تر.</p><p><strong>هسته معمول.</strong> شناسایی دولتی؛ اثبات درآمد (نامه کارفرما، فیش حقوقی، T4/اظهارنامه — یا مجموعه خوداشتغالی)؛ اثبات پیش‌پرداخت با سابقه ۹۰ روزه؛ و مدارک ملک (قرارداد خرید و فروش، آگهی، قبض مالیات).</p><p><strong>اشتباهات رایج.</strong> ارسال اسکرین‌شات‌های ناقص به‌جای صورت‌حساب کامل، صفحات گم‌شده، یا واریزهای بزرگ بدون توضیح.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> فضای کاری وام مسکن شما فهرست مدارک شخصی‌سازی‌شده‌ای می‌سازد و کمبودها را زودهنگام مشخص می‌کند — هرگز با ایمیل یا پیامک.</p><p><strong>گام بعدی.</strong> <a href='workspace.html'>فضای کاری وام مسکن خود را بسازید ←</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "title": { "en": "General Questions", "fa": "پرسش‌های عمومی" },
+      "summary": { "en": "Common questions about working with a broker in Ontario.", "fa": "پرسش‌های رایج درباره کار با یک بروکر در انتاریو." },
+      "audience": ["home-buyer", "home-owner", "investor", "business-owner"],
+      "blocks": [
+        {
+          "type": "faq", "id": "gen-fee",
+          "title": { "en": "Do you charge a fee?", "fa": "آیا کارمزد دریافت می‌کنید؟" },
+          "reuse": ["resources", "ai"],
+          "body": {
+            "en": "<p>For most standard residential mortgages, lenders compensate the broker, so there's typically no fee to you. For certain alternative or private files a fee may apply — and if so, it's always disclosed and agreed upfront.</p>",
+            "fa": "<p>برای بیشتر وام‌های مسکونی استاندارد، وام‌دهنده حق‌الزحمه بروکر را پرداخت می‌کند، بنابراین معمولاً هزینه‌ای برای شما ندارد. برای برخی پرونده‌های جایگزین یا خصوصی ممکن است کارمزدی اعمال شود — و در آن صورت همیشه از پیش اعلام و توافق می‌شود.</p>"
+          }
+        },
+        {
+          "type": "faq", "id": "gen-credit",
+          "title": { "en": "Will applying hurt my credit?", "fa": "آیا درخواست به اعتبار من آسیب می‌زند؟" },
+          "reuse": ["resources", "ai"],
+          "body": {
+            "en": "<p>An initial consultation and review doesn't require a credit pull. When we move toward an application, any credit check is done with your consent, and I help time it to minimize impact.</p>",
+            "fa": "<p>مشاوره و بررسی اولیه نیازی به استعلام اعتباری ندارد. وقتی به‌سمت درخواست حرکت می‌کنیم، هر استعلام اعتباری با رضایت شما انجام می‌شود و در زمان‌بندی آن برای کمینه‌کردن اثر کمک می‌کنم.</p>"
+          }
+        },
+        {
+          "type": "faq", "id": "gen-downpayment",
+          "title": { "en": "How much down payment do I need?", "fa": "چه میزان پیش‌پرداخت لازم دارم؟" },
+          "reuse": ["resources", "ai"],
+          "body": {
+            "en": "<p>For an owner-occupied home in Canada the minimum is 5% on the first $500,000 of price and 10% on the portion above that, up to $1.5M. Below 20% down, mortgage default insurance applies. Rental and investment properties generally require at least 20%. I'll confirm the exact number for your price and goals.</p>",
+            "fa": "<p>برای خانه‌ای که خودتان در آن ساکن می‌شوید، حداقل در کانادا ۵٪ روی ۵۰۰٬۰۰۰ دلار اول قیمت و ۱۰٪ روی مبلغ بالاتر از آن تا سقف ۱٫۵ میلیون دلار است. با پیش‌پرداخت کمتر از ۲۰٪، بیمه پیش‌فرض وام مسکن اعمال می‌شود. املاک اجاره‌ای و سرمایه‌گذاری معمولاً حداقل ۲۰٪ نیاز دارند.</p>"
+          }
+        },
+        {
+          "type": "faq", "id": "gen-stress",
+          "title": { "en": "What is the mortgage stress test?", "fa": "آزمون استرس وام مسکن چیست؟" },
+          "reuse": ["resources", "ai"],
+          "body": {
+            "en": "<p>Lenders must qualify you at the higher of your contract rate plus 2% or a regulated minimum qualifying rate — not just the rate you'll actually pay. It confirms you could handle higher payments, and positioning your file well matters.</p>",
+            "fa": "<p>وام‌دهندگان باید شما را با نرخ بالاتر بین «نرخ قرارداد به‌علاوه ۲٪» یا یک «نرخ حداقل واجد شرایط» مقرراتی بسنجند — نه فقط نرخی که واقعاً می‌پردازید. این تأیید می‌کند که می‌توانید پرداخت‌های بالاتر را تحمل کنید و ارائه درست پرونده اهمیت دارد.</p>"
+          }
+        },
+        {
+          "type": "faq", "id": "gen-farsi",
+          "title": { "en": "Do you work with Persian-speaking clients?", "fa": "آیا با مشتریان فارسی‌زبان کار می‌کنید؟" },
+          "reuse": ["resources"],
+          "body": {
+            "en": "<p>Yes — full advisory service is available in English and Farsi. <a href='../fa/index.html' lang='fa'>برای نسخه فارسی اینجا کلیک کنید.</a></p>",
+            "fa": "<p>بله — خدمات مشاوره کامل به زبان فارسی و انگلیسی ارائه می‌شود.</p>"
+          }
+        },
+        {
+          "type": "faq", "id": "gen-area",
+          "title": { "en": "What areas do you serve?", "fa": "در چه مناطقی خدمات ارائه می‌دهید؟" },
+          "reuse": ["resources", "ai"],
+          "body": {
+            "en": "<p>I'm licensed in Ontario and work with clients across the province — with a focus on the Greater Toronto Area and surrounding regions. Most of the process is handled securely online, so we can work together wherever you are in Ontario.</p>",
+            "fa": "<p>من در انتاریو مجوز دارم و با مشتریان در سراسر استان کار می‌کنم — با تمرکز بر منطقه بزرگ تورنتو (GTA) و نواحی پیرامون. بیشتر فرایند به‌صورت امن و آنلاین انجام می‌شود.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
