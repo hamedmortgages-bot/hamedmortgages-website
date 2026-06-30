@@ -33,7 +33,26 @@
           "body": {
             "en": "<p><strong>What it means.</strong> The path from 'thinking about it' to keys in hand: get pre-approved, find a home, firm up financing, satisfy conditions, and close with your lawyer.</p><p><strong>Why it matters.</strong> A real pre-approval sets a realistic budget and usually holds a rate for about 90–120 days, so you can make an offer with confidence.</p><p><strong>What lenders look for.</strong> Stable, documented income; a down payment with a 90-day paper trail; manageable debt (your GDS/TDS ratios); and a reasonable credit history.</p><p><strong>Common mistakes.</strong> Changing jobs or financing a car mid-application, large unexplained deposits, or forgetting closing costs — in Ontario that includes Land Transfer Tax (with an extra municipal LTT in Toronto), though first-time buyers may qualify for rebates.</p><p><strong>Documents you may need.</strong> Government ID, proof of income (letter of employment, recent pay stubs, T4s/Notices of Assessment), and 90 days of statements showing your down payment.</p><p><strong>How Hamed reviews it.</strong> I confirm a realistic price range, check which first-time programs and rebates apply, and hold a competitive rate while you shop.</p><p><strong>Next step.</strong> <a href='assessment.html'>Start your free assessment →</a></p>",
             "fa": "<p><strong>یعنی چه.</strong> مسیر از «در حال فکر کردن» تا کلید خانه: دریافت پیش‌تأیید، یافتن خانه، نهایی‌کردن تأمین مالی، رفع شرایط، و بستن قرارداد با وکیل شما.</p><p><strong>چرا مهم است.</strong> یک پیش‌تأیید واقعی بودجه واقع‌بینانه‌ای تعیین می‌کند و معمولاً نرخ را حدود ۹۰ تا ۱۲۰ روز نگه می‌دارد، تا با اطمینان پیشنهاد بدهید.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> درآمد پایدار و مستند؛ پیش‌پرداخت با سابقه ۹۰ روزه؛ بدهی قابل‌مدیریت (نسبت‌های GDS/TDS شما)؛ و سابقه اعتباری معقول.</p><p><strong>اشتباهات رایج.</strong> تغییر شغل یا خرید قسطی خودرو در میانه درخواست، واریزهای بزرگ بدون توضیح، یا فراموش‌کردن هزینه‌های بستن — در انتاریو شامل مالیات انتقال زمین (و مالیات شهری اضافی در تورنتو) است، هرچند خریداران اولین خانه ممکن است مشمول تخفیف شوند.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> کارت شناسایی دولتی، اثبات درآمد (نامه کارفرما، فیش‌های حقوقی اخیر، T4/اظهارنامه مالیاتی)، و ۹۰ روز صورت‌حساب که پیش‌پرداخت را نشان دهد.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> محدوده قیمتی واقع‌بینانه را تأیید می‌کنم، بررسی می‌کنم کدام برنامه‌ها و تخفیف‌های خریداران اولین خانه شامل شما می‌شود، و در حین جست‌وجو نرخ رقابتی را نگه می‌دارم.</p><p><strong>گام بعدی.</strong> <a href='assessment.html'>ارزیابی رایگان خود را آغاز کنید ←</a></p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            },
+            {
+              "source_name": "Land Transfer Tax",
+              "source_url": "https://www.ontario.ca/document/land-transfer-tax",
+              "organization": "Government of Ontario"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         },
         {
           "type": "lender_insight",
@@ -86,7 +105,26 @@
           "body": {
             "en": "<p><strong>What it means.</strong> If you're self-employed or incorporated, lenders read your income differently than a salaried T4 employee — often a two-year average of your filed income, sometimes with reasonable add-backs, and occasionally through alternative programs.</p><p><strong>Why it matters.</strong> How your income is positioned can change what you qualify for dramatically. The same business can look 'thin' or 'strong' depending on how the file is built.</p><p><strong>What lenders look for.</strong> Two years of Notices of Assessment with no taxes owing, consistent or rising income, business longevity, and clean separation between business and personal finances.</p><p><strong>Common mistakes.</strong> Writing income down to near-zero for tax purposes and then expecting full qualification; carrying a balance owing to CRA; or mixing personal and business accounts.</p><p><strong>Documents you may need.</strong> T1 Generals and Notices of Assessment (2 years), business registration or articles of incorporation, recent business financial statements, and bank statements.</p><p><strong>How Hamed reviews it.</strong> I choose the income approach and the lender that fit your real numbers — including lenders who understand business-for-self income.</p><p><strong>Next step.</strong> <a href='business-owners.html'>See Business Owner solutions →</a></p>",
             "fa": "<p><strong>یعنی چه.</strong> اگر خوداشتغال یا دارای شرکت هستید، وام‌دهندگان درآمد شما را متفاوت از یک کارمند حقوق‌بگیر T4 می‌خوانند — اغلب میانگین دو سال درآمد اظهارشده، گاهی با افزودنی‌های معقول، و گاهی از طریق برنامه‌های جایگزین.</p><p><strong>چرا مهم است.</strong> نحوه ارائه درآمد می‌تواند واجد شرایط بودن شما را به‌شدت تغییر دهد. یک کسب‌وکار یکسان بسته به نحوه ساخت پرونده می‌تواند «ضعیف» یا «قوی» به‌نظر برسد.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> دو سال اظهارنامه مالیاتی بدون بدهی مالیاتی، درآمد ثابت یا رو به رشد، سابقه کسب‌وکار، و تفکیک تمیز مالی کسب‌وکار و شخصی.</p><p><strong>اشتباهات رایج.</strong> پایین‌نوشتن درآمد برای مالیات و سپس انتظار واجد شرایط بودن کامل؛ داشتن بدهی به اداره مالیات (CRA)؛ یا درآمیختن حساب‌های شخصی و کسب‌وکار.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> اظهارنامه‌های T1 و مالیاتی (۲ سال)، ثبت کسب‌وکار یا اساسنامه شرکت، صورت‌های مالی اخیر کسب‌وکار، و صورت‌حساب‌های بانکی.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> رویکرد درآمدی و وام‌دهنده‌ای را که با اعداد واقعی شما هماهنگ است انتخاب می‌کنم.</p><p><strong>گام بعدی.</strong> <a href='business-owners.html'>راهکارهای صاحبان کسب‌وکار را ببینید ←</a></p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Personal income tax — Notices of Assessment",
+              "source_url": "https://www.canada.ca/en/revenue-agency.html",
+              "organization": "Canada Revenue Agency (CRA)"
+            },
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         },
         {
           "type": "broker_tip",
@@ -177,7 +215,25 @@
               "درآمیختن بانکداری شخصی و کسب‌وکار به‌طوری‌که درآمد سخت قابل‌تأیید شود.",
               "تأخیر در تنظیم اظهارنامه اخیر، به‌طوری‌که وام‌دهنده آن را نبیند."
             ]
-          }
+          },
+          "title": {
+            "en": "Common mistakes — self-employed files",
+            "fa": "اشتباهات رایج — پرونده‌های خوداشتغالی"
+          },
+          "sources": [
+            {
+              "source_name": "Personal income tax — Notices of Assessment",
+              "source_url": "https://www.canada.ca/en/revenue-agency.html",
+              "organization": "Canada Revenue Agency (CRA)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         }
       ]
     },
@@ -213,7 +269,26 @@
           "body": {
             "en": "<p><strong>What it means.</strong> Refinancing replaces or restructures your current mortgage — to access equity, consolidate higher-interest debt, fund a renovation or investment, or change your term.</p><p><strong>Why it matters.</strong> Done at the right time it can free up cash flow or fund a goal; done at the wrong time the costs can outweigh the benefit, so the math has to be run first.</p><p><strong>What lenders look for.</strong> Sufficient equity (a refinance typically lets you borrow up to 80% of your home's value), provable income, and acceptable credit.</p><p><strong>Common mistakes.</strong> Breaking a fixed mortgage without first calculating the penalty (often an Interest Rate Differential), refinancing for short-term wants, or not comparing a blend-and-extend with your current lender.</p><p><strong>Documents you may need.</strong> Your current mortgage statement, a recent property tax bill, income documents, and ID.</p><p><strong>How Hamed reviews it.</strong> I calculate your penalty versus your projected savings, model the break-even point, and only recommend it when the numbers genuinely work.</p><p><strong>Next step.</strong> <a href='refinance.html'>Explore refinancing →</a></p>",
             "fa": "<p><strong>یعنی چه.</strong> ریفاینانس وام مسکن فعلی شما را جایگزین یا بازساختاردهی می‌کند — برای دسترسی به سرمایه (اکوئیتی)، تجمیع بدهی‌های پربهره، تأمین مالی بازسازی یا سرمایه‌گذاری، یا تغییر دوره.</p><p><strong>چرا مهم است.</strong> در زمان درست می‌تواند جریان نقدی را آزاد کند؛ در زمان نادرست هزینه‌ها می‌تواند از منفعت بیشتر شود، پس ابتدا باید محاسبه شود.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> سرمایه کافی (ریفاینانس معمولاً اجازه می‌دهد تا ۸۰٪ ارزش خانه وام بگیرید)، درآمد قابل‌اثبات، و اعتبار قابل‌قبول.</p><p><strong>اشتباهات رایج.</strong> شکستن وام با نرخ ثابت بدون محاسبه جریمه (اغلب تفاوت نرخ بهره/IRD)، ریفاینانس برای خواسته‌های کوتاه‌مدت، یا نسنجیدن گزینه ترکیب‌و‌تمدید با وام‌دهنده فعلی.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> صورت‌حساب وام فعلی، قبض مالیات ملک اخیر، مدارک درآمد، و شناسایی.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> جریمه را در برابر صرفه‌جویی پیش‌بینی‌شده محاسبه می‌کنم، نقطه سربه‌سر را مدل می‌کنم، و تنها زمانی توصیه می‌کنم که اعداد واقعاً به نفع شما باشند.</p><p><strong>گام بعدی.</strong> <a href='refinance.html'>ریفاینانس را بررسی کنید ←</a></p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            },
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
@@ -230,7 +305,21 @@
           "body": {
             "en": "<p>On a variable mortgage it's usually three months' interest. On a fixed mortgage it's the greater of three months' interest or the Interest Rate Differential (IRD) — and IRD can be large. I always pull your exact penalty before recommending a move.</p>",
             "fa": "<p>در وام با نرخ متغیر معمولاً سه ماه بهره است. در وام با نرخ ثابت، بیشترِ سه ماه بهره یا تفاوت نرخ بهره (IRD) — و IRD می‌تواند بزرگ باشد. همیشه جریمه دقیق شما را پیش از توصیه استخراج می‌کنم.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Paying off your mortgage — prepayment penalties",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
@@ -247,7 +336,26 @@
           "body": {
             "en": "<p>A refinance generally lets you borrow up to 80% of your home's appraised value, minus your current balance. Example: an $800,000 home at 80% is $640,000 of room; if you owe $480,000, up to about $160,000 may be available — subject to qualifying.</p>",
             "fa": "<p>ریفاینانس معمولاً اجازه می‌دهد تا ۸۰٪ ارزش ارزیابی‌شده خانه منهای مانده فعلی وام بگیرید. مثال: خانه ۸۰۰٬۰۰۰ دلاری در ۸۰٪ یعنی ۶۴۰٬۰۰۰ دلار ظرفیت؛ اگر ۴۸۰٬۰۰۰ دلار بدهکارید، تا حدود ۱۶۰٬۰۰۰ دلار ممکن است در دسترس باشد — مشروط به واجد شرایط بودن.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            },
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "example",
@@ -303,7 +411,25 @@
               "نادیده‌گرفتن پیشنهاد ترکیب‌و‌تمدید از وام‌دهنده فعلی.",
               "فراموش‌کردن هزینه‌های حقوقی، ارزیابی و تسویه در محاسبه نقطه سربه‌سر."
             ]
-          }
+          },
+          "title": {
+            "en": "Common mistakes — refinancing",
+            "fa": "اشتباهات رایج — ریفاینانس"
+          },
+          "sources": [
+            {
+              "source_name": "Paying off your mortgage — prepayment penalties",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "lender_insight",
@@ -320,7 +446,26 @@
           "body": {
             "en": "Beyond the 80% loan-to-value ceiling, lenders re-check income and credit as if it were a new approval, and they confirm the property value with an appraisal. Recent missed payments or a thin income picture can shrink how much is approved.",
             "fa": "فراتر از سقف ۸۰٪ نسبت وام به ارزش، وام‌دهندگان درآمد و اعتبار را مانند یک تأیید جدید دوباره بررسی می‌کنند و ارزش ملک را با ارزیابی تأیید می‌کنند. پرداخت‌های ازدست‌رفته اخیر یا تصویر درآمدی ضعیف می‌تواند مبلغ تأییدشده را کاهش دهد."
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            },
+            {
+              "source_name": "Guideline B-20 — Residential Mortgage Underwriting Practices",
+              "source_url": "https://www.osfi-bsif.gc.ca/",
+              "organization": "Office of the Superintendent of Financial Institutions (OSFI)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "broker_tip",
@@ -342,14 +487,50 @@
           "type": "download",
           "id": "refi-dl-worksheet",
           "title": {
-            "en": "Refinance break-even worksheet",
-            "fa": "کاربرگ نقطه سربه‌سر ریفاینانس"
+            "en": "Refinance break-even — quick worksheet",
+            "fa": "نقطه سربه‌سر ریفاینانس — کاربرگ سریع"
           },
-          "status": "coming-soon",
+          "status": "draft-resource",
           "reuse": [
             "refinance",
             "workspace"
-          ]
+          ],
+          "description": {
+            "en": "A quick way to decide if refinancing pays off: total the cost to break and re-set your mortgage, then divide by your monthly benefit to find your break-even point.",
+            "fa": "راهی سریع برای تصمیم درباره‌ی این‌که آیا ریفاینانس به‌صرفه است: هزینه‌ی کل شکستن و تنظیم مجدد وام را جمع کنید، سپس بر منفعت ماهانه تقسیم کنید تا نقطه‌ی سربه‌سر را بیابید."
+          },
+          "worksheet": {
+            "en": [
+              "1. Your penalty to break the mortgage — ask your lender for the exact figure (on a fixed mortgage this is the greater of three months' interest or the Interest Rate Differential).",
+              "2. Add the costs — legal/discharge, appraisal, and any title fees.",
+              "3. Total cost to refinance = penalty + costs.",
+              "4. Your monthly benefit = old payment − new payment (or the value of what the new funds unlock).",
+              "5. Break-even (months) = total cost ÷ monthly benefit.",
+              "6. Decision — if you'll keep the mortgage well past the break-even point it usually makes sense; if you're near renewal, waiting can avoid most of the penalty."
+            ],
+            "fa": [
+              "۱. جریمه‌ی شکستن وام — رقم دقیق را از وام‌دهنده بخواهید (در وام با نرخ ثابت، بیشترِ سه ماه بهره یا تفاوت نرخ بهره/IRD است).",
+              "۲. هزینه‌ها را اضافه کنید — هزینه‌های حقوقی/تسویه، ارزیابی و هزینه‌های احتمالی سند.",
+              "۳. هزینه‌ی کل ریفاینانس = جریمه + هزینه‌ها.",
+              "۴. منفعت ماهانه‌ی شما = پرداخت قبلی − پرداخت جدید (یا ارزش آنچه وجوه جدید آزاد می‌کند).",
+              "۵. نقطه‌ی سربه‌سر (ماه) = هزینه‌ی کل ÷ منفعت ماهانه.",
+              "۶. تصمیم — اگر وام را تا مدت‌ها پس از نقطه‌ی سربه‌سر نگه می‌دارید معمولاً منطقی است؛ اگر به تمدید نزدیکید، صبر می‌تواند بیشتر جریمه را حذف کند."
+            ]
+          },
+          "sources": [
+            {
+              "source_name": "Paying off your mortgage — prepayment penalties",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "video",
@@ -418,7 +599,21 @@
           "body": {
             "en": "<p><strong>What it means.</strong> When your term ends, your current lender mails a renewal offer. You can accept it, renegotiate, or switch your mortgage to another lender.</p><p><strong>Why it matters.</strong> The first renewal offer is rarely the lowest rate available. Reviewing it — and switching when it makes sense — can save thousands over the next term.</p><p><strong>What lenders look for (to switch).</strong> A switch is re-qualified like a new approval: income, credit, and your property's value all matter, so prepare early.</p><p><strong>Common mistakes.</strong> Auto-signing to 'keep it simple,' waiting until the final week, or assuming you're locked in when you're not.</p><p><strong>Documents you may need.</strong> Your renewal letter, your latest mortgage statement, and income documents if you switch.</p><p><strong>How Hamed reviews it.</strong> I shop your renewal about 120 days before maturity and compare staying put against switching, including any switch costs.</p><p><strong>Next step.</strong> <a href='contact.html'>Book a renewal review →</a></p>",
             "fa": "<p><strong>یعنی چه.</strong> در پایان دوره، وام‌دهنده فعلی یک پیشنهاد تمدید می‌فرستد. می‌توانید بپذیرید، مذاکره مجدد کنید، یا وام را به وام‌دهنده دیگری منتقل کنید.</p><p><strong>چرا مهم است.</strong> اولین پیشنهاد تمدید به‌ندرت کمترین نرخ موجود است. بررسی آن — و انتقال در صورت منطقی بودن — می‌تواند هزاران دلار صرفه‌جویی کند.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند (برای انتقال).</strong> انتقال مانند یک تأیید جدید دوباره ارزیابی می‌شود: درآمد، اعتبار و ارزش ملک همگی مهم‌اند، پس زود آماده شوید.</p><p><strong>اشتباهات رایج.</strong> امضای خودکار برای «ساده نگه‌داشتن»، صبر تا هفته آخر، یا تصور این‌که قفل شده‌اید درحالی‌که نیستید.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> نامه تمدید، آخرین صورت‌حساب وام، و در صورت انتقال مدارک درآمد.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> تمدید شما را حدود ۱۲۰ روز پیش از سررسید بررسی می‌کنم و ماندن را با انتقال مقایسه می‌کنم.</p><p><strong>گام بعدی.</strong> <a href='contact.html'>یک بازبینی تمدید رزرو کنید ←</a></p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         }
       ]
     },
@@ -453,7 +648,21 @@
           "body": {
             "en": "<p><strong>What it means.</strong> Financing a rental or investment property follows different rules than your home — larger down payments and specific ways lenders count rental income.</p><p><strong>Why it matters.</strong> How the file is structured affects how much you qualify for today and how easily you can grow a portfolio later.</p><p><strong>What lenders look for.</strong> Typically at least 20% down on a rental, how they treat rental income (a 'rental offset' versus 'add-back'), sometimes a debt-coverage ratio, and cash reserves.</p><p><strong>Common mistakes.</strong> Assuming owner-occupied rates and down payments apply, ignoring vacancy and expenses, or over-leveraging.</p><p><strong>Documents you may need.</strong> Lease agreements, a T776 if already owned, the property tax bill, and statements for existing mortgages.</p><p><strong>How Hamed reviews it.</strong> I structure the application and select lenders whose rental-income treatment maximizes what you qualify for.</p><p><strong>Next step.</strong> <a href='investment.html'>See Investment Property financing →</a></p>",
             "fa": "<p><strong>یعنی چه.</strong> تأمین مالی ملک اجاره‌ای یا سرمایه‌گذاری قوانینی متفاوت از خانه شما دارد — پیش‌پرداخت بزرگ‌تر و روش‌های خاص محاسبه درآمد اجاره.</p><p><strong>چرا مهم است.</strong> نحوه ساختاردهی پرونده بر میزان واجد شرایط بودن امروز و سهولت رشد پورتفولیو در آینده اثر می‌گذارد.</p><p><strong>وام‌دهندگان به چه نگاه می‌کنند.</strong> معمولاً حداقل ۲۰٪ پیش‌پرداخت برای اجاره، نحوه محاسبه درآمد اجاره (افست در برابر افزودنی)، گاهی نسبت پوشش بدهی، و ذخیره نقدی.</p><p><strong>اشتباهات رایج.</strong> فرض نرخ و پیش‌پرداخت ملک شخصی، نادیده‌گرفتن خالی‌ماندن و هزینه‌ها، یا اهرم بیش از حد.</p><p><strong>مدارکی که ممکن است نیاز باشد.</strong> قراردادهای اجاره، فرم T776 اگر ملک قبلاً در مالکیت است، قبض مالیات ملک، و صورت‌حساب وام‌های موجود.</p><p><strong>حامد چگونه بررسی می‌کند.</strong> درخواست را ساختار می‌دهم و وام‌دهندگانی را انتخاب می‌کنم که نحوه محاسبه درآمد اجاره‌شان واجد شرایط بودن شما را بیشینه می‌کند.</p><p><strong>گام بعدی.</strong> <a href='investment.html'>تأمین مالی ملک سرمایه‌گذاری را ببینید ←</a></p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "lender_insight",
@@ -487,7 +696,21 @@
           "body": {
             "en": "<p>Most lenders require at least 20% down on a rental property, and some ask more for multi-unit buildings. Reserves (a few months of payments set aside) also strengthen the file.</p>",
             "fa": "<p>بیشتر وام‌دهندگان حداقل ۲۰٪ پیش‌پرداخت برای ملک اجاره‌ای می‌خواهند، و برخی برای ساختمان‌های چندواحدی بیشتر می‌طلبند. ذخیره (چند ماه پرداخت کنار گذاشته‌شده) نیز پرونده را قوی‌تر می‌کند.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
@@ -527,7 +750,25 @@
               "اهرم بیش از حد به‌طوری‌که یک خالی‌ماندن فشار جریان نقدی ایجاد کند.",
               "آماده‌نداشتن قراردادهای اجاره و فرم T776 برای وام‌دهنده."
             ]
-          }
+          },
+          "title": {
+            "en": "Common mistakes — investment properties",
+            "fa": "اشتباهات رایج — املاک سرمایه‌گذاری"
+          },
+          "sources": [
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         },
         {
           "type": "example",
@@ -647,7 +888,26 @@
           "body": {
             "en": "<p>For an owner-occupied home in Canada the minimum is 5% on the first $500,000 of price and 10% on the portion above that, up to $1.5M. Below 20% down, mortgage default insurance applies. Rental and investment properties generally require at least 20%. I'll confirm the exact number for your price and goals.</p>",
             "fa": "<p>برای خانه‌ای که خودتان در آن ساکن می‌شوید، حداقل در کانادا ۵٪ روی ۵۰۰٬۰۰۰ دلار اول قیمت و ۱۰٪ روی مبلغ بالاتر از آن تا سقف ۱٫۵ میلیون دلار است. با پیش‌پرداخت کمتر از ۲۰٪، بیمه پیش‌فرض وام مسکن اعمال می‌شود. املاک اجاره‌ای و سرمایه‌گذاری معمولاً حداقل ۲۰٪ نیاز دارند.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            },
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
@@ -663,7 +923,21 @@
           "body": {
             "en": "<p>Lenders must qualify you at the higher of your contract rate plus 2% or a regulated minimum qualifying rate — not just the rate you'll actually pay. It confirms you could handle higher payments, and positioning your file well matters.</p>",
             "fa": "<p>وام‌دهندگان باید شما را با نرخ بالاتر بین «نرخ قرارداد به‌علاوه ۲٪» یا یک «نرخ حداقل واجد شرایط» مقرراتی بسنجند — نه فقط نرخی که واقعاً می‌پردازید. این تأیید می‌کند که می‌توانید پرداخت‌های بالاتر را تحمل کنید و ارائه درست پرونده اهمیت دارد.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Guideline B-20 — Residential Mortgage Underwriting Practices",
+              "source_url": "https://www.osfi-bsif.gc.ca/",
+              "organization": "Office of the Superintendent of Financial Institutions (OSFI)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "on-rate-change"
         },
         {
           "type": "faq",
@@ -711,7 +985,21 @@
           "body": {
             "en": "<p>A pre-qualification is a quick estimate based on what you tell me. A pre-approval is documented and verified, usually with a rate held for 90–120 days — a much stronger position when you make an offer.</p>",
             "fa": "<p>پیش‌واجد شرایطی یک برآورد سریع بر اساس گفته‌های شماست. پیش‌تأیید مستند و تأییدشده است، معمولاً با نرخ نگه‌داشته‌شده برای ۹۰ تا ۱۲۰ روز — موقعیتی بسیار قوی‌تر هنگام ارائه پیشنهاد.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
@@ -743,7 +1031,25 @@
           "body": {
             "en": "<p>Plan for Land Transfer Tax (with an extra municipal tax in Toronto), legal fees, title insurance, an appraisal, and adjustments. A common rough budget is about 1.5%–4% of the purchase price — first-time buyers may qualify for LTT rebates.</p>",
             "fa": "<p>برای مالیات انتقال زمین (با مالیات شهری اضافی در تورنتو)، هزینه‌های حقوقی، بیمه عنوان، ارزیابی و تعدیلات برنامه‌ریزی کنید. بودجه تقریبی رایج حدود ۱٫۵ تا ۴ درصد قیمت خرید است — خریداران اولین خانه ممکن است مشمول تخفیف مالیات انتقال زمین شوند.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Land Transfer Tax",
+              "source_url": "https://www.ontario.ca/document/land-transfer-tax",
+              "organization": "Government of Ontario"
+            },
+            {
+              "source_name": "Municipal Land Transfer Tax (MLTT)",
+              "source_url": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/",
+              "organization": "City of Toronto"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
@@ -759,7 +1065,26 @@
           "body": {
             "en": "<p>Yes — typically from an immediate family member. Lenders need a signed gift letter confirming the funds are a true gift (not a loan), plus proof the money reached your account.</p>",
             "fa": "<p>بله — معمولاً از یک عضو خانواده درجه‌یک. وام‌دهندگان به نامه هدیه امضاشده که تأیید کند وجه یک هدیه واقعی است (نه وام)، به‌علاوه اثبات رسیدن پول به حساب شما، نیاز دارند.</p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgage loan insurance",
+              "source_url": "https://www.cmhc-schl.gc.ca/",
+              "organization": "Canada Mortgage and Housing Corporation (CMHC)"
+            },
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "high",
+          "review_frequency": "annual"
         }
       ]
     },
@@ -938,7 +1263,26 @@
           "body": {
             "en": "<p><strong>What it means.</strong> After your application is submitted, the lender's underwriter (UW) reviews it and almost always issues a <em>conditional approval</em> — a list of documents and conditions to satisfy before the mortgage is final.</p><p><strong>Why it matters.</strong> Most approvals start conditional. Clearing the conditions quickly keeps your closing date on track — delays can put a closing at risk.</p><p><strong>What the underwriter usually asks for.</strong> Confirmation of income (a recent pay stub, letter of employment, or Notices of Assessment), proof of down payment with a 90-day history (and a gift letter if applicable), property documents (the Agreement of Purchase and Sale, MLS listing, tax bill, and a condo status certificate for condos), and a brief explanation for any large or unusual deposits.</p><p><strong>How Hamed handles it.</strong> I receive the underwriter's condition list, translate it into exactly what you need, you upload it securely to your Mortgage Workspace, and I package and submit it to the lender — then follow up until every condition is cleared.</p><p><strong>Next step.</strong> <a href='workspace.html'>Open your Workspace to upload requested documents →</a></p>",
             "fa": "<p><strong>یعنی چه.</strong> پس از ارسال درخواست، آندرایتر وام‌دهنده آن را بررسی می‌کند و تقریباً همیشه یک <em>تأیید مشروط</em> صادر می‌کند — فهرستی از مدارک و شرایطی که باید پیش از نهایی‌شدن وام برآورده شوند.</p><p><strong>چرا مهم است.</strong> بیشتر تأییدها مشروط آغاز می‌شوند. رفع سریع شرایط، تاریخ بستن قرارداد شما را سر وقت نگه می‌دارد — تأخیر می‌تواند بستن را به خطر بیندازد.</p><p><strong>آندرایتر معمولاً چه می‌خواهد.</strong> تأیید درآمد (فیش حقوقی اخیر، نامه کارفرما یا اظهارنامه‌های مالیاتی)، اثبات پیش‌پرداخت با سابقه ۹۰ روزه (و نامه هدیه در صورت لزوم)، مدارک ملک (قرارداد خرید و فروش، آگهی MLS، قبض مالیات، و گواهی وضعیت کاندو برای کاندوها)، و توضیح کوتاه برای هر واریز بزرگ یا غیرعادی.</p><p><strong>حامد چگونه رسیدگی می‌کند.</strong> فهرست شرایط آندرایتر را دریافت می‌کنم، به آنچه دقیقاً نیاز دارید تبدیل می‌کنم، شما آن را به‌صورت امن در فضای کاری وام مسکن بارگذاری می‌کنید، و من آن را بسته‌بندی و به وام‌دهنده ارسال می‌کنم — سپس پیگیری می‌کنم تا همه شرایط رفع شود.</p><p><strong>گام بعدی.</strong> <a href='workspace.html'>فضای کاری خود را برای بارگذاری مدارک درخواست‌شده باز کنید ←</a></p>"
-          }
+          },
+          "sources": [
+            {
+              "source_name": "Mortgages — overview",
+              "source_url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html",
+              "organization": "Financial Consumer Agency of Canada (FCAC)"
+            },
+            {
+              "source_name": "Guideline B-20 — Residential Mortgage Underwriting Practices",
+              "source_url": "https://www.osfi-bsif.gc.ca/",
+              "organization": "Office of the Superintendent of Financial Institutions (OSFI)"
+            }
+          ],
+          "last_verified": "2026-06-30",
+          "province_applicability": [
+            "ON",
+            "CA"
+          ],
+          "confidence_level": "medium",
+          "review_frequency": "annual"
         },
         {
           "type": "faq",
