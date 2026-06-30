@@ -1,7 +1,7 @@
 /* ===================================================================
    Hamed Mortgages — main.js
-   Vanilla JS. Handles: mobile nav, FAQ accordion, footer year.
-   Analytics: Google Analytics 4 + Microsoft Clarity (loaded async).
+   Vanilla JS only. No dependencies, no tracking, no network calls.
+   Handles: mobile nav, News nav link, FAQ accordion, footer year.
    (Calculator is in calculator.js)
    =================================================================== */
 (function () {
@@ -24,6 +24,32 @@
     });
   }
 
+  /* ---------- News nav link (site-wide, idempotent, lang-aware) ----------
+     Adds a "News" item to the primary menu after "Resources" on any page
+     that doesn't already include it. Index and the News pages already have
+     it statically, so this only fills in the remaining interior pages. */
+  var menu = document.getElementById("primary-menu");
+  if (menu && !menu.querySelector('a[href="news.html"]')) {
+    var lang = (document.documentElement.getAttribute("lang") || "en").slice(0, 2);
+    var li = document.createElement("li");
+    var a = document.createElement("a");
+    a.href = "news.html";
+    a.textContent = lang === "fa" ? "اخبار" : "News";
+    li.appendChild(a);
+    var resLink = menu.querySelector('a[href="resources.html"]');
+    if (resLink && resLink.parentElement && resLink.parentElement.parentElement === menu) {
+      resLink.parentElement.insertAdjacentElement("afterend", li);
+    } else {
+      menu.appendChild(li);
+    }
+    if (nav && toggle) {
+      a.addEventListener("click", function () {
+        nav.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    }
+  }
+
   /* ---------- FAQ accordion ---------- */
   document.querySelectorAll("[data-faq-q]").forEach(function (btn) {
     btn.addEventListener("click", function () {
@@ -39,26 +65,4 @@
   /* ---------- Footer year ---------- */
   var y = document.querySelector("[data-year]");
   if (y) { y.textContent = new Date().getFullYear(); }
-
-  /* ---------- Google Analytics 4 ---------- */
-  (function () {
-    var GA_ID = "G-0GQW0ZXH9N";
-    var s = document.createElement("script");
-    s.async = true;
-    s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
-    document.head.appendChild(s);
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-    window.gtag = gtag;
-    gtag("js", new Date());
-    gtag("config", GA_ID);
-  })();
-
-  /* ---------- Microsoft Clarity ---------- */
-  (function (c, l, a, r, i, t, y) {
-    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
-    t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
-    y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
-  })(window, document, "clarity", "script", "xdfis7oot3");
-
 })();
