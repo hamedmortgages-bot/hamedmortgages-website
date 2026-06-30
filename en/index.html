@@ -18,17 +18,14 @@
   <meta property="og:url" content="https://hamedmortgages.ca/en/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="../assets/img/hero-hamed-900.webp" imagesrcset="../assets/img/hero-hamed-600.webp 600w, ../assets/img/hero-hamed-900.webp 900w, ../assets/img/hero-hamed-1254.webp 1254w" imagesizes="(max-width: 860px) 360px, 500px" fetchpriority="high">
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
   <meta property="og:image" content="https://hamedmortgages.ca/assets/img/hero-hamed.jpg">
   <meta property="og:site_name" content="Hamed Ashouri — Mortgage Broker & Financial Strategist">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://hamedmortgages.ca/assets/img/hero-hamed.jpg">
   <meta name="theme-color" content="#0F3D2E">
-  <link rel="stylesheet" href="../assets/css/main.css?v=20260627b">
-  <style>.hero__portrait picture{display:block}</style>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/news.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -68,6 +65,7 @@
           <li><a href="solutions.html">Solutions</a></li>
           <li><a href="business-owners.html">Business Owners</a></li>
           <li><a href="resources.html">Resources</a></li>
+          <li><a href="news.html">News</a></li>
           <li><a href="https://cmhc.hamedmortgages.ca">CMHC Rental</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -92,9 +90,9 @@
           <h1>Strategic Mortgage Solutions for Professionals, Business Owners and Real Estate Investors</h1>
           <p class="lead">Mortgage structuring, refinancing, and financing strategy for clients who need more than a standard approval.</p>
           <div class="btn-row">
-            <a class="btn btn--primary" href="workspace.html">Create Mortgage Workspace</a>
-            <a class="btn btn--ghost-light" href="assessment.html">Start Mortgage Assessment</a>
-            <a class="btn btn--ghost-light" href="contact.html">Book a Consultation</a>
+            <a class="btn btn--primary" href="contact.html">Book a Consultation</a>
+            <a class="btn btn--ghost-light" href="contact.html#assessment">Start Mortgage Assessment</a>
+            <a class="btn btn--ghost-light" href="https://cmhc.hamedmortgages.ca">CMHC Rental Calculator</a>
           </div>
           <div class="hero__trust">
             <span><b>Licensed</b> Ontario Mortgage Broker</span>
@@ -103,46 +101,8 @@
           </div>
         </div>
         <figure class="hero__portrait">
-          <picture>
-            <source type="image/webp" srcset="../assets/img/hero-hamed-600.webp 600w, ../assets/img/hero-hamed-900.webp 900w, ../assets/img/hero-hamed-1254.webp 1254w" sizes="(max-width: 860px) 360px, 500px">
-            <img src="../assets/img/hero-hamed.jpg" alt="Hamed Ashouri, Mortgage Broker and Financial Strategist" width="1254" height="1254" decoding="async" fetchpriority="high">
-          </picture>
+          <img src="../assets/img/hero-hamed.jpg" alt="Hamed Ashouri, Mortgage Broker and Financial Strategist" width="1254" height="1254" decoding="async" fetchpriority="high">
         </figure>
-      </div>
-    </section>
-
-    <!-- ============ CHOOSE YOUR JOURNEY (DUAL CTA) ============ -->
-    <section class="section">
-      <div class="container">
-        <div class="section-head center">
-          <p class="eyebrow">Two ways to start</p>
-          <h2>Just exploring, or ready to begin your file?</h2>
-          <p class="lead">Pick the path that fits where you are. You can always start with a quick assessment and move into a full Workspace when you're ready.</p>
-        </div>
-        <div class="grid grid--2" style="align-items:stretch;">
-          <div class="card" style="display:flex; flex-direction:column;">
-            <p class="eyebrow">Option 1</p>
-            <h3>Quick Mortgage Assessment</h3>
-            <ul class="ws-value" style="list-style:none; padding:0; margin:.5rem 0 1.25rem; display:grid; gap:.5rem; color:var(--text-muted);">
-              <li>• Instant analysis of your options</li>
-              <li>• No documents required</li>
-              <li>• Free &amp; no obligation</li>
-              <li>• Book a consultation when ready</li>
-            </ul>
-            <a class="btn btn--outline" href="assessment.html" style="margin-top:auto;">Start Assessment</a>
-          </div>
-          <div class="card" style="display:flex; flex-direction:column; border-color:var(--green-600);">
-            <p class="eyebrow">Option 2</p>
-            <h3>Mortgage Workspace</h3>
-            <ul class="ws-value" style="list-style:none; padding:0; margin:.5rem 0 1.25rem; display:grid; gap:.5rem; color:var(--text-muted);">
-              <li>• Start your real mortgage file</li>
-              <li>• Upload documents securely</li>
-              <li>• Work directly with Hamed</li>
-              <li>• AI-guided mortgage process</li>
-            </ul>
-            <a class="btn btn--primary" href="workspace.html" style="margin-top:auto;">Create Workspace</a>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -218,7 +178,7 @@
     <section class="section section--alt" id="calculator">
       <div class="container">
         <div class="section-head center"><p class="eyebrow">Mortgage Calculator</p><h2>Estimate a monthly payment</h2></div>
-        <div class="calc" data-gate-lock="Mortgage Calculator">
+        <div class="calc">
           <form class="calc__form" data-calc>
             <div class="field"><label for="price">Property price (CAD)</label><input type="number" id="price" data-price value="750000" min="0" step="1000"></div>
             <div class="field"><label for="down">Down payment (CAD)</label><input type="number" id="down" data-down value="150000" min="0" step="1000"></div>
@@ -236,21 +196,30 @@
           </div>
         </div>
         <p class="disclaimer" style="margin-top:1.5rem;"><strong>Disclaimer:</strong> This calculator is for general illustration only and does not represent mortgage approval, rate availability, or lending advice. Figures are estimates and exclude taxes, insurance, and fees.</p>
-        <div data-kb data-kb-topic="calculator-help" data-kb-types="guide,faq" style="max-width:860px;margin:1.75rem auto 0;"></div>
+      </div>
+    </section>
+
+    <!-- ============ LATEST NEWS ============ -->
+    <section class="section" id="news">
+      <div class="container">
+        <div data-news-widget data-news-limit="3">
+          <div class="section-head center"><p class="eyebrow">Latest News</p><h2>Mortgage market updates</h2></div>
+          <p class="lead" style="text-align:center;">The latest Canadian mortgage news, with Hamed's plain-language analysis. <a href="news.html">View all news →</a></p>
+        </div>
       </div>
     </section>
 
     <!-- ============ FUTURE SYSTEM PLACEHOLDERS ============ -->
-    <section class="section">
+    <section class="section section--alt">
       <div class="container">
-        <div class="section-head center"><p class="eyebrow">Client Tools</p><h2>Your mortgage, managed in one place</h2><p class="lead">These tools live inside your <a href="workspace.html">Mortgage Workspace</a> — your secure working environment for the whole file.</p></div>
+        <div class="section-head center"><p class="eyebrow">Client Tools</p><h2>A smarter mortgage experience — coming soon</h2></div>
         <div class="placeholder-grid">
-          <div class="placeholder"><span class="tag">In your Workspace</span><h3>Client Portal</h3><p>Track your stage, next action, and timeline securely in one place.</p><a class="btn btn--outline" href="workspace.html">Open Workspace</a></div>
-          <div class="placeholder"><span class="tag">In your Workspace</span><h3>Upload Documents</h3><p>See what's required and send documents securely — never by email or text.</p><a class="btn btn--outline" href="workspace.html">Open Workspace</a></div>
-          <div class="placeholder"><span class="tag">In your Workspace</span><h3>AI Mortgage Assistant</h3><p>Ask what's missing or what happens next — answered from your file.</p><a class="btn btn--outline" href="workspace.html">Open Workspace</a></div>
-          <div class="placeholder"><span class="tag">Coming soon</span><h3>Apply Now</h3><p>A full secure online application, built into your Workspace.</p><button class="btn btn--outline" aria-disabled="true" disabled>Coming soon</button></div>
+          <div class="placeholder"><!-- AI CHATBOT PLACEHOLDER --><span class="tag">Coming soon</span><h3>AI Mortgage Assistant</h3><p>Get instant answers and a guided pre-assessment, any time.</p><button class="btn btn--outline" aria-disabled="true" disabled>Launch Assistant</button></div>
+          <div class="placeholder"><!-- ZOHO CREATOR CLIENT PORTAL PLACEHOLDER --><span class="tag">Coming soon</span><h3>Client Portal</h3><p>Track your application status securely in one place.</p><button class="btn btn--outline" aria-disabled="true" disabled>Client Portal Login</button></div>
+          <div class="placeholder"><!-- ZOHO WORKDRIVE UPLOAD PLACEHOLDER --><span class="tag">Coming soon</span><h3>Upload Documents</h3><p>Send your documents securely — never by email or text.</p><button class="btn btn--outline" aria-disabled="true" disabled>Upload Documents</button></div>
+          <div class="placeholder"><!-- ZOHO FORMS / APPLY NOW PLACEHOLDER --><span class="tag">Coming soon</span><h3>Apply Now</h3><p>Start a secure online application when you're ready.</p><button class="btn btn--outline" aria-disabled="true" disabled>Apply Now</button></div>
         </div>
-        <p class="disclaimer" style="margin-top:1.5rem;">Your Workspace handles documents and client data through secure, dedicated systems (Zoho CRM &amp; WorkDrive). Live per-file syncing is rolling out in phases.</p>
+        <p class="disclaimer" style="margin-top:1.5rem;">These tools are in development. No client data is collected or stored on this website. When live, all information will be handled through secure, dedicated systems.</p>
       </div>
     </section>
 
@@ -278,7 +247,7 @@
           <p>Bring me your situation — even a messy one. We'll turn it into a clear, lender-ready strategy.</p>
           <div class="btn-row">
             <a class="btn btn--primary" href="contact.html">Book a Consultation</a>
-            <a class="btn btn--ghost-light" href="assessment.html">Start Mortgage Assessment</a>
+            <a class="btn btn--ghost-light" href="contact.html#assessment">Start Mortgage Assessment</a>
             <a class="btn btn--ghost-light" href="https://cmhc.hamedmortgages.ca">CMHC Rental Calculator</a>
           </div>
         </div>
@@ -291,7 +260,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="brand" style="margin-bottom:1rem;"><img class="brand__logo brand__logo--footer" src="../assets/img/logo.png" alt="Hamed Ashouri" loading="lazy" decoding="async" onerror="this.classList.add('is-missing')"><span class="brand__name brand__fallback"><b style="color:#fff;">Hamed Ashouri</b><span style="color:var(--on-dark-muted);">Mortgage Broker &amp; Strategist</span></span></div>
+          <div class="brand" style="margin-bottom:1rem;"><img class="brand__logo brand__logo--footer" src="../assets/img/logo.png" alt="Hamed Ashouri" onerror="this.classList.add('is-missing')"><span class="brand__name brand__fallback"><b style="color:#fff;">Hamed Ashouri</b><span style="color:var(--on-dark-muted);">Mortgage Broker &amp; Strategist</span></span></div>
           <p>Strategic mortgage solutions for home buyers, homeowners, business owners, and real estate investors across Ontario.</p>
         </div>
         <div>
@@ -306,6 +275,7 @@
           <h4>Company</h4>
           <a href="about.html">About</a>
           <a href="resources.html">Resources</a>
+          <a href="news.html">News</a>
           <a href="contact.html">Contact</a>
           <a href="../fa/index.html" lang="fa">فارسی</a>
         </div>
@@ -326,9 +296,8 @@
     </div>
   </footer>
 
-  <script src="../assets/js/main.js?v=20260627b" defer></script>
-  <script defer src="../assets/js/intake-gate.js?v=20260627b"></script>
-  <script src="../assets/js/calculator.js?v=20260627b" defer></script>
-  <script defer src="../assets/js/kb.js?v=20260627b"></script>
+  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/calculator.js" defer></script>
+  <script src="../assets/js/news.js" defer></script>
 </body>
 </html>
