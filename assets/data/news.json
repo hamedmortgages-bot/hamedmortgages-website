@@ -1,13 +1,33 @@
 {
-  "version": "4",
+  "version": "6",
   "updated": "2026-07-07",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
-    { "id": "rates", "en": "Rates & Bank of Canada", "fa": "نرخ‌ها و بانک مرکزی کانادا" },
-    { "id": "regulation", "en": "Rules & Regulation", "fa": "قوانین و مقررات" },
-    { "id": "housing-market", "en": "Housing Market", "fa": "بازار مسکن" },
-    { "id": "lenders", "en": "Lenders & Products", "fa": "وام‌دهندگان و محصولات" },
-    { "id": "industry", "en": "Industry News", "fa": "اخبار صنعت" }
+    {
+      "id": "rates",
+      "en": "Rates & Bank of Canada",
+      "fa": "نرخ‌ها و بانک مرکزی کانادا"
+    },
+    {
+      "id": "regulation",
+      "en": "Rules & Regulation",
+      "fa": "قوانین و مقررات"
+    },
+    {
+      "id": "housing-market",
+      "en": "Housing Market",
+      "fa": "بازار مسکن"
+    },
+    {
+      "id": "lenders",
+      "en": "Lenders & Products",
+      "fa": "وام‌دهندگان و محصولات"
+    },
+    {
+      "id": "industry",
+      "en": "Industry News",
+      "fa": "اخبار صنعت"
+    }
   ],
   "articles": [
     {
@@ -21,8 +41,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این بازار به‌آرامی در حال تغییر ماهیت است. افزایش فروش برای چهار ماه پیاپی همراه با کاهش عرضه، الگوی کلاسیک تنگ‌شدن بازار است — و هرچند میانگین قیمت‌ها هنوز نسبت به سال گذشته پایین‌تر است، وقتی گزینه‌ها کمتر و خریداران بیشتر می‌شوند، توازن قدرت به‌تدریج به‌سوی فروشندگان بازمی‌گردد. کاندوها با جهش ۱۴٫۳ درصدی فروش پیشتاز این بازگشت بودند و این مهم است، چون دقیقاً همان بخشی است که بیشترین افت قیمت را داشته و اکنون بهترین معادله دسترسی‌پذیری را برای خریداران بار اول ارائه می‌دهد.</p><p>برداشت من: اگر برای «لحظه‌ای آشکارا بهتر» کنار گود منتظر مانده‌اید، پنجره قیمت‌های نرم به‌همراه رقابت اندک ممکن است برای همیشه باز نماند. من جهش قیمت پیش‌بینی نمی‌کنم — خود مشاوران می‌گویند تا کف واقعی راه درازی مانده — اما اقدام هوشمندانه این است که همین حالا پیش‌تأیید بگیرید و بودجه واقعی خود را بدانید تا اگر خانه مناسب پیدا شد بتوانید آرام اقدام کنید، نه اینکه در بازار تنگ‌تر پاییز شتاب‌زده عمل کنید. آمادگی همیشه از زمان‌بندی بهتر است.</p>",
       "seo_title": "Greater Toronto Home Sales Up 9.4% in June 2026 — Broker View | Hamed Ashouri",
       "seo_description": "GTA June home sales rose 9.4% as listings fell and prices eased, with condo sales up 14.3% (TRREB). Ontario mortgage broker Hamed Ashouri on what a tightening market means for buyers.",
-      "keywords": ["Toronto home sales", "TRREB", "GTA housing market", "condo sales", "home prices"],
-      "tags": ["housing-market", "toronto", "first-time-buyer"],
+      "keywords": [
+        "Toronto home sales",
+        "TRREB",
+        "GTA housing market",
+        "condo sales",
+        "home prices"
+      ],
+      "tags": [
+        "housing-market",
+        "toronto",
+        "first-time-buyer"
+      ],
       "category": "housing-market",
       "featured_image": "",
       "image_alt_en": "Greater Toronto Area homes with the downtown skyline in the distance",
@@ -38,9 +68,69 @@
       "language": "both",
       "featured": true,
       "homepage": true,
-      "related_topics": ["first-time-buyer", "affordability"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["ftb-roadmap", "gen-preapproval"]
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-03-fraser-valley-prices",
+      "slug": "fraser-valley-home-prices-down-26-sluggish-market",
+      "title_en": "B.C.'s Fraser Valley prices sit 26% below their 2022 peak as buyers wait",
+      "title_fa": "قیمت‌های فریزر ولی در بریتیش کلمبیا ۲۶٪ پایین‌تر از اوج ۲۰۲۲ است در حالی که خریداران منتظرند",
+      "summary_en": "The Fraser Valley Real Estate Board reports the region's benchmark home price has slipped to just under $885,000 — down about 7% from a year ago and roughly 26% below its 2022 peak. Sales stayed subdued at 1,147 MLS transactions in June: up 2% from May but 4% below the same month last year. The apartment segment led the declines, its benchmark falling 9.1% year-over-year to $476,400, while single-detached homes (around $1.35 million) and townhouses (about $764,000) were each off more than 7% from June 2025. Board leaders described a market of genuine opportunity that qualified buyers are still hesitating to act on, noting the spring season underperformed expectations. With ample inventory and softer prices, leverage in the Fraser Valley currently sits firmly with buyers.",
+      "summary_fa": "هیئت املاک فریزر ولی گزارش می‌دهد که شاخص قیمت خانه در این منطقه به کمی زیر ۸۸۵٬۰۰۰ دلار رسیده است — حدود ۷٪ کمتر از یک سال پیش و تقریباً ۲۶٪ پایین‌تر از اوج سال ۲۰۲۲. فروش همچنان کم‌رمق ماند و در ژوئن ۱٬۱۴۷ معامله در MLS ثبت شد: ۲٪ بیشتر از مه اما ۴٪ کمتر از همین ماه سال گذشته. بخش آپارتمان پیشتاز کاهش‌ها بود و شاخص آن با افت ۹٫۱ درصدی نسبت به سال گذشته به ۴۷۶٬۴۰۰ دلار رسید، در حالی که خانه‌های تک‌واحدی مستقل (حدود ۱٫۳۵ میلیون دلار) و خانه‌های ردیفی (حدود ۷۶۴٬۰۰۰ دلار) هرکدام بیش از ۷٪ نسبت به ژوئن ۲۰۲۵ پایین‌تر بودند. مدیران هیئت این بازار را فرصتی واقعی توصیف کردند که خریداران واجد شرایط هنوز در استفاده از آن تردید دارند و اشاره کردند که فصل بهار کمتر از انتظار عمل کرد. با موجودی فراوان و قیمت‌های نرم‌تر، توازن قدرت در فریزر ولی اکنون قاطعانه به‌سود خریداران است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> A market sitting 26% below its peak with plenty of listings is, on paper, a buyer's market — but headlines about falling prices are exactly what freeze buyers in place. The people who do well in conditions like these aren't trying to call the precise bottom; they're the ones who are pre-approved, know their real budget, and can negotiate calmly when a seller is motivated. Softer prices also mean more room to negotiate on price, conditions and closing timelines than you'd ever get in a heated market.</p><p>The catch is qualifying. A lower purchase price helps, but you still need verified income and a documented down payment to make a lender comfortable, and a declining-value area can affect the appraisal that ultimately caps your financing. If you're eyeing the Fraser Valley — or any softer B.C. market — map your financing fully first, then shop with the confidence to act. It's a local story with a national lesson: opportunity favours the prepared, not the ones waiting for a headline that says 'now.'</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> بازاری که ۲۶٪ پایین‌تر از اوج خود و پر از فهرست‌های فروش است، روی کاغذ بازار خریدار است — اما دقیقاً همین تیترهای کاهش قیمت است که خریداران را در جای خود میخکوب می‌کند. کسانی که در چنین شرایطی موفق می‌شوند در پی یافتن کف دقیق قیمت نیستند؛ بلکه پیش‌تأیید گرفته‌اند، بودجه واقعی خود را می‌دانند و وقتی فروشنده‌ای مصمم است می‌توانند آرام مذاکره کنند. قیمت‌های نرم‌تر همچنین یعنی فضای بیشتر برای چانه‌زنی بر سر قیمت، شرایط و زمان‌بندی معامله نسبت به یک بازار داغ.</p><p>نکته دشوار، احراز صلاحیت است. قیمت خرید پایین‌تر کمک می‌کند، اما همچنان به درآمد تأییدشده و پیش‌پرداخت مستند نیاز دارید تا وام‌دهنده مطمئن شود، و منطقه‌ای با ارزش در حال کاهش می‌تواند بر ارزیابی‌ای که در نهایت سقف تأمین مالی شما را تعیین می‌کند اثر بگذارد. اگر فریزر ولی — یا هر بازار نرم‌تر بریتیش کلمبیا — را زیر نظر دارید، نخست تأمین مالی خود را کامل ترسیم کنید، سپس با اطمینانِ اقدام خرید کنید. این یک داستان محلی با درسی سراسری است: فرصت به‌سود آماده‌هاست، نه کسانی که منتظر تیتری هستند که بگوید «حالا».</p>",
+      "seo_title": "Fraser Valley Home Prices 26% Below 2022 Peak — Broker View | Hamed Ashouri",
+      "seo_description": "B.C.'s Fraser Valley benchmark price sits near $885,000, about 26% below its 2022 peak, with apartments down 9.1%. Ontario mortgage broker Hamed Ashouri on buying in a soft, buyer-friendly market.",
+      "keywords": [
+        "Fraser Valley",
+        "B.C. housing",
+        "home prices",
+        "buyers market",
+        "apartment prices"
+      ],
+      "tags": [
+        "housing-market",
+        "prices",
+        "buyers-market"
+      ],
+      "category": "housing-market",
+      "featured_image": "",
+      "image_alt_en": "Fraser Valley B.C. neighbourhood of homes under a cloudy sky",
+      "image_alt_fa": "محله‌ای از خانه‌ها در فریزر ولی بریتیش کلمبیا زیر آسمانی ابری",
+      "caption_en": "Illustrative.",
+      "caption_fa": "تصویری نمونه.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/b-c-s-fraser-valley-home-prices-down-26-from-2022-in-sluggish-market/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-03",
+      "imported_date": "2026-07-03",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
     },
     {
       "id": "news-2026-07-02-cusma-annual-reviews",
@@ -53,8 +143,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> در ظاهر این یک خبر وام مسکن نیست، اما مستقیماً بر نرخ‌هایی که پرداخت شما را شکل می‌دهند اثر می‌گذارد. نااطمینانی طولانی تجاری دقیقاً همان بادِ مخالفی است که بانک مرکزی کانادا را محتاط نگه می‌دارد — سرمایه‌گذاری و رشد کسب‌وکار را کند می‌کند که معمولاً به‌نفع کاهش نرخ است، اما خطر تعرفه می‌تواند قیمت‌ها را هم بالا ببرد که برخلاف کاهش نرخ است. همین کشمکش یکی از دلایل مهم ثابت‌ماندن نرخ سیاستی بانک در سراسر ۲۰۲۶ است، به‌جای کاهش‌هایی که بسیاری از وام‌گیرندگان امید داشتند.</p><p>معنای عملی آن: برنامه خود را بر پایه کاهش نرخی که سیاست تجاری می‌تواند به تعویق بیندازد نچینید. اگر در حال خرید یا تمدید هستید، خود را با پیش‌تأیید واقعی و نگهداشت نرخ محافظت کنید، بودجه‌تان را در برابر پرداختی که مدت بیشتری بالا می‌ماند بسنجید و هر کاهش آینده را یک امتیاز اضافی بدانید نه فرض پایه. چنین تیترهایی به‌ندرت نرخ شما را هفته آینده تغییر می‌دهند، اما یادآوری می‌کنند که قطعیت در پرونده خودتان تنها چیزی است که واقعاً کنترلش دارید.</p>",
       "seo_title": "U.S. Declines CUSMA Renewal, Shifts to Annual Reviews — Broker View | Hamed Ashouri",
       "seo_description": "The U.S. won't renew CUSMA, moving to annual reviews and adding trade uncertainty. Ontario mortgage broker Hamed Ashouri on how it feeds into Bank of Canada rate decisions and your mortgage plan.",
-      "keywords": ["CUSMA", "trade uncertainty", "Bank of Canada", "interest rates", "tariffs"],
-      "tags": ["industry", "rates", "economy"],
+      "keywords": [
+        "CUSMA",
+        "trade uncertainty",
+        "Bank of Canada",
+        "interest rates",
+        "tariffs"
+      ],
+      "tags": [
+        "industry",
+        "rates",
+        "economy"
+      ],
       "category": "industry",
       "featured_image": "",
       "image_alt_en": "Cargo trucks at a Canada-U.S. border crossing representing cross-border trade",
@@ -70,9 +170,68 @@
       "language": "both",
       "featured": false,
       "homepage": true,
-      "related_topics": ["rates", "affordability"],
-      "related_journeys": ["assessment"],
-      "related_knowledge_blocks": ["gen-stress", "gen-preapproval"]
+      "related_topics": [
+        "rates",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-02-calgary-condos",
+      "slug": "calgary-condo-prices-fall-9-supply-builds",
+      "title_en": "Calgary condo prices fall about 9% as high-density supply builds",
+      "title_fa": "قیمت کاندوهای کلگری با افزایش عرضه پرتراکم حدود ۹٪ کاهش یافت",
+      "summary_en": "The Calgary Real Estate Board says apartment-condo prices fell nearly 9% year-over-year in June to a benchmark of $299,000, with declines in every district and drops of more than 14% in the North East and East — the softest corner of an otherwise balanced market. Years of elevated construction have pushed high-density supply up faster than demand, leaving apartments near five months of inventory even as the city overall sits just above three months, a level CREB calls balanced. Total sales reached 2,197, down 3.8% from a year earlier, and the citywide residential benchmark was $572,500, about 2.1% below last June. Detached homes told a different story, with the benchmark at $750,500 — only about 1% lower year-over-year — and some districts reporting record highs on limited supply. CREB's chief economist tied the divergence to weaker migration and a wave of new high-density units still working through the market.",
+      "summary_fa": "هیئت املاک کلگری می‌گوید قیمت کاندوهای آپارتمانی در ژوئن نزدیک به ۹٪ نسبت به سال گذشته کاهش یافت و شاخص آن به ۲۹۹٬۰۰۰ دلار رسید؛ کاهش در همه مناطق و افت بیش از ۱۴٪ در شمال‌شرق و شرق — نرم‌ترین بخش یک بازار در مجموع متعادل. سال‌ها ساخت‌وساز بالا، عرضه پرتراکم را سریع‌تر از تقاضا افزایش داده و موجودی آپارتمان‌ها را به نزدیک پنج ماه رسانده است، در حالی که کل شهر کمی بالای سه ماه قرار دارد، سطحی که CREB آن را متعادل می‌نامد. کل فروش به ۲٬۱۹۷ رسید، ۳٫۸٪ کمتر از سال گذشته، و شاخص مسکونی کل شهر ۵۷۲٬۵۰۰ دلار بود، حدود ۲٫۱٪ کمتر از ژوئن پارسال. خانه‌های مستقل داستان دیگری داشتند؛ شاخص آن‌ها ۷۵۰٬۵۰۰ دلار بود — تنها حدود ۱٪ کمتر از سال گذشته — و برخی مناطق با عرضه محدود رکورد بالاترین قیمت را گزارش کردند. اقتصاددان ارشد CREB این واگرایی را به مهاجرت ضعیف‌تر و موجی از واحدهای پرتراکم جدید که هنوز در بازار جذب می‌شوند نسبت داد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Calgary is a textbook example of why 'the market' is never one number. Detached homes are near record territory in some districts while apartment condos have dropped nearly 9% — so whether this is good news or a warning depends entirely on what you own or want to buy. For a buyer, the condo segment is where the leverage is right now: roughly five months of supply means real choice and room to negotiate. For an owner or investor holding a condo, softer values matter most at renewal or refinance, when the appraisal sets how much equity you can actually use.</p><p>Two practical points. If you're buying a Calgary apartment, get pre-approved and treat the appraisal as a live variable — lenders finance the lesser of price and appraised value, and a falling segment can surprise you at closing. If you already own one and your renewal is coming, check where your value and equity stand well before maturity, because that's what determines your refinancing options. As always, the right move is set by your own numbers and timeline, not the citywide headline.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> کلگری نمونه‌ای کلاسیک از این است که چرا «بازار» هرگز یک عدد واحد نیست. خانه‌های مستقل در برخی مناطق نزدیک به رکورد قیمت‌اند در حالی که کاندوهای آپارتمانی نزدیک ۹٪ افت کرده‌اند — پس اینکه این خبر خوب است یا هشدار، کاملاً به آنچه دارید یا می‌خواهید بخرید بستگی دارد. برای خریدار، بخش کاندو جایی است که اکنون قدرت چانه‌زنی در آن است: حدود پنج ماه موجودی یعنی انتخاب واقعی و فضای مذاکره. برای مالک یا سرمایه‌گذاری که کاندو نگه داشته، ارزش‌های نرم‌تر بیش از همه هنگام تمدید یا ریفاینانس اهمیت دارند، جایی که ارزیابی تعیین می‌کند چه میزان از ارزش ویژه را واقعاً می‌توانید به‌کار بگیرید.</p><p>دو نکته کاربردی. اگر در حال خرید آپارتمان در کلگری هستید، پیش‌تأیید بگیرید و ارزیابی را یک متغیر زنده بدانید — وام‌دهندگان کمترینِ قیمت و ارزش ارزیابی‌شده را تأمین مالی می‌کنند و یک بخش رو به کاهش می‌تواند هنگام بستن معامله غافلگیرتان کند. اگر همین حالا مالک آن هستید و تمدیدتان نزدیک است، پیش از سررسید ببینید ارزش و ارزش ویژه شما کجاست، چون همین گزینه‌های ریفاینانس شما را تعیین می‌کند. مثل همیشه، اقدام درست را اعداد و زمان‌بندی خودتان تعیین می‌کند، نه تیتر کل شهر.</p>",
+      "seo_title": "Calgary Condo Prices Fall ~9% as Supply Builds — Broker View | Hamed Ashouri",
+      "seo_description": "Calgary apartment-condo prices fell nearly 9% year-over-year to $299,000 as high-density supply builds, while detached stays near records (CREB). Broker Hamed Ashouri on buying, renewing and appraisals.",
+      "keywords": [
+        "Calgary",
+        "condo prices",
+        "CREB",
+        "apartment",
+        "housing supply"
+      ],
+      "tags": [
+        "housing-market",
+        "calgary",
+        "condos"
+      ],
+      "category": "housing-market",
+      "featured_image": "",
+      "image_alt_en": "Calgary condo towers against the downtown skyline",
+      "image_alt_fa": "برج‌های کاندوی کلگری در برابر خط آسمان مرکز شهر",
+      "caption_en": "Illustrative.",
+      "caption_fa": "تصویری نمونه.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/calgary-condo-prices-fall-9-as-supply-builds/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-02",
+      "imported_date": "2026-07-02",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": false,
+      "related_topics": [
+        "first-time-buyer",
+        "refinance"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "refi-faq-howmuch"
+      ]
     },
     {
       "id": "news-2026-07-02-rbc-affordability",
@@ -85,8 +244,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این گزارش در واقع پیامی درباره پنجره‌های فرصت است. چهار سال است خریداران منتظر بهبود شرایط بوده‌اند — و بر اساس شاخص خود RBC، اکنون این بهبود رخ داده است، به‌ویژه در بخش کاندوی منطقه بزرگ تورنتو که ارزش‌ها تقریباً به سطوح ۲۰۱۹ بازگشته‌اند. اما همین گزارش می‌گوید این باد موافق در حال ضعیف‌شدن است: قیمت‌ها در حال تثبیت‌اند و نرخ‌ها احتمالاً کف چرخه‌ای خود را دیده‌اند، پس بعید است بازار همچنان کار را برای شما انجام دهد. انتظار برای نقطه ورود بسیار بهتر ممکن است انتظار برای چیزی باشد که هرگز نمی‌رسد.</p><p>پیشنهاد من: اگر خرید در یک سال آینده در برنامه شماست، همین حالا پرونده خود را کاملاً آماده کنید — درآمد تأییدشده، پیش‌پرداخت مستند، و پیش‌تأیید واقعی با نگهداشت نرخ — تا بتوانید بر اساس دسترسی‌پذیری امروز اقدام کنید، نه حدس درباره فردا. اگر هم‌اکنون در بازاری مانند تورنتو مالک هستید که ارزش کاندوها در آن نرم شده، پیش از تصمیم تمدید یا ریفاینانس ببینید این موضوع برای ارزش ویژه شما چه معنایی دارد. هر بازار در این گزارش حرکت متفاوتی داشت — و دقیقاً به همین دلیل، اقدام درست شخصی است، نه سراسری.</p>",
       "seo_title": "Housing Affordability at Four-Year Best, Relief Fading (RBC) — Broker View | Hamed Ashouri",
       "seo_description": "RBC's Q1 2026 affordability measure fell to 53%, its best in four years, led by Vancouver and Toronto condos. Ontario mortgage broker Hamed Ashouri on what a closing affordability window means for buyers and owners.",
-      "keywords": ["housing affordability", "RBC", "Toronto condos", "Vancouver", "home prices"],
-      "tags": ["housing-market", "affordability", "condos"],
+      "keywords": [
+        "housing affordability",
+        "RBC",
+        "Toronto condos",
+        "Vancouver",
+        "home prices"
+      ],
+      "tags": [
+        "housing-market",
+        "affordability",
+        "condos"
+      ],
       "category": "housing-market",
       "featured_image": "",
       "image_alt_en": "Canadian city homes representing improving housing affordability",
@@ -101,10 +270,19 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
-      "related_topics": ["first-time-buyer", "affordability"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["ftb-roadmap", "gen-preapproval"]
+      "homepage": false,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
     },
     {
       "id": "news-2026-06-29-greener-homes",
@@ -117,8 +295,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> ما درباره دسترسی‌پذیری طوری صحبت می‌کنیم که انگار فقط قسط وام است، اما عدد واقعی که اهمیت دارد کل هزینه ماهانه اداره خانه است — و انرژی بخش بزرگی از آن است. یک بسته بدون هزینه شامل پمپ حرارتی، عایق‌کاری و درزبندی می‌تواند قبض‌های خانوار را برای همیشه کاهش دهد و همان بودجه‌ای را تقویت کند که باید وام مسکن را هم تحمل کند. انتاریو در این موج نخست نیست، اما با فعال‌بودن مانیتوبا و تأیید اتاوا درباره گفتگو با استان‌های دیگر، اگر اینجا مالک — یا مستأجر — هستید، این برنامه را زیر نظر داشته باشید.</p><p>دو نکته کاربردی. نخست، اگر هنگام رسیدن برنامه به استان شما واجد شرایط باشید، بهسازی بدون هزینه یکی از معدود فرصت‌های واقعاً رایگان در حوزه مسکن است — زود اقدام کنید، چون نسخه قبلی این برنامه خیلی زودتر از موعد بودجه‌اش تمام شد. دوم، اگر همین حالا قصد بهسازی انرژی دارید و نمی‌توانید صبر کنید، مسیرهای تأمین مالی قابل‌مقایسه‌ای وجود دارد — ریفاینانس، HELOC، یا وام «خرید به‌علاوه بهسازی» برای خانه جدید — و انتخاب درست به ارزش ویژه و زمان‌بندی شما بستگی دارد. خوشحال می‌شوم این اعداد را با هم بررسی کنیم.</p>",
       "seo_title": "Canada Greener Homes Affordability Program Relaunch — Broker View | Hamed Ashouri",
       "seo_description": "Ottawa relaunches its greener homes program with no-cost heat pumps, insulation and air sealing in four provinces. Ontario mortgage broker Hamed Ashouri on what it means for household budgets and retrofit financing.",
-      "keywords": ["greener homes", "retrofit", "heat pump", "energy efficiency", "federal program"],
-      "tags": ["regulation", "government-programs", "affordability"],
+      "keywords": [
+        "greener homes",
+        "retrofit",
+        "heat pump",
+        "energy efficiency",
+        "federal program"
+      ],
+      "tags": [
+        "regulation",
+        "government-programs",
+        "affordability"
+      ],
       "category": "regulation",
       "featured_image": "",
       "image_alt_en": "Heat pump installation on a Canadian home",
@@ -134,9 +322,16 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["refinance", "government-programs"],
-      "related_journeys": ["assessment"],
-      "related_knowledge_blocks": ["refi-faq-howmuch"]
+      "related_topics": [
+        "refinance",
+        "government-programs"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "refi-faq-howmuch"
+      ]
     },
     {
       "id": "news-2026-07-01-variable-shift",
@@ -149,8 +344,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> روی‌آوردن به نرخ شناور یک «پاسخ درست» همگانی نیست — بلکه شرطی است بر اینکه نرخ‌ها ثابت بمانند یا پایین بیایند، و تنها زمانی منطقی است که بودجه شما بتواند پرداختی متغیر را جذب کند. نرخ شناور وقتی نرخ‌ها کاهش یابند می‌تواند برنده باشد، اما از شما می‌خواهد با نااطمینانی راحت باشید؛ دوره ثابت پرداختی مشخص و آرامش خاطر به شما می‌دهد. انتخاب درست به حاشیه جریان نقدی شما، مدت ماندنتان و میزان تحملتان در برابر نوسان نرخ بستگی دارد — نه به اینکه کدام گزینه در این فصل پرطرفدار است.</p><p>خبر خوش فراگیرتر اینجا درباره تمدید است: فشار در حال کاهش است و «جابه‌جایی مستقیم» تحت نظارت فدرال به وام‌دهنده جدید هنگام تمدید دیگر آزمون استرس را فعال نمی‌کند — که می‌تواند بدون احراز صلاحیت دوباره، قیمت‌گذاری بهتری را باز کند. اگر امسال تمدید می‌کنید، اولین پیشنهاد را خودکار امضا نکنید. سه تا چهار ماه زودتر شروع کنید، ثابت و شناور را با اعداد خودتان مقایسه کنید، و با هم بسنجیم که جابه‌جایی، تغییر دوره یا ماندن — کدام واقعاً به سود شماست.</p>",
       "seo_title": "Borrowers Shift to Variable Rates as Renewals Ease (CMHC) — Broker View | Hamed Ashouri",
       "seo_description": "CMHC: variable-rate mortgages reached ~42% of new lending as the renewal wave peaks. Ontario mortgage broker Hamed Ashouri on fixed vs variable, easing renewals, and the switch stress-test exemption.",
-      "keywords": ["variable rate", "fixed rate", "renewal", "CMHC", "stress test"],
-      "tags": ["rates", "renewal", "variable"],
+      "keywords": [
+        "variable rate",
+        "fixed rate",
+        "renewal",
+        "CMHC",
+        "stress test"
+      ],
+      "tags": [
+        "rates",
+        "renewal",
+        "variable"
+      ],
       "category": "rates",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_eaefcda1-634a-4c8f-8b0f-3857615ee09a.jpg",
       "image_alt_en": "Homeowner comparing fixed and variable mortgage options",
@@ -166,9 +371,18 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["renewal", "rates"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["renewal-checklist", "gen-stress"]
+      "related_topics": [
+        "renewal",
+        "rates"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
     },
     {
       "id": "news-2026-06-29-newcomer-buyers",
@@ -181,8 +395,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> برای تازه‌واردان پاسخ این نیست که هدف کوچک‌تری بگذارند — بلکه ساختن پرونده‌ای است که اعدادش واقعی و مقاوم باشد. سه اقدام بیش از همه مهم‌اند. نخست، یک سابقه ۹۰ روزه روشن و قابل‌ردیابی برای پیش‌پرداخت خود بسازید؛ وجوه هدیه کاملاً قابل‌قبول است، به‌شرط نامه هدیه امضاشده و اثبات ورود پول به حساب شما. دوم، درآمد خود را به شیوه‌ای که وام‌دهندگان واقعاً می‌خوانند مستند کنید — برنامه‌های تازه‌واردان و سابقه اعتباری محدود وجود دارد، اما تنها زمانی که مدارک از همان ابتدا درست ساختار یابد. سوم، خود را با یک حاشیه پرداخت بالاتر از نرخ آزمون استرس امروز واجد شرایط کنید تا افزایش هنگام تمدید غافلگیرتان نکند.</p><p>هوشمندانه‌ترین گام نخست، ترسیم یک بودجه واقع‌بینانه و انتخاب برنامه وام‌دهنده مناسب <em>پیش از</em> جست‌وجوست — نه کشاندن خود تا سقف پیش‌تأیید و امید به همراهی نرخ‌ها. اگر تازه به کانادا آمده‌اید، همین گفتگوی برنامه‌ریزی دقیقاً جایی است که بیشترین ارزش را اضافه می‌کنم.</p>",
       "seo_title": "Newcomers Stretched Further to Buy Homes (StatCan) — Broker View | Hamed Ashouri",
       "seo_description": "StatCan finds recent immigrant buyers took on pricier homes relative to income. Ontario mortgage broker Hamed Ashouri on how newcomers can structure a stronger, more resilient file.",
-      "keywords": ["newcomers", "new to Canada", "StatCan", "affordability", "down payment"],
-      "tags": ["housing-market", "newcomers", "affordability"],
+      "keywords": [
+        "newcomers",
+        "new to Canada",
+        "StatCan",
+        "affordability",
+        "down payment"
+      ],
+      "tags": [
+        "housing-market",
+        "newcomers",
+        "affordability"
+      ],
       "category": "housing-market",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_39722fa0-a800-4a20-90e5-af89935fd88a.jpg",
       "image_alt_en": "Family with moving boxes in a new Canadian home",
@@ -198,9 +422,18 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["first-time-buyer", "documents"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["ftb-roadmap", "gen-downpayment"]
+      "related_topics": [
+        "first-time-buyer",
+        "documents"
+      ],
+      "related_journeys": [
+        "assessment",
+        "workspace"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-downpayment"
+      ]
     },
     {
       "id": "news-2026-06-24-mpc-payments",
@@ -213,8 +446,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> اگر بودجه ماهانه شما همین حالا تنگ است، پرهزینه‌ترین اقدام این است که منتظر نامه تمدید بمانید و واکنش نشان دهید. سه تا چهار ماه پیش از سررسید شروع کنید. «جابه‌جایی مستقیم» میان وام‌دهندگان تحت نظارت فدرال دیگر آزمون استرس را فعال نمی‌کند و گاهی می‌تواند بدون احراز صلاحیت دوباره، نرخ بهتری را آزاد کند. فراتر از نرخ، اهرم‌های واقعی وجود دارد: تمدید دوره بازپرداخت برای کاهش پرداخت، تجمیع بدهی‌های کارت اعتباری یا وام با بهره بالا در وام مسکن، یا بازساختاردهی دوره متناسب با جریان نقدی امروز شما.</p><p>هیچ‌کدام راه‌حل یکسان برای همه نیست — اقدام درست به ارزش ویژه، اهداف و مدت ماندن شما بستگی دارد. نکته این است که گزینه‌ها را زمانی بسنجید که هنوز اهرم و انتخاب دارید، نه پس از آنکه اولین پیشنهاد تمدید وام‌دهنده بی‌سروصدا آن‌ها را محدود کرد. یک بررسی کوتاه اکنون تقریباً همیشه ارزان‌تر از یک تصمیم شتاب‌زده بعدی است.</p>",
       "seo_title": "Borrowers Have Little Room for Higher Payments (MPC) — Broker View | Hamed Ashouri",
       "seo_description": "MPC research shows affordability pressure on recent buyers and newcomers. Ontario broker Hamed Ashouri on renewal timing, the straight-switch stress-test exemption, and the levers that lower payments.",
-      "keywords": ["affordability", "renewal", "payments", "stress test", "MPC"],
-      "tags": ["housing-market", "renewal", "affordability"],
+      "keywords": [
+        "affordability",
+        "renewal",
+        "payments",
+        "stress test",
+        "MPC"
+      ],
+      "tags": [
+        "housing-market",
+        "renewal",
+        "affordability"
+      ],
       "category": "housing-market",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_7e74f715-2c90-4100-aa89-a95b287d4d08.jpg",
       "image_alt_en": "Person reviewing a household budget at a kitchen table",
@@ -230,9 +473,16 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["renewal"],
-      "related_journeys": ["assessment"],
-      "related_knowledge_blocks": ["renewal-checklist", "gen-stress"]
+      "related_topics": [
+        "renewal"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
     },
     {
       "id": "news-2026-06-23-rbc-poll",
@@ -245,8 +495,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> «زمان‌بندی بازار» تقریباً هرگز از آماده‌بودن برای آن بهتر نیست. خریدارانی که موفق می‌شوند آن‌هایی نیستند که کف دقیق قیمت را حدس می‌زنند — بلکه کسانی‌اند که پیش‌تأیید گرفته‌اند، بودجه واقعی خود را می‌دانند و وقتی خانه مناسب واقعاً پیدا شد می‌توانند سریع و آرام اقدام کنند. یک پیش‌تأیید واقعی درآمد و پیش‌پرداخت شما را تأیید می‌کند و معمولاً نرخ را ۹۰ تا ۱۲۰ روز نگه می‌دارد: اگر نرخ‌ها پایین بیایند سود می‌برید؛ اگر بالا بروند، در آن بازه محافظت می‌شوید.</p><p>توصیه من این است که همین حالا پرونده خود را کاملاً آماده کنید، بودجه‌ای مشخص با حاشیه داخلی تعیین کنید و بگذارید خانه مناسب — نه تیترهای روز — تصمیم را رقم بزند. آمادگی، پرسش «آیا حالا زمان خوبی است؟» را از یک حدس مضطربانه به انتخابی مطمئن و با شرایط خودتان تبدیل می‌کند. وقتی آماده باشید، تقریباً هر زمان معقولی می‌تواند زمان درست برای شما باشد.</p>",
       "seo_title": "No Perfect Time to Buy a Home (RBC Poll) — Broker View | Hamed Ashouri",
       "seo_description": "An RBC poll finds buyers struggling to time the market. Ontario broker Hamed Ashouri on why readiness and pre-approval beat market timing.",
-      "keywords": ["home buying", "RBC poll", "pre-approval", "market timing", "first-time buyer"],
-      "tags": ["housing-market", "first-time-buyer", "pre-approval"],
+      "keywords": [
+        "home buying",
+        "RBC poll",
+        "pre-approval",
+        "market timing",
+        "first-time buyer"
+      ],
+      "tags": [
+        "housing-market",
+        "first-time-buyer",
+        "pre-approval"
+      ],
       "category": "housing-market",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_da902fde-e2ca-4b9f-b1d5-dd4005823fc8.png",
       "image_alt_en": "Young couple looking at a home for sale",
@@ -262,9 +522,17 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["first-time-buyer"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["gen-preapproval", "ftb-roadmap"]
+      "related_topics": [
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-preapproval",
+        "ftb-roadmap"
+      ]
     },
     {
       "id": "news-2026-06-15-eclipse-access",
@@ -277,8 +545,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> محصولاتی مانند Access+ ابزارهای واقعاً مفیدی هستند و خوشحالم که تعداد بیشتری از آن‌ها را می‌بینم. واجد شرایط شدن با نرخ قرارداد و بازپرداخت ۴۰ ساله می‌تواند برای یک وام‌گیرنده خوداشتغال یا در حال بازسازی اعتبار که در سایر جنبه‌ها قوی است، تفاوت میان «نه» و «بله» باشد. اما این انعطاف هزینه‌ای دارد که باید از ابتدا درک شود: دوره یک‌ساله یعنی بسیار زودتر تمدید — و قیمت‌گذاری مجدد — می‌کنید، و بازپرداخت طولانی‌تر یعنی در طول عمر وام بهره بیشتری می‌پردازید.</p><p>من چنین محصولاتی را یک پل می‌دانم نه مقصد: راهی برای بستن معامله امروز، همراه با برنامه‌ای روشن برای تقویت پرونده و انتقال به وام‌دهنده A کم‌هزینه‌تر هنگام تمدید. اگر شرایط شما پیچیده است، پیش از انتخاب، هزینه واقعی تمام‌شده را مدل کنیم و مسیر خروج را ترسیم کنیم تا مشکل پیش‌رو را حل کند بدون آنکه یک سال بعد مشکل بزرگ‌تری بسازد.</p>",
       "seo_title": "Eclipse Access+ Mortgage for Complex Files — Broker View | Hamed Ashouri",
       "seo_description": "Eclipse's Access+ offers contract-rate qualification and a 40-year amortization. Ontario broker Hamed Ashouri on when an alternative product makes sense — and the exit plan it needs.",
-      "keywords": ["Eclipse", "Access+", "alternative lending", "self-employed", "amortization"],
-      "tags": ["lenders", "self-employed", "products"],
+      "keywords": [
+        "Eclipse",
+        "Access+",
+        "alternative lending",
+        "self-employed",
+        "amortization"
+      ],
+      "tags": [
+        "lenders",
+        "self-employed",
+        "products"
+      ],
       "category": "lenders",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_1840a15e-e1de-4bf3-a777-b72307752cdd.jpg",
       "image_alt_en": "Modern lender office representing a new mortgage product",
@@ -294,9 +572,16 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["self-employed"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["se-income"]
+      "related_topics": [
+        "self-employed"
+      ],
+      "related_journeys": [
+        "assessment",
+        "workspace"
+      ],
+      "related_knowledge_blocks": [
+        "se-income"
+      ]
     },
     {
       "id": "news-2026-06-09-toronto-renewal",
@@ -309,8 +594,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> ارزش ویژه، اهرم تمدید است — و وقتی ارزش‌ها افت می‌کنند، فضای ریفاینانس دقیقاً در لحظه‌ای که برخی بیش از همه به آن نیاز دارند کوچک می‌شود. اگر در منطقه بزرگ تورنتو هستید و تمدید شما ظرف یک سال آینده است، منتظر نمانید و امید نبندید. همین حالا یک برآورد ارزش روز و نقشه گزینه‌های خود را بگیرید، تا هنوز انتخاب روی میز دارید.</p><p>بسته به اعداد شما، اقدام درست ممکن است ریفاینانس، جابه‌جایی به وام‌دهنده جدید، تغییر دوره بازپرداخت برای کاهش پرداخت، یا تجمیع سایر بدهی‌ها در وام مسکن باشد — اما هر یک از این درها <em>پیش از</em> تاریخ سررسید بازترند، نه پس از آن. پرهزینه‌ترین تصمیمی که می‌بینم این است که تا رسیدن پیشنهاد تمدید هیچ کاری نکنید، که تا آن زمان کاهش ارزش ویژه و گذر زمان گزینه‌ها را محدود کرده‌اند. یک بررسی کوتاه و زودهنگام، ارزان‌ترین بیمه‌ای است که اینجا می‌توانید بخرید.</p>",
       "seo_title": "Falling Prices Squeeze Toronto Renewals (BoC) — Broker View | Hamed Ashouri",
       "seo_description": "The Bank of Canada flags reduced equity limiting refinancing for some Toronto borrowers. Ontario broker Hamed Ashouri on planning your renewal early while options are still open.",
-      "keywords": ["renewal", "Toronto", "Bank of Canada", "home equity", "refinance"],
-      "tags": ["rates", "renewal", "refinance"],
+      "keywords": [
+        "renewal",
+        "Toronto",
+        "Bank of Canada",
+        "home equity",
+        "refinance"
+      ],
+      "tags": [
+        "rates",
+        "renewal",
+        "refinance"
+      ],
       "category": "rates",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_46fac7c5-897e-4ec6-9470-cac1c77d37ff.jpg",
       "image_alt_en": "Toronto skyline representing the GTA housing market",
@@ -326,9 +621,18 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["renewal", "refinance"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["renewal-checklist", "refi-faq-howmuch"]
+      "related_topics": [
+        "renewal",
+        "refinance"
+      ],
+      "related_journeys": [
+        "assessment",
+        "workspace"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "refi-faq-howmuch"
+      ]
     }
   ]
 }
