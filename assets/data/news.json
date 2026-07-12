@@ -1,78 +1,385 @@
 {
-  "version": "4",
-  "updated": "2026-07-12",
+  "version": "11",
+  "updated": "2026-07-10",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
-    { "id": "rates", "en": "Rates & Bank of Canada", "fa": "نرخ‌ها و بانک مرکزی کانادا" },
-    { "id": "regulation", "en": "Rules & Regulation", "fa": "قوانین و مقررات" },
-    { "id": "housing-market", "en": "Housing Market", "fa": "بازار مسکن" },
-    { "id": "lenders", "en": "Lenders & Products", "fa": "وام‌دهندگان و محصولات" },
-    { "id": "industry", "en": "Industry News", "fa": "اخبار صنعت" }
+    {
+      "id": "rates",
+      "en": "Rates & Bank of Canada",
+      "fa": "نرخ‌ها و بانک مرکزی کانادا"
+    },
+    {
+      "id": "regulation",
+      "en": "Rules & Regulation",
+      "fa": "قوانین و مقررات"
+    },
+    {
+      "id": "housing-market",
+      "en": "Housing Market",
+      "fa": "بازار مسکن"
+    },
+    {
+      "id": "lenders",
+      "en": "Lenders & Products",
+      "fa": "وام‌دهندگان و محصولات"
+    },
+    {
+      "id": "industry",
+      "en": "Industry News",
+      "fa": "اخبار صنعت"
+    }
   ],
   "articles": [
     {
       "id": "news-2026-07-10-june-jobs",
-      "slug": "canada-adds-18200-jobs-june-jobless-rate-6-5",
-      "title_en": "Canada adds 18,200 jobs in June and the jobless rate slips to 6.5% — what it means for rates",
-      "title_fa": "کانادا در ژوئن ۱۸٬۲۰۰ شغل ایجاد کرد و نرخ بیکاری به ۶٫۵٪ رسید — این برای نرخ‌ها چه معنایی دارد؟",
-      "summary_en": "Statistics Canada reported that employment rose by 18,200 positions in June and the unemployment rate edged down to 6.5%, a firmer result than the roughly 10,000-job gain and steady 6.6% jobless rate economists had been expecting. The gain came entirely from the service side of the economy and was concentrated in part-time work: retail and wholesale trade added 16,400 positions and accommodation and food services added 14,700, while goods-producing industries shed 43,700 jobs, led by a 16,800 decline in manufacturing. Beneath the headline, the composition shifted as well — public sector employment fell by 30,500, the largest monthly drop outside the pandemic since 2015, while private sector employment rose 31,600. The participation rate held at 65% and the employment rate ticked up to 60.8%, while annual wage growth for full-time permanent employees accelerated to 3.7% from 3.2% in May. The report follows a much larger 87,800-job increase in May and adds to evidence that the economy is rebounding after two consecutive quarterly contractions — which economists say makes a hold, rather than a cut, the likely outcome at the Bank of Canada's next decision.",
-      "summary_fa": "آمار کانادا اعلام کرد که در ژوئن ۱۸٬۲۰۰ شغل به اقتصاد افزوده شد و نرخ بیکاری به ۶٫۵٪ کاهش یافت — نتیجه‌ای قوی‌تر از انتظار اقتصاددانان که رشد حدود ۱۰٬۰۰۰ شغل و ثبات نرخ بیکاری در ۶٫۶٪ را پیش‌بینی می‌کردند. این رشد کاملاً از بخش خدمات و عمدتاً در مشاغل پاره‌وقت به‌دست آمد: خرده‌فروشی و عمده‌فروشی ۱۶٬۴۰۰ شغل و بخش اقامت و غذا ۱۴٬۷۰۰ شغل افزودند، در حالی که صنایع تولید کالا ۴۳٬۷۰۰ شغل از دست دادند و بخش تولید صنعتی با کاهش ۱۶٬۸۰۰ شغل پیشتاز این افت بود. زیر سطح این عدد، ترکیب اشتغال نیز تغییر کرد — اشتغال بخش عمومی ۳۰٬۵۰۰ نفر کاهش یافت که بزرگ‌ترین افت ماهانه خارج از دوره همه‌گیری از سال ۲۰۱۵ است، در حالی که اشتغال بخش خصوصی ۳۱٬۶۰۰ نفر افزایش یافت. نرخ مشارکت در ۶۵٪ ثابت ماند و نرخ اشتغال به ۶۰٫۸٪ رسید، و رشد سالانه دستمزد کارکنان تمام‌وقت دائمی از ۳٫۲٪ در ماه مه به ۳٫۷٪ شتاب گرفت. این گزارش پس از رشد بسیار بزرگ‌تر ۸۷٬۸۰۰ شغلی ماه مه منتشر می‌شود و شواهد بیشتری ارائه می‌دهد که اقتصاد پس از دو فصل انقباض پیاپی در حال بازگشت است — چیزی که به گفته اقتصاددانان، «توقف» و نه «کاهش» نرخ را به نتیجه محتمل تصمیم بعدی بانک مرکزی کانادا تبدیل می‌کند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is a mild jobs report doing outsized work on rate expectations. It isn't a boom — the gain is small, part-time, and services-only, with manufacturing still shedding jobs — but in a labour force that is barely growing, flat is read as stable, and stable is enough to keep the Bank of Canada on hold. For borrowers, the practical translation is simple: the market's hoped-for path of steadily cheaper money just got a little slower, and fixed rates take their cues from bond yields, which firmed on this news rather than fell.</p><p>So plan on the rate you can get today, not the one you're hoping for. If you're buying, a live pre-approval with a rate hold protects you if yields drift higher while you shop, and costs you nothing if they fall. If you're renewing in the next six months, start now and compare a fixed term against a discounted variable using your own budget — variable only makes sense if your cash flow can genuinely absorb a payment that moves. And if your income comes from manufacturing or another goods-producing sector, expect lenders to look harder at job stability; get your employment documents in order early. I can't promise where rates go — nobody can — but I can make sure your file is ready either way.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این یک گزارش اشتغال ملایم است که اثری بزرگ‌تر از اندازه‌اش بر انتظارات نرخ می‌گذارد. رونق نیست — رشد اندک، پاره‌وقت و تنها در بخش خدمات است و تولید صنعتی همچنان شغل از دست می‌دهد — اما در نیروی کاری که به‌سختی رشد می‌کند، «ثابت» به معنای «باثبات» خوانده می‌شود، و همین برای نگه‌داشتن بانک مرکزی کانادا در حالت توقف کافی است. ترجمه عملی برای وام‌گیرندگان ساده است: مسیر مورد امید بازار برای پول ارزان‌تر کمی کندتر شد، و نرخ‌های ثابت از بازده اوراق قرضه پیروی می‌کنند که پس از این خبر بالا رفت، نه پایین.</p><p>پس بر اساس نرخی که امروز می‌توانید بگیرید برنامه‌ریزی کنید، نه نرخی که آرزویش را دارید. اگر خریدار هستید، یک پیش‌تأیید فعال با نگهداشت نرخ، شما را در برابر افزایش احتمالی بازده‌ها در حین جست‌وجو محافظت می‌کند و اگر نرخ‌ها پایین بیایند هزینه‌ای برایتان ندارد. اگر شش ماه آینده تمدید دارید، همین حالا شروع کنید و دوره ثابت را با گزینه شناور تخفیف‌دار بر اساس بودجه خودتان مقایسه کنید — نرخ شناور تنها زمانی منطقی است که جریان نقدی شما واقعاً بتواند پرداختی متغیر را جذب کند. و اگر درآمد شما از بخش تولید یا سایر صنایع کالایی است، انتظار داشته باشید وام‌دهندگان به ثبات شغلی دقیق‌تر نگاه کنند؛ مدارک اشتغال خود را زودتر آماده کنید. نمی‌توانم قول بدهم نرخ‌ها به کجا می‌روند — هیچ‌کس نمی‌تواند — اما می‌توانم مطمئن شوم پرونده شما برای هر دو حالت آماده است.</p>",
+      "slug": "canada-adds-18200-jobs-june-2026-jobless-rate-6-5",
+      "title_en": "Canada added 18,200 jobs in June and unemployment slipped to 6.5%, cementing a Bank of Canada hold",
+      "title_fa": "کانادا در ژوئن ۱۸٬۲۰۰ شغل ایجاد کرد و نرخ بیکاری به ۶٫۵٪ رسید و انتظار توقف نرخ بانک مرکزی را تثبیت کرد",
+      "summary_en": "Statistics Canada reported that employment rose by 18,200 in June and the unemployment rate edged down to 6.5% from 6.6%, a firmer result than the roughly 10,000-job gain and steady jobless rate economists had expected. The gains were concentrated in the service sector and part-time work — retail and wholesale trade added 16,400 and accommodation and food services 14,700 — while goods-producing industries shed 43,700 positions, led by a 16,800 drop in manufacturing. The report also showed a sharp compositional shift, with the public sector losing 30,500 jobs (its biggest monthly decline outside the pandemic since 2015) even as private-sector employment rose 31,600. Wage growth for full-time permanent employees accelerated to 3.7% year-over-year from 3.2% in May, the participation rate held at 65%, and younger workers were a notable bright spot. Economists said the data, following May's outsized 87,800 gain, point to an economy stabilizing rather than deteriorating — and are widely expected to keep the Bank of Canada on hold at 2.25% at its July 15 decision.",
+      "summary_fa": "آمار کانادا گزارش داد که اشتغال در ژوئن ۱۸٬۲۰۰ افزایش یافت و نرخ بیکاری از ۶٫۶٪ به ۶٫۵٪ رسید؛ نتیجه‌ای قوی‌تر از افزایش حدود ۱۰٬۰۰۰ شغلی و ثابت‌ماندن نرخ بیکاری که اقتصاددانان انتظار داشتند. این رشد در بخش خدمات و کار پاره‌وقت متمرکز بود — خرده‌فروشی و عمده‌فروشی ۱۶٬۴۰۰ و خدمات اقامتی و غذایی ۱۴٬۷۰۰ شغل افزودند — در حالی که بخش‌های تولید کالا ۴۳٬۷۰۰ شغل از دست دادند که پیشتاز آن افت ۱۶٬۸۰۰ شغلی در بخش تولید بود. این گزارش همچنین جابه‌جایی ترکیبی چشمگیری را نشان داد: بخش عمومی ۳۰٬۵۰۰ شغل از دست داد (بزرگ‌ترین کاهش ماهانه خارج از دوره همه‌گیری از سال ۲۰۱۵) در حالی که اشتغال بخش خصوصی ۳۱٬۶۰۰ افزایش یافت. رشد دستمزد کارکنان تمام‌وقت دائمی از ۳٫۲٪ در مه به ۳٫۷٪ نسبت به سال گذشته شتاب گرفت، نرخ مشارکت در ۶۵٪ ثابت ماند و کارگران جوان‌تر نقطه روشن قابل‌توجهی بودند. اقتصاددانان گفتند این داده‌ها، پس از رشد بزرگ ۸۷٬۸۰۰ شغلی مه، به اقتصادی در حال تثبیت اشاره دارند نه رو به وخامت — و به‌طور گسترده انتظار می‌رود بانک مرکزی کانادا را در تصمیم ۱۵ ژوئیه در نرخ ۲٫۲۵٪ ثابت نگه دارند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> A jobs report like this one — modest gains, a slightly lower unemployment rate, no sign of a collapsing labour market — is exactly the kind of data that keeps the Bank of Canada comfortable holding its policy rate steady rather than cutting. Markets and economists are reading the July 15 decision as a hold, and one CIBC economist noted policymakers will likely want to see the labour market strengthen further before they'd even consider moving rates in either direction. In plain terms: don't build your plan around a rate cut arriving soon.</p><p>What that means for you depends on where you sit. If you're on a variable rate, this points to your payment staying roughly where it is for now rather than dropping. If you're renewing or buying, the smart move is to lock in a real pre-approval and rate hold so you're protected for 90–120 days, and to stress-test your budget against a payment that stays higher for longer. I'm not predicting rates — nobody credibly can — but planning around 'steady for now' is far safer than betting on relief that the data isn't yet signalling.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> گزارش اشتغالی مانند این — رشد اندک، نرخ بیکاری کمی پایین‌تر، بدون نشانه‌ای از فروپاشی بازار کار — دقیقاً همان داده‌ای است که بانک مرکزی کانادا را برای ثابت‌نگه‌داشتن نرخ سیاستی به‌جای کاهش آن راحت نگه می‌دارد. بازارها و اقتصاددانان تصمیم ۱۵ ژوئیه را توقف نرخ می‌خوانند و یک اقتصاددان CIBC اشاره کرد که سیاست‌گذاران احتمالاً می‌خواهند پیش از آنکه حتی به تغییر نرخ در هر جهتی فکر کنند، تقویت بیشتر بازار کار را ببینند. به زبان ساده: برنامه خود را بر پایه رسیدن زودهنگام کاهش نرخ نچینید.</p><p>معنای این موضوع برای شما به موقعیتتان بستگی دارد. اگر نرخ شناور دارید، این نشان می‌دهد که پرداخت شما فعلاً تقریباً همان‌جا می‌ماند نه اینکه کاهش یابد. اگر در حال تمدید یا خرید هستید، اقدام هوشمندانه گرفتن پیش‌تأیید واقعی و نگهداشت نرخ است تا ۹۰ تا ۱۲۰ روز محافظت شوید، و سنجیدن بودجه‌تان در برابر پرداختی که مدت بیشتری بالا می‌ماند. من نرخ‌ها را پیش‌بینی نمی‌کنم — هیچ‌کس معتبرانه نمی‌تواند — اما برنامه‌ریزی حول «فعلاً ثابت» بسیار امن‌تر از شرط‌بستن بر تسکینی است که داده‌ها هنوز آن را نشان نمی‌دهند.</p>",
       "seo_title": "Canada Adds 18,200 Jobs in June, Jobless Rate 6.5% — Broker View | Hamed Ashouri",
-      "seo_description": "Canada added 18,200 jobs in June and unemployment fell to 6.5%, cementing expectations of a Bank of Canada hold. Ontario mortgage broker Hamed Ashouri on what it means for fixed vs variable, pre-approvals and renewals.",
-      "keywords": ["Canada jobs report", "unemployment rate", "Bank of Canada", "mortgage rates", "bond yields"],
-      "tags": ["rates", "bank-of-canada", "economy"],
+      "seo_description": "Canada added 18,200 jobs in June and unemployment fell to 6.5%, reinforcing expectations the Bank of Canada holds at 2.25% on July 15. Ontario mortgage broker Hamed Ashouri on what it means for your rate and renewal.",
+      "keywords": [
+        "Canada jobs report",
+        "unemployment rate",
+        "Bank of Canada",
+        "interest rates",
+        "StatCan"
+      ],
+      "tags": [
+        "rates",
+        "bank-of-canada",
+        "economy"
+      ],
       "category": "rates",
       "featured_image": "",
-      "image_alt_en": "Canadian workers in a service-sector workplace, representing the June jobs report",
-      "image_alt_fa": "کارکنان کانادایی در محیط کاری بخش خدمات، نماد گزارش اشتغال ژوئن",
-      "caption_en": "Illustrative.",
-      "caption_fa": "تصویری نمونه.",
+      "image_alt_en": "Canadian workers on the job representing the June labour force survey",
+      "image_alt_fa": "کارگران کانادایی در محل کار، نماد نظرسنجی نیروی کار ژوئن",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
       "source_name": "Canadian Mortgage Trends",
       "source_url": "https://www.canadianmortgagetrends.com/2026/07/canada-adds-18200-jobs-in-june-jobless-rate-falls-to-6-5/",
       "author": "Hamed Ashouri",
       "published_date": "2026-07-10",
-      "imported_date": "2026-07-12",
+      "imported_date": "2026-07-10",
       "status": "published",
       "language": "both",
       "featured": true,
       "homepage": true,
-      "related_topics": ["rates", "renewal"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["gen-preapproval", "gen-stress"]
+      "related_topics": [
+        "rates",
+        "renewal"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "gen-preapproval"
+      ]
     },
     {
-      "id": "news-2026-07-09-camla-alt-lenders",
-      "slug": "alternative-lenders-warn-one-size-fits-all-non-bank-regulation",
-      "title_en": "Alternative lenders push back on being lumped in with private lenders as regulators tighten focus",
-      "title_fa": "وام‌دهندگان جایگزین در برابر یکی‌شمرده‌شدن با وام‌دهندگان خصوصی مقاومت می‌کنند",
-      "summary_en": "The Canadian Alternative Mortgage Lenders Association (CAMLA) has published a position paper arguing that regulated alternative lenders should not be treated as the same thing as private lenders, at a moment when regulators are sharpening their focus on non-bank financial risk. CAMLA's case rests on structure: its members operate with formal governance, defined underwriting standards, compliance programs, risk management and regulatory oversight — and typically carry insurance coverage that private lenders may not. The performance data cited in the paper supports the distinction: according to CMHC's latest Residential Mortgage Industry Report, 'other non-bank lenders' — which captures much of the alternative sector — held roughly 4% of outstanding mortgages in Q3 2025 with an arrears rate of 0.23%, marginally below the 0.24% posted by the chartered banks, while mortgage investment entities held about 1.3% of the market with arrears of 1.96%, up from 1.55% in the first quarter. The push comes as FSRA has named private mortgage lending an oversight priority, OSFI's risk outlook flags both non-bank financial institution risk and real estate secured lending risk, and the Bank of Canada has raised questions about how private credit behaves under stress. CAMLA's core ask is definitional clarity, so that rules match the actual structure and risk profile of the firms they govern rather than sweeping every non-bank lender under one label.",
-      "summary_fa": "انجمن وام‌دهندگان جایگزین وام مسکن کانادا (CAMLA) سند موضعی منتشر کرده و استدلال می‌کند که وام‌دهندگان جایگزینِ تحت نظارت نباید هم‌سنگ وام‌دهندگان خصوصی در نظر گرفته شوند — درست در زمانی که نهادهای ناظر تمرکز خود را بر ریسک مالی غیربانکی افزایش داده‌اند. استدلال CAMLA بر ساختار استوار است: اعضای آن با حاکمیت شرکتی رسمی، استانداردهای مشخص ارزیابی اعتباری، برنامه‌های انطباق، مدیریت ریسک و نظارت قانونی فعالیت می‌کنند و معمولاً پوشش بیمه‌ای دارند که وام‌دهندگان خصوصی ممکن است نداشته باشند. داده‌های عملکردی نیز این تمایز را تأیید می‌کند: بر پایه آخرین گزارش صنعت وام مسکن مسکونی CMHC، دسته «سایر وام‌دهندگان غیربانکی» — که بخش عمده‌ای از بخش جایگزین را دربر می‌گیرد — در سه‌ماهه سوم ۲۰۲۵ حدود ۴٪ از وام‌های جاری را در اختیار داشت با نرخ معوقات ۰٫۲۳٪، اندکی کمتر از ۰٫۲۴٪ بانک‌های رسمی؛ در حالی که نهادهای سرمایه‌گذاری وام مسکن حدود ۱٫۳٪ از بازار را با نرخ معوقات ۱٫۹۶٪ در اختیار داشتند که از ۱٫۵۵٪ در سه‌ماهه نخست افزایش یافته است. این تلاش هنگامی صورت می‌گیرد که FSRA وام‌دهی خصوصی را اولویت نظارتی خود اعلام کرده، چشم‌انداز ریسک OSFI هم ریسک نهادهای مالی غیربانکی و هم ریسک وام‌دهی با وثیقه ملکی را برجسته کرده، و بانک مرکزی کانادا درباره رفتار اعتبار خصوصی در شرایط تنش پرسش مطرح کرده است. خواسته اصلی CAMLA شفافیت در تعاریف است تا مقررات با ساختار و پروفایل ریسک واقعی شرکت‌ها هم‌خوان باشد، نه اینکه همه وام‌دهندگان غیربانکی زیر یک برچسب قرار گیرند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This distinction is not industry politics — it lands directly on the kitchen table of anyone who doesn't fit the bank box. Alternative (B) lenders are regulated institutions with underwriting standards, and the arrears data shows their books performing essentially in line with the chartered banks. Private lending is a different instrument entirely: shorter terms, higher rates and fees, and a risk profile that regulators are now watching closely. When the two get collapsed into one 'non-bank' label, the risk is that rules written for the riskier end restrict access for the self-employed, newcomers and credit-rebuilding borrowers who are perfectly creditworthy — they just don't fit a template.</p><p>What this means for you: if a bank has said no, that is not the end of the conversation, but the alternative you're offered should always be the least costly one that solves the problem. My order of operations is A-lender first, then a regulated alternative lender, and private only as a genuine last resort with a defined exit plan and a hard end date. If you're being steered straight to a private mortgage, ask why the alternative options were skipped. Let's price all three paths before you commit to any of them.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این تمایز صرفاً سیاست صنفی نیست — مستقیماً بر زندگی هر کسی که در قالب بانک‌ها نمی‌گنجد اثر می‌گذارد. وام‌دهندگان جایگزین (B) نهادهایی تحت نظارت با استانداردهای ارزیابی اعتباری هستند و داده‌های معوقات نشان می‌دهد عملکرد پرتفوی آن‌ها عملاً هم‌تراز بانک‌های رسمی است. وام‌دهی خصوصی ابزاری کاملاً متفاوت است: دوره‌های کوتاه‌تر، نرخ‌ها و کارمزدهای بالاتر، و پروفایل ریسکی که اکنون زیر ذره‌بین ناظران قرار دارد. وقتی این دو زیر یک برچسب «غیربانکی» ادغام شوند، خطر این است که مقرراتی که برای سر پرریسک طیف نوشته شده، دسترسی خوداشتغال‌ها، تازه‌واردان و کسانی را که در حال بازسازی اعتبارند محدود کند — کسانی که کاملاً اعتبارپذیرند و فقط در قالب استاندارد جای نمی‌گیرند.</p><p>معنای این موضوع برای شما: اگر بانکی «نه» گفته، پایان گفت‌وگو نیست، اما گزینه جایگزینی که به شما پیشنهاد می‌شود باید همیشه کم‌هزینه‌ترین راهی باشد که مشکل را حل می‌کند. ترتیب کار من این است: نخست وام‌دهنده A، سپس وام‌دهنده جایگزینِ تحت نظارت، و وام خصوصی تنها به‌عنوان آخرین راه واقعی، آن هم با برنامه خروج مشخص و تاریخ پایان روشن. اگر شما را مستقیم به‌سمت وام خصوصی هدایت می‌کنند، بپرسید چرا گزینه‌های جایگزین نادیده گرفته شده‌اند. بیایید پیش از تعهد به هر کدام، هر سه مسیر را قیمت‌گذاری کنیم.</p>",
-      "seo_title": "Alternative vs Private Lenders: CAMLA Position Paper — Broker View | Hamed Ashouri",
-      "seo_description": "CAMLA says regulated alternative lenders shouldn't be grouped with private lenders as FSRA and OSFI sharpen non-bank oversight. Ontario mortgage broker Hamed Ashouri on B-lending vs private lending and choosing the least costly path.",
-      "keywords": ["alternative lenders", "private lenders", "CAMLA", "FSRA", "OSFI", "B lender"],
-      "tags": ["regulation", "lenders", "self-employed"],
+      "id": "news-2026-07-09-camla-nonbank-regulation",
+      "slug": "alternative-lenders-warn-against-one-size-fits-all-regulation",
+      "title_en": "Alternative lenders push back on being lumped in with private lenders as regulators eye non-bank risk",
+      "title_fa": "با تمرکز ناظران بر ریسک غیربانکی، وام‌دهندگان جایگزین در برابر یکسان‌انگاری با وام‌دهندگان خصوصی موضع می‌گیرند",
+      "summary_en": "The Canadian Alternative Mortgage Lenders Association (CAMLA) has published a position paper arguing that regulated alternative lenders should not be treated the same as private lenders as watchdogs sharpen their focus on non-bank financial risk. Executive director Dan Nguyen says alternative lenders generally operate with formal governance, underwriting standards, compliance programs, clear investor obligations and regulatory oversight — and often carry insurance coverage that many private lenders do not. CMHC's latest Residential Mortgage Industry Report puts 'other non-bank lenders' at roughly 4% of outstanding mortgages and mortgage investment entities at about 1.3% as of the third quarter of 2025; notably, the arrears rate for 'other non-bank lenders' sat at just 0.23%, slightly below chartered banks' 0.24%, while mortgage investment entities were at 1.96% and rising. The distinction matters now because FSRA has flagged the private mortgage market as a supervisory priority, Bank of Canada Governor Tiff Macklem has warned about how private credit behaves under stress, and OSFI's latest Risk Outlook names non-bank and real-estate-secured lending among its top concerns. CAMLA's argument is that clearer definitions strengthen, rather than weaken, consumer protection.",
+      "summary_fa": "انجمن وام‌دهندگان جایگزین وام مسکن کانادا (CAMLA) سند موضعی منتشر کرده و استدلال می‌کند که وام‌دهندگان جایگزینِ تحت‌نظارت نباید همانند وام‌دهندگان خصوصی تلقی شوند، درست زمانی که ناظران تمرکز خود را بر ریسک مالی غیربانکی افزایش می‌دهند. دن نگوین، مدیر اجرایی، می‌گوید وام‌دهندگان جایگزین عموماً با حاکمیت رسمی، استانداردهای پذیره‌نویسی، برنامه‌های انطباق، تعهدات روشن سرمایه‌گذار و نظارت مقرراتی عمل می‌کنند — و اغلب پوشش بیمه‌ای دارند که بسیاری از وام‌دهندگان خصوصی ندارند. تازه‌ترین گزارش صنعت وام مسکن مسکونی CMHC سهم «سایر وام‌دهندگان غیربانکی» را حدود ۴٪ از وام‌های معوق و نهادهای سرمایه‌گذاری وام مسکن را حدود ۱٫۳٪ در سه‌ماهه سوم ۲۰۲۵ برآورد می‌کند؛ نکته قابل‌توجه اینکه نرخ معوقات «سایر وام‌دهندگان غیربانکی» تنها ۰٫۲۳٪ بود، کمی پایین‌تر از ۰٫۲۴٪ بانک‌های منشوری، در حالی که نهادهای سرمایه‌گذاری وام مسکن ۱٫۹۶٪ و رو به افزایش بودند. این تمایز اکنون اهمیت دارد چون FSRA بازار وام مسکن خصوصی را اولویت نظارتی اعلام کرده، تیف مکلم، رئیس بانک مرکزی کانادا، درباره رفتار اعتبار خصوصی تحت فشار هشدار داده و تازه‌ترین چشم‌انداز ریسک OSFI وام‌دهی غیربانکی و وام‌های تضمین‌شده با املاک را از نگرانی‌های اصلی خود نام برده است. استدلال CAMLA این است که تعاریف روشن‌تر، حمایت از مصرف‌کننده را تقویت می‌کند نه تضعیف.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is a wonky-sounding story with a very practical payoff for real borrowers. 'Alternative' and 'private' lending get thrown around as if they're the same thing, and they're not. Regulated alternative lenders — the ones brokers place many self-employed, newcomer and credit-rebuilding clients with — operate with underwriting standards, compliance and oversight, and their arrears record here is actually in line with the big banks. Private lending has its place too, but it's a different tool with a different risk and cost profile. Knowing which one your file actually needs is where a broker earns their keep.</p><p>The practical lesson: if a bank has said no, that doesn't mean you're stuck with the most expensive money in the market. There's often a well-regulated alternative path that costs far less than a private mortgage and comes with more structure and protection. When we work on your file, I'll be clear about which category a lender falls into, what it costs all-in, and — just as important — the plan to move you back toward a lower-cost A-lender once your profile is strong enough. The label matters, and so does having someone translate it for you.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این خبری فنی به‌نظر می‌رسد اما نتیجه‌ای بسیار کاربردی برای وام‌گیرندگان واقعی دارد. «جایگزین» و «خصوصی» طوری به‌کار می‌روند که انگار یکی هستند، اما نیستند. وام‌دهندگان جایگزینِ تحت‌نظارت — همان‌هایی که بروکرها بسیاری از مشتریان خوداشتغال، تازه‌وارد و در حال بازسازی اعتبار را نزد آن‌ها قرار می‌دهند — با استانداردهای پذیره‌نویسی، انطباق و نظارت عمل می‌کنند و سابقه معوقاتشان اینجا در واقع هم‌سطح بانک‌های بزرگ است. وام‌دهی خصوصی هم جایگاه خود را دارد، اما ابزاری متفاوت با نیم‌رخ ریسک و هزینه متفاوت است. دانستن اینکه پرونده شما واقعاً به کدام‌یک نیاز دارد، همان‌جایی است که یک بروکر ارزش خود را نشان می‌دهد.</p><p>درس عملی: اگر بانکی جواب رد داده، به این معنا نیست که به گران‌ترین پول بازار محکوم شده‌اید. اغلب مسیر جایگزینِ خوش‌نظارتی وجود دارد که هزینه‌اش بسیار کمتر از وام خصوصی است و ساختار و حفاظت بیشتری دارد. وقتی روی پرونده شما کار می‌کنیم، روشن خواهم بود که هر وام‌دهنده در کدام دسته قرار می‌گیرد، هزینه تمام‌شده‌اش چقدر است و — به همان اندازه مهم — برنامه بازگرداندن شما به وام‌دهنده A کم‌هزینه‌تر پس از آنکه نیم‌رخ‌تان به‌قدر کافی قوی شد چیست. برچسب مهم است، و داشتن کسی که آن را برایتان ترجمه کند نیز.</p>",
+      "seo_title": "Alternative vs Private Lenders: CAMLA on Non-Bank Regulation — Broker View | Hamed Ashouri",
+      "seo_description": "CAMLA argues regulated alternative lenders shouldn't be lumped in with private lenders as OSFI and FSRA sharpen focus on non-bank risk. Ontario mortgage broker Hamed Ashouri on what the distinction means for borrowers.",
+      "keywords": [
+        "alternative lenders",
+        "private lenders",
+        "CAMLA",
+        "non-bank lending",
+        "OSFI"
+      ],
+      "tags": [
+        "regulation",
+        "alternative-lending",
+        "private-lending"
+      ],
       "category": "regulation",
       "featured_image": "",
-      "image_alt_en": "Canadian regulatory documents and a lender office, representing non-bank mortgage oversight",
-      "image_alt_fa": "اسناد نظارتی کانادا و دفتر یک وام‌دهنده، نماد نظارت بر وام‌دهی غیربانکی",
-      "caption_en": "Illustrative.",
-      "caption_fa": "تصویری نمونه.",
+      "image_alt_en": "Canadian financial district representing non-bank mortgage lenders and regulation",
+      "image_alt_fa": "منطقه مالی کانادا، نماد وام‌دهندگان غیربانکی وام مسکن و مقررات",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
       "source_name": "Canadian Mortgage Trends",
       "source_url": "https://www.canadianmortgagetrends.com/2026/07/alternative-lenders-warn-against-one-size-fits-all-non-bank-regulation/",
       "author": "Hamed Ashouri",
       "published_date": "2026-07-09",
-      "imported_date": "2026-07-12",
+      "imported_date": "2026-07-10",
       "status": "published",
       "language": "both",
       "featured": false,
       "homepage": true,
-      "related_topics": ["self-employed", "documents"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["se-income"]
+      "related_topics": [
+        "self-employed",
+        "newcomers"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "se-income"
+      ]
+    },
+    {
+      "id": "news-2026-07-07-haventree-direct-bank",
+      "slug": "haventree-launches-direct-to-consumer-digital-bank",
+      "title_en": "Haventree opens a direct-to-consumer digital bank, stepping beyond the broker channel",
+      "title_fa": "هون‌تری یک بانک دیجیتال مستقیم‌به‌مصرف‌کننده راه‌اندازی کرد و از کانال بروکر فراتر رفت",
+      "summary_en": "Haventree Bank — a Schedule 1 Canadian bank known in the mortgage world as an alternative lender distributed only through brokers — has launched its first direct-to-consumer digital bank. The centrepiece is an 'Everyday Growth Account,' a hybrid chequing-and-savings product paying 2.5% interest with no minimum balance, no monthly fees and support for up to eight accounts per user, offered alongside new GIC products. Services are available in English everywhere outside Quebec for now, with French-language offerings, a Quebec launch and registered investment products all expected later in 2026. CEO Fern Glowinsky frames the move as a natural extension of the bank's lending philosophy and a way to grow both its deposit-funding base and its brand recognition beyond the broker channel. Notably, Haventree built its own platform rather than acquiring one, and stresses that its broker relationships — the core of its business since 1990 — will continue and even deepen.",
+      "summary_fa": "هون‌تری بانک — یک بانک کانادایی رده ۱ که در دنیای وام مسکن به‌عنوان وام‌دهنده جایگزین و صرفاً از طریق بروکرها شناخته می‌شود — نخستین بانک دیجیتال مستقیم‌به‌مصرف‌کننده خود را راه‌اندازی کرد. محور اصلی آن «حساب رشد روزمره» است؛ محصولی ترکیبی از حساب جاری و پس‌انداز با سود ۲٫۵٪، بدون حداقل موجودی، بدون کارمزد ماهانه و با امکان داشتن تا هشت حساب برای هر کاربر، در کنار محصولات جدید GIC. این خدمات فعلاً به زبان انگلیسی در همه‌جای خارج از کبک در دسترس است و خدمات فرانسوی، عرضه در کبک و محصولات سرمایه‌گذاری ثبت‌شده همگی برای اواخر ۲۰۲۶ برنامه‌ریزی شده‌اند. فرن گلوینسکی، مدیرعامل، این اقدام را امتداد طبیعی فلسفه وام‌دهی بانک و راهی برای گسترش پایه تأمین مالی سپرده و شناخت برند فراتر از کانال بروکر می‌داند. نکته مهم اینکه هون‌تری این سکو را به‌جای خرید، خودش ساخته و تأکید می‌کند که روابطش با بروکرها — که از سال ۱۹۹۰ هسته کسب‌وکارش بوده — ادامه یافته و حتی عمیق‌تر خواهد شد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> When an alternative lender that brokers already trust starts offering everyday deposit accounts, it can be a genuinely useful place to park savings — a CDIC-protected account paying competitive interest, with no minimum balance and no monthly fee. The key is to read it the way Haventree itself describes it: a secondary home for incremental funds, not a reason to move your whole banking life. Diversifying deposits across more than one CDIC-member institution (basic coverage is $100,000 per category, per institution) is a sound, conservative habit — and this simply adds one more credible place to do it.</p><p>The quieter story is what a deposit base does for the lending side. Alternative lenders like Haventree serve a lot of self-employed, newcomer and credit-rebuilding borrowers who don't fit neatly into a big-bank box, and a stronger, more stable funding source generally supports that business over time. I'm not making any promises about rates or approvals — those always depend on your file — but if your situation sits in the alternative space, a well-funded, broker-committed lender expanding its footprint is a healthy sign. If you're wondering whether their mortgage products fit your circumstances, that's exactly the kind of question I'm here to work through with you.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> وقتی یک وام‌دهنده جایگزین که بروکرها پیش‌تر به آن اعتماد دارند شروع به ارائه حساب‌های سپرده روزمره می‌کند، می‌تواند جای واقعاً مفیدی برای نگه‌داری پس‌انداز باشد — حسابی تحت پوشش CDIC با سود رقابتی، بدون حداقل موجودی و بدون کارمزد ماهانه. نکته این است که آن را همان‌گونه بخوانید که خود هون‌تری توصیف می‌کند: خانه‌ای دوم برای وجوه اضافی، نه دلیلی برای انتقال کل زندگی بانکی‌تان. پخش‌کردن سپرده‌ها میان بیش از یک مؤسسه عضو CDIC (پوشش پایه ۱۰۰٬۰۰۰ دلار برای هر دسته و هر مؤسسه) عادتی سنجیده و محافظه‌کارانه است — و این تنها یک گزینه معتبر دیگر به آن می‌افزاید.</p><p>داستان کم‌سروصداتر، تأثیر پایه سپرده بر بخش وام‌دهی است. وام‌دهندگان جایگزینی مانند هون‌تری به بسیاری از خوداشتغال‌ها، تازه‌واردان و افراد در حال بازسازی اعتبار خدمت می‌کنند که به‌راحتی در قالب بانک‌های بزرگ جای نمی‌گیرند، و یک منبع تأمین مالی قوی‌تر و پایدارتر معمولاً در طول زمان از این کسب‌وکار پشتیبانی می‌کند. من هیچ وعده‌ای درباره نرخ یا تأیید نمی‌دهم — این‌ها همیشه به پرونده شما بستگی دارند — اما اگر شرایط شما در فضای جایگزین قرار دارد، گسترش یک وام‌دهنده خوش‌بنیه و متعهد به بروکر نشانه سالمی است. اگر می‌خواهید بدانید محصولات وام آن‌ها با شرایط شما هم‌خوان است یا نه، دقیقاً همین نوع پرسش را با هم بررسی می‌کنیم.</p>",
+      "seo_title": "Haventree Launches a Direct-to-Consumer Digital Bank — Broker View | Hamed Ashouri",
+      "seo_description": "Haventree Bank opens a direct-to-consumer digital bank with a 2.5% Everyday Growth Account and GICs, expanding beyond the broker channel. Ontario mortgage broker Hamed Ashouri on what it means for savers and alternative-lending borrowers.",
+      "keywords": [
+        "Haventree Bank",
+        "alternative lenders",
+        "digital bank",
+        "GIC",
+        "CDIC deposits"
+      ],
+      "tags": [
+        "lenders",
+        "alternative-lending",
+        "deposits"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_9f059ab1-8044-4279-80b8-bca1b1a36ade.jpg",
+      "image_alt_en": "Modern digital banking app on a phone representing a new consumer bank",
+      "image_alt_fa": "اپلیکیشن بانکداری دیجیتال مدرن روی گوشی، نماد یک بانک مصرفی جدید",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/haventree-bank-launches-direct-to-consumer-digital-bank/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-07",
+      "imported_date": "2026-07-08",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "self-employed",
+        "newcomers"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "se-income"
+      ]
+    },
+    {
+      "id": "news-2026-07-03-gta-june-sales",
+      "slug": "greater-toronto-home-sales-up-9-4-june-2026",
+      "title_en": "Greater Toronto home sales rose 9.4% in June as listings tightened",
+      "title_fa": "فروش خانه در منطقه بزرگ تورنتو در ژوئن ۹٫۴٪ افزایش یافت در حالی که عرضه کاهش یافت",
+      "summary_en": "The Greater Toronto Area recorded 6,770 home sales in June, up 9.4% from a year earlier and 1.4% above May on a seasonally adjusted basis, according to the Toronto Regional Real Estate Board. Even as demand strengthened, new listings fell 12.9% year-over-year to 17,282 and total active inventory dropped 13.5% to 27,329 — the fourth straight month of rising sales alongside shrinking supply. Prices, however, kept easing: the average selling price slipped 3.9% year-over-year to $1,058,658, and the composite benchmark for a typical home was down 5.4%. Every housing type saw more activity, led by a 14.3% jump in condo sales, with detached up 9.1%. TRREB's president pointed to a 'marked improvement' in the second quarter and predicted more buyer competition and renewed price growth in the back half of the year, though agents caution the market is still a long way from a true bottom.",
+      "summary_fa": "بر اساس گزارش هیئت املاک منطقه‌ای تورنتو (TRREB)، منطقه بزرگ تورنتو در ژوئن ۶٬۷۷۰ فروش خانه ثبت کرد که نسبت به سال گذشته ۹٫۴٪ و نسبت به مه با تعدیل فصلی ۱٫۴٪ بیشتر بود. با وجود تقویت تقاضا، فهرست‌های جدید ۱۲٫۹٪ نسبت به سال گذشته کاهش یافت و به ۱۷٬۲۸۲ رسید و کل موجودی فعال ۱۳٫۵٪ افت کرد و به ۲۷٬۳۲۹ رسید — چهارمین ماه پیاپی افزایش فروش همراه با کاهش عرضه. با این حال قیمت‌ها همچنان نرم شدند: میانگین قیمت فروش ۳٫۹٪ نسبت به سال گذشته کاهش یافت و به ۱٬۰۵۸٬۶۵۸ دلار رسید و شاخص مرکب برای خانه معمول ۵٫۴٪ پایین آمد. همه انواع مسکن فعالیت بیشتری داشتند که پیشتاز آن جهش ۱۴٫۳ درصدی فروش کاندو و افزایش ۹٫۱ درصدی خانه‌های مستقل بود. رئیس TRREB به «بهبود چشمگیر» در سه‌ماهه دوم اشاره کرد و رقابت بیشتر خریداران و بازگشت رشد قیمت را در نیمه دوم سال پیش‌بینی کرد، هرچند مشاوران هشدار می‌دهند بازار هنوز تا کف واقعی فاصله زیادی دارد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is the market quietly changing character. Sales rising for four months straight while listings shrink is the classic setup for tightening — and even though average prices are still down year-over-year, the balance of power slowly shifts back toward sellers when there's less to choose from and more buyers showing up. Condos led the rebound with a 14.3% jump in sales, which matters because that's exactly the segment where prices have fallen the most and where the affordability math now works best for first-time buyers.</p><p>What I'd take from it: if you've been waiting on the sidelines for a 'clearly better' moment, the window of soft prices plus thin competition may not stay open indefinitely. I'm not predicting a spike — agents themselves say a true bottom is a long way off — but the smart move is to get pre-approved and know your real budget now, so you can act calmly if the right listing appears rather than scramble in a tighter fall market. Readiness beats timing every time.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این بازار به‌آرامی در حال تغییر ماهیت است. افزایش فروش برای چهار ماه پیاپی همراه با کاهش عرضه، الگوی کلاسیک تنگ‌شدن بازار است — و هرچند میانگین قیمت‌ها هنوز نسبت به سال گذشته پایین‌تر است، وقتی گزینه‌ها کمتر و خریداران بیشتر می‌شوند، توازن قدرت به‌تدریج به‌سوی فروشندگان بازمی‌گردد. کاندوها با جهش ۱۴٫۳ درصدی فروش پیشتاز این بازگشت بودند و این مهم است، چون دقیقاً همان بخشی است که بیشترین افت قیمت را داشته و اکنون بهترین معادله دسترسی‌پذیری را برای خریداران بار اول ارائه می‌دهد.</p><p>برداشت من: اگر برای «لحظه‌ای آشکارا بهتر» کنار گود منتظر مانده‌اید، پنجره قیمت‌های نرم به‌همراه رقابت اندک ممکن است برای همیشه باز نماند. من جهش قیمت پیش‌بینی نمی‌کنم — خود مشاوران می‌گویند تا کف واقعی راه درازی مانده — اما اقدام هوشمندانه این است که همین حالا پیش‌تأیید بگیرید و بودجه واقعی خود را بدانید تا اگر خانه مناسب پیدا شد بتوانید آرام اقدام کنید، نه اینکه در بازار تنگ‌تر پاییز شتاب‌زده عمل کنید. آمادگی همیشه از زمان‌بندی بهتر است.</p>",
+      "seo_title": "Greater Toronto Home Sales Up 9.4% in June 2026 — Broker View | Hamed Ashouri",
+      "seo_description": "GTA June home sales rose 9.4% as listings fell and prices eased, with condo sales up 14.3% (TRREB). Ontario mortgage broker Hamed Ashouri on what a tightening market means for buyers.",
+      "keywords": [
+        "Toronto home sales",
+        "TRREB",
+        "GTA housing market",
+        "condo sales",
+        "home prices"
+      ],
+      "tags": [
+        "housing-market",
+        "toronto",
+        "first-time-buyer"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_a508b03b-689c-479d-a8bd-b9a9df479d0f.jpg",
+      "image_alt_en": "Greater Toronto Area homes with the downtown skyline in the distance",
+      "image_alt_fa": "خانه‌های منطقه بزرگ تورنتو با خط آسمان مرکز شهر در دوردست",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/greater-toronto-home-sales-up-9-4-in-june-as-board-predicts-price-growth-could-come/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-03",
+      "imported_date": "2026-07-07",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": false,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-03-fraser-valley-prices",
+      "slug": "fraser-valley-home-prices-down-26-sluggish-market",
+      "title_en": "B.C.'s Fraser Valley prices sit 26% below their 2022 peak as buyers wait",
+      "title_fa": "قیمت‌های فریزر ولی در بریتیش کلمبیا ۲۶٪ پایین‌تر از اوج ۲۰۲۲ است در حالی که خریداران منتظرند",
+      "summary_en": "The Fraser Valley Real Estate Board reports the region's benchmark home price has slipped to just under $885,000 — down about 7% from a year ago and roughly 26% below its 2022 peak. Sales stayed subdued at 1,147 MLS transactions in June: up 2% from May but 4% below the same month last year. The apartment segment led the declines, its benchmark falling 9.1% year-over-year to $476,400, while single-detached homes (around $1.35 million) and townhouses (about $764,000) were each off more than 7% from June 2025. Board leaders described a market of genuine opportunity that qualified buyers are still hesitating to act on, noting the spring season underperformed expectations. With ample inventory and softer prices, leverage in the Fraser Valley currently sits firmly with buyers.",
+      "summary_fa": "هیئت املاک فریزر ولی گزارش می‌دهد که شاخص قیمت خانه در این منطقه به کمی زیر ۸۸۵٬۰۰۰ دلار رسیده است — حدود ۷٪ کمتر از یک سال پیش و تقریباً ۲۶٪ پایین‌تر از اوج سال ۲۰۲۲. فروش همچنان کم‌رمق ماند و در ژوئن ۱٬۱۴۷ معامله در MLS ثبت شد: ۲٪ بیشتر از مه اما ۴٪ کمتر از همین ماه سال گذشته. بخش آپارتمان پیشتاز کاهش‌ها بود و شاخص آن با افت ۹٫۱ درصدی نسبت به سال گذشته به ۴۷۶٬۴۰۰ دلار رسید، در حالی که خانه‌های تک‌واحدی مستقل (حدود ۱٫۳۵ میلیون دلار) و خانه‌های ردیفی (حدود ۷۶۴٬۰۰۰ دلار) هرکدام بیش از ۷٪ نسبت به ژوئن ۲۰۲۵ پایین‌تر بودند. مدیران هیئت این بازار را فرصتی واقعی توصیف کردند که خریداران واجد شرایط هنوز در استفاده از آن تردید دارند و اشاره کردند که فصل بهار کمتر از انتظار عمل کرد. با موجودی فراوان و قیمت‌های نرم‌تر، توازن قدرت در فریزر ولی اکنون قاطعانه به‌سود خریداران است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> A market sitting 26% below its peak with plenty of listings is, on paper, a buyer's market — but headlines about falling prices are exactly what freeze buyers in place. The people who do well in conditions like these aren't trying to call the precise bottom; they're the ones who are pre-approved, know their real budget, and can negotiate calmly when a seller is motivated. Softer prices also mean more room to negotiate on price, conditions and closing timelines than you'd ever get in a heated market.</p><p>The catch is qualifying. A lower purchase price helps, but you still need verified income and a documented down payment to make a lender comfortable, and a declining-value area can affect the appraisal that ultimately caps your financing. If you're eyeing the Fraser Valley — or any softer B.C. market — map your financing fully first, then shop with the confidence to act. It's a local story with a national lesson: opportunity favours the prepared, not the ones waiting for a headline that says 'now.'</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> بازاری که ۲۶٪ پایین‌تر از اوج خود و پر از فهرست‌های فروش است، روی کاغذ بازار خریدار است — اما دقیقاً همین تیترهای کاهش قیمت است که خریداران را در جای خود میخکوب می‌کند. کسانی که در چنین شرایطی موفق می‌شوند در پی یافتن کف دقیق قیمت نیستند؛ بلکه پیش‌تأیید گرفته‌اند، بودجه واقعی خود را می‌دانند و وقتی فروشنده‌ای مصمم است می‌توانند آرام مذاکره کنند. قیمت‌های نرم‌تر همچنین یعنی فضای بیشتر برای چانه‌زنی بر سر قیمت، شرایط و زمان‌بندی معامله نسبت به یک بازار داغ.</p><p>نکته دشوار، احراز صلاحیت است. قیمت خرید پایین‌تر کمک می‌کند، اما همچنان به درآمد تأییدشده و پیش‌پرداخت مستند نیاز دارید تا وام‌دهنده مطمئن شود، و منطقه‌ای با ارزش در حال کاهش می‌تواند بر ارزیابی‌ای که در نهایت سقف تأمین مالی شما را تعیین می‌کند اثر بگذارد. اگر فریزر ولی — یا هر بازار نرم‌تر بریتیش کلمبیا — را زیر نظر دارید، نخست تأمین مالی خود را کامل ترسیم کنید، سپس با اطمینانِ اقدام خرید کنید. این یک داستان محلی با درسی سراسری است: فرصت به‌سود آماده‌هاست، نه کسانی که منتظر تیتری هستند که بگوید «حالا».</p>",
+      "seo_title": "Fraser Valley Home Prices 26% Below 2022 Peak — Broker View | Hamed Ashouri",
+      "seo_description": "B.C.'s Fraser Valley benchmark price sits near $885,000, about 26% below its 2022 peak, with apartments down 9.1%. Ontario mortgage broker Hamed Ashouri on buying in a soft, buyer-friendly market.",
+      "keywords": [
+        "Fraser Valley",
+        "B.C. housing",
+        "home prices",
+        "buyers market",
+        "apartment prices"
+      ],
+      "tags": [
+        "housing-market",
+        "prices",
+        "buyers-market"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_e38d0c0a-fbdd-4df7-9abc-98210abd2d22.jpg",
+      "image_alt_en": "Fraser Valley B.C. neighbourhood of homes under a cloudy sky",
+      "image_alt_fa": "محله‌ای از خانه‌ها در فریزر ولی بریتیش کلمبیا زیر آسمانی ابری",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/b-c-s-fraser-valley-home-prices-down-26-from-2022-in-sluggish-market/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-03",
+      "imported_date": "2026-07-03",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": false,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-02-cusma-annual-reviews",
+      "slug": "us-declines-cusma-renewal-annual-reviews",
+      "title_en": "U.S. won't renew CUSMA, shifting to annual reviews — and more trade uncertainty",
+      "title_fa": "آمریکا کوسما را تمدید نمی‌کند و به بازبینی‌های سالانه روی می‌آورد — و نااطمینانی تجاری بیشتر",
+      "summary_en": "The United States has decided against a long-term renewal of the Canada-U.S.-Mexico Agreement (CUSMA), opting instead for annual reviews, according to Bloomberg reporting covered by Canadian Mortgage Trends. The pact stays in force — potentially through 2036 — as long as no country withdraws, but replacing a 16-year extension with rolling talks opens the door to years of contentious negotiation over tariffs and supply-chain rules. The U.S. Trade Representative said Washington is 'not prepared to rubber stamp' the deal, framing the shift as a way to keep leverage over Canada and Mexico. The stakes are large: intra-regional trade topped $1.6 trillion in 2024, and roughly 90% of imports from Canada and Mexico now move under CUSMA rules. Canadian officials say they support renewal and want to address U.S. tariffs on steel, aluminum, autos and lumber, but businesses warn that prolonged uncertainty could chill cross-border investment.",
+      "summary_fa": "بر اساس گزارش بلومبرگ که Canadian Mortgage Trends آن را پوشش داده، ایالات متحده تصمیم گرفته توافق کانادا-آمریکا-مکزیک (کوسما) را برای بلندمدت تمدید نکند و به‌جای آن بازبینی‌های سالانه را برگزیند. این توافق همچنان معتبر می‌ماند — احتمالاً تا سال ۲۰۳۶ — تا زمانی که هیچ کشوری خارج نشود، اما جایگزینی تمدید ۱۶ ساله با گفت‌وگوهای مستمر، در را به روی سال‌ها مذاکره پرتنش بر سر تعرفه‌ها و قواعد زنجیره تأمین باز می‌کند. نماینده تجاری آمریکا گفت واشنگتن «آماده مهر تأیید بی‌چون‌وچرا» بر این توافق نیست و این تغییر را راهی برای حفظ اهرم فشار بر کانادا و مکزیک توصیف کرد. اهمیت موضوع بزرگ است: تجارت درون‌منطقه‌ای در سال ۲۰۲۴ از ۱٫۶ تریلیون دلار فراتر رفت و اکنون حدود ۹۰٪ واردات از کانادا و مکزیک تحت قواعد کوسما جابه‌جا می‌شود. مقام‌های کانادایی می‌گویند از تمدید حمایت می‌کنند و می‌خواهند به تعرفه‌های آمریکا بر فولاد، آلومینیوم، خودرو و الوار رسیدگی شود، اما کسب‌وکارها هشدار می‌دهند که نااطمینانی طولانی می‌تواند سرمایه‌گذاری فرامرزی را دلسرد کند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This isn't a mortgage story on the surface, but it flows straight into the rates that shape your payment. Prolonged trade uncertainty is exactly the kind of headwind that keeps the Bank of Canada cautious — it dampens business investment and growth, which normally argues for lower rates, yet tariff risk can also push prices up, which argues against cutting. That tug-of-war is a big reason the Bank has held its policy rate steady through 2026 rather than delivering the cuts many borrowers hoped for.</p><p>What it means practically: don't build your plan around a rate cut that trade politics could delay. If you're buying or renewing, protect yourself with a real pre-approval and rate hold, stress-test your budget against a payment that stays higher for longer, and treat any future cut as a bonus rather than the base case. Headlines like this rarely move your rate next week, but they're a reminder that certainty in your own file is the one thing you actually control.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> در ظاهر این یک خبر وام مسکن نیست، اما مستقیماً بر نرخ‌هایی که پرداخت شما را شکل می‌دهند اثر می‌گذارد. نااطمینانی طولانی تجاری دقیقاً همان بادِ مخالفی است که بانک مرکزی کانادا را محتاط نگه می‌دارد — سرمایه‌گذاری و رشد کسب‌وکار را کند می‌کند که معمولاً به‌نفع کاهش نرخ است، اما خطر تعرفه می‌تواند قیمت‌ها را هم بالا ببرد که برخلاف کاهش نرخ است. همین کشمکش یکی از دلایل مهم ثابت‌ماندن نرخ سیاستی بانک در سراسر ۲۰۲۶ است، به‌جای کاهش‌هایی که بسیاری از وام‌گیرندگان امید داشتند.</p><p>معنای عملی آن: برنامه خود را بر پایه کاهش نرخی که سیاست تجاری می‌تواند به تعویق بیندازد نچینید. اگر در حال خرید یا تمدید هستید، خود را با پیش‌تأیید واقعی و نگهداشت نرخ محافظت کنید، بودجه‌تان را در برابر پرداختی که مدت بیشتری بالا می‌ماند بسنجید و هر کاهش آینده را یک امتیاز اضافی بدانید نه فرض پایه. چنین تیترهایی به‌ندرت نرخ شما را هفته آینده تغییر می‌دهند، اما یادآوری می‌کنند که قطعیت در پرونده خودتان تنها چیزی است که واقعاً کنترلش دارید.</p>",
+      "seo_title": "U.S. Declines CUSMA Renewal, Shifts to Annual Reviews — Broker View | Hamed Ashouri",
+      "seo_description": "The U.S. won't renew CUSMA, moving to annual reviews and adding trade uncertainty. Ontario mortgage broker Hamed Ashouri on how it feeds into Bank of Canada rate decisions and your mortgage plan.",
+      "keywords": [
+        "CUSMA",
+        "trade uncertainty",
+        "Bank of Canada",
+        "interest rates",
+        "tariffs"
+      ],
+      "tags": [
+        "industry",
+        "rates",
+        "economy"
+      ],
+      "category": "industry",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_fca11ace-443a-4e05-a775-0453aea9df07.png",
+      "image_alt_en": "Cargo trucks at a Canada-U.S. border crossing representing cross-border trade",
+      "image_alt_fa": "کامیون‌های باری در گذرگاه مرزی کانادا و آمریکا، نماد تجارت فرامرزی",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/u-s-decides-against-renewing-cusma-shifting-to-rolling-talks/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-02",
+      "imported_date": "2026-07-07",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": false,
+      "related_topics": [
+        "rates",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-02-calgary-condos",
+      "slug": "calgary-condo-prices-fall-9-supply-builds",
+      "title_en": "Calgary condo prices fall about 9% as high-density supply builds",
+      "title_fa": "قیمت کاندوهای کلگری با افزایش عرضه پرتراکم حدود ۹٪ کاهش یافت",
+      "summary_en": "The Calgary Real Estate Board says apartment-condo prices fell nearly 9% year-over-year in June to a benchmark of $299,000, with declines in every district and drops of more than 14% in the North East and East — the softest corner of an otherwise balanced market. Years of elevated construction have pushed high-density supply up faster than demand, leaving apartments near five months of inventory even as the city overall sits just above three months, a level CREB calls balanced. Total sales reached 2,197, down 3.8% from a year earlier, and the citywide residential benchmark was $572,500, about 2.1% below last June. Detached homes told a different story, with the benchmark at $750,500 — only about 1% lower year-over-year — and some districts reporting record highs on limited supply. CREB's chief economist tied the divergence to weaker migration and a wave of new high-density units still working through the market.",
+      "summary_fa": "هیئت املاک کلگری می‌گوید قیمت کاندوهای آپارتمانی در ژوئن نزدیک به ۹٪ نسبت به سال گذشته کاهش یافت و شاخص آن به ۲۹۹٬۰۰۰ دلار رسید؛ کاهش در همه مناطق و افت بیش از ۱۴٪ در شمال‌شرق و شرق — نرم‌ترین بخش یک بازار در مجموع متعادل. سال‌ها ساخت‌وساز بالا، عرضه پرتراکم را سریع‌تر از تقاضا افزایش داده و موجودی آپارتمان‌ها را به نزدیک پنج ماه رسانده است، در حالی که کل شهر کمی بالای سه ماه قرار دارد، سطحی که CREB آن را متعادل می‌نامد. کل فروش به ۲٬۱۹۷ رسید، ۳٫۸٪ کمتر از سال گذشته، و شاخص مسکونی کل شهر ۵۷۲٬۵۰۰ دلار بود، حدود ۲٫۱٪ کمتر از ژوئن پارسال. خانه‌های مستقل داستان دیگری داشتند؛ شاخص آن‌ها ۷۵۰٬۵۰۰ دلار بود — تنها حدود ۱٪ کمتر از سال گذشته — و برخی مناطق با عرضه محدود رکورد بالاترین قیمت را گزارش کردند. اقتصاددان ارشد CREB این واگرایی را به مهاجرت ضعیف‌تر و موجی از واحدهای پرتراکم جدید که هنوز در بازار جذب می‌شوند نسبت داد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Calgary is a textbook example of why 'the market' is never one number. Detached homes are near record territory in some districts while apartment condos have dropped nearly 9% — so whether this is good news or a warning depends entirely on what you own or want to buy. For a buyer, the condo segment is where the leverage is right now: roughly five months of supply means real choice and room to negotiate. For an owner or investor holding a condo, softer values matter most at renewal or refinance, when the appraisal sets how much equity you can actually use.</p><p>Two practical points. If you're buying a Calgary apartment, get pre-approved and treat the appraisal as a live variable — lenders finance the lesser of price and appraised value, and a falling segment can surprise you at closing. If you already own one and your renewal is coming, check where your value and equity stand well before maturity, because that's what determines your refinancing options. As always, the right move is set by your own numbers and timeline, not the citywide headline.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> کلگری نمونه‌ای کلاسیک از این است که چرا «بازار» هرگز یک عدد واحد نیست. خانه‌های مستقل در برخی مناطق نزدیک به رکورد قیمت‌اند در حالی که کاندوهای آپارتمانی نزدیک ۹٪ افت کرده‌اند — پس اینکه این خبر خوب است یا هشدار، کاملاً به آنچه دارید یا می‌خواهید بخرید بستگی دارد. برای خریدار، بخش کاندو جایی است که اکنون قدرت چانه‌زنی در آن است: حدود پنج ماه موجودی یعنی انتخاب واقعی و فضای مذاکره. برای مالک یا سرمایه‌گذاری که کاندو نگه داشته، ارزش‌های نرم‌تر بیش از همه هنگام تمدید یا ریفاینانس اهمیت دارند، جایی که ارزیابی تعیین می‌کند چه میزان از ارزش ویژه را واقعاً می‌توانید به‌کار بگیرید.</p><p>دو نکته کاربردی. اگر در حال خرید آپارتمان در کلگری هستید، پیش‌تأیید بگیرید و ارزیابی را یک متغیر زنده بدانید — وام‌دهندگان کمترینِ قیمت و ارزش ارزیابی‌شده را تأمین مالی می‌کنند و یک بخش رو به کاهش می‌تواند هنگام بستن معامله غافلگیرتان کند. اگر همین حالا مالک آن هستید و تمدیدتان نزدیک است، پیش از سررسید ببینید ارزش و ارزش ویژه شما کجاست، چون همین گزینه‌های ریفاینانس شما را تعیین می‌کند. مثل همیشه، اقدام درست را اعداد و زمان‌بندی خودتان تعیین می‌کند، نه تیتر کل شهر.</p>",
+      "seo_title": "Calgary Condo Prices Fall ~9% as Supply Builds — Broker View | Hamed Ashouri",
+      "seo_description": "Calgary apartment-condo prices fell nearly 9% year-over-year to $299,000 as high-density supply builds, while detached stays near records (CREB). Broker Hamed Ashouri on buying, renewing and appraisals.",
+      "keywords": [
+        "Calgary",
+        "condo prices",
+        "CREB",
+        "apartment",
+        "housing supply"
+      ],
+      "tags": [
+        "housing-market",
+        "calgary",
+        "condos"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_76598150-956d-49a9-bbc5-83ca62c54843.jpg",
+      "image_alt_en": "Calgary condo towers against the downtown skyline",
+      "image_alt_fa": "برج‌های کاندوی کلگری در برابر خط آسمان مرکز شهر",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/calgary-condo-prices-fall-9-as-supply-builds/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-02",
+      "imported_date": "2026-07-02",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": false,
+      "related_topics": [
+        "first-time-buyer",
+        "refinance"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "refi-faq-howmuch"
+      ]
     },
     {
       "id": "news-2026-07-02-rbc-affordability",
@@ -85,14 +392,24 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این گزارش در واقع پیامی درباره پنجره‌های فرصت است. چهار سال است خریداران منتظر بهبود شرایط بوده‌اند — و بر اساس شاخص خود RBC، اکنون این بهبود رخ داده است، به‌ویژه در بخش کاندوی منطقه بزرگ تورنتو که ارزش‌ها تقریباً به سطوح ۲۰۱۹ بازگشته‌اند. اما همین گزارش می‌گوید این باد موافق در حال ضعیف‌شدن است: قیمت‌ها در حال تثبیت‌اند و نرخ‌ها احتمالاً کف چرخه‌ای خود را دیده‌اند، پس بعید است بازار همچنان کار را برای شما انجام دهد. انتظار برای نقطه ورود بسیار بهتر ممکن است انتظار برای چیزی باشد که هرگز نمی‌رسد.</p><p>پیشنهاد من: اگر خرید در یک سال آینده در برنامه شماست، همین حالا پرونده خود را کاملاً آماده کنید — درآمد تأییدشده، پیش‌پرداخت مستند، و پیش‌تأیید واقعی با نگهداشت نرخ — تا بتوانید بر اساس دسترسی‌پذیری امروز اقدام کنید، نه حدس درباره فردا. اگر هم‌اکنون در بازاری مانند تورنتو مالک هستید که ارزش کاندوها در آن نرم شده، پیش از تصمیم تمدید یا ریفاینانس ببینید این موضوع برای ارزش ویژه شما چه معنایی دارد. هر بازار در این گزارش حرکت متفاوتی داشت — و دقیقاً به همین دلیل، اقدام درست شخصی است، نه سراسری.</p>",
       "seo_title": "Housing Affordability at Four-Year Best, Relief Fading (RBC) — Broker View | Hamed Ashouri",
       "seo_description": "RBC's Q1 2026 affordability measure fell to 53%, its best in four years, led by Vancouver and Toronto condos. Ontario mortgage broker Hamed Ashouri on what a closing affordability window means for buyers and owners.",
-      "keywords": ["housing affordability", "RBC", "Toronto condos", "Vancouver", "home prices"],
-      "tags": ["housing-market", "affordability", "condos"],
+      "keywords": [
+        "housing affordability",
+        "RBC",
+        "Toronto condos",
+        "Vancouver",
+        "home prices"
+      ],
+      "tags": [
+        "housing-market",
+        "affordability",
+        "condos"
+      ],
       "category": "housing-market",
-      "featured_image": "",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_754c37df-a255-4409-a6be-178416a9d713.jpg",
       "image_alt_en": "Canadian city homes representing improving housing affordability",
       "image_alt_fa": "خانه‌های شهری کانادا، نماد بهبود دسترسی‌پذیری مسکن",
-      "caption_en": "Illustrative.",
-      "caption_fa": "تصویری نمونه.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
       "source_name": "Canadian Mortgage Trends",
       "source_url": "https://www.canadianmortgagetrends.com/2026/07/housing-affordability-improves-but-rbc-says-relief-may-be-running-its-course/",
       "author": "Hamed Ashouri",
@@ -101,10 +418,19 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
-      "related_topics": ["first-time-buyer", "affordability"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["ftb-roadmap", "gen-preapproval"]
+      "homepage": false,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
     },
     {
       "id": "news-2026-06-29-greener-homes",
@@ -117,14 +443,24 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> ما درباره دسترسی‌پذیری طوری صحبت می‌کنیم که انگار فقط قسط وام است، اما عدد واقعی که اهمیت دارد کل هزینه ماهانه اداره خانه است — و انرژی بخش بزرگی از آن است. یک بسته بدون هزینه شامل پمپ حرارتی، عایق‌کاری و درزبندی می‌تواند قبض‌های خانوار را برای همیشه کاهش دهد و همان بودجه‌ای را تقویت کند که باید وام مسکن را هم تحمل کند. انتاریو در این موج نخست نیست، اما با فعال‌بودن مانیتوبا و تأیید اتاوا درباره گفتگو با استان‌های دیگر، اگر اینجا مالک — یا مستأجر — هستید، این برنامه را زیر نظر داشته باشید.</p><p>دو نکته کاربردی. نخست، اگر هنگام رسیدن برنامه به استان شما واجد شرایط باشید، بهسازی بدون هزینه یکی از معدود فرصت‌های واقعاً رایگان در حوزه مسکن است — زود اقدام کنید، چون نسخه قبلی این برنامه خیلی زودتر از موعد بودجه‌اش تمام شد. دوم، اگر همین حالا قصد بهسازی انرژی دارید و نمی‌توانید صبر کنید، مسیرهای تأمین مالی قابل‌مقایسه‌ای وجود دارد — ریفاینانس، HELOC، یا وام «خرید به‌علاوه بهسازی» برای خانه جدید — و انتخاب درست به ارزش ویژه و زمان‌بندی شما بستگی دارد. خوشحال می‌شوم این اعداد را با هم بررسی کنیم.</p>",
       "seo_title": "Canada Greener Homes Affordability Program Relaunch — Broker View | Hamed Ashouri",
       "seo_description": "Ottawa relaunches its greener homes program with no-cost heat pumps, insulation and air sealing in four provinces. Ontario mortgage broker Hamed Ashouri on what it means for household budgets and retrofit financing.",
-      "keywords": ["greener homes", "retrofit", "heat pump", "energy efficiency", "federal program"],
-      "tags": ["regulation", "government-programs", "affordability"],
+      "keywords": [
+        "greener homes",
+        "retrofit",
+        "heat pump",
+        "energy efficiency",
+        "federal program"
+      ],
+      "tags": [
+        "regulation",
+        "government-programs",
+        "affordability"
+      ],
       "category": "regulation",
-      "featured_image": "",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_01156806-e590-43fa-8507-31c429bf8156.jpg",
       "image_alt_en": "Heat pump installation on a Canadian home",
       "image_alt_fa": "نصب پمپ حرارتی در یک خانه کانادایی",
-      "caption_en": "Illustrative.",
-      "caption_fa": "تصویری نمونه.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
       "source_name": "Canadian Mortgage Trends",
       "source_url": "https://www.canadianmortgagetrends.com/2026/06/ottawa-set-to-relaunch-greener-homes-retrofit-program-in-four-provinces/",
       "author": "Hamed Ashouri",
@@ -134,9 +470,16 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["refinance", "government-programs"],
-      "related_journeys": ["assessment"],
-      "related_knowledge_blocks": ["refi-faq-howmuch"]
+      "related_topics": [
+        "refinance",
+        "government-programs"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "refi-faq-howmuch"
+      ]
     },
     {
       "id": "news-2026-07-01-variable-shift",
@@ -149,8 +492,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> روی‌آوردن به نرخ شناور یک «پاسخ درست» همگانی نیست — بلکه شرطی است بر اینکه نرخ‌ها ثابت بمانند یا پایین بیایند، و تنها زمانی منطقی است که بودجه شما بتواند پرداختی متغیر را جذب کند. نرخ شناور وقتی نرخ‌ها کاهش یابند می‌تواند برنده باشد، اما از شما می‌خواهد با نااطمینانی راحت باشید؛ دوره ثابت پرداختی مشخص و آرامش خاطر به شما می‌دهد. انتخاب درست به حاشیه جریان نقدی شما، مدت ماندنتان و میزان تحملتان در برابر نوسان نرخ بستگی دارد — نه به اینکه کدام گزینه در این فصل پرطرفدار است.</p><p>خبر خوش فراگیرتر اینجا درباره تمدید است: فشار در حال کاهش است و «جابه‌جایی مستقیم» تحت نظارت فدرال به وام‌دهنده جدید هنگام تمدید دیگر آزمون استرس را فعال نمی‌کند — که می‌تواند بدون احراز صلاحیت دوباره، قیمت‌گذاری بهتری را باز کند. اگر امسال تمدید می‌کنید، اولین پیشنهاد را خودکار امضا نکنید. سه تا چهار ماه زودتر شروع کنید، ثابت و شناور را با اعداد خودتان مقایسه کنید، و با هم بسنجیم که جابه‌جایی، تغییر دوره یا ماندن — کدام واقعاً به سود شماست.</p>",
       "seo_title": "Borrowers Shift to Variable Rates as Renewals Ease (CMHC) — Broker View | Hamed Ashouri",
       "seo_description": "CMHC: variable-rate mortgages reached ~42% of new lending as the renewal wave peaks. Ontario mortgage broker Hamed Ashouri on fixed vs variable, easing renewals, and the switch stress-test exemption.",
-      "keywords": ["variable rate", "fixed rate", "renewal", "CMHC", "stress test"],
-      "tags": ["rates", "renewal", "variable"],
+      "keywords": [
+        "variable rate",
+        "fixed rate",
+        "renewal",
+        "CMHC",
+        "stress test"
+      ],
+      "tags": [
+        "rates",
+        "renewal",
+        "variable"
+      ],
       "category": "rates",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_eaefcda1-634a-4c8f-8b0f-3857615ee09a.jpg",
       "image_alt_en": "Homeowner comparing fixed and variable mortgage options",
@@ -166,9 +519,18 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["renewal", "rates"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["renewal-checklist", "gen-stress"]
+      "related_topics": [
+        "renewal",
+        "rates"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
     },
     {
       "id": "news-2026-06-29-newcomer-buyers",
@@ -181,8 +543,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> برای تازه‌واردان پاسخ این نیست که هدف کوچک‌تری بگذارند — بلکه ساختن پرونده‌ای است که اعدادش واقعی و مقاوم باشد. سه اقدام بیش از همه مهم‌اند. نخست، یک سابقه ۹۰ روزه روشن و قابل‌ردیابی برای پیش‌پرداخت خود بسازید؛ وجوه هدیه کاملاً قابل‌قبول است، به‌شرط نامه هدیه امضاشده و اثبات ورود پول به حساب شما. دوم، درآمد خود را به شیوه‌ای که وام‌دهندگان واقعاً می‌خوانند مستند کنید — برنامه‌های تازه‌واردان و سابقه اعتباری محدود وجود دارد، اما تنها زمانی که مدارک از همان ابتدا درست ساختار یابد. سوم، خود را با یک حاشیه پرداخت بالاتر از نرخ آزمون استرس امروز واجد شرایط کنید تا افزایش هنگام تمدید غافلگیرتان نکند.</p><p>هوشمندانه‌ترین گام نخست، ترسیم یک بودجه واقع‌بینانه و انتخاب برنامه وام‌دهنده مناسب <em>پیش از</em> جست‌وجوست — نه کشاندن خود تا سقف پیش‌تأیید و امید به همراهی نرخ‌ها. اگر تازه به کانادا آمده‌اید، همین گفتگوی برنامه‌ریزی دقیقاً جایی است که بیشترین ارزش را اضافه می‌کنم.</p>",
       "seo_title": "Newcomers Stretched Further to Buy Homes (StatCan) — Broker View | Hamed Ashouri",
       "seo_description": "StatCan finds recent immigrant buyers took on pricier homes relative to income. Ontario mortgage broker Hamed Ashouri on how newcomers can structure a stronger, more resilient file.",
-      "keywords": ["newcomers", "new to Canada", "StatCan", "affordability", "down payment"],
-      "tags": ["housing-market", "newcomers", "affordability"],
+      "keywords": [
+        "newcomers",
+        "new to Canada",
+        "StatCan",
+        "affordability",
+        "down payment"
+      ],
+      "tags": [
+        "housing-market",
+        "newcomers",
+        "affordability"
+      ],
       "category": "housing-market",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_39722fa0-a800-4a20-90e5-af89935fd88a.jpg",
       "image_alt_en": "Family with moving boxes in a new Canadian home",
@@ -198,9 +570,18 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["first-time-buyer", "documents"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["ftb-roadmap", "gen-downpayment"]
+      "related_topics": [
+        "first-time-buyer",
+        "documents"
+      ],
+      "related_journeys": [
+        "assessment",
+        "workspace"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-downpayment"
+      ]
     },
     {
       "id": "news-2026-06-24-mpc-payments",
@@ -213,8 +594,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> اگر بودجه ماهانه شما همین حالا تنگ است، پرهزینه‌ترین اقدام این است که منتظر نامه تمدید بمانید و واکنش نشان دهید. سه تا چهار ماه پیش از سررسید شروع کنید. «جابه‌جایی مستقیم» میان وام‌دهندگان تحت نظارت فدرال دیگر آزمون استرس را فعال نمی‌کند و گاهی می‌تواند بدون احراز صلاحیت دوباره، نرخ بهتری را آزاد کند. فراتر از نرخ، اهرم‌های واقعی وجود دارد: تمدید دوره بازپرداخت برای کاهش پرداخت، تجمیع بدهی‌های کارت اعتباری یا وام با بهره بالا در وام مسکن، یا بازساختاردهی دوره متناسب با جریان نقدی امروز شما.</p><p>هیچ‌کدام راه‌حل یکسان برای همه نیست — اقدام درست به ارزش ویژه، اهداف و مدت ماندن شما بستگی دارد. نکته این است که گزینه‌ها را زمانی بسنجید که هنوز اهرم و انتخاب دارید، نه پس از آنکه اولین پیشنهاد تمدید وام‌دهنده بی‌سروصدا آن‌ها را محدود کرد. یک بررسی کوتاه اکنون تقریباً همیشه ارزان‌تر از یک تصمیم شتاب‌زده بعدی است.</p>",
       "seo_title": "Borrowers Have Little Room for Higher Payments (MPC) — Broker View | Hamed Ashouri",
       "seo_description": "MPC research shows affordability pressure on recent buyers and newcomers. Ontario broker Hamed Ashouri on renewal timing, the straight-switch stress-test exemption, and the levers that lower payments.",
-      "keywords": ["affordability", "renewal", "payments", "stress test", "MPC"],
-      "tags": ["housing-market", "renewal", "affordability"],
+      "keywords": [
+        "affordability",
+        "renewal",
+        "payments",
+        "stress test",
+        "MPC"
+      ],
+      "tags": [
+        "housing-market",
+        "renewal",
+        "affordability"
+      ],
       "category": "housing-market",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_7e74f715-2c90-4100-aa89-a95b287d4d08.jpg",
       "image_alt_en": "Person reviewing a household budget at a kitchen table",
@@ -230,9 +621,16 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["renewal"],
-      "related_journeys": ["assessment"],
-      "related_knowledge_blocks": ["renewal-checklist", "gen-stress"]
+      "related_topics": [
+        "renewal"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
     },
     {
       "id": "news-2026-06-23-rbc-poll",
@@ -245,8 +643,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> «زمان‌بندی بازار» تقریباً هرگز از آماده‌بودن برای آن بهتر نیست. خریدارانی که موفق می‌شوند آن‌هایی نیستند که کف دقیق قیمت را حدس می‌زنند — بلکه کسانی‌اند که پیش‌تأیید گرفته‌اند، بودجه واقعی خود را می‌دانند و وقتی خانه مناسب واقعاً پیدا شد می‌توانند سریع و آرام اقدام کنند. یک پیش‌تأیید واقعی درآمد و پیش‌پرداخت شما را تأیید می‌کند و معمولاً نرخ را ۹۰ تا ۱۲۰ روز نگه می‌دارد: اگر نرخ‌ها پایین بیایند سود می‌برید؛ اگر بالا بروند، در آن بازه محافظت می‌شوید.</p><p>توصیه من این است که همین حالا پرونده خود را کاملاً آماده کنید، بودجه‌ای مشخص با حاشیه داخلی تعیین کنید و بگذارید خانه مناسب — نه تیترهای روز — تصمیم را رقم بزند. آمادگی، پرسش «آیا حالا زمان خوبی است؟» را از یک حدس مضطربانه به انتخابی مطمئن و با شرایط خودتان تبدیل می‌کند. وقتی آماده باشید، تقریباً هر زمان معقولی می‌تواند زمان درست برای شما باشد.</p>",
       "seo_title": "No Perfect Time to Buy a Home (RBC Poll) — Broker View | Hamed Ashouri",
       "seo_description": "An RBC poll finds buyers struggling to time the market. Ontario broker Hamed Ashouri on why readiness and pre-approval beat market timing.",
-      "keywords": ["home buying", "RBC poll", "pre-approval", "market timing", "first-time buyer"],
-      "tags": ["housing-market", "first-time-buyer", "pre-approval"],
+      "keywords": [
+        "home buying",
+        "RBC poll",
+        "pre-approval",
+        "market timing",
+        "first-time buyer"
+      ],
+      "tags": [
+        "housing-market",
+        "first-time-buyer",
+        "pre-approval"
+      ],
       "category": "housing-market",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_da902fde-e2ca-4b9f-b1d5-dd4005823fc8.png",
       "image_alt_en": "Young couple looking at a home for sale",
@@ -262,9 +670,17 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["first-time-buyer"],
-      "related_journeys": ["assessment", "calculator"],
-      "related_knowledge_blocks": ["gen-preapproval", "ftb-roadmap"]
+      "related_topics": [
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-preapproval",
+        "ftb-roadmap"
+      ]
     },
     {
       "id": "news-2026-06-15-eclipse-access",
@@ -277,8 +693,18 @@
       "analysis_fa": "<p><strong>دیدگاه حامد.</strong> محصولاتی مانند Access+ ابزارهای واقعاً مفیدی هستند و خوشحالم که تعداد بیشتری از آن‌ها را می‌بینم. واجد شرایط شدن با نرخ قرارداد و بازپرداخت ۴۰ ساله می‌تواند برای یک وام‌گیرنده خوداشتغال یا در حال بازسازی اعتبار که در سایر جنبه‌ها قوی است، تفاوت میان «نه» و «بله» باشد. اما این انعطاف هزینه‌ای دارد که باید از ابتدا درک شود: دوره یک‌ساله یعنی بسیار زودتر تمدید — و قیمت‌گذاری مجدد — می‌کنید، و بازپرداخت طولانی‌تر یعنی در طول عمر وام بهره بیشتری می‌پردازید.</p><p>من چنین محصولاتی را یک پل می‌دانم نه مقصد: راهی برای بستن معامله امروز، همراه با برنامه‌ای روشن برای تقویت پرونده و انتقال به وام‌دهنده A کم‌هزینه‌تر هنگام تمدید. اگر شرایط شما پیچیده است، پیش از انتخاب، هزینه واقعی تمام‌شده را مدل کنیم و مسیر خروج را ترسیم کنیم تا مشکل پیش‌رو را حل کند بدون آنکه یک سال بعد مشکل بزرگ‌تری بسازد.</p>",
       "seo_title": "Eclipse Access+ Mortgage for Complex Files — Broker View | Hamed Ashouri",
       "seo_description": "Eclipse's Access+ offers contract-rate qualification and a 40-year amortization. Ontario broker Hamed Ashouri on when an alternative product makes sense — and the exit plan it needs.",
-      "keywords": ["Eclipse", "Access+", "alternative lending", "self-employed", "amortization"],
-      "tags": ["lenders", "self-employed", "products"],
+      "keywords": [
+        "Eclipse",
+        "Access+",
+        "alternative lending",
+        "self-employed",
+        "amortization"
+      ],
+      "tags": [
+        "lenders",
+        "self-employed",
+        "products"
+      ],
       "category": "lenders",
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_1840a15e-e1de-4bf3-a777-b72307752cdd.jpg",
       "image_alt_en": "Modern lender office representing a new mortgage product",
@@ -294,41 +720,16 @@
       "language": "both",
       "featured": false,
       "homepage": false,
-      "related_topics": ["self-employed"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["se-income"]
-    },
-    {
-      "id": "news-2026-06-09-toronto-renewal",
-      "slug": "falling-prices-toronto-renewal-boc",
-      "title_en": "Falling prices could squeeze some Toronto borrowers at renewal: BoC",
-      "title_fa": "کاهش قیمت‌ها ممکن است برخی وام‌گیرندگان تورنتو را هنگام تمدید تحت فشار بگذارد: بانک مرکزی",
-      "summary_en": "The Bank of Canada reports that while most mortgage holders have absorbed higher payments at renewal, a concentrated group of highly indebted Toronto-area owners is more exposed: as home values have softened, their reduced equity is narrowing the refinancing options that would normally ease the pressure. The deeper point is that the problem isn't the payment alone — it's that falling equity quietly removes the escape hatch of refinancing or pulling out funds, precisely for the borrowers who are most stretched. It's a localized risk rather than a system-wide one, but a very real concern across parts of the GTA.",
-      "summary_fa": "بانک مرکزی کانادا گزارش می‌دهد که اگرچه بیشتر دارندگان وام مسکن پرداخت‌های بالاتر را هنگام تمدید جذب کرده‌اند، گروهی متمرکز از مالکان پر‌بدهی منطقه تورنتو بیشتر در معرض خطرند: با نرم‌شدن ارزش خانه‌ها، کاهش ارزش ویژه آن‌ها گزینه‌های ریفاینانسی را که معمولاً فشار را کم می‌کند محدود می‌کند. نکته عمیق‌تر این است که مشکل تنها پرداخت نیست — بلکه کاهش ارزش ویژه به‌آرامی دریچه خروج ریفاینانس یا برداشت وجوه را دقیقاً برای وام‌گیرندگانی که بیش از همه تحت فشارند می‌بندد. این خطری موضعی است نه سراسری، اما نگرانی بسیار واقعی در بخش‌هایی از منطقه بزرگ تورنتوست.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Equity is the lever at renewal — and when values dip, the room to refinance shrinks at exactly the moment some people need it most. If you're in the GTA and your renewal is within the next year, don't wait and hope. Get a current value estimate and your options mapped now, while you still have choices on the table.</p><p>Depending on your numbers, the right move might be a refinance, a switch to a new lender, an amortization change to lower the payment, or consolidating other debt into the mortgage — but every one of those doors is widest <em>before</em> the maturity date, not after. The single costliest decision I see is doing nothing until the renewal offer lands, by which point falling equity and a ticking clock have already narrowed the options. A short, early review is the cheapest insurance you can buy here.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> ارزش ویژه، اهرم تمدید است — و وقتی ارزش‌ها افت می‌کنند، فضای ریفاینانس دقیقاً در لحظه‌ای که برخی بیش از همه به آن نیاز دارند کوچک می‌شود. اگر در منطقه بزرگ تورنتو هستید و تمدید شما ظرف یک سال آینده است، منتظر نمانید و امید نبندید. همین حالا یک برآورد ارزش روز و نقشه گزینه‌های خود را بگیرید، تا هنوز انتخاب روی میز دارید.</p><p>بسته به اعداد شما، اقدام درست ممکن است ریفاینانس، جابه‌جایی به وام‌دهنده جدید، تغییر دوره بازپرداخت برای کاهش پرداخت، یا تجمیع سایر بدهی‌ها در وام مسکن باشد — اما هر یک از این درها <em>پیش از</em> تاریخ سررسید بازترند، نه پس از آن. پرهزینه‌ترین تصمیمی که می‌بینم این است که تا رسیدن پیشنهاد تمدید هیچ کاری نکنید، که تا آن زمان کاهش ارزش ویژه و گذر زمان گزینه‌ها را محدود کرده‌اند. یک بررسی کوتاه و زودهنگام، ارزان‌ترین بیمه‌ای است که اینجا می‌توانید بخرید.</p>",
-      "seo_title": "Falling Prices Squeeze Toronto Renewals (BoC) — Broker View | Hamed Ashouri",
-      "seo_description": "The Bank of Canada flags reduced equity limiting refinancing for some Toronto borrowers. Ontario broker Hamed Ashouri on planning your renewal early while options are still open.",
-      "keywords": ["renewal", "Toronto", "Bank of Canada", "home equity", "refinance"],
-      "tags": ["rates", "renewal", "refinance"],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_46fac7c5-897e-4ec6-9470-cac1c77d37ff.jpg",
-      "image_alt_en": "Toronto skyline representing the GTA housing market",
-      "image_alt_fa": "خط آسمان تورنتو، نماد بازار مسکن منطقه بزرگ تورنتو",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/06/falling-home-prices-could-trap-some-toronto-borrowers-at-renewal-boc/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-06-09",
-      "imported_date": "2026-06-30",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": ["renewal", "refinance"],
-      "related_journeys": ["assessment", "workspace"],
-      "related_knowledge_blocks": ["renewal-checklist", "refi-faq-howmuch"]
+      "related_topics": [
+        "self-employed"
+      ],
+      "related_journeys": [
+        "assessment",
+        "workspace"
+      ],
+      "related_knowledge_blocks": [
+        "se-income"
+      ]
     }
   ]
 }
