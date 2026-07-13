@@ -1,6 +1,6 @@
 {
-  "version": "11",
-  "updated": "2026-07-10",
+  "version": "12",
+  "updated": "2026-07-12",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -54,7 +54,7 @@
         "economy"
       ],
       "category": "rates",
-      "featured_image": "",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_0a79a26f-8888-475d-aa63-0be573379a3b.jpg",
       "image_alt_en": "Canadian workers on the job representing the June labour force survey",
       "image_alt_fa": "کارگران کانادایی در محل کار، نماد نظرسنجی نیروی کار ژوئن",
       "caption_en": "Illustrative — AI-generated, brand-graded image.",
@@ -104,7 +104,7 @@
         "private-lending"
       ],
       "category": "regulation",
-      "featured_image": "",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_5ac76d92-422d-45d0-bd9a-9616259e2ad1.jpg",
       "image_alt_en": "Canadian financial district representing non-bank mortgage lenders and regulation",
       "image_alt_fa": "منطقه مالی کانادا، نماد وام‌دهندگان غیربانکی وام مسکن و مقررات",
       "caption_en": "Illustrative — AI-generated, brand-graded image.",
