@@ -1,6 +1,6 @@
 {
-  "version": "12",
-  "updated": "2026-07-12",
+  "version": "13",
+  "updated": "2026-07-13",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,105 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-12-reverse-mortgage-house-rich-cash-poor",
+      "slug": "reverse-mortgage-house-rich-cash-poor-canada",
+      "title_en": "House rich, cash poor: experts weigh when a reverse mortgage actually makes sense",
+      "title_fa": "خانه‌دار اما کم‌نقدینه: کارشناسان می‌گویند وام مسکن معکوس چه زمانی واقعاً منطقی است",
+      "summary_en": "A new Canadian Press feature looks at how reverse mortgages have moved from a once-controversial niche into a mainstream option for Canadian homeowners aged 55 and over. Borrowers can unlock up to 55% of their home equity tax-free, either as a lump sum or in instalments, with no regular repayments — the loan comes due when they move, sell or pass away — though rates typically run two to three percentage points above a conventional mortgage. Edmonton financial planner Barbara Knoblach calls it a useful tool for the right client, particularly those less focused on preserving an estate, but points to downsizing or a HELOC as better options for many. CARP president Anthony Quinn counters that the product can be life-changing for retirees who refuse to leave their homes, noting many use the funds to help children and grandchildren now rather than through a will. Canadian rules protect borrowers from owing more than the home is worth, and homeowners keep title throughout.",
+      "summary_fa": "گزارش تازه‌ای از کانادین پرس نشان می‌دهد وام مسکن معکوس از یک محصول بحث‌برانگیز به گزینه‌ای رایج برای خانه‌داران ۵۵ سال به بالای کانادایی تبدیل شده است. وام‌گیرندگان می‌توانند تا ۵۵٪ از ارزش خالص خانه خود را بدون مالیات آزاد کنند — به صورت یکجا یا اقساطی — بدون هیچ بازپرداخت ماهانه؛ وام تنها هنگام فروش، جابه‌جایی یا فوت سررسید می‌شود، هرچند نرخ بهره معمولاً دو تا سه واحد درصد بالاتر از وام مسکن معمولی است. باربارا نوبلاخ، برنامه‌ریز مالی در ادمونتون، آن را برای مشتریِ مناسب ابزاری مفید می‌داند، به‌ویژه برای کسانی که دغدغه حفظ ارث ندارند، اما برای بسیاری کوچک‌سازی خانه یا خط اعتباری مسکن (HELOC) را گزینه بهتری می‌داند. آنتونی کوئین، رئیس انجمن بازنشستگان کانادا (CARP)، می‌گوید این محصول می‌تواند زندگی بازنشستگانی را که حاضر به ترک خانه‌شان نیستند متحول کند و بسیاری از این وجوه برای کمک به فرزندان و نوه‌ها در زمان حال استفاده می‌کنند. قوانین کانادا تضمین می‌کند وام‌گیرنده هرگز بیش از ارزش خانه بدهکار نشود و مالکیت خانه نزد صاحب‌خانه باقی می‌ماند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> I work with many 55-plus homeowners who are sitting on significant equity but feeling squeezed on monthly cash flow, and this article captures the real decision well: a reverse mortgage is neither a trap nor a miracle — it is one tool on a menu that also includes a HELOC, a conventional refinance, or downsizing. The right answer depends on your income, how long you plan to stay in the home, what you want to leave behind, and how you feel about interest compounding against your equity over time.</p><p>Before committing to a product you cannot easily exit, get an independent review of all four paths side by side, with real numbers for costs, rates and long-term equity impact. If you or your parents are house rich and cash poor, I am happy to run that comparison — no obligation, and the goal is simply to make sure the structure fits the life you actually want to live in retirement.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> من با بسیاری از خانه‌داران بالای ۵۵ سال کار می‌کنم که ارزش خالص قابل‌توجهی در خانه دارند اما در جریان نقدی ماهانه تحت فشارند، و این مقاله تصمیم واقعی را خوب ترسیم می‌کند: وام مسکن معکوس نه تله است و نه معجزه — یکی از چند ابزار است در کنار خط اعتباری مسکن، ری‌فایننس معمولی یا کوچک‌سازی خانه. پاسخ درست به درآمد شما، مدت ماندن در خانه، آنچه می‌خواهید به جا بگذارید و نگاه‌تان به انباشت بهره بستگی دارد.</p><p>پیش از تعهد به محصولی که خروج از آن آسان نیست، هر چهار مسیر را با اعداد واقعی — هزینه‌ها، نرخ‌ها و اثر بلندمدت بر ارزش خالص خانه — کنار هم مقایسه کنید. اگر شما یا والدین‌تان خانه‌دار اما کم‌نقدینه هستید، خوشحال می‌شوم این مقایسه را برایتان انجام دهم؛ بدون هیچ تعهدی، و هدف صرفاً این است که ساختار وام با زندگی‌ای که واقعاً در بازنشستگی می‌خواهید هماهنگ باشد.</p>",
+      "seo_title": "Reverse Mortgages in Canada: When House Rich, Cash Poor Homeowners Should Consider One",
+      "seo_description": "Reverse mortgages let Canadians 55+ unlock up to 55% of home equity tax-free. Experts weigh the pros, cons and alternatives like HELOCs and downsizing.",
+      "keywords": [
+        "reverse mortgage Canada",
+        "CHIP reverse mortgage",
+        "home equity",
+        "55 plus homeowners",
+        "HELOC",
+        "retirement income"
+      ],
+      "tags": [
+        "lenders",
+        "home-equity",
+        "retirement"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_cdfe070a-6ef6-4d72-8b2b-5871e38b46c0.jpg",
+      "image_alt_en": "Canadian senior couple relaxing on the porch of their long-time family home",
+      "image_alt_fa": "زوج سالمند کانادایی در ایوان خانه قدیمی خانوادگی خود در حال استراحت",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends (The Canadian Press)",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/house-rich-cash-poor-when-a-reverse-mortgage-might-make-sense/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-12",
+      "imported_date": "2026-07-13",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": []
+    },
+    {
+      "id": "news-2026-07-10-toronto-metro-growth-412",
+      "slug": "toronto-population-growth-falls-412th-north-america",
+      "title_en": "Toronto plunges from North America's fastest-growing metro to 412th as residents move out",
+      "title_fa": "تورنتو از سریع‌ترین کلان‌شهر در حال رشد آمریکای شمالی به رتبه ۴۱۲ سقوط کرد؛ ساکنان در حال ترک شهر هستند",
+      "summary_en": "Toronto Metropolitan University's Centre for Urban Research and Land Development reports that Toronto went from the fastest-growing metropolitan area in Canada and the U.S. in 2024 to 412th out of 435 metros in the 12 months ending July 1, 2025. Researchers Diana Petramala and Frank Clayton found the slide was not primarily about Ottawa's lower immigration targets: Toronto still ranked fifth in North America for net international inflows. The bigger drag was domestic out-migration, with more residents leaving the region for other parts of Ontario and Canada than moving in — a pattern the authors link to increasingly unaffordable housing. Calgary and Edmonton were the only Canadian metros in the North American top 10 for absolute growth, ranking seventh and eighth, while Vancouver fell to 92nd and Montreal to 25th.",
+      "summary_fa": "مرکز پژوهش‌های شهری دانشگاه متروپولیتن تورنتو گزارش می‌دهد تورنتو از سریع‌ترین کلان‌شهر در حال رشد کانادا و آمریکا در سال ۲۰۲۴ به رتبه ۴۱۲ از میان ۴۳۵ کلان‌شهر در دوازده ماه منتهی به اول ژوئیه ۲۰۲۵ سقوط کرده است. پژوهشگران دیانا پترامالا و فرانک کلیتون دریافتند این افت عمدتاً ناشی از کاهش سهمیه‌های مهاجرتی دولت فدرال نیست: تورنتو همچنان در جذب خالص مهاجران بین‌المللی رتبه پنجم آمریکای شمالی را دارد. عامل اصلی، مهاجرت داخلی به بیرون است؛ ساکنانی که به دیگر نقاط انتاریو و کانادا می‌روند — الگویی که نویسندگان آن را به مسکنِ روزبه‌روز کم‌استطاعت‌تر پیوند می‌دهند. کلگری و ادمونتون تنها کلان‌شهرهای کانادایی در فهرست ده شهر برتر آمریکای شمالی از نظر رشد مطلق بودند (رتبه‌های هفتم و هشتم)، در حالی که ونکوور به رتبه ۹۲ و مونترال به ۲۵ سقوط کردند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> For anyone watching the GTA housing market, this report is a signal worth taking seriously: when a region keeps attracting immigrants but loses existing residents to cheaper markets, affordability — not demand — is the binding constraint. In the near term, slower population growth can mean less competition for listings and more negotiating room for buyers who stayed, especially in segments like condos where supply has already built up.</p><p>If you are weighing a move within Ontario to stretch your budget, remember the mortgage math moves with you: qualifying on a lower purchase price can turn a marginal file into a comfortable approval, but selling and re-buying has its own costs — penalties, land transfer tax and rate changes at renewal. Before you commit either way, it is worth pricing out both scenarios properly; the right structure often matters more than the postal code.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> برای هر کسی که بازار مسکن تورنتوی بزرگ را دنبال می‌کند، این گزارش سیگنالی جدی است: وقتی منطقه‌ای همچنان مهاجر جذب می‌کند اما ساکنان فعلی‌اش را به بازارهای ارزان‌تر از دست می‌دهد، مشکل اصلی استطاعت است، نه تقاضا. در کوتاه‌مدت، رشد کندتر جمعیت می‌تواند به معنای رقابت کمتر بر سر آگهی‌ها و قدرت چانه‌زنی بیشتر برای خریدارانی باشد که مانده‌اند — به‌ویژه در بخش‌هایی مانند کاندو که عرضه در آن انباشته شده است.</p><p>اگر برای بهبود بودجه به جابه‌جایی درون انتاریو فکر می‌کنید، به یاد داشته باشید محاسبات وام مسکن هم با شما جابه‌جا می‌شود: واجد شرایط شدن با قیمت خرید پایین‌تر می‌تواند پرونده‌ای مرزی را به تأییدی راحت تبدیل کند، اما فروش و خرید دوباره هزینه‌های خودش را دارد — جریمه فسخ، مالیات نقل‌وانتقال و تغییر نرخ در تمدید. پیش از هر تصمیمی، هر دو سناریو را دقیق قیمت‌گذاری کنید؛ ساختار درست وام اغلب مهم‌تر از کدپستی است.</p>",
+      "seo_title": "Toronto Falls to 412th in North American Population Growth: What It Means for Housing",
+      "seo_description": "TMU research shows Toronto went from the fastest-growing metro in 2024 to 412th of 435, as housing affordability drives residents to other parts of Canada.",
+      "keywords": [
+        "Toronto population growth",
+        "GTA housing market",
+        "out-migration Ontario",
+        "housing affordability",
+        "TMU report",
+        "Calgary Edmonton growth"
+      ],
+      "tags": [
+        "housing-market",
+        "toronto",
+        "affordability"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_8914c8cb-840d-484c-812f-d427b5329aed.jpg",
+      "image_alt_en": "Family loading moving boxes into a car with the Toronto skyline in the distance",
+      "image_alt_fa": "خانواده‌ای در حال بارگذاری جعبه‌های اسباب‌کشی در خودرو با افق تورنتو در دوردست",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/toronto-falls-from-fastest-growing-metro-to-412th-as-residents-move-elsewhere/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-10",
+      "imported_date": "2026-07-13",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-07-10-june-jobs",
       "slug": "canada-adds-18200-jobs-june-2026-jobless-rate-6-5",
@@ -66,7 +165,7 @@
       "imported_date": "2026-07-10",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -117,7 +216,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "self-employed",
         "newcomers"
@@ -166,7 +265,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "self-employed",
         "newcomers"
@@ -680,55 +779,6 @@
       "related_knowledge_blocks": [
         "gen-preapproval",
         "ftb-roadmap"
-      ]
-    },
-    {
-      "id": "news-2026-06-15-eclipse-access",
-      "slug": "eclipse-access-plus-mortgage",
-      "title_en": "Eclipse launches Access+ mortgage for complex files",
-      "title_fa": "Eclipse وام Access+ را برای پرونده‌های پیچیده عرضه کرد",
-      "summary_en": "Eclipse has introduced a new one-year product called Access+, aimed squarely at borrowers with more complex files. Its headline features are qualification at the contract rate rather than the higher stress-test rate, and a 40-year amortization — which together lower both the income needed to qualify and the monthly payment. The product is positioned to fill a real gap for self-employed, credit-rebuilding, and otherwise non-standard borrowers who don't fit neatly into a traditional A-lender box, giving them a route to financing while they strengthen their profile.",
-      "summary_fa": "Eclipse محصول یک‌ساله جدیدی به نام Access+ معرفی کرده که مستقیماً برای وام‌گیرندگان با پرونده‌های پیچیده‌تر طراحی شده است. ویژگی‌های اصلی آن، واجد شرایط شدن با نرخ قرارداد به‌جای نرخ بالاتر آزمون استرس و بازپرداخت ۴۰ ساله است — که با هم هم درآمد لازم برای واجد شرایط شدن و هم پرداخت ماهانه را کاهش می‌دهند. این محصول برای پر کردن یک شکاف واقعی برای خوداشتغال‌ها، افرادی که در حال بازسازی اعتبارند و سایر وام‌گیرندگان غیراستاندارد که به‌راحتی در قالب وام‌دهنده سنتی A جای نمی‌گیرند موقعیت‌یابی شده و مسیری برای تأمین مالی در حین تقویت پروفایلشان به آن‌ها می‌دهد.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Products like Access+ are genuinely useful tools, and I'm glad to see more of them. Contract-rate qualification and a 40-year amortization can be the difference between a 'no' and a 'yes' for a self-employed or credit-rebuilding borrower who is otherwise strong. But the flexibility carries a cost that has to be understood up front: a one-year term means you renew — and re-price — much sooner, and a longer amortization means you pay more interest over the life of the loan.</p><p>I treat products like this as a bridge, not a destination: a way to get the deal done today, paired with a clear plan to strengthen the file and move to a lower-cost A-lender at renewal. If your situation is complex, let's model the true all-in cost and map the exit before choosing it, so it solves the problem in front of you without creating a bigger one a year from now.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> محصولاتی مانند Access+ ابزارهای واقعاً مفیدی هستند و خوشحالم که تعداد بیشتری از آن‌ها را می‌بینم. واجد شرایط شدن با نرخ قرارداد و بازپرداخت ۴۰ ساله می‌تواند برای یک وام‌گیرنده خوداشتغال یا در حال بازسازی اعتبار که در سایر جنبه‌ها قوی است، تفاوت میان «نه» و «بله» باشد. اما این انعطاف هزینه‌ای دارد که باید از ابتدا درک شود: دوره یک‌ساله یعنی بسیار زودتر تمدید — و قیمت‌گذاری مجدد — می‌کنید، و بازپرداخت طولانی‌تر یعنی در طول عمر وام بهره بیشتری می‌پردازید.</p><p>من چنین محصولاتی را یک پل می‌دانم نه مقصد: راهی برای بستن معامله امروز، همراه با برنامه‌ای روشن برای تقویت پرونده و انتقال به وام‌دهنده A کم‌هزینه‌تر هنگام تمدید. اگر شرایط شما پیچیده است، پیش از انتخاب، هزینه واقعی تمام‌شده را مدل کنیم و مسیر خروج را ترسیم کنیم تا مشکل پیش‌رو را حل کند بدون آنکه یک سال بعد مشکل بزرگ‌تری بسازد.</p>",
-      "seo_title": "Eclipse Access+ Mortgage for Complex Files — Broker View | Hamed Ashouri",
-      "seo_description": "Eclipse's Access+ offers contract-rate qualification and a 40-year amortization. Ontario broker Hamed Ashouri on when an alternative product makes sense — and the exit plan it needs.",
-      "keywords": [
-        "Eclipse",
-        "Access+",
-        "alternative lending",
-        "self-employed",
-        "amortization"
-      ],
-      "tags": [
-        "lenders",
-        "self-employed",
-        "products"
-      ],
-      "category": "lenders",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_1840a15e-e1de-4bf3-a777-b72307752cdd.jpg",
-      "image_alt_en": "Modern lender office representing a new mortgage product",
-      "image_alt_fa": "دفتر مدرن وام‌دهنده، نماد یک محصول جدید وام مسکن",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/06/eclipse-aims-to-fill-lending-gap-access-mortgage/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-06-15",
-      "imported_date": "2026-06-30",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "self-employed"
-      ],
-      "related_journeys": [
-        "assessment",
-        "workspace"
-      ],
-      "related_knowledge_blocks": [
-        "se-income"
       ]
     }
   ]
