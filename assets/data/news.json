@@ -1,6 +1,6 @@
 {
-  "version": "13",
-  "updated": "2026-07-13",
+  "version": "14",
+  "updated": "2026-07-14",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,61 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-13-boc-hold-rate-hike-debate",
+      "slug": "bank-of-canada-hold-2-25-rate-hike-debate",
+      "title_en": "Bank of Canada set to hold at 2.25% — but the debate has quietly shifted to rate hikes",
+      "title_fa": "بانک مرکزی کانادا نرخ را در ۲.۲۵٪ نگه می‌دارد — اما بحث بی‌سروصدا به سمت «افزایش نرخ» چرخیده است",
+      "summary_en": "The Bank of Canada is widely expected to leave its policy rate unchanged at 2.25% on Wednesday, which would mark a sixth consecutive hold. For borrowers, the more important signal is the tone of the accompanying Monetary Policy Report: headline inflation has pushed above 3% (May CPI came in at 3.2%, above the Bank's projected 3% peak) even as the economy shows signs of shaking off a weak first quarter, so the conversation among bank economists has flipped from when cuts resume to when hikes begin. BMO's Benjamin Reitzes argues the bar for a move in either direction remains high, since a persistent output gap should keep generating disinflationary pressure. Scotiabank's Derek Holt is the most hawkish of the big banks, expecting two quarter-point hikes before year-end and a third in early 2027, which would take the policy rate to 3%. TD and BMO sit at the other end of the range, seeing the rate parked at 2.25% all the way through 2027, while CIBC and National Bank look for hikes next year and RBC projects 3.25% by the end of 2027 — a spread wide enough to matter to anyone choosing between fixed and variable right now.",
+      "summary_fa": "انتظار می‌رود بانک مرکزی کانادا روز چهارشنبه نرخ سیاستی خود را بدون تغییر در ۲.۲۵ درصد نگه دارد؛ این ششمین توقف پیاپی خواهد بود. اما آنچه برای وام‌گیرندگان اهمیت بیشتری دارد، لحن گزارش سیاست پولی همراه آن است: تورم کل به بالای ۳ درصد رسیده (شاخص قیمت مصرف‌کننده در ماه مه ۳.۲ درصد بود، بالاتر از سقف ۳ درصدی پیش‌بینی‌شده بانک) و در عین حال اقتصاد نشانه‌هایی از خروج از رکود ابتدای سال نشان می‌دهد؛ به همین دلیل گفت‌وگوی اقتصاددانان از «کاهش نرخ چه زمانی از سر گرفته می‌شود؟» به «افزایش نرخ چه زمانی آغاز می‌شود؟» تغییر کرده است. بنجامین رایتزس از BMO می‌گوید آستانه هر حرکتی — در هر جهت — همچنان بالاست، چون شکاف تولید به تولید فشار ضدتورمی ادامه می‌دهد. درک هولت از اسکوشیابانک تندروترین پیش‌بینی را در میان بانک‌های بزرگ دارد و انتظار دو افزایش ربع‌درصدی تا پایان امسال و یک افزایش دیگر در اوایل ۲۰۲۷ را دارد که نرخ سیاستی را به ۳ درصد می‌رساند. در سوی دیگر طیف، TD و BMO انتظار دارند نرخ تا پایان ۲۰۲۷ روی ۲.۲۵ درصد بماند، در حالی که CIBC و بانک ملی افزایش را از سال آینده می‌بینند و RBC نرخ ۳.۲۵ درصدی را تا پایان ۲۰۲۷ پیش‌بینی می‌کند — فاصله‌ای آن‌قدر زیاد که برای هر کسی که امروز میان نرخ ثابت و شناور تصمیم می‌گیرد، اهمیت دارد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> The headline is a hold, but the real story is the direction of the next move. For two years, variable-rate borrowers have been hanging on for cuts. When the big-bank forecast range now runs from flat through 2027 (TD, BMO) all the way to 3% by early 2027 (Scotiabank), the practical message is that the downside case for a variable rate has largely come off the table and the upside risk is real. That does not automatically make fixed the right answer — a deeply discounted variable can still win if the Bank simply stays put — but it does mean you should be stress-testing your own payment against a rate that is 50 to 75 basis points higher, not lower.</p><p>What I would actually do with this: if you are renewing in the next six months, get your options priced now and hold a rate while you shop, because fixed rates take their cue from bond yields and can move well before the Bank does. If you are already on a variable, run the math on what a 25 or 50 basis point increase does to your monthly payment and to your trigger point — if that number makes you uneasy, that is a conversation to have this week, not after the fact. I do not forecast rates and nobody can guarantee where they land. What I can do is make sure the structure you sign still works in both scenarios.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> عنوان خبر «توقف نرخ» است، اما داستان اصلی جهتِ حرکت بعدی است. دو سال است که وام‌گیرندگانِ نرخ شناور منتظر کاهش نرخ مانده‌اند. وقتی دامنه پیش‌بینی بانک‌های بزرگ از «بدون تغییر تا پایان ۲۰۲۷» (TD و BMO) تا «۳ درصد در اوایل ۲۰۲۷» (اسکوشیابانک) کشیده می‌شود، پیام عملی این است که سناریوی کاهش تقریباً از روی میز برداشته شده و ریسک افزایش واقعی است. این موضوع به‌طور خودکار نرخ ثابت را گزینه درست نمی‌کند — یک نرخ شناور با تخفیف خوب هنوز می‌تواند برنده باشد اگر بانک مرکزی صرفاً در همین سطح بماند — اما یعنی باید پرداخت خود را در برابر نرخی ۵۰ تا ۷۵ صدم‌درصد بالاتر بسنجید، نه پایین‌تر.</p><p>کاری که در عمل توصیه می‌کنم: اگر تمدید وام شما در شش ماه آینده است، همین حالا گزینه‌ها را قیمت‌گذاری کنید و در حین بررسی یک نرخ را رزرو (rate hold) کنید، چون نرخ‌های ثابت از بازده اوراق قرضه پیروی می‌کنند و می‌توانند خیلی زودتر از بانک مرکزی حرکت کنند. اگر همین حالا نرخ شناور دارید، حساب کنید افزایش ۲۵ یا ۵۰ صدم‌درصدی چه اثری بر پرداخت ماهانه و نقطه ماشه (trigger point) شما می‌گذارد؛ اگر آن عدد نگرانتان کرد، این گفت‌وگو را همین هفته انجام دهید، نه بعد از وقوع. من نرخ‌ها را پیش‌بینی نمی‌کنم و هیچ‌کس نمی‌تواند مسیر آن‌ها را تضمین کند. کاری که می‌توانم انجام دهم این است که مطمئن شوم ساختاری که امضا می‌کنید در هر دو سناریو همچنان کار می‌کند.</p>",
+      "seo_title": "Bank of Canada Holds at 2.25% — Why the Next Move May Be a Hike",
+      "seo_description": "The Bank of Canada is expected to hold at 2.25% for a sixth straight time, but big-bank forecasts now range from flat through 2027 to hikes starting this fall. What it means for fixed vs. variable and renewals.",
+      "keywords": [
+        "Bank of Canada rate decision",
+        "policy rate 2.25%",
+        "interest rate hike Canada",
+        "fixed vs variable mortgage",
+        "mortgage renewal Ontario",
+        "Canadian inflation CPI",
+        "Monetary Policy Report",
+        "trigger rate"
+      ],
+      "tags": [
+        "rates",
+        "bank-of-canada",
+        "fixed-vs-variable",
+        "renewal"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_38714fc8-5133-4cfc-af76-eb817ef5c8fb.jpg",
+      "image_alt_en": "The Bank of Canada headquarters building in Ottawa at sunrise, Canadian flag flying above the stone facade",
+      "image_alt_fa": "ساختمان مرکزی بانک کانادا در اتاوا هنگام طلوع آفتاب، با پرچم کانادا بر فراز نمای سنگی",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/bank-of-canada-expected-to-hold-as-debate-shifts-to-timing-of-rate-hikes/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-13",
+      "imported_date": "2026-07-14",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "rates",
+        "renewal"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "renewal-checklist"
+      ]
+    },
     {
       "id": "news-2026-07-12-reverse-mortgage-house-rich-cash-poor",
       "slug": "reverse-mortgage-house-rich-cash-poor-canada",
@@ -67,7 +122,7 @@
       "imported_date": "2026-07-13",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "affordability"
@@ -166,7 +221,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "rates",
         "renewal"
@@ -729,56 +784,6 @@
       "related_knowledge_blocks": [
         "renewal-checklist",
         "gen-stress"
-      ]
-    },
-    {
-      "id": "news-2026-06-23-rbc-poll",
-      "slug": "no-perfect-time-to-buy-rbc-poll",
-      "title_en": "Most Canadians say there's no perfect time to buy: RBC poll",
-      "title_fa": "بیشتر کانادایی‌ها می‌گویند زمان کاملی برای خرید وجود ندارد: نظرسنجی RBC",
-      "summary_en": "An RBC poll finds that most Canadians believe there is no 'perfect' time to buy a home: prospective buyers can see a possible opening in today's market, but economic uncertainty and a higher cost of living are making the decision much harder to time. The result captures a genuine tension — people want to act, yet they fear buying just before a dip or overcommitting during an unsettled stretch. It reflects buyer sentiment more than a market forecast, but it shows just how hesitant many would-be buyers feel right now.",
-      "summary_fa": "یک نظرسنجی RBC نشان می‌دهد بیشتر کانادایی‌ها باور دارند زمان «کاملی» برای خرید خانه وجود ندارد: خریداران بالقوه می‌توانند یک فرصت احتمالی در بازار امروز ببینند، اما نااطمینانی اقتصادی و هزینه بالاتر زندگی، زمان‌بندی این تصمیم را بسیار دشوارتر کرده است. این نتیجه یک تنش واقعی را به تصویر می‌کشد — مردم می‌خواهند اقدام کنند، اما از خرید درست پیش از یک افت یا تعهد بیش از حد در دوره‌ای پرنوسان می‌ترسند. این بیش از آنکه پیش‌بینی بازار باشد، احساس خریداران را بازتاب می‌دهد، اما نشان می‌دهد بسیاری از خریداران بالقوه هم‌اکنون چقدر مردد هستند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> 'Timing the market' almost never beats being ready for it. The buyers who do well aren't the ones who guess the exact bottom — they're the ones who are pre-approved, know their true budget, and can move quickly and calmly when the right home actually appears. A real pre-approval verifies your income and down payment and usually holds a rate for 90–120 days: if rates dip, you benefit; if they rise, you're protected for that window.</p><p>My advice is to get your file fully ready now, set a firm budget with a built-in buffer, and let the right property — not the day's headlines — trigger the decision. Readiness turns 'is now a good time?' from an anxious guess into a confident, on-your-terms choice. When you're prepared, almost any reasonable time can be the right time for you.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> «زمان‌بندی بازار» تقریباً هرگز از آماده‌بودن برای آن بهتر نیست. خریدارانی که موفق می‌شوند آن‌هایی نیستند که کف دقیق قیمت را حدس می‌زنند — بلکه کسانی‌اند که پیش‌تأیید گرفته‌اند، بودجه واقعی خود را می‌دانند و وقتی خانه مناسب واقعاً پیدا شد می‌توانند سریع و آرام اقدام کنند. یک پیش‌تأیید واقعی درآمد و پیش‌پرداخت شما را تأیید می‌کند و معمولاً نرخ را ۹۰ تا ۱۲۰ روز نگه می‌دارد: اگر نرخ‌ها پایین بیایند سود می‌برید؛ اگر بالا بروند، در آن بازه محافظت می‌شوید.</p><p>توصیه من این است که همین حالا پرونده خود را کاملاً آماده کنید، بودجه‌ای مشخص با حاشیه داخلی تعیین کنید و بگذارید خانه مناسب — نه تیترهای روز — تصمیم را رقم بزند. آمادگی، پرسش «آیا حالا زمان خوبی است؟» را از یک حدس مضطربانه به انتخابی مطمئن و با شرایط خودتان تبدیل می‌کند. وقتی آماده باشید، تقریباً هر زمان معقولی می‌تواند زمان درست برای شما باشد.</p>",
-      "seo_title": "No Perfect Time to Buy a Home (RBC Poll) — Broker View | Hamed Ashouri",
-      "seo_description": "An RBC poll finds buyers struggling to time the market. Ontario broker Hamed Ashouri on why readiness and pre-approval beat market timing.",
-      "keywords": [
-        "home buying",
-        "RBC poll",
-        "pre-approval",
-        "market timing",
-        "first-time buyer"
-      ],
-      "tags": [
-        "housing-market",
-        "first-time-buyer",
-        "pre-approval"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_da902fde-e2ca-4b9f-b1d5-dd4005823fc8.png",
-      "image_alt_en": "Young couple looking at a home for sale",
-      "image_alt_fa": "زوجی جوان در حال تماشای خانه‌ای برای فروش",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/06/most-canadians-say-theres-no-perfect-time-to-buy-a-home-rbc-poll/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-06-23",
-      "imported_date": "2026-06-30",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-preapproval",
-        "ftb-roadmap"
       ]
     }
   ]
