@@ -1,6 +1,6 @@
 {
-  "version": "14",
-  "updated": "2026-07-14",
+  "version": "15",
+  "updated": "2026-07-15",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,61 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-14-royal-lepage-forecast-raised",
+      "slug": "royal-lepage-raises-2026-home-price-forecast-momentum-builds",
+      "title_en": "Royal LePage raises its 2026 price forecast — but Toronto and Vancouver are still forecast to fall",
+      "title_fa": "رویال‌لپیج پیش‌بینی قیمت ۲۰۲۶ را بالا برد — اما همچنان انتظار افت قیمت در تورنتو و ونکوور را دارد",
+      "summary_en": "Royal LePage has nudged its national forecast higher, now expecting the aggregate price of a Canadian home to rise 2% year-over-year in the fourth quarter of 2026 to $823,344, up from its earlier call of a 1% gain. The upgrade reflects a spring market that found its footing in May with momentum carrying into June, as demand outpaced supply in several regions. The national picture, however, hides a widening split: Quebec City is forecast to lead with 8% growth, followed by Greater Montreal and Winnipeg at 5% and Halifax, Edmonton and Regina at 4% — while Vancouver is forecast to fall 3.5% and Toronto 2% versus late 2025. Second-quarter data showed the national aggregate price down 1.4% year-over-year to $814,900 but essentially flat quarter-over-quarter, up 0.2%. Royal LePage president and CEO Phil Soper attributed buyer hesitancy less to a lack of interest than to a lack of urgency, reinforced by elevated energy-driven inflation and uncertainty over the future of CUSMA.",
+      "summary_fa": "رویال‌لپیج پیش‌بینی ملی خود را اندکی بالا برده و اکنون انتظار دارد قیمت کل یک خانه در کانادا در سه‌ماهه چهارم ۲۰۲۶ نسبت به سال گذشته ۲٪ رشد کند و به ۸۲۳,۳۴۴ دلار برسد — بالاتر از پیش‌بینی قبلی که ۱٪ بود. دلیل این بازنگری، بازار بهاری است که در ماه مه جان گرفت و شتاب آن تا ژوئن ادامه یافت، چون تقاضا در برخی مناطق از عرضه پیشی گرفت. اما این تصویر ملی یک شکاف رو به گسترش را پنهان می‌کند: پیش‌بینی می‌شود کبک‌سیتی با ۸٪ رشد پیشتاز باشد، پس از آن مونترال بزرگ و وینیپگ با ۵٪ و هلیفکس، ادمونتون و رجاینا با ۴٪ — در حالی که انتظار می‌رود ونکوور ۳.۵٪ و تورنتو ۲٪ نسبت به اواخر ۲۰۲۵ افت کنند. داده‌های سه‌ماهه دوم نشان داد قیمت کل ملی نسبت به سال گذشته ۱.۴٪ کاهش یافته و به ۸۱۴,۹۰۰ دلار رسیده، اما نسبت به سه‌ماهه قبل تقریباً ثابت مانده و ۰.۲٪ بالا رفته است. فیل سوپر، مدیرعامل رویال‌لپیج، تردید خریداران را نه ناشی از نبود علاقه، بلکه ناشی از نبود فوریت دانست؛ عاملی که تورم ناشی از انرژی و ابهام درباره آینده توافق CUSMA آن را تقویت کرده است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> A forecast upgrade makes a good headline, but the number that matters to my clients is the one in their own postal code — and this report is really a story about divergence, not recovery. Greater Toronto is still projected to end the year below where it started, while a buyer in Quebec City or Winnipeg is competing in a market moving the other way. If you are buying in the GTA, softer prices in Canada's most expensive market are exactly the opening that being pre-approved lets you act on; if you are buying in a market forecast to rise, waiting for a better entry point carries a real cost.</p><p>Soper's line about a lack of urgency rather than a lack of interest is the part I would underline. Buyers on the sidelines are not usually waiting on price — they are waiting to feel certain, and certainty is not coming back before CUSMA is settled. What you can control is your own file: get your income documented properly, know your qualifying number under the stress test rather than the rate you see advertised, and keep your pre-approval current so a decision stays available to you. I cannot tell you where prices go from here, and nobody can, but I can make sure you are not disqualified from acting when your window opens.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> بالا بردن پیش‌بینی تیتر خوبی می‌سازد، اما عددی که برای مشتریان من اهمیت دارد، عدد کد پستی خودشان است — و این گزارش در واقع داستان واگرایی است، نه بهبود. هنوز پیش‌بینی می‌شود تورنتوی بزرگ سال را پایین‌تر از نقطه شروع به پایان برساند، در حالی که خریدار در کبک‌سیتی یا وینیپگ در بازاری رقابت می‌کند که در جهت مخالف حرکت می‌کند. اگر در GTA خرید می‌کنید، نرم شدن قیمت‌ها در گران‌ترین بازار کانادا دقیقاً همان فرصتی است که پیش‌تأییدیه به شما امکان استفاده از آن را می‌دهد؛ و اگر در بازاری خرید می‌کنید که پیش‌بینی رشد دارد، انتظار برای نقطه ورود بهتر هزینه واقعی دارد.</p><p>جمله سوپر درباره «نبود فوریت به جای نبود علاقه» بخشی است که من زیر آن خط می‌کشم. خریدارانی که کنار گود ایستاده‌اند معمولاً منتظر قیمت نیستند — منتظر احساس اطمینان‌اند، و اطمینان پیش از روشن شدن تکلیف CUSMA بازنمی‌گردد. آنچه در کنترل شماست پرونده خودتان است: درآمدتان را درست مستند کنید، عدد واجد شرایط بودن خود را بر اساس تست استرس بدانید نه نرخ تبلیغاتی، و پیش‌تأییدیه‌تان را به‌روز نگه دارید تا تصمیم‌گیری برایتان ممکن بماند. من نمی‌توانم بگویم قیمت‌ها از اینجا به کجا می‌روند و هیچ‌کس نمی‌تواند، اما می‌توانم مطمئن شوم وقتی پنجره شما باز شد، از اقدام بازنمانید.</p>",
+      "seo_title": "Royal LePage Raises 2026 Canadian Home Price Forecast to 2%",
+      "seo_description": "Royal LePage now forecasts a 2% national home price gain in Q4 2026 to $823,344, but expects Toronto to fall 2% and Vancouver 3.5%. What the divergence means for buyers.",
+      "keywords": [
+        "Royal LePage forecast 2026",
+        "Canadian home prices",
+        "Toronto home prices 2026",
+        "Vancouver home prices",
+        "aggregate home price Canada",
+        "housing market forecast Canada",
+        "first-time home buyer Ontario",
+        "mortgage pre-approval"
+      ],
+      "tags": [
+        "housing-market",
+        "prices",
+        "forecast",
+        "first-time-buyer"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_f1d820f6-6e04-4fc4-bef1-0939a6e543f3.jpg",
+      "image_alt_en": "A quiet Canadian suburban street of detached family homes in warm summer morning light",
+      "image_alt_fa": "خیابانی آرام در حومه کانادا با خانه‌های مستقل خانوادگی در نور گرم صبح تابستان",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/royal-lepage-bumps-up-home-price-forecast-for-this-year-as-momentum-builds/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-14",
+      "imported_date": "2026-07-15",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-07-13-boc-hold-rate-hike-debate",
       "slug": "bank-of-canada-hold-2-25-rate-hike-debate",
@@ -70,7 +125,7 @@
       "imported_date": "2026-07-14",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -170,7 +225,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "first-time-buyer",
         "affordability"
@@ -735,55 +790,6 @@
       "related_knowledge_blocks": [
         "ftb-roadmap",
         "gen-downpayment"
-      ]
-    },
-    {
-      "id": "news-2026-06-24-mpc-payments",
-      "slug": "little-room-higher-payments-mpc",
-      "title_en": "Many borrowers have little room for higher payments: MPC",
-      "title_fa": "بسیاری از وام‌گیرندگان فضای کمی برای پرداخت‌های بالاتر دارند: MPC",
-      "summary_en": "New consumer research from Mortgage Professionals Canada points to a widening squeeze, with recent buyers and newcomers in particular reporting little room to absorb higher payments — even as overall confidence in home ownership remains surprisingly resilient. Most households are still managing their current payments, but the gap between 'manageable' and 'stretched' has narrowed sharply, especially for those who bought near the top of their budget or are heading into a renewal at a higher rate. The findings read less like a warning of imminent trouble and more like a signal to plan ahead of the pressure points before they arrive.",
-      "summary_fa": "پژوهش تازه مصرف‌کننده از Mortgage Professionals Canada به فشاری رو به گسترش اشاره دارد؛ به‌ویژه خریداران اخیر و تازه‌واردان گزارش می‌دهند که فضای کمی برای جذب پرداخت‌های بالاتر دارند — حتی با وجود اینکه اعتماد کلی به خانه‌دار شدن به‌طور شگفت‌انگیزی پابرجاست. بیشتر خانوارها هنوز پرداخت‌های فعلی خود را مدیریت می‌کنند، اما فاصله میان «قابل‌مدیریت» و «تحت‌فشار» به‌شدت باریک شده است، به‌خصوص برای کسانی که نزدیک سقف بودجه خود خرید کرده‌اند یا به‌سمت تمدید با نرخ بالاتر می‌روند. این یافته‌ها بیش از آنکه هشدار بحران قریب‌الوقوع باشند، نشانه‌ای برای برنامه‌ریزی پیش از رسیدن به نقاط فشار هستند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> If your monthly budget already feels tight, the costliest move is to wait for the renewal letter and react to it. Start three to four months before maturity. A federally regulated 'straight switch' to another lender no longer triggers the stress test, which can sometimes unlock a better rate without re-qualifying from scratch. Beyond rate, there are real levers: extending the amortization to lower the payment, consolidating higher-interest credit-card or loan debt into the mortgage, or restructuring the term to fit your cash flow today.</p><p>None of these are one-size-fits-all — the right move depends on your equity, your goals, and how long you plan to stay. The point is to run the options while you still have leverage and choices, not after the lender's first renewal offer quietly narrows them. A short review now is almost always cheaper than a rushed decision later.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> اگر بودجه ماهانه شما همین حالا تنگ است، پرهزینه‌ترین اقدام این است که منتظر نامه تمدید بمانید و واکنش نشان دهید. سه تا چهار ماه پیش از سررسید شروع کنید. «جابه‌جایی مستقیم» میان وام‌دهندگان تحت نظارت فدرال دیگر آزمون استرس را فعال نمی‌کند و گاهی می‌تواند بدون احراز صلاحیت دوباره، نرخ بهتری را آزاد کند. فراتر از نرخ، اهرم‌های واقعی وجود دارد: تمدید دوره بازپرداخت برای کاهش پرداخت، تجمیع بدهی‌های کارت اعتباری یا وام با بهره بالا در وام مسکن، یا بازساختاردهی دوره متناسب با جریان نقدی امروز شما.</p><p>هیچ‌کدام راه‌حل یکسان برای همه نیست — اقدام درست به ارزش ویژه، اهداف و مدت ماندن شما بستگی دارد. نکته این است که گزینه‌ها را زمانی بسنجید که هنوز اهرم و انتخاب دارید، نه پس از آنکه اولین پیشنهاد تمدید وام‌دهنده بی‌سروصدا آن‌ها را محدود کرد. یک بررسی کوتاه اکنون تقریباً همیشه ارزان‌تر از یک تصمیم شتاب‌زده بعدی است.</p>",
-      "seo_title": "Borrowers Have Little Room for Higher Payments (MPC) — Broker View | Hamed Ashouri",
-      "seo_description": "MPC research shows affordability pressure on recent buyers and newcomers. Ontario broker Hamed Ashouri on renewal timing, the straight-switch stress-test exemption, and the levers that lower payments.",
-      "keywords": [
-        "affordability",
-        "renewal",
-        "payments",
-        "stress test",
-        "MPC"
-      ],
-      "tags": [
-        "housing-market",
-        "renewal",
-        "affordability"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_7e74f715-2c90-4100-aa89-a95b287d4d08.jpg",
-      "image_alt_en": "Person reviewing a household budget at a kitchen table",
-      "image_alt_fa": "فردی در حال بررسی بودجه خانوار پشت میز آشپزخانه",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/06/many-mortgage-holders-have-little-room-for-higher-payments-mpc/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-06-24",
-      "imported_date": "2026-06-30",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "renewal"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
-        "renewal-checklist",
-        "gen-stress"
       ]
     }
   ]
