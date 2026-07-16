@@ -1,6 +1,6 @@
 {
-  "version": "15",
-  "updated": "2026-07-15",
+  "version": "16",
+  "updated": "2026-07-16",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,121 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-15-boc-holds-2-25-july-mpr",
+      "slug": "bank-of-canada-holds-policy-rate-2-25-july-2026-mpr",
+      "title_en": "Bank of Canada holds at 2.25% for a sixth straight time — and says housing is starting to stabilize",
+      "title_fa": "بانک مرکزی کانادا برای ششمین بار پیاپی نرخ را در ۲٫۲۵٪ نگه داشت — و می‌گوید بازار مسکن در حال تثبیت است",
+      "summary_en": "The Bank of Canada left its target for the overnight rate unchanged at 2.25% on July 15, with the Bank Rate at 2.5% and the deposit rate at 2.20% — the sixth consecutive decision to stand pat. Alongside its July Monetary Policy Report, the Bank said Canada's economy is showing signs of improvement, with second-quarter growth estimated at 2.5% and sources of growth broadening, even though the labour market remains soft at a 6.5% unemployment rate in June. Inflation is the complicating factor: CPI rose to 3.2% in May on higher gasoline prices tied to the war in the Middle East, but stripping out gasoline it ran at 2.2% and core measures stayed close to 2%. The Bank expects inflation to stay elevated in June before easing gradually back to around 2% in early 2027, and projects GDP growth of 0.7% this year before 1.8% in both 2027 and 2028. Notably for housing, the Bank described activity as weak but looking to be stabilizing, and Governing Council judged the current rate remains appropriate while flagging that it is prepared to adjust policy as needed.",
+      "summary_fa": "بانک مرکزی کانادا در ۱۵ ژوئیه نرخ هدف شبانه را بدون تغییر در ۲٫۲۵٪ نگه داشت؛ نرخ بانکی در ۲٫۵٪ و نرخ سپرده در ۲٫۲۰٪ — ششمین تصمیم پیاپی برای عدم تغییر. همزمان با گزارش سیاست پولی ژوئیه، بانک اعلام کرد اقتصاد کانادا نشانه‌هایی از بهبود نشان می‌دهد و رشد سه‌ماهه دوم حدود ۲٫۵٪ برآورد شده و منابع رشد در حال گسترده‌تر شدن است، هرچند بازار کار همچنان ضعیف است و نرخ بیکاری در ژوئن ۶٫۵٪ بود. تورم عامل پیچیده‌کننده است: شاخص قیمت مصرف‌کننده در ماه مه به ۳٫۲٪ رسید که عمدتاً ناشی از افزایش قیمت بنزین در پی جنگ خاورمیانه بود، اما بدون احتساب بنزین ۲٫۲٪ و شاخص‌های هسته نزدیک به ۲٪ باقی ماندند. بانک انتظار دارد تورم در ژوئن بالا بماند و سپس به‌تدریج تا اوایل ۲۰۲۷ به حدود ۲٪ بازگردد و رشد تولید ناخالص داخلی را ۰٫۷٪ برای امسال و ۱٫۸٪ برای ۲۰۲۷ و ۲۰۲۸ پیش‌بینی می‌کند. نکته مهم برای مسکن اینکه بانک فعالیت این بخش را ضعیف اما در حال تثبیت توصیف کرد و شورای حاکم نرخ فعلی را همچنان مناسب دانست و تأکید کرد آماده تعدیل سیاست در صورت نیاز است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Six holds in a row is starting to look less like a pause and more like a plateau, and that changes the planning conversation I have with clients. For most of the last four years the question was \"do I wait for the next cut?\" — that question is getting stale. When the overnight rate sits still, variable-rate pricing sits still with it, and the real action moves to the bond market, which is what actually drives fixed rates. The Bank's own language is doing a lot of work here: it says it is prepared to adjust policy as needed, which cuts in both directions, and the July MPR leans on a Middle East oil story nobody can forecast with confidence. I would not build a mortgage plan around a prediction of where rates go next.</p><p>What I would build a plan around is the gap between the headline 3.2% CPI and the 2.2% reading excluding gasoline. That gap is the whole argument for why this hold is defensible — the inflation spike is concentrated in something monetary policy can't fix. If it unwinds the way the Bank expects, the pressure to hike stays off. If oil moves the other way, the conversation changes fast. Practically: if you're renewing in the next six to twelve months, get your renewal analysis started now rather than at the letter stage, because the value is in shopping the whole market, not in timing the Bank. If you're deciding fixed versus variable, decide it on your own tolerance for payment movement and your time horizon — not on a forecast. And the line I'd flag for buyers is the Bank saying housing looks to be stabilizing; a market that has stopped falling behaves very differently from one that is falling, and it usually rewards the people who did their qualifying work in advance. Every situation is different, so let's look at your actual numbers before you commit to a direction.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> شش تصمیم پیاپی برای نگه داشتن نرخ، دیگر کمتر شبیه یک مکث و بیشتر شبیه یک فلات است و این موضوع گفتگوی برنامه‌ریزی من با مشتریان را تغییر می‌دهد. در بیشتر چهار سال گذشته پرسش این بود که «آیا منتظر کاهش بعدی بمانم؟» — این پرسش دارد کهنه می‌شود. وقتی نرخ شبانه ثابت می‌ماند، قیمت‌گذاری نرخ متغیر هم ثابت می‌ماند و میدان اصلی به بازار اوراق قرضه منتقل می‌شود که در واقع تعیین‌کننده نرخ‌های ثابت است. زبان خودِ بانک اینجا معنادار است: می‌گوید آماده تعدیل سیاست در صورت نیاز است، که هر دو جهت را در بر می‌گیرد، و گزارش سیاست پولی ژوئیه بر داستان نفت خاورمیانه تکیه دارد که هیچ‌کس نمی‌تواند با اطمینان پیش‌بینی کند. من برنامه وام مسکن را بر پایه پیش‌بینی مسیر نرخ‌ها نمی‌سازم.</p><p>آنچه برنامه را بر آن می‌سازم، فاصله میان تورم سرفصل ۳٫۲٪ و رقم ۲٫۲٪ بدون احتساب بنزین است. همین فاصله، کل استدلال دفاع‌پذیر بودن این تصمیم است — جهش تورم در چیزی متمرکز شده که سیاست پولی نمی‌تواند آن را درمان کند. اگر همان‌طور که بانک انتظار دارد فروکش کند، فشار برای افزایش نرخ برداشته می‌شود. اگر نفت مسیر دیگری برود، گفتگو به‌سرعت تغییر می‌کند. به‌طور عملی: اگر در شش تا دوازده ماه آینده تمدید دارید، تحلیل تمدید را همین حالا آغاز کنید نه در مرحله دریافت نامه، چون ارزش کار در بررسی کل بازار است نه در زمان‌بندی بانک مرکزی. اگر میان ثابت و متغیر مردد هستید، تصمیم را بر اساس تحمل خودتان نسبت به نوسان پرداخت و افق زمانی‌تان بگیرید — نه بر اساس پیش‌بینی. و نکته‌ای که برای خریداران برجسته می‌کنم این است که بانک می‌گوید مسکن در حال تثبیت به نظر می‌رسد؛ بازاری که از سقوط ایستاده رفتاری کاملاً متفاوت با بازار در حال سقوط دارد و معمولاً به کسانی پاداش می‌دهد که کار واجد شرایط شدن خود را از پیش انجام داده‌اند. هر پرونده متفاوت است، پس پیش از انتخاب مسیر، بیایید اعداد واقعی شما را با هم بررسی کنیم.</p>",
+      "seo_title": "Bank of Canada Holds Rate at 2.25% — July 2026 Decision & MPR",
+      "seo_description": "The Bank of Canada held its policy rate at 2.25% on July 15, 2026, a sixth straight hold. Inflation hit 3.2% on gasoline but 2.2% excluding it. What it means for your mortgage.",
+      "keywords": [
+        "Bank of Canada July 2026",
+        "policy rate 2.25%",
+        "Bank of Canada hold",
+        "Monetary Policy Report July 2026",
+        "fixed vs variable mortgage Canada",
+        "mortgage renewal Ontario",
+        "CPI inflation Canada 3.2%",
+        "overnight rate Canada"
+      ],
+      "tags": [
+        "rates",
+        "bank-of-canada",
+        "fixed-vs-variable",
+        "renewal",
+        "inflation"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_655142ed-614f-4424-b484-a7e5b350d41f.jpg",
+      "image_alt_en": "A stately Canadian central bank office building of stone and glass in warm late afternoon light",
+      "image_alt_fa": "ساختمان باشکوه بانک مرکزی کانادا با نمای سنگ و شیشه در نور گرم بعدازظهر",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Bank of Canada",
+      "source_url": "https://www.bankofcanada.ca/2026/07/fad-press-release-2026-07-15/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-15",
+      "imported_date": "2026-07-16",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "rates",
+        "renewal",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "renewal-checklist",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-15-crea-lowers-2026-sales-forecast",
+      "slug": "crea-lowers-2026-home-sales-forecast-decline",
+      "title_en": "CREA now expects home sales to fall in 2026 — its third downgrade, even as prices stop sliding",
+      "title_fa": "انجمن املاک کانادا اکنون انتظار افت فروش مسکن در ۲۰۲۶ را دارد — سومین کاهش پیش‌بینی، در حالی که قیمت‌ها از سقوط ایستاده‌اند",
+      "summary_en": "The Canadian Real Estate Association has cut its 2026 outlook again, and this time the direction flipped: it now forecasts 463,336 homes will change hands this year, a 1.4% decline from 2025, reversing its April call for a 1% gain and a long way from the 5.1% growth it predicted back in January. CREA pinned the revision on a weak first half and a delayed start to the long-awaited recovery, with buyer hesitation tied partly to inflation fears from high oil prices that pushed fixed mortgage rates up before they partially eased, plus negative population growth weighing on some regions. The national average price is now forecast to rise 1.1% to $686,710 for the year, roughly $2,000 below the spring projection. The more interesting signal is underneath the forecast: June sales edged up 0.9% year-over-year and 0.5% from May, and CREA's home price index held flat month-over-month for the first time since January 2025 — though the index is still down 3.6% from a year ago. Looking to 2027, CREA projects sales to recover 3.7% to 480,567 with the average price up another 1.1% to $694,164.",
+      "summary_fa": "انجمن املاک و مستغلات کانادا بار دیگر چشم‌انداز ۲۰۲۶ خود را کاهش داد و این‌بار جهت پیش‌بینی معکوس شد: اکنون پیش‌بینی می‌کند ۴۶۳٬۳۳۶ خانه در سال جاری معامله شود، یعنی افت ۱٫۴٪ نسبت به ۲۰۲۵، که وارونه‌کننده پیش‌بینی آوریل مبنی بر رشد ۱٪ و بسیار دورتر از رشد ۵٫۱٪ است که در ژانویه پیش‌بینی کرده بود. انجمن این بازنگری را به نیمه اول ضعیف سال و آغاز با تأخیر بهبود بلندانتظار نسبت داد؛ تردید خریداران تا حدی به نگرانی‌های تورمی ناشی از قیمت بالای نفت مربوط بود که نرخ‌های ثابت وام مسکن را بالا برد و سپس تا حدی کاهش یافت، به‌علاوه رشد منفی جمعیت که بر برخی مناطق فشار آورده است. میانگین قیمت ملی اکنون با رشد ۱٫۱٪ به ۶۸۶٬۷۱۰ دلار برای امسال پیش‌بینی می‌شود، حدود ۲٬۰۰۰ دلار پایین‌تر از پیش‌بینی بهار. سیگنال جالب‌تر زیر این پیش‌بینی نهفته است: فروش ژوئن ۰٫۹٪ نسبت به سال قبل و ۰٫۵٪ نسبت به ماه مه افزایش یافت و شاخص قیمت مسکن انجمن برای نخستین بار از ژانویه ۲۰۲۵ به‌صورت ماهانه ثابت ماند — هرچند این شاخص همچنان ۳٫۶٪ پایین‌تر از سال گذشته است. برای ۲۰۲۷، انجمن بهبود ۳٫۷٪ فروش به ۴۸۰٬۵۶۷ و رشد ۱٫۱٪ دیگر در میانگین قیمت به ۶۹۴٬۱۶۴ دلار را پیش‌بینی می‌کند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Read this one next to Royal LePage raising its price forecast a day earlier and you might think the two contradict each other. They don't — they're measuring different things. CREA is telling you fewer homes will trade hands this year; Royal LePage is telling you the ones that do trade may go for slightly more. Low volume and firming prices can absolutely coexist, and that combination is the signature of a market where sellers are sitting out rather than capitulating. What actually moved me in this release is the price index going flat month-over-month for the first time since January 2025. Eighteen months of monthly declines ending is a bigger deal for a buyer's decision than any annual forecast, because it removes the strongest argument for waiting — that the same house will simply be cheaper in ninety days.</p><p>I'd be careful about treating a downgraded forecast as bad news for you personally. A forecast is a national average across wildly different markets, and nobody buys a national average. If anything, a year with fewer transactions is a year with less competition, and combined with a policy rate that has now held six times, this is a more legible market to plan in than the one we had eighteen months ago. The trap I see is the buyer who reads \"sales are falling\" and keeps waiting, then discovers in the fall that the listings that came out after Labour Day drew a crowd. Note CREA's own caution too: the recovery it's forecasting depends on the labour market and on external shocks not flaring up again — that's an honest caveat, not a footnote. My advice is unchanged and boring: get your qualifying position confirmed, know your real budget rather than your hoped-for budget, and be ready to move when the right property appears. Nothing here is a guarantee of pricing or approval — bring me your file and we'll work the actual math.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> اگر این خبر را کنار افزایش پیش‌بینی قیمت رویال‌لپیج در روز پیش از آن بگذارید، شاید فکر کنید این دو یکدیگر را نقض می‌کنند. چنین نیست — آن‌ها دو چیز متفاوت را اندازه می‌گیرند. انجمن املاک می‌گوید امسال خانه‌های کمتری معامله می‌شود؛ رویال‌لپیج می‌گوید آن‌هایی که معامله می‌شوند ممکن است اندکی گران‌تر باشند. حجم پایین و قیمت‌های در حال تثبیت کاملاً می‌توانند هم‌زمان وجود داشته باشند و این ترکیب، امضای بازاری است که فروشندگان در آن به‌جای تسلیم شدن، کنار کشیده‌اند. آنچه در این گزارش برای من معنادار بود، ثابت ماندن ماهانه شاخص قیمت برای نخستین بار از ژانویه ۲۰۲۵ است. پایان یافتن هجده ماه کاهش ماهانه برای تصمیم خریدار مهم‌تر از هر پیش‌بینی سالانه است، چون قوی‌ترین دلیل برای صبر کردن را از بین می‌برد — این تصور که همان خانه در نود روز آینده صرفاً ارزان‌تر خواهد بود.</p><p>مراقب باشم که کاهش پیش‌بینی را لزوماً خبر بدی برای خودتان تلقی نکنید. پیش‌بینی یک میانگین ملی از بازارهایی بسیار متفاوت است و هیچ‌کس میانگین ملی نمی‌خرد. اتفاقاً سالی با معاملات کمتر یعنی سالی با رقابت کمتر، و در کنار نرخ سیاستی که اکنون شش بار ثابت مانده، این بازار برای برنامه‌ریزی خواناتر از بازار هجده ماه پیش است. دامی که می‌بینم خریداری است که «فروش در حال کاهش است» را می‌خواند و به صبر کردن ادامه می‌دهد و سپس در پاییز درمی‌یابد که فایل‌های عرضه‌شده پس از روز کارگر با ازدحام روبه‌رو شده‌اند. به احتیاط خودِ انجمن هم توجه کنید: بهبودی که پیش‌بینی می‌کند به بازار کار و به شعله‌ور نشدن دوباره شوک‌های بیرونی وابسته است — این یک هشدار صادقانه است، نه یک پانویس. توصیه من بدون تغییر و ساده است: موقعیت واجد شرایط بودن خود را تأیید کنید، بودجه واقعی‌تان را بشناسید نه بودجه آرزویی‌تان، و آماده باشید وقتی ملک مناسب پیدا شد اقدام کنید. هیچ‌یک از این‌ها تضمین قیمت یا تأیید وام نیست — پرونده‌تان را بیاورید تا محاسبات واقعی را با هم انجام دهیم.</p>",
+      "seo_title": "CREA Cuts 2026 Home Sales Forecast to a 1.4% Decline",
+      "seo_description": "CREA now forecasts 463,336 home sales in 2026, a 1.4% drop, with the average price at $686,710. But its price index just held flat for the first time since January 2025.",
+      "keywords": [
+        "CREA forecast 2026",
+        "Canadian home sales 2026",
+        "national average home price Canada",
+        "CREA home price index",
+        "housing market recovery Canada",
+        "first-time home buyer Ontario",
+        "home sales decline 2026",
+        "mortgage pre-approval"
+      ],
+      "tags": [
+        "housing-market",
+        "forecast",
+        "prices",
+        "first-time-buyer"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_9ea5875c-fce5-4a20-957c-91ff3393dd8e.jpg",
+      "image_alt_en": "An aerial view of a quiet Canadian suburban neighbourhood of detached family homes in warm summer morning light",
+      "image_alt_fa": "نمای هوایی از محله‌ای آرام در حومه کانادا با خانه‌های مستقل خانوادگی در نور گرم صبح تابستان",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends (The Canadian Press)",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/crea-now-expects-home-sales-decline-in-2026-as-it-lowers-forecast-again/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-15",
+      "imported_date": "2026-07-16",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability",
+        "rates"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval",
+        "gen-downpayment"
+      ]
+    },
     {
       "id": "news-2026-07-14-royal-lepage-forecast-raised",
       "slug": "royal-lepage-raises-2026-home-price-forecast-momentum-builds",
@@ -70,7 +185,7 @@
       "imported_date": "2026-07-15",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "first-time-buyer",
@@ -126,7 +241,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "rates",
         "renewal"
@@ -178,7 +293,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "affordability"
       ],
@@ -688,108 +803,6 @@
       ],
       "related_knowledge_blocks": [
         "refi-faq-howmuch"
-      ]
-    },
-    {
-      "id": "news-2026-07-01-variable-shift",
-      "slug": "borrowers-shift-variable-renewal-easing-cmhc",
-      "title_en": "Borrowers shift to variable rates as renewal pressure eases: CMHC",
-      "title_fa": "با کاهش فشار تمدید، وام‌گیرندگان به نرخ‌های شناور روی می‌آورند: CMHC",
-      "summary_en": "A new CMHC report finds borrowers moving back toward variable-rate mortgages as the mortgage renewal wave passes its peak. By February 2026, variable-rate products made up about 42% of newly extended mortgages at the big banks — while only around 11% chose a traditional five-year fixed term — after variable rates slipped below fixed rates in late 2025 for the first time since 2022. CMHC also expects the number of households renewing in 2026 to be roughly 13% lower than in 2025, easing fears of a renewal 'cliff,' with typical rates having eased from about 4.8% a year earlier to around 4.2%. The agency says the overall system remains stable, though pockets of stress persist, with arrears rising most in areas like Toronto. Taken together, it is a clear shift in borrower sentiment toward flexibility — and a bet that the next rate move is more likely down than up.",
-      "summary_fa": "گزارش تازه CMHC نشان می‌دهد که با گذر موج تمدید وام مسکن از اوج خود، وام‌گیرندگان بار دیگر به وام‌های با نرخ شناور روی آورده‌اند. تا فوریه ۲۰۲۶، محصولات نرخ شناور حدود ۴۲٪ از وام‌های تازه تمدیدشده در بانک‌های بزرگ را تشکیل می‌دادند — در حالی که تنها حدود ۱۱٪ دوره ثابت پنج‌ساله سنتی را انتخاب کردند — پس از آنکه در اواخر ۲۰۲۵ برای نخستین‌بار از سال ۲۰۲۲ نرخ‌های شناور به زیر نرخ‌های ثابت رسید. CMHC همچنین انتظار دارد شمار خانوارهایی که در ۲۰۲۶ تمدید می‌کنند حدود ۱۳٪ کمتر از ۲۰۲۵ باشد و نگرانی‌ها درباره «پرتگاه» تمدید را کاهش دهد؛ نرخ‌های معمول نیز از حدود ۴٫۸٪ یک سال پیش به حدود ۴٫۲٪ رسیده‌اند. این آژانس می‌گوید کل سامانه پایدار است، هرچند کانون‌هایی از فشار همچنان وجود دارد و معوقات بیش از همه در مناطقی مانند تورنتو افزایش یافته است. روی‌هم‌رفته، این تغییری روشن در نگرش وام‌گیرندگان به‌سوی انعطاف است — و شرطی بر اینکه حرکت بعدی نرخ‌ها محتمل‌تر است رو به پایین باشد تا بالا.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> The swing to variable isn't a blanket 'right answer' — it's a bet that rates hold or fall, and it only makes sense if your budget can absorb a payment that moves. Variable can win when rates ease, but it asks you to stay comfortable with uncertainty; a fixed term buys you a known payment and peace of mind. The right choice depends on your cash-flow buffer, how long you plan to hold, and how much rate movement would genuinely keep you up at night — not on which option is trending this quarter.</p><p>The more universally good news here is on renewals: the pressure is easing, and a federally regulated 'straight switch' to a new lender at renewal no longer triggers the stress test — which can open up better pricing without re-qualifying from scratch. If you're renewing this year, don't auto-sign the first offer. Start three to four months early, compare fixed versus variable against your own numbers, and let's map whether a switch, a term change, or staying put actually serves you best.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> روی‌آوردن به نرخ شناور یک «پاسخ درست» همگانی نیست — بلکه شرطی است بر اینکه نرخ‌ها ثابت بمانند یا پایین بیایند، و تنها زمانی منطقی است که بودجه شما بتواند پرداختی متغیر را جذب کند. نرخ شناور وقتی نرخ‌ها کاهش یابند می‌تواند برنده باشد، اما از شما می‌خواهد با نااطمینانی راحت باشید؛ دوره ثابت پرداختی مشخص و آرامش خاطر به شما می‌دهد. انتخاب درست به حاشیه جریان نقدی شما، مدت ماندنتان و میزان تحملتان در برابر نوسان نرخ بستگی دارد — نه به اینکه کدام گزینه در این فصل پرطرفدار است.</p><p>خبر خوش فراگیرتر اینجا درباره تمدید است: فشار در حال کاهش است و «جابه‌جایی مستقیم» تحت نظارت فدرال به وام‌دهنده جدید هنگام تمدید دیگر آزمون استرس را فعال نمی‌کند — که می‌تواند بدون احراز صلاحیت دوباره، قیمت‌گذاری بهتری را باز کند. اگر امسال تمدید می‌کنید، اولین پیشنهاد را خودکار امضا نکنید. سه تا چهار ماه زودتر شروع کنید، ثابت و شناور را با اعداد خودتان مقایسه کنید، و با هم بسنجیم که جابه‌جایی، تغییر دوره یا ماندن — کدام واقعاً به سود شماست.</p>",
-      "seo_title": "Borrowers Shift to Variable Rates as Renewals Ease (CMHC) — Broker View | Hamed Ashouri",
-      "seo_description": "CMHC: variable-rate mortgages reached ~42% of new lending as the renewal wave peaks. Ontario mortgage broker Hamed Ashouri on fixed vs variable, easing renewals, and the switch stress-test exemption.",
-      "keywords": [
-        "variable rate",
-        "fixed rate",
-        "renewal",
-        "CMHC",
-        "stress test"
-      ],
-      "tags": [
-        "rates",
-        "renewal",
-        "variable"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_eaefcda1-634a-4c8f-8b0f-3857615ee09a.jpg",
-      "image_alt_en": "Homeowner comparing fixed and variable mortgage options",
-      "image_alt_fa": "صاحب‌خانه‌ای در حال مقایسه گزینه‌های وام مسکن ثابت و شناور",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/05/borrowers-shift-to-variable-rates-as-renewal-pressures-begin-to-ease-cmhc/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-05-12",
-      "imported_date": "2026-07-01",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "renewal",
-        "rates"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "renewal-checklist",
-        "gen-stress"
-      ]
-    },
-    {
-      "id": "news-2026-06-29-newcomer-buyers",
-      "slug": "newcomer-buyers-stretched-statcan",
-      "title_en": "Newcomers stretched further to buy homes: StatCan",
-      "title_fa": "تازه‌واردان برای خرید خانه بیشتر تحت فشار قرار گرفتند: آمار کانادا",
-      "summary_en": "New Statistics Canada data shows that recent immigrants who entered the housing market before interest rates climbed often did so by stretching — buying higher-priced homes relative to their incomes than comparable Canadian-born buyers, and leaving themselves a thinner cushion for savings and other costs. The pattern reflects both ambition and pressure: newcomers tend to prioritize ownership quickly, but tighter budgets and shorter Canadian credit histories can push them toward larger commitments with less margin for error. As more of these buyers reach renewal at today's higher rates, that thin margin is exactly where the financial strain concentrates.",
-      "summary_fa": "داده‌های تازه آمار کانادا نشان می‌دهد مهاجران اخیری که پیش از افزایش نرخ بهره وارد بازار مسکن شدند، اغلب با فشار این کار را کرده‌اند — خرید خانه‌هایی گران‌تر نسبت به درآمدشان در مقایسه با خریداران متولد کانادا، و باقی‌گذاشتن حاشیه‌ای باریک‌تر برای پس‌انداز و سایر هزینه‌ها. این الگو هم نشان‌دهنده جاه‌طلبی و هم فشار است: تازه‌واردان معمولاً خانه‌دار شدن را زود در اولویت می‌گذارند، اما بودجه محدودتر و سابقه اعتباری کوتاه‌تر در کانادا می‌تواند آن‌ها را به‌سوی تعهدات بزرگ‌تر با حاشیه خطای کمتر سوق دهد. با رسیدن تعداد بیشتری از این خریداران به مرحله تمدید با نرخ‌های بالاتر امروز، فشار مالی دقیقاً در همان حاشیه باریک متمرکز می‌شود.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> For newcomers the answer isn't to aim lower — it's to build the file so the numbers are real and resilient. Three moves matter most. First, establish a clean, traceable 90-day history for your down payment; gifted funds are perfectly acceptable with a signed gift letter and proof the money landed in your account. Second, document your income the way lenders actually read it — newcomer and limited-credit-history programs exist, but only when the paperwork is structured correctly from the start. Third, qualify yourself with a payment buffer above today's stress-test rate, so a renewal increase doesn't catch you off guard.</p><p>The smartest first step is to map a realistic budget and the right lender program <em>before</em> you shop — not to stretch to the very top of your pre-approval and hope rates cooperate. If you're new to Canada, that planning conversation is exactly where I add the most value.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> برای تازه‌واردان پاسخ این نیست که هدف کوچک‌تری بگذارند — بلکه ساختن پرونده‌ای است که اعدادش واقعی و مقاوم باشد. سه اقدام بیش از همه مهم‌اند. نخست، یک سابقه ۹۰ روزه روشن و قابل‌ردیابی برای پیش‌پرداخت خود بسازید؛ وجوه هدیه کاملاً قابل‌قبول است، به‌شرط نامه هدیه امضاشده و اثبات ورود پول به حساب شما. دوم، درآمد خود را به شیوه‌ای که وام‌دهندگان واقعاً می‌خوانند مستند کنید — برنامه‌های تازه‌واردان و سابقه اعتباری محدود وجود دارد، اما تنها زمانی که مدارک از همان ابتدا درست ساختار یابد. سوم، خود را با یک حاشیه پرداخت بالاتر از نرخ آزمون استرس امروز واجد شرایط کنید تا افزایش هنگام تمدید غافلگیرتان نکند.</p><p>هوشمندانه‌ترین گام نخست، ترسیم یک بودجه واقع‌بینانه و انتخاب برنامه وام‌دهنده مناسب <em>پیش از</em> جست‌وجوست — نه کشاندن خود تا سقف پیش‌تأیید و امید به همراهی نرخ‌ها. اگر تازه به کانادا آمده‌اید، همین گفتگوی برنامه‌ریزی دقیقاً جایی است که بیشترین ارزش را اضافه می‌کنم.</p>",
-      "seo_title": "Newcomers Stretched Further to Buy Homes (StatCan) — Broker View | Hamed Ashouri",
-      "seo_description": "StatCan finds recent immigrant buyers took on pricier homes relative to income. Ontario mortgage broker Hamed Ashouri on how newcomers can structure a stronger, more resilient file.",
-      "keywords": [
-        "newcomers",
-        "new to Canada",
-        "StatCan",
-        "affordability",
-        "down payment"
-      ],
-      "tags": [
-        "housing-market",
-        "newcomers",
-        "affordability"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_39722fa0-a800-4a20-90e5-af89935fd88a.jpg",
-      "image_alt_en": "Family with moving boxes in a new Canadian home",
-      "image_alt_fa": "خانواده‌ای با جعبه‌های اسباب‌کشی در خانه‌ای جدید در کانادا",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/06/newcomer-buyers-stretched-further-to-own-homes-statcan/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-06-29",
-      "imported_date": "2026-06-30",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "documents"
-      ],
-      "related_journeys": [
-        "assessment",
-        "workspace"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "gen-downpayment"
       ]
     }
   ]
