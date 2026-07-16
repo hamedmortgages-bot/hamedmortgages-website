@@ -787,7 +787,15 @@ function buildPayload(id){
     consent_evidence:consent,
     audit:{ session:"web::"+dedup, canonical_note:"lead-gen funnel: arrival->engagement->discovery->diagnosis->value->identity.captured->lead.scored (no opportunity)",
       client_ts:nowISO } };
-  const gmailBody="Hi "+first+",\n\nThanks for reaching out to Hamed Mortgages. We've received your inquiry and Hamed will follow up to review your options.\n\nIf you'd like, you can book a quick consultation here: "+bookingFor(a.preferred_contact_channel_time)+"\n\n— Hamed Mortgages (Mortgage Alliance)\n[Placeholder follow-up; no regulated wording.]";
+  const bookingLink=bookingFor(a.preferred_contact_channel_time);
+  const gmailBody="Hi "+first+",\n\n"+
+    "Thank you for reaching out to Hamed Mortgages.\n\n"+
+    "I've received your mortgage strategy request and I'll personally review your information.\n\n"+
+    "The next step is a short consultation so I can better understand your goals and recommend the most suitable mortgage strategy for your situation.\n\n"+
+    "You can book a convenient time here:\n"+bookingLink+"\n\n"+
+    "If you have any questions before our meeting, simply reply to this email.\n\n"+
+    "I look forward to speaking with you.\n\n"+
+    "Best regards,\nHamed Ashouri\nMortgage Broker\nMortgage Alliance";
   // ---- CLEAN, broker-facing Description (5-second executive summary; humans only) ----
   const humanDesc=
     "Website Strategy Funnel\n\n"+
@@ -815,8 +823,8 @@ function buildPayload(id){
     description:humanDesc,
     technical_record:techRecord,
     // ---- consent-gated Gmail (Make sends only if consent_to_contact) ----
-    gmail_to:id.email, gmail_subject:"Thanks for your mortgage inquiry — next step",
-    gmail_body:gmailBody, booking_url:bookingFor(a.preferred_contact_channel_time),
+    gmail_to:id.email, gmail_subject:"Thanks for reaching out to Hamed Mortgages",
+    gmail_body:gmailBody, booking_url:bookingLink,
     // ---- nested source echo for tracking ----
     source:{ first_touch:ft, latest_touch:lt }, submitted_at:nowISO
   };
