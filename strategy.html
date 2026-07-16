@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Hamed Mortgages — Discover Your Best Mortgage Strategy</title>
+<meta name="description" content="Answer a few quick questions and receive a personalized starting point based on your goals, timeline and current situation." />
+<style>
+  :root{
+    --ink:#0a0e14; --ink-soft:#3a4356; --paper:#ffffff; --paper-2:#f6f8fc;
+    --blue:#4f7cf0; --blue-deep:#2f56c9; --blue-soft:#eaf1ff; --line:#e7ecf5;
+    --glass:rgba(255,255,255,.62); --glass-brd:rgba(255,255,255,.75);
+    --shadow:0 20px 60px -24px rgba(20,40,90,.28); --shadow-sm:0 8px 24px -12px rgba(20,40,90,.22);
+    --r:20px; --r-sm:14px; --maxw:1080px;
+    --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji",sans-serif;
+    --font-fa:Vazirmatn,"Segoe UI",Tahoma,"Iranian Sans",system-ui,sans-serif;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{font-family:var(--font);color:var(--ink);background:var(--paper);line-height:1.55;
+    -webkit-font-smoothing:antialiased;overflow-x:hidden}
+  [dir="rtl"] body,[lang="fa"] body,body.fa{font-family:var(--font-fa)}
+  a{color:inherit;text-decoration:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+  img,video{max-width:100%;display:block}
+  .wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+  /* ambient premium background */
+  .aura{position:fixed;inset:0;z-index:-2;background:
+     radial-gradient(60% 50% at 78% -8%, #eef3ff 0%, rgba(238,243,255,0) 60%),
+     radial-gradient(50% 45% at -6% 12%, #f0f5ff 0%, rgba(240,245,255,0) 55%),
+     linear-gradient(180deg,#ffffff 0%,#fbfcff 100%)}
+  .grain{position:fixed;inset:0;z-index:-1;opacity:.035;pointer-events:none;
+     background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+
+  /* header */
+  header.nav{position:sticky;top:0;z-index:40;backdrop-filter:blur(14px) saturate(1.4);
+    background:rgba(255,255,255,.7);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:600;letter-spacing:.2px}
+  .brand .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--ink),#20304f);
+    color:#fff;display:grid;place-items:center;font-weight:700;font-size:15px;box-shadow:var(--shadow-sm)}
+  .brand small{display:block;font-weight:500;color:var(--ink-soft);font-size:11px;letter-spacing:.6px;text-transform:uppercase}
+  .nav-actions{display:flex;align-items:center;gap:10px}
+  .lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff}
+  .lang button{padding:7px 13px;font-size:13px;font-weight:600;color:var(--ink-soft)}
+  .lang button[aria-pressed="true"]{background:var(--ink);color:#fff}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:600;
+    border-radius:999px;padding:14px 26px;transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .2s;
+    will-change:transform}
+  .btn:active{transform:translateY(1px) scale(.99)}
+  .btn-primary{background:linear-gradient(135deg,var(--blue),var(--blue-deep));color:#fff;box-shadow:0 14px 30px -12px rgba(47,86,201,.6)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 22px 40px -14px rgba(47,86,201,.7)}
+  .btn-ghost{background:rgba(255,255,255,.7);border:1px solid var(--line);color:var(--ink)}
+  .btn-ghost:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm);border-color:#cdd8ee}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-dark:hover{transform:translateY(-2px)}
+  .btn-lg{padding:17px 34px;font-size:16px}
+  .btn[disabled]{opacity:.45;pointer-events:none}
+
+  /* hero */
+  .hero{padding:clamp(48px,8vw,104px) 0 clamp(40px,6vw,72px)}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,4vw,56px);align-items:center}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;letter-spacing:.5px;
+    text-transform:uppercase;color:var(--blue-deep);background:var(--blue-soft);padding:7px 14px;border-radius:999px}
+  h1.head{font-size:clamp(34px,5.2vw,60px);line-height:1.04;letter-spacing:-.02em;font-weight:700;margin:20px 0 18px}
+  h1.head .grad{background:linear-gradient(120deg,var(--blue-deep),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:clamp(16px,2vw,19px);color:var(--ink-soft);max-width:46ch;margin-bottom:30px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .trust{margin-top:26px;display:flex;gap:22px;flex-wrap:wrap;color:var(--ink-soft);font-size:13.5px}
+  .trust span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--blue)}
+
+  /* video */
+  .video-card{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);
+    aspect-ratio:4/5;background:linear-gradient(160deg,#0e1626,#28407a);isolation:isolate}
+  .video-card video,.video-card .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .poster{background:
+     radial-gradient(80% 60% at 70% 20%,rgba(79,124,240,.55),transparent 60%),
+     linear-gradient(160deg,#0e1626,#22386e);display:grid;place-items:center}
+  .poster .av{width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(8px);display:grid;place-items:center;color:#dbe6ff;font-size:40px;font-weight:600}
+  .video-badge{position:absolute;left:16px;bottom:16px;right:16px;display:flex;align-items:center;gap:12px;
+    padding:12px 14px;border-radius:var(--r-sm);background:var(--glass);border:1px solid var(--glass-brd);
+    backdrop-filter:blur(12px);box-shadow:var(--shadow-sm)}
+  [dir="rtl"] .video-badge{left:16px;right:16px}
+  .video-badge .p{width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--blue-deep);box-shadow:var(--shadow-sm)}
+  .video-badge b{font-size:14px}
+  .video-badge small{display:block;color:var(--ink-soft);font-size:12px}
+
+  /* strip */
+  .strip{padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.5)}
+  .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+  .strip .k{font-size:22px;font-weight:700}
+  .strip .l{font-size:12.5px;color:var(--ink-soft);letter-spacing:.3px}
+
+  /* funnel modal */
+  .stage{position:fixed;inset:0;z-index:60;display:none;align-items:stretch;justify-content:center;
+    background:rgba(12,18,32,.5);backdrop-filter:blur(6px)}
+  .stage.open{display:flex}
+  .panel{position:relative;width:100%;max-width:640px;margin:auto;background:var(--paper);
+    border-radius:24px;box-shadow:0 40px 120px -30px rgba(10,20,50,.55);overflow:hidden;
+    max-height:calc(100dvh - 32px);display:flex;flex-direction:column}
+  @media(max-width:560px){.panel{max-width:100%;border-radius:22px 22px 0 0;margin:auto 0 0;max-height:96dvh}}
+  .panel-top{padding:18px 22px 0;display:flex;align-items:center;gap:14px}
+  .prog{flex:1;height:6px;background:var(--paper-2);border-radius:999px;overflow:hidden}
+  .prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--blue-deep));border-radius:999px;transition:width .5s var(--ease)}
+  .close{width:34px;height:34px;border-radius:50%;background:var(--paper-2);color:var(--ink-soft);display:grid;place-items:center;font-size:18px}
+  .step{padding:26px 26px 30px;overflow-y:auto}
+  .step .qn{font-size:12.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--blue-deep)}
+  .step h2{font-size:clamp(21px,3.4vw,27px);letter-spacing:-.01em;margin:8px 0 4px;line-height:1.15}
+  .step .hint{color:var(--ink-soft);font-size:14.5px;margin-bottom:20px}
+  .opts{display:grid;gap:11px}
+  .opt{display:flex;align-items:center;gap:14px;padding:16px 18px;border:1.5px solid var(--line);border-radius:16px;
+    background:#fff;transition:all .2s var(--ease);text-align:start;width:100%}
+  .opt:hover{border-color:#bcd0f7;transform:translateY(-1px);box-shadow:var(--shadow-sm)}
+  .opt.sel{border-color:var(--blue);background:var(--blue-soft)}
+  .opt .ic{width:40px;height:40px;border-radius:12px;background:var(--paper-2);display:grid;place-items:center;font-size:20px;flex:none}
+  .opt.sel .ic{background:#fff}
+  .opt b{font-size:15.5px;font-weight:600}
+  .opt small{display:block;color:var(--ink-soft);font-size:13px;font-weight:400}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+  @media(max-width:460px){.grid2{grid-template-columns:1fr}}
+  .field{margin-bottom:14px}
+  .field label{display:block;font-size:13.5px;font-weight:600;margin-bottom:7px}
+  .field input,.field select{width:100%;padding:14px 15px;border:1.5px solid var(--line);border-radius:13px;font-size:15px;background:#fff;transition:border .2s}
+  .field input:focus,.field select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px var(--blue-soft)}
+  .field .err{color:#d23b3b;font-size:12.5px;margin-top:5px;display:none}
+  .field.invalid input{border-color:#e59}
+  .field.invalid .err{display:block}
+  .consent{display:flex;gap:11px;align-items:flex-start;padding:13px 14px;border:1px solid var(--line);border-radius:13px;margin-bottom:11px;background:var(--paper-2)}
+  .consent input{margin-top:3px;width:18px;height:18px;flex:none;accent-color:var(--blue-deep)}
+  .consent label{font-size:13px;color:var(--ink-soft);line-height:1.5}
+  .consent b{color:var(--ink)}
+  .step-nav{display:flex;gap:10px;margin-top:22px}
+  .step-nav .btn{flex:1}
+  .back{flex:0 0 auto!important;background:var(--paper-2);color:var(--ink-soft)}
+
+  /* teaser + result */
+  .teaser{text-align:center;padding:40px 26px}
+  .teaser .ring{width:92px;height:92px;margin:0 auto 20px;border-radius:50%;display:grid;place-items:center;
+    background:conic-gradient(var(--blue) 0turn,var(--blue-soft) 0turn);position:relative;animation:fill 1.1s var(--ease) forwards}
+  .teaser .ring::after{content:"";position:absolute;inset:8px;border-radius:50%;background:#fff}
+  .teaser .ring b{position:relative;z-index:1;font-size:22px;color:var(--blue-deep)}
+  @keyframes fill{to{background:conic-gradient(var(--blue) 1turn,var(--blue-soft) 0)}}
+  .result .rhead{padding:24px 26px;background:linear-gradient(135deg,#0e1626,#28407a);color:#fff}
+  .result .rhead .tag{font-size:12px;letter-spacing:.5px;text-transform:uppercase;opacity:.8}
+  .result .rhead h2{font-size:24px;margin-top:6px;color:#fff}
+  .result .rbody{padding:22px 26px 8px}
+  .rrow{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .rrow:last-child{border-bottom:none}
+  .rrow .ic{width:38px;height:38px;border-radius:11px;background:var(--blue-soft);color:var(--blue-deep);display:grid;place-items:center;flex:none;font-size:18px}
+  .rrow .t b{font-size:15px}
+  .rrow .t p{font-size:13.5px;color:var(--ink-soft);margin-top:2px}
+  .rnote{margin:16px 26px 0;font-size:11.5px;color:#96a1b5;line-height:1.5}
+
+  /* thank you */
+  .done{text-align:center;padding:44px 26px}
+  .done .check{width:76px;height:76px;border-radius:50%;background:var(--blue-soft);color:var(--blue-deep);
+    display:grid;place-items:center;margin:0 auto 18px;font-size:34px;animation:pop .5s var(--ease)}
+  @keyframes pop{0%{transform:scale(.5);opacity:0}100%{transform:scale(1);opacity:1}}
+  .book-opts{display:grid;gap:10px;margin:20px 0}
+  .book-opt{display:flex;align-items:center;gap:12px;padding:14px 16px;border:1.5px solid var(--line);border-radius:14px;text-align:start}
+  .book-opt:hover{border-color:var(--blue);background:var(--blue-soft)}
+  .book-opt .ic{font-size:20px}
+
+  /* error */
+  .errstate{text-align:center;padding:44px 26px}
+  .errstate .x{width:72px;height:72px;border-radius:50%;background:#fdeaea;color:#d23b3b;display:grid;place-items:center;margin:0 auto 16px;font-size:30px}
+
+  /* footer */
+  footer{padding:40px 0;border-top:1px solid var(--line);color:var(--ink-soft);font-size:13px;text-align:center;background:rgba(255,255,255,.5)}
+  footer .lic{font-size:11.5px;color:#9aa5b8;margin-top:8px}
+
+  /* polish: accessible focus + refined interactions */
+  a:focus-visible,button:focus-visible,input:focus-visible,.opt:focus-visible,.book-opt:focus-visible{
+    outline:3px solid rgba(79,124,240,.45);outline-offset:2px;border-radius:12px}
+  .opt:focus-visible{outline-offset:1px}
+  .opt .ic{transition:transform .2s var(--ease)}
+  .opt:hover .ic,.opt.sel .ic{transform:scale(1.06)}
+  .btn-primary::after{content:"";position:absolute}
+  .btn-primary{position:relative;overflow:hidden}
+  .video-card{transition:transform .5s var(--ease)}
+  .video-card:hover{transform:translateY(-3px)}
+  .eyebrow{transition:transform .3s var(--ease)}
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  @media(max-width:860px){.hero-grid{grid-template-columns:1fr}.video-card{aspect-ratio:16/11;max-height:420px}
+    .strip .wrap{grid-template-columns:1fr 1fr;gap:22px 12px}}
+</style>
+</head>
+<body>
+<div class="aura"></div><div class="grain"></div>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">
+      <div class="mark">HM</div>
+      <div><span data-i="brand">Hamed Mortgages</span><small data-i="brandsub">Mortgage Alliance · Ontario</small></div>
+    </div>
+    <div class="nav-actions">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="en" aria-pressed="true">EN</button>
+        <button data-lang="fa" aria-pressed="false">فا</button>
+      </div>
+      <button class="btn btn-dark" data-open-funnel style="padding:11px 18px;font-size:14px" data-i="navcta">Start</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal in">
+        <span class="eyebrow" data-i="eyebrow">Personal Mortgage Strategy</span>
+        <h1 class="head" data-i="h1"></h1>
+        <p class="sub" data-i="sub"></p>
+        <div class="hero-cta">
+          <button class="btn btn-primary btn-lg" data-open-funnel data-i="cta1">Start My Mortgage Strategy</button>
+          <button class="btn btn-ghost btn-lg" data-book data-i="cta2">Book a Consultation</button>
+        </div>
+        <div class="trust">
+          <span><i class="dot"></i><span data-i="t1">3-minute guided strategy</span></span>
+          <span><i class="dot"></i><span data-i="t2">No documents required</span></span>
+          <span><i class="dot"></i><span data-i="t3">English & فارسی</span></span>
+        </div>
+      </div>
+      <div class="reveal in video-card" id="videoCard" aria-label="Introduction from Hamed">
+        <!-- Drop-in: set data-src on <video> and a poster later. Page works without video. -->
+        <video id="heroVideo" muted autoplay loop playsinline preload="none" poster=""></video>
+        <div class="poster" id="poster"><div class="av">HA</div></div>
+        <div class="video-badge">
+          <div class="p">▶</div>
+          <div><b data-i="vb1">Meet Hamed Ashouri</b><small data-i="vb2">A quick word on your strategy</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip reveal">
+    <div class="wrap">
+      <div><div class="k">3 min</div><div class="l" data-i="s1">Guided questions</div></div>
+      <div><div class="k">6</div><div class="l" data-i="s2">Mortgage journeys</div></div>
+      <div><div class="k">EN / فا</div><div class="l" data-i="s3">Bilingual</div></div>
+      <div><div class="k">1:1</div><div class="l" data-i="s4">With Hamed</div></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div data-i="foot">Hamed Mortgages · Mortgage Alliance Company of Canada</div>
+    <div class="lic" data-i="lic">Ontario mortgage advisory. This is a general information experience, not a mortgage application or an offer of credit. Licence details provided on consultation.</div>
+  </div>
+</footer>
+
+<!-- FUNNEL -->
+<div class="stage" id="stage" role="dialog" aria-modal="true" aria-label="Mortgage strategy funnel">
+  <div class="panel">
+    <div class="panel-top">
+      <div class="prog"><i id="progBar"></i></div>
+      <button class="close" data-close aria-label="Close">✕</button>
+    </div>
+    <div class="step" id="stepHost"></div>
+  </div>
+</div>
+
+<script>
+/* ============================ CONFIG ============================ */
+const CONFIG = {
+  // LIVE Make webhook — scenario "Hamed Mortgages — Website Funnel to Zoho Lead (v1.1)" (id 5676012, ACTIVE).
+  // Verified end-to-end: POST -> Zoho dedup -> create ONE Lead (or no-duplicate) -> booking_url. CORS open.
+  WEBHOOK_URL: "https://hook.us2.make.com/qev63udrwtvnp3c7xl9bemmn5lmesqxs",
+  VERTICAL_CONFIG_VERSION: "ontario_mortgage_v1.1",
+  BOOKING: {
+    workspace: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/bluroot",
+    phone: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/11850000000187029",
+    inperson: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/11850000000187013",
+    online: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/11850000000187087"
+  },
+  META_PIXEL_ID: "",  // do NOT hardcode; owner supplies if approved
+  GA_ID: ""
+};
+
+/* ============================ TRACKING ============================ */
+window.dataLayer = window.dataLayer || [];
+function track(event, props){
+  const payload = Object.assign({event, ts:Date.now(), lang:STATE.lang}, props||{});
+  window.dataLayer.push(payload);
+  // Meta Pixel-ready (fires only if fbq already present & approved)
+  if(CONFIG.META_PIXEL_ID && window.fbq){ try{ fbq('trackCustom', event, props||{}); }catch(e){} }
+  // GA-ready
+  if(CONFIG.GA_ID && window.gtag){ try{ gtag('event', event, props||{}); }catch(e){} }
+  console.log('[track]', event, props||{});
+}
+
+/* ============================ SOURCE / UTM ============================ */
+function classifySource(u){
+  const s=(u.utm_source||"").toLowerCase(), m=(u.utm_medium||"").toLowerCase(), r=(document.referrer||"").toLowerCase();
+  if(u.qr==="1"||m==="qr"||s==="qr") return "qr_offline";
+  if(/instagram|ig/.test(s)||/instagram/.test(r)) return "messaging";
+  if(/facebook|meta|fb/.test(s)) return "paid_digital";
+  if(m==="cpc"||m==="paid"||/google_ads|adwords/.test(s)) return "paid_digital";
+  if(/google|bing/.test(s)||/google\.|bing\./.test(r)) return "organic";
+  if(u.utm_medium==="referral"||u.ref||/referr/.test(m)) return "referral";
+  if(s==="email"||m==="email") return "email";
+  if(r) return "referral";
+  return "direct";
+}
+function initSource(){
+  const q=new URLSearchParams(location.search), u={};
+  ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","ref","qr","gclid","fbclid"].forEach(k=>{ if(q.get(k)) u[k]=q.get(k); });
+  const now=new Date().toISOString();
+  let first=null; try{ first=JSON.parse(localStorage.getItem("hm_first_touch")||"null"); }catch(e){}
+  const cls=classifySource(u);
+  if(!first){ first={source_class:cls, utm:u, referrer:document.referrer||null, landing:location.pathname, at:now};
+    try{ localStorage.setItem("hm_first_touch", JSON.stringify(first)); }catch(e){} }
+  const latest={source_class:cls, utm:u, referrer:document.referrer||null, at:now};
+  try{ localStorage.setItem("hm_latest_touch", JSON.stringify(latest)); }catch(e){}
+  return {first_touch:first, latest_touch:latest};   // immutable first_touch + updating latest_touch
+}
+
+/* ============================ i18n ============================ */
+const I18N={
+ en:{brand:"Hamed Mortgages",brandsub:"Hamed Ashouri · Mortgage Alliance",navcta:"Start",
+   eyebrow:"Personal Mortgage Strategy",
+   h1:'Discover Your Best Mortgage Strategy in <span class="grad">3 Minutes</span>',
+   sub:"Answer a few quick questions and receive a personalized starting point based on your goals, timeline and current situation.",
+   cta1:"Start My Mortgage Strategy",cta2:"Book a Consultation",
+   t1:"3-minute guided strategy",t2:"No documents required",t3:"English & فارسی",
+   vb1:"Meet Hamed",vb2:"A quick word on your strategy",
+   s1:"Guided questions",s2:"Mortgage journeys",s3:"Bilingual",s4:"With Hamed",
+   foot:"Hamed Ashouri · Mortgage Alliance Company of Canada",
+   lic:"Ontario mortgage advisory. This is a general information experience, not a mortgage application or an offer of credit. Licence details provided on consultation.",
+   back:"Back",next:"Continue",teaserTitle:"Your mortgage strategy is ready.",
+   teaserSub:"Enter your details to see your personalized starting point.",
+   seeResult:"See My Strategy",bookNow:"Book a Consultation",
+   resTag:"Your personalized starting point",goalLabel:"Your goal",journeyLabel:"Your journey",
+   readyLabel:"Readiness",nextLabel:"Suggested next steps",talkLabel:"Talk with Hamed",
+   resNote:"General information only — not a mortgage approval, rate, or offer of credit. Your personalized strategy is confirmed in a consultation with Hamed.",
+   doneTitle:"You're all set.",doneSub:"Hamed will follow up. Prefer to pick a time now? Choose a consultation:",
+   bookPhone:"Phone consultation",bookInperson:"In-person consultation",bookOnline:"Online video consultation",
+   errTitle:"Something went wrong",errSub:"We couldn't submit right now. Your answers are saved — please try again.",
+   retry:"Try again",fullname:"Full name",email:"Email",mobile:"Mobile number",
+   consentSvc:'I agree to be contacted by Hamed Mortgages about my inquiry.',
+   consentMkt:'Optionally send me helpful mortgage tips and updates. (You can opt out anytime.)',
+   reqName:"Please enter your name.",reqEmail:"Please enter a valid email.",reqMobile:"Please enter a valid mobile number.",reqConsent:"Please agree to be contacted so we can follow up.",
+   submitting:"Preparing your strategy…"},
+ fa:{brand:"حامد مورگیجز",brandsub:"حامد عاشوری · مورگیج الاینس",navcta:"شروع",
+   eyebrow:"استراتژی وام مسکن شخصی",
+   h1:'بهترین استراتژی وام مسکن خود را در <span class="grad">۳ دقیقه</span> کشف کنید',
+   sub:"به چند پرسش کوتاه پاسخ دهید و بر اساس اهداف، زمان‌بندی و شرایط فعلی خود یک نقطه شروع شخصی‌سازی‌شده دریافت کنید.",
+   cta1:"شروع استراتژی وام من",cta2:"رزرو مشاوره",
+   t1:"استراتژی راهنمای ۳ دقیقه‌ای",t2:"بدون نیاز به مدرک",t3:"English و فارسی",
+   vb1:"با حامد آشنا شوید",vb2:"چند کلمه درباره استراتژی شما",
+   s1:"پرسش‌های راهنما",s2:"مسیر وام مسکن",s3:"دو زبانه",s4:"همراه حامد",
+   foot:"حامد عاشوری · مورگیج الاینس کانادا",
+   lic:"مشاوره وام مسکن انتاریو. این یک تجربه اطلاعاتی عمومی است، نه درخواست وام یا پیشنهاد اعتبار. جزئیات مجوز در جلسه مشاوره ارائه می‌شود.",
+   back:"بازگشت",next:"ادامه",teaserTitle:"استراتژی وام مسکن شما آماده است.",
+   teaserSub:"برای دیدن نقطه شروع شخصی‌سازی‌شده، اطلاعات خود را وارد کنید.",
+   seeResult:"دیدن استراتژی من",bookNow:"رزرو مشاوره",
+   resTag:"نقطه شروع شخصی‌سازی‌شده شما",goalLabel:"هدف شما",journeyLabel:"مسیر شما",
+   readyLabel:"آمادگی",nextLabel:"گام‌های بعدی پیشنهادی",talkLabel:"گفتگو با حامد",
+   resNote:"صرفاً اطلاعات عمومی — نه تأیید وام، نرخ یا پیشنهاد اعتبار. استراتژی شخصی شما در جلسه مشاوره با حامد نهایی می‌شود.",
+   doneTitle:"همه چیز آماده است.",doneSub:"حامد با شما تماس خواهد گرفت. ترجیح می‌دهید همین حالا زمانی انتخاب کنید؟",
+   bookPhone:"مشاوره تلفنی",bookInperson:"مشاوره حضوری",bookOnline:"مشاوره ویدیویی آنلاین",
+   errTitle:"خطایی رخ داد",errSub:"در حال حاضر امکان ارسال نبود. پاسخ‌های شما ذخیره شده است — لطفاً دوباره تلاش کنید.",
+   retry:"تلاش دوباره",fullname:"نام و نام خانوادگی",email:"ایمیل",mobile:"شماره موبایل",
+   consentSvc:"موافقم که حامد مورگیجز درباره درخواست من با من تماس بگیرد.",
+   consentMkt:"در صورت تمایل، نکات و به‌روزرسانی‌های مفید وام مسکن را برایم بفرستید. (هر زمان می‌توانید لغو کنید.)",
+   reqName:"لطفاً نام خود را وارد کنید.",reqEmail:"لطفاً یک ایمیل معتبر وارد کنید.",reqMobile:"لطفاً یک شماره موبایل معتبر وارد کنید.",reqConsent:"لطفاً برای پیگیری با تماس موافقت کنید.",
+   submitting:"در حال آماده‌سازی استراتژی شما…"}
+};
+
+/* ============================ QUESTIONS (branched) ============================ */
+const Q = [
+ {id:"goal_objective", i:{en:{q:"What's your main goal?",h:"Choose the option closest to your situation."},fa:{q:"هدف اصلی شما چیست؟",h:"نزدیک‌ترین گزینه به شرایط خود را انتخاب کنید."}},
+  opts:[
+   {v:"purchase",ic:"🏡",en:["Buy a home","Purchase financing"],fa:["خرید خانه","تأمین مالی خرید"]},
+   {v:"refinance",ic:"🔄",en:["Refinance","Lower rate or restructure"],fa:["ری‌فایננس","نرخ کمتر یا بازساختاردهی"]},
+   {v:"equity_take_out",ic:"💧",en:["HELOC / Equity take-out","Access home equity"],fa:["هلاک / برداشت سرمایه","دسترسی به سرمایه خانه"]},
+   {v:"renewal",ic:"📄",en:["Renewal / Switch","Renew or move lenders"],fa:["تمدید / تعویض","تمدید یا تغییر وام‌دهنده"]},
+   {v:"reverse_mortgage",ic:"🌿",en:["Reverse mortgage","Age 55+ equity release"],fa:["وام معکوس","آزادسازی سرمایه ۵۵+"]},
+   {v:"general_inquiry",ic:"💬",en:["General mortgage advice","Not sure yet"],fa:["مشاوره عمومی وام","هنوز مطمئن نیستم"]}
+  ]},
+ {id:"property_type", i:{en:{q:"What type of property?",h:""},fa:{q:"نوع ملک چیست؟",h:""}},
+  opts:[
+   {v:"house",ic:"🏠",en:["House",""],fa:["خانه ویلایی",""]},
+   {v:"condo",ic:"🏢",en:["Condo / Apartment",""],fa:["آپارتمان / کاندو",""]},
+   {v:"townhouse",ic:"🏘️",en:["Townhouse",""],fa:["خانه شهری",""]},
+   {v:"other",ic:"🗺️",en:["Other / Not sure",""],fa:["سایر / مطمئن نیستم",""]}
+  ]},
+ {id:"property_value_or_price", i:{en:{q:"Approximate property value or purchase price?",h:"A rough range is fine."},fa:{q:"ارزش تقریبی ملک یا قیمت خرید؟",h:"یک محدوده تقریبی کافی است."}},
+  opts:[
+   {v:"350000",ic:"",en:["Under $500K",""],fa:["زیر ۵۰۰ هزار دلار",""]},
+   {v:"650000",ic:"",en:["$500K – $800K",""],fa:["۵۰۰ تا ۸۰۰ هزار",""]},
+   {v:"950000",ic:"",en:["$800K – $1.1M",""],fa:["۸۰۰ هزار تا ۱٫۱ میلیون",""]},
+   {v:"1400000",ic:"",en:["$1.1M+",""],fa:["بیش از ۱٫۱ میلیون",""]}
+  ]},
+ {id:"amount_band", i:{en:{q:"Approx. mortgage / equity amount you need?",h:"Ballpark only."},fa:{q:"مبلغ تقریبی وام / سرمایه مورد نیاز؟",h:"فقط تخمینی."}},
+  opts:[
+   {v:"under_250k",ic:"",en:["Under $250K",""],fa:["زیر ۲۵۰ هزار",""]},
+   {v:"250_500k",ic:"",en:["$250K – $500K",""],fa:["۲۵۰ تا ۵۰۰ هزار",""]},
+   {v:"500_800k",ic:"",en:["$500K – $800K",""],fa:["۵۰۰ تا ۸۰۰ هزار",""]},
+   {v:"800k_plus",ic:"",en:["$800K+ / Not sure",""],fa:["بیش از ۸۰۰ هزار / نامطمئن",""]}
+  ]},
+ {id:"timeline", i:{en:{q:"What's your timeline?",h:""},fa:{q:"بازه زمانی شما؟",h:""}},
+  opts:[
+   {v:"0_3_months",ic:"⚡",en:["Within 3 months","Ready to move"],fa:["ظرف ۳ ماه","آماده اقدام"]},
+   {v:"3_6_months",ic:"📅",en:["3 – 6 months",""],fa:["۳ تا ۶ ماه",""]},
+   {v:"6_12_months",ic:"🗓️",en:["6 – 12 months",""],fa:["۶ تا ۱۲ ماه",""]},
+   {v:"just_researching",ic:"🔍",en:["Just researching","Planning ahead"],fa:["فقط بررسی می‌کنم","برنامه‌ریزی آینده"]}
+  ]},
+ {id:"jurisdiction", i:{en:{q:"Is the property in Ontario?",h:"We currently advise on Ontario properties."},fa:{q:"آیا ملک در انتاریو است؟",h:"در حال حاضر برای املاک انتاریو مشاوره می‌دهیم."}},
+  opts:[
+   {v:"Ontario",ic:"✅",en:["Yes, in Ontario",""],fa:["بله، در انتاریو",""]},
+   {v:"other",ic:"🌎",en:["Outside Ontario",""],fa:["خارج از انتاریو",""]}
+  ]},
+ {id:"occupancy_use", i:{en:{q:"How will the property be used?",h:""},fa:{q:"ملک چگونه استفاده می‌شود؟",h:""}},
+  opts:[
+   {v:"primary",ic:"🔑",en:["I'll live in it",""],fa:["در آن ساکن می‌شوم",""]},
+   {v:"rental",ic:"🏦",en:["Rental / Investment",""],fa:["اجاره / سرمایه‌گذاری",""]},
+   {v:"second",ic:"🌅",en:["Second home",""],fa:["خانه دوم",""]}
+  ]},
+ {id:"income_type", i:{en:{q:"How do you earn your income?",h:""},fa:{q:"درآمد خود را چگونه کسب می‌کنید؟",h:""}},
+  opts:[
+   {v:"employed",ic:"💼",en:["Employed",""],fa:["کارمند",""]},
+   {v:"self_employed",ic:"🧑‍💻",en:["Self-employed",""],fa:["خویش‌فرما",""]},
+   {v:"incorporated",ic:"🏛️",en:["Incorporated",""],fa:["شرکت ثبت‌شده",""]},
+   {v:"complex_income",ic:"➕",en:["Other",""],fa:["سایر",""]}
+  ]},
+ {id:"gross_income_affordability", i:{en:{q:"Approximate household income?",h:"A band is enough."},fa:{q:"درآمد تقریبی خانوار؟",h:"یک محدوده کافی است."}},
+  opts:[
+   {v:"low",ic:"",en:["Under $80K",""],fa:["زیر ۸۰ هزار",""]},
+   {v:"moderate",ic:"",en:["$80K – $150K",""],fa:["۸۰ تا ۱۵۰ هزار",""]},
+   {v:"high",ic:"",en:["$150K+",""],fa:["بیش از ۱۵۰ هزار",""]}
+  ]},
+ {id:"self_assessed_credit", i:{en:{q:"How would you describe your credit?",h:"Your best guess is fine."},fa:{q:"وضعیت اعتباری خود را چگونه توصیف می‌کنید؟",h:"حدس شما کافی است."}},
+  opts:[
+   {v:"excellent",ic:"",en:["Excellent",""],fa:["عالی",""]},
+   {v:"good",ic:"",en:["Good",""],fa:["خوب",""]},
+   {v:"fair",ic:"",en:["Fair",""],fa:["متوسط",""]},
+   {v:"poor",ic:"",en:["Needs improvement",""],fa:["نیازمند بهبود",""]},
+   {v:"unknown",ic:"",en:["Unsure",""],fa:["نامطمئن",""]}
+  ]},
+ {id:"age_band", i:{en:{q:"Are you 55 or older?",h:"Reverse-mortgage advice is available for homeowners 55+."},fa:{q:"آیا ۵۵ سال یا بیشتر دارید؟",h:"مشاوره وام معکوس برای مالکان ۵۵+ در دسترس است."}},
+  branchIf:s=>s.goal_objective==="reverse_mortgage",
+  opts:[
+   {v:"55plus",ic:"",en:["Yes, 55+",""],fa:["بله، ۵۵+",""]},
+   {v:"under_55",ic:"",en:["Under 55",""],fa:["زیر ۵۵",""]}
+  ]},
+ {id:"preferred_contact_channel_time", i:{en:{q:"How should Hamed reach you?",h:""},fa:{q:"حامد چگونه با شما تماس بگیرد؟",h:""}},
+  opts:[
+   {v:"phone",ic:"📞",en:["Phone",""],fa:["تلفن",""]},
+   {v:"email",ic:"✉️",en:["Email",""],fa:["ایمیل",""]},
+   {v:"text",ic:"💬",en:["Text",""],fa:["پیامک",""]}
+  ]},
+ {id:"__identity", type:"identity"}
+];
+
+/* ============================ STATE ============================ */
+const STATE={lang:"en", idx:0, answers:{}, order:[], source:null, submitting:false, leadResult:null};
+
+function activeQuestions(){
+  return Q.filter(q=> !q.branchIf || q.branchIf(STATE.answers));
+}
+function totalSteps(){ return activeQuestions().length + 1; /* +1 teaser before identity handled inline */ }
+
+/* ============================ RENDER ============================ */
+const stage=document.getElementById('stage'), host=document.getElementById('stepHost'), prog=document.getElementById('progBar');
+function t(k){ return I18N[STATE.lang][k]; }
+
+function openFunnel(){ STATE.idx=0; stage.classList.add('open'); document.body.style.overflow='hidden'; track('funnel_open'); renderStep(); }
+function closeFunnel(){ stage.classList.remove('open'); document.body.style.overflow=''; }
+
+function setProgress(){
+  const qs=activeQuestions(); const total=qs.length+2; // questions + teaser + result
+  let pos=STATE.idx; if(STATE.idx>qs.length) pos=qs.length + (STATE.idx-qs.length);
+  prog.style.width=Math.min(100, (STATE.idx/(qs.length+1))*100)+'%';
+}
+
+function renderStep(){
+  setProgress();
+  const qs=activeQuestions();
+  if(STATE.idx < qs.length){ return renderQuestion(qs[STATE.idx]); }
+  if(STATE.idx === qs.length){ return renderTeaser(); }
+  if(STATE.idx === qs.length+1){ return renderResult(); }
+}
+
+function renderQuestion(q){
+  if(q.type==="identity") return renderIdentity();
+  const L=STATE.lang, meta=q.i[L];
+  const stepNo=STATE.idx+1, tot=activeQuestions().length;
+  host.innerHTML=`
+    <div class="qn">${L==='fa'?'پرسش':'Question'} ${stepNo} / ${tot}</div>
+    <h2>${meta.q}</h2>${meta.h?`<div class="hint">${meta.h}</div>`:'<div style="height:14px"></div>'}
+    <div class="opts">${q.opts.map(o=>`
+      <button class="opt ${STATE.answers[q.id]===o.v?'sel':''}" data-opt="${o.v}">
+        ${o.ic?`<span class="ic">${o.ic}</span>`:''}
+        <span><b>${o[L][0]}</b>${o[L][1]?`<small>${o[L][1]}</small>`:''}</span>
+      </button>`).join('')}</div>
+    <div class="step-nav">
+      ${STATE.idx>0?`<button class="btn back" data-back>${t('back')}</button>`:''}
+    </div>`;
+  host.querySelectorAll('[data-opt]').forEach(b=>b.onclick=()=>{
+    STATE.answers[q.id]=b.dataset.opt;
+    track('funnel_step_complete',{step:q.id, value:b.dataset.opt, n:stepNo});
+    setTimeout(nextStep,180);
+  });
+  const bk=host.querySelector('[data-back]'); if(bk) bk.onclick=prevStep;
+  host.scrollTop=0;
+}
+
+function renderTeaser(){
+  prog.style.width='90%';
+  track('funnel_teaser_view');
+  host.innerHTML=`<div class="teaser">
+     <div class="ring"><b>✓</b></div>
+     <h2 style="font-size:26px;margin-bottom:8px">${t('teaserTitle')}</h2>
+     <p class="hint" style="max-width:34ch;margin:0 auto 22px">${t('teaserSub')}</p>
+     <button class="btn btn-primary btn-lg" style="width:100%" data-toid>${t('seeResult')}</button>
+     <button class="btn back" style="width:100%;margin-top:10px" data-back>${t('back')}</button>
+  </div>`;
+  host.querySelector('[data-toid]').onclick=()=>{ STATE.idx++; renderIdentity(); };
+  host.querySelector('[data-back]').onclick=prevStep;
+}
+
+function renderIdentity(){
+  prog.style.width='95%';
+  const L=STATE.lang;
+  host.innerHTML=`
+    <div class="qn">${L==='fa'?'اطلاعات تماس':'Your details'}</div>
+    <h2>${t('teaserTitle')}</h2><div class="hint">${t('teaserSub')}</div>
+    <div class="field" id="f_name"><label>${t('fullname')}</label><input id="in_name" autocomplete="name" /><div class="err">${t('reqName')}</div></div>
+    <div class="field" id="f_email"><label>${t('email')}</label><input id="in_email" type="email" autocomplete="email" /><div class="err">${t('reqEmail')}</div></div>
+    <div class="field" id="f_mobile"><label>${t('mobile')}</label><input id="in_mobile" type="tel" autocomplete="tel" /><div class="err">${t('reqMobile')}</div></div>
+    <div class="consent" id="c_svc_wrap"><input type="checkbox" id="c_svc" /><label for="c_svc"><b>${t('consentSvc')}</b></label></div>
+    <div class="err" id="c_svc_err" style="display:none;color:#d23b3b;font-size:12.5px;margin:-6px 0 8px">${t('reqConsent')}</div>
+    <div class="consent"><input type="checkbox" id="c_mkt" /><label for="c_mkt">${t('consentMkt')}</label></div>
+    <div class="step-nav">
+      <button class="btn back" data-back>${t('back')}</button>
+      <button class="btn btn-primary" data-submit>${t('seeResult')}</button>
+    </div>`;
+  host.querySelector('[data-back]').onclick=()=>{ STATE.idx--; renderStep(); };
+  host.querySelector('[data-submit]').onclick=submitLead;
+  host.scrollTop=0;
+}
+
+function validEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
+function validPhone(v){ return (v.replace(/[^\d]/g,'').length>=10); }
+
+async function submitLead(){
+  if(STATE.submitting) return;
+  const name=document.getElementById('in_name').value.trim();
+  const email=document.getElementById('in_email').value.trim();
+  const mobile=document.getElementById('in_mobile').value.trim();
+  const svc=document.getElementById('c_svc').checked, mkt=document.getElementById('c_mkt').checked;
+  let ok=true;
+  const bad=(id)=>{document.getElementById(id).classList.add('invalid');ok=false;};
+  document.querySelectorAll('.field').forEach(f=>f.classList.remove('invalid'));
+  if(!name) bad('f_name');
+  if(!validEmail(email)) bad('f_email');
+  if(!validPhone(mobile)) bad('f_mobile');
+  document.getElementById('c_svc_err').style.display = svc?'none':'block';
+  if(!svc) ok=false;
+  if(!ok){ track('identity_validation_error'); return; }
+
+  STATE.submitting=true;
+  const btn=document.querySelector('[data-submit]'); btn.textContent=t('submitting'); btn.disabled=true;
+
+  const payload=buildPayload({name,email,mobile,svc,mkt});
+  track('identity_capture', {source_class:payload.source.first_touch.source_class});
+  track('lead_submit');
+
+  try{
+    if(CONFIG.WEBHOOK_URL){
+      const res=await fetch(CONFIG.WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      if(!res.ok) throw new Error('http '+res.status);
+      STATE.leadResult=await res.json().catch(()=>({ok:true}));
+    } else {
+      // dry-run (no webhook configured yet): local preview, no network
+      await new Promise(r=>setTimeout(r,650));
+      STATE.leadResult={ok:true, dry_run:true};
+    }
+    STATE.idx=activeQuestions().length+1;
+    track('lead_created',{dry_run:!CONFIG.WEBHOOK_URL});
+    renderResult();
+  }catch(e){
+    track('lead_submit_error',{msg:String(e)});
+    renderError();
+  }finally{ STATE.submitting=false; }
+}
+
+/* ===== client-side NON-REGULATED classifier (display only; NO score/maturity exposed) ===== */
+function classifyClient(a){
+  const goalMap={purchase:"purchase",refinance:"refinance",equity_take_out:"equity_take_out",
+    renewal:"renewal",reverse_mortgage:"reverse_mortgage",general_inquiry:"general_mortgage_advisory"};
+  let journey=goalMap[a.goal_objective]||"general_mortgage_advisory";
+  if(a.goal_objective==="reverse_mortgage" && a.age_band==="under_55") journey="general_mortgage_advisory";
+  if(a.jurisdiction==="other") journey="general_mortgage_advisory";
+  const L=STATE.lang;
+  const JN={en:{purchase:"Purchase financing",refinance:"Refinance strategy",equity_take_out:"Home-equity access",
+     renewal:"Renewal / switch review",reverse_mortgage:"Reverse-mortgage suitability (55+)",general_mortgage_advisory:"General mortgage advisory"},
+    fa:{purchase:"تأمین مالی خرید",refinance:"استراتژی ری‌فایننس",equity_take_out:"دسترسی به سرمایه خانه",
+     renewal:"بررسی تمدید / تعویض",reverse_mortgage:"تناسب وام معکوس (۵۵+)",general_mortgage_advisory:"مشاوره عمومی وام"}};
+  // readiness summary (qualitative, non-regulated)
+  const strong=(["0_3_months","3_6_months"].includes(a.timeline)) && (["excellent","good"].includes(a.self_assessed_credit)) && (a.jurisdiction==="Ontario");
+  const early=(a.timeline==="just_researching")||(a.self_assessed_credit==="poor")||(a.self_assessed_credit==="unknown");
+  const RD={en:{strong:"You're in a strong position to explore your options and move forward.",
+     mid:"You have a solid foundation — a quick conversation will sharpen the plan.",
+     early:"You're early in the journey — a strategy call will map out the best path."},
+    fa:{strong:"شما در موقعیت خوبی برای بررسی گزینه‌ها و اقدام هستید.",
+     mid:"پایه محکمی دارید — یک گفتگوی کوتاه برنامه را دقیق‌تر می‌کند.",
+     early:"در ابتدای مسیر هستید — یک جلسه استراتژی بهترین مسیر را ترسیم می‌کند."}};
+  const readiness = strong?RD[L].strong : (early?RD[L].early:RD[L].mid);
+  const NX={en:{purchase:"Confirm your comfortable price range and prepare a down-payment plan.",
+     refinance:"Review your current terms and goals for restructuring.",
+     equity_take_out:"Estimate available equity and how you'd like to use it.",
+     renewal:"Compare staying vs. switching before your renewal date.",
+     reverse_mortgage:"Review suitability and how equity release fits your goals.",
+     general_mortgage_advisory:"Share your situation so Hamed can map the right path."},
+    fa:{purchase:"محدوده قیمت راحت خود را مشخص و برنامه پیش‌پرداخت آماده کنید.",
+     refinance:"شرایط فعلی و اهداف بازساختاردهی را مرور کنید.",
+     equity_take_out:"سرمایه در دسترس و نحوه استفاده را تخمین بزنید.",
+     renewal:"قبل از تاریخ تمدید، ماندن یا تعویض را مقایسه کنید.",
+     reverse_mortgage:"تناسب و نحوه آزادسازی سرمایه را بررسی کنید.",
+     general_mortgage_advisory:"شرایط خود را بگویید تا حامد مسیر درست را ترسیم کند."}};
+  return {journey, journeyLabel:JN[L][journey], readiness, next:NX[L][journey]};
+}
+
+function goalDisplay(a){
+  const L=STATE.lang;
+  const G={en:{purchase:"Buying a home",refinance:"Refinancing",equity_take_out:"Accessing home equity",
+     renewal:"Renewing / switching",reverse_mortgage:"Reverse mortgage (55+)",general_inquiry:"General mortgage advice"},
+    fa:{purchase:"خرید خانه",refinance:"ری‌فایننس",equity_take_out:"دسترسی به سرمایه خانه",
+     renewal:"تمدید / تعویض",reverse_mortgage:"وام معکوس (۵۵+)",general_inquiry:"مشاوره عمومی وام"}};
+  return G[L][a.goal_objective]||G[L].general_inquiry;
+}
+
+function renderResult(){
+  prog.style.width='100%';
+  const a=STATE.answers, c=classifyClient(a);
+  track('result_view',{journey:c.journey});
+  host.innerHTML=`<div class="result">
+    <div class="rhead"><div class="tag">${t('resTag')}</div><h2>${c.journeyLabel}</h2></div>
+    <div class="rbody">
+      <div class="rrow"><div class="ic">🎯</div><div class="t"><b>${t('goalLabel')}</b><p>${goalDisplay(a)}</p></div></div>
+      <div class="rrow"><div class="ic">🧭</div><div class="t"><b>${t('journeyLabel')}</b><p>${c.journeyLabel}</p></div></div>
+      <div class="rrow"><div class="ic">📈</div><div class="t"><b>${t('readyLabel')}</b><p>${c.readiness}</p></div></div>
+      <div class="rrow"><div class="ic">➡️</div><div class="t"><b>${t('nextLabel')}</b><p>${c.next}</p></div></div>
+      <div class="rrow"><div class="ic">🤝</div><div class="t"><b>${t('talkLabel')}</b><p>${STATE.lang==='fa'?'حامد می‌تواند استراتژی شخصی شما را نهایی کند.':'Hamed can finalize your personalized strategy with you.'}</p></div></div>
+    </div>
+    <div class="rnote">${t('resNote')}</div>
+    <div style="padding:18px 26px 6px"><button class="btn btn-primary btn-lg" style="width:100%" data-done>${t('bookNow')}</button></div>
+  </div>`;
+  host.querySelector('[data-done]').onclick=renderDone;
+}
+
+function renderDone(){
+  track('thankyou_view');
+  const method=STATE.answers.preferred_contact_channel_time;
+  const primary = method==='phone'?'phone': method==='email'?'online':'online';
+  host.innerHTML=`<div class="done">
+    <div class="check">✓</div>
+    <h2 style="font-size:24px">${t('doneTitle')}</h2>
+    <p class="hint" style="max-width:34ch;margin:8px auto 4px">${t('doneSub')}</p>
+    <div class="book-opts">
+      <a class="book-opt" href="${CONFIG.BOOKING.phone}" target="_blank" rel="noopener" data-bk="phone"><span class="ic">📞</span><b>${t('bookPhone')}</b></a>
+      <a class="book-opt" href="${CONFIG.BOOKING.inperson}" target="_blank" rel="noopener" data-bk="inperson"><span class="ic">📍</span><b>${t('bookInperson')}</b></a>
+      <a class="book-opt" href="${CONFIG.BOOKING.online}" target="_blank" rel="noopener" data-bk="online"><span class="ic">🎥</span><b>${t('bookOnline')}</b></a>
+    </div>
+  </div>`;
+  host.querySelectorAll('[data-bk]').forEach(a=>a.onclick=()=>track('booking_click',{option:a.dataset.bk}));
+}
+
+function renderError(){
+  track('error_view');
+  host.innerHTML=`<div class="errstate">
+    <div class="x">!</div>
+    <h2 style="font-size:22px">${t('errTitle')}</h2>
+    <p class="hint" style="max-width:32ch;margin:8px auto 20px">${t('errSub')}</p>
+    <button class="btn btn-primary btn-lg" style="width:100%" data-retry>${t('retry')}</button>
+  </div>`;
+  host.querySelector('[data-retry]').onclick=()=>{ STATE.idx=activeQuestions().length; renderIdentity(); };
+}
+
+function nextStep(){ STATE.idx++; renderStep(); }
+function prevStep(){ if(STATE.idx>0){STATE.idx--; renderStep();} }
+
+/* ===== v1.1 DECISION (faithful client port of verticals/…/binding.py; INTERNAL only) =====
+   Computes the authoritative diagnosis + 8-factor score + hard gates + maturity so the CRM Lead
+   carries them at submit time. These internal fields are NEVER shown to the visitor. Parity-tested
+   against the Python runtime (JS output == binding.py output). */
+const V11 = {
+  version:"ontario_mortgage_v1.1",
+  weights:{intent:15,urgency:15,fit:15,readiness:15,engagement:10,data_completeness:10,contactability:10,opportunity_potential:10},
+  maps:{
+    intent:{purchase:1,refinance:1,heloc:1,equity_take_out:1,renewal:1,switch_transfer:1,reverse_mortgage:1,general_inquiry:.4,general_mortgage_advisory:.4,undecided:.3,_default:.6,_missing:0},
+    urgency:{"0_3_months":1,"3_6_months":.75,"6_12_months":.5,"12_months_plus":.3,just_researching:.1,_default:.3,_missing:0},
+    fit:{employed:.9,incorporated:.8,self_employed:.7,investor:.7,complex_income:.6,_default:.6,_missing:.3},
+    credit:{excellent:1,good:.85,fair:.5,poor:.2,unknown:.3,_default:.4,_missing:.3},
+    afford:{high:.9,moderate:.65,low:.35,_default:.5,_missing:.3}
+  },
+  bands:[[70,"High"],[40,"Medium"],[0,"Low"]], m2:40, m3:70
+};
+function _vm(m,v){ if(v==null||v==="") return m._missing!=null?m._missing:0; if(m[v]!=null) return m[v]; return m._default!=null?m._default:.3; }
+function r4(x){ return Math.round(x*1e4)/1e4; }
+function v11decision(a, identity, consent, jurisdiction){
+  const goalMap={purchase:"purchase",refinance:"refinance",equity_take_out:"equity_take_out",heloc:"heloc",renewal:"renewal",switch_transfer:"switch_transfer",reverse_mortgage:"reverse_mortgage"};
+  // evidence-based certainty (matches binding.resolve_diagnosis): this lead-gen funnel does NOT collect
+  // current_mortgage / existing_equity, so those journeys stay below primary_floor -> general advisory.
+  const essentialPresent={ purchase:(a.property_value_or_price!=null&&a.property_value_or_price!==""),
+    reverse_mortgage:(a.age_band!=null&&a.age_band!==""),
+    refinance:false, renewal:false, switch_transfer:false, heloc:false, equity_take_out:false };
+  const contradiction=(a.goal_objective==="reverse_mortgage" && a.age_band==="under_55");
+  let primary, ambiguity;
+  if(a.goal_objective==="general_inquiry" || !goalMap[a.goal_objective]){ primary="general_mortgage_advisory"; ambiguity="no_match"; }
+  else { const cat=goalMap[a.goal_objective], cert=essentialPresent[cat]?0.70:0.50;
+    if(cert>=0.60){ primary=cat; ambiguity="resolved"; } else { primary="general_mortgage_advisory"; ambiguity="no_clear_primary"; } }
+  const f={};
+  f.intent=_vm(V11.maps.intent,a.goal_objective);
+  f.urgency=_vm(V11.maps.urgency,a.timeline);
+  f.fit=_vm(V11.maps.fit,a.income_type);
+  f.readiness=r4((_vm(V11.maps.credit,a.self_assessed_credit)+_vm(V11.maps.afford,a.gross_income_affordability))/2);
+  f.engagement=1.0;
+  const req=["goal_objective","transaction_stage","timeline","property_type","property_value_or_price","income_type","gross_income_affordability","self_assessed_credit","residency_status","preferred_contact_channel_time"];
+  f.data_completeness=r4(req.filter(k=>a[k]!=null&&a[k]!==""&&a[k]!=="unknown"&&a[k]!=="prefer_not").length/req.length);
+  const reachable=!!(identity.email||identity.mobile), svc=!!(consent.service_contact&&consent.service_contact.granted);
+  f.contactability=(reachable&&svc)?1.0:(reachable?0.3:0.0);
+  const pv=Number(a.property_value_or_price); let op=0.5;
+  if(!isNaN(pv)){ op=0.4; for(const [thr,val] of [[1000000,1.0],[500000,0.85],[250000,0.65],[0,0.4]]){ if(pv>=thr){op=val;break;} } }
+  f.opportunity_potential=op;
+  let weighted=0; const bd={}; for(const k in V11.weights){ const c=f[k]*V11.weights[k]; bd[k]={value:r4(f[k]),weight:V11.weights[k],contribution:r4(c)}; weighted+=c; }
+  weighted=r4(weighted);
+  const pen=[]; if(a.self_assessed_credit==="poor")pen.push({id:"p_poor_credit",amount:15}); if(contradiction)pen.push({id:"p_unresolved_contradiction",amount:20});
+  const score=Math.max(0,Math.min(100, r4(weighted-pen.reduce((s,p)=>s+p.amount,0))));
+  const gates=[{id:"g_jurisdiction_ontario",passed:jurisdiction==="Ontario"},{id:"g_reachable_channel",passed:reachable},{id:"g_service_consent",passed:svc}];
+  const disq=gates.some(g=>!g.passed);
+  let band="Low"; for(const [m,l] of V11.bands){ if(score>=m){band=l;break;} }
+  const qual=!!primary && jurisdiction==="Ontario" && !!a.timeline && f.readiness>=0.5 && reachable && svc && score>=V11.m3;
+  let maturity="M1"; if(disq)maturity="M1"; else if(score>=V11.m3 && qual)maturity="M3"; else if(score>=V11.m2 && reachable && svc)maturity="M2";
+  return {vertical_config_version:V11.version, diagnosis:{primary,ambiguity,contradiction},
+    factors:bd, weighted_subtotal:weighted, penalties:pen, final_score:score, score_0_100:score,
+    band, maturity, qualified:(!disq)&&maturity==="M3", hard_gate_failed:disq,
+    hard_gates:gates};
+}
+
+/* ============================ PAYLOAD (flat, Make-friendly) ============================ */
+function mapStage(a){ if(a.timeline==="0_3_months") return "ready_to_transact"; if(a.timeline==="just_researching") return "researching"; return "actively_shopping"; }
+function bandToQuality(b){ return {High:"Hot",Medium:"Warm",Low:"Cold"}[b]||"-None-"; }
+function methodLabel(m){ return {phone:"Phone",email:"Email",text:"Text"}[m]||"Phone"; }
+function bookingFor(m){ return m==="phone"?CONFIG.BOOKING.phone : m==="email"?CONFIG.BOOKING.online : CONFIG.BOOKING.online; }
+function consentStatus(svc,mkt){ return (svc&&mkt)?"Full Consent":(svc?"Email Only":"No Marketing Consent"); }
+
+function buildPayload(id){
+  const a=STATE.answers, nowISO=new Date().toISOString();
+  const parts=(id.name||"").trim().split(/\s+/); const first=parts[0]||"Lead", last=parts.slice(1).join(" ")||"Lead";
+  const dedup="MAI-WEB::"+id.email.toLowerCase()+"::"+CONFIG.VERTICAL_CONFIG_VERSION;
+  const discovery={ goal_objective:a.goal_objective, transaction_stage:mapStage(a), timeline:a.timeline,
+    property_type:a.property_type, property_value_or_price:Number(a.property_value_or_price)||a.property_value_or_price,
+    amount_band:a.amount_band, occupancy_use:a.occupancy_use, income_type:a.income_type,
+    gross_income_affordability:a.gross_income_affordability, self_assessed_credit:a.self_assessed_credit,
+    residency_status:a.jurisdiction==="Ontario"?"ontario_resident":"outside_ontario",
+    age_band:a.age_band||null, preferred_contact_channel_time:a.preferred_contact_channel_time };
+  const identity={ full_name:id.name, email:id.email, mobile:id.mobile };
+  const consent={ service_contact:{granted:!!id.svc}, email:{granted:!!id.svc},
+    phone_call:{granted:a.preferred_contact_channel_time==='phone'}, sms:{granted:a.preferred_contact_channel_time==='text'},
+    messaging:{granted:false}, marketing_CEM:{granted:!!id.mkt} };
+  // AUTHORITATIVE internal v1.1 decision (never displayed)
+  const dec=v11decision(discovery, identity, consent, a.jurisdiction);
+  const ft=STATE.source.first_touch, lt=STATE.source.latest_touch;
+  const bundle={ vertical_config_version:CONFIG.VERTICAL_CONFIG_VERSION, dedup_key:dedup, submitted_at:nowISO,
+    lead_gen_only:true, regulated_content:"BLOCKED_S2_NOT_LIVE_UNTIL_VALIDATED",
+    source:{ first_touch:ft, latest_touch:lt },
+    discovery, diagnosis:dec.diagnosis,
+    internal_score:{ score_0_100:dec.score_0_100, band:dec.band, maturity:dec.maturity, qualified:dec.qualified,
+      factors:Object.fromEntries(Object.entries(dec.factors).map(([k,v])=>[k,v.value])), hard_gate_failed:dec.hard_gate_failed },
+    consent_evidence:consent,
+    audit:{ session:"web::"+dedup, canonical_note:"lead-gen funnel: arrival->engagement->discovery->diagnosis->value->identity.captured->lead.scored (no opportunity)",
+      client_ts:nowISO } };
+  const gmailBody="Hi "+first+",\n\nThanks for reaching out to Hamed Mortgages. We've received your inquiry and Hamed will follow up to review your options.\n\nIf you'd like, you can book a quick consultation here: "+bookingFor(a.preferred_contact_channel_time)+"\n\n— Hamed Mortgages (Mortgage Alliance)\n[Placeholder follow-up; no regulated wording.]";
+  return {
+    // ---- flat fields for direct Zoho mapping in Make ----
+    first_name:first, last_name:last, email:id.email, mobile:id.mobile,
+    company:"MortgageAI Web Funnel", lead_source:"Website Zobot Intake", lead_status:"Not Contacted",
+    lead_quality:bandToQuality(dec.band), preferred_contact_method:methodLabel(a.preferred_contact_channel_time),
+    consent_to_contact:!!id.svc, consent_call_sms:(a.preferred_contact_channel_time==='phone'||a.preferred_contact_channel_time==='text'),
+    consent_status:consentStatus(!!id.svc,!!id.mkt), consent_timestamp:nowISO, consent_source_form_id:dedup,
+    submission_count:1, duplicate_flag:"None",
+    vertical_config_version:CONFIG.VERTICAL_CONFIG_VERSION,
+    description:"[WEB-FUNNEL] Hamed Mortgages landing funnel (lead-gen only). Internal score/band/maturity are NOT shown to the visitor.\nvertical_config_version="+CONFIG.VERTICAL_CONFIG_VERSION+"\ndedup_key="+dedup+"\n=== MORTGAGE_AI_DECISION_BUNDLE (v1.1) ===\n"+JSON.stringify(bundle,null,2),
+    // ---- consent-gated Gmail (Make sends only if consent_to_contact) ----
+    gmail_to:id.email, gmail_subject:"Thanks for your mortgage inquiry — next step",
+    gmail_body:gmailBody, booking_url:bookingFor(a.preferred_contact_channel_time),
+    // ---- nested source echo for tracking ----
+    source:{ first_touch:ft, latest_touch:lt }, submitted_at:nowISO
+  };
+}
+
+/* ============================ LANG + BOOT ============================ */
+let _faFontLoaded=false;
+function ensureFaFont(){
+  if(_faFontLoaded) return; _faFontLoaded=true;
+  const link=document.createElement('link'); link.rel='stylesheet';
+  link.href='https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css';
+  link.crossOrigin='anonymous'; document.head.appendChild(link);
+}
+function applyLang(l){
+  if(l==='fa') ensureFaFont();
+  STATE.lang=l;
+  const html=document.documentElement;
+  html.lang=l; html.dir=(l==='fa')?'rtl':'ltr'; document.body.classList.toggle('fa',l==='fa');
+  document.querySelectorAll('[data-i]').forEach(el=>{ const k=el.getAttribute('data-i'); if(I18N[l][k]!=null) el.innerHTML=I18N[l][k]; });
+  document.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===l));
+  if(stage.classList.contains('open')) renderStep();
+  track('lang_switch',{lang:l});
+}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>applyLang(b.dataset.lang));
+document.querySelectorAll('[data-open-funnel]').forEach(b=>b.onclick=openFunnel);
+document.querySelectorAll('[data-book]').forEach(b=>b.onclick=()=>{ track('book_cta_click'); window.open(CONFIG.BOOKING.workspace,'_blank','noopener'); });
+document.querySelector('[data-close]').onclick=closeFunnel;
+stage.addEventListener('click',e=>{ if(e.target===stage) closeFunnel(); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&stage.classList.contains('open')) closeFunnel(); });
+
+// abandonment
+let engaged=false;
+window.addEventListener('beforeunload',()=>{ if(stage.classList.contains('open') && STATE.idx<activeQuestions().length && !STATE.leadResult) track('funnel_abandon',{step:STATE.idx}); });
+
+// reveal
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// video: try load if a source is provided later; otherwise poster stays
+(function initVideo(){
+  const v=document.getElementById('heroVideo'), p=document.getElementById('poster');
+  const src=v.getAttribute('data-src');
+  if(src){ v.src=src; v.addEventListener('playing',()=>p.style.display='none'); v.play().catch(()=>{}); }
+})();
+
+// boot
+STATE.source=initSource();
+applyLang('en');
+track('page_view',{source_class:STATE.source.first_touch.source_class, utm:STATE.source.first_touch.utm});
+</script>
+</body>
+</html>
