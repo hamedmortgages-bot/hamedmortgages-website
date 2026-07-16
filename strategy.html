@@ -756,6 +756,10 @@ function bandToQuality(b){ return {High:"Hot",Medium:"Warm",Low:"Cold"}[b]||"-No
 function methodLabel(m){ return {phone:"Phone",email:"Email",text:"Text"}[m]||"Phone"; }
 function bookingFor(m){ return m==="phone"?CONFIG.BOOKING.phone : m==="email"?CONFIG.BOOKING.online : CONFIG.BOOKING.online; }
 function consentStatus(svc,mkt){ return (svc&&mkt)?"Full Consent":(svc?"Email Only":"No Marketing Consent"); }
+// EN label lookup for a funnel answer (broker-facing Description is always English)
+function optLabelEN(qid,val){ const q=Q.find(x=>x.id===qid); if(!q||!q.opts) return (val==null||val==="")?"Not specified":String(val);
+  const o=q.opts.find(x=>x.v===String(val)); return o?o.en[0]:((val==null||val==="")?"Not specified":String(val)); }
+const EMP_EN={employed:"Employed",self_employed:"Self-employed",incorporated:"Incorporated",complex_income:"Complex / Other income"};
 
 function buildPayload(id){
   const a=STATE.answers, nowISO=new Date().toISOString();
@@ -784,6 +788,21 @@ function buildPayload(id){
     audit:{ session:"web::"+dedup, canonical_note:"lead-gen funnel: arrival->engagement->discovery->diagnosis->value->identity.captured->lead.scored (no opportunity)",
       client_ts:nowISO } };
   const gmailBody="Hi "+first+",\n\nThanks for reaching out to Hamed Mortgages. We've received your inquiry and Hamed will follow up to review your options.\n\nIf you'd like, you can book a quick consultation here: "+bookingFor(a.preferred_contact_channel_time)+"\n\n— Hamed Mortgages (Mortgage Alliance)\n[Placeholder follow-up; no regulated wording.]";
+  // ---- CLEAN, broker-facing Description (5-second executive summary; humans only) ----
+  const humanDesc=
+    "Website Strategy Funnel\n\n"+
+    "Goal: "+optLabelEN('goal_objective',a.goal_objective)+"\n"+
+    "Timeline: "+optLabelEN('timeline',a.timeline)+"\n"+
+    "Property Value: "+optLabelEN('property_value_or_price',a.property_value_or_price)+"\n"+
+    "Mortgage Need: "+optLabelEN('amount_band',a.amount_band)+"\n"+
+    "Employment: "+(EMP_EN[a.income_type]||optLabelEN('income_type',a.income_type))+"\n"+
+    "Credit: "+optLabelEN('self_assessed_credit',a.self_assessed_credit)+"\n\n"+
+    "Next Step:\nCall client and schedule a consultation.";
+  // ---- FULL technical record (systems only) -> hidden Zoho field MortgageAI_Tech_Record ----
+  const techRecord=
+    "[WEB-FUNNEL] Hamed Mortgages landing funnel (lead-gen only). Internal score/band/maturity are NOT shown to the visitor.\n"+
+    "vertical_config_version="+CONFIG.VERTICAL_CONFIG_VERSION+"\ndedup_key="+dedup+"\n"+
+    "=== MORTGAGE_AI_DECISION_BUNDLE (v1.1) ===\n"+JSON.stringify(bundle,null,2);
   return {
     // ---- flat fields for direct Zoho mapping in Make ----
     first_name:first, last_name:last, email:id.email, mobile:id.mobile,
@@ -793,7 +812,8 @@ function buildPayload(id){
     consent_status:consentStatus(!!id.svc,!!id.mkt), consent_timestamp:nowISO, consent_source_form_id:dedup,
     submission_count:1, duplicate_flag:"None",
     vertical_config_version:CONFIG.VERTICAL_CONFIG_VERSION,
-    description:"[WEB-FUNNEL] Hamed Mortgages landing funnel (lead-gen only). Internal score/band/maturity are NOT shown to the visitor.\nvertical_config_version="+CONFIG.VERTICAL_CONFIG_VERSION+"\ndedup_key="+dedup+"\n=== MORTGAGE_AI_DECISION_BUNDLE (v1.1) ===\n"+JSON.stringify(bundle,null,2),
+    description:humanDesc,
+    technical_record:techRecord,
     // ---- consent-gated Gmail (Make sends only if consent_to_contact) ----
     gmail_to:id.email, gmail_subject:"Thanks for your mortgage inquiry — next step",
     gmail_body:gmailBody, booking_url:bookingFor(a.preferred_contact_channel_time),
