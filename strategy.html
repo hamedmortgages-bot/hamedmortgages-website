@@ -763,7 +763,8 @@ const EMP_EN={employed:"Employed",self_employed:"Self-employed",incorporated:"In
 
 function buildPayload(id){
   const a=STATE.answers, nowISO=new Date().toISOString();
-  const parts=(id.name||"").trim().split(/\s+/); const first=parts[0]||"Lead", last=parts.slice(1).join(" ")||"Lead";
+  const rawName=(id.name||"").trim(); const parts=rawName.split(/\s+/).filter(Boolean);
+  const first=parts[0]||"", last=parts.slice(1).join(" ");
   const dedup="MAI-WEB::"+id.email.toLowerCase()+"::"+CONFIG.VERTICAL_CONFIG_VERSION;
   const discovery={ goal_objective:a.goal_objective, transaction_stage:mapStage(a), timeline:a.timeline,
     property_type:a.property_type, property_value_or_price:Number(a.property_value_or_price)||a.property_value_or_price,
@@ -813,7 +814,7 @@ function buildPayload(id){
     "=== MORTGAGE_AI_DECISION_BUNDLE (v1.1) ===\n"+JSON.stringify(bundle,null,2);
   return {
     // ---- flat fields for direct Zoho mapping in Make ----
-    first_name:first, last_name:last, email:id.email, mobile:id.mobile,
+    first_name:first, last_name:last, full_name:rawName, email:id.email, mobile:id.mobile,
     company:"MortgageAI Web Funnel", lead_source:"Website Zobot Intake", lead_status:"Not Contacted",
     lead_quality:bandToQuality(dec.band), preferred_contact_method:methodLabel(a.preferred_contact_channel_time),
     consent_to_contact:!!id.svc, consent_call_sms:(a.preferred_contact_channel_time==='phone'||a.preferred_contact_channel_time==='text'),
