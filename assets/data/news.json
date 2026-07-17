@@ -1,6 +1,6 @@
 {
-  "version": "16",
-  "updated": "2026-07-16",
+  "version": "17",
+  "updated": "2026-07-17",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,122 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-17-bmo-population-slowdown-housing",
+      "slug": "bmo-population-slowdown-cooling-canada-housing-market",
+      "title_en": "Canada's population fell for the first time on record — and BMO says it is quietly reshaping the housing market",
+      "title_fa": "جمعیت کانادا برای نخستین بار در تاریخ کاهش یافت — و بانک BMO می‌گوید این موضوع بی‌سروصدا بازار مسکن را دگرگون می‌کند",
+      "summary_en": "BMO Economics says Canada's abrupt population slowdown is now the single biggest force reshaping the housing market. After hitting century highs in 2023 and 2024, the population declined in 2025 — the first annual drop on record going back to Confederation — as growth fell from more than 3% to roughly zero, driven mainly by a sharp reduction in non-permanent residents. Net outflows of non-permanent residents topped 460,000 over the past year at the same time that more than 180,000 rental units remain under construction, and rental units being built now outnumber condo and homeownership units combined for the first time. Asking rents across major markets were down 4.7% year-over-year in May and CPI rent inflation slowed to 3.5% from a 2024 peak of 9%, with BMO expecting further weakness as new supply lands. Condo presales in some major cities have fallen to levels normally associated with a recession, which economists Douglas Porter and Robert Kavcic say should eventually feed through to lower residential construction — with British Columbia and southern Ontario facing the toughest backdrop.",
+      "summary_fa": "بخش اقتصادی بانک BMO می‌گوید کاهش ناگهانی رشد جمعیت کانادا اکنون مهم‌ترین نیرویی است که بازار مسکن را بازتعریف می‌کند. پس از رکوردهای یک‌صد‌ساله در سال‌های ۲۰۲۳ و ۲۰۲۴، جمعیت در سال ۲۰۲۵ کاهش یافت — نخستین افت سالانه ثبت‌شده از زمان تشکیل کنفدراسیون — و رشد از بیش از ۳ درصد به تقریباً صفر رسید که عمدتاً ناشی از کاهش شدید ساکنان غیردائم است. خروج خالص ساکنان غیردائم در یک سال گذشته از ۴۶۰٬۰۰۰ نفر فراتر رفت، در حالی که بیش از ۱۸۰٬۰۰۰ واحد اجاره‌ای در دست ساخت است و برای نخستین بار تعداد واحدهای اجاره‌ای در حال ساخت از مجموع واحدهای کاندو و مالکیت شخصی بیشتر شده است. اجاره‌بهای درخواستی در بازارهای بزرگ در ماه مه نسبت به سال قبل ۴.۷ درصد کاهش یافت و تورم اجاره در شاخص قیمت مصرف‌کننده از اوج ۹ درصدی سال ۲۰۲۴ به ۳.۵ درصد رسید. پیش‌فروش کاندو در برخی شهرهای بزرگ به سطوحی رسیده که معمولاً با رکود همراه است و به گفته داگلاس پورتر و رابرت کاوسیچ، اقتصاددانان BMO، این وضعیت در نهایت به کاهش بیشتر ساخت‌وساز مسکونی منجر خواهد شد؛ بریتیش کلمبیا و جنوب انتاریو سخت‌ترین شرایط را پیش رو دارند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is the story behind a lot of the questions I'm getting right now, and most people haven't connected the dots yet. For years the assumption baked into every investor pro forma was that Canada would keep importing demand faster than it could build. That assumption just broke. If you own an investor condo in the GTA and your rent is resetting 4-5% lower while your renewal payment resets higher, that is a cash-flow squeeze arriving from both directions at once — and it deserves a real conversation now, not at maturity.</p><p>For buyers, the same data reads very differently. Softer rents and recession-level presales mean less competition and more negotiating room than we've had in years, particularly in southern Ontario. My advice is unchanged in principle: qualify first, then shop. Get a properly structured pre-approval so you know your true ceiling, and if you're carrying a rental that no longer carries itself, let's model the renewal, the offset treatment and the exit options side by side before the market decides for you. I'm not predicting where rents or prices go next — nobody can — but a file that's been stress-tested against a weaker rental market is a file that survives one.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این همان داستانی است که پشت بسیاری از پرسش‌های این روزهای مشتریان من قرار دارد و هنوز بیشتر افراد ارتباط میان اجزای آن را ندیده‌اند. سال‌ها این فرض در هر محاسبه سرمایه‌گذاری وجود داشت که کانادا سریع‌تر از توان ساخت‌وساز، تقاضا وارد می‌کند. این فرض اکنون فرو ریخته است. اگر صاحب یک کاندوی سرمایه‌گذاری در تورنتوی بزرگ هستید و اجاره شما ۴ تا ۵ درصد پایین‌تر تنظیم می‌شود در حالی که پرداخت تمدید وام شما بالاتر می‌رود، فشار نقدینگی از هر دو سو وارد می‌شود و این موضوع همین حالا نیازمند گفت‌وگوی جدی است، نه در زمان سررسید.</p><p>برای خریداران، همین داده‌ها معنای متفاوتی دارد. اجاره‌های نرم‌تر و پیش‌فروش‌های در سطح رکود یعنی رقابت کمتر و فضای چانه‌زنی بیشتر نسبت به سال‌های اخیر، به‌ویژه در جنوب انتاریو. توصیه من در اصل تغییری نکرده است: نخست واجد شرایط شوید، سپس جست‌وجو کنید. یک پیش‌تأییدیه با ساختار درست بگیرید تا سقف واقعی خود را بدانید؛ و اگر ملک اجاره‌ای دارید که دیگر هزینه خود را پوشش نمی‌دهد، پیش از آنکه بازار تصمیم بگیرد، بیایید تمدید، نحوه محاسبه درآمد اجاره و گزینه‌های خروج را کنار هم بررسی کنیم. من پیش‌بینی نمی‌کنم که اجاره یا قیمت‌ها به کجا می‌رود — هیچ‌کس نمی‌تواند — اما پرونده‌ای که در برابر بازار اجاره ضعیف‌تر آزموده شده باشد، از آن جان سالم به در می‌برد.",
+      "seo_title": "BMO: Canada's Population Drop Is Cooling Rents, Condos and Housing (July 2026)",
+      "seo_description": "BMO Economics says Canada's first recorded annual population decline is easing rents, pushing condo presales to recession levels and slowing construction. What it means for buyers, investors and renewals — with broker analysis from Hamed Ashouri.",
+      "keywords": [
+        "Canada population decline 2025",
+        "BMO housing forecast 2026",
+        "asking rents down 4.7%",
+        "condo presales recession levels",
+        "non-permanent residents outflow",
+        "GTA condo investor cash flow",
+        "rental market Canada 2026",
+        "Douglas Porter Robert Kavcic",
+        "southern Ontario housing market"
+      ],
+      "tags": [
+        "housing-market",
+        "rental-market",
+        "condos",
+        "immigration",
+        "investors",
+        "bmo"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_488a97c1-138b-45c6-b1a8-616d79b47225.jpg",
+      "image_alt_en": "A modern glass condominium tower in a Canadian city at golden hour with several unlit, empty apartment windows and a quiet sidewalk below.",
+      "image_alt_fa": "برج کاندوی شیشه‌ای مدرن در یک شهر کانادا هنگام غروب طلایی، با چند پنجره خاموش و خالی و پیاده‌رویی خلوت در پایین.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/population-slowdown-is-cooling-canadas-housing-market-bmo/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-16",
+      "imported_date": "2026-07-17",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "housing-market",
+        "investors",
+        "renewal"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-preapproval",
+        "gen-stress",
+        "renewal-checklist"
+      ]
+    },
+    {
+      "id": "news-2026-07-17-cmhc-june-housing-starts",
+      "slug": "cmhc-june-2026-housing-starts-down-six-per-cent",
+      "title_en": "Housing starts fell 6% in June — and the pipeline of approved-but-unstarted homes is thinning too",
+      "title_fa": "شروع ساخت مسکن در ژوئن ۶ درصد کاهش یافت — و صف پروژه‌های مجوزگرفته اما آغازنشده نیز نازک‌تر می‌شود",
+      "summary_en": "Canada Mortgage and Housing Corp. reported that the annual pace of housing starts fell 6% in June from May, with the seasonally adjusted annual rate landing at 238,971 units versus 253,083 the month before. The six-month moving average, which smooths out the monthly noise, came in at 248,123 units — down 2.8% from May, signalling that the softness is a trend rather than a one-month blip. Units under construction in centres of 50,000 or more edged up 0.2% to 375,469, while completions rose 8.4% to 18,298 as builders finished projects already in motion. The forward-looking number is arguably the most telling: homes with approved building permits but not yet started fell 1.1% to 137,324, meaning the queue of future construction is thinning rather than filling. Rural starts were estimated at a seasonally adjusted annual rate of 11,141 units.",
+      "summary_fa": "شرکت وام و مسکن کانادا (CMHC) اعلام کرد که آهنگ سالانه شروع ساخت مسکن در ژوئن نسبت به ماه مه ۶ درصد کاهش یافته و نرخ سالانه تعدیل‌شده فصلی به ۲۳۸٬۹۷۱ واحد رسیده است، در برابر ۲۵۳٬۰۸۳ واحد در ماه پیش. میانگین متحرک شش‌ماهه که نوسان‌های ماهانه را هموار می‌کند، ۲۴۸٬۱۲۳ واحد بود؛ یعنی ۲.۸ درصد کمتر از ماه مه، که نشان می‌دهد این ضعف یک روند است نه یک اتفاق یک‌ماهه. واحدهای در دست ساخت در مراکز با جمعیت ۵۰٬۰۰۰ نفر و بیشتر با ۰.۲ درصد افزایش به ۳۷۵٬۴۶۹ واحد رسید و تکمیل‌ها با ۸.۴ درصد رشد به ۱۸٬۲۹۸ واحد رسید، چرا که سازندگان پروژه‌های در جریان را به پایان می‌رسانند. اما گویاترین عدد، نگاه به آینده دارد: واحدهای دارای مجوز ساخت اما آغازنشده با ۱.۱ درصد کاهش به ۱۳۷٬۳۲۴ واحد رسید؛ یعنی صف ساخت‌وسازهای آینده به‌جای پر شدن، در حال نازک شدن است. شروع ساخت در مناطق روستایی با نرخ سالانه تعدیل‌شده فصلی ۱۱٬۱۴۱ واحد برآورد شد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> One monthly print never moves a mortgage decision, so I look at the six-month average — and at 248,123 it's pointing the same direction. What actually caught my eye is the permits-approved-but-not-started number falling. Completions are up because builders are finishing what they already started; that's the pipeline emptying, not refilling. Read alongside this week's BMO work on weaker rental demand, it's a coherent picture: fewer people, softer rents, and builders declining to break ground into that.</p><p>Practically, this matters most if you're buying new construction or pre-construction. Longer or shifting closing timelines are a live risk, and a rate hold that expires before your builder is ready is a very expensive surprise — so ask hard questions about the closing date and make sure your hold, and your income documentation, are built to survive a delay. If you're on the resale side, a thinner future supply pipeline is a medium-term consideration, not a reason to rush a purchase you haven't qualified for. Let's confirm what you actually qualify for first, then let the market news inform the timing — never the other way around.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> یک گزارش ماهانه هرگز تصمیم وام مسکن را تغییر نمی‌دهد؛ به همین دلیل من به میانگین شش‌ماهه نگاه می‌کنم — و رقم ۲۴۸٬۱۲۳ همان جهت را نشان می‌دهد. چیزی که واقعاً توجه من را جلب کرد، کاهش تعداد واحدهای دارای مجوز اما آغازنشده است. تکمیل‌ها بالا رفته چون سازندگان کارهای آغازشده را تمام می‌کنند؛ این یعنی خالی شدن صف پروژه‌ها، نه پر شدن آن. اگر این را در کنار گزارش این هفته BMO درباره ضعف تقاضای اجاره بگذاریم، تصویر منسجمی شکل می‌گیرد: جمعیت کمتر، اجاره نرم‌تر، و سازندگانی که تمایلی به کلنگ‌زنی در چنین فضایی ندارند.</p><p>از نظر عملی، این موضوع بیش از همه برای خریداران خانه‌های نوساز و پیش‌فروش اهمیت دارد. طولانی شدن یا جابه‌جایی زمان تحویل یک ریسک واقعی است و اگر قفل نرخ شما پیش از آماده شدن سازنده منقضی شود، غافلگیری پرهزینه‌ای خواهد بود؛ پس درباره تاریخ تحویل پرسش‌های جدی بپرسید و مطمئن شوید قفل نرخ و مدارک درآمدی شما تاب تأخیر را دارد. اگر در بازار خانه‌های موجود هستید، نازک‌تر شدن عرضه آینده یک ملاحظه میان‌مدت است، نه دلیلی برای شتاب در خریدی که هنوز واجد شرایط آن نشده‌اید. نخست بیایید سقف واقعی شما را مشخص کنیم، سپس بگذاریم اخبار بازار زمان‌بندی را روشن کند — هرگز برعکس.</p>",
+      "seo_title": "CMHC: Canadian Housing Starts Down 6% in June 2026 — What It Means for Buyers",
+      "seo_description": "CMHC says June housing starts fell 6% to a 238,971-unit annual pace, with approved-but-unstarted permits also down. What a thinning construction pipeline means for new-build buyers, rate holds and timing — broker analysis by Hamed Ashouri.",
+      "keywords": [
+        "CMHC housing starts June 2026",
+        "housing starts down 6 per cent",
+        "238,971 units annual pace",
+        "Canada housing supply 2026",
+        "new construction mortgage Ontario",
+        "pre-construction closing delay",
+        "rate hold expiry new build",
+        "building permits not started"
+      ],
+      "tags": [
+        "housing-market",
+        "cmhc",
+        "housing-supply",
+        "new-construction",
+        "economic-data"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_f11c091d-b6f2-44cc-81ce-1d3f37fca470.jpg",
+      "image_alt_en": "A partially framed Canadian mid-rise apartment building at soft morning light with a stationary tower crane, scaffolding and stacked lumber, no workers present.",
+      "image_alt_fa": "ساختمان آپارتمانی میان‌مرتبه در کانادا که تنها بخشی از اسکلت آن ساخته شده، در نور ملایم صبح با جرثقیل ثابت، داربست و الوارهای انباشته و بدون حضور کارگر.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/cmhc-reports-annual-rate-of-housing-starts-in-june-down-six-per-cent-from-may/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-16",
+      "imported_date": "2026-07-17",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "housing-market",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-preapproval",
+        "gen-stress"
+      ]
+    },
     {
       "id": "news-2026-07-15-boc-holds-2-25-july-mpr",
       "slug": "bank-of-canada-holds-policy-rate-2-25-july-2026-mpr",
@@ -71,7 +187,7 @@
       "imported_date": "2026-07-16",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -129,7 +245,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "first-time-buyer",
         "affordability",
@@ -186,7 +302,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "first-time-buyer",
         "affordability"
@@ -702,106 +818,6 @@
       ],
       "related_knowledge_blocks": [
         "ftb-roadmap",
-        "refi-faq-howmuch"
-      ]
-    },
-    {
-      "id": "news-2026-07-02-rbc-affordability",
-      "slug": "housing-affordability-best-in-four-years-rbc",
-      "title_en": "Housing affordability hits a four-year best, but RBC says the relief may be fading",
-      "title_fa": "دسترسی‌پذیری مسکن به بهترین سطح چهار سال اخیر رسید، اما RBC می‌گوید این بهبود ممکن است رو به پایان باشد",
-      "summary_en": "RBC Economics reports that housing affordability improved again in the first quarter of 2026, with its national measure falling 1.4 percentage points to 53% — the best reading in four years. The gains were led by Vancouver and Toronto, where softer prices have eased pressure on buyers, though both remain by far the least affordable markets in the country, with Vancouver at 84.1% and Toronto at 65.2% of median pre-tax household income. Condos have seen the sharpest relief: the national condo measure now sits at 35.2%, close to pre-pandemic levels, and in Toronto condo values have retraced nearly to late-2019 territory. Not every market improved — Montreal deteriorated to 52.6%, its worst level since 1990, and its condo affordability index moved above Toronto's for the first time in 16 years. RBC cautions that with price declines tapering and interest rates likely past their cyclical lows, further affordability gains will depend more on income growth than on cheaper mortgages.",
-      "summary_fa": "RBC Economics گزارش می‌دهد که دسترسی‌پذیری مسکن در سه‌ماهه نخست ۲۰۲۶ بار دیگر بهبود یافت و شاخص ملی آن با کاهش ۱٫۴ واحد درصدی به ۵۳٪ رسید — بهترین رقم در چهار سال اخیر. این بهبود را ونکوور و تورنتو رهبری کردند، جایی که قیمت‌های نرم‌تر فشار بر خریداران را کاسته است؛ هرچند هر دو همچنان با فاصله زیاد گران‌ترین بازارهای کشورند: ونکوور با ۸۴٫۱٪ و تورنتو با ۶۵٫۲٪ از درآمد ناخالص خانوار میانه. بیشترین بهبود در بخش کاندو رخ داده است: شاخص ملی کاندو اکنون ۳۵٫۲٪ است، نزدیک به سطوح پیش از همه‌گیری، و در تورنتو ارزش کاندوها تقریباً به محدوده اواخر ۲۰۱۹ بازگشته است. اما همه بازارها بهتر نشدند — مونترال به ۵۲٫۶٪ بدتر شد، بدترین سطح از سال ۱۹۹۰، و شاخص دسترسی‌پذیری کاندوی آن برای نخستین‌بار در ۱۶ سال از تورنتو بالاتر رفت. RBC هشدار می‌دهد که با کند شدن کاهش قیمت‌ها و عبور احتمالی نرخ‌های بهره از کف چرخه‌ای، بهبودهای بعدی بیش از وام ارزان‌تر به رشد درآمد وابسته خواهد بود.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This report is really a message about windows. For four years buyers have been waiting for conditions to improve — and by RBC's own measure, they now have, especially in the GTA condo segment where values are nearly back to 2019 levels. But the same report says the tailwind is weakening: prices are stabilizing and rates have likely seen their cyclical lows, so the market is unlikely to keep doing the work for you. Waiting for a dramatically better entry point may mean waiting for something that doesn't arrive.</p><p>What I'd do with this: if buying is on your radar for the next year, get your file fully ready now — verified income, documented down payment, and a real pre-approval with a rate hold — so you can act on today's affordability rather than guess about tomorrow's. If you already own in a market like Toronto where condo values have softened, check what that means for your equity before a renewal or refinance decision. Every market in this report moved differently, which is exactly why the right move is personal, not national.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این گزارش در واقع پیامی درباره پنجره‌های فرصت است. چهار سال است خریداران منتظر بهبود شرایط بوده‌اند — و بر اساس شاخص خود RBC، اکنون این بهبود رخ داده است، به‌ویژه در بخش کاندوی منطقه بزرگ تورنتو که ارزش‌ها تقریباً به سطوح ۲۰۱۹ بازگشته‌اند. اما همین گزارش می‌گوید این باد موافق در حال ضعیف‌شدن است: قیمت‌ها در حال تثبیت‌اند و نرخ‌ها احتمالاً کف چرخه‌ای خود را دیده‌اند، پس بعید است بازار همچنان کار را برای شما انجام دهد. انتظار برای نقطه ورود بسیار بهتر ممکن است انتظار برای چیزی باشد که هرگز نمی‌رسد.</p><p>پیشنهاد من: اگر خرید در یک سال آینده در برنامه شماست، همین حالا پرونده خود را کاملاً آماده کنید — درآمد تأییدشده، پیش‌پرداخت مستند، و پیش‌تأیید واقعی با نگهداشت نرخ — تا بتوانید بر اساس دسترسی‌پذیری امروز اقدام کنید، نه حدس درباره فردا. اگر هم‌اکنون در بازاری مانند تورنتو مالک هستید که ارزش کاندوها در آن نرم شده، پیش از تصمیم تمدید یا ریفاینانس ببینید این موضوع برای ارزش ویژه شما چه معنایی دارد. هر بازار در این گزارش حرکت متفاوتی داشت — و دقیقاً به همین دلیل، اقدام درست شخصی است، نه سراسری.</p>",
-      "seo_title": "Housing Affordability at Four-Year Best, Relief Fading (RBC) — Broker View | Hamed Ashouri",
-      "seo_description": "RBC's Q1 2026 affordability measure fell to 53%, its best in four years, led by Vancouver and Toronto condos. Ontario mortgage broker Hamed Ashouri on what a closing affordability window means for buyers and owners.",
-      "keywords": [
-        "housing affordability",
-        "RBC",
-        "Toronto condos",
-        "Vancouver",
-        "home prices"
-      ],
-      "tags": [
-        "housing-market",
-        "affordability",
-        "condos"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_754c37df-a255-4409-a6be-178416a9d713.jpg",
-      "image_alt_en": "Canadian city homes representing improving housing affordability",
-      "image_alt_fa": "خانه‌های شهری کانادا، نماد بهبود دسترسی‌پذیری مسکن",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/housing-affordability-improves-but-rbc-says-relief-may-be-running-its-course/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-02",
-      "imported_date": "2026-07-02",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "affordability"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-06-29-greener-homes",
-      "slug": "ottawa-relaunches-greener-homes-affordability-program",
-      "title_en": "Ottawa relaunches greener homes program with no-cost retrofits in four provinces",
-      "title_fa": "اتاوا برنامه خانه‌های سبزتر را با بهسازی‌های بدون هزینه در چهار استان از سر می‌گیرد",
-      "summary_en": "The federal government is relaunching its green home retrofit program under a new name — the Canada Greener Homes Affordability Program — with an initial rollout in British Columbia, Quebec, Nova Scotia and Prince Edward Island, according to CBC reporting covered by Canadian Mortgage Trends. More than $500 million in combined funding, including roughly $300 million federal, is expected to support no-cost retrofits such as heat pumps, insulation and air sealing for over 35,000 households. Unlike the original Greener Homes Grant, which reimbursed homeowners after they paid up front, the rebooted program targets lower- and median-income households, extends eligibility to renters, and will be delivered through the provinces alongside utilities such as Hydro-Québec, B.C. Hydro, FortisBC and EfficiencyOne. The program has already launched in Manitoba, and Ottawa says discussions with other jurisdictions are underway. The previous $2.6-billion program closed in early 2024 after funds ran out well ahead of schedule.",
-      "summary_fa": "بر اساس گزارش CBC که Canadian Mortgage Trends آن را پوشش داده، دولت فدرال برنامه بهسازی سبز خانه‌ها را با نام جدید — «برنامه دسترسی‌پذیری خانه‌های سبزتر کانادا» — از سر می‌گیرد و اجرای اولیه آن در بریتیش کلمبیا، کبک، نوا اسکوشیا و جزیره پرنس ادوارد خواهد بود. انتظار می‌رود بیش از ۵۰۰ میلیون دلار بودجه ترکیبی، شامل حدود ۳۰۰ میلیون دلار فدرال، از بهسازی‌های بدون هزینه مانند پمپ حرارتی، عایق‌کاری و درزبندی هوا برای بیش از ۳۵ هزار خانوار پشتیبانی کند. برخلاف برنامه اولیه که هزینه را پس از پرداخت اولیه مالکان بازپرداخت می‌کرد، برنامه جدید خانوارهای با درآمد پایین و میانه را هدف گرفته، شامل مستأجران نیز می‌شود و از طریق استان‌ها همراه با شرکت‌هایی مانند Hydro-Québec، B.C. Hydro، FortisBC و EfficiencyOne اجرا خواهد شد. این برنامه پیش‌تر در مانیتوبا آغاز شده و اتاوا می‌گوید گفتگو با سایر استان‌ها در جریان است. برنامه قبلی ۲٫۶ میلیارد دلاری در اوایل ۲۰۲۴ پس از اتمام زودهنگام بودجه بسته شد.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> We talk about affordability as if it's only the mortgage payment, but the real number that matters is the total monthly cost of running a home — and energy is a big piece of it. A no-cost heat pump, insulation and air-sealing package can permanently lower a household's utility bills, which strengthens the same budget that has to carry the mortgage. Ontario isn't in this first wave, but with Manitoba already live and Ottawa confirming talks with other provinces, this is one to watch if you own — or rent — here.</p><p>Two practical notes. First, if you qualify when the program reaches your province, a no-cost retrofit is one of the few genuine free lunches in housing — get in early, because the last version of this program ran out of money well before its deadline. Second, if you're planning energy upgrades now and can't wait, there are financing routes worth comparing — a refinance, a HELOC, or purchase-plus-improvements on a new home — and the right one depends on your equity and timeline. Happy to run those numbers with you.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> ما درباره دسترسی‌پذیری طوری صحبت می‌کنیم که انگار فقط قسط وام است، اما عدد واقعی که اهمیت دارد کل هزینه ماهانه اداره خانه است — و انرژی بخش بزرگی از آن است. یک بسته بدون هزینه شامل پمپ حرارتی، عایق‌کاری و درزبندی می‌تواند قبض‌های خانوار را برای همیشه کاهش دهد و همان بودجه‌ای را تقویت کند که باید وام مسکن را هم تحمل کند. انتاریو در این موج نخست نیست، اما با فعال‌بودن مانیتوبا و تأیید اتاوا درباره گفتگو با استان‌های دیگر، اگر اینجا مالک — یا مستأجر — هستید، این برنامه را زیر نظر داشته باشید.</p><p>دو نکته کاربردی. نخست، اگر هنگام رسیدن برنامه به استان شما واجد شرایط باشید، بهسازی بدون هزینه یکی از معدود فرصت‌های واقعاً رایگان در حوزه مسکن است — زود اقدام کنید، چون نسخه قبلی این برنامه خیلی زودتر از موعد بودجه‌اش تمام شد. دوم، اگر همین حالا قصد بهسازی انرژی دارید و نمی‌توانید صبر کنید، مسیرهای تأمین مالی قابل‌مقایسه‌ای وجود دارد — ریفاینانس، HELOC، یا وام «خرید به‌علاوه بهسازی» برای خانه جدید — و انتخاب درست به ارزش ویژه و زمان‌بندی شما بستگی دارد. خوشحال می‌شوم این اعداد را با هم بررسی کنیم.</p>",
-      "seo_title": "Canada Greener Homes Affordability Program Relaunch — Broker View | Hamed Ashouri",
-      "seo_description": "Ottawa relaunches its greener homes program with no-cost heat pumps, insulation and air sealing in four provinces. Ontario mortgage broker Hamed Ashouri on what it means for household budgets and retrofit financing.",
-      "keywords": [
-        "greener homes",
-        "retrofit",
-        "heat pump",
-        "energy efficiency",
-        "federal program"
-      ],
-      "tags": [
-        "regulation",
-        "government-programs",
-        "affordability"
-      ],
-      "category": "regulation",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_01156806-e590-43fa-8507-31c429bf8156.jpg",
-      "image_alt_en": "Heat pump installation on a Canadian home",
-      "image_alt_fa": "نصب پمپ حرارتی در یک خانه کانادایی",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/06/ottawa-set-to-relaunch-greener-homes-retrofit-program-in-four-provinces/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-06-29",
-      "imported_date": "2026-07-02",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "refinance",
-        "government-programs"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
         "refi-faq-howmuch"
       ]
     }
