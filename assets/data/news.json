@@ -1,6 +1,6 @@
 {
-  "version": "17",
-  "updated": "2026-07-17",
+  "version": "18",
+  "updated": "2026-07-18",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,64 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-16-reverse-mortgage-rates-falling",
+      "slug": "reverse-mortgage-rates-falling-2026",
+      "title_en": "Reverse mortgage rates are falling — and for once, all four lenders moved within weeks of each other",
+      "title_fa": "نرخ وام معکوس در حال کاهش است — و این‌بار، هر چهار وام‌دهنده در عرض چند هفته نرخ‌ها را پایین آوردند",
+      "summary_en": "Canada's four reverse mortgage lenders have each trimmed their rates within weeks of one another, in a round of cuts that — unusually — was not set off by the Bank of Canada or a sharp move in bond yields. Equitable Bank dropped the five-year fixed rate on its Flex Lite product to 6.23% from 6.44% in late June, and Bloom Financial, HomeEquity Bank and Home Trust quickly followed, with HomeEquity moving to 6.39% and both Home Trust and Equitable landing near 6.23%. Providers point to cheaper institutional funding and a more stable rate environment, but brokers told Canadian Mortgage Trends that competitive positioning is doing much of the work: with only four players in the market, one lender's cut pressures the others to match. Demand keeps climbing as the population ages — Statistics Canada pegged Canadians 65 and older at 19.5% of the population as of mid-2025 — and outstanding reverse mortgage balances have reached roughly $11 billion. Brokers expect a slow, competition-driven drift lower from here rather than dramatic drops, barring a shock to lenders' funding costs.",
+      "summary_fa": "هر چهار وام‌دهندهٔ وام معکوس در کانادا در فاصلهٔ چند هفته از یکدیگر نرخ‌های خود را کاهش داده‌اند؛ دور کاهشی که برخلاف معمول، نه با تصمیم بانک مرکزی کانادا و نه با جهش شدید بازده اوراق قرضه آغاز شد. اکوئیتبل بانک نرخ ثابت پنج‌ساله محصول Flex Lite خود را در اواخر ژوئن از ۶٫۴۴٪ به ۶٫۲۳٪ رساند و بلوم فایننشال، HomeEquity Bank و هوم تراست به‌سرعت از آن پیروی کردند؛ HomeEquity به ۶٫۳۹٪ و هوم تراست و اکوئیتبل به حدود ۶٫۲۳٪ رسیدند. وام‌دهندگان دلیل را هزینهٔ ارزان‌تر تأمین مالی نهادی و ثبات بیشتر نرخ‌ها می‌دانند، اما کارگزاران به Canadian Mortgage Trends گفتند که رقابت نقش اصلی را دارد: با تنها چهار بازیگر در بازار، کاهش نرخ یک وام‌دهنده بقیه را به تطبیق وادار می‌کند. تقاضا با سالمندتر شدن جمعیت رو به افزایش است — طبق آمار کانادا، در اواسط ۲۰۲۵ حدود ۱۹٫۵٪ جمعیت ۶۵ سال یا بیشتر بودند — و مانده‌های وام معکوس به حدود ۱۱ میلیارد دلار رسیده است. کارگزاران انتظار دارند نرخ‌ها به‌آرامی و تحت فشار رقابت پایین بیایند، نه با افت‌های ناگهانی، مگر آنکه شوکی به هزینهٔ تأمین مالی وام‌دهندگان وارد شود.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is one of the more useful stories of the summer for my clients who are 55-plus, because reverse mortgage pricing usually moves on its own schedule rather than with the Bank of Canada. Four lenders instead of one means that, for the first time, we can genuinely shop this product — I'm now getting rate specials I never used to see. A quarter of a point matters a great deal on a loan where interest compounds and no monthly payments are made, so the difference between roughly 6.2% and 6.6% adds up meaningfully over ten or fifteen years.</p><p>That said, a reverse mortgage is a tool, not a default answer. It can be the right fit for a house-rich, cash-poor retiree who wants to stay in their home, and the wrong one for someone who could refinance, add a HELOC, or downsize instead. I don't guarantee any rate or approval — what I do is run the options side by side, model how the balance grows over time, and make sure the estate implications are clear before anyone signs. If you're 55-plus and equity-rich, this is a good moment to have that conversation.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این یکی از مفیدترین خبرهای تابستان برای مشتریان بالای ۵۵ سال من است، چون قیمت‌گذاری وام معکوس معمولاً طبق برنامهٔ خودش حرکت می‌کند، نه هم‌گام با بانک مرکزی کانادا. وجود چهار وام‌دهنده به‌جای یک وام‌دهنده یعنی برای نخستین‌بار می‌توانیم واقعاً این محصول را مقایسه کنیم — حالا پیشنهادهای ویژهٔ نرخ می‌گیرم که پیش‌تر وجود نداشت. یک‌چهارم درصد در وامی که بهره در آن مرکب می‌شود و پرداخت ماهانه‌ای ندارد اهمیت زیادی دارد؛ بنابراین تفاوت میان حدود ۶٫۲٪ و ۶٫۶٪ در طول ده تا پانزده سال به‌طور معناداری انباشته می‌شود.</p><p>با این حال، وام معکوس یک ابزار است، نه پاسخ پیش‌فرض. می‌تواند برای بازنشسته‌ای که دارایی ملکی دارد اما نقدینگی‌اش کم است و می‌خواهد در خانه‌اش بماند گزینهٔ درستی باشد، و برای کسی که می‌تواند به‌جای آن ری‌فایننس کند، هلاک بگیرد یا خانهٔ کوچک‌تری بخرد گزینهٔ نادرستی. من هیچ نرخ یا تأییدی را تضمین نمی‌کنم — کاری که می‌کنم این است که گزینه‌ها را کنار هم بررسی می‌کنم، رشد مانده را در طول زمان مدل‌سازی می‌کنم و مطمئن می‌شوم پیامدهای مربوط به دارایی و ارث پیش از امضا روشن است. اگر بالای ۵۵ سال هستید و ارزش ملکی خوبی دارید، الان زمان مناسبی برای این گفتگوست.</p>",
+      "seo_title": "Canada Reverse Mortgage Rates Fall in 2026 — What 55+ Homeowners Should Know",
+      "seo_description": "All four Canadian reverse mortgage lenders cut rates within weeks in mid-2026, driven by competition and cheaper funding. A broker's take for equity-rich homeowners 55+.",
+      "keywords": [
+        "reverse mortgage",
+        "reverse mortgage rates",
+        "HomeEquity Bank",
+        "Equitable Bank",
+        "Bloom Financial",
+        "Home Trust",
+        "CHIP reverse mortgage",
+        "home equity",
+        "55 plus",
+        "retirement income"
+      ],
+      "tags": [
+        "Reverse Mortgage",
+        "Rates",
+        "Lenders",
+        "Retirement",
+        "Home Equity"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_82873a58-0d54-4c78-ba51-d4131a47f8bb.jpg",
+      "image_alt_en": "A relaxed senior Canadian couple reviewing their home finances together at a sunlit kitchen table.",
+      "image_alt_fa": "زوجی سالمند و آسوده در کانادا که دور میز آشپزخانه‌ای پرنور مشغول بررسی امور مالی خانه‌شان هستند.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/why-canadas-reverse-mortgage-rates-are-falling/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-16",
+      "imported_date": "2026-07-18",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "reverse-mortgage",
+        "home-equity",
+        "retirement"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-reverse-mortgage-basics"
+      ]
+    },
     {
       "id": "news-2026-07-17-bmo-population-slowdown-housing",
       "slug": "bmo-population-slowdown-cooling-canada-housing-market",
@@ -73,7 +131,7 @@
       "imported_date": "2026-07-17",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "housing-market",
@@ -188,7 +246,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "rates",
         "renewal",
@@ -768,57 +826,6 @@
       "related_knowledge_blocks": [
         "gen-stress",
         "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-02-calgary-condos",
-      "slug": "calgary-condo-prices-fall-9-supply-builds",
-      "title_en": "Calgary condo prices fall about 9% as high-density supply builds",
-      "title_fa": "قیمت کاندوهای کلگری با افزایش عرضه پرتراکم حدود ۹٪ کاهش یافت",
-      "summary_en": "The Calgary Real Estate Board says apartment-condo prices fell nearly 9% year-over-year in June to a benchmark of $299,000, with declines in every district and drops of more than 14% in the North East and East — the softest corner of an otherwise balanced market. Years of elevated construction have pushed high-density supply up faster than demand, leaving apartments near five months of inventory even as the city overall sits just above three months, a level CREB calls balanced. Total sales reached 2,197, down 3.8% from a year earlier, and the citywide residential benchmark was $572,500, about 2.1% below last June. Detached homes told a different story, with the benchmark at $750,500 — only about 1% lower year-over-year — and some districts reporting record highs on limited supply. CREB's chief economist tied the divergence to weaker migration and a wave of new high-density units still working through the market.",
-      "summary_fa": "هیئت املاک کلگری می‌گوید قیمت کاندوهای آپارتمانی در ژوئن نزدیک به ۹٪ نسبت به سال گذشته کاهش یافت و شاخص آن به ۲۹۹٬۰۰۰ دلار رسید؛ کاهش در همه مناطق و افت بیش از ۱۴٪ در شمال‌شرق و شرق — نرم‌ترین بخش یک بازار در مجموع متعادل. سال‌ها ساخت‌وساز بالا، عرضه پرتراکم را سریع‌تر از تقاضا افزایش داده و موجودی آپارتمان‌ها را به نزدیک پنج ماه رسانده است، در حالی که کل شهر کمی بالای سه ماه قرار دارد، سطحی که CREB آن را متعادل می‌نامد. کل فروش به ۲٬۱۹۷ رسید، ۳٫۸٪ کمتر از سال گذشته، و شاخص مسکونی کل شهر ۵۷۲٬۵۰۰ دلار بود، حدود ۲٫۱٪ کمتر از ژوئن پارسال. خانه‌های مستقل داستان دیگری داشتند؛ شاخص آن‌ها ۷۵۰٬۵۰۰ دلار بود — تنها حدود ۱٪ کمتر از سال گذشته — و برخی مناطق با عرضه محدود رکورد بالاترین قیمت را گزارش کردند. اقتصاددان ارشد CREB این واگرایی را به مهاجرت ضعیف‌تر و موجی از واحدهای پرتراکم جدید که هنوز در بازار جذب می‌شوند نسبت داد.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Calgary is a textbook example of why 'the market' is never one number. Detached homes are near record territory in some districts while apartment condos have dropped nearly 9% — so whether this is good news or a warning depends entirely on what you own or want to buy. For a buyer, the condo segment is where the leverage is right now: roughly five months of supply means real choice and room to negotiate. For an owner or investor holding a condo, softer values matter most at renewal or refinance, when the appraisal sets how much equity you can actually use.</p><p>Two practical points. If you're buying a Calgary apartment, get pre-approved and treat the appraisal as a live variable — lenders finance the lesser of price and appraised value, and a falling segment can surprise you at closing. If you already own one and your renewal is coming, check where your value and equity stand well before maturity, because that's what determines your refinancing options. As always, the right move is set by your own numbers and timeline, not the citywide headline.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> کلگری نمونه‌ای کلاسیک از این است که چرا «بازار» هرگز یک عدد واحد نیست. خانه‌های مستقل در برخی مناطق نزدیک به رکورد قیمت‌اند در حالی که کاندوهای آپارتمانی نزدیک ۹٪ افت کرده‌اند — پس اینکه این خبر خوب است یا هشدار، کاملاً به آنچه دارید یا می‌خواهید بخرید بستگی دارد. برای خریدار، بخش کاندو جایی است که اکنون قدرت چانه‌زنی در آن است: حدود پنج ماه موجودی یعنی انتخاب واقعی و فضای مذاکره. برای مالک یا سرمایه‌گذاری که کاندو نگه داشته، ارزش‌های نرم‌تر بیش از همه هنگام تمدید یا ریفاینانس اهمیت دارند، جایی که ارزیابی تعیین می‌کند چه میزان از ارزش ویژه را واقعاً می‌توانید به‌کار بگیرید.</p><p>دو نکته کاربردی. اگر در حال خرید آپارتمان در کلگری هستید، پیش‌تأیید بگیرید و ارزیابی را یک متغیر زنده بدانید — وام‌دهندگان کمترینِ قیمت و ارزش ارزیابی‌شده را تأمین مالی می‌کنند و یک بخش رو به کاهش می‌تواند هنگام بستن معامله غافلگیرتان کند. اگر همین حالا مالک آن هستید و تمدیدتان نزدیک است، پیش از سررسید ببینید ارزش و ارزش ویژه شما کجاست، چون همین گزینه‌های ریفاینانس شما را تعیین می‌کند. مثل همیشه، اقدام درست را اعداد و زمان‌بندی خودتان تعیین می‌کند، نه تیتر کل شهر.</p>",
-      "seo_title": "Calgary Condo Prices Fall ~9% as Supply Builds — Broker View | Hamed Ashouri",
-      "seo_description": "Calgary apartment-condo prices fell nearly 9% year-over-year to $299,000 as high-density supply builds, while detached stays near records (CREB). Broker Hamed Ashouri on buying, renewing and appraisals.",
-      "keywords": [
-        "Calgary",
-        "condo prices",
-        "CREB",
-        "apartment",
-        "housing supply"
-      ],
-      "tags": [
-        "housing-market",
-        "calgary",
-        "condos"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_76598150-956d-49a9-bbc5-83ca62c54843.jpg",
-      "image_alt_en": "Calgary condo towers against the downtown skyline",
-      "image_alt_fa": "برج‌های کاندوی کلگری در برابر خط آسمان مرکز شهر",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/calgary-condo-prices-fall-9-as-supply-builds/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-02",
-      "imported_date": "2026-07-02",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "refinance"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "refi-faq-howmuch"
       ]
     }
   ]
