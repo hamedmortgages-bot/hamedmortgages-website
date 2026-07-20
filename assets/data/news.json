@@ -1,6 +1,6 @@
 {
-  "version": "18",
-  "updated": "2026-07-18",
+  "version": "19",
+  "updated": "2026-07-20",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,64 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-20-canada-cpi-june-2-8-core-below-2",
+      "slug": "canada-inflation-june-2026-2-8-percent-core-below-2",
+      "title_en": "Canada's inflation cools to 2.8% in June — and core inflation slips under 2% for the first time in almost six years",
+      "title_fa": "تورم کانادا در ژوئن به ۲٫۸٪ کاهش یافت — و تورم هسته برای نخستین بار در نزدیک شش سال به زیر ۲٪ رسید",
+      "summary_en": "Statistics Canada reported on July 20 that the consumer price index rose 2.8% year over year in June, down from 3.2% in May and softer than the 2.9% economists had expected. The bigger story for mortgage borrowers is underneath the headline: the average of the Bank of Canada's preferred median and trim core measures came in at 1.85%, the lowest reading since September 2020 and the first sub-2% print in nearly six years. Gasoline did most of the work, falling 10.2% month over month as global oil prices eased, which pulled the overall index down 0.4% on the month — the largest monthly decline since December 2024. Grocery inflation slowed to 3.9% from 4.3%, and shelter inflation eased further to 1.5%, while travel-related categories jumped on World Cup demand. Economists quoted in the report cautioned that oil has been climbing again in recent weeks, so the Bank is unlikely to declare victory, but the softness in core suggests economic slack is absorbing the war-driven energy shock rather than letting it spread.",
+      "summary_fa": "آمار کانادا در ۲۰ ژوئیه اعلام کرد که شاخص قیمت مصرف‌کننده در ژوئن نسبت به سال گذشته ۲٫۸٪ رشد کرده است؛ کمتر از ۳٫۲٪ ماه مه و پایین‌تر از انتظار ۲٫۹٪ اقتصاددانان. نکته مهم‌تر برای وام‌گیرندگان مسکن زیر عدد اصلی نهفته است: میانگین معیارهای هسته مورد نظر بانک مرکزی کانادا (میانه و تریم) به ۱٫۸۵٪ رسید؛ پایین‌ترین رقم از سپتامبر ۲۰۲۰ و نخستین عدد زیر ۲٪ در نزدیک شش سال. بنزین بیشترین سهم را داشت و در مقایسه با ماه قبل ۱۰٫۲٪ ارزان شد که شاخص کل را ۰٫۴٪ در ماه پایین آورد — بزرگ‌ترین کاهش ماهانه از دسامبر ۲۰۲۴. تورم مواد غذایی از ۴٫۳٪ به ۳٫۹٪ کاهش یافت و تورم مسکن به ۱٫۵٪ رسید، در حالی که هزینه‌های سفر با شروع جام جهانی جهش کرد. اقتصاددانان هشدار می‌دهند که قیمت نفت در هفته‌های اخیر دوباره بالا رفته است، بنابراین بانک مرکزی هنوز اعلام پیروزی نمی‌کند؛ اما نرمی تورم هسته نشان می‌دهد رکود نسبی اقتصاد در حال جذب شوک انرژی است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is the report that quietly takes the rate-hike scenario off the table for now. Since the spring, the Bank of Canada's warning has been that a war-driven energy spike could bleed into everything else — and a core reading of 1.85% says it hasn't. That doesn't mean cuts are coming; the Bank held at 2.25% just last week and its own projection has inflation averaging 2.5% this year. What it means is that the risk of the next move being <em>up</em> just got a lot smaller, which is the assumption most Canadians should be planning around.</p><p>If you're renewing in the next twelve months, this is a good moment to have your renewal analysis done rather than waiting for your lender's letter — a softer core print tends to show up in bond yields before it shows up in posted rates, and being ready lets you act on a good fixed quote instead of chasing it. If you're weighing fixed versus variable, understand that a friendly inflation report supports a stable policy rate, not a falling one, so a variable is a bet on stability, not on savings arriving automatically. And if you're buying, remember qualification is still done at the stress-tested rate, so the practical lever is your debt load and documented income, not the headline CPI. Happy to run your specific numbers before you commit either way.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این گزارش، سناریوی افزایش نرخ بهره را فعلاً از روی میز برمی‌دارد. از بهار امسال هشدار بانک مرکزی کانادا این بود که جهش قیمت انرژی ناشی از جنگ ممکن است به سایر بخش‌ها سرایت کند — و عدد هسته ۱٫۸۵٪ می‌گوید چنین نشده است. این به معنای شروع کاهش نرخ نیست؛ بانک مرکزی همین هفته گذشته نرخ را در ۲٫۲۵٪ نگه داشت و پیش‌بینی خودش میانگین تورم ۲٫۵٪ برای امسال است. معنایش این است که احتمال اینکه حرکت بعدی <em>افزایشی</em> باشد به‌مراتب کمتر شده است.</p><p>اگر تمدید وام مسکن شما طی دوازده ماه آینده است، همین حالا وقت مناسبی است که تحلیل تمدید را انجام دهید و منتظر نامه وام‌دهنده نمانید؛ نرمی تورم هسته معمولاً زودتر در بازده اوراق دیده می‌شود تا در نرخ‌های اعلامی. اگر بین نرخ ثابت و شناور مردد هستید، توجه کنید که یک گزارش تورمی مطلوب از ثبات نرخ حمایت می‌کند، نه از کاهش آن؛ پس انتخاب شناور شرط‌بندی روی ثبات است، نه روی صرفه‌جویی خودکار. و اگر قصد خرید دارید، به یاد داشته باشید که واجد شرایط شدن همچنان با نرخ آزمون استرس محاسبه می‌شود؛ بنابراین اهرم عملی شما میزان بدهی و درآمد مستندشده است، نه عدد کلی تورم. با کمال میل اعداد پرونده شما را پیش از تصمیم بررسی می‌کنم.</p>",
+      "seo_title": "Canada Inflation June 2026: CPI 2.8%, Core Below 2% — What It Means for Mortgages",
+      "seo_description": "Canada's CPI slowed to 2.8% in June 2026 and core inflation fell to 1.85%, the lowest since 2020. A mortgage broker's read on renewals, fixed vs variable, and the Bank of Canada's next move.",
+      "keywords": [
+        "Canada inflation June 2026",
+        "CPI 2.8% Canada",
+        "core inflation below 2%",
+        "Bank of Canada rate outlook",
+        "fixed vs variable mortgage Canada",
+        "mortgage renewal Ontario 2026",
+        "Statistics Canada CPI",
+        "policy rate 2.25%"
+      ],
+      "tags": [
+        "rates",
+        "inflation",
+        "bank-of-canada",
+        "fixed-vs-variable",
+        "renewal"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_20884147-7e21-4f72-a0ba-4da2dd01a9a6.jpg",
+      "image_alt_en": "A shopper pushes a cart past a bright Canadian grocery storefront and a gas station on a rain-slicked street at dawn.",
+      "image_alt_fa": "خریداری چرخ خرید خود را در سپیده‌دم از کنار ویترین روشن یک فروشگاه مواد غذایی کانادایی و یک جایگاه سوخت در خیابانی خیس عبور می‌دهد.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/canadian-inflation-falls-to-2-8-core-measures-ease/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-20",
+      "imported_date": "2026-07-20",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "rates",
+        "renewal",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "renewal-checklist",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-07-16-reverse-mortgage-rates-falling",
       "slug": "reverse-mortgage-rates-falling-2026",
@@ -73,7 +131,7 @@
       "imported_date": "2026-07-18",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "reverse-mortgage",
@@ -190,7 +248,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "housing-market",
         "first-time-buyer"
@@ -775,56 +833,6 @@
       ],
       "related_knowledge_blocks": [
         "ftb-roadmap",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-02-cusma-annual-reviews",
-      "slug": "us-declines-cusma-renewal-annual-reviews",
-      "title_en": "U.S. won't renew CUSMA, shifting to annual reviews — and more trade uncertainty",
-      "title_fa": "آمریکا کوسما را تمدید نمی‌کند و به بازبینی‌های سالانه روی می‌آورد — و نااطمینانی تجاری بیشتر",
-      "summary_en": "The United States has decided against a long-term renewal of the Canada-U.S.-Mexico Agreement (CUSMA), opting instead for annual reviews, according to Bloomberg reporting covered by Canadian Mortgage Trends. The pact stays in force — potentially through 2036 — as long as no country withdraws, but replacing a 16-year extension with rolling talks opens the door to years of contentious negotiation over tariffs and supply-chain rules. The U.S. Trade Representative said Washington is 'not prepared to rubber stamp' the deal, framing the shift as a way to keep leverage over Canada and Mexico. The stakes are large: intra-regional trade topped $1.6 trillion in 2024, and roughly 90% of imports from Canada and Mexico now move under CUSMA rules. Canadian officials say they support renewal and want to address U.S. tariffs on steel, aluminum, autos and lumber, but businesses warn that prolonged uncertainty could chill cross-border investment.",
-      "summary_fa": "بر اساس گزارش بلومبرگ که Canadian Mortgage Trends آن را پوشش داده، ایالات متحده تصمیم گرفته توافق کانادا-آمریکا-مکزیک (کوسما) را برای بلندمدت تمدید نکند و به‌جای آن بازبینی‌های سالانه را برگزیند. این توافق همچنان معتبر می‌ماند — احتمالاً تا سال ۲۰۳۶ — تا زمانی که هیچ کشوری خارج نشود، اما جایگزینی تمدید ۱۶ ساله با گفت‌وگوهای مستمر، در را به روی سال‌ها مذاکره پرتنش بر سر تعرفه‌ها و قواعد زنجیره تأمین باز می‌کند. نماینده تجاری آمریکا گفت واشنگتن «آماده مهر تأیید بی‌چون‌وچرا» بر این توافق نیست و این تغییر را راهی برای حفظ اهرم فشار بر کانادا و مکزیک توصیف کرد. اهمیت موضوع بزرگ است: تجارت درون‌منطقه‌ای در سال ۲۰۲۴ از ۱٫۶ تریلیون دلار فراتر رفت و اکنون حدود ۹۰٪ واردات از کانادا و مکزیک تحت قواعد کوسما جابه‌جا می‌شود. مقام‌های کانادایی می‌گویند از تمدید حمایت می‌کنند و می‌خواهند به تعرفه‌های آمریکا بر فولاد، آلومینیوم، خودرو و الوار رسیدگی شود، اما کسب‌وکارها هشدار می‌دهند که نااطمینانی طولانی می‌تواند سرمایه‌گذاری فرامرزی را دلسرد کند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This isn't a mortgage story on the surface, but it flows straight into the rates that shape your payment. Prolonged trade uncertainty is exactly the kind of headwind that keeps the Bank of Canada cautious — it dampens business investment and growth, which normally argues for lower rates, yet tariff risk can also push prices up, which argues against cutting. That tug-of-war is a big reason the Bank has held its policy rate steady through 2026 rather than delivering the cuts many borrowers hoped for.</p><p>What it means practically: don't build your plan around a rate cut that trade politics could delay. If you're buying or renewing, protect yourself with a real pre-approval and rate hold, stress-test your budget against a payment that stays higher for longer, and treat any future cut as a bonus rather than the base case. Headlines like this rarely move your rate next week, but they're a reminder that certainty in your own file is the one thing you actually control.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> در ظاهر این یک خبر وام مسکن نیست، اما مستقیماً بر نرخ‌هایی که پرداخت شما را شکل می‌دهند اثر می‌گذارد. نااطمینانی طولانی تجاری دقیقاً همان بادِ مخالفی است که بانک مرکزی کانادا را محتاط نگه می‌دارد — سرمایه‌گذاری و رشد کسب‌وکار را کند می‌کند که معمولاً به‌نفع کاهش نرخ است، اما خطر تعرفه می‌تواند قیمت‌ها را هم بالا ببرد که برخلاف کاهش نرخ است. همین کشمکش یکی از دلایل مهم ثابت‌ماندن نرخ سیاستی بانک در سراسر ۲۰۲۶ است، به‌جای کاهش‌هایی که بسیاری از وام‌گیرندگان امید داشتند.</p><p>معنای عملی آن: برنامه خود را بر پایه کاهش نرخی که سیاست تجاری می‌تواند به تعویق بیندازد نچینید. اگر در حال خرید یا تمدید هستید، خود را با پیش‌تأیید واقعی و نگهداشت نرخ محافظت کنید، بودجه‌تان را در برابر پرداختی که مدت بیشتری بالا می‌ماند بسنجید و هر کاهش آینده را یک امتیاز اضافی بدانید نه فرض پایه. چنین تیترهایی به‌ندرت نرخ شما را هفته آینده تغییر می‌دهند، اما یادآوری می‌کنند که قطعیت در پرونده خودتان تنها چیزی است که واقعاً کنترلش دارید.</p>",
-      "seo_title": "U.S. Declines CUSMA Renewal, Shifts to Annual Reviews — Broker View | Hamed Ashouri",
-      "seo_description": "The U.S. won't renew CUSMA, moving to annual reviews and adding trade uncertainty. Ontario mortgage broker Hamed Ashouri on how it feeds into Bank of Canada rate decisions and your mortgage plan.",
-      "keywords": [
-        "CUSMA",
-        "trade uncertainty",
-        "Bank of Canada",
-        "interest rates",
-        "tariffs"
-      ],
-      "tags": [
-        "industry",
-        "rates",
-        "economy"
-      ],
-      "category": "industry",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_fca11ace-443a-4e05-a775-0453aea9df07.png",
-      "image_alt_en": "Cargo trucks at a Canada-U.S. border crossing representing cross-border trade",
-      "image_alt_fa": "کامیون‌های باری در گذرگاه مرزی کانادا و آمریکا، نماد تجارت فرامرزی",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/u-s-decides-against-renewing-cusma-shifting-to-rolling-talks/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-02",
-      "imported_date": "2026-07-07",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "affordability"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
         "gen-preapproval"
       ]
     }
