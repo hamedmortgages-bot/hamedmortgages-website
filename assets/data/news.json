@@ -1,6 +1,6 @@
 {
-  "version": "19",
-  "updated": "2026-07-20",
+  "version": "20",
+  "updated": "2026-07-21",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,118 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-21-bmo-trump-tariffs-boc-rate-cuts",
+      "slug": "trump-tariffs-bank-of-canada-rate-cuts-bmo-july-2026",
+      "title_en": "New U.S. tariffs put Bank of Canada rate cuts back on the table, BMO says",
+      "title_fa": "به گفته BMO، تعرفه‌های جدید آمریکا بار دیگر کاهش نرخ بانک مرکزی کانادا را محتمل کرده است",
+      "summary_en": "Washington has announced a 50% tariff on a targeted list of Canadian goods taking effect Aug. 19, covering roughly $28 billion (US$20 billion) of exports including alcoholic beverages, cement, dairy, wood and paper, chemicals, plastics, electronics and some industrial equipment. Energy, potash, critical minerals, fish and goods already captured by Section 232 measures are exempt. BMO Economics says the move reinforces its view that the Bank of Canada is firmly on hold for the rest of the year, and senior economist Robert Kavcic noted that if trade relations deteriorate further the resulting damage could open the door to easing again. BMO estimates the affected products represent about 5% of Canadian goods exports to the U.S. and roughly 0.8% of GDP, while TD Economics estimates a drag of 0.3 to 0.6 percentage points on growth over the next year, likely toward the lower end. Markets barely flinched on the news, with the Canadian dollar off about 0.2% and rate expectations largely unchanged.",
+      "summary_fa": "واشنگتن اعلام کرده است که از ۱۹ اوت تعرفه‌ای ۵۰ درصدی بر فهرست مشخصی از کالاهای کانادایی اعمال می‌شود؛ فهرستی که حدود ۲۸ میلیارد دلار کانادا (۲۰ میلیارد دلار آمریکا) از صادرات را در بر می‌گیرد و شامل نوشیدنی‌های الکلی، سیمان، لبنیات، چوب و کاغذ، مواد شیمیایی، پلاستیک، لوازم الکترونیکی و برخی تجهیزات صنعتی است. انرژی، پتاس، مواد معدنی حیاتی، ماهی و کالاهایی که پیش‌تر مشمول اقدامات بخش ۲۳۲ شده‌اند، معاف هستند. بخش اقتصادی BMO می‌گوید این تصمیم دیدگاه آن‌ها را تقویت می‌کند که بانک مرکزی کانادا تا پایان سال قاطعانه در حالت توقف باقی می‌ماند، و رابرت کاوچیچ، اقتصاددان ارشد، اشاره کرد که اگر روابط تجاری بیشتر تیره شود، آسیب ناشی از آن می‌تواند دوباره راه را برای کاهش نرخ باز کند. برآورد BMO این است که کالاهای مشمول حدود ۵ درصد صادرات کالایی کانادا به آمریکا و تقریباً ۰٫۸ درصد تولید ناخالص داخلی را تشکیل می‌دهند، در حالی که TD Economics کاهش ۰٫۳ تا ۰٫۶ واحد درصدی رشد در سال آینده را پیش‌بینی می‌کند که احتمالاً به کران پایین نزدیک‌تر خواهد بود. بازارها واکنش چندانی نشان ندادند؛ دلار کانادا حدود ۰٫۲ درصد افت کرد و انتظارات نرخ بهره تقریباً بدون تغییر ماند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is a story about the direction of risk, not about a rate move you can count on. The Bank of Canada is on hold at 2.25%, and nothing announced this week changes that for the next meeting. What changed is the shape of what comes after: a trade shock that slows growth is the kind of thing that argues for lower rates later, not higher ones. If you have been sitting on the fence about a variable-rate mortgage because you feared the next move was up, this news tilts the balance of risk in the other direction — though it does not remove the possibility of surprises.</p><p>Practically, I would not restructure a mortgage around a tariff headline. The tariffs do not take effect until Aug. 19 and a negotiation window remains open. What I do recommend: if your renewal lands in the next six to twelve months, start the conversation now so you have a rate hold in place while this plays out, and make sure you understand your lender's penalty and portability terms before you commit to a term length. Borrowers in trade-exposed industries — manufacturing, forestry, food processing — should also be candid with their broker about income stability, because lenders will ask. Every file is different, and none of this is a prediction about where rates will land.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این خبر درباره جهت ریسک است، نه درباره تغییری در نرخ که بتوان روی آن حساب کرد. بانک مرکزی کانادا نرخ را در ۲٫۲۵ درصد نگه داشته و هیچ‌چیز در اعلام این هفته وضعیت جلسه بعدی را تغییر نمی‌دهد. آنچه تغییر کرده، شکل مسیر پس از آن است: شوک تجاری‌ای که رشد را کند کند، همان چیزی است که استدلال را به سمت نرخ‌های پایین‌تر در آینده می‌برد، نه بالاتر. اگر به دلیل نگرانی از افزایش نرخ در تصمیم‌گیری درباره وام با نرخ متغیر مردد بوده‌اید، این خبر توازن ریسک را به سمت دیگر متمایل می‌کند — هرچند احتمال غافلگیری را از میان نمی‌برد.</p><p>از نظر عملی، توصیه نمی‌کنم ساختار وام خود را بر اساس یک تیتر خبری درباره تعرفه‌ها تغییر دهید. این تعرفه‌ها تا ۱۹ اوت اجرایی نمی‌شوند و فرصت مذاکره همچنان باز است. آنچه توصیه می‌کنم این است: اگر تمدید وام شما در شش تا دوازده ماه آینده است، همین حالا گفت‌وگو را آغاز کنید تا در طول این دوره یک رزرو نرخ در اختیار داشته باشید، و پیش از انتخاب مدت وام، شرایط جریمه و قابلیت انتقال وام‌دهنده خود را به‌خوبی بشناسید. وام‌گیرندگانی که در صنایع در معرض تجارت فعالیت می‌کنند — تولید، جنگل‌داری، فرآوری مواد غذایی — بهتر است درباره ثبات درآمد خود با کارگزار صادق باشند، چون وام‌دهندگان این پرسش را مطرح خواهند کرد. هر پرونده متفاوت است و هیچ‌یک از این موارد پیش‌بینی مسیر نرخ‌ها نیست.</p>",
+      "seo_title": "Trump Tariffs & Bank of Canada Rate Cuts: BMO's July 2026 Read for Mortgage Borrowers",
+      "seo_description": "BMO says new 50% U.S. tariffs on $28B of Canadian goods keep the Bank of Canada on hold but could reopen the door to rate cuts. An Ontario mortgage broker's take on variable vs fixed and renewals.",
+      "keywords": [
+        "Trump tariffs Canada 2026",
+        "Bank of Canada rate cuts",
+        "BMO economics tariffs",
+        "Canada US trade war mortgage",
+        "variable rate mortgage Canada",
+        "mortgage renewal Ontario 2026",
+        "policy rate 2.25%",
+        "CUSMA tariffs"
+      ],
+      "tags": [
+        "rates",
+        "bank-of-canada",
+        "tariffs",
+        "fixed-vs-variable",
+        "renewal"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_d1c047c2-e7b4-4bab-8f9b-3d5c0930abcd.jpg",
+      "image_alt_en": "Stacked shipping containers and a transport truck in a Canadian freight yard near a border crossing at golden hour.",
+      "image_alt_fa": "کانتینرهای روی‌هم‌چیده و یک کامیون باری در محوطه حمل‌ونقل کانادایی نزدیک یک گذرگاه مرزی در نور طلایی غروب.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/trump-tariffs-could-reopen-door-to-bank-of-canada-rate-cuts-bmo/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-21",
+      "imported_date": "2026-07-21",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "rates",
+        "renewal",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "renewal-checklist",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-07-21-osc-mic-fraud-guilty-plea",
+      "slug": "osc-altmore-mic-fraud-guilty-plea-july-2026",
+      "title_en": "Ontario MIC operator pleads guilty to fraud in $5.3-million mortgage investment scheme",
+      "title_fa": "مدیر یک شرکت سرمایه‌گذاری رهنی در انتاریو به کلاهبرداری در طرح ۵٫۳ میلیون دلاری اعتراف کرد",
+      "summary_en": "The Ontario Securities Commission says Ian Ross McSevney, formerly of Ancaster, Ont., has pleaded guilty to fraud and to distributing securities without filing a prospectus, both contrary to Ontario securities law. Through Altmore Mortgage Investment Corporation, he raised close to $5.3 million from roughly 30 investors between May 2015 and May 2019, telling them the money would fund mortgages and other loans secured by real estate. The OSC says Altmore never built a significant portfolio of those investments; while some legitimate loans were arranged, most of the money was not invested as represented. Of the approximately $5.3 million raised, about $3 million was returned to investors, typically funded by money coming in from other investors, and roughly $1 million was directed to credit cards, family members or relatives. The matter returns to court in Toronto on Sept. 8, when the parties are expected to set a date for sentencing submissions.",
+      "summary_fa": "کمیسیون اوراق بهادار انتاریو (OSC) اعلام کرده است که ایان راس مک‌سونی، ساکن پیشین انکستر انتاریو، به کلاهبرداری و توزیع اوراق بهادار بدون ثبت اعلامیه پذیره‌نویسی اعتراف کرده است؛ هر دو مغایر با قانون اوراق بهادار انتاریو. او از طریق شرکت سرمایه‌گذاری رهنی Altmore، میان مه ۲۰۱۵ تا مه ۲۰۱۹ نزدیک به ۵٫۳ میلیون دلار از حدود ۳۰ سرمایه‌گذار جمع‌آوری کرد و به آنان گفته بود این پول صرف تأمین مالی وام‌های رهنی و سایر وام‌های تضمین‌شده با املاک خواهد شد. به گفته OSC، Altmore هرگز سبد قابل‌توجهی از چنین سرمایه‌گذاری‌هایی تشکیل نداد؛ اگرچه برخی وام‌های قانونی ترتیب داده شد، بیشتر پول آن‌گونه که وعده داده شده بود سرمایه‌گذاری نشد. از حدود ۵٫۳ میلیون دلار جمع‌آوری‌شده، نزدیک به ۳ میلیون دلار به سرمایه‌گذاران بازگردانده شد که معمولاً از محل پول سرمایه‌گذاران دیگر تأمین می‌شد، و حدود ۱ میلیون دلار صرف کارت‌های اعتباری، اعضای خانواده یا بستگان شد. این پرونده در ۸ سپتامبر در تورنتو دوباره به دادگاه بازمی‌گردد و انتظار می‌رود طرفین تاریخ ارائه لوایح تعیین مجازات را مشخص کنند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Mortgage investment corporations are a legitimate and useful part of Canada's lending landscape — a great deal of private and alternative lending flows through well-run MICs, and borrowers who do not fit bank guidelines depend on them. This case is not an indictment of the structure. It is a reminder that the label on the door tells you nothing about what is happening inside, and that a promise to invest in real-estate-secured loans is only as good as the paperwork proving those loans exist.</p><p>Two practical lessons. If you are considering investing in a MIC, ask for audited financial statements, an offering memorandum, confirmation the issuer is properly registered with the OSC, and evidence of the actual mortgage portfolio — and be wary when returns to earlier investors appear to be funded by new money coming in. If you are a borrower being placed with a private or alternative lender, ask your broker who the lender is, how they are regulated, and why that lender is the right fit for your file. A good broker will answer all three without hesitation. I am not a securities adviser, and anyone weighing an investment of this kind should get independent legal and financial advice.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> شرکت‌های سرمایه‌گذاری رهنی (MIC) بخشی مشروع و کارآمد از چشم‌انداز وام‌دهی کانادا هستند — بخش بزرگی از وام‌دهی خصوصی و جایگزین از طریق MICهای خوش‌مدیریت جریان دارد و وام‌گیرندگانی که با ضوابط بانکی هم‌خوانی ندارند به آن‌ها متکی‌اند. این پرونده کیفرخواستی علیه این ساختار نیست. یادآوری این نکته است که عنوان روی تابلو چیزی درباره آنچه در درون می‌گذرد به شما نمی‌گوید، و وعده سرمایه‌گذاری در وام‌های تضمین‌شده با املاک تنها به اندازه مستنداتی ارزش دارد که وجود آن وام‌ها را ثابت می‌کند.</p><p>دو درس عملی. اگر قصد سرمایه‌گذاری در یک MIC را دارید، صورت‌های مالی حسابرسی‌شده، اعلامیه عرضه، تأیید ثبت رسمی ناشر نزد OSC و مدرک سبد واقعی وام‌های رهنی را مطالبه کنید — و اگر به نظر می‌رسد بازدهی سرمایه‌گذاران قبلی از محل پول تازه‌واردان تأمین می‌شود، محتاط باشید. اگر وام‌گیرنده‌ای هستید که به یک وام‌دهنده خصوصی یا جایگزین معرفی می‌شوید، از کارگزار خود بپرسید وام‌دهنده کیست، تحت چه نظارتی فعالیت می‌کند، و چرا این وام‌دهنده برای پرونده شما مناسب است. کارگزار خوب بدون تردید به هر سه پرسش پاسخ می‌دهد. من مشاور اوراق بهادار نیستم و هرکس چنین سرمایه‌گذاری‌ای را بررسی می‌کند باید مشاوره حقوقی و مالی مستقل بگیرد.</p>",
+      "seo_title": "OSC: Altmore MIC Operator Pleads Guilty in $5.3M Mortgage Investment Fraud (2026)",
+      "seo_description": "Ontario Securities Commission says the former operator of Altmore Mortgage Investment Corporation pleaded guilty to fraud involving ~30 investors. What it means for MIC investors and private-lending borrowers.",
+      "keywords": [
+        "MIC fraud Ontario",
+        "Altmore Mortgage Investment Corporation",
+        "Ontario Securities Commission mortgage",
+        "mortgage investment corporation risks",
+        "private lending Ontario",
+        "OSC enforcement 2026",
+        "investor due diligence MIC"
+      ],
+      "tags": [
+        "regulation",
+        "private-lending",
+        "fraud",
+        "investors",
+        "ontario"
+      ],
+      "category": "regulation",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_4277723e-6b97-49e2-88b2-f3ad1cabf850.jpg",
+      "image_alt_en": "The stone facade and tall columns of an Ontario courthouse in warm late-afternoon light, with wide empty steps in the foreground.",
+      "image_alt_fa": "نمای سنگی و ستون‌های بلند یک دادگاه در انتاریو در نور گرم بعدازظهر، با پله‌های پهن و خالی در پیش‌زمینه.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/former-mic-operator-pleads-guilty-in-5-3-million-scheme/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-21",
+      "imported_date": "2026-07-21",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "private-lending",
+        "regulation"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-private-lending",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-07-20-canada-cpi-june-2-8-core-below-2",
       "slug": "canada-inflation-june-2026-2-8-percent-core-below-2",
@@ -71,7 +183,7 @@
       "imported_date": "2026-07-20",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -132,7 +244,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "reverse-mortgage",
         "home-equity",
@@ -190,7 +302,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "housing-market",
         "investors",
@@ -732,108 +844,6 @@
       ],
       "related_knowledge_blocks": [
         "se-income"
-      ]
-    },
-    {
-      "id": "news-2026-07-03-gta-june-sales",
-      "slug": "greater-toronto-home-sales-up-9-4-june-2026",
-      "title_en": "Greater Toronto home sales rose 9.4% in June as listings tightened",
-      "title_fa": "فروش خانه در منطقه بزرگ تورنتو در ژوئن ۹٫۴٪ افزایش یافت در حالی که عرضه کاهش یافت",
-      "summary_en": "The Greater Toronto Area recorded 6,770 home sales in June, up 9.4% from a year earlier and 1.4% above May on a seasonally adjusted basis, according to the Toronto Regional Real Estate Board. Even as demand strengthened, new listings fell 12.9% year-over-year to 17,282 and total active inventory dropped 13.5% to 27,329 — the fourth straight month of rising sales alongside shrinking supply. Prices, however, kept easing: the average selling price slipped 3.9% year-over-year to $1,058,658, and the composite benchmark for a typical home was down 5.4%. Every housing type saw more activity, led by a 14.3% jump in condo sales, with detached up 9.1%. TRREB's president pointed to a 'marked improvement' in the second quarter and predicted more buyer competition and renewed price growth in the back half of the year, though agents caution the market is still a long way from a true bottom.",
-      "summary_fa": "بر اساس گزارش هیئت املاک منطقه‌ای تورنتو (TRREB)، منطقه بزرگ تورنتو در ژوئن ۶٬۷۷۰ فروش خانه ثبت کرد که نسبت به سال گذشته ۹٫۴٪ و نسبت به مه با تعدیل فصلی ۱٫۴٪ بیشتر بود. با وجود تقویت تقاضا، فهرست‌های جدید ۱۲٫۹٪ نسبت به سال گذشته کاهش یافت و به ۱۷٬۲۸۲ رسید و کل موجودی فعال ۱۳٫۵٪ افت کرد و به ۲۷٬۳۲۹ رسید — چهارمین ماه پیاپی افزایش فروش همراه با کاهش عرضه. با این حال قیمت‌ها همچنان نرم شدند: میانگین قیمت فروش ۳٫۹٪ نسبت به سال گذشته کاهش یافت و به ۱٬۰۵۸٬۶۵۸ دلار رسید و شاخص مرکب برای خانه معمول ۵٫۴٪ پایین آمد. همه انواع مسکن فعالیت بیشتری داشتند که پیشتاز آن جهش ۱۴٫۳ درصدی فروش کاندو و افزایش ۹٫۱ درصدی خانه‌های مستقل بود. رئیس TRREB به «بهبود چشمگیر» در سه‌ماهه دوم اشاره کرد و رقابت بیشتر خریداران و بازگشت رشد قیمت را در نیمه دوم سال پیش‌بینی کرد، هرچند مشاوران هشدار می‌دهند بازار هنوز تا کف واقعی فاصله زیادی دارد.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is the market quietly changing character. Sales rising for four months straight while listings shrink is the classic setup for tightening — and even though average prices are still down year-over-year, the balance of power slowly shifts back toward sellers when there's less to choose from and more buyers showing up. Condos led the rebound with a 14.3% jump in sales, which matters because that's exactly the segment where prices have fallen the most and where the affordability math now works best for first-time buyers.</p><p>What I'd take from it: if you've been waiting on the sidelines for a 'clearly better' moment, the window of soft prices plus thin competition may not stay open indefinitely. I'm not predicting a spike — agents themselves say a true bottom is a long way off — but the smart move is to get pre-approved and know your real budget now, so you can act calmly if the right listing appears rather than scramble in a tighter fall market. Readiness beats timing every time.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این بازار به‌آرامی در حال تغییر ماهیت است. افزایش فروش برای چهار ماه پیاپی همراه با کاهش عرضه، الگوی کلاسیک تنگ‌شدن بازار است — و هرچند میانگین قیمت‌ها هنوز نسبت به سال گذشته پایین‌تر است، وقتی گزینه‌ها کمتر و خریداران بیشتر می‌شوند، توازن قدرت به‌تدریج به‌سوی فروشندگان بازمی‌گردد. کاندوها با جهش ۱۴٫۳ درصدی فروش پیشتاز این بازگشت بودند و این مهم است، چون دقیقاً همان بخشی است که بیشترین افت قیمت را داشته و اکنون بهترین معادله دسترسی‌پذیری را برای خریداران بار اول ارائه می‌دهد.</p><p>برداشت من: اگر برای «لحظه‌ای آشکارا بهتر» کنار گود منتظر مانده‌اید، پنجره قیمت‌های نرم به‌همراه رقابت اندک ممکن است برای همیشه باز نماند. من جهش قیمت پیش‌بینی نمی‌کنم — خود مشاوران می‌گویند تا کف واقعی راه درازی مانده — اما اقدام هوشمندانه این است که همین حالا پیش‌تأیید بگیرید و بودجه واقعی خود را بدانید تا اگر خانه مناسب پیدا شد بتوانید آرام اقدام کنید، نه اینکه در بازار تنگ‌تر پاییز شتاب‌زده عمل کنید. آمادگی همیشه از زمان‌بندی بهتر است.</p>",
-      "seo_title": "Greater Toronto Home Sales Up 9.4% in June 2026 — Broker View | Hamed Ashouri",
-      "seo_description": "GTA June home sales rose 9.4% as listings fell and prices eased, with condo sales up 14.3% (TRREB). Ontario mortgage broker Hamed Ashouri on what a tightening market means for buyers.",
-      "keywords": [
-        "Toronto home sales",
-        "TRREB",
-        "GTA housing market",
-        "condo sales",
-        "home prices"
-      ],
-      "tags": [
-        "housing-market",
-        "toronto",
-        "first-time-buyer"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_a508b03b-689c-479d-a8bd-b9a9df479d0f.jpg",
-      "image_alt_en": "Greater Toronto Area homes with the downtown skyline in the distance",
-      "image_alt_fa": "خانه‌های منطقه بزرگ تورنتو با خط آسمان مرکز شهر در دوردست",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/greater-toronto-home-sales-up-9-4-in-june-as-board-predicts-price-growth-could-come/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-03",
-      "imported_date": "2026-07-07",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "affordability"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-03-fraser-valley-prices",
-      "slug": "fraser-valley-home-prices-down-26-sluggish-market",
-      "title_en": "B.C.'s Fraser Valley prices sit 26% below their 2022 peak as buyers wait",
-      "title_fa": "قیمت‌های فریزر ولی در بریتیش کلمبیا ۲۶٪ پایین‌تر از اوج ۲۰۲۲ است در حالی که خریداران منتظرند",
-      "summary_en": "The Fraser Valley Real Estate Board reports the region's benchmark home price has slipped to just under $885,000 — down about 7% from a year ago and roughly 26% below its 2022 peak. Sales stayed subdued at 1,147 MLS transactions in June: up 2% from May but 4% below the same month last year. The apartment segment led the declines, its benchmark falling 9.1% year-over-year to $476,400, while single-detached homes (around $1.35 million) and townhouses (about $764,000) were each off more than 7% from June 2025. Board leaders described a market of genuine opportunity that qualified buyers are still hesitating to act on, noting the spring season underperformed expectations. With ample inventory and softer prices, leverage in the Fraser Valley currently sits firmly with buyers.",
-      "summary_fa": "هیئت املاک فریزر ولی گزارش می‌دهد که شاخص قیمت خانه در این منطقه به کمی زیر ۸۸۵٬۰۰۰ دلار رسیده است — حدود ۷٪ کمتر از یک سال پیش و تقریباً ۲۶٪ پایین‌تر از اوج سال ۲۰۲۲. فروش همچنان کم‌رمق ماند و در ژوئن ۱٬۱۴۷ معامله در MLS ثبت شد: ۲٪ بیشتر از مه اما ۴٪ کمتر از همین ماه سال گذشته. بخش آپارتمان پیشتاز کاهش‌ها بود و شاخص آن با افت ۹٫۱ درصدی نسبت به سال گذشته به ۴۷۶٬۴۰۰ دلار رسید، در حالی که خانه‌های تک‌واحدی مستقل (حدود ۱٫۳۵ میلیون دلار) و خانه‌های ردیفی (حدود ۷۶۴٬۰۰۰ دلار) هرکدام بیش از ۷٪ نسبت به ژوئن ۲۰۲۵ پایین‌تر بودند. مدیران هیئت این بازار را فرصتی واقعی توصیف کردند که خریداران واجد شرایط هنوز در استفاده از آن تردید دارند و اشاره کردند که فصل بهار کمتر از انتظار عمل کرد. با موجودی فراوان و قیمت‌های نرم‌تر، توازن قدرت در فریزر ولی اکنون قاطعانه به‌سود خریداران است.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> A market sitting 26% below its peak with plenty of listings is, on paper, a buyer's market — but headlines about falling prices are exactly what freeze buyers in place. The people who do well in conditions like these aren't trying to call the precise bottom; they're the ones who are pre-approved, know their real budget, and can negotiate calmly when a seller is motivated. Softer prices also mean more room to negotiate on price, conditions and closing timelines than you'd ever get in a heated market.</p><p>The catch is qualifying. A lower purchase price helps, but you still need verified income and a documented down payment to make a lender comfortable, and a declining-value area can affect the appraisal that ultimately caps your financing. If you're eyeing the Fraser Valley — or any softer B.C. market — map your financing fully first, then shop with the confidence to act. It's a local story with a national lesson: opportunity favours the prepared, not the ones waiting for a headline that says 'now.'</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> بازاری که ۲۶٪ پایین‌تر از اوج خود و پر از فهرست‌های فروش است، روی کاغذ بازار خریدار است — اما دقیقاً همین تیترهای کاهش قیمت است که خریداران را در جای خود میخکوب می‌کند. کسانی که در چنین شرایطی موفق می‌شوند در پی یافتن کف دقیق قیمت نیستند؛ بلکه پیش‌تأیید گرفته‌اند، بودجه واقعی خود را می‌دانند و وقتی فروشنده‌ای مصمم است می‌توانند آرام مذاکره کنند. قیمت‌های نرم‌تر همچنین یعنی فضای بیشتر برای چانه‌زنی بر سر قیمت، شرایط و زمان‌بندی معامله نسبت به یک بازار داغ.</p><p>نکته دشوار، احراز صلاحیت است. قیمت خرید پایین‌تر کمک می‌کند، اما همچنان به درآمد تأییدشده و پیش‌پرداخت مستند نیاز دارید تا وام‌دهنده مطمئن شود، و منطقه‌ای با ارزش در حال کاهش می‌تواند بر ارزیابی‌ای که در نهایت سقف تأمین مالی شما را تعیین می‌کند اثر بگذارد. اگر فریزر ولی — یا هر بازار نرم‌تر بریتیش کلمبیا — را زیر نظر دارید، نخست تأمین مالی خود را کامل ترسیم کنید، سپس با اطمینانِ اقدام خرید کنید. این یک داستان محلی با درسی سراسری است: فرصت به‌سود آماده‌هاست، نه کسانی که منتظر تیتری هستند که بگوید «حالا».</p>",
-      "seo_title": "Fraser Valley Home Prices 26% Below 2022 Peak — Broker View | Hamed Ashouri",
-      "seo_description": "B.C.'s Fraser Valley benchmark price sits near $885,000, about 26% below its 2022 peak, with apartments down 9.1%. Ontario mortgage broker Hamed Ashouri on buying in a soft, buyer-friendly market.",
-      "keywords": [
-        "Fraser Valley",
-        "B.C. housing",
-        "home prices",
-        "buyers market",
-        "apartment prices"
-      ],
-      "tags": [
-        "housing-market",
-        "prices",
-        "buyers-market"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_e38d0c0a-fbdd-4df7-9abc-98210abd2d22.jpg",
-      "image_alt_en": "Fraser Valley B.C. neighbourhood of homes under a cloudy sky",
-      "image_alt_fa": "محله‌ای از خانه‌ها در فریزر ولی بریتیش کلمبیا زیر آسمانی ابری",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/b-c-s-fraser-valley-home-prices-down-26-from-2022-in-sluggish-market/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-03",
-      "imported_date": "2026-07-03",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "affordability"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "gen-preapproval"
       ]
     }
   ]
