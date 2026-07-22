@@ -33,26 +33,62 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["FinancialService", "LocalBusiness"],
-    "name": "حامد عاشوری — بروکر و استراتژیست وام مسکن",
-    "description": "راهکارهای استراتژیک وام مسکن برای خریداران خانه، صاحبان بیزنس، افراد خوداشتغال و سرمایه‌گذاران ملکی در انتاریو.",
-    "url": "https://hamedmortgages.ca/fa/",
-    "telephone": "+1-416-856-8148",
-    "email": "hamedmortgages@gmail.com",
-    "areaServed": { "@type": "State", "name": "Ontario, Canada" },
-    "knowsLanguage": ["fa", "en"],
-    "address": { "@type": "PostalAddress", "addressRegion": "ON", "addressCountry": "CA" },
-    "founder": {
-      "@type": "Person",
-      "name": "Hamed Ashouri",
-      "jobTitle": "Mortgage Broker & Financial Strategist",
-      "identifier": "License #M22004433"
-    },
-    "memberOf": {
-      "@type": "Organization",
-      "name": "Mortgage Alliance Company of Canada",
-      "identifier": "FSRA #10530"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://hamedmortgages.ca/#website",
+        "url": "https://hamedmortgages.ca/",
+        "name": "Hamed Ashouri — Mortgage Broker & Financial Strategist",
+        "inLanguage": ["en-CA", "fa-CA"]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://hamedmortgages.ca/#hamed-ashouri",
+        "name": "Hamed Ashouri",
+        "alternateName": ["Hamed Ashourikisomi", "حامد عاشوری"],
+        "jobTitle": "Mortgage Broker & Financial Strategist",
+        "image": "https://hamedmortgages.ca/assets/img/hero-hamed.jpg",
+        "telephone": "+1-416-856-8148",
+        "email": "hamedmortgages@gmail.com",
+        "knowsLanguage": ["English", "Persian"],
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "Ontario Mortgage Broker Licence",
+          "value": "M22004433"
+        },
+        "worksFor": { "@id": "https://hamedmortgages.ca/#brokerage" },
+        "sameAs": [
+          "https://www.mortgagealliance.com/en/mortgage-broker/HamedAshourikisomi/",
+          "https://www.facebook.com/hamedmortgage/",
+          "https://www.instagram.com/hamedmortgages/"
+        ]
+      },
+      {
+        "@type": "FinancialService",
+        "@id": "https://hamedmortgages.ca/#business",
+        "name": "حامد عاشوری — بروکر و استراتژیست وام مسکن",
+        "alternateName": "Hamed Ashouri — Mortgage Broker & Financial Strategist",
+        "description": "راهکارهای استراتژیک وام مسکن برای خریداران خانه، صاحبان بیزنس، افراد خوداشتغال و سرمایه‌گذاران ملکی در انتاریو.",
+        "url": "https://hamedmortgages.ca/fa/",
+        "image": "https://hamedmortgages.ca/assets/img/hero-hamed.jpg",
+        "telephone": "+1-416-856-8148",
+        "email": "hamedmortgages@gmail.com",
+        "areaServed": { "@type": "AdministrativeArea", "name": "Ontario, Canada" },
+        "knowsLanguage": ["Persian", "English"],
+        "employee": { "@id": "https://hamedmortgages.ca/#hamed-ashouri" },
+        "parentOrganization": { "@id": "https://hamedmortgages.ca/#brokerage" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://hamedmortgages.ca/#brokerage",
+        "name": "Mortgage Alliance Company of Canada",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "FSRA Brokerage Licence",
+          "value": "10530"
+        }
+      }
+    ]
   }
   </script>
 </head>
