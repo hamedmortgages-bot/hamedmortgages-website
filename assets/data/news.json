@@ -1,6 +1,6 @@
 {
-  "version": "20",
-  "updated": "2026-07-21",
+  "version": "21",
+  "updated": "2026-07-22",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,69 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-22-cmhc-hmo-mid-year-update",
+      "slug": "cmhc-housing-market-outlook-mid-year-update-2026",
+      "title_en": "CMHC's mid-year outlook: home prices keep falling through 2026, and Ontario and B.C. stay the weakest markets in the country",
+      "title_fa": "چشم‌انداز میان‌سال CMHC: قیمت مسکن تا پایان ۲۰۲۶ کاهشی می‌ماند و انتاریو و بریتیش‌کلمبیا ضعیف‌ترین بازارهای کشور خواهند بود",
+      "summary_en": "CMHC published the mid-year update to its 2026 Housing Market Outlook on July 22, extending the forecast to 2028 and adding detailed data for 18 metropolitan markets. The agency still expects the Canadian economy to grow only 0.7% this year — one of the weakest non-recession years in decades — with the U.S.–Iran war temporarily pushing inflation higher and unresolved Canada–U.S. trade tension continuing to weigh on business investment and hiring. On housing, the message is blunt: lower prices on their own have not been enough to bring sidelined buyers back, so national home prices are forecast to keep declining through 2026 before returning to modest growth in 2027 and 2028, while sales recover only gradually and stay below the levels of the past decade. The regional split is sharp — Prairie markets are expected to hold high sales volumes and lead price growth, Quebec should post modest gains on more balanced conditions, and Ontario and British Columbia are expected to remain weakest on affordability pressure, slower population growth and heavy supply. Housing starts are projected to keep falling as builders react to unsold inventory and high construction costs, with condominium construction in Ontario and B.C. hit hardest, while rental markets keep easing as new purpose-built supply lifts vacancy rates and slows asking-rent growth in Toronto, Vancouver and Montréal.",
+      "summary_fa": "سازمان مسکن و وام مسکن کانادا (CMHC) روز ۲۲ ژوئیه به‌روزرسانی میان‌سال چشم‌انداز بازار مسکن ۲۰۲۶ خود را منتشر کرد؛ پیش‌بینی‌ها تا سال ۲۰۲۸ گسترش یافته و داده‌های تفصیلی ۱۸ بازار کلان‌شهری را نیز در بر می‌گیرد. این سازمان همچنان انتظار دارد اقتصاد کانادا امسال تنها ۰٫۷ درصد رشد کند — یکی از ضعیف‌ترین سال‌ها در دهه‌های اخیر خارج از دوره‌های رکود — در حالی که جنگ آمریکا و ایران به‌طور موقت تورم را بالا می‌برد و ابهام تجاری میان کانادا و آمریکا همچنان سرمایه‌گذاری و استخدام بنگاه‌ها را محدود می‌کند. پیام CMHC درباره مسکن صریح است: کاهش قیمت‌ها به‌تنهایی برای بازگرداندن خریداران محتاط کافی نبوده است؛ بنابراین قیمت‌های ملی تا پایان ۲۰۲۶ کاهشی می‌مانند و سپس در ۲۰۲۷ و ۲۰۲۸ رشد ملایمی را از سر می‌گیرند، در حالی که معاملات تنها به‌تدریج بهبود می‌یابد و پایین‌تر از سطح یک دهه گذشته باقی می‌ماند. تصویر منطقه‌ای کاملاً دوپاره است: بازارهای پریری حجم بالای فروش را حفظ کرده و پیشتاز رشد قیمت خواهند بود، کبک به دلیل شرایط متعادل‌تر رشد ملایمی ثبت می‌کند، و انتاریو و بریتیش‌کلمبیا به‌دلیل فشار استطاعت، رشد کندتر جمعیت و عرضه سنگین، ضعیف‌ترین بازارها می‌مانند. ساخت‌وساز نیز کاهشی پیش‌بینی شده است — به‌ویژه در بخش کاندومینیوم انتاریو و بریتیش‌کلمبیا — و بازار اجاره با ورود عرضه جدید، نرخ خالی‌ماندن را بالا برده و رشد اجاره‌بها را در تورنتو، ونکوور و مونترال کند می‌کند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> A forecast is a planning input, not something to bet a mortgage on — CMHC itself publishes a weaker alternative scenario alongside the baseline. But the direction matters for Ontario. A market with soft prices, high inventory and cautious buyers is a market where a well-prepared buyer has leverage: more time for financing and inspection conditions, more room to negotiate, and less pressure to waive protections. The flip side is appraisal risk. When values are drifting down, an appraisal can land below your accepted offer price, and the shortfall comes out of your own pocket — so build a cash buffer into the plan and get your financing reviewed before you write, not after.</p><p>The line I would underline for existing homeowners is the renewal one. If your mortgage was set during the low-rate years, your renewal payment is the single biggest number in your household budget over the next two years, and CMHC expects fixed rates to stay elevated because long-term bond yields remain high. Model it now at a realistic renewal rate rather than hoping for a rescue. If you own a GTA condo, re-test your rent assumptions too — rising vacancy and slower asking-rent growth change the math on a unit that was underwritten in 2021. None of this predicts where your rate will land; it is a case for running your own numbers early, with a broker who will show you both the fixed and the variable path.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> پیش‌بینی یک ابزار برنامه‌ریزی است، نه چیزی که بتوان وام مسکن را روی آن شرط بست — خود CMHC در کنار سناریوی پایه، سناریوی ضعیف‌تری هم منتشر می‌کند. اما جهت‌گیری این گزارش برای انتاریو مهم است. بازاری با قیمت‌های نرم، موجودی بالا و خریداران محتاط، بازاری است که در آن خریدارِ آماده دست بالا را دارد: زمان بیشتر برای شرط تأمین مالی و بازرسی، فضای بیشتر برای مذاکره و فشار کمتر برای چشم‌پوشی از شروط حفاظتی. روی دیگر سکه، ریسک ارزیابی ملک (Appraisal) است. وقتی ارزش‌ها آرام‌آرام پایین می‌آید، ارزیابی می‌تواند کمتر از مبلغ پیشنهاد پذیرفته‌شده شما دربیاید و این اختلاف از جیب خودتان پرداخت می‌شود؛ پس یک ذخیره نقدی در برنامه در نظر بگیرید و پیش از نوشتن پیشنهاد، تأمین مالی‌تان را بررسی کنید، نه بعد از آن.</p><p>خطی که برای مالکان فعلی زیرش خط می‌کشم، بحث تمدید وام است. اگر وام شما در سال‌های نرخ پایین بسته شده، پرداخت زمان تمدید بزرگ‌ترین عدد بودجه خانوار شما در دو سال آینده است و CMHC انتظار دارد نرخ‌های ثابت به‌دلیل بالا ماندن بازدهی اوراق بلندمدت، بالا بمانند. همین حالا آن را با یک نرخ تمدید واقع‌بینانه مدل کنید، نه با امید به نجات. اگر کاندویی در منطقه بزرگ تورنتو دارید، فرض‌های اجاره‌تان را هم دوباره بسنجید؛ افزایش نرخ خالی‌ماندن و کندشدن رشد اجاره‌بها، محاسبات واحدی را که در ۲۰۲۱ ارزیابی شده بود تغییر می‌دهد. هیچ‌کدام از این‌ها پیش‌بینی نرخ نهایی شما نیست؛ بلکه دلیلی است برای اینکه زودتر و همراه با یک کارگزار، اعداد خودتان را در هر دو مسیر ثابت و شناور بررسی کنید.</p>",
+      "seo_title": "CMHC Mid-Year Housing Outlook 2026: Prices Fall, Ontario & B.C. Weakest",
+      "seo_description": "CMHC's 2026 Housing Market Outlook mid-year update sees home prices falling through 2026, weak Ontario and B.C. markets, fewer housing starts and easing rents — and what it means for your mortgage.",
+      "keywords": [
+        "CMHC Housing Market Outlook 2026",
+        "CMHC mid-year update",
+        "Canada home price forecast 2026",
+        "Ontario housing market 2026",
+        "British Columbia housing forecast",
+        "housing starts Canada 2026",
+        "rental vacancy Toronto 2026",
+        "mortgage renewal Ontario"
+      ],
+      "tags": [
+        "housing-market",
+        "cmhc",
+        "forecast",
+        "prices",
+        "ontario",
+        "condos",
+        "rental-market",
+        "new-construction"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_8eba17ee-e81b-4543-8a9c-606c62f9accf.jpg",
+      "image_alt_en": "A quiet street of brick detached homes in an Ontario suburb, with a partly built low-rise condominium and a construction crane in the hazy distance.",
+      "image_alt_fa": "خیابانی آرام با خانه‌های آجری تک‌واحدی در حومه انتاریو، با یک ساختمان کاندومینیوم نیمه‌ساخته و جرثقیل ساختمانی در دوردستِ مه‌آلود.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "CMHC",
+      "source_url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/economic-uncertainty-continue-weighing-housing-market-cmhc",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-22",
+      "imported_date": "2026-07-22",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "housing-market",
+        "first-time-buyer",
+        "renewal",
+        "investors",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "renewal-checklist",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-07-21-bmo-trump-tariffs-boc-rate-cuts",
       "slug": "trump-tariffs-bank-of-canada-rate-cuts-bmo-july-2026",
@@ -71,7 +134,7 @@
       "imported_date": "2026-07-21",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -184,7 +247,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "rates",
         "renewal",
@@ -782,55 +845,6 @@
       "author": "Hamed Ashouri",
       "published_date": "2026-07-09",
       "imported_date": "2026-07-10",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "self-employed",
-        "newcomers"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
-        "se-income"
-      ]
-    },
-    {
-      "id": "news-2026-07-07-haventree-direct-bank",
-      "slug": "haventree-launches-direct-to-consumer-digital-bank",
-      "title_en": "Haventree opens a direct-to-consumer digital bank, stepping beyond the broker channel",
-      "title_fa": "هون‌تری یک بانک دیجیتال مستقیم‌به‌مصرف‌کننده راه‌اندازی کرد و از کانال بروکر فراتر رفت",
-      "summary_en": "Haventree Bank — a Schedule 1 Canadian bank known in the mortgage world as an alternative lender distributed only through brokers — has launched its first direct-to-consumer digital bank. The centrepiece is an 'Everyday Growth Account,' a hybrid chequing-and-savings product paying 2.5% interest with no minimum balance, no monthly fees and support for up to eight accounts per user, offered alongside new GIC products. Services are available in English everywhere outside Quebec for now, with French-language offerings, a Quebec launch and registered investment products all expected later in 2026. CEO Fern Glowinsky frames the move as a natural extension of the bank's lending philosophy and a way to grow both its deposit-funding base and its brand recognition beyond the broker channel. Notably, Haventree built its own platform rather than acquiring one, and stresses that its broker relationships — the core of its business since 1990 — will continue and even deepen.",
-      "summary_fa": "هون‌تری بانک — یک بانک کانادایی رده ۱ که در دنیای وام مسکن به‌عنوان وام‌دهنده جایگزین و صرفاً از طریق بروکرها شناخته می‌شود — نخستین بانک دیجیتال مستقیم‌به‌مصرف‌کننده خود را راه‌اندازی کرد. محور اصلی آن «حساب رشد روزمره» است؛ محصولی ترکیبی از حساب جاری و پس‌انداز با سود ۲٫۵٪، بدون حداقل موجودی، بدون کارمزد ماهانه و با امکان داشتن تا هشت حساب برای هر کاربر، در کنار محصولات جدید GIC. این خدمات فعلاً به زبان انگلیسی در همه‌جای خارج از کبک در دسترس است و خدمات فرانسوی، عرضه در کبک و محصولات سرمایه‌گذاری ثبت‌شده همگی برای اواخر ۲۰۲۶ برنامه‌ریزی شده‌اند. فرن گلوینسکی، مدیرعامل، این اقدام را امتداد طبیعی فلسفه وام‌دهی بانک و راهی برای گسترش پایه تأمین مالی سپرده و شناخت برند فراتر از کانال بروکر می‌داند. نکته مهم اینکه هون‌تری این سکو را به‌جای خرید، خودش ساخته و تأکید می‌کند که روابطش با بروکرها — که از سال ۱۹۹۰ هسته کسب‌وکارش بوده — ادامه یافته و حتی عمیق‌تر خواهد شد.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> When an alternative lender that brokers already trust starts offering everyday deposit accounts, it can be a genuinely useful place to park savings — a CDIC-protected account paying competitive interest, with no minimum balance and no monthly fee. The key is to read it the way Haventree itself describes it: a secondary home for incremental funds, not a reason to move your whole banking life. Diversifying deposits across more than one CDIC-member institution (basic coverage is $100,000 per category, per institution) is a sound, conservative habit — and this simply adds one more credible place to do it.</p><p>The quieter story is what a deposit base does for the lending side. Alternative lenders like Haventree serve a lot of self-employed, newcomer and credit-rebuilding borrowers who don't fit neatly into a big-bank box, and a stronger, more stable funding source generally supports that business over time. I'm not making any promises about rates or approvals — those always depend on your file — but if your situation sits in the alternative space, a well-funded, broker-committed lender expanding its footprint is a healthy sign. If you're wondering whether their mortgage products fit your circumstances, that's exactly the kind of question I'm here to work through with you.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> وقتی یک وام‌دهنده جایگزین که بروکرها پیش‌تر به آن اعتماد دارند شروع به ارائه حساب‌های سپرده روزمره می‌کند، می‌تواند جای واقعاً مفیدی برای نگه‌داری پس‌انداز باشد — حسابی تحت پوشش CDIC با سود رقابتی، بدون حداقل موجودی و بدون کارمزد ماهانه. نکته این است که آن را همان‌گونه بخوانید که خود هون‌تری توصیف می‌کند: خانه‌ای دوم برای وجوه اضافی، نه دلیلی برای انتقال کل زندگی بانکی‌تان. پخش‌کردن سپرده‌ها میان بیش از یک مؤسسه عضو CDIC (پوشش پایه ۱۰۰٬۰۰۰ دلار برای هر دسته و هر مؤسسه) عادتی سنجیده و محافظه‌کارانه است — و این تنها یک گزینه معتبر دیگر به آن می‌افزاید.</p><p>داستان کم‌سروصداتر، تأثیر پایه سپرده بر بخش وام‌دهی است. وام‌دهندگان جایگزینی مانند هون‌تری به بسیاری از خوداشتغال‌ها، تازه‌واردان و افراد در حال بازسازی اعتبار خدمت می‌کنند که به‌راحتی در قالب بانک‌های بزرگ جای نمی‌گیرند، و یک منبع تأمین مالی قوی‌تر و پایدارتر معمولاً در طول زمان از این کسب‌وکار پشتیبانی می‌کند. من هیچ وعده‌ای درباره نرخ یا تأیید نمی‌دهم — این‌ها همیشه به پرونده شما بستگی دارند — اما اگر شرایط شما در فضای جایگزین قرار دارد، گسترش یک وام‌دهنده خوش‌بنیه و متعهد به بروکر نشانه سالمی است. اگر می‌خواهید بدانید محصولات وام آن‌ها با شرایط شما هم‌خوان است یا نه، دقیقاً همین نوع پرسش را با هم بررسی می‌کنیم.</p>",
-      "seo_title": "Haventree Launches a Direct-to-Consumer Digital Bank — Broker View | Hamed Ashouri",
-      "seo_description": "Haventree Bank opens a direct-to-consumer digital bank with a 2.5% Everyday Growth Account and GICs, expanding beyond the broker channel. Ontario mortgage broker Hamed Ashouri on what it means for savers and alternative-lending borrowers.",
-      "keywords": [
-        "Haventree Bank",
-        "alternative lenders",
-        "digital bank",
-        "GIC",
-        "CDIC deposits"
-      ],
-      "tags": [
-        "lenders",
-        "alternative-lending",
-        "deposits"
-      ],
-      "category": "lenders",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_9f059ab1-8044-4279-80b8-bca1b1a36ade.jpg",
-      "image_alt_en": "Modern digital banking app on a phone representing a new consumer bank",
-      "image_alt_fa": "اپلیکیشن بانکداری دیجیتال مدرن روی گوشی، نماد یک بانک مصرفی جدید",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/haventree-bank-launches-direct-to-consumer-digital-bank/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-07",
-      "imported_date": "2026-07-08",
       "status": "published",
       "language": "both",
       "featured": false,
