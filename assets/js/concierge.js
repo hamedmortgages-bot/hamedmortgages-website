@@ -147,7 +147,10 @@
           if(typeof tr==="string"&&tr.trim().charAt(0)==="{"){try{var inner=JSON.parse(tr);tr=inner.text||inner.transcript||"";}catch(e){}}
           tr=String(tr||"").trim();
           if(!tr){addMsg("bot",T[S.lang].retry);pending=null;return;}
-          addMsg("bot",T[S.lang].heard(tr));pending=tr;
+          // Whisper has already produced usable text. Continue the conversation
+          // immediately; do not force a repetitive confirmation turn. Send it as
+          // text so Make routes to Claude instead of re-entering the STT branch.
+          pending=null;handleSend(tr,false);
         }).catch(function(){typing(false);pending=null;addMsg("bot",T[S.lang].retry);});
       };
       fr.onerror=function(){typing(false);pending=null;addMsg("bot",T[S.lang].retry);};
@@ -163,7 +166,7 @@
   langsel.addEventListener("click",function(e){ var b=e.target.closest("button[data-lang]"); if(b) choose(b.getAttribute("data-lang")); });
   $("lang").onclick=function(){ S.lang=S.lang==="en"?"fa":"en"; applyLang(); };
   $("vtoggle").onclick=function(){ S.voiceOn=!S.voiceOn; applyLang(); if(!S.voiceOn&&"speechSynthesis" in window) speechSynthesis.cancel(); };
-  $("send").onclick=function(){ if(pending){ var corrected=input.value.trim(); var t=corrected||pending; pending=null; input.value=""; handleSend(t,true); } else handleSend(input.value); };
+  $("send").onclick=function(){ handleSend(input.value,false); };
   input.addEventListener("input",auto);
   input.addEventListener("keydown",function(e){ if(e.key==="Enter"&&!e.shiftKey){ e.preventDefault(); $("send").onclick(); } });
   document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&panel.classList.contains("cx-open")) close(); });
