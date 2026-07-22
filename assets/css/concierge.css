@@ -1,0 +1,54 @@
+/* AI Mortgage Concierge — widget styles (Deliverable L). Loaded by /assets/js/concierge.js */
+.cxw *{box-sizing:border-box}
+.cxw{--cx-brand:#0b2a4a;--cx-brand2:#12457a;--cx-accent:#c8a24a;--cx-ink:#1a2330;--cx-muted:#6b7688;--cx-bot:#f2f5f9;--cx-user:#0b2a4a;--cx-ring:rgba(11,42,74,.28);--cx-shadow:0 18px 48px rgba(13,30,54,.24);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Vazirmatn",sans-serif}
+.cxw-launch{position:fixed;bottom:22px;right:22px;z-index:2147483000;display:flex;align-items:center;gap:10px;background:var(--cx-brand);color:#fff;border:none;border-radius:999px;padding:12px 18px 12px 14px;cursor:pointer;box-shadow:var(--cx-shadow);font-size:15px;font-weight:600}
+.cxw-launch .cx-dot{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--cx-accent),#e6c877);display:grid;place-items:center;color:#20324a;font-weight:800}
+.cxw-launch.cx-hidden{display:none}
+.cxw[dir=rtl] .cxw-launch{right:auto;left:22px}
+.cxw-panel{position:fixed;bottom:22px;right:22px;z-index:2147483000;width:390px;max-width:calc(100vw - 24px);height:640px;max-height:calc(100vh - 44px);background:#fff;border-radius:18px;box-shadow:var(--cx-shadow);display:none;flex-direction:column;overflow:hidden;border:1px solid #e4ebf3;color:var(--cx-ink)}
+.cxw-panel.cx-open{display:flex}
+.cxw[dir=rtl] .cxw-panel{right:auto;left:22px;text-align:right}
+@media (max-width:480px){.cxw-panel{width:100vw;height:100dvh;max-height:100dvh;bottom:0;right:0;border-radius:0}.cxw[dir=rtl] .cxw-panel{left:0}}
+.cx-head{background:linear-gradient(135deg,var(--cx-brand),var(--cx-brand2));color:#fff;padding:14px;display:flex;gap:10px;align-items:center}
+.cx-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--cx-accent),#e6c877);display:grid;place-items:center;color:#20324a;font-weight:800;flex:0 0 auto}
+.cx-title{flex:1;min-width:0}.cx-title b{display:block;font-size:15px;line-height:1.2}.cx-title span{display:block;font-size:11.5px;opacity:.85;margin-top:2px}
+.cx-head button{background:rgba(255,255,255,.14);border:none;color:#fff;border-radius:8px;cursor:pointer;font-size:12px;padding:6px 8px}
+.cx-iconbtn{width:30px;height:30px;display:grid;place-items:center;font-size:16px;line-height:1}
+.cx-langsel{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;text-align:center;background:#fbfcfe}
+.cx-langsel h2{margin:0;font-size:18px;color:var(--cx-brand);font-weight:700}
+.cx-langsel .cx-sub{margin:0;font-size:13px;color:var(--cx-muted)}
+.cx-langsel .cx-opts{display:flex;flex-direction:column;gap:12px;width:100%;max-width:240px;margin-top:6px}
+.cx-langsel button{padding:14px 18px;border:1.5px solid var(--cx-brand);background:#fff;color:var(--cx-brand);border-radius:14px;font-size:16px;font-weight:700;cursor:pointer}
+.cx-langsel button:hover{background:var(--cx-brand);color:#fff}
+.cx-body{flex:1;overflow-y:auto;padding:14px;background:#fbfcfe;display:none}.cx-body.cx-show{display:block}
+.cx-msg{display:flex;margin:8px 0;gap:8px;align-items:flex-end}
+.cx-msg .cx-b{max-width:82%;padding:10px 13px;border-radius:15px;font-size:14.5px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word}
+.cx-msg.cx-bot .cx-b{background:var(--cx-bot);color:var(--cx-ink);border-bottom-left-radius:5px}
+.cx-msg.cx-user{flex-direction:row-reverse}
+.cx-msg.cx-user .cx-b{background:var(--cx-user);color:#fff;border-bottom-right-radius:5px}
+.cxw[dir=rtl] .cx-msg.cx-bot .cx-b{border-bottom-left-radius:15px;border-bottom-right-radius:5px}
+.cxw[dir=rtl] .cx-msg.cx-user .cx-b{border-bottom-right-radius:15px;border-bottom-left-radius:5px}
+.cx-msg .cx-tts{background:none;border:none;color:var(--cx-muted);cursor:pointer;font-size:15px;padding:2px 4px;align-self:center}
+.cx-typing{display:flex;align-items:center;gap:5px;padding:10px 13px;background:var(--cx-bot);border-radius:15px;width:fit-content;margin:8px 0}
+.cx-typing i{width:7px;height:7px;background:#9aa7b8;border-radius:50%;animation:cxbl 1.2s infinite}
+.cx-typing i:nth-child(2){animation-delay:.2s}.cx-typing i:nth-child(3){animation-delay:.4s}
+@keyframes cxbl{0%,60%,100%{opacity:.3}30%{opacity:1}}
+@keyframes cxpulse{0%{box-shadow:0 0 0 0 rgba(217,52,43,.5)}70%{box-shadow:0 0 0 10px rgba(217,52,43,0)}100%{box-shadow:0 0 0 0 rgba(217,52,43,0)}}
+.cx-quick{display:none;gap:8px;flex-wrap:wrap;padding:8px 12px 0}.cx-quick.cx-show{display:flex}
+.cx-quick button{background:#fff;border:1px solid var(--cx-ring);color:var(--cx-brand);border-radius:999px;padding:7px 12px;font-size:12.5px;cursor:pointer;font-weight:600}
+.cx-foot{border-top:1px solid #e7edf4;padding:10px;background:#fff;display:none}.cx-foot.cx-show{display:block}
+.cx-composer{display:flex;align-items:flex-end;gap:8px}
+.cx-composer textarea{flex:1;resize:none;border:1px solid #d7e0ea;border-radius:12px;padding:10px 12px;font:inherit;font-size:14px;max-height:96px;outline:none}
+.cx-composer textarea:focus{border-color:var(--cx-brand);box-shadow:0 0 0 3px rgba(11,42,74,.10)}
+.cx-cbtn{border:none;border-radius:12px;cursor:pointer;width:42px;height:42px;flex:0 0 auto;display:grid;place-items:center;font-size:18px}
+.cx-cbtn.cx-send{background:var(--cx-brand);color:#fff}.cx-cbtn.cx-mic{background:#eef2f7;color:var(--cx-brand)}
+.cx-cbtn.cx-mic.cx-rec{background:#d9342b;color:#fff;animation:cxpulse 1.1s infinite}
+.cx-recbar{display:none;align-items:center;gap:10px;padding:8px 4px 2px}.cx-recbar.cx-show{display:flex}
+.cx-recbar .cx-rt{font-variant-numeric:tabular-nums;font-weight:700;color:#d9342b}
+.cx-recbar .cx-wave{flex:1;height:8px;background:linear-gradient(90deg,#f2b6b1,#d9342b,#f2b6b1);border-radius:4px;opacity:.7;animation:cxbl 1.4s infinite}
+.cx-recbar button{border:none;border-radius:8px;padding:6px 10px;font-size:12.5px;cursor:pointer;font-weight:600}
+.cx-recbar .cx-cancel{background:#eef2f7;color:#4a5568}.cx-recbar .cx-use{background:#0b2a4a;color:#fff}
+.cx-meta{display:flex;justify-content:space-between;align-items:center;margin-top:7px}
+.cx-meta small{color:var(--cx-muted);font-size:10.5px}.cx-meta .cx-vtoggle{background:none;border:none;color:var(--cx-muted);font-size:11px;cursor:pointer;text-decoration:underline}
+.cx-privacy{font-size:10.5px;color:var(--cx-muted);text-align:center;padding:2px 10px 0}.cx-privacy a{color:var(--cx-brand2)}
+.cx-book{display:inline-block;margin:6px 6px 0 0;padding:7px 12px;background:#fff;border:1px solid var(--cx-ring);border-radius:999px;color:var(--cx-brand);font-size:12.5px;font-weight:600;text-decoration:none}
