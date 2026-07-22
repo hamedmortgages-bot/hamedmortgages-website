@@ -296,7 +296,6 @@ function track(event, props){
   if(CONFIG.META_PIXEL_ID && window.fbq){ try{ fbq('trackCustom', event, props||{}); }catch(e){} }
   // GA-ready
   if(CONFIG.GA_ID && window.gtag){ try{ gtag('event', event, props||{}); }catch(e){} }
-  console.log('[track]', event, props||{});
 }
 
 /* ============================ SOURCE / UTM ============================ */
@@ -314,7 +313,7 @@ function classifySource(u){
 }
 function initSource(){
   const q=new URLSearchParams(location.search), u={};
-  ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","ref","qr","gclid","fbclid"].forEach(k=>{ if(q.get(k)) u[k]=q.get(k); });
+  ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","utm_id","campaign_id","ref","referral_source","referral_type","referral_partner","partner","qr","gclid","fbclid"].forEach(k=>{ if(q.get(k)) u[k]=q.get(k); });
   const now=new Date().toISOString();
   let first=null; try{ first=JSON.parse(localStorage.getItem("hm_first_touch")||"null"); }catch(e){}
   const cls=classifySource(u);
@@ -323,6 +322,51 @@ function initSource(){
   const latest={source_class:cls, utm:u, referrer:document.referrer||null, at:now};
   try{ localStorage.setItem("hm_latest_touch", JSON.stringify(latest)); }catch(e){}
   return {first_touch:first, latest_touch:latest};   // immutable first_touch + updating latest_touch
+}
+
+/* Canonical Lead Engine attribution: acquisition channel and referral are separate dimensions. */
+function resolveLeadChannel(touch){
+  const u=(touch&&touch.utm)||{}, s=(u.utm_source||"").toLowerCase(), m=(u.utm_medium||"").toLowerCase();
+  const r=((touch&&touch.referrer)||"").toLowerCase(), paid=/cpc|ppc|paid|ads|display|paid_social|paidsocial/.test(m);
+  if(u.gclid) return "Google Ads";
+  if(/instagram|\big\b/.test(s)) return paid?"Instagram Paid":"Instagram Organic";
+  if(/facebook|\bfb\b|meta/.test(s)) return paid?"Facebook Paid":"Facebook Organic";
+  if(u.fbclid&&paid) return /instagram|\big\b/.test(s)?"Instagram Paid":"Facebook Paid";
+  if(/google/.test(s)) return paid?"Google Ads":"Google Organic";
+  if(/email|newsletter|mailchimp|gmail/.test(s)||m==="email") return "Email";
+  if(/whatsapp|\bwa\b/.test(s)) return "WhatsApp";
+  if(/workshop|event|seminar|webinar/.test(s)||/workshop|event|seminar/.test(m)) return "Workshop/Event";
+  if(r){
+    if(/instagram\.com/.test(r)) return "Instagram Organic";
+    if(/facebook\.com|fb\.me|l\.facebook/.test(r)) return "Facebook Organic";
+    if(/google\./.test(r)) return "Google Organic";
+    if(/wa\.me|whatsapp/.test(r)) return "WhatsApp";
+  }
+  return (!s&&!m&&!r&&!u.gclid&&!u.fbclid)?"Direct Website":"Other";
+}
+function resolveReferralType(u){
+  u=u||{}; const r=(u.referral_type||u.referral_source||u.ref||"").toLowerCase();
+  if(/realtor|real estate/.test(r)) return "Realtor";
+  if(/mortgage broker|broker/.test(r)) return "Mortgage Broker";
+  if(/existing client|client/.test(r)) return "Existing Client";
+  if(/professional|accountant|lawyer|planner/.test(r)) return "Professional";
+  return "None";
+}
+function submissionId(){
+  if(STATE.submissionId) return STATE.submissionId;
+  STATE.submissionId=(window.crypto&&crypto.randomUUID)?crypto.randomUUID():
+    "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,c=>{const r=Math.random()*16|0,v=c==="x"?r:(r&3|8);return v.toString(16)});
+  return STATE.submissionId;
+}
+function deviceCategory(){
+  const ua=navigator.userAgent||"";
+  if(/iPad|Tablet/i.test(ua)) return "Tablet";
+  if(/Mobi|Android|iPhone|iPod/i.test(ua)) return "Mobile";
+  return ua?"Desktop":"Unknown";
+}
+function transactionType(goal){
+  return ({purchase:"Purchase",refinance:"Refinance",renewal:"Renewal-Switch",switch_transfer:"Renewal-Switch",
+    equity_take_out:"HELOC-Equity",heloc:"HELOC-Equity",reverse_mortgage:"Reverse Mortgage"})[goal]||"Other";
 }
 
 /* ============================ i18n ============================ */
@@ -779,6 +823,11 @@ function buildPayload(id){
   // AUTHORITATIVE internal v1.1 decision (never displayed)
   const dec=v11decision(discovery, identity, consent, a.jurisdiction);
   const ft=STATE.source.first_touch, lt=STATE.source.latest_touch;
+  const latestUtm=(lt&&lt.utm)||{};
+  const originalSource=resolveLeadChannel(ft), latestSource=resolveLeadChannel(lt);
+  const referralType=resolveReferralType(latestUtm);
+  const referralPartner=latestUtm.referral_partner||latestUtm.partner||"";
+  const submitId=submissionId();
   const bundle={ vertical_config_version:CONFIG.VERTICAL_CONFIG_VERSION, dedup_key:dedup, submitted_at:nowISO,
     lead_gen_only:true, regulated_content:"BLOCKED_S2_NOT_LIVE_UNTIL_VALIDATED",
     source:{ first_touch:ft, latest_touch:lt },
@@ -815,12 +864,25 @@ function buildPayload(id){
   return {
     // ---- flat fields for direct Zoho mapping in Make ----
     first_name:first, last_name:last, full_name:rawName, email:id.email, mobile:id.mobile,
-    company:"MortgageAI Web Funnel", lead_source:"Website Zobot Intake", lead_status:"Not Contacted",
+    company:"MortgageAI Web Funnel", lead_source:"Website Mortgage Strategy Funnel", lead_status:"Not Contacted",
     lead_quality:bandToQuality(dec.band), preferred_contact_method:methodLabel(a.preferred_contact_channel_time),
     consent_to_contact:!!id.svc, consent_call_sms:(a.preferred_contact_channel_time==='phone'||a.preferred_contact_channel_time==='text'),
     consent_status:consentStatus(!!id.svc,!!id.mkt), consent_timestamp:nowISO, consent_source_form_id:dedup,
     submission_count:1, duplicate_flag:"None",
     vertical_config_version:CONFIG.VERTICAL_CONFIG_VERSION,
+    submission_id:submitId,
+    original_source:originalSource, latest_source:latestSource,
+    referral_type:referralType, referral_partner:referralPartner,
+    utm_source:latestUtm.utm_source||"", utm_medium:latestUtm.utm_medium||"",
+    utm_campaign:latestUtm.utm_campaign||"", utm_term:latestUtm.utm_term||"", utm_content:latestUtm.utm_content||"",
+    campaign_id:latestUtm.utm_id||latestUtm.campaign_id||"", campaign_name:latestUtm.utm_campaign||"",
+    gclid:latestUtm.gclid||"", fbclid:latestUtm.fbclid||"",
+    original_referrer:(ft&&ft.referrer)||"",
+    first_page:(ft&&ft.landing)||location.pathname,
+    landing_page:location.pathname+location.search,
+    device_category:deviceCategory(), form_language:STATE.lang==="fa"?"Farsi":"English",
+    province:a.jurisdiction||"", occupancy:a.occupancy_use||"", transaction_type:transactionType(a.goal_objective),
+    latest_touch_data:JSON.stringify({source:latestSource,utm:latestUtm,referrer:(lt&&lt.referrer)||"",at:(lt&&lt.at)||nowISO}),
     description:humanDesc,
     technical_record:techRecord,
     // ---- consent-gated Gmail (Make sends only if consent_to_contact) ----
