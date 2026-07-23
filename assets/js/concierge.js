@@ -1,4 +1,4 @@
-/* AI Mortgage Concierge — production widget (Deliverable L + Voice)
+/* NILI — Hamed Ashouri's AI Assistant — production chat widget (was: AI Mortgage Concierge) (Deliverable L + Voice)
    Owner: Hamed Ashouri (M22004433 · FSRA #10530). Track B — Lead Conversion / Marketing Engine.
    Data flow (same pattern as this site's existing strategy.html/assessment.js):
      browser -> S-BRAIN webhook (Claude reply + strict-JSON state; Whisper STT for voice)
@@ -35,8 +35,9 @@
           en: {
                   launch: "Have a mortgage question? Let's talk.",
                   greet: "Hi, welcome. How can I help you today?",
-                  title: "Mortgage Concierge",
-                  sub: "AI assistant · not a live agent",
+                  title: "NILI",
+                  desc: "Hamed Ashouri's AI Assistant",
+                  sub: "AI-powered · Not a live agent",
                   langBtn: "فارسی",
                   placeholder: "Type your message…",
                   book: "Book a consultation",
@@ -58,8 +59,9 @@
           fa: {
                   launch: "سؤال وام مسکن داری؟ با هم بررسی کنیم.",
                   greet: "سلام، خوش اومدید. چه کمکی می‌تونم بهتون بکنم؟",
-                  title: "دستیار وام مسکن",
-                  sub: "دستیار هوش مصنوعی · نه اپراتور زنده",
+                  title: "نیلی",
+                  desc: "دستیار هوشمند حامد عاشوری",
+                  sub: "مبتنی بر هوش مصنوعی · اپراتور انسانی نیست",
                   langBtn: "EN",
                   placeholder: "پیام خود را بنویسید…",
                   book: "رزرو مشاوره",
@@ -102,9 +104,9 @@
     root.className = "cxw";
     root.setAttribute("dir", "ltr");
     root.innerHTML =
-          '<button class="cxw-launch" data-cx="launch" aria-label="Open mortgage concierge"><span class="cx-dot">✦</span><span data-cx="launchText">Have a mortgage question? Let\'s talk.</span></button>' +
-          '<section class="cxw-panel" data-cx="panel" role="dialog" aria-label="AI Mortgage Concierge">' +
-          '<header class="cx-head"><div class="cx-avatar">✦</div><div class="cx-title"><b data-cx="title">Mortgage Concierge</b><span data-cx="sub">AI assistant · not a live agent</span></div>' +
+          '<button class="cxw-launch" data-cx="launch" aria-label="Open NILI chat"><span class="cx-dot">✦</span><span data-cx="launchText">Have a mortgage question? Let\'s talk.</span></button>' +
+          '<section class="cxw-panel" data-cx="panel" role="dialog" aria-label="NILI — Hamed Ashouri\'s AI Assistant">' +
+          '<header class="cx-head"><div class="cx-avatar">✦</div><div class="cx-title"><b data-cx="title">NILI</b><span class="cx-desc" data-cx="desc">Hamed Ashouri\'s AI Assistant</span><span class="cx-sub-line" data-cx="sub">AI-powered · Not a live agent</span></div>' +
           '<button data-cx="lang" style="display:none;font-weight:700">فارسی</button><button class="cx-iconbtn" data-cx="min" aria-label="Minimize">—</button><button class="cx-iconbtn" data-cx="close" aria-label="Close">×</button></header>' +
           '<div class="cx-langsel" data-cx="langsel"><h2>Please choose your language<br><span dir="rtl">لطفاً زبان خود را انتخاب کنید</span></h2><p class="cx-sub">AI assistant · general info only, not mortgage advice</p>' +
           '<div class="cx-opts"><button data-lang="fa" dir="rtl">فارسی</button><button data-lang="en">English</button></div></div>' +
@@ -122,6 +124,7 @@
           root.setAttribute("dir", rtl ? "rtl" : "ltr");
           $("launchText").textContent = t.launch;
           $("title").textContent = t.title;
+          if ($("desc")) $("desc").textContent = t.desc || "";
           $("sub").textContent = t.sub;
           $("lang").textContent = t.langBtn;
           input.placeholder = t.placeholder;

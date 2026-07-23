@@ -38,10 +38,10 @@
   // Brand SVG placeholder shown until a real generated image is in place (no broken images).
   var PLACEHOLDER = "data:image/svg+xml;utf8," + encodeURIComponent(
     '<svg xmlns="http://www.w3.org/2000/svg" width="720" height="405" viewBox="0 0 720 405">' +
-    '<rect width="720" height="405" fill="#0F3D2E"/>' +
+    '<rect width="720" height="405" fill="#0B2A4A"/>' +
     '<rect width="720" height="405" fill="url(#g)"/>' +
     '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">' +
-    '<stop offset="0" stop-color="#0F3D2E"/><stop offset="1" stop-color="#1c5a44"/></linearGradient></defs>' +
+    '<stop offset="0" stop-color="#0B2A4A"/><stop offset="1" stop-color="#1c5a44"/></linearGradient></defs>' +
     '<text x="50%" y="48%" fill="#d9b46a" font-family="Manrope,Arial,sans-serif" font-size="34" font-weight="800" text-anchor="middle">Hamed Ashouri</text>' +
     '<text x="50%" y="60%" fill="#ffffff" font-family="Manrope,Arial,sans-serif" font-size="18" text-anchor="middle" opacity="0.85">Mortgage News</text></svg>');
   var ONERR = ' onerror="this.onerror=null;this.src=\'' + PLACEHOLDER + '\'"';
