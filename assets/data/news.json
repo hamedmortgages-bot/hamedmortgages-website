@@ -1,5 +1,5 @@
 {
-  "version": "22",
+  "version": "23",
   "updated": "2026-07-23",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
@@ -30,6 +30,63 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-07-22-us-30yr-yield-above-5",
+      "slug": "us-30-year-yield-longest-run-above-5-since-2007",
+      "title_en": "U.S. 30-year yield holds above 5% in its longest run since 2007 — why it matters for Canadian fixed rates",
+      "title_fa": "بازده اوراق ۳۰ ساله آمریکا در طولانی‌ترین دوره بالای ۵ درصد از سال ۲۰۰۷ — و چرا برای نرخ‌های ثابت کانادا مهم است",
+      "summary_en": "The U.S. 30-year Treasury yield is trading above 5% for its longest sustained stretch since the dawn of the 2007–08 financial crisis, with roughly 27 sessions above that mark so far this year — about one session in five, the most since 2007. Investors are demanding more compensation to hold long-dated government debt as Washington's deficits swell, annual interest costs top US$1 trillion, and a wave of AI-infrastructure borrowing competes for the same pool of buyers. Tellingly, the Federal Reserve's policy rate now sits about 150 basis points below where it was in 2007, so the elevated long yield reflects fiscal and inflation worries rather than tight central-bank policy. Strategists quoted by Bloomberg warned the move looks structural — a possible return of the 1980s-style 'bond vigilantes' — and several are steering money into shorter maturities to limit losses from any further spike. For Canada, distant U.S. long yields still matter, because they help set the tone for the global bond market that Canadian fixed mortgage rates are ultimately priced from.",
+      "summary_fa": "بازده اوراق خزانه‌داری ۳۰ ساله آمریکا برای طولانی‌ترین دوره پیوسته از آغاز بحران مالی ۲۰۰۷–۲۰۰۸ بالای ۵ درصد معامله می‌شود؛ امسال تاکنون حدود ۲۷ جلسه معاملاتی بالای این سطح بوده — تقریباً یک جلسه از هر پنج جلسه، بیشترین میزان از سال ۲۰۰۷. سرمایه‌گذاران با افزایش کسری بودجه واشنگتن، عبور هزینه سالانه بهره از ۱ تریلیون دلار و موج استقراض برای زیرساخت هوش مصنوعی که برای همان گروه خریداران رقابت می‌کند، خواهان جبران بیشتری برای نگهداری بدهی بلندمدت دولتی هستند. نکته مهم اینکه نرخ سیاستی فدرال‌رزرو اکنون حدود ۱۵۰ واحد پایه پایین‌تر از سال ۲۰۰۷ است، پس این بازده بالا بازتاب نگرانی‌های مالی و تورمی است، نه سیاست انقباضی بانک مرکزی. تحلیلگران نقل‌شده توسط بلومبرگ هشدار دادند که این حرکت ساختاری به نظر می‌رسد — احتمال بازگشت «گشت‌های اوراق» به سبک دهه ۱۹۸۰ — و برخی سرمایه را به سررسیدهای کوتاه‌تر منتقل می‌کنند تا زیان یک جهش دیگر را محدود کنند. برای کانادا، بازده بلندمدت آمریکا هرچند دور، همچنان اهمیت دارد، چون لحن بازار جهانی اوراق را تعیین می‌کند که نرخ‌های ثابت وام مسکن کانادا در نهایت از روی آن قیمت‌گذاری می‌شوند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is a U.S. story, but it lands on Canadian kitchen tables. Your five-year fixed mortgage rate is not set by the Bank of Canada's overnight rate — it takes its cue from the bond market, and Government of Canada yields move within the gravity of the much larger U.S. Treasury market. So even though the Bank of Canada is comfortably on hold at 2.25%, a long U.S. yield that refuses to fall back below 5% helps explain why fixed rates have stayed sticky instead of drifting lower. It is the clearest answer I can give to the question I hear most this month: 'rates are supposed to be coming down, so why is my fixed quote still up here?'</p><p>What I would actually do with this: don't try to trade the bond market, but don't wait passively either. If you are renewing in the next six to twelve months, lock a rate hold now so you are protected while this plays out, and have your broker price both a fixed and a shorter or variable option side by side so the decision rests on your own cash-flow and risk tolerance, not on a headline. None of this is a forecast or a promise about where rates go next — it is a reminder that fixed-rate borrowers are quietly exposed to what happens in Washington's debt market, and that a rate hold costs nothing to put in place.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این یک خبر آمریکایی است، اما پای آن به میز آشپزخانه کانادایی‌ها می‌رسد. نرخ ثابت پنج‌ساله وام مسکن شما را نرخ شبانه بانک مرکزی کانادا تعیین نمی‌کند؛ این نرخ از بازار اوراق قرضه الهام می‌گیرد و بازده اوراق دولت کانادا در میدان جاذبه بازار بسیار بزرگ‌تر اوراق خزانه آمریکا حرکت می‌کند. پس با اینکه بانک مرکزی کانادا با خیال راحت نرخ را در ۲.۲۵ درصد نگه داشته، بازده بلندمدت آمریکا که حاضر نیست به زیر ۵ درصد برگردد، توضیح می‌دهد چرا نرخ‌های ثابت به‌جای کاهش، چسبنده مانده‌اند. این روشن‌ترین پاسخ من به پرسشی است که این ماه بیش از همه می‌شنوم: «قرار بود نرخ‌ها پایین بیایند، پس چرا نرخ ثابت من هنوز این‌قدر بالاست؟»</p><p>کاری که واقعاً پیشنهاد می‌کنم: بازار اوراق را معامله نکنید، اما منفعلانه هم منتظر نمانید. اگر در شش تا دوازده ماه آینده تمدید دارید، همین حالا یک «نگه‌داشت نرخ» بگیرید تا در این دوره محافظت شوید، و از بروکر خود بخواهید گزینه ثابت و گزینه کوتاه‌تر یا متغیر را کنار هم قیمت‌گذاری کند تا تصمیم بر پایه جریان نقدی و تحمل ریسک خودتان باشد، نه یک تیتر خبری. هیچ‌کدام از این‌ها پیش‌بینی یا وعده‌ای درباره مسیر نرخ‌ها نیست — فقط یادآوری اینکه وام‌گیرندگان نرخ ثابت به‌طور پنهان در معرض آنچه در بازار بدهی واشنگتن رخ می‌دهد قرار دارند، و گرفتن یک نگه‌داشت نرخ هیچ هزینه‌ای ندارد.</p>",
+      "seo_title": "U.S. 30-Year Yield Above 5%: What It Means for Canadian Fixed Mortgage Rates",
+      "seo_description": "The U.S. 30-year Treasury yield is in its longest run above 5% since 2007. Here's why that keeps Canadian fixed mortgage rates sticky — and what borrowers should do.",
+      "keywords": [
+        "US 30-year Treasury yield 2026",
+        "bond yields Canadian mortgage rates",
+        "why fixed mortgage rates not falling",
+        "Canada 5-year fixed mortgage rate",
+        "bond vigilantes 2026",
+        "mortgage rate hold renewal Canada",
+        "Bank of Canada 2.25 percent"
+      ],
+      "tags": [
+        "Bond Yields",
+        "Fixed Rates",
+        "US Treasury",
+        "Mortgage Strategy",
+        "Renewals"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_1408e67a-9d04-41fa-b4c3-269332accde6.jpg",
+      "image_alt_en": "A modern Canadian financial advisor's desk by a sunlit window overlooking suburban rooftops, warm gold and forest-green tones.",
+      "image_alt_fa": "میز یک مشاور مالی مدرن کانادایی کنار پنجره‌ای آفتابی مشرف به بام خانه‌های حومه شهر، با تونالیته گرم طلایی و سبز جنگلی.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/07/u-s-30-year-yield-raises-alarm-in-longest-run-above-5-since-2007/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-07-22",
+      "imported_date": "2026-07-23",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "rates",
+        "renewal",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-stress",
+        "gen-preapproval",
+        "renewal-checklist"
+      ]
+    },
     {
       "id": "news-2026-07-23-aging-in-place-55-plus",
       "slug": "aging-in-place-financing-55-plus-homeowners",
@@ -74,7 +131,7 @@
       "imported_date": "2026-07-23",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "reverse-mortgage",
@@ -195,7 +252,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "rates",
         "renewal",
@@ -818,56 +875,6 @@
       ],
       "related_knowledge_blocks": [
         "ftb-roadmap",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-10-june-jobs",
-      "slug": "canada-adds-18200-jobs-june-2026-jobless-rate-6-5",
-      "title_en": "Canada added 18,200 jobs in June and unemployment slipped to 6.5%, cementing a Bank of Canada hold",
-      "title_fa": "کانادا در ژوئن ۱۸٬۲۰۰ شغل ایجاد کرد و نرخ بیکاری به ۶٫۵٪ رسید و انتظار توقف نرخ بانک مرکزی را تثبیت کرد",
-      "summary_en": "Statistics Canada reported that employment rose by 18,200 in June and the unemployment rate edged down to 6.5% from 6.6%, a firmer result than the roughly 10,000-job gain and steady jobless rate economists had expected. The gains were concentrated in the service sector and part-time work — retail and wholesale trade added 16,400 and accommodation and food services 14,700 — while goods-producing industries shed 43,700 positions, led by a 16,800 drop in manufacturing. The report also showed a sharp compositional shift, with the public sector losing 30,500 jobs (its biggest monthly decline outside the pandemic since 2015) even as private-sector employment rose 31,600. Wage growth for full-time permanent employees accelerated to 3.7% year-over-year from 3.2% in May, the participation rate held at 65%, and younger workers were a notable bright spot. Economists said the data, following May's outsized 87,800 gain, point to an economy stabilizing rather than deteriorating — and are widely expected to keep the Bank of Canada on hold at 2.25% at its July 15 decision.",
-      "summary_fa": "آمار کانادا گزارش داد که اشتغال در ژوئن ۱۸٬۲۰۰ افزایش یافت و نرخ بیکاری از ۶٫۶٪ به ۶٫۵٪ رسید؛ نتیجه‌ای قوی‌تر از افزایش حدود ۱۰٬۰۰۰ شغلی و ثابت‌ماندن نرخ بیکاری که اقتصاددانان انتظار داشتند. این رشد در بخش خدمات و کار پاره‌وقت متمرکز بود — خرده‌فروشی و عمده‌فروشی ۱۶٬۴۰۰ و خدمات اقامتی و غذایی ۱۴٬۷۰۰ شغل افزودند — در حالی که بخش‌های تولید کالا ۴۳٬۷۰۰ شغل از دست دادند که پیشتاز آن افت ۱۶٬۸۰۰ شغلی در بخش تولید بود. این گزارش همچنین جابه‌جایی ترکیبی چشمگیری را نشان داد: بخش عمومی ۳۰٬۵۰۰ شغل از دست داد (بزرگ‌ترین کاهش ماهانه خارج از دوره همه‌گیری از سال ۲۰۱۵) در حالی که اشتغال بخش خصوصی ۳۱٬۶۰۰ افزایش یافت. رشد دستمزد کارکنان تمام‌وقت دائمی از ۳٫۲٪ در مه به ۳٫۷٪ نسبت به سال گذشته شتاب گرفت، نرخ مشارکت در ۶۵٪ ثابت ماند و کارگران جوان‌تر نقطه روشن قابل‌توجهی بودند. اقتصاددانان گفتند این داده‌ها، پس از رشد بزرگ ۸۷٬۸۰۰ شغلی مه، به اقتصادی در حال تثبیت اشاره دارند نه رو به وخامت — و به‌طور گسترده انتظار می‌رود بانک مرکزی کانادا را در تصمیم ۱۵ ژوئیه در نرخ ۲٫۲۵٪ ثابت نگه دارند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> A jobs report like this one — modest gains, a slightly lower unemployment rate, no sign of a collapsing labour market — is exactly the kind of data that keeps the Bank of Canada comfortable holding its policy rate steady rather than cutting. Markets and economists are reading the July 15 decision as a hold, and one CIBC economist noted policymakers will likely want to see the labour market strengthen further before they'd even consider moving rates in either direction. In plain terms: don't build your plan around a rate cut arriving soon.</p><p>What that means for you depends on where you sit. If you're on a variable rate, this points to your payment staying roughly where it is for now rather than dropping. If you're renewing or buying, the smart move is to lock in a real pre-approval and rate hold so you're protected for 90–120 days, and to stress-test your budget against a payment that stays higher for longer. I'm not predicting rates — nobody credibly can — but planning around 'steady for now' is far safer than betting on relief that the data isn't yet signalling.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> گزارش اشتغالی مانند این — رشد اندک، نرخ بیکاری کمی پایین‌تر، بدون نشانه‌ای از فروپاشی بازار کار — دقیقاً همان داده‌ای است که بانک مرکزی کانادا را برای ثابت‌نگه‌داشتن نرخ سیاستی به‌جای کاهش آن راحت نگه می‌دارد. بازارها و اقتصاددانان تصمیم ۱۵ ژوئیه را توقف نرخ می‌خوانند و یک اقتصاددان CIBC اشاره کرد که سیاست‌گذاران احتمالاً می‌خواهند پیش از آنکه حتی به تغییر نرخ در هر جهتی فکر کنند، تقویت بیشتر بازار کار را ببینند. به زبان ساده: برنامه خود را بر پایه رسیدن زودهنگام کاهش نرخ نچینید.</p><p>معنای این موضوع برای شما به موقعیتتان بستگی دارد. اگر نرخ شناور دارید، این نشان می‌دهد که پرداخت شما فعلاً تقریباً همان‌جا می‌ماند نه اینکه کاهش یابد. اگر در حال تمدید یا خرید هستید، اقدام هوشمندانه گرفتن پیش‌تأیید واقعی و نگهداشت نرخ است تا ۹۰ تا ۱۲۰ روز محافظت شوید، و سنجیدن بودجه‌تان در برابر پرداختی که مدت بیشتری بالا می‌ماند. من نرخ‌ها را پیش‌بینی نمی‌کنم — هیچ‌کس معتبرانه نمی‌تواند — اما برنامه‌ریزی حول «فعلاً ثابت» بسیار امن‌تر از شرط‌بستن بر تسکینی است که داده‌ها هنوز آن را نشان نمی‌دهند.</p>",
-      "seo_title": "Canada Adds 18,200 Jobs in June, Jobless Rate 6.5% — Broker View | Hamed Ashouri",
-      "seo_description": "Canada added 18,200 jobs in June and unemployment fell to 6.5%, reinforcing expectations the Bank of Canada holds at 2.25% on July 15. Ontario mortgage broker Hamed Ashouri on what it means for your rate and renewal.",
-      "keywords": [
-        "Canada jobs report",
-        "unemployment rate",
-        "Bank of Canada",
-        "interest rates",
-        "StatCan"
-      ],
-      "tags": [
-        "rates",
-        "bank-of-canada",
-        "economy"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_0a79a26f-8888-475d-aa63-0be573379a3b.jpg",
-      "image_alt_en": "Canadian workers on the job representing the June labour force survey",
-      "image_alt_fa": "کارگران کانادایی در محل کار، نماد نظرسنجی نیروی کار ژوئن",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/canada-adds-18200-jobs-in-june-jobless-rate-falls-to-6-5/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-10",
-      "imported_date": "2026-07-10",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "renewal"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
         "gen-preapproval"
       ]
     }
