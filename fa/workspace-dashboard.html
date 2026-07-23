@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <meta name="theme-color" content="#0F3D2E">
+  <meta name="theme-color" content="#0B2A4A">
   <link rel="stylesheet" href="../assets/css/main.css?v=20260627b">
   <style>
     .ws-wrap { max-width: 1100px; margin-inline: auto; }
@@ -34,7 +34,7 @@
     .timeline .dot { width:1.5rem; height:1.5rem; flex:0 0 auto; border-radius:50%; border:2px solid var(--line); background:#fff; display:grid; place-items:center; font-size:.75rem; color:var(--text-muted); position:relative; }
     .timeline li:not(:last-child) .dot::after { content:""; position:absolute; top:1.5rem; inset-inline-start:50%; transform:translateX(-50%); width:2px; height:1.4rem; background:var(--line); }
     .timeline .done .dot { background:var(--green-600); border-color:var(--green-600); color:#fff; }
-    .timeline .current .dot { border-color:var(--green-600); color:var(--green-700); box-shadow:0 0 0 3px rgba(28,107,80,.12); }
+    .timeline .current .dot { border-color:var(--green-600); color:var(--green-700); box-shadow:0 0 0 3px rgba(11,42,74,.12); }
     .timeline .tl-body { padding-bottom:1rem; }
     .timeline .tl-body b { color:var(--heading); }
     .timeline .tl-body small { display:block; color:var(--text-muted); }
@@ -42,7 +42,7 @@
     .doc-tabs { display:flex; gap:.4rem; flex-wrap:wrap; margin-bottom:1rem; }
     .doc-tab { font-size:.8rem; font-weight:700; border:1px solid var(--line); background:#fff; border-radius:999px; padding:.3rem .8rem; }
     .emptybox { border:1px dashed var(--line); border-radius:var(--radius-sm); padding:1.1rem; color:var(--text-muted); background:var(--mist); }
-    .uploadbox { border:2px dashed var(--green-600); border-radius:var(--radius-sm); padding:1.2rem; text-align:center; color:var(--green-700); background:rgba(28,107,80,.04); margin-top:1rem; }
+    .uploadbox { border:2px dashed var(--green-600); border-radius:var(--radius-sm); padding:1.2rem; text-align:center; color:var(--green-700); background:rgba(11,42,74,.04); margin-top:1rem; }
     .msg { background:var(--mist); border:1px solid var(--line); border-radius:var(--radius-sm); padding:.9rem 1rem; margin-bottom:.7rem; }
     .msg .who { font-weight:800; font-size:.85rem; color:var(--green-800); }
     .msg .when { font-size:.75rem; color:var(--text-muted); }
@@ -181,7 +181,7 @@
         </div>
 
         <div class="panel">
-          <h2>🤖 دستیار هوش مصنوعی وام مسکن <span class="muted">پاسخ فقط از پروندهٔ شما</span></h2>
+          <h2>🤖 نیلی <span class="muted">پاسخ فقط از پروندهٔ شما</span></h2>
           <div class="ai-box">
             <div class="ai-log" id="ai-log">دربارهٔ پروندهٔ وام مسکن خود بپرسید — مثلاً چه چیزی کم است، چرا وام‌دهنده‌ای انتخاب شده، یا مرحلهٔ بعد چیست. پاسخ‌ها فقط از پروندهٔ واقعی شما خواهد بود (هرگز ساختگی نیست). دستیار در فاز ۲ به پروندهٔ CRM شما متصل می‌شود.</div>
             <form class="ai-input" id="ai-form" autocomplete="off">
