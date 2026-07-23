@@ -1,4 +1,4 @@
-———/* AI Mortgage Concierge — widget styles (Deliverable L). Loaded by /assets/js/concierge.js */
+———/* NILI (Hamed Ashouri's AI Assistant) — widget styles (Deliverable L). Loaded by /assets/js/concierge.js */
 .cxw *{box-sizing:border-box}
 .cxw{--cx-brand:#0b2a4a;--cx-brand2:#12457a;--cx-accent:#c8a24a;--cx-ink:#1a2330;--cx-muted:#6b7688;--cx-bot:#f2f5f9;--cx-user:#0b2a4a;--cx-ring:rgba(11,42,74,.28);--cx-shadow:0 18px 48px rgba(13,30,54,.24);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Vazirmatn",sans-serif}
 .cxw-launch{position:fixed;bottom:22px;right:22px;z-index:2147483000;display:flex;align-items:center;gap:10px;background:var(--cx-brand);color:#fff;border:none;border-radius:999px;padding:12px 18px 12px 14px;cursor:pointer;box-shadow:var(--cx-shadow);font-size:15px;font-weight:600}
@@ -11,7 +11,7 @@
 @media (max-width:480px){.cxw-panel{width:100vw;height:100dvh;max-height:100dvh;bottom:0;right:0;border-radius:0}.cxw[dir=rtl] .cxw-panel{left:0}}
 .cx-head{background:linear-gradient(135deg,var(--cx-brand),var(--cx-brand2));color:#fff;padding:14px;display:flex;gap:10px;align-items:center}
 .cx-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--cx-accent),#e6c877);display:grid;place-items:center;color:#20324a;font-weight:800;flex:0 0 auto}
-.cx-title{flex:1;min-width:0}.cx-title b{display:block;font-size:15px;line-height:1.2}.cx-title span{display:block;font-size:11.5px;opacity:.85;margin-top:2px}
+.cx-title{flex:1;min-width:0}.cx-title b{display:block;font-size:15px;line-height:1.2}.cx-title .cx-desc{display:block;font-size:12px;opacity:.92;margin-top:2px;font-weight:600}.cx-title .cx-sub-line{display:block;font-size:11px;opacity:.78;margin-top:1px}.cx-title span{display:block}
 .cx-head button{background:rgba(255,255,255,.14);border:none;color:#fff;border-radius:8px;cursor:pointer;font-size:12px;padding:6px 8px}
 .cx-iconbtn{width:30px;height:30px;display:grid;place-items:center;font-size:16px;line-height:1}
 .cx-langsel{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;text-align:center;background:#fbfcfe}

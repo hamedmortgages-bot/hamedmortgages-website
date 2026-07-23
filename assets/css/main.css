@@ -6,30 +6,47 @@
 
 /* ---------- Design Tokens ---------- */
 :root {
-  /* Brand palette */
-  --green-900: #0B2A20;
-  --green-800: #0F3D2E;
-  --green-700: #15523E;
-  --green-600: #1C6B50;
-  --gold:      #C5A249;
-  --gold-soft: #D8BE7E;
+  /* ===== BRAND PALETTE — Navy + Gold (source of truth: NILI chatbot) ===== */
+  --brand-navy:        #0B2A4A;   /* dominant brand colour */
+  --brand-navy-dark:   #081D34;   /* deep navy — footers, hovers, dark sections */
+  --brand-navy-light:  #12457A;   /* secondary navy — gradients, links, large accents */
+  --brand-gold:        #C8A24A;   /* premium accent — borders, active states, key CTAs, icons */
+  --brand-gold-light:  #E6C877;   /* gold highlight / gradient partner */
+
+  /* Surfaces & neutrals (navy-tinted) */
+  --surface-light: #F2F5F9;
   --charcoal:  #1C1C1C;
-  --ink:       #222826;
-  --slate:     #4A554F;
-  --line:      #E4E8E5;
-  --mist:      #F5F7F5;
-  --cloud:     #FBFCFB;
+  --ink:       #1A2330;
+  --slate:     #5A6373;
+  --line:      #E4EBF3;
+  --mist:      #F2F5F9;
+  --cloud:     #FBFCFE;
   --white:     #FFFFFF;
+  --text-primary: var(--ink);
+
+  /* Semantic status (distinct from brand — never navy/gold for status) */
+  --success: #157347;
+  --warning: #B45309;
+  --error:   #B3261E;
+
+  /* Legacy aliases — repointed to Navy so every existing reference migrates automatically */
+  --green-900: var(--brand-navy-dark);
+  --green-800: var(--brand-navy);
+  --green-700: var(--brand-navy-light);
+  --green-600: var(--brand-navy-light);
+  --gold:      var(--brand-gold);
+  --gold-soft: var(--brand-gold-light);
 
   /* Semantic */
+  --brand:         var(--brand-navy);
   --bg:            var(--white);
   --bg-alt:        var(--mist);
-  --text:          var(--ink);
+  --text:          var(--text-primary);
   --text-muted:    var(--slate);
-  --heading:       var(--green-800);
-  --accent:        var(--gold);
-  --on-dark:       #EAF0EC;
-  --on-dark-muted: #A9BCB2;
+  --heading:       var(--brand-navy);
+  --accent:        var(--brand-gold);
+  --on-dark:       #EAF0F6;
+  --on-dark-muted: #A9B6CC;
 
   /* Type */
   --font-sans: "Manrope", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
@@ -39,9 +56,9 @@
   --maxw: 1160px;
   --radius: 14px;
   --radius-sm: 8px;
-  --shadow-sm: 0 1px 3px rgba(15, 61, 46, 0.08);
-  --shadow-md: 0 10px 30px rgba(11, 42, 32, 0.10);
-  --shadow-lg: 0 24px 60px rgba(11, 42, 32, 0.16);
+  --shadow-sm: 0 1px 3px rgba(11, 42, 74, 0.08);
+  --shadow-md: 0 10px 30px rgba(8, 29, 52, 0.10);
+  --shadow-lg: 0 24px 60px rgba(8, 29, 52, 0.16);
   --transition: 200ms ease;
 }
 
@@ -266,7 +283,7 @@ li { margin-bottom: .4rem; }
   width: 100%; font-family: inherit; font-size: 1rem; padding: .8rem .9rem;
   border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; color: var(--ink);
 }
-.field input:focus, .field select:focus { border-color: var(--green-600); outline: none; box-shadow: 0 0 0 3px rgba(28,107,80,.12); }
+.field input:focus, .field select:focus { border-color: var(--green-600); outline: none; box-shadow: 0 0 0 3px rgba(11,42,74,.12); }
 .calc__result {
   background: var(--green-900); color: #fff; border-radius: var(--radius); padding: 2rem; box-shadow: var(--shadow-md);
 }
