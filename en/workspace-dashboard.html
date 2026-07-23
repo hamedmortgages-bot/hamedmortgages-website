@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <meta name="theme-color" content="#0F3D2E">
+  <meta name="theme-color" content="#0B2A4A">
   <link rel="stylesheet" href="../assets/css/main.css?v=20260627b">
   <style>
     .ws-wrap { max-width: 1100px; margin-inline: auto; }
@@ -38,7 +38,7 @@
     .timeline .dot { width:1.5rem; height:1.5rem; flex:0 0 auto; border-radius:50%; border:2px solid var(--line); background:#fff; display:grid; place-items:center; font-size:.75rem; color:var(--text-muted); position:relative; }
     .timeline li:not(:last-child) .dot::after { content:""; position:absolute; top:1.5rem; inset-inline-start:50%; transform:translateX(-50%); width:2px; height:1.4rem; background:var(--line); }
     .timeline .done .dot { background:var(--green-600); border-color:var(--green-600); color:#fff; }
-    .timeline .current .dot { border-color:var(--green-600); color:var(--green-700); box-shadow:0 0 0 3px rgba(28,107,80,.12); }
+    .timeline .current .dot { border-color:var(--green-600); color:var(--green-700); box-shadow:0 0 0 3px rgba(11,42,74,.12); }
     .timeline .tl-body { padding-bottom:1rem; }
     .timeline .tl-body b { color:var(--heading); }
     .timeline .tl-body small { display:block; color:var(--text-muted); }
@@ -50,10 +50,10 @@
     .doc-row:first-of-type { border-top:0; }
     .doc-row .name { font-weight:700; color:var(--heading); }
     .status-pill { font-size:.72rem; font-weight:800; padding:.2rem .6rem; border-radius:999px; margin-inline-start:auto; }
-    .s-missing{ background:#fdeceb; color:#b3261e; } .s-received{ background:#e7f3ec; color:#1c6b50; }
+    .s-missing{ background:#fdeceb; color:#b3261e; } .s-received{ background:#e7f3ec; color:#157347; }
     .s-review{ background:#fff4e0; color:#9a6b00; } .s-rejected{ background:#fdeceb; color:#b3261e; }
     .emptybox { border:1px dashed var(--line); border-radius:var(--radius-sm); padding:1.1rem; color:var(--text-muted); background:var(--mist); }
-    .uploadbox { border:2px dashed var(--green-600); border-radius:var(--radius-sm); padding:1.2rem; text-align:center; color:var(--green-700); background:rgba(28,107,80,.04); margin-top:1rem; }
+    .uploadbox { border:2px dashed var(--green-600); border-radius:var(--radius-sm); padding:1.2rem; text-align:center; color:var(--green-700); background:rgba(11,42,74,.04); margin-top:1rem; }
     /* messages / questions */
     .msg { background:var(--mist); border:1px solid var(--line); border-radius:var(--radius-sm); padding:.9rem 1rem; margin-bottom:.7rem; }
     .msg .who { font-weight:800; font-size:.85rem; color:var(--green-800); }
@@ -211,7 +211,7 @@
 
         <!-- AI Assistant (full width) -->
         <div class="panel">
-          <h2>🤖 AI Mortgage Assistant <span class="muted">Answers from your file only</span></h2>
+          <h2>🤖 NILI <span class="muted">Answers from your file only</span></h2>
           <div class="ai-box">
             <div class="ai-log" id="ai-log">Ask about your mortgage file — for example, what's missing, why a lender was chosen, or what happens next. Answers will come only from your actual file (never made up). The assistant connects to your CRM file in Phase 2.</div>
             <form class="ai-input" id="ai-form" autocomplete="off">
