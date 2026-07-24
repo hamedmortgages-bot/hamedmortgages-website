@@ -60,5 +60,5 @@
      if (y) { y.textContent = new Date().getFullYear(); }
 })();
 
-/* ---------- AI Mortgage Concierge loader (Track B) ---------- */
+/* ---------- NILI widget loader (Track B) ---------- */
 (function () { try { var s = document.createElement("script"); s.defer = true; s.src = "/assets/js/concierge.js"; document.head.appendChild(s); } catch (e) {} })();

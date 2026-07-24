@@ -3,7 +3,7 @@
    ------------------------------------------------------------
    Educational content is DATA, not pages. One source of truth
    (assets/data/knowledge.json) is rendered anywhere via mount
-   points and reused by the Workspace, the future AI Assistant,
+   points and reused by the Workspace, the future NILI assistant,
    the Client Portal, the Academy, and Broker Training.
 
    USE ON A PAGE
