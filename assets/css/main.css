@@ -137,7 +137,7 @@ li { margin-bottom: .4rem; }
   border-bottom: 1px solid var(--line);
 }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .85rem 0; }
-.brand { display: flex; align-items: center; gap: .65rem; }
+.brand { display: flex; align-items: center; gap: .65rem; flex: 0 0 auto; }
 .brand__mark {
   width: 42px; height: 42px; border-radius: 10px;
   background: linear-gradient(145deg, var(--green-800), var(--green-600));
@@ -148,14 +148,24 @@ li { margin-bottom: .4rem; }
 .brand__name b { color: var(--green-800); font-size: 1.05rem; letter-spacing: -.01em; }
 .brand__name span { font-size: .72rem; color: var(--text-muted); letter-spacing: .04em; }
 
-/* Brand logo image (white-on-black logo presented on a clean dark plate so it
-   reads on both the light header and the dark footer). Falls back to the text
-   wordmark via .is-missing if logo.png is not present yet. */
+/* Brand logo: genuine transparent PNG (487:140 ratio), no plate/background.
+   Falls back to the text wordmark via .is-missing if logo.png is not present yet. */
 .brand__logo {
-  height: 54px; width: auto; display: block; box-sizing: border-box;
-  background: #000; padding: 6px 12px; border-radius: 8px;
+  width: 200px;
+  height: 57.49px;
+  aspect-ratio: 487 / 140;
+  display: block;
+  flex: 0 0 auto;
+  object-fit: contain;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
 }
-.brand__logo--footer { height: 58px; }
+.brand__logo--footer {
+  width: 244px;
+  height: 70.14px;
+  filter: brightness(0) invert(1);
+}
 .brand__fallback { display: none; }
 .brand__logo.is-missing { display: none; }
 .brand__logo.is-missing + .brand__fallback { display: flex; }
@@ -360,8 +370,7 @@ li { margin-bottom: .4rem; }
   .grid--2, .grid--3, .grid--4, .placeholder-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   body { font-size: 16px; }
-  .brand__logo { height: 42px; padding: 5px 9px; }
-  .brand__logo--footer { height: 50px; }
+  
 }
 
 /* ---------- Reduced motion ---------- */
@@ -393,4 +402,36 @@ li { margin-bottom: .4rem; }
 .about-portrait {
   display: block; width: 100%; height: auto;
   border-radius: var(--radius); box-shadow: var(--shadow-md);
+}
+
+
+@media (max-width: 960px) {
+  .brand__logo {
+    width: 180px;
+    height: 51.75px;
+  }
+
+  .brand__logo--footer {
+    width: 232px;
+    height: 66.69px;
+  }
+}
+
+@media (max-width: 720px) {
+  .brand__logo {
+    width: 160px;
+    height: 46px;
+  }
+
+  .brand__logo--footer {
+    width: 220px;
+    height: 63.24px;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand__logo {
+    width: 148px;
+    height: 42.55px;
+  }
 }
