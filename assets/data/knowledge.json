@@ -563,8 +563,8 @@
             "ai"
           ],
           "body": {
-            "en": "Soon the AI Assistant will use your file to estimate whether a refinance is worth exploring right now.",
-            "fa": "به‌زودی دستیار هوش مصنوعی با استفاده از پرونده شما تخمین می‌زند که آیا ریفاینانس همین حالا ارزش بررسی دارد."
+            "en": "Soon NILI will use your file to estimate whether a refinance is worth exploring right now.",
+            "fa": "به‌زودی نیلی با استفاده از پرونده شما تخمین می‌زند که آیا ریفاینانس همین حالا ارزش بررسی دارد."
           }
         }
       ]
@@ -1417,8 +1417,8 @@
             "fa": "دستیار شرایط"
           },
           "body": {
-            "en": "Soon the AI Assistant will read each underwriter request, tell you in plain words what's needed, and check whether what you uploaded matches.",
-            "fa": "به‌زودی دستیار هوش مصنوعی هر درخواست آندرایتر را می‌خواند، به زبان ساده می‌گوید چه لازم است، و بررسی می‌کند که آنچه بارگذاری کرده‌اید مطابقت دارد یا نه."
+            "en": "Soon NILI will read each underwriter request, tell you in plain words what's needed, and check whether what you uploaded matches.",
+            "fa": "به‌زودی نیلی هر درخواست آندرایتر را می‌خواند، به زبان ساده می‌گوید چه لازم است، و بررسی می‌کند که آنچه بارگذاری کرده‌اید مطابقت دارد یا نه."
           }
         }
       ]
