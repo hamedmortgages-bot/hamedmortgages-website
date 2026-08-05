@@ -1,6 +1,6 @@
 {
-  "version": 25,
-  "updated": "2026-07-25",
+  "version": 26,
+  "updated": "2026-08-04",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,119 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-08-04-dlc-acquires-filogix",
+      "slug": "dlc-acquires-filogix-58-5-million",
+      "title_en": "Dominion Lending Centres acquires Filogix for $58.5M, bringing Canada's two big broker platforms under one roof",
+      "title_fa": "خرید Filogix توسط Dominion Lending Centres به ارزش ۵۸٫۵ میلیون دلار؛ دو شاهراه فناوری بروکرهای کانادا زیر یک سقف",
+      "summary_en": "Dominion Lending Centres Group has purchased mortgage technology firm Filogix from Finastra Holdings in an all-cash deal valued at $58.5 million. Filogix runs the Expert, Expert Plus and FXLink systems that route applications between more than 8,000 Canadian mortgage brokers and roughly 350 lenders and industry partners, supporting the process from submission through underwriting, workflow and compliance data. DLC says Filogix will be kept as a stand-alone, wholly owned subsidiary, operating separately from Newton Connectivity Systems — the DLC company behind the rival Velocity platform — with continued investment in its technology, infrastructure and data security. Filogix processed roughly $60 billion in funded mortgage volume over the twelve months ended May 31 and is expected to contribute $15 to $18 million in adjusted EBITDA in its first year under DLC ownership. The purchase was financed from existing liquidity and an amended credit agreement with TD Bank that includes a new $65-million term facility.",
+      "summary_fa": "گروه Dominion Lending Centres شرکت فناوری وام مسکن Filogix را در یک معامله کاملاً نقدی به ارزش ۵۸٫۵ میلیون دلار از Finastra Holdings خریداری کرد. Filogix سامانه‌های Expert، Expert Plus و FXLink را اداره می‌کند که بیش از ۸٬۰۰۰ بروکر وام مسکن کانادایی را به حدود ۳۵۰ وام‌دهنده و شریک صنعتی متصل می‌کنند و فرایند درخواست وام را از ارسال تا بررسی اعتباری (Underwriting)، گردش کار و داده‌های انطباق پوشش می‌دهند. DLC اعلام کرده Filogix به‌صورت یک شرکت تابعه مستقل و صددرصدی باقی می‌ماند و از Newton Connectivity Systems — شرکت DLC که پلتفرم رقیب Velocity را اداره می‌کند — جدا خواهد بود و سرمایه‌گذاری در فناوری، زیرساخت و امنیت داده‌ها ادامه می‌یابد. Filogix در دوازده ماه منتهی به ۳۱ مه حدود ۶۰ میلیارد دلار حجم وام نهایی‌شده را پردازش کرده و انتظار می‌رود در نخستین سال مالکیت DLC بین ۱۵ تا ۱۸ میلیون دلار EBITDA تعدیل‌شده اضافه کند. این خرید از محل نقدینگی موجود و قرارداد اعتباری اصلاح‌شده با TD Bank شامل یک تسهیلات مدت‌دار جدید ۶۵ میلیون دلاری تأمین مالی شده است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is one of the most consequential pieces of mortgage-industry news of 2026 for anyone who works with a broker in Canada. Nearly every brokered mortgage application in this country travels through either Filogix Expert or Newton's Velocity on its way to a lender — and both of those rails now sit inside the same corporate group. DLC has promised operational separation and continued investment, which matters, because brokers and lenders depend on these systems being fast, neutral and secure.</p><p>For my clients, nothing changes today: applications continue to flow, and added redundancy across connectivity infrastructure arguably reduces the risk of outages disrupting time-sensitive approvals. What I'll be watching over the next year is pricing, the pace of innovation, and how data is governed when one group has visibility into so much of the market's flow. Either way, your file goes through whichever channel serves your approval best.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این یکی از مهم‌ترین خبرهای صنعت وام مسکن کانادا در سال ۲۰۲۶ برای هر کسی است که با بروکر کار می‌کند. تقریباً هر درخواست وام مسکنی که از طریق بروکر ارسال می‌شود، از مسیر Filogix Expert یا Velocity (متعلق به Newton) به وام‌دهنده می‌رسد — و حالا هر دوی این شاهراه‌ها زیر مجموعه یک گروه شرکتی قرار گرفته‌اند. DLC قول جدایی عملیاتی و ادامه سرمایه‌گذاری را داده و این مهم است، چون بروکرها و وام‌دهنده‌ها به سریع، بی‌طرف و امن بودن این سامانه‌ها وابسته‌اند.</p><p>برای مشتریان من امروز چیزی تغییر نمی‌کند: درخواست‌ها مثل همیشه جریان دارند و حتی افزونگی بیشتر در زیرساخت اتصال، ریسک اختلال در تأییدیه‌های زمان‌حساس را کاهش می‌دهد. آنچه در یک سال آینده زیر نظر خواهم داشت، قیمت‌گذاری، سرعت نوآوری و نحوه حاکمیت داده‌هاست وقتی یک گروه به بخش بزرگی از جریان بازار دید دارد. در هر حال، پرونده شما همیشه از مسیری ارسال می‌شود که بهترین نتیجه را برای تأیید وام شما داشته باشد.</p>",
+      "seo_title": "DLC acquires Filogix for $58.5M — what it means for Canadian mortgage brokers",
+      "seo_description": "Dominion Lending Centres buys Filogix from Finastra for $58.5M cash. Ontario broker Hamed Ashouri explains what consolidation of Canada's broker connectivity platforms means for borrowers.",
+      "keywords": [
+        "Dominion Lending Centres",
+        "Filogix",
+        "Finastra",
+        "mortgage technology",
+        "Canadian mortgage brokers",
+        "Velocity platform",
+        "Newton Connectivity Systems",
+        "mortgage industry consolidation"
+      ],
+      "tags": [
+        "DLC",
+        "Filogix",
+        "mortgage tech",
+        "industry consolidation",
+        "brokers"
+      ],
+      "category": "industry",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_48b3bfe4-8955-4a06-ba89-8f45e77c9af5.jpg",
+      "image_alt_en": "Mortgage professional at a desk with abstract network connections on a monitor and the Toronto skyline at dusk",
+      "image_alt_fa": "کارشناس وام مسکن پشت میز کار با خطوط اتصال انتزاعی روی نمایشگر و منظره تورنتو در غروب",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/dominion-lending-centres-acquires-filogix-for-58-5-million/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-04",
+      "imported_date": "2026-08-04",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "mortgage-broker",
+        "home-financing"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-why-use-a-broker",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-08-04-sagen-30yr-uptake-claims",
+      "slug": "sagen-q2-2026-30-year-uptake-claims-rise",
+      "title_en": "30-year insured mortgages go mainstream: Sagen results show first-time buyers choosing longer amortizations as claims tick up",
+      "title_fa": "وام‌های بیمه‌شده ۳۰ ساله فراگیر می‌شوند؛ نتایج Sagen نشان می‌دهد خریداران بار اول دوره‌های طولانی‌تر را انتخاب می‌کنند و خسارت‌ها رو به افزایش است",
+      "summary_en": "Mortgage insurer Sagen MI Canada says a growing share of insured borrowers are opting for 30-year amortizations, and it is showing up in the numbers: total premiums written climbed 8% year over year to $281 million in the second quarter, with the average transactional premium rate rising to 363 basis points from 354 a year earlier. The 30-year insured option — introduced for first-time buyers of newly built homes in August 2024 and expanded that December to all first-time buyers and all new-build purchasers — carries a higher insurance premium than the standard 25-year option but lowers the monthly payment. Sagen's new insured borrowers remain strong on paper, with an average credit score of 769, an average home price near $493,000 and an average gross debt service ratio of 28.8%. The quarter also carried a warning signal: new reported delinquencies rose 15% to 640, the portfolio delinquency rate moved up to 0.23% from 0.19%, and losses on claims jumped to $28 million from $2 million a year earlier as the housing market softened. Net income slipped 2% to $108 million, while Sagen's capital ratio held at 184% — well above OSFI's 150% supervisory target.",
+      "summary_fa": "شرکت بیمه وام مسکن Sagen MI Canada می‌گوید سهم رو به رشدی از وام‌گیرندگان بیمه‌شده، دوره بازپرداخت (Amortization) ۳۰ ساله را انتخاب می‌کنند و این روند در اعداد دیده می‌شود: مجموع حق بیمه‌های صادرشده در سه‌ماهه دوم با رشد ۸ درصدی سالانه به ۲۸۱ میلیون دلار رسید و میانگین نرخ حق بیمه تراکنشی از ۳۵۴ به ۳۶۳ واحد پایه افزایش یافت. گزینه بیمه‌شده ۳۰ ساله — که اوت ۲۰۲۴ برای خریداران بار اولِ خانه‌های نوساز معرفی شد و دسامبر همان سال به همه خریداران بار اول و همه خریداران نوساز گسترش یافت — حق بیمه بالاتری نسبت به گزینه استاندارد ۲۵ ساله دارد اما قسط ماهانه را کاهش می‌دهد. وام‌گیرندگان جدید Sagen روی کاغذ همچنان قوی هستند: میانگین امتیاز اعتباری ۷۶۹، میانگین قیمت خانه حدود ۴۹۳ هزار دلار و میانگین نسبت GDS برابر ۲۸٫۸ درصد. اما این فصل یک علامت هشدار هم داشت: موارد جدید تأخیر در پرداخت با ۱۵ درصد افزایش به ۶۴۰ مورد رسید، نرخ معوقات پرتفوی از ۰٫۱۹ به ۰٫۲۳ درصد بالا رفت و زیان ناشی از خسارت‌ها از ۲ میلیون دلار سال گذشته به ۲۸ میلیون دلار جهش کرد. سود خالص ۲ درصد کاهش یافت و به ۱۰۸ میلیون دلار رسید و نسبت سرمایه Sagen در سطح ۱۸۴ درصد — بسیار بالاتر از هدف نظارتی ۱۵۰ درصدی OSFI — ثابت ماند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Two stories are hiding in one earnings report. The first is that the 30-year insured amortization has quietly become a mainstream first-time buyer tool — enough buyers are choosing it to move an entire insurer's average premium rate. Used deliberately, it is a payment-management lever: you accept a modestly higher insurance premium and slower principal paydown in exchange for monthly breathing room, and prepayment privileges let you shorten the real life of the loan whenever your budget allows.</p><p>The second story is the rise in delinquencies and claim severity. The increase comes off a very low base — 0.23% is still historically healthy — but the direction matches what I see in files every week: budgets are tighter and equity cushions are thinner in a soft market. If your renewal is approaching or payments feel heavy, the time to restructure is before stress ever reaches your credit file. A well-structured file has options; a delinquent one has very few.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> در این گزارش دو داستان پنهان است. اول اینکه بازپرداخت ۳۰ ساله بیمه‌شده بی‌سروصدا به ابزار اصلی خریداران بار اول تبدیل شده — آن‌قدر که میانگین نرخ حق بیمه یک بیمه‌گر کامل را جابه‌جا کرده است. اگر آگاهانه استفاده شود، یک اهرم مدیریت قسط است: حق بیمه کمی بالاتر و بازپرداخت کندتر اصل وام را می‌پذیرید و در عوض فضای تنفس ماهانه به دست می‌آورید؛ و با استفاده از امتیازهای پیش‌پرداخت می‌توانید هر زمان بودجه اجازه داد، عمر واقعی وام را کوتاه کنید.</p><p>داستان دوم افزایش معوقات و شدت خسارت‌هاست. این افزایش از پایه بسیار پایینی شروع شده — ۰٫۲۳ درصد هنوز از نظر تاریخی سالم است — اما جهت حرکت همان چیزی را تأیید می‌کند که هر هفته در پرونده‌ها می‌بینم: بودجه‌ها فشرده‌تر و حاشیه ارزش خانه در بازار نرم نازک‌تر شده است. اگر تمدید وام شما نزدیک است یا فشار اقساط را حس می‌کنید، زمان بازساختاردهی قبل از رسیدن مشکل به پرونده اعتباری شماست، نه بعد از آن. پرونده خوب ساختاریافته گزینه دارد؛ پرونده معوق تقریباً هیچ.</p>",
+      "seo_title": "Sagen Q2 2026: 30-year insured mortgages lift premiums as claims rise",
+      "seo_description": "Sagen's Q2 2026 results show first-time buyers embracing 30-year insured amortizations while delinquencies tick up. Ontario broker Hamed Ashouri explains what it means for buyers and renewers.",
+      "keywords": [
+        "Sagen",
+        "mortgage insurance",
+        "30-year amortization",
+        "first-time home buyer",
+        "insured mortgage",
+        "mortgage delinquencies",
+        "mortgage default insurance",
+        "Canada housing market"
+      ],
+      "tags": [
+        "Sagen",
+        "30-year amortization",
+        "first-time buyers",
+        "mortgage insurance",
+        "delinquencies"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_f7ef4ac6-2722-48bc-b607-06f4436d1295.jpg",
+      "image_alt_en": "Young couple in front of a newly built suburban Canadian home at golden hour with moving boxes by the door",
+      "image_alt_fa": "زوج جوان مقابل خانه نوساز حومه شهر در کانادا هنگام غروب با جعبه‌های اسباب‌کشی کنار در",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/30-year-mortgage-uptake-lifts-sagen-business-but-claims-hit-earnings/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-04",
+      "imported_date": "2026-08-04",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "first-time-buyer",
+        "affordability",
+        "home-financing"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-downpayment",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-07-23-canada-retail-sales-june-up-0-4",
       "slug": "canada-retail-sales-june-2026-up-0-4-percent-consumer-resilience",
@@ -71,7 +184,7 @@
       "imported_date": "2026-07-25",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -130,7 +243,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "housing-market",
         "first-time-buyer",
@@ -188,7 +301,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "mortgage-broker",
         "first-time-buyer",
@@ -784,121 +897,6 @@
       "related_knowledge_blocks": [
         "gen-preapproval",
         "gen-stress"
-      ]
-    },
-    {
-      "id": "news-2026-07-15-boc-holds-2-25-july-mpr",
-      "slug": "bank-of-canada-holds-policy-rate-2-25-july-2026-mpr",
-      "title_en": "Bank of Canada holds at 2.25% for a sixth straight time — and says housing is starting to stabilize",
-      "title_fa": "بانک مرکزی کانادا برای ششمین بار پیاپی نرخ را در ۲٫۲۵٪ نگه داشت — و می‌گوید بازار مسکن در حال تثبیت است",
-      "summary_en": "The Bank of Canada left its target for the overnight rate unchanged at 2.25% on July 15, with the Bank Rate at 2.5% and the deposit rate at 2.20% — the sixth consecutive decision to stand pat. Alongside its July Monetary Policy Report, the Bank said Canada's economy is showing signs of improvement, with second-quarter growth estimated at 2.5% and sources of growth broadening, even though the labour market remains soft at a 6.5% unemployment rate in June. Inflation is the complicating factor: CPI rose to 3.2% in May on higher gasoline prices tied to the war in the Middle East, but stripping out gasoline it ran at 2.2% and core measures stayed close to 2%. The Bank expects inflation to stay elevated in June before easing gradually back to around 2% in early 2027, and projects GDP growth of 0.7% this year before 1.8% in both 2027 and 2028. Notably for housing, the Bank described activity as weak but looking to be stabilizing, and Governing Council judged the current rate remains appropriate while flagging that it is prepared to adjust policy as needed.",
-      "summary_fa": "بانک مرکزی کانادا در ۱۵ ژوئیه نرخ هدف شبانه را بدون تغییر در ۲٫۲۵٪ نگه داشت؛ نرخ بانکی در ۲٫۵٪ و نرخ سپرده در ۲٫۲۰٪ — ششمین تصمیم پیاپی برای عدم تغییر. همزمان با گزارش سیاست پولی ژوئیه، بانک اعلام کرد اقتصاد کانادا نشانه‌هایی از بهبود نشان می‌دهد و رشد سه‌ماهه دوم حدود ۲٫۵٪ برآورد شده و منابع رشد در حال گسترده‌تر شدن است، هرچند بازار کار همچنان ضعیف است و نرخ بیکاری در ژوئن ۶٫۵٪ بود. تورم عامل پیچیده‌کننده است: شاخص قیمت مصرف‌کننده در ماه مه به ۳٫۲٪ رسید که عمدتاً ناشی از افزایش قیمت بنزین در پی جنگ خاورمیانه بود، اما بدون احتساب بنزین ۲٫۲٪ و شاخص‌های هسته نزدیک به ۲٪ باقی ماندند. بانک انتظار دارد تورم در ژوئن بالا بماند و سپس به‌تدریج تا اوایل ۲۰۲۷ به حدود ۲٪ بازگردد و رشد تولید ناخالص داخلی را ۰٫۷٪ برای امسال و ۱٫۸٪ برای ۲۰۲۷ و ۲۰۲۸ پیش‌بینی می‌کند. نکته مهم برای مسکن اینکه بانک فعالیت این بخش را ضعیف اما در حال تثبیت توصیف کرد و شورای حاکم نرخ فعلی را همچنان مناسب دانست و تأکید کرد آماده تعدیل سیاست در صورت نیاز است.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Six holds in a row is starting to look less like a pause and more like a plateau, and that changes the planning conversation I have with clients. For most of the last four years the question was \"do I wait for the next cut?\" — that question is getting stale. When the overnight rate sits still, variable-rate pricing sits still with it, and the real action moves to the bond market, which is what actually drives fixed rates. The Bank's own language is doing a lot of work here: it says it is prepared to adjust policy as needed, which cuts in both directions, and the July MPR leans on a Middle East oil story nobody can forecast with confidence. I would not build a mortgage plan around a prediction of where rates go next.</p><p>What I would build a plan around is the gap between the headline 3.2% CPI and the 2.2% reading excluding gasoline. That gap is the whole argument for why this hold is defensible — the inflation spike is concentrated in something monetary policy can't fix. If it unwinds the way the Bank expects, the pressure to hike stays off. If oil moves the other way, the conversation changes fast. Practically: if you're renewing in the next six to twelve months, get your renewal analysis started now rather than at the letter stage, because the value is in shopping the whole market, not in timing the Bank. If you're deciding fixed versus variable, decide it on your own tolerance for payment movement and your time horizon — not on a forecast. And the line I'd flag for buyers is the Bank saying housing looks to be stabilizing; a market that has stopped falling behaves very differently from one that is falling, and it usually rewards the people who did their qualifying work in advance. Every situation is different, so let's look at your actual numbers before you commit to a direction.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> شش تصمیم پیاپی برای نگه داشتن نرخ، دیگر کمتر شبیه یک مکث و بیشتر شبیه یک فلات است و این موضوع گفتگوی برنامه‌ریزی من با مشتریان را تغییر می‌دهد. در بیشتر چهار سال گذشته پرسش این بود که «آیا منتظر کاهش بعدی بمانم؟» — این پرسش دارد کهنه می‌شود. وقتی نرخ شبانه ثابت می‌ماند، قیمت‌گذاری نرخ متغیر هم ثابت می‌ماند و میدان اصلی به بازار اوراق قرضه منتقل می‌شود که در واقع تعیین‌کننده نرخ‌های ثابت است. زبان خودِ بانک اینجا معنادار است: می‌گوید آماده تعدیل سیاست در صورت نیاز است، که هر دو جهت را در بر می‌گیرد، و گزارش سیاست پولی ژوئیه بر داستان نفت خاورمیانه تکیه دارد که هیچ‌کس نمی‌تواند با اطمینان پیش‌بینی کند. من برنامه وام مسکن را بر پایه پیش‌بینی مسیر نرخ‌ها نمی‌سازم.</p><p>آنچه برنامه را بر آن می‌سازم، فاصله میان تورم سرفصل ۳٫۲٪ و رقم ۲٫۲٪ بدون احتساب بنزین است. همین فاصله، کل استدلال دفاع‌پذیر بودن این تصمیم است — جهش تورم در چیزی متمرکز شده که سیاست پولی نمی‌تواند آن را درمان کند. اگر همان‌طور که بانک انتظار دارد فروکش کند، فشار برای افزایش نرخ برداشته می‌شود. اگر نفت مسیر دیگری برود، گفتگو به‌سرعت تغییر می‌کند. به‌طور عملی: اگر در شش تا دوازده ماه آینده تمدید دارید، تحلیل تمدید را همین حالا آغاز کنید نه در مرحله دریافت نامه، چون ارزش کار در بررسی کل بازار است نه در زمان‌بندی بانک مرکزی. اگر میان ثابت و متغیر مردد هستید، تصمیم را بر اساس تحمل خودتان نسبت به نوسان پرداخت و افق زمانی‌تان بگیرید — نه بر اساس پیش‌بینی. و نکته‌ای که برای خریداران برجسته می‌کنم این است که بانک می‌گوید مسکن در حال تثبیت به نظر می‌رسد؛ بازاری که از سقوط ایستاده رفتاری کاملاً متفاوت با بازار در حال سقوط دارد و معمولاً به کسانی پاداش می‌دهد که کار واجد شرایط شدن خود را از پیش انجام داده‌اند. هر پرونده متفاوت است، پس پیش از انتخاب مسیر، بیایید اعداد واقعی شما را با هم بررسی کنیم.</p>",
-      "seo_title": "Bank of Canada Holds Rate at 2.25% — July 2026 Decision & MPR",
-      "seo_description": "The Bank of Canada held its policy rate at 2.25% on July 15, 2026, a sixth straight hold. Inflation hit 3.2% on gasoline but 2.2% excluding it. What it means for your mortgage.",
-      "keywords": [
-        "Bank of Canada July 2026",
-        "policy rate 2.25%",
-        "Bank of Canada hold",
-        "Monetary Policy Report July 2026",
-        "fixed vs variable mortgage Canada",
-        "mortgage renewal Ontario",
-        "CPI inflation Canada 3.2%",
-        "overnight rate Canada"
-      ],
-      "tags": [
-        "rates",
-        "bank-of-canada",
-        "fixed-vs-variable",
-        "renewal",
-        "inflation"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_655142ed-614f-4424-b484-a7e5b350d41f.jpg",
-      "image_alt_en": "A stately Canadian central bank office building of stone and glass in warm late afternoon light",
-      "image_alt_fa": "ساختمان باشکوه بانک مرکزی کانادا با نمای سنگ و شیشه در نور گرم بعدازظهر",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Bank of Canada",
-      "source_url": "https://www.bankofcanada.ca/2026/07/fad-press-release-2026-07-15/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-15",
-      "imported_date": "2026-07-16",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "renewal",
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
-        "renewal-checklist",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-15-crea-lowers-2026-sales-forecast",
-      "slug": "crea-lowers-2026-home-sales-forecast-decline",
-      "title_en": "CREA now expects home sales to fall in 2026 — its third downgrade, even as prices stop sliding",
-      "title_fa": "انجمن املاک کانادا اکنون انتظار افت فروش مسکن در ۲۰۲۶ را دارد — سومین کاهش پیش‌بینی، در حالی که قیمت‌ها از سقوط ایستاده‌اند",
-      "summary_en": "The Canadian Real Estate Association has cut its 2026 outlook again, and this time the direction flipped: it now forecasts 463,336 homes will change hands this year, a 1.4% decline from 2025, reversing its April call for a 1% gain and a long way from the 5.1% growth it predicted back in January. CREA pinned the revision on a weak first half and a delayed start to the long-awaited recovery, with buyer hesitation tied partly to inflation fears from high oil prices that pushed fixed mortgage rates up before they partially eased, plus negative population growth weighing on some regions. The national average price is now forecast to rise 1.1% to $686,710 for the year, roughly $2,000 below the spring projection. The more interesting signal is underneath the forecast: June sales edged up 0.9% year-over-year and 0.5% from May, and CREA's home price index held flat month-over-month for the first time since January 2025 — though the index is still down 3.6% from a year ago. Looking to 2027, CREA projects sales to recover 3.7% to 480,567 with the average price up another 1.1% to $694,164.",
-      "summary_fa": "انجمن املاک و مستغلات کانادا بار دیگر چشم‌انداز ۲۰۲۶ خود را کاهش داد و این‌بار جهت پیش‌بینی معکوس شد: اکنون پیش‌بینی می‌کند ۴۶۳٬۳۳۶ خانه در سال جاری معامله شود، یعنی افت ۱٫۴٪ نسبت به ۲۰۲۵، که وارونه‌کننده پیش‌بینی آوریل مبنی بر رشد ۱٪ و بسیار دورتر از رشد ۵٫۱٪ است که در ژانویه پیش‌بینی کرده بود. انجمن این بازنگری را به نیمه اول ضعیف سال و آغاز با تأخیر بهبود بلندانتظار نسبت داد؛ تردید خریداران تا حدی به نگرانی‌های تورمی ناشی از قیمت بالای نفت مربوط بود که نرخ‌های ثابت وام مسکن را بالا برد و سپس تا حدی کاهش یافت، به‌علاوه رشد منفی جمعیت که بر برخی مناطق فشار آورده است. میانگین قیمت ملی اکنون با رشد ۱٫۱٪ به ۶۸۶٬۷۱۰ دلار برای امسال پیش‌بینی می‌شود، حدود ۲٬۰۰۰ دلار پایین‌تر از پیش‌بینی بهار. سیگنال جالب‌تر زیر این پیش‌بینی نهفته است: فروش ژوئن ۰٫۹٪ نسبت به سال قبل و ۰٫۵٪ نسبت به ماه مه افزایش یافت و شاخص قیمت مسکن انجمن برای نخستین بار از ژانویه ۲۰۲۵ به‌صورت ماهانه ثابت ماند — هرچند این شاخص همچنان ۳٫۶٪ پایین‌تر از سال گذشته است. برای ۲۰۲۷، انجمن بهبود ۳٫۷٪ فروش به ۴۸۰٬۵۶۷ و رشد ۱٫۱٪ دیگر در میانگین قیمت به ۶۹۴٬۱۶۴ دلار را پیش‌بینی می‌کند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Read this one next to Royal LePage raising its price forecast a day earlier and you might think the two contradict each other. They don't — they're measuring different things. CREA is telling you fewer homes will trade hands this year; Royal LePage is telling you the ones that do trade may go for slightly more. Low volume and firming prices can absolutely coexist, and that combination is the signature of a market where sellers are sitting out rather than capitulating. What actually moved me in this release is the price index going flat month-over-month for the first time since January 2025. Eighteen months of monthly declines ending is a bigger deal for a buyer's decision than any annual forecast, because it removes the strongest argument for waiting — that the same house will simply be cheaper in ninety days.</p><p>I'd be careful about treating a downgraded forecast as bad news for you personally. A forecast is a national average across wildly different markets, and nobody buys a national average. If anything, a year with fewer transactions is a year with less competition, and combined with a policy rate that has now held six times, this is a more legible market to plan in than the one we had eighteen months ago. The trap I see is the buyer who reads \"sales are falling\" and keeps waiting, then discovers in the fall that the listings that came out after Labour Day drew a crowd. Note CREA's own caution too: the recovery it's forecasting depends on the labour market and on external shocks not flaring up again — that's an honest caveat, not a footnote. My advice is unchanged and boring: get your qualifying position confirmed, know your real budget rather than your hoped-for budget, and be ready to move when the right property appears. Nothing here is a guarantee of pricing or approval — bring me your file and we'll work the actual math.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> اگر این خبر را کنار افزایش پیش‌بینی قیمت رویال‌لپیج در روز پیش از آن بگذارید، شاید فکر کنید این دو یکدیگر را نقض می‌کنند. چنین نیست — آن‌ها دو چیز متفاوت را اندازه می‌گیرند. انجمن املاک می‌گوید امسال خانه‌های کمتری معامله می‌شود؛ رویال‌لپیج می‌گوید آن‌هایی که معامله می‌شوند ممکن است اندکی گران‌تر باشند. حجم پایین و قیمت‌های در حال تثبیت کاملاً می‌توانند هم‌زمان وجود داشته باشند و این ترکیب، امضای بازاری است که فروشندگان در آن به‌جای تسلیم شدن، کنار کشیده‌اند. آنچه در این گزارش برای من معنادار بود، ثابت ماندن ماهانه شاخص قیمت برای نخستین بار از ژانویه ۲۰۲۵ است. پایان یافتن هجده ماه کاهش ماهانه برای تصمیم خریدار مهم‌تر از هر پیش‌بینی سالانه است، چون قوی‌ترین دلیل برای صبر کردن را از بین می‌برد — این تصور که همان خانه در نود روز آینده صرفاً ارزان‌تر خواهد بود.</p><p>مراقب باشم که کاهش پیش‌بینی را لزوماً خبر بدی برای خودتان تلقی نکنید. پیش‌بینی یک میانگین ملی از بازارهایی بسیار متفاوت است و هیچ‌کس میانگین ملی نمی‌خرد. اتفاقاً سالی با معاملات کمتر یعنی سالی با رقابت کمتر، و در کنار نرخ سیاستی که اکنون شش بار ثابت مانده، این بازار برای برنامه‌ریزی خواناتر از بازار هجده ماه پیش است. دامی که می‌بینم خریداری است که «فروش در حال کاهش است» را می‌خواند و به صبر کردن ادامه می‌دهد و سپس در پاییز درمی‌یابد که فایل‌های عرضه‌شده پس از روز کارگر با ازدحام روبه‌رو شده‌اند. به احتیاط خودِ انجمن هم توجه کنید: بهبودی که پیش‌بینی می‌کند به بازار کار و به شعله‌ور نشدن دوباره شوک‌های بیرونی وابسته است — این یک هشدار صادقانه است، نه یک پانویس. توصیه من بدون تغییر و ساده است: موقعیت واجد شرایط بودن خود را تأیید کنید، بودجه واقعی‌تان را بشناسید نه بودجه آرزویی‌تان، و آماده باشید وقتی ملک مناسب پیدا شد اقدام کنید. هیچ‌یک از این‌ها تضمین قیمت یا تأیید وام نیست — پرونده‌تان را بیاورید تا محاسبات واقعی را با هم انجام دهیم.</p>",
-      "seo_title": "CREA Cuts 2026 Home Sales Forecast to a 1.4% Decline",
-      "seo_description": "CREA now forecasts 463,336 home sales in 2026, a 1.4% drop, with the average price at $686,710. But its price index just held flat for the first time since January 2025.",
-      "keywords": [
-        "CREA forecast 2026",
-        "Canadian home sales 2026",
-        "national average home price Canada",
-        "CREA home price index",
-        "housing market recovery Canada",
-        "first-time home buyer Ontario",
-        "home sales decline 2026",
-        "mortgage pre-approval"
-      ],
-      "tags": [
-        "housing-market",
-        "forecast",
-        "prices",
-        "first-time-buyer"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_9ea5875c-fce5-4a20-957c-91ff3393dd8e.jpg",
-      "image_alt_en": "An aerial view of a quiet Canadian suburban neighbourhood of detached family homes in warm summer morning light",
-      "image_alt_fa": "نمای هوایی از محله‌ای آرام در حومه کانادا با خانه‌های مستقل خانوادگی در نور گرم صبح تابستان",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends (The Canadian Press)",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/crea-now-expects-home-sales-decline-in-2026-as-it-lowers-forecast-again/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-15",
-      "imported_date": "2026-07-16",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "affordability",
-        "rates"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "gen-preapproval",
-        "gen-downpayment"
       ]
     }
   ]
