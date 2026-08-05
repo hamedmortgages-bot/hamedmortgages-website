@@ -1,6 +1,6 @@
 {
-  "version": 26,
-  "updated": "2026-08-04",
+  "version": 27,
+  "updated": "2026-08-05",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,121 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-08-05-mcan-q2-uninsured-originations",
+      "slug": "mcan-q2-2026-earnings-uninsured-originations",
+      "title_en": "MCAN's profit climbs 19% as uninsured mortgage lending grows — and impaired loans edge higher",
+      "title_fa": "رشد ۱۹ درصدی سود MCAN با افزایش وام‌های بیمه‌نشده؛ و بالا رفتن نسبت وام‌های مشکل‌دار",
+      "summary_en": "MCAN Financial, one of Canada's larger mortgage investment corporations, reported second-quarter net income of $24.0 million, up 19% from $20.2 million a year earlier, with earnings per share rising to 59 cents from 51 cents. The growth came mostly from a bigger mortgage book: through the first half of 2026 the company's uninsured residential originations rose 22% year over year and insured originations rose 18%, lifting residential mortgage assets to $4.7 billion and total assets under management to $8.5 billion, up 28% from a year earlier. Net interest income increased 4% to $24.6 million, helped by renewals, while non-recurring items — $3 million in net securities gains and a $1.8-million gain tied to the dilution of its stake in MCAP Commercial LP — also supported the quarter. Credit quality moved the other way: the impaired non-securitized mortgage ratio rose to 2.40% at the end of June from 1.69% at the end of 2025, with most of that balance sitting in construction loans plus some uninsured residential mortgages under recovery programs. MCAN still cut its quarterly credit-loss provision to $1.8 million from $2.2 million, raised its dividend to 43 cents per share, and reported a 14.64% return on equity and a 19.30% CET1 capital ratio.",
+      "summary_fa": "شرکت MCAN Financial، یکی از بزرگ‌ترین شرکت‌های سرمایه‌گذاری وام مسکن در کانادا، سود خالص سه‌ماهه دوم خود را ۲۴ میلیون دلار اعلام کرد؛ ۱۹ درصد بیشتر از ۲۰٫۲ میلیون دلار سال گذشته، و سود هر سهم از ۵۱ سنت به ۵۹ سنت رسید. عامل اصلی رشد، بزرگ‌تر شدن سبد وام بود: در نیمهٔ نخست ۲۰۲۶ حجم وام‌های مسکونی بیمه‌نشده ۲۲ درصد و وام‌های بیمه‌شده ۱۸ درصد افزایش یافت و دارایی‌های وام مسکونی را به ۴٫۷ میلیارد دلار و کل دارایی‌های تحت مدیریت را به ۸٫۵ میلیارد دلار (۲۸ درصد رشد سالانه) رساند. درآمد خالص بهره با کمک تمدیدها ۴ درصد رشد کرد و به ۲۴٫۶ میلیون دلار رسید؛ اقلام غیرتکراری شامل ۳ میلیون دلار سود خالص اوراق بهادار و ۱٫۸ میلیون دلار سود ناشی از رقیق‌شدن سهم شرکت در MCAP Commercial LP نیز به نتیجهٔ فصل کمک کرد. اما کیفیت اعتباری در جهت مخالف حرکت کرد: نسبت وام‌های مشکل‌دار غیراوراق‌بهادارشده از ۱٫۶۹ درصد در پایان ۲۰۲۵ به ۲٫۴۰ درصد در پایان ژوئن رسید که بیشتر آن مربوط به وام‌های ساخت‌وساز و بخشی هم وام‌های مسکونی بیمه‌نشده در برنامه‌های بازیابی است. با این حال MCAN ذخیرهٔ زیان اعتباری فصل را از ۲٫۲ به ۱٫۸ میلیون دلار کاهش داد، سود نقدی هر سهم را به ۴۳ سنت افزایش داد و بازده حقوق صاحبان سهام ۱۴٫۶۴ درصد و نسبت سرمایهٔ CET1 معادل ۱۹٫۳۰ درصد را گزارش کرد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Behind the earnings numbers is something that matters directly to borrowers: uninsured lending capacity in Canada is still expanding, not shrinking. Uninsured mortgages are the space where self-employed clients, newcomers with short Canadian credit history, borrowers using rental income, and people rebuilding after a rough stretch actually get financed. A 22% jump in uninsured originations in one half-year tells me alternative and MIC-style capital is open for business — so if a bank has said no, that is not the end of the conversation.</p><p>The second half of the story is the part I'd plan around. The impaired ratio climbing from 1.69% to 2.40% is the kind of move that makes lenders read files more carefully, not stop lending. In practice that means cleaner documentation, a clear and provable exit strategy, and realistic loan-to-value expectations matter more this year than last. MCAN reported an average loan-to-value of 68.6% on its uninsured residential book, which is a useful reference point for what conservative underwriting looks like right now. Nothing here is a guarantee of approval or of any particular rate — but it does say the alternative lane is open if the file is put together properly.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> پشت این اعداد، نکته‌ای هست که مستقیماً به متقاضیان وام مربوط می‌شود: ظرفیت وام‌دهی بیمه‌نشده در کانادا هنوز در حال گسترش است، نه انقباض. وام بیمه‌نشده همان مسیری است که مشتریان خویش‌فرما، تازه‌واردانی با سابقهٔ اعتباری کوتاه، متقاضیانی که از درآمد اجاره استفاده می‌کنند و افرادی که در حال بازسازی وضعیت اعتباری خود هستند، از طریق آن تأمین مالی می‌شوند. رشد ۲۲ درصدی این وام‌ها در شش ماه نشان می‌دهد سرمایهٔ وام‌دهندگان جایگزین و شرکت‌های MIC فعال است؛ پس اگر یک بانک جواب منفی داده، پایان کار نیست.</p><p>بخش دوم ماجرا همان چیزی است که باید برایش برنامه‌ریزی کرد. افزایش نسبت وام‌های مشکل‌دار از ۱٫۶۹ به ۲٫۴۰ درصد معمولاً باعث می‌شود وام‌دهندگان پرونده‌ها را دقیق‌تر بررسی کنند، نه اینکه وام‌دهی را متوقف کنند. در عمل یعنی مستندسازی تمیز، استراتژی خروج روشن و قابل اثبات، و انتظارات واقع‌بینانه از نسبت وام به ارزش، امسال مهم‌تر از سال گذشته است. MCAN میانگین نسبت وام به ارزش سبد مسکونی بیمه‌نشدهٔ خود را ۶۸٫۶ درصد گزارش کرده که معیار خوبی از ارزیابی محافظه‌کارانهٔ امروز است. هیچ‌کدام از این‌ها تضمین تأیید وام یا نرخ مشخصی نیست، اما نشان می‌دهد مسیر جایگزین باز است — به شرط آنکه پرونده درست ساخته شود.</p>",
+      "seo_title": "MCAN Q2 2026: profit up 19%, uninsured mortgage originations up 22%",
+      "seo_description": "MCAN Financial's Q2 2026 net income rose 19% to $24 million as uninsured residential originations climbed 22% in the first half, while its impaired mortgage ratio rose to 2.40%. What it means for Canadian borrowers.",
+      "keywords": [
+        "MCAN Financial",
+        "mortgage investment corporation",
+        "uninsured mortgages",
+        "alternative lending",
+        "Canadian mortgage lenders",
+        "Q2 2026 earnings",
+        "impaired mortgage ratio",
+        "loan-to-value"
+      ],
+      "tags": [
+        "MCAN",
+        "alternative lending",
+        "MIC",
+        "lender earnings",
+        "uninsured mortgages"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_26eba41d-28d5-45f6-9cbf-79d5558a0c28.jpg",
+      "image_alt_en": "Boardroom of a modern Canadian lender at dusk, with a blurred city skyline through floor-to-ceiling windows.",
+      "image_alt_fa": "اتاق هیئت‌مدیرهٔ یک وام‌دهندهٔ مدرن کانادایی در غروب، با نمای محو آسمان‌خراش‌های شهر از پشت پنجره‌های سرتاسری.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/residential-mortgage-growth-lifts-mcan-earnings-19/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-04",
+      "imported_date": "2026-08-05",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "self-employed",
+        "home-financing",
+        "refinance"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-why-use-a-broker",
+        "gen-preapproval",
+        "gen-stress"
+      ]
+    },
+    {
+      "id": "news-2026-08-05-buyer-love-letters-lose-power",
+      "slug": "buyer-love-letters-lose-power-slow-market",
+      "title_en": "Buyer 'love letters' lose their power as Canada's slower housing market puts price back on top",
+      "title_fa": "کم‌رنگ شدن «نامه‌های احساسی خریداران» در بازار کندشدهٔ مسکن کانادا؛ قیمت دوباره حرف اول را می‌زند",
+      "summary_en": "The personal letter a buyer writes to a seller — a common tactic during Canada's bidding-war years — has largely lost its influence as the housing market softens, real estate professionals told The Canadian Press. Toronto Realtor Jarrod Armstrong described a recent case in which his clients wrote to a family that had owned their home for 45 years, telling them plainly they intended to tear the house down; the sellers chose them anyway, because theirs was the highest bid. Vancouver agent Rhiannon Foster said she no longer asks clients to write letters in most situations, since sellers are focused on the bottom-line price, and Armstrong noted the shift from a market with dozens of showings and a stack of offers on offer night to one with fewer bids and almost no multiple offers on condos. Agents say letters can still help in narrow cases — a heritage or character property a buyer intends to preserve — and Kitchener broker Ivan Gascho stressed that any letter must be short, authentic and free of exaggeration or pleading. What actually moves sellers now, Foster said, are terms: a larger deposit delivered quickly, fewer conditions, and flexibility on closing dates. The backdrop is a market the Canadian Real Estate Association has downgraded again, after cutting its 2026 sales forecast in January and April.",
+      "summary_fa": "نوشتن نامهٔ شخصی از سوی خریدار به فروشنده — تاکتیکی رایج در سال‌های جنگ پیشنهادها در کانادا — با نرم شدن بازار مسکن تا حد زیادی اثر خود را از دست داده است؛ این را فعالان املاک به خبرگزاری کانادین پرس گفته‌اند. جارود آرمسترانگ، مشاور املاک تورنتو، از پرونده‌ای گفت که در آن مشتریانش برای خانواده‌ای که ۴۵ سال در آن خانه زندگی کرده بودند نامه نوشتند و صریحاً اعلام کردند قصد تخریب خانه را دارند؛ با این حال فروشندگان همان پیشنهاد را پذیرفتند، چون بالاترین قیمت را داشت. ریانون فاستر، مشاور املاک ونکوور، می‌گوید دیگر در بیشتر موارد از مشتریانش نمی‌خواهد نامه بنویسند، چون تمرکز فروشندگان روی قیمت نهایی است؛ و آرمسترانگ به تغییر بازار اشاره می‌کند: از بازاری با ده‌ها بازدید در هفته و انبوه پیشنهادها، به بازاری با پیشنهادهای کمتر و تقریباً بدون رقابت چندگانه روی کاندوها. به گفتهٔ فعالان، نامه هنوز در موارد محدود کارساز است؛ مثلاً خانه‌های تاریخی یا دارای سبک خاص که خریدار قصد حفظ آن‌ها را دارد. ایوان گاشو، بروکر کیچنر، تأکید می‌کند نامه باید کوتاه، صادقانه و بدون اغراق یا التماس باشد. آنچه امروز واقعاً فروشنده را متقاعد می‌کند، شرایط پیشنهاد است: ودیعهٔ بزرگ‌تر و سریع، شروط کمتر و انعطاف در تاریخ تحویل. پس‌زمینهٔ ماجرا بازاری است که انجمن املاک کانادا پیش‌بینی فروش ۲۰۲۶ خود را دوباره کاهش داده، پس از کاهش‌های ژانویه و آوریل.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is the clearest signal yet that negotiating power has moved toward buyers, and it changes what a strong offer looks like. When sellers were choosing between fifteen bids, emotion could break a tie. Now the tie-breaker is certainty: how quickly the deposit lands, how few conditions are attached, and how confident the seller can be that the deal will actually close. That is a financing question far more than a writing question.</p><p>So the preparation that used to go into a heartfelt letter is better spent on the file. Get a full pre-approval where income, down payment and credit have actually been reviewed — not a rate hold generated in ninety seconds online. Have the down payment seasoned and documented, know your realistic maximum before you shop, and keep a financing condition unless your file is genuinely bulletproof. In a slower market you generally also have room to negotiate on price, repairs and closing dates, which is worth far more than a well-written paragraph. None of this guarantees an accepted offer or any particular rate, but a buyer who can close cleanly is the buyer most sellers pick.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این روشن‌ترین نشانه تا امروز است که قدرت چانه‌زنی به سمت خریداران چرخیده، و همین تعریف «پیشنهاد قوی» را عوض می‌کند. وقتی فروشنده میان پانزده پیشنهاد انتخاب می‌کرد، احساسات می‌توانست تعیین‌کننده باشد. امروز عامل تعیین‌کننده «قطعیت» است: ودیعه چقدر سریع پرداخت می‌شود، چند شرط به پیشنهاد چسبیده، و فروشنده چقدر مطمئن است که معامله واقعاً بسته می‌شود. این بیش از آنکه مسئلهٔ نگارش باشد، مسئلهٔ تأمین مالی است.</p><p>پس انرژی‌ای که قبلاً صرف نوشتن نامه می‌شد، بهتر است صرف پروندهٔ وام شود. پیش‌تأییدیهٔ کامل بگیرید؛ یعنی جایی که درآمد، پیش‌پرداخت و اعتبار واقعاً بررسی شده باشد، نه یک قفل نرخ نود ثانیه‌ای آنلاین. پیش‌پرداخت را مستند و در حساب تثبیت‌شده نگه دارید، سقف واقع‌بینانهٔ خود را پیش از شروع جست‌وجو بدانید، و شرط تأمین مالی را حذف نکنید مگر پرونده‌تان کاملاً محکم باشد. در بازار کندتر معمولاً فضای مذاکره روی قیمت، تعمیرات و تاریخ تحویل هم وجود دارد که ارزشش از یک پاراگراف خوش‌نگارش بسیار بیشتر است. هیچ‌کدام از این‌ها پذیرش پیشنهاد یا نرخ خاصی را تضمین نمی‌کند، اما خریداری که بتواند تمیز و بی‌دردسر معامله را ببندد، همان کسی است که بیشتر فروشندگان انتخابش می‌کنند.</p>",
+      "seo_title": "Buyer love letters fade as Canada's housing market slows — price and terms win",
+      "seo_description": "Realtors say personal buyer letters have largely lost their effect in Canada's softer 2026 housing market. Sellers now respond to price, deposits and fewer conditions — which makes mortgage preparation the real edge.",
+      "keywords": [
+        "buyer love letter",
+        "Canadian housing market 2026",
+        "home buying offer strategy",
+        "CREA sales forecast",
+        "buyers market Canada",
+        "mortgage pre-approval",
+        "offer conditions",
+        "real estate negotiation"
+      ],
+      "tags": [
+        "housing market",
+        "home buyers",
+        "offer strategy",
+        "CREA",
+        "pre-approval"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_6d0c3209-29d4-40f3-a4f4-86f7cf0b576d.jpg",
+      "image_alt_en": "A blank sheet of writing paper and a pen on a kitchen table beside a set of house keys in morning light.",
+      "image_alt_fa": "یک برگ کاغذ سفید و یک خودکار روی میز آشپزخانه، کنار دسته‌کلید خانه در نور صبحگاهی.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/slow-housing-market-largely-ends-need-for-buyers-to-write-personal-letters-to-sellers/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-03",
+      "imported_date": "2026-08-05",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "first-time-buyer",
+        "housing-market",
+        "affordability"
+      ],
+      "related_journeys": [
+        "assessment",
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "ftb-roadmap",
+        "gen-preapproval",
+        "gen-downpayment"
+      ]
+    },
     {
       "id": "news-2026-08-04-dlc-acquires-filogix",
       "slug": "dlc-acquires-filogix-58-5-million",
@@ -71,7 +186,7 @@
       "imported_date": "2026-08-04",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "mortgage-broker",
@@ -127,7 +242,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "first-time-buyer",
         "affordability",
@@ -185,7 +300,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "rates",
         "renewal",
@@ -781,122 +896,6 @@
       ],
       "related_knowledge_blocks": [
         "gen-reverse-mortgage-basics"
-      ]
-    },
-    {
-      "id": "news-2026-07-17-bmo-population-slowdown-housing",
-      "slug": "bmo-population-slowdown-cooling-canada-housing-market",
-      "title_en": "Canada's population fell for the first time on record — and BMO says it is quietly reshaping the housing market",
-      "title_fa": "جمعیت کانادا برای نخستین بار در تاریخ کاهش یافت — و بانک BMO می‌گوید این موضوع بی‌سروصدا بازار مسکن را دگرگون می‌کند",
-      "summary_en": "BMO Economics says Canada's abrupt population slowdown is now the single biggest force reshaping the housing market. After hitting century highs in 2023 and 2024, the population declined in 2025 — the first annual drop on record going back to Confederation — as growth fell from more than 3% to roughly zero, driven mainly by a sharp reduction in non-permanent residents. Net outflows of non-permanent residents topped 460,000 over the past year at the same time that more than 180,000 rental units remain under construction, and rental units being built now outnumber condo and homeownership units combined for the first time. Asking rents across major markets were down 4.7% year-over-year in May and CPI rent inflation slowed to 3.5% from a 2024 peak of 9%, with BMO expecting further weakness as new supply lands. Condo presales in some major cities have fallen to levels normally associated with a recession, which economists Douglas Porter and Robert Kavcic say should eventually feed through to lower residential construction — with British Columbia and southern Ontario facing the toughest backdrop.",
-      "summary_fa": "بخش اقتصادی بانک BMO می‌گوید کاهش ناگهانی رشد جمعیت کانادا اکنون مهم‌ترین نیرویی است که بازار مسکن را بازتعریف می‌کند. پس از رکوردهای یک‌صد‌ساله در سال‌های ۲۰۲۳ و ۲۰۲۴، جمعیت در سال ۲۰۲۵ کاهش یافت — نخستین افت سالانه ثبت‌شده از زمان تشکیل کنفدراسیون — و رشد از بیش از ۳ درصد به تقریباً صفر رسید که عمدتاً ناشی از کاهش شدید ساکنان غیردائم است. خروج خالص ساکنان غیردائم در یک سال گذشته از ۴۶۰٬۰۰۰ نفر فراتر رفت، در حالی که بیش از ۱۸۰٬۰۰۰ واحد اجاره‌ای در دست ساخت است و برای نخستین بار تعداد واحدهای اجاره‌ای در حال ساخت از مجموع واحدهای کاندو و مالکیت شخصی بیشتر شده است. اجاره‌بهای درخواستی در بازارهای بزرگ در ماه مه نسبت به سال قبل ۴.۷ درصد کاهش یافت و تورم اجاره در شاخص قیمت مصرف‌کننده از اوج ۹ درصدی سال ۲۰۲۴ به ۳.۵ درصد رسید. پیش‌فروش کاندو در برخی شهرهای بزرگ به سطوحی رسیده که معمولاً با رکود همراه است و به گفته داگلاس پورتر و رابرت کاوسیچ، اقتصاددانان BMO، این وضعیت در نهایت به کاهش بیشتر ساخت‌وساز مسکونی منجر خواهد شد؛ بریتیش کلمبیا و جنوب انتاریو سخت‌ترین شرایط را پیش رو دارند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is the story behind a lot of the questions I'm getting right now, and most people haven't connected the dots yet. For years the assumption baked into every investor pro forma was that Canada would keep importing demand faster than it could build. That assumption just broke. If you own an investor condo in the GTA and your rent is resetting 4-5% lower while your renewal payment resets higher, that is a cash-flow squeeze arriving from both directions at once — and it deserves a real conversation now, not at maturity.</p><p>For buyers, the same data reads very differently. Softer rents and recession-level presales mean less competition and more negotiating room than we've had in years, particularly in southern Ontario. My advice is unchanged in principle: qualify first, then shop. Get a properly structured pre-approval so you know your true ceiling, and if you're carrying a rental that no longer carries itself, let's model the renewal, the offset treatment and the exit options side by side before the market decides for you. I'm not predicting where rents or prices go next — nobody can — but a file that's been stress-tested against a weaker rental market is a file that survives one.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این همان داستانی است که پشت بسیاری از پرسش‌های این روزهای مشتریان من قرار دارد و هنوز بیشتر افراد ارتباط میان اجزای آن را ندیده‌اند. سال‌ها این فرض در هر محاسبه سرمایه‌گذاری وجود داشت که کانادا سریع‌تر از توان ساخت‌وساز، تقاضا وارد می‌کند. این فرض اکنون فرو ریخته است. اگر صاحب یک کاندوی سرمایه‌گذاری در تورنتوی بزرگ هستید و اجاره شما ۴ تا ۵ درصد پایین‌تر تنظیم می‌شود در حالی که پرداخت تمدید وام شما بالاتر می‌رود، فشار نقدینگی از هر دو سو وارد می‌شود و این موضوع همین حالا نیازمند گفت‌وگوی جدی است، نه در زمان سررسید.</p><p>برای خریداران، همین داده‌ها معنای متفاوتی دارد. اجاره‌های نرم‌تر و پیش‌فروش‌های در سطح رکود یعنی رقابت کمتر و فضای چانه‌زنی بیشتر نسبت به سال‌های اخیر، به‌ویژه در جنوب انتاریو. توصیه من در اصل تغییری نکرده است: نخست واجد شرایط شوید، سپس جست‌وجو کنید. یک پیش‌تأییدیه با ساختار درست بگیرید تا سقف واقعی خود را بدانید؛ و اگر ملک اجاره‌ای دارید که دیگر هزینه خود را پوشش نمی‌دهد، پیش از آنکه بازار تصمیم بگیرد، بیایید تمدید، نحوه محاسبه درآمد اجاره و گزینه‌های خروج را کنار هم بررسی کنیم. من پیش‌بینی نمی‌کنم که اجاره یا قیمت‌ها به کجا می‌رود — هیچ‌کس نمی‌تواند — اما پرونده‌ای که در برابر بازار اجاره ضعیف‌تر آزموده شده باشد، از آن جان سالم به در می‌برد.",
-      "seo_title": "BMO: Canada's Population Drop Is Cooling Rents, Condos and Housing (July 2026)",
-      "seo_description": "BMO Economics says Canada's first recorded annual population decline is easing rents, pushing condo presales to recession levels and slowing construction. What it means for buyers, investors and renewals — with broker analysis from Hamed Ashouri.",
-      "keywords": [
-        "Canada population decline 2025",
-        "BMO housing forecast 2026",
-        "asking rents down 4.7%",
-        "condo presales recession levels",
-        "non-permanent residents outflow",
-        "GTA condo investor cash flow",
-        "rental market Canada 2026",
-        "Douglas Porter Robert Kavcic",
-        "southern Ontario housing market"
-      ],
-      "tags": [
-        "housing-market",
-        "rental-market",
-        "condos",
-        "immigration",
-        "investors",
-        "bmo"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_488a97c1-138b-45c6-b1a8-616d79b47225.jpg",
-      "image_alt_en": "A modern glass condominium tower in a Canadian city at golden hour with several unlit, empty apartment windows and a quiet sidewalk below.",
-      "image_alt_fa": "برج کاندوی شیشه‌ای مدرن در یک شهر کانادا هنگام غروب طلایی، با چند پنجره خاموش و خالی و پیاده‌رویی خلوت در پایین.",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/population-slowdown-is-cooling-canadas-housing-market-bmo/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-16",
-      "imported_date": "2026-07-17",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "housing-market",
-        "investors",
-        "renewal"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-preapproval",
-        "gen-stress",
-        "renewal-checklist"
-      ]
-    },
-    {
-      "id": "news-2026-07-17-cmhc-june-housing-starts",
-      "slug": "cmhc-june-2026-housing-starts-down-six-per-cent",
-      "title_en": "Housing starts fell 6% in June — and the pipeline of approved-but-unstarted homes is thinning too",
-      "title_fa": "شروع ساخت مسکن در ژوئن ۶ درصد کاهش یافت — و صف پروژه‌های مجوزگرفته اما آغازنشده نیز نازک‌تر می‌شود",
-      "summary_en": "Canada Mortgage and Housing Corp. reported that the annual pace of housing starts fell 6% in June from May, with the seasonally adjusted annual rate landing at 238,971 units versus 253,083 the month before. The six-month moving average, which smooths out the monthly noise, came in at 248,123 units — down 2.8% from May, signalling that the softness is a trend rather than a one-month blip. Units under construction in centres of 50,000 or more edged up 0.2% to 375,469, while completions rose 8.4% to 18,298 as builders finished projects already in motion. The forward-looking number is arguably the most telling: homes with approved building permits but not yet started fell 1.1% to 137,324, meaning the queue of future construction is thinning rather than filling. Rural starts were estimated at a seasonally adjusted annual rate of 11,141 units.",
-      "summary_fa": "شرکت وام و مسکن کانادا (CMHC) اعلام کرد که آهنگ سالانه شروع ساخت مسکن در ژوئن نسبت به ماه مه ۶ درصد کاهش یافته و نرخ سالانه تعدیل‌شده فصلی به ۲۳۸٬۹۷۱ واحد رسیده است، در برابر ۲۵۳٬۰۸۳ واحد در ماه پیش. میانگین متحرک شش‌ماهه که نوسان‌های ماهانه را هموار می‌کند، ۲۴۸٬۱۲۳ واحد بود؛ یعنی ۲.۸ درصد کمتر از ماه مه، که نشان می‌دهد این ضعف یک روند است نه یک اتفاق یک‌ماهه. واحدهای در دست ساخت در مراکز با جمعیت ۵۰٬۰۰۰ نفر و بیشتر با ۰.۲ درصد افزایش به ۳۷۵٬۴۶۹ واحد رسید و تکمیل‌ها با ۸.۴ درصد رشد به ۱۸٬۲۹۸ واحد رسید، چرا که سازندگان پروژه‌های در جریان را به پایان می‌رسانند. اما گویاترین عدد، نگاه به آینده دارد: واحدهای دارای مجوز ساخت اما آغازنشده با ۱.۱ درصد کاهش به ۱۳۷٬۳۲۴ واحد رسید؛ یعنی صف ساخت‌وسازهای آینده به‌جای پر شدن، در حال نازک شدن است. شروع ساخت در مناطق روستایی با نرخ سالانه تعدیل‌شده فصلی ۱۱٬۱۴۱ واحد برآورد شد.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> One monthly print never moves a mortgage decision, so I look at the six-month average — and at 248,123 it's pointing the same direction. What actually caught my eye is the permits-approved-but-not-started number falling. Completions are up because builders are finishing what they already started; that's the pipeline emptying, not refilling. Read alongside this week's BMO work on weaker rental demand, it's a coherent picture: fewer people, softer rents, and builders declining to break ground into that.</p><p>Practically, this matters most if you're buying new construction or pre-construction. Longer or shifting closing timelines are a live risk, and a rate hold that expires before your builder is ready is a very expensive surprise — so ask hard questions about the closing date and make sure your hold, and your income documentation, are built to survive a delay. If you're on the resale side, a thinner future supply pipeline is a medium-term consideration, not a reason to rush a purchase you haven't qualified for. Let's confirm what you actually qualify for first, then let the market news inform the timing — never the other way around.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> یک گزارش ماهانه هرگز تصمیم وام مسکن را تغییر نمی‌دهد؛ به همین دلیل من به میانگین شش‌ماهه نگاه می‌کنم — و رقم ۲۴۸٬۱۲۳ همان جهت را نشان می‌دهد. چیزی که واقعاً توجه من را جلب کرد، کاهش تعداد واحدهای دارای مجوز اما آغازنشده است. تکمیل‌ها بالا رفته چون سازندگان کارهای آغازشده را تمام می‌کنند؛ این یعنی خالی شدن صف پروژه‌ها، نه پر شدن آن. اگر این را در کنار گزارش این هفته BMO درباره ضعف تقاضای اجاره بگذاریم، تصویر منسجمی شکل می‌گیرد: جمعیت کمتر، اجاره نرم‌تر، و سازندگانی که تمایلی به کلنگ‌زنی در چنین فضایی ندارند.</p><p>از نظر عملی، این موضوع بیش از همه برای خریداران خانه‌های نوساز و پیش‌فروش اهمیت دارد. طولانی شدن یا جابه‌جایی زمان تحویل یک ریسک واقعی است و اگر قفل نرخ شما پیش از آماده شدن سازنده منقضی شود، غافلگیری پرهزینه‌ای خواهد بود؛ پس درباره تاریخ تحویل پرسش‌های جدی بپرسید و مطمئن شوید قفل نرخ و مدارک درآمدی شما تاب تأخیر را دارد. اگر در بازار خانه‌های موجود هستید، نازک‌تر شدن عرضه آینده یک ملاحظه میان‌مدت است، نه دلیلی برای شتاب در خریدی که هنوز واجد شرایط آن نشده‌اید. نخست بیایید سقف واقعی شما را مشخص کنیم، سپس بگذاریم اخبار بازار زمان‌بندی را روشن کند — هرگز برعکس.</p>",
-      "seo_title": "CMHC: Canadian Housing Starts Down 6% in June 2026 — What It Means for Buyers",
-      "seo_description": "CMHC says June housing starts fell 6% to a 238,971-unit annual pace, with approved-but-unstarted permits also down. What a thinning construction pipeline means for new-build buyers, rate holds and timing — broker analysis by Hamed Ashouri.",
-      "keywords": [
-        "CMHC housing starts June 2026",
-        "housing starts down 6 per cent",
-        "238,971 units annual pace",
-        "Canada housing supply 2026",
-        "new construction mortgage Ontario",
-        "pre-construction closing delay",
-        "rate hold expiry new build",
-        "building permits not started"
-      ],
-      "tags": [
-        "housing-market",
-        "cmhc",
-        "housing-supply",
-        "new-construction",
-        "economic-data"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_f11c091d-b6f2-44cc-81ce-1d3f37fca470.jpg",
-      "image_alt_en": "A partially framed Canadian mid-rise apartment building at soft morning light with a stationary tower crane, scaffolding and stacked lumber, no workers present.",
-      "image_alt_fa": "ساختمان آپارتمانی میان‌مرتبه در کانادا که تنها بخشی از اسکلت آن ساخته شده، در نور ملایم صبح با جرثقیل ثابت، داربست و الوارهای انباشته و بدون حضور کارگر.",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/cmhc-reports-annual-rate-of-housing-starts-in-june-down-six-per-cent-from-may/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-16",
-      "imported_date": "2026-07-17",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "housing-market",
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-preapproval",
-        "gen-stress"
       ]
     }
   ]
