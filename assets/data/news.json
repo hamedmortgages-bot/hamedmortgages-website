@@ -1,6 +1,6 @@
 {
-  "version": 27,
-  "updated": "2026-08-05",
+  "version": 28,
+  "updated": "2026-08-22",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,122 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-08-22-bond-selloff-fixed-mortgage-rates-higher",
+      "slug": "bond-selloff-canadian-fixed-mortgage-rates-higher",
+      "title_en": "Bond market turmoil lifts Canadian fixed mortgage rates — variable discounts hold steady",
+      "title_fa": "تلاطم بازار اوراق قرضه، نرخ‌های ثابت وام مسکن در کانادا را بالا برد؛ تخفیف‌های نرخ متغیر ثابت مانده",
+      "summary_en": "A sharp global selloff in government bonds has pushed the five-year Government of Canada yield to roughly 3.36%, up about eight basis points in a week and only three basis points below its twelve-month high. Because fixed mortgage rates are priced off that yield, lenders have responded by repricing three- to five-year fixed terms upward, with increases generally in the 10 to 15 basis point range and some as large as 20. The pressure is coming largely from outside Canada: U.S. Treasury yields have climbed as American federal debt passed US$40 trillion, daily interest costs topped US$3 billion, and renewed Middle East conflict revived inflation worries — sending the 30-year Treasury yield to 5.337%, its highest level since 2007. A U.S. Treasury bond buyback aimed at calming the market brought only brief relief. Variable-rate mortgages, which follow the Bank of Canada's overnight rate rather than bond yields, have not moved, and lender discounts off prime are unchanged for now.",
+      "summary_fa": "یک موج فروش شدید در بازار جهانی اوراق قرضه دولتی، بازده اوراق پنج‌سالهٔ دولت کانادا را به حدود ۳٫۳۶ درصد رسانده است؛ یعنی حدود هشت واحد پایه بالاتر از هفتهٔ گذشته و تنها سه واحد پایه پایین‌تر از بالاترین سطح دوازده‌ماههٔ خود. از آنجا که نرخ‌های ثابت وام مسکن بر پایهٔ همین بازده قیمت‌گذاری می‌شوند، وام‌دهندگان نرخ‌های ثابت سه تا پنج‌ساله را افزایش داده‌اند؛ افزایش‌ها عموماً بین ۱۰ تا ۱۵ واحد پایه و در برخی موارد تا ۲۰ واحد پایه بوده است. فشار اصلی از بیرون کانادا می‌آید: بازده اوراق خزانهٔ آمریکا با عبور بدهی فدرال آن کشور از ۴۰ تریلیون دلار، هزینهٔ بهرهٔ روزانهٔ بیش از ۳ میلیارد دلار و بازگشت نگرانی‌های تورمی ناشی از تنش در خاورمیانه بالا رفته و بازده اوراق سی‌سالهٔ آمریکا به ۵٫۳۳۷ درصد، بالاترین سطح از سال ۲۰۰۷، رسیده است. بازخرید اوراق از سوی خزانه‌داری آمریکا تنها آرامشی کوتاه‌مدت ایجاد کرد. وام‌های با نرخ متغیر که به نرخ شبانهٔ بانک مرکزی کانادا وابسته‌اند نه به بازده اوراق، تغییری نکرده‌اند و تخفیف وام‌دهندگان نسبت به نرخ پایه فعلاً دست‌نخورده باقی مانده است.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This is a pricing story, not a Bank of Canada story, and the distinction matters when you are choosing a term. Fixed rates move with bond yields, and bond yields right now are being driven by government debt levels and geopolitics far outside anyone's control. Variable rates move with the Bank of Canada's overnight rate, which is still at 2.25%. That is why fixed offers are being repriced this week while variable discounts off prime have not budged — two different engines, and only one of them is running hot.</p><p>Practically, three things follow. First, if you have a live pre-approval with a held fixed rate, the hold has real value right now — check its expiry date and know exactly what happens if you need an extension. Second, if you are renewing in the next 120 days, start shopping now rather than waiting for the lender's renewal letter; a rate hold costs you nothing and protects you if yields keep climbing. Third, fixed versus variable is genuinely a risk-tolerance question this cycle, not a math trick. Variable can win if the Bank stays put or eases, but you have to be able to absorb a payment increase without stress if it does not. I'd rather stress-test your budget against a higher payment and pick the term you can actually live with than chase a rate you'll regret at renewal. Nobody can promise where rates go from here — including me.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این خبر دربارهٔ قیمت‌گذاری است، نه دربارهٔ تصمیم بانک مرکزی کانادا، و این تفاوت هنگام انتخاب نوع نرخ اهمیت زیادی دارد. نرخ‌های ثابت با بازده اوراق قرضه حرکت می‌کنند و بازده اوراق در حال حاضر تحت تأثیر سطح بدهی دولت‌ها و تنش‌های ژئوپلیتیکی است؛ عواملی که خارج از کنترل ماست. نرخ‌های متغیر اما به نرخ شبانهٔ بانک مرکزی کانادا وابسته‌اند که هنوز ۲٫۲۵ درصد است. به همین دلیل این هفته نرخ‌های ثابت بالا رفته‌اند اما تخفیف‌های نرخ متغیر تغییری نکرده‌اند.</p><p>سه نکتهٔ عملی: نخست، اگر پیش‌تأییدیه‌ای با نرخ ثابتِ رزروشده دارید، این رزرو همین حالا ارزش واقعی دارد؛ تاریخ انقضای آن را بررسی کنید و بدانید در صورت نیاز به تمدید چه اتفاقی می‌افتد. دوم، اگر تا ۱۲۰ روز آینده تمدید وام دارید، منتظر نامهٔ تمدید وام‌دهنده نمانید و از همین حالا بازار را بررسی کنید؛ رزرو نرخ هزینه‌ای برای شما ندارد و در برابر افزایش بیشتر بازده‌ها از شما محافظت می‌کند. سوم، انتخاب بین نرخ ثابت و متغیر در این دوره واقعاً یک تصمیم بر پایهٔ تحمل ریسک است، نه یک ترفند محاسباتی. نرخ متغیر در صورت ثابت ماندن یا کاهش نرخ بانک مرکزی می‌تواند به سود شما تمام شود، اما باید بتوانید افزایش احتمالی قسط را بدون فشار جذب کنید. هیچ‌کس، از جمله من، نمی‌تواند مسیر آیندهٔ نرخ‌ها را تضمین کند.</p>",
+      "seo_title": "Canadian fixed mortgage rates rise as global bond selloff lifts yields",
+      "seo_description": "The 5-year Government of Canada yield hit about 3.36% and lenders repriced fixed mortgage rates 10–20 basis points higher, while variable-rate discounts held steady. What Canadian borrowers should do now.",
+      "keywords": [
+        "fixed mortgage rates",
+        "5-year bond yield",
+        "Government of Canada yield",
+        "bond selloff",
+        "variable rate mortgage",
+        "Bank of Canada",
+        "mortgage renewal",
+        "rate hold"
+      ],
+      "tags": [
+        "fixed rates",
+        "bond yields",
+        "variable rates",
+        "rate hold",
+        "renewal"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_68f43e5d-6757-4cb9-9a9a-9914f625b8a8.png",
+      "image_alt_en": "A quiet Canadian trading floor at dusk, with an empty chair facing softly glowing market screens and a blurred city skyline beyond.",
+      "image_alt_fa": "یک سالن معاملات آرام در کانادا هنگام غروب، با صندلی خالی رو به نمایشگرهای کم‌نور بازار و افق شهر در پس‌زمینهٔ محو.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/global-bond-selloff-pushes-canadian-fixed-mortgage-rates-higher/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-21",
+      "imported_date": "2026-08-22",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "rates",
+        "mortgage-renewal",
+        "renewal",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "gen-preapproval",
+        "renewal-checklist",
+        "gen-stress"
+      ]
+    },
+    {
+      "id": "news-2026-08-20-boc-research-rate-cuts-demand-vs-supply",
+      "slug": "boc-research-rate-cuts-housing-demand-outpaces-supply",
+      "title_en": "Bank of Canada research: rate cuts lift buyers long before they lift building",
+      "title_fa": "پژوهش بانک مرکزی کانادا: کاهش نرخ بهره تقاضای خرید را خیلی زودتر از ساخت‌وساز بالا می‌برد",
+      "summary_en": "A new Bank of Canada staff analytical paper examines what happens to Canadian housing when monetary policy surprises the market, and the timing gap it found is the headline. Researchers Benjamin Strauss, Stéphane Surprenant and Kerem Tuzcuoglu report that home resales start climbing soon after an unexpected rate cut, with the strongest effects roughly 18 to 24 months out, while housing starts do not respond meaningfully for about two years because projects still need planning, permits and construction time. Prices, meanwhile, rise persistently, because the demand response outweighs the supply response in every version of their model. The effect is also state-dependent: rate cuts move sales, building and prices far more when unemployment is low, and have little effect when the unemployment gap exceeds 0.78 percentage points — roughly a 7% national jobless rate, above Canada's 6.4% reading in July. The authors conclude that supply-focused policy, not monetary policy, is the better tool for housing imbalances, and they caution that their data ends in 2019 and models a 25-basis-point move, so the estimates should not be stretched to larger rate swings.",
+      "summary_fa": "پژوهش تحلیلی تازه‌ای از کارشناسان بانک مرکزی کانادا بررسی می‌کند که وقتی سیاست پولی بازار را غافلگیر می‌کند چه بر سر بازار مسکن کانادا می‌آید، و یافتهٔ اصلی آن فاصلهٔ زمانی میان تقاضا و عرضه است. پژوهشگران بنجامین اشتراوس، استفان سورپرنان و کِرِم توزجواوغلو گزارش می‌دهند که فروش مجدد خانه اندکی پس از یک کاهش غیرمنتظرهٔ نرخ بهره افزایش می‌یابد و بیشترین اثر حدود ۱۸ تا ۲۴ ماه بعد ظاهر می‌شود، در حالی که شروع ساخت‌وسازهای جدید تا حدود دو سال واکنش معناداری نشان نمی‌دهد، چون هر پروژه به برنامه‌ریزی، مجوز و زمان ساخت نیاز دارد. در همین حال قیمت‌ها به‌طور پایدار بالا می‌روند، زیرا در تمام حالت‌های مدل، واکنش تقاضا بر واکنش عرضه غلبه می‌کند. این اثر به شرایط اقتصادی هم وابسته است: کاهش نرخ بهره زمانی که بیکاری پایین است اثر بسیار بیشتری بر فروش، ساخت‌وساز و قیمت دارد و زمانی که شکاف نرخ بیکاری از ۰٫۷۸ واحد درصد فراتر رود — تقریباً معادل نرخ بیکاری ۷ درصدی، بالاتر از نرخ ۶٫۴ درصدی کانادا در ماه ژوئیه — اثر چندانی ندارد. نویسندگان نتیجه می‌گیرند که سیاست‌های متمرکز بر عرضه، نه سیاست پولی، ابزار بهتری برای رفع عدم‌تعادل بازار مسکن است و یادآور می‌شوند داده‌های آن‌ها تا سال ۲۰۱۹ است و یک تغییر ۲۵ واحد پایه‌ای را مدل‌سازی می‌کند، پس نباید این برآوردها را به تغییرات بزرگ‌تر نرخ تعمیم داد.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Read this as a warning about crowds, not as a rate forecast. The finding that matters for a household is the sequencing: buyers show up quickly after borrowing gets cheaper, and new supply arrives roughly two years later. That means the window right after a cut is usually the most competitive window, not the cheapest one — the monthly payment falls, but the purchase price and the bidding pressure tend to rise into it. Waiting for a cut to make housing affordable has historically been a strategy that gets you a better rate on a worse price.</p><p>What I take from it operationally is that your own readiness beats market timing. If you are pre-approved, documented, and clear on your maximum comfortable payment, you can act in a slow market — which is exactly when you have negotiating room. If you are unprepared and the market turns hot, you compete on speed and emotion, and that is where people overpay. Also worth noting: the study's data ends in 2019 and models a small, surprise rate move, so it describes a tendency, not a prediction of what the next cut would do. Use it to shape your timeline, not to bet your down payment on a forecast.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این پژوهش را هشداری دربارهٔ ازدحام خریداران بدانید، نه پیش‌بینی نرخ بهره. آنچه برای یک خانوار اهمیت دارد ترتیب زمانی است: خریداران خیلی زود پس از ارزان شدن وام وارد بازار می‌شوند، اما عرضهٔ جدید حدود دو سال بعد از راه می‌رسد. یعنی بازهٔ زمانی درست پس از کاهش نرخ معمولاً رقابتی‌ترین دوره است، نه ارزان‌ترین آن؛ قسط ماهانه کم می‌شود اما قیمت خرید و فشار رقابت بالا می‌رود. انتظار برای کاهش نرخ به امید ارزان شدن مسکن، در عمل اغلب یعنی نرخ بهتر روی قیمت بدتر.</p><p>برداشت عملی من این است که آمادگی شخصی شما از زمان‌بندی بازار مهم‌تر است. اگر پیش‌تأییدیه گرفته باشید، مدارکتان کامل باشد و سقف قسط راحت خود را بدانید، می‌توانید در بازار آرام اقدام کنید؛ دقیقاً همان‌جا که فضای مذاکره دارید. اگر آماده نباشید و بازار داغ شود، ناچارید بر سر سرعت و هیجان رقابت کنید و همان‌جاست که مردم گران می‌خرند. ضمناً داده‌های این پژوهش تا سال ۲۰۱۹ است و تنها یک تغییر کوچک و غیرمنتظرهٔ نرخ را مدل می‌کند؛ پس یک گرایش را توصیف می‌کند، نه پیش‌بینی اثر کاهش نرخ بعدی.</p>",
+      "seo_title": "BoC research: rate cuts boost housing demand about two years before supply",
+      "seo_description": "New Bank of Canada staff research finds home resales rise soon after a rate cut with peak effects at 18–24 months, while housing starts lag about two years — pushing prices persistently higher, especially when unemployment is low.",
+      "keywords": [
+        "Bank of Canada research",
+        "monetary policy",
+        "housing supply",
+        "housing demand",
+        "home prices",
+        "housing starts",
+        "interest rate cuts",
+        "affordability"
+      ],
+      "tags": [
+        "Bank of Canada",
+        "research",
+        "housing supply",
+        "home prices",
+        "affordability"
+      ],
+      "category": "housing-market",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_d7ef8cbe-6a75-42d0-8203-ddf36937074a.jpg",
+      "image_alt_en": "A half-finished low-rise residential construction site in a Canadian suburb at golden hour, with completed homes in the soft-focus background.",
+      "image_alt_fa": "یک کارگاه ساختمانی نیمه‌تمام مسکونی کم‌ارتفاع در حومهٔ شهری در کانادا هنگام غروب طلایی، با خانه‌های تکمیل‌شده در پس‌زمینهٔ محو.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/rate-cuts-boost-housing-demand-faster-than-supply-boc-research-finds/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-20",
+      "imported_date": "2026-08-22",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "housing-market",
+        "affordability",
+        "home-prices",
+        "first-time-buyer"
+      ],
+      "related_journeys": [
+        "assessment"
+      ],
+      "related_knowledge_blocks": [
+        "gen-housing-market-basics",
+        "ftb-roadmap",
+        "gen-preapproval"
+      ]
+    },
     {
       "id": "news-2026-08-05-mcan-q2-uninsured-originations",
       "slug": "mcan-q2-2026-earnings-uninsured-originations",
@@ -71,7 +187,7 @@
       "imported_date": "2026-08-05",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "self-employed",
@@ -129,7 +245,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "first-time-buyer",
         "housing-market",
@@ -187,7 +303,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "mortgage-broker",
         "home-financing"
@@ -780,122 +896,6 @@
       "related_knowledge_blocks": [
         "gen-private-lending",
         "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-20-canada-cpi-june-2-8-core-below-2",
-      "slug": "canada-inflation-june-2026-2-8-percent-core-below-2",
-      "title_en": "Canada's inflation cools to 2.8% in June — and core inflation slips under 2% for the first time in almost six years",
-      "title_fa": "تورم کانادا در ژوئن به ۲٫۸٪ کاهش یافت — و تورم هسته برای نخستین بار در نزدیک شش سال به زیر ۲٪ رسید",
-      "summary_en": "Statistics Canada reported on July 20 that the consumer price index rose 2.8% year over year in June, down from 3.2% in May and softer than the 2.9% economists had expected. The bigger story for mortgage borrowers is underneath the headline: the average of the Bank of Canada's preferred median and trim core measures came in at 1.85%, the lowest reading since September 2020 and the first sub-2% print in nearly six years. Gasoline did most of the work, falling 10.2% month over month as global oil prices eased, which pulled the overall index down 0.4% on the month — the largest monthly decline since December 2024. Grocery inflation slowed to 3.9% from 4.3%, and shelter inflation eased further to 1.5%, while travel-related categories jumped on World Cup demand. Economists quoted in the report cautioned that oil has been climbing again in recent weeks, so the Bank is unlikely to declare victory, but the softness in core suggests economic slack is absorbing the war-driven energy shock rather than letting it spread.",
-      "summary_fa": "آمار کانادا در ۲۰ ژوئیه اعلام کرد که شاخص قیمت مصرف‌کننده در ژوئن نسبت به سال گذشته ۲٫۸٪ رشد کرده است؛ کمتر از ۳٫۲٪ ماه مه و پایین‌تر از انتظار ۲٫۹٪ اقتصاددانان. نکته مهم‌تر برای وام‌گیرندگان مسکن زیر عدد اصلی نهفته است: میانگین معیارهای هسته مورد نظر بانک مرکزی کانادا (میانه و تریم) به ۱٫۸۵٪ رسید؛ پایین‌ترین رقم از سپتامبر ۲۰۲۰ و نخستین عدد زیر ۲٪ در نزدیک شش سال. بنزین بیشترین سهم را داشت و در مقایسه با ماه قبل ۱۰٫۲٪ ارزان شد که شاخص کل را ۰٫۴٪ در ماه پایین آورد — بزرگ‌ترین کاهش ماهانه از دسامبر ۲۰۲۴. تورم مواد غذایی از ۴٫۳٪ به ۳٫۹٪ کاهش یافت و تورم مسکن به ۱٫۵٪ رسید، در حالی که هزینه‌های سفر با شروع جام جهانی جهش کرد. اقتصاددانان هشدار می‌دهند که قیمت نفت در هفته‌های اخیر دوباره بالا رفته است، بنابراین بانک مرکزی هنوز اعلام پیروزی نمی‌کند؛ اما نرمی تورم هسته نشان می‌دهد رکود نسبی اقتصاد در حال جذب شوک انرژی است.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is the report that quietly takes the rate-hike scenario off the table for now. Since the spring, the Bank of Canada's warning has been that a war-driven energy spike could bleed into everything else — and a core reading of 1.85% says it hasn't. That doesn't mean cuts are coming; the Bank held at 2.25% just last week and its own projection has inflation averaging 2.5% this year. What it means is that the risk of the next move being <em>up</em> just got a lot smaller, which is the assumption most Canadians should be planning around.</p><p>If you're renewing in the next twelve months, this is a good moment to have your renewal analysis done rather than waiting for your lender's letter — a softer core print tends to show up in bond yields before it shows up in posted rates, and being ready lets you act on a good fixed quote instead of chasing it. If you're weighing fixed versus variable, understand that a friendly inflation report supports a stable policy rate, not a falling one, so a variable is a bet on stability, not on savings arriving automatically. And if you're buying, remember qualification is still done at the stress-tested rate, so the practical lever is your debt load and documented income, not the headline CPI. Happy to run your specific numbers before you commit either way.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این گزارش، سناریوی افزایش نرخ بهره را فعلاً از روی میز برمی‌دارد. از بهار امسال هشدار بانک مرکزی کانادا این بود که جهش قیمت انرژی ناشی از جنگ ممکن است به سایر بخش‌ها سرایت کند — و عدد هسته ۱٫۸۵٪ می‌گوید چنین نشده است. این به معنای شروع کاهش نرخ نیست؛ بانک مرکزی همین هفته گذشته نرخ را در ۲٫۲۵٪ نگه داشت و پیش‌بینی خودش میانگین تورم ۲٫۵٪ برای امسال است. معنایش این است که احتمال اینکه حرکت بعدی <em>افزایشی</em> باشد به‌مراتب کمتر شده است.</p><p>اگر تمدید وام مسکن شما طی دوازده ماه آینده است، همین حالا وقت مناسبی است که تحلیل تمدید را انجام دهید و منتظر نامه وام‌دهنده نمانید؛ نرمی تورم هسته معمولاً زودتر در بازده اوراق دیده می‌شود تا در نرخ‌های اعلامی. اگر بین نرخ ثابت و شناور مردد هستید، توجه کنید که یک گزارش تورمی مطلوب از ثبات نرخ حمایت می‌کند، نه از کاهش آن؛ پس انتخاب شناور شرط‌بندی روی ثبات است، نه روی صرفه‌جویی خودکار. و اگر قصد خرید دارید، به یاد داشته باشید که واجد شرایط شدن همچنان با نرخ آزمون استرس محاسبه می‌شود؛ بنابراین اهرم عملی شما میزان بدهی و درآمد مستندشده است، نه عدد کلی تورم. با کمال میل اعداد پرونده شما را پیش از تصمیم بررسی می‌کنم.</p>",
-      "seo_title": "Canada Inflation June 2026: CPI 2.8%, Core Below 2% — What It Means for Mortgages",
-      "seo_description": "Canada's CPI slowed to 2.8% in June 2026 and core inflation fell to 1.85%, the lowest since 2020. A mortgage broker's read on renewals, fixed vs variable, and the Bank of Canada's next move.",
-      "keywords": [
-        "Canada inflation June 2026",
-        "CPI 2.8% Canada",
-        "core inflation below 2%",
-        "Bank of Canada rate outlook",
-        "fixed vs variable mortgage Canada",
-        "mortgage renewal Ontario 2026",
-        "Statistics Canada CPI",
-        "policy rate 2.25%"
-      ],
-      "tags": [
-        "rates",
-        "inflation",
-        "bank-of-canada",
-        "fixed-vs-variable",
-        "renewal"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_20884147-7e21-4f72-a0ba-4da2dd01a9a6.jpg",
-      "image_alt_en": "A shopper pushes a cart past a bright Canadian grocery storefront and a gas station on a rain-slicked street at dawn.",
-      "image_alt_fa": "خریداری چرخ خرید خود را در سپیده‌دم از کنار ویترین روشن یک فروشگاه مواد غذایی کانادایی و یک جایگاه سوخت در خیابانی خیس عبور می‌دهد.",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/canadian-inflation-falls-to-2-8-core-measures-ease/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-20",
-      "imported_date": "2026-07-20",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "renewal",
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
-        "renewal-checklist",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-16-reverse-mortgage-rates-falling",
-      "slug": "reverse-mortgage-rates-falling-2026",
-      "title_en": "Reverse mortgage rates are falling — and for once, all four lenders moved within weeks of each other",
-      "title_fa": "نرخ وام معکوس در حال کاهش است — و این‌بار، هر چهار وام‌دهنده در عرض چند هفته نرخ‌ها را پایین آوردند",
-      "summary_en": "Canada's four reverse mortgage lenders have each trimmed their rates within weeks of one another, in a round of cuts that — unusually — was not set off by the Bank of Canada or a sharp move in bond yields. Equitable Bank dropped the five-year fixed rate on its Flex Lite product to 6.23% from 6.44% in late June, and Bloom Financial, HomeEquity Bank and Home Trust quickly followed, with HomeEquity moving to 6.39% and both Home Trust and Equitable landing near 6.23%. Providers point to cheaper institutional funding and a more stable rate environment, but brokers told Canadian Mortgage Trends that competitive positioning is doing much of the work: with only four players in the market, one lender's cut pressures the others to match. Demand keeps climbing as the population ages — Statistics Canada pegged Canadians 65 and older at 19.5% of the population as of mid-2025 — and outstanding reverse mortgage balances have reached roughly $11 billion. Brokers expect a slow, competition-driven drift lower from here rather than dramatic drops, barring a shock to lenders' funding costs.",
-      "summary_fa": "هر چهار وام‌دهندهٔ وام معکوس در کانادا در فاصلهٔ چند هفته از یکدیگر نرخ‌های خود را کاهش داده‌اند؛ دور کاهشی که برخلاف معمول، نه با تصمیم بانک مرکزی کانادا و نه با جهش شدید بازده اوراق قرضه آغاز شد. اکوئیتبل بانک نرخ ثابت پنج‌ساله محصول Flex Lite خود را در اواخر ژوئن از ۶٫۴۴٪ به ۶٫۲۳٪ رساند و بلوم فایننشال، HomeEquity Bank و هوم تراست به‌سرعت از آن پیروی کردند؛ HomeEquity به ۶٫۳۹٪ و هوم تراست و اکوئیتبل به حدود ۶٫۲۳٪ رسیدند. وام‌دهندگان دلیل را هزینهٔ ارزان‌تر تأمین مالی نهادی و ثبات بیشتر نرخ‌ها می‌دانند، اما کارگزاران به Canadian Mortgage Trends گفتند که رقابت نقش اصلی را دارد: با تنها چهار بازیگر در بازار، کاهش نرخ یک وام‌دهنده بقیه را به تطبیق وادار می‌کند. تقاضا با سالمندتر شدن جمعیت رو به افزایش است — طبق آمار کانادا، در اواسط ۲۰۲۵ حدود ۱۹٫۵٪ جمعیت ۶۵ سال یا بیشتر بودند — و مانده‌های وام معکوس به حدود ۱۱ میلیارد دلار رسیده است. کارگزاران انتظار دارند نرخ‌ها به‌آرامی و تحت فشار رقابت پایین بیایند، نه با افت‌های ناگهانی، مگر آنکه شوکی به هزینهٔ تأمین مالی وام‌دهندگان وارد شود.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is one of the more useful stories of the summer for my clients who are 55-plus, because reverse mortgage pricing usually moves on its own schedule rather than with the Bank of Canada. Four lenders instead of one means that, for the first time, we can genuinely shop this product — I'm now getting rate specials I never used to see. A quarter of a point matters a great deal on a loan where interest compounds and no monthly payments are made, so the difference between roughly 6.2% and 6.6% adds up meaningfully over ten or fifteen years.</p><p>That said, a reverse mortgage is a tool, not a default answer. It can be the right fit for a house-rich, cash-poor retiree who wants to stay in their home, and the wrong one for someone who could refinance, add a HELOC, or downsize instead. I don't guarantee any rate or approval — what I do is run the options side by side, model how the balance grows over time, and make sure the estate implications are clear before anyone signs. If you're 55-plus and equity-rich, this is a good moment to have that conversation.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این یکی از مفیدترین خبرهای تابستان برای مشتریان بالای ۵۵ سال من است، چون قیمت‌گذاری وام معکوس معمولاً طبق برنامهٔ خودش حرکت می‌کند، نه هم‌گام با بانک مرکزی کانادا. وجود چهار وام‌دهنده به‌جای یک وام‌دهنده یعنی برای نخستین‌بار می‌توانیم واقعاً این محصول را مقایسه کنیم — حالا پیشنهادهای ویژهٔ نرخ می‌گیرم که پیش‌تر وجود نداشت. یک‌چهارم درصد در وامی که بهره در آن مرکب می‌شود و پرداخت ماهانه‌ای ندارد اهمیت زیادی دارد؛ بنابراین تفاوت میان حدود ۶٫۲٪ و ۶٫۶٪ در طول ده تا پانزده سال به‌طور معناداری انباشته می‌شود.</p><p>با این حال، وام معکوس یک ابزار است، نه پاسخ پیش‌فرض. می‌تواند برای بازنشسته‌ای که دارایی ملکی دارد اما نقدینگی‌اش کم است و می‌خواهد در خانه‌اش بماند گزینهٔ درستی باشد، و برای کسی که می‌تواند به‌جای آن ری‌فایننس کند، هلاک بگیرد یا خانهٔ کوچک‌تری بخرد گزینهٔ نادرستی. من هیچ نرخ یا تأییدی را تضمین نمی‌کنم — کاری که می‌کنم این است که گزینه‌ها را کنار هم بررسی می‌کنم، رشد مانده را در طول زمان مدل‌سازی می‌کنم و مطمئن می‌شوم پیامدهای مربوط به دارایی و ارث پیش از امضا روشن است. اگر بالای ۵۵ سال هستید و ارزش ملکی خوبی دارید، الان زمان مناسبی برای این گفتگوست.</p>",
-      "seo_title": "Canada Reverse Mortgage Rates Fall in 2026 — What 55+ Homeowners Should Know",
-      "seo_description": "All four Canadian reverse mortgage lenders cut rates within weeks in mid-2026, driven by competition and cheaper funding. A broker's take for equity-rich homeowners 55+.",
-      "keywords": [
-        "reverse mortgage",
-        "reverse mortgage rates",
-        "HomeEquity Bank",
-        "Equitable Bank",
-        "Bloom Financial",
-        "Home Trust",
-        "CHIP reverse mortgage",
-        "home equity",
-        "55 plus",
-        "retirement income"
-      ],
-      "tags": [
-        "Reverse Mortgage",
-        "Rates",
-        "Lenders",
-        "Retirement",
-        "Home Equity"
-      ],
-      "category": "lenders",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_82873a58-0d54-4c78-ba51-d4131a47f8bb.jpg",
-      "image_alt_en": "A relaxed senior Canadian couple reviewing their home finances together at a sunlit kitchen table.",
-      "image_alt_fa": "زوجی سالمند و آسوده در کانادا که دور میز آشپزخانه‌ای پرنور مشغول بررسی امور مالی خانه‌شان هستند.",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/why-canadas-reverse-mortgage-rates-are-falling/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-16",
-      "imported_date": "2026-07-18",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "reverse-mortgage",
-        "home-equity",
-        "retirement"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-reverse-mortgage-basics"
       ]
     }
   ]
