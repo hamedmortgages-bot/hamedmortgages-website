@@ -52,3 +52,13 @@
 .cx-meta small{color:var(--cx-muted);font-size:10.5px}.cx-meta .cx-vtoggle{background:none;border:none;color:var(--cx-muted);font-size:11px;cursor:pointer;text-decoration:underline}
 .cx-privacy{font-size:10.5px;color:var(--cx-muted);text-align:center;padding:2px 10px 0}.cx-privacy a{color:var(--cx-brand2)}
 .cx-book{display:inline-block;margin:6px 6px 0 0;padding:7px 12px;background:#fff;border:1px solid var(--cx-ring);border-radius:999px;color:var(--cx-brand);font-size:12.5px;font-weight:600;text-decoration:none}
+
+/* NILI consent gate (compliance) */
+.cx-consent{padding:16px 18px;overflow:auto;}
+.cx-consent-h{font-size:1.05rem;margin:0 0 .35rem;}
+.cx-consent-intro{font-weight:600;margin:0 0 .6rem;}
+.cx-consent-list{margin:0 0 .7rem;padding-inline-start:1.1rem;font-size:.9rem;line-height:1.55;}
+.cx-consent-list li{margin-bottom:.45rem;}
+.cx-consent-pv{font-size:.85rem;margin:0 0 .9rem;}
+.cx-consent-pv a,.cx-consent a{text-decoration:underline;}
+.cx-consent-agree{display:inline-block;width:100%;padding:.7rem 1rem;border:0;border-radius:10px;font-weight:700;cursor:pointer;background:var(--cx-accent,#0B2A4A);color:#fff;}

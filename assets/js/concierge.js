@@ -12,7 +12,8 @@
           PERSIST: "https://hook.us2.make.com/3i36t8eo6r99u1grq56589f2xfnawwph",
           DEFAULT_ON: true,
           consentVersion: "ontario_mortgage_concierge_v1.0",
-          privacyUrl: "/en/contact.html",
+          privacyUrlEn: "/en/privacy.html",
+          privacyUrlFa: "/fa/privacy.html",
           booking: {
                   phone: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/11850000000187029",
                   video: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/11850000000187087",
@@ -54,7 +55,17 @@
                   bvideo: "🎥 Video",
                   binperson: "📍 In-person",
                   micDenied: "I couldn't access the mic. You can type instead — how can I help?",
-                  retry: "Sorry — I'm having a brief hiccup. You can try again, or book a time with Hamed and he'll reach out."
+                  retry: "Sorry — I'm having a brief hiccup. You can try again, or book a time with Hamed and he'll reach out.",
+                  consentTitle: "Before we start",
+                  consentIntro: "NILI is an automated assistant — not a live agent.",
+                  consentPoints: [
+                        "Your messages and any voice notes are processed by third-party technology providers (including AI services) and stored in our CRM so we can respond to your inquiry.",
+                        "Please don't share your SIN, passwords, banking credentials, government ID numbers, or complete financial documents in this chat.",
+                        "NILI provides general information only — not an approval, commitment, legal advice, or individualized financial advice."
+                  ],
+                  consentAgree: "Continue",
+                  consentPrivacy: 'See our <a href="#" data-pv="1">Privacy Policy</a>.',
+                  voiceNote: "Your voice note will be transcribed and processed to understand your message."
           },
           fa: {
                   launch: "سؤال وام مسکن داری؟ با هم بررسی کنیم.",
@@ -78,7 +89,17 @@
                   bvideo: "🎥 تصویری",
                   binperson: "📍 حضوری",
                   micDenied: "نتونستم به میکروفون دسترسی پیدا کنم. می‌تونی تایپ کنی — چطور کمکت کنم؟",
-                  retry: "ببخشید — یه اختلال کوتاه پیش اومد. می‌تونی دوباره تلاش کنی، یا یه وقت با حامد رزرو کنی تا باهات تماس بگیره."
+                  retry: "ببخشید — یه اختلال کوتاه پیش اومد. می‌تونی دوباره تلاش کنی، یا یه وقت با حامد رزرو کنی تا باهات تماس بگیره.",
+                  consentTitle: "پیش از شروع",
+                  consentIntro: "نیلی یک دستیار خودکار است — نه اپراتور انسانی.",
+                  consentPoints: [
+                        "پیام‌ها و پیام‌های صوتی شما توسط ارائه‌دهندگان فناوری شخص ثالث (از جمله سرویس‌های هوش مصنوعی) پردازش و در CRM ما ذخیره می‌شود تا بتوانیم به درخواست شما پاسخ دهیم.",
+                        "لطفاً شمارهٔ بیمهٔ اجتماعی (SIN)، رمز عبور، اطلاعات بانکی، شمارهٔ مدارک شناسایی دولتی یا مدارک مالی کامل خود را در این گفتگو وارد نکنید.",
+                        "نیلی فقط اطلاعات عمومی ارائه می‌دهد — نه تأیید، تعهد، مشاورهٔ حقوقی یا مشاورهٔ مالی شخصی."
+                  ],
+                  consentAgree: "ادامه",
+                  consentPrivacy: 'به <a href="#" data-pv="1">سیاست حریم خصوصی</a> ما مراجعه کنید.',
+                  voiceNote: "پیام صوتی شما برای درک پیام شما رونویسی و پردازش می‌شود."
           }
     };
     function uuid() {
@@ -91,7 +112,7 @@
           var d = new Date(), off = -d.getTimezoneOffset(), sg = off >= 0 ? "+" : "-", p = function (n) { return ("0" + n).slice(-2); };
           return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) + "T" + p(d.getHours()) + ":" + p(d.getMinutes()) + ":" + p(d.getSeconds()) + sg + p(Math.floor(Math.abs(off) / 60)) + ":" + p(Math.abs(off) % 60);
     }
-    var S = { id: uuid(), lang: null, chosen: false, voiceOn: true, messages: [], known_fields: {}, saveConfirmed: false, attribution: attr() };
+    var S = { id: uuid(), lang: null, chosen: false, consented: false, consent: null, voiceNoticeShown: false, voiceOn: true, messages: [], known_fields: {}, saveConfirmed: false, attribution: attr() };
     S.submission_id = "MAI-CONCIERGE::" + S.id;
     window.addEventListener("beforeunload", function () { S.messages = []; S.known_fields = {}; });
     function attr() {
@@ -110,6 +131,7 @@
           '<button data-cx="lang" style="display:none;font-weight:700">فارسی</button><button class="cx-iconbtn" data-cx="min" aria-label="Minimize">—</button><button class="cx-iconbtn" data-cx="close" aria-label="Close">×</button></header>' +
           '<div class="cx-langsel" data-cx="langsel"><h2>Please choose your language<br><span dir="rtl">لطفاً زبان خود را انتخاب کنید</span></h2><p class="cx-sub">AI assistant · general info only, not mortgage advice</p>' +
           '<div class="cx-opts"><button data-lang="fa" dir="rtl">فارسی</button><button data-lang="en">English</button></div></div>' +
+          '<div class="cx-consent" data-cx="consent" style="display:none"></div>' +
           '<div class="cx-body" data-cx="body" aria-live="polite"></div>' +
           '<div class="cx-quick" data-cx="quick"><button data-act="book" data-cx="qbook">Book a consultation</button><button data-act="hamed" data-cx="qhamed">Speak with Hamed</button></div>' +
           '<footer class="cx-foot" data-cx="foot"><div class="cx-recbar" data-cx="recbar"><span class="cx-rt" data-cx="rt">0:00</span><span class="cx-wave"></span><button class="cx-cancel" data-cx="rcancel">Cancel</button><button class="cx-use" data-cx="ruse">Use</button></div>' +
@@ -219,16 +241,17 @@
           }).catch(function () { typing(false); addMsg("bot", T[S.lang].retry); });
     }
     function callBrain(text, viaVoice) {
-          var payload = { via_voice: viaVoice ? "1" : "0", text: text, form_language: S.lang === "fa" ? "Farsi" : "English", messages: S.messages.slice(-20), known_fields: S.known_fields, session_id: S.id, submission_id: S.submission_id, coarse_source: "Website AI Mortgage Concierge", attribution: S.attribution };
+          var payload = { via_voice: viaVoice ? "1" : "0", text: text, form_language: S.lang === "fa" ? "Farsi" : "English", messages: S.messages.slice(-20), known_fields: S.known_fields, session_id: S.id, submission_id: S.submission_id, coarse_source: "Website AI Mortgage Concierge", attribution: S.attribution, consent: S.consent, marketing_consent: false };
           return fetch(CFG.BRAIN, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) }).then(function (r) { if (!r.ok) throw new Error("brain"); return r.text(); }).then(function (tx) { var st = parseState(tx); if (st.known_fields) S.known_fields = Object.assign(S.known_fields, st.known_fields); return st; });
     }
     function persist(pl) {
-          var full = Object.assign({}, pl, { submission_id: S.submission_id, session_id: S.id, form_language: S.lang === "fa" ? "Farsi" : "English", coarse_source: "Website AI Mortgage Concierge", original_source: "Direct Website", latest_source: "Direct Website", referral_type: pl.referral_type || "None", do_not_contact: false, disclaimer_version: CFG.consentVersion, consent_source_form_id: "MAI-CONCIERGE::" + (pl.email || S.id) + "::" + CFG.consentVersion, consent_timestamp: zdt(), first_page: S.attribution.first_page, landing_page: S.attribution.landing_page, original_referrer: S.attribution.original_referrer, utm_source: S.attribution.utm_source, utm_medium: S.attribution.utm_medium, utm_campaign: S.attribution.utm_campaign, gclid: S.attribution.gclid, fbclid: S.attribution.meta_click_id, booking_status: "offered" });
+          var full = Object.assign({}, pl, { submission_id: S.submission_id, session_id: S.id, form_language: S.lang === "fa" ? "Farsi" : "English", coarse_source: "Website AI Mortgage Concierge", original_source: "Direct Website", latest_source: "Direct Website", referral_type: pl.referral_type || "None", do_not_contact: false, disclaimer_version: CFG.consentVersion, consent_source_form_id: "MAI-CONCIERGE::" + (pl.email || S.id) + "::" + CFG.consentVersion, consent_timestamp: (S.consent && S.consent.accepted_at) || zdt(), consent_language: (S.consent && S.consent.language) || (S.lang === "fa" ? "Farsi" : "English"), consent_source: "Website NILI", consent_type: "service_inquiry", marketing_consent: false, first_page: S.attribution.first_page, landing_page: S.attribution.landing_page, original_referrer: S.attribution.original_referrer, utm_source: S.attribution.utm_source, utm_medium: S.attribution.utm_medium, utm_campaign: S.attribution.utm_campaign, gclid: S.attribution.gclid, fbclid: S.attribution.meta_click_id, booking_status: "offered" });
           return fetch(CFG.PERSIST, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(full) }).then(function (r) { return r.text(); }).then(function (t) { if (/created|updated|alerted/.test(t)) S.saveConfirmed = true; }).catch(function () {});
     }
     var rec = null, chunks = [], timer = null, t0 = 0;
     function startRec() {
           var t = T[S.lang];
+          if (!S.voiceNoticeShown) { S.voiceNoticeShown = true; addMsg("bot", t.voiceNote, false); }
           if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { addMsg("bot", t.micDenied); return; }
           navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
                   rec = new MediaRecorder(stream);
@@ -274,8 +297,27 @@
     function auto() { input.style.height = "auto"; input.style.height = Math.min(input.scrollHeight, 96) + "px"; }
     function choose(lg) {
           S.lang = lg; S.chosen = true; applyLang();
-          langsel.style.display = "none"; body.classList.add("cx-show"); foot.classList.add("cx-show"); quick.classList.add("cx-show");
-          $("lang").style.display = ""; addMsg("bot", T[lg].greet); input.focus();
+          langsel.style.display = "none";
+          if (S.consented) { revealChat(); } else { renderConsent(); }
+    }
+    function renderConsent() {
+          var t = T[S.lang] || T.en, rtl = S.lang === "fa", c = $("consent");
+          c.setAttribute("dir", rtl ? "rtl" : "ltr");
+          var pts = t.consentPoints.map(function (p) { return "<li>" + p + "</li>"; }).join("");
+          c.innerHTML = '<h2 class="cx-consent-h">' + t.consentTitle + '</h2><p class="cx-consent-intro">' + t.consentIntro + '</p><ul class="cx-consent-list">' + pts + '</ul><p class="cx-consent-pv">' + t.consentPrivacy + '</p><button class="cx-consent-agree" data-cx="cagree">' + t.consentAgree + '</button>';
+          c.style.display = "block";
+          c.addEventListener("click", function (e) { if (e.target.getAttribute("data-pv")) { e.preventDefault(); window.open(S.lang === "fa" ? CFG.privacyUrlFa : CFG.privacyUrlEn, "_blank"); } });
+          $("cagree").onclick = function () { acceptConsent(); };
+    }
+    function acceptConsent() {
+          S.consented = true;
+          S.consent = { version: CFG.consentVersion, accepted_at: zdt(), language: S.lang === "fa" ? "Farsi" : "English", source: "Website NILI", type: "service_inquiry" };
+          $("consent").style.display = "none";
+          revealChat();
+    }
+    function revealChat() {
+          body.classList.add("cx-show"); foot.classList.add("cx-show"); quick.classList.add("cx-show");
+          $("lang").style.display = ""; addMsg("bot", T[S.lang].greet); input.focus();
     }
     function open() {
           panel.classList.add("cx-open"); launch.classList.add("cx-hidden");
@@ -301,6 +343,6 @@
           if (a.getAttribute("data-act") === "book") { addMsg("user", T[S.lang].book); addBooking(); }
           else { handleSend(S.lang === "fa" ? "می‌خوام با حامد صحبت کنم" : "I want to speak with Hamed"); }
     });
-    $("privacy").addEventListener("click", function (e) { if (e.target.getAttribute("data-pv")) { e.preventDefault(); window.open(CFG.privacyUrl, "_blank"); } });
+    $("privacy").addEventListener("click", function (e) { if (e.target.getAttribute("data-pv")) { e.preventDefault(); window.open(S.lang === "fa" ? CFG.privacyUrlFa : CFG.privacyUrlEn, "_blank"); } });
     applyLang();
 })();

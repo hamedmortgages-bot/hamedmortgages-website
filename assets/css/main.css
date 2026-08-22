@@ -435,3 +435,9 @@ li { margin-bottom: .4rem; }
     height: 42.55px;
   }
 }
+
+/* Regulatory brokerage disclosure (FSRA) — added for compliance */
+.footer-disclosure{color:#DCE6F1;font-size:.92rem;line-height:1.7;margin:1.25rem 0 .5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.15);}
+.footer-disclosure strong{color:#fff;font-weight:700;}
+.footer-disclosure a{color:var(--gold,#C8A24A);text-decoration:underline;}
+html[dir="rtl"] .footer-disclosure{text-align:right;}
