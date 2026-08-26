@@ -1,6 +1,6 @@
 {
-  "version": 28,
-  "updated": "2026-08-22",
+  "version": 29,
+  "updated": "2026-08-26",
   "note": "Mortgage News Engine — News Intelligence module for Mortgage AI OS. Mirrors knowledge.json (bilingual array). RULES: never reproduce source article text; every article is an ORIGINAL, fuller summary + original detailed Hamed Ashouri commentary; always cite source_url. Source: Canadian Mortgage Trends (T4 media).",
   "categories": [
     {
@@ -30,6 +30,114 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-08-25-scotiabank-renewals-margins-q3",
+      "slug": "scotiabank-mortgage-renewals-lift-margins-q3-2026",
+      "title_en": "Scotiabank says mortgage renewals are lifting its margins as its lending mix shifts",
+      "title_fa": "اسکوشیابانک: تمدید وام‌های مسکن حاشیه سود بانک را بالا می‌برد؛ ترکیب وام‌دهی در حال تغییر است",
+      "summary_en": "Scotiabank's Canadian residential mortgage portfolio stood at $311 billion as of July 31, down from $315 billion the previous quarter but about 2% higher than a year earlier. For the first time in two years, growth in non-mortgage lending — credit cards, business banking and commercial loans — outpaced mortgage growth, a mix shift the bank describes as deliberate as it pursues higher returns. Executives told analysts that repricing mortgages at renewal is improving the bank's risk-adjusted margins, and Canadian Banking's net interest margin climbed for a fifth straight quarter to 2.38%. Credit quality improved across most retail products, but mortgage arrears kept rising: 90-plus-day delinquencies reached 0.34%, with uninsured mortgages in the Greater Toronto Area at 0.46%. Canadian Banking earnings rose 12% year over year to $1.07 billion.",
+      "summary_fa": "سبد وام مسکن مسکونی اسکوشیابانک در کانادا تا ۳۱ ژوئیه به ۳۱۱ میلیارد دلار رسید؛ رقمی که نسبت به ۳۱۵ میلیارد دلار فصل قبل کمتر، اما حدود ۲ درصد بالاتر از سال گذشته است. برای نخستین بار در دو سال اخیر، رشد وام‌های غیرمسکنی — کارت‌های اعتباری، بانکداری تجاری و وام‌های شرکتی — از رشد وام مسکن پیشی گرفت؛ تغییری که بانک آن را آگاهانه و در پی بازدهی بالاتر توصیف می‌کند. مدیران بانک به تحلیلگران گفتند قیمت‌گذاری دوباره وام‌ها در زمان تمدید، حاشیه سود تعدیل‌شده با ریسک را بهبود می‌دهد و حاشیه سود خالص بخش بانکداری کانادا برای پنجمین فصل پیاپی افزایش یافت و به ۲.۳۸ درصد رسید. کیفیت اعتباری در بیشتر محصولات خرد بهتر شد، اما معوقات وام مسکن همچنان رو به افزایش است: نرخ معوقات بالای ۹۰ روز به ۰.۳۴ درصد و در وام‌های بدون بیمه منطقه تورنتوی بزرگ به ۰.۴۶ درصد رسید. سود بخش بانکداری کانادا نیز با ۱۲ درصد رشد سالانه به ۱.۰۷ میلیارد دلار رسید.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> When a major bank openly tells analysts that renewals are lifting its margins, borrowers should hear the message behind the message: your renewal is one of the most profitable moments your bank has with you. The renewal letter that arrives in the mail is a starting offer, not a final answer — and in today's market, where lenders are competing hard for well-qualified files, independently comparing that offer against the broader market often uncovers meaningfully better pricing or terms.</p><p>The regional detail matters too. Arrears pressure is concentrated in Ontario and the GTA, which means lenders are underwriting this market more carefully. If your renewal is coming up in the next six to twelve months — especially in the Toronto area — start early: review the rate, amortization, debts and cash-flow together rather than just signing for a new rate. Every file is different, so get independent advice on your specific situation before you commit.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> وقتی یک بانک بزرگ آشکارا به تحلیلگران می‌گوید تمدید وام‌ها حاشیه سودش را بالا می‌برد، وام‌گیرنده باید پیام پشت این جمله را بشنود: تمدید وام مسکن شما یکی از سودآورترین لحظه‌های رابطه بانک با شماست. نامه تمدیدی که به دستتان می‌رسد یک پیشنهاد آغازین است، نه پاسخ نهایی — و در بازار امروز که وام‌دهندگان برای پرونده‌های خوب سخت رقابت می‌کنند، مقایسه مستقل آن پیشنهاد با کل بازار اغلب شرایط یا قیمت‌گذاری به‌مراتب بهتری را آشکار می‌کند.</p><p>جزئیات منطقه‌ای هم مهم است. فشار معوقات در انتاریو و منطقه تورنتوی بزرگ متمرکز است و همین یعنی وام‌دهندگان این بازار را با دقت بیشتری بررسی می‌کنند. اگر تمدید وام شما در شش تا دوازده ماه آینده است — به‌ویژه در منطقه تورنتو — زودتر شروع کنید: نرخ، دوره بازپرداخت، بدهی‌ها و جریان نقدی را با هم ببینید، نه اینکه فقط یک نرخ جدید را امضا کنید. هر پرونده متفاوت است؛ پیش از هر تعهدی درباره وضعیت خودتان مشاوره مستقل بگیرید.</p>",
+      "seo_title": "Scotiabank Q3 2026: Mortgage Renewals Lift Margins — What It Means for Borrowers",
+      "seo_description": "Scotiabank's $311B mortgage book is repricing at renewal and lifting bank margins while GTA delinquencies climb. Why Canadian borrowers should shop their renewal.",
+      "keywords": [
+        "Scotiabank mortgage",
+        "mortgage renewal Canada",
+        "bank margins",
+        "mortgage delinquencies GTA",
+        "Scotiabank Q3 2026",
+        "renewal strategy"
+      ],
+      "tags": [
+        "Scotiabank",
+        "mortgage renewals",
+        "bank earnings",
+        "delinquencies",
+        "GTA"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_362adbda-80db-4d7a-b82c-a8ee8d08e573.jpg",
+      "image_alt_en": "A mortgage advisor meeting with a couple at a walnut desk in a bank office, the Toronto skyline blurred behind them.",
+      "image_alt_fa": "جلسه یک مشاور وام مسکن با یک زوج پشت میز چوبی در دفتر بانک، با نمای محو خط آسمان تورنتو در پس‌زمینه.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/mortgage-renewals-lift-scotiabank-margins-as-lending-mix-shifts/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-25",
+      "imported_date": "2026-08-26",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "renewal",
+        "mortgage-renewal",
+        "rates"
+      ],
+      "related_journeys": [
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-preapproval"
+      ]
+    },
+    {
+      "id": "news-2026-08-25-bmo-mortgage-delinquencies-q3",
+      "slug": "bmo-mortgage-delinquencies-climb-q3-2026",
+      "title_en": "BMO mortgage arrears climb again — yet nearly half of renewals now bring a lower payment",
+      "title_fa": "افزایش دوباره معوقات وام مسکن در BMO؛ اما تقریباً نیمی از تمدیدها اکنون با قسط کمتر همراه است",
+      "summary_en": "BMO reported that Canadian residential mortgages at least 90 days past due reached 0.56% of its portfolio as of July 31, up from 0.51% the previous quarter and 0.37% a year earlier, even as actual losses stayed near historic lows at roughly three basis points. The bank's mortgage book resumed growing, reaching $164.2 billion, while its home-equity line of credit portfolio rose 6% year over year to $54.6 billion. Borrower leverage also crept higher, with the average loan-to-value on uninsured mortgages rising to 63% from 59% a year ago. The renewal picture is friendlier: 22% of BMO's mortgages come up for renewal within the next 12 months, down from 26%, and the bank said nearly half of the mortgages renewed this quarter ended up with a lower monthly payment. BMO's chief risk officer pointed to early signs of stabilization in the consumer book, though insolvencies remain elevated.",
+      "summary_fa": "بانک BMO اعلام کرد سهم وام‌های مسکن با معوقات بالای ۹۰ روز تا ۳۱ ژوئیه به ۰.۵۶ درصد سبد رسید؛ بالاتر از ۰.۵۱ درصد فصل قبل و ۰.۳۷ درصد سال گذشته، هرچند زیان‌های واقعی همچنان نزدیک به پایین‌ترین سطوح تاریخی و در حدود سه صدم درصد است. سبد وام مسکن این بانک دوباره رشد کرد و به ۱۶۴.۲ میلیارد دلار رسید و سبد خطوط اعتباری خانه (HELOC) نیز با ۶ درصد رشد سالانه به ۵۴.۶ میلیارد دلار رسید. اهرم وام‌گیرندگان هم کمی بالاتر رفته و میانگین نسبت وام به ارزش در وام‌های بدون بیمه از ۵۹ به ۶۳ درصد رسیده است. اما تصویر تمدیدها دوستانه‌تر است: تنها ۲۲ درصد از وام‌های BMO طی ۱۲ ماه آینده تمدید می‌شوند (در مقایسه با ۲۶ درصد سال قبل) و بانک می‌گوید تقریباً نیمی از وام‌هایی که این فصل تمدید شدند، قسط ماهانه کمتری پیدا کردند. مدیر ارشد ریسک بانک نیز از نشانه‌های اولیه ثبات در سبد مصرفی خبر داد، هرچند ورشکستگی‌های شخصی همچنان بالاست.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Two stories are running side by side in these numbers. Arrears are clearly rising — BMO's 90-day delinquency rate has climbed steadily for over a year — and that matches what I see in the field: tighter household cash-flow, more non-traditional income, and lenders reviewing files more carefully. If payments are getting tight, the worst strategy is waiting until one is missed. Options such as extending amortization, consolidating higher-interest debt, or repositioning the file with a different lender all work far better before arrears ever reach the credit bureau.</p><p>At the same time, the renewal picture is better than the headlines suggest: close to half of the mortgages BMO renewed last quarter came out with a lower monthly payment as rates have come down from their peaks. If your renewal is approaching, treat it as a chance to re-optimize the entire mortgage — amortization, debt structure and product type, not just the rate. The right structure depends on your income, equity and goals, so review your options with an independent professional before signing.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> در این آمار دو روایت هم‌زمان جریان دارد. معوقات آشکارا در حال افزایش است — نرخ معوقات ۹۰ روزه BMO بیش از یک سال است که پیوسته بالا می‌رود — و این با آنچه در عمل می‌بینم هم‌خوان است: جریان نقدی فشرده‌تر خانوارها، درآمدهای غیرسنتی بیشتر و بررسی سخت‌گیرانه‌تر پرونده‌ها از سوی وام‌دهندگان. اگر پرداخت‌ها دارد سنگین می‌شود، بدترین راهبرد این است که صبر کنید تا یک قسط عقب بیفتد. گزینه‌هایی مانند افزایش دوره بازپرداخت، تجمیع بدهی‌های با بهره بالا یا جابه‌جایی پرونده به وام‌دهنده‌ای دیگر، همه پیش از آنکه معوقات به گزارش اعتباری برسد بسیار بهتر عمل می‌کنند.</p><p>در همان حال، تصویر تمدیدها بهتر از تیترهاست: نزدیک به نیمی از وام‌هایی که BMO فصل گذشته تمدید کرد، با کاهش نرخ‌ها از اوج، قسط ماهانه کمتری پیدا کردند. اگر تمدید وام شما نزدیک است، آن را فرصتی برای بهینه‌سازی کل وام ببینید — دوره بازپرداخت، ساختار بدهی و نوع محصول، نه فقط نرخ. ساختار درست به درآمد، سرمایه خانه و اهداف شما بستگی دارد؛ پیش از امضا گزینه‌هایتان را با یک متخصص مستقل مرور کنید.</p>",
+      "seo_title": "BMO Q3 2026: Mortgage Delinquencies Rise to 0.56% — But Renewals Offer Relief",
+      "seo_description": "BMO's 90-day mortgage arrears hit 0.56% while nearly half of renewals now carry a lower payment. What rising delinquencies mean for Canadian homeowners.",
+      "keywords": [
+        "BMO mortgage",
+        "mortgage delinquencies Canada",
+        "mortgage arrears",
+        "mortgage renewal payment",
+        "HELOC Canada",
+        "BMO Q3 2026"
+      ],
+      "tags": [
+        "BMO",
+        "delinquencies",
+        "mortgage renewals",
+        "HELOC",
+        "bank earnings"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_7ac931e1-c9e0-46ef-9039-463c397b8c7c.jpg",
+      "image_alt_en": "A homeowner's hands beside a calculator and financial documents on a kitchen table in warm morning light.",
+      "image_alt_fa": "دست‌های صاحب‌خانه کنار ماشین‌حساب و مدارک مالی روی میز آشپزخانه در نور گرم صبح.",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/08/bmo-mortgage-delinquencies-climb-as-portfolio-growth-resumes/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-08-25",
+      "imported_date": "2026-08-26",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "renewal",
+        "mortgage-renewal",
+        "rates"
+      ],
+      "related_journeys": [
+        "calculator"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
+    },
     {
       "id": "news-2026-08-22-bond-selloff-fixed-mortgage-rates-higher",
       "slug": "bond-selloff-canadian-fixed-mortgage-rates-higher",
@@ -71,7 +179,7 @@
       "imported_date": "2026-08-22",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "rates",
@@ -130,7 +238,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "housing-market",
         "affordability",
@@ -188,7 +296,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "self-employed",
         "home-financing",
@@ -783,118 +891,6 @@
       "related_knowledge_blocks": [
         "ftb-roadmap",
         "renewal-checklist",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-21-bmo-trump-tariffs-boc-rate-cuts",
-      "slug": "trump-tariffs-bank-of-canada-rate-cuts-bmo-july-2026",
-      "title_en": "New U.S. tariffs put Bank of Canada rate cuts back on the table, BMO says",
-      "title_fa": "به گفته BMO، تعرفه‌های جدید آمریکا بار دیگر کاهش نرخ بانک مرکزی کانادا را محتمل کرده است",
-      "summary_en": "Washington has announced a 50% tariff on a targeted list of Canadian goods taking effect Aug. 19, covering roughly $28 billion (US$20 billion) of exports including alcoholic beverages, cement, dairy, wood and paper, chemicals, plastics, electronics and some industrial equipment. Energy, potash, critical minerals, fish and goods already captured by Section 232 measures are exempt. BMO Economics says the move reinforces its view that the Bank of Canada is firmly on hold for the rest of the year, and senior economist Robert Kavcic noted that if trade relations deteriorate further the resulting damage could open the door to easing again. BMO estimates the affected products represent about 5% of Canadian goods exports to the U.S. and roughly 0.8% of GDP, while TD Economics estimates a drag of 0.3 to 0.6 percentage points on growth over the next year, likely toward the lower end. Markets barely flinched on the news, with the Canadian dollar off about 0.2% and rate expectations largely unchanged.",
-      "summary_fa": "واشنگتن اعلام کرده است که از ۱۹ اوت تعرفه‌ای ۵۰ درصدی بر فهرست مشخصی از کالاهای کانادایی اعمال می‌شود؛ فهرستی که حدود ۲۸ میلیارد دلار کانادا (۲۰ میلیارد دلار آمریکا) از صادرات را در بر می‌گیرد و شامل نوشیدنی‌های الکلی، سیمان، لبنیات، چوب و کاغذ، مواد شیمیایی، پلاستیک، لوازم الکترونیکی و برخی تجهیزات صنعتی است. انرژی، پتاس، مواد معدنی حیاتی، ماهی و کالاهایی که پیش‌تر مشمول اقدامات بخش ۲۳۲ شده‌اند، معاف هستند. بخش اقتصادی BMO می‌گوید این تصمیم دیدگاه آن‌ها را تقویت می‌کند که بانک مرکزی کانادا تا پایان سال قاطعانه در حالت توقف باقی می‌ماند، و رابرت کاوچیچ، اقتصاددان ارشد، اشاره کرد که اگر روابط تجاری بیشتر تیره شود، آسیب ناشی از آن می‌تواند دوباره راه را برای کاهش نرخ باز کند. برآورد BMO این است که کالاهای مشمول حدود ۵ درصد صادرات کالایی کانادا به آمریکا و تقریباً ۰٫۸ درصد تولید ناخالص داخلی را تشکیل می‌دهند، در حالی که TD Economics کاهش ۰٫۳ تا ۰٫۶ واحد درصدی رشد در سال آینده را پیش‌بینی می‌کند که احتمالاً به کران پایین نزدیک‌تر خواهد بود. بازارها واکنش چندانی نشان ندادند؛ دلار کانادا حدود ۰٫۲ درصد افت کرد و انتظارات نرخ بهره تقریباً بدون تغییر ماند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is a story about the direction of risk, not about a rate move you can count on. The Bank of Canada is on hold at 2.25%, and nothing announced this week changes that for the next meeting. What changed is the shape of what comes after: a trade shock that slows growth is the kind of thing that argues for lower rates later, not higher ones. If you have been sitting on the fence about a variable-rate mortgage because you feared the next move was up, this news tilts the balance of risk in the other direction — though it does not remove the possibility of surprises.</p><p>Practically, I would not restructure a mortgage around a tariff headline. The tariffs do not take effect until Aug. 19 and a negotiation window remains open. What I do recommend: if your renewal lands in the next six to twelve months, start the conversation now so you have a rate hold in place while this plays out, and make sure you understand your lender's penalty and portability terms before you commit to a term length. Borrowers in trade-exposed industries — manufacturing, forestry, food processing — should also be candid with their broker about income stability, because lenders will ask. Every file is different, and none of this is a prediction about where rates will land.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این خبر درباره جهت ریسک است، نه درباره تغییری در نرخ که بتوان روی آن حساب کرد. بانک مرکزی کانادا نرخ را در ۲٫۲۵ درصد نگه داشته و هیچ‌چیز در اعلام این هفته وضعیت جلسه بعدی را تغییر نمی‌دهد. آنچه تغییر کرده، شکل مسیر پس از آن است: شوک تجاری‌ای که رشد را کند کند، همان چیزی است که استدلال را به سمت نرخ‌های پایین‌تر در آینده می‌برد، نه بالاتر. اگر به دلیل نگرانی از افزایش نرخ در تصمیم‌گیری درباره وام با نرخ متغیر مردد بوده‌اید، این خبر توازن ریسک را به سمت دیگر متمایل می‌کند — هرچند احتمال غافلگیری را از میان نمی‌برد.</p><p>از نظر عملی، توصیه نمی‌کنم ساختار وام خود را بر اساس یک تیتر خبری درباره تعرفه‌ها تغییر دهید. این تعرفه‌ها تا ۱۹ اوت اجرایی نمی‌شوند و فرصت مذاکره همچنان باز است. آنچه توصیه می‌کنم این است: اگر تمدید وام شما در شش تا دوازده ماه آینده است، همین حالا گفت‌وگو را آغاز کنید تا در طول این دوره یک رزرو نرخ در اختیار داشته باشید، و پیش از انتخاب مدت وام، شرایط جریمه و قابلیت انتقال وام‌دهنده خود را به‌خوبی بشناسید. وام‌گیرندگانی که در صنایع در معرض تجارت فعالیت می‌کنند — تولید، جنگل‌داری، فرآوری مواد غذایی — بهتر است درباره ثبات درآمد خود با کارگزار صادق باشند، چون وام‌دهندگان این پرسش را مطرح خواهند کرد. هر پرونده متفاوت است و هیچ‌یک از این موارد پیش‌بینی مسیر نرخ‌ها نیست.</p>",
-      "seo_title": "Trump Tariffs & Bank of Canada Rate Cuts: BMO's July 2026 Read for Mortgage Borrowers",
-      "seo_description": "BMO says new 50% U.S. tariffs on $28B of Canadian goods keep the Bank of Canada on hold but could reopen the door to rate cuts. An Ontario mortgage broker's take on variable vs fixed and renewals.",
-      "keywords": [
-        "Trump tariffs Canada 2026",
-        "Bank of Canada rate cuts",
-        "BMO economics tariffs",
-        "Canada US trade war mortgage",
-        "variable rate mortgage Canada",
-        "mortgage renewal Ontario 2026",
-        "policy rate 2.25%",
-        "CUSMA tariffs"
-      ],
-      "tags": [
-        "rates",
-        "bank-of-canada",
-        "tariffs",
-        "fixed-vs-variable",
-        "renewal"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_d1c047c2-e7b4-4bab-8f9b-3d5c0930abcd.jpg",
-      "image_alt_en": "Stacked shipping containers and a transport truck in a Canadian freight yard near a border crossing at golden hour.",
-      "image_alt_fa": "کانتینرهای روی‌هم‌چیده و یک کامیون باری در محوطه حمل‌ونقل کانادایی نزدیک یک گذرگاه مرزی در نور طلایی غروب.",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/trump-tariffs-could-reopen-door-to-bank-of-canada-rate-cuts-bmo/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-21",
-      "imported_date": "2026-07-21",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "renewal",
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
-        "renewal-checklist",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-21-osc-mic-fraud-guilty-plea",
-      "slug": "osc-altmore-mic-fraud-guilty-plea-july-2026",
-      "title_en": "Ontario MIC operator pleads guilty to fraud in $5.3-million mortgage investment scheme",
-      "title_fa": "مدیر یک شرکت سرمایه‌گذاری رهنی در انتاریو به کلاهبرداری در طرح ۵٫۳ میلیون دلاری اعتراف کرد",
-      "summary_en": "The Ontario Securities Commission says Ian Ross McSevney, formerly of Ancaster, Ont., has pleaded guilty to fraud and to distributing securities without filing a prospectus, both contrary to Ontario securities law. Through Altmore Mortgage Investment Corporation, he raised close to $5.3 million from roughly 30 investors between May 2015 and May 2019, telling them the money would fund mortgages and other loans secured by real estate. The OSC says Altmore never built a significant portfolio of those investments; while some legitimate loans were arranged, most of the money was not invested as represented. Of the approximately $5.3 million raised, about $3 million was returned to investors, typically funded by money coming in from other investors, and roughly $1 million was directed to credit cards, family members or relatives. The matter returns to court in Toronto on Sept. 8, when the parties are expected to set a date for sentencing submissions.",
-      "summary_fa": "کمیسیون اوراق بهادار انتاریو (OSC) اعلام کرده است که ایان راس مک‌سونی، ساکن پیشین انکستر انتاریو، به کلاهبرداری و توزیع اوراق بهادار بدون ثبت اعلامیه پذیره‌نویسی اعتراف کرده است؛ هر دو مغایر با قانون اوراق بهادار انتاریو. او از طریق شرکت سرمایه‌گذاری رهنی Altmore، میان مه ۲۰۱۵ تا مه ۲۰۱۹ نزدیک به ۵٫۳ میلیون دلار از حدود ۳۰ سرمایه‌گذار جمع‌آوری کرد و به آنان گفته بود این پول صرف تأمین مالی وام‌های رهنی و سایر وام‌های تضمین‌شده با املاک خواهد شد. به گفته OSC، Altmore هرگز سبد قابل‌توجهی از چنین سرمایه‌گذاری‌هایی تشکیل نداد؛ اگرچه برخی وام‌های قانونی ترتیب داده شد، بیشتر پول آن‌گونه که وعده داده شده بود سرمایه‌گذاری نشد. از حدود ۵٫۳ میلیون دلار جمع‌آوری‌شده، نزدیک به ۳ میلیون دلار به سرمایه‌گذاران بازگردانده شد که معمولاً از محل پول سرمایه‌گذاران دیگر تأمین می‌شد، و حدود ۱ میلیون دلار صرف کارت‌های اعتباری، اعضای خانواده یا بستگان شد. این پرونده در ۸ سپتامبر در تورنتو دوباره به دادگاه بازمی‌گردد و انتظار می‌رود طرفین تاریخ ارائه لوایح تعیین مجازات را مشخص کنند.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Mortgage investment corporations are a legitimate and useful part of Canada's lending landscape — a great deal of private and alternative lending flows through well-run MICs, and borrowers who do not fit bank guidelines depend on them. This case is not an indictment of the structure. It is a reminder that the label on the door tells you nothing about what is happening inside, and that a promise to invest in real-estate-secured loans is only as good as the paperwork proving those loans exist.</p><p>Two practical lessons. If you are considering investing in a MIC, ask for audited financial statements, an offering memorandum, confirmation the issuer is properly registered with the OSC, and evidence of the actual mortgage portfolio — and be wary when returns to earlier investors appear to be funded by new money coming in. If you are a borrower being placed with a private or alternative lender, ask your broker who the lender is, how they are regulated, and why that lender is the right fit for your file. A good broker will answer all three without hesitation. I am not a securities adviser, and anyone weighing an investment of this kind should get independent legal and financial advice.</p>",
-      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> شرکت‌های سرمایه‌گذاری رهنی (MIC) بخشی مشروع و کارآمد از چشم‌انداز وام‌دهی کانادا هستند — بخش بزرگی از وام‌دهی خصوصی و جایگزین از طریق MICهای خوش‌مدیریت جریان دارد و وام‌گیرندگانی که با ضوابط بانکی هم‌خوانی ندارند به آن‌ها متکی‌اند. این پرونده کیفرخواستی علیه این ساختار نیست. یادآوری این نکته است که عنوان روی تابلو چیزی درباره آنچه در درون می‌گذرد به شما نمی‌گوید، و وعده سرمایه‌گذاری در وام‌های تضمین‌شده با املاک تنها به اندازه مستنداتی ارزش دارد که وجود آن وام‌ها را ثابت می‌کند.</p><p>دو درس عملی. اگر قصد سرمایه‌گذاری در یک MIC را دارید، صورت‌های مالی حسابرسی‌شده، اعلامیه عرضه، تأیید ثبت رسمی ناشر نزد OSC و مدرک سبد واقعی وام‌های رهنی را مطالبه کنید — و اگر به نظر می‌رسد بازدهی سرمایه‌گذاران قبلی از محل پول تازه‌واردان تأمین می‌شود، محتاط باشید. اگر وام‌گیرنده‌ای هستید که به یک وام‌دهنده خصوصی یا جایگزین معرفی می‌شوید، از کارگزار خود بپرسید وام‌دهنده کیست، تحت چه نظارتی فعالیت می‌کند، و چرا این وام‌دهنده برای پرونده شما مناسب است. کارگزار خوب بدون تردید به هر سه پرسش پاسخ می‌دهد. من مشاور اوراق بهادار نیستم و هرکس چنین سرمایه‌گذاری‌ای را بررسی می‌کند باید مشاوره حقوقی و مالی مستقل بگیرد.</p>",
-      "seo_title": "OSC: Altmore MIC Operator Pleads Guilty in $5.3M Mortgage Investment Fraud (2026)",
-      "seo_description": "Ontario Securities Commission says the former operator of Altmore Mortgage Investment Corporation pleaded guilty to fraud involving ~30 investors. What it means for MIC investors and private-lending borrowers.",
-      "keywords": [
-        "MIC fraud Ontario",
-        "Altmore Mortgage Investment Corporation",
-        "Ontario Securities Commission mortgage",
-        "mortgage investment corporation risks",
-        "private lending Ontario",
-        "OSC enforcement 2026",
-        "investor due diligence MIC"
-      ],
-      "tags": [
-        "regulation",
-        "private-lending",
-        "fraud",
-        "investors",
-        "ontario"
-      ],
-      "category": "regulation",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_4277723e-6b97-49e2-88b2-f3ad1cabf850.jpg",
-      "image_alt_en": "The stone facade and tall columns of an Ontario courthouse in warm late-afternoon light, with wide empty steps in the foreground.",
-      "image_alt_fa": "نمای سنگی و ستون‌های بلند یک دادگاه در انتاریو در نور گرم بعدازظهر، با پله‌های پهن و خالی در پیش‌زمینه.",
-      "caption_en": "Illustrative — AI-generated, brand-graded image.",
-      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/former-mic-operator-pleads-guilty-in-5-3-million-scheme/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-21",
-      "imported_date": "2026-07-21",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "private-lending",
-        "regulation"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
-        "gen-private-lending",
         "gen-preapproval"
       ]
     }
