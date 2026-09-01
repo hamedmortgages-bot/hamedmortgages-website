@@ -273,9 +273,13 @@
 <script>
 /* ============================ CONFIG ============================ */
 const CONFIG = {
-  // LIVE Make webhook — scenario "Hamed Mortgages — Website Funnel to Zoho Lead (v1.1)" (id 5676012, ACTIVE).
-  // Verified end-to-end: POST -> Zoho dedup -> create ONE Lead (or no-duplicate) -> booking_url. CORS open.
-  WEBHOOK_URL: "https://hook.us2.make.com/qev63udrwtvnp3c7xl9bemmn5lmesqxs",
+  // Zoho CRM native Web-to-Lead form. This replaces Make scenario 5676012 for this funnel.
+  ZOHO_WEBFORM: {
+    action: "https://crm.zoho.com/crm/WebToLeadForm",
+    xnQsjsdp: "41d56a89300572cb9f18e7951fc9af87d6ed319fb7e3773b0e676a612879028f",
+    xmIwtLD: "4e6559ee37b1f3dd778da1f2471b3a9530238e45941202ac5e00bc17ee38698bef7881a2debe0d06d555dbb52e7cf08b",
+    actionType: "TGVhZHM="
+  },
   VERTICAL_CONFIG_VERSION: "ontario_mortgage_v1.1",
   BOOKING: {
     workspace: "https://blumortgage62-bluimplemen47.zohobookings.ca/portal-embed#/bluroot",
@@ -598,6 +602,55 @@ function renderIdentity(){
 function validEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
 function validPhone(v){ return (v.replace(/[^\d]/g,'').length>=10); }
 
+function zohoDateParts(iso){
+  const d=new Date(iso), h=d.getHours();
+  return {
+    date:String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0')+'/'+d.getFullYear(),
+    hour:String((h%12)||12).padStart(2,'0'), minute:String(d.getMinutes()).padStart(2,'0'), ampm:h>=12?'PM':'AM'
+  };
+}
+function zohoProvince(v){ return v==='Ontario'?'Ontario':(v?'Outside Canada':''); }
+function zohoOccupancy(v){ return {primary:'Owner-Occupied',rental:'Rental/Investment',second_home:'Second Home'}[v]||''; }
+function zohoLeadSource(v){ return /Paid$/.test(v)?'Advertisement':(v==='Direct Website'?'Web Research':'Website Zobot Intake'); }
+function submitZohoLead(p){
+  const z=CONFIG.ZOHO_WEBFORM, dt=zohoDateParts(p.consent_timestamp);
+  const fields={
+    xnQsjsdp:z.xnQsjsdp, zc_gad:'', xmIwtLD:z.xmIwtLD, actionType:z.actionType, returnURL:'null', aG9uZXlwb3Q:'',
+    'Last Name':p.last_name||p.full_name||'Website Lead', 'First Name':p.first_name, Email:p.email, Mobile:p.mobile,
+    'Lead Source':zohoLeadSource(p.latest_source), 'Lead Status':p.lead_status,
+    LEADCF56:String(p.submission_count||1), LEADCF27:p.duplicate_flag, LEADCF48:p.first_page,
+    LEADCF41:p.campaign_id, LEADCF40:p.campaign_name, LEADCF21:p.lead_quality,
+    LEADCF5:p.preferred_contact_method, Description:p.description, LEADCF127:zohoOccupancy(p.occupancy),
+    LEADCF126:zohoProvince(p.province), LEADCF151:p.submission_id, LEADCF130:p.latest_touch_data,
+    LEADCF129:p.original_referrer, LEADCF128:p.referral_type, LEADCF122:p.gclid,
+    LEADCF121:p.device_category, LEADCF50:p.fbclid, LEADCF49:p.form_language, LEADCF47:p.landing_page,
+    LEADCF46:p.utm_term, LEADCF45:p.utm_content, LEADCF44:p.utm_campaign, LEADCF43:p.utm_medium,
+    LEADCF42:p.utm_source, LEADCF38:p.latest_source, LEADCF37:p.original_source,
+    LEADCF36:p.technical_record, LEADCF25:p.consent_source_form_id, LEADCF55:dt.date,
+    LEADCF55hour:dt.hour, LEADCF55minute:dt.minute, LEADCF55ampm:dt.ampm, LEADCF24:p.consent_status
+  };
+  if(p.consent_to_contact){ fields.LEADCF106='on'; fields.LEADCF53='on'; }
+  if(p.consent_call_sms) fields.LEADCF54='on';
+  if(p.consent_status==='Full Consent') fields.LEADCF65='on';
+  return new Promise((resolve,reject)=>{
+    const target='zoho_native_'+Date.now(), iframe=document.createElement('iframe'), form=document.createElement('form');
+    let submitted=false, settled=false;
+    iframe.name=target; iframe.hidden=true;
+    form.method='POST'; form.action=z.action; form.target=target; form.acceptCharset='UTF-8'; form.hidden=true;
+    Object.entries(fields).forEach(([name,value])=>{
+      if((value===undefined||value===null||value==='') && !['zc_gad','aG9uZXlwb3Q'].includes(name)) return;
+      const input=document.createElement('input'); input.name=name; input.value=String(value||''); form.appendChild(input);
+    });
+    const cleanup=()=>setTimeout(()=>{ form.remove(); iframe.remove(); },0);
+    iframe.onload=()=>{
+      if(!submitted){ document.body.appendChild(form); submitted=true; form.submit(); return; }
+      if(!settled){ settled=true; cleanup(); resolve({ok:true,provider:'zoho_crm_webform'}); }
+    };
+    iframe.src='about:blank'; document.body.appendChild(iframe);
+    setTimeout(()=>{ if(!settled){ settled=true; cleanup(); reject(new Error('Zoho form response timeout')); } },10000);
+  });
+}
+
 async function submitLead(){
   if(STATE.submitting) return;
   const name=document.getElementById('in_name').value.trim();
@@ -622,17 +675,16 @@ async function submitLead(){
   track('lead_submit');
 
   try{
-    if(CONFIG.WEBHOOK_URL){
-      const res=await fetch(CONFIG.WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
-      if(!res.ok) throw new Error('http '+res.status);
-      STATE.leadResult=await res.json().catch(()=>({ok:true}));
+    if(CONFIG.ZOHO_WEBFORM && CONFIG.ZOHO_WEBFORM.action){
+      STATE.leadResult=await submitZohoLead(payload);
+      STATE.leadResult.booking_url=payload.booking_url;
     } else {
       // dry-run (no webhook configured yet): local preview, no network
       await new Promise(r=>setTimeout(r,650));
       STATE.leadResult={ok:true, dry_run:true};
     }
     STATE.idx=activeQuestions().length+1;
-    track('lead_created',{dry_run:!CONFIG.WEBHOOK_URL});
+    track('lead_created',{dry_run:!(CONFIG.ZOHO_WEBFORM&&CONFIG.ZOHO_WEBFORM.action),provider:'zoho_crm_webform'});
     renderResult();
   }catch(e){
     track('lead_submit_error',{msg:String(e)});
@@ -794,7 +846,7 @@ function v11decision(a, identity, consent, jurisdiction){
     hard_gates:gates};
 }
 
-/* ============================ PAYLOAD (flat, Make-friendly) ============================ */
+/* ============================ PAYLOAD (flat, Zoho-native mapping) ============================ */
 function mapStage(a){ if(a.timeline==="0_3_months") return "ready_to_transact"; if(a.timeline==="just_researching") return "researching"; return "actively_shopping"; }
 function bandToQuality(b){ return {High:"Hot",Medium:"Warm",Low:"Cold"}[b]||"-None-"; }
 function methodLabel(m){ return {phone:"Phone",email:"Email",text:"Text"}[m]||"Phone"; }
