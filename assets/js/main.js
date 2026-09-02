@@ -58,6 +58,45 @@
 
    var y = document.querySelector("[data-year]");
      if (y) { y.textContent = new Date().getFullYear(); }
+
+   /* ---------- Brokerage compliance identity ---------- */
+   function replaceIdentityText(text) {
+          return String(text || "")
+            .replace(/Mortgage Alliance Company of Canada, FSRA Brokerage Licence #10530/g, "Sherwood Mortgage Group, Brokerage Licence #12176")
+            .replace(/Mortgage Alliance Company of Canada, FSRA #10530/g, "Sherwood Mortgage Group, Brokerage Licence #12176")
+            .replace(/Mortgage Alliance Company of Canada/g, "Sherwood Mortgage Group")
+            .replace(/شماره مجوز بروکریج FSRA #10530/g, "شماره مجوز بروکریج #12176")
+            .replace(/FSRA Brokerage Licence #10530/g, "Brokerage Licence #12176")
+            .replace(/FSRA #10530/g, "Brokerage Licence #12176");
+   }
+
+   function rewriteTextNodes(root) {
+          if (!root) return;
+          var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+          var node;
+          while ((node = walker.nextNode())) {
+                 var parent = node.parentNode && node.parentNode.nodeName;
+                 if (parent === "SCRIPT" || parent === "STYLE" || parent === "NOSCRIPT") continue;
+                 var next = replaceIdentityText(node.nodeValue);
+                 if (next !== node.nodeValue) node.nodeValue = next;
+          }
+   }
+
+   function applyComplianceIdentity() {
+          document.querySelectorAll("footer, .footer-disclosure, .footer-legal").forEach(rewriteTextNodes);
+          if (/\/privacy\.html$/i.test(location.pathname || "")) {
+                 rewriteTextNodes(document.querySelector(".legal"));
+                 document.querySelectorAll('meta[name="description"],meta[property="og:description"]').forEach(function (m) {
+                        var next = replaceIdentityText(m.getAttribute("content") || "");
+                        m.setAttribute("content", next);
+                 });
+          }
+   }
+
+   applyComplianceIdentity();
+   window.addEventListener("load", applyComplianceIdentity, { once: true });
+   var complianceObserver = new MutationObserver(function () { applyComplianceIdentity(); });
+   complianceObserver.observe(document.documentElement, { childList: true, subtree: true });
 })();
 
 /* ---------- NILI widget loader (Track B) ---------- */
