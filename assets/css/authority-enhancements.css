@@ -1,0 +1,12 @@
+/* Mobile navigation remains fully available on the Authority V1 face. */
+@media (max-width: 980px) {
+  .av1-nav { align-items: flex-start; padding: 13px 0; flex-wrap: wrap; }
+  .av1-links { flex: 1; justify-content: flex-end; flex-wrap: wrap; gap: 10px 16px; }
+  .av1-links > a:not(.av1-cta) { display: inline-flex; }
+  .av1-brandtext span { display: block; }
+}
+@media (max-width: 620px) {
+  .av1-links { flex-basis: 100%; justify-content: space-between; gap: 11px 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .av1-links a { font-size: 11px; }
+  .av1-lang { display: inline; }
+}
