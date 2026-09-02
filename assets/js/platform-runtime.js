@@ -181,25 +181,35 @@
     var qualification = qualify(lead);
     var crmRouting = buildCrmRouting(lead, qualification);
 
-    e.platform_runtime_version = RUNTIME_VERSION;
-    e.platform_event_id = lead.event_id;
-    e.standard_lead_payload_version = LEAD_SCHEMA_VERSION;
-    e.standard_lead_payload = JSON.stringify(lead);
-    e.qualification_version = QUALIFICATION_VERSION;
-    e.qualification_class = qualification.classification;
-    e.qualification_urgency = qualification.urgency;
-    e.qualification_reason_codes = qualification.reason_codes.join("|");
-    e.qualification_missing_fields = qualification.missing_fields.join("|");
-    e.underwriting_decision = "NOT_PERFORMED";
-    e.crm_routing_version = CRM_ROUTING_VERSION;
-    e.crm_requested_action = crmRouting.requested_action;
-    e.crm_source_of_truth = crmRouting.source_of_truth;
-    e.crm_idempotency_key = crmRouting.idempotency_key;
-    e.crm_ambiguous_match_action = crmRouting.ambiguous_match_action;
-    e.crm_destructive_overwrite_allowed = "false";
-    e.crm_audit_required = "true";
-    e.service_inquiry_consent = "true";
-    e.marketing_consent = "false";
+    var platformFields = {
+      platform_runtime_version: RUNTIME_VERSION,
+      platform_event_id: lead.event_id,
+      standard_lead_payload_version: LEAD_SCHEMA_VERSION,
+      standard_lead_payload: JSON.stringify(lead),
+      qualification_version: QUALIFICATION_VERSION,
+      qualification_class: qualification.classification,
+      qualification_urgency: qualification.urgency,
+      qualification_reason_codes: qualification.reason_codes.join("|"),
+      qualification_missing_fields: qualification.missing_fields.join("|"),
+      underwriting_decision: "NOT_PERFORMED",
+      crm_routing_version: CRM_ROUTING_VERSION,
+      crm_requested_action: crmRouting.requested_action,
+      crm_source_of_truth: crmRouting.source_of_truth,
+      crm_idempotency_key: crmRouting.idempotency_key,
+      crm_ambiguous_match_action: crmRouting.ambiguous_match_action,
+      crm_destructive_overwrite_allowed: "false",
+      crm_audit_required: "true",
+      service_inquiry_consent: "true",
+      marketing_consent: "false"
+    };
+
+    Object.keys(platformFields).forEach(function (k) { e[k] = platformFields[k]; });
+
+    /* IntakeEngine.buildEvent flattens e.details and intentionally rebuilds the
+       standard envelope. Mirror the platform fields into details so they survive
+       that normalization and actually reach the router endpoint. */
+    if (!e.details || typeof e.details !== "object") e.details = {};
+    Object.keys(platformFields).forEach(function (k) { e.details[k] = platformFields[k]; });
 
     return e;
   }
