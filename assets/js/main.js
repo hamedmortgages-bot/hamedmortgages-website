@@ -99,5 +99,15 @@
    complianceObserver.observe(document.documentElement, { childList: true, subtree: true });
 })();
 
+/* ---------- Platform runtime loader: Agents 11/12/13 ---------- */
+(function () {
+  try {
+    var p = document.createElement("script");
+    p.defer = true;
+    p.src = "/assets/js/platform-runtime.js?v=20260902a";
+    document.head.appendChild(p);
+  } catch (e) {}
+})();
+
 /* ---------- NILI widget loader (Track B) ---------- */
 (function () { try { var s = document.createElement("script"); s.defer = true; s.src = "/assets/js/concierge.js?v=20260628a"; document.head.appendChild(s); } catch (e) {} })();
