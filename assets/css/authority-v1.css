@@ -1,1 +1,6 @@
 @import url("authority-v2.css");
+/* Approved brand placement: personal logo in header; Sherwood remains in footer. */
+.av1-brand{min-width:206px;min-height:66px;padding:6px 10px;gap:0;background:var(--paper);border:1px solid rgba(198,164,91,.6)}
+.av1-brand:before{content:"";display:block;width:186px;height:54px;background:url("../img/logo.png") center/contain no-repeat}
+.av1-brand>*{display:none!important}
+@media(max-width:620px){.av1-brand{min-width:152px;min-height:53px;padding:5px 8px}.av1-brand:before{width:136px;height:43px}}
