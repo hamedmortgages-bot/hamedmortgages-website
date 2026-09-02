@@ -57,72 +57,7 @@
   var y = document.querySelector("[data-year]");
   if (y) y.textContent = new Date().getFullYear();
 
-  /* ---------- Brokerage compliance identity ---------- */
-  function replaceIdentityText(text) {
-    return String(text || "")
-      .replace(/Mortgage Alliance Company of Canada, FSRA Brokerage Licence #10530/g, "Sherwood Mortgage Group, Brokerage Licence #12176")
-      .replace(/Mortgage Alliance Company of Canada, FSRA #10530/g, "Sherwood Mortgage Group, Brokerage Licence #12176")
-      .replace(/Mortgage Alliance Company of Canada \(FSRA #10530\)/g, "Sherwood Mortgage Group (Brokerage Licence #12176)")
-      .replace(/Mortgage Alliance Company of Canada/g, "Sherwood Mortgage Group")
-      .replace(/https:\/\/www\.mortgagealliance\.com\/en\/mortgage-broker\/HamedAshourikisomi\/?/g, "https://sherwoodmortgagegroup.com/")
-      .replace(/شماره مجوز بروکریج FSRA #10530/g, "شماره مجوز بروکریج #12176")
-      .replace(/شماره FSRA #10530/g, "شماره مجوز بروکریج #12176")
-      .replace(/FSRA Brokerage Licence #10530/g, "Brokerage Licence #12176")
-      .replace(/FSRA #10530/g, "Brokerage Licence #12176")
-      .replace(/#10530/g, "#12176");
-  }
-
-  function rewriteTextNodes(root) {
-    if (!root) return;
-    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
-    var node;
-    while ((node = walker.nextNode())) {
-      var parent = node.parentNode && node.parentNode.nodeName;
-      if (parent === "SCRIPT" || parent === "STYLE" || parent === "NOSCRIPT") continue;
-      var next = replaceIdentityText(node.nodeValue);
-      if (next !== node.nodeValue) node.nodeValue = next;
-    }
-  }
-
-  function rewriteMetadataAndSchema() {
-    document.querySelectorAll('meta[name="description"],meta[property="og:description"],meta[name="twitter:description"]').forEach(function (m) {
-      var current = m.getAttribute("content") || "";
-      var next = replaceIdentityText(current);
-      if (next !== current) m.setAttribute("content", next);
-    });
-
-    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (s) {
-      var current = s.textContent || "";
-      var next = replaceIdentityText(current);
-      if (next !== current) s.textContent = next;
-    });
-  }
-
-  function correctDataCollectionContradictions() {
-    var p = location.pathname || "";
-    if (!/(\/contact\.html$|\/index\.html$|\/(en|fa)\/$)/i.test(p)) return;
-    var enOld = "No personal data is collected or stored on this website";
-    var enNew = "Information you submit through forms or NILI may be processed and stored in our secure service systems, including Zoho CRM, for the purpose of responding to your mortgage inquiry.";
-    var faOld = "هیچ داده‌ای از مشتری در این وب‌سایت جمع‌آوری یا ذخیره نمی‌شود";
-    var faNew = "اطلاعاتی که از طریق فرم‌ها یا نیلی ارسال می‌کنید ممکن است برای پاسخ به درخواست وام مسکن شما در سیستم‌های امن خدماتی، از جمله Zoho CRM، پردازش و ذخیره شود";
-    document.querySelectorAll("body *").forEach(function (el) {
-      if (el.children.length) return;
-      var txt = el.textContent || "";
-      if (txt.indexOf(enOld) !== -1) el.textContent = txt.replace(enOld, enNew);
-      if (txt.indexOf(faOld) !== -1) el.textContent = txt.replace(faOld, faNew);
-    });
-  }
-
-  function applyComplianceIdentity() {
-    document.querySelectorAll("footer, .footer-disclosure, .footer-legal, .legal").forEach(rewriteTextNodes);
-    rewriteMetadataAndSchema();
-    correctDataCollectionContradictions();
-  }
-
-  applyComplianceIdentity();
-  window.addEventListener("load", applyComplianceIdentity, { once: true });
-  var complianceObserver = new MutationObserver(function () { applyComplianceIdentity(); });
-  complianceObserver.observe(document.documentElement, { childList: true, subtree: true });
+  /* Public pages carry their current legal identity in source. */
 })();
 
 /* ---------- Platform runtime loader: Agents 11/12/13 ---------- */
@@ -142,5 +77,19 @@
     s.defer = true;
     s.src = "/assets/js/concierge.js?v=20260628a";
     document.head.appendChild(s);
+  } catch (e) {}
+})();
+
+/* Authority V1 enhancements are shared by every public page. */
+(function () {
+  try {
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "/assets/css/authority-enhancements.css?v=20260902c";
+    document.head.appendChild(css);
+    var seo = document.createElement("script");
+    seo.defer = true;
+    seo.src = "/assets/js/authority-seo.js?v=20260902c";
+    document.head.appendChild(seo);
   } catch (e) {}
 })();

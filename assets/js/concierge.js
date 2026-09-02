@@ -1,5 +1,5 @@
 /* NILI — Hamed Ashouri's AI Assistant — production chat widget (was: AI Mortgage Concierge) (Deliverable L + Voice)
-   Owner: Hamed Ashouri (M22004433 · FSRA #10530). Track B — Lead Conversion / Marketing Engine.
+   Owner: Hamed Ashouri (M22004433 · Sherwood Mortgage Group, Brokerage Licence #12176). Track B — Lead Conversion / Marketing Engine.
    Data flow (same pattern as this site's existing strategy.html/assessment.js):
      browser -> S-BRAIN webhook (Claude reply + strict-JSON state; Whisper STT for voice)
      browser -> S-PERSIST webhook (idempotent CRM write) when state.persist === true
