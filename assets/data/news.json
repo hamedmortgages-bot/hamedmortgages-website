@@ -1,6 +1,6 @@
 {
-  "version": 30,
-  "updated": "2026-09-10",
+  "version": 31,
+  "updated": "2026-09-14",
   "categories": [
     {
       "id": "rates",
@@ -30,6 +30,111 @@
   ],
   "articles": [
     {
+      "id": "news-2026-09-14-canada-inflation-august-3-percent",
+      "slug": "canada-inflation-august-3-percent",
+      "title_en": "Canada's Inflation Holds Steady at 3% in August as Gasoline Price Gains Slow",
+      "title_fa": "تورم کانادا در اوت ثابت ماند: ۳٪ با کند شدن رشد قیمت بنزین",
+      "summary_en": "Canada's annual inflation rate remained unchanged at 3% in August 2026, matching economist expectations as gasoline prices rose at a slower pace year-over-year. While the ongoing Middle East conflict continued to push energy costs higher, the rate of gasoline price increases moderated to 22.8% from 25.7% in July. The Bank of Canada's preferred core inflation measures — CPI-median and CPI-trim — held steady at 2% and 1.9% respectively, signalling that underlying price pressures remain broadly contained. However, a rise in travel tour prices and rent partially offset the slowdown in fuel costs. Traders are now pricing in roughly 75% odds of a Bank of Canada rate hike next month, though many economists caution the move may be premature given signs of slowing economic growth.",
+      "summary_fa": "نرخ تورم سالانه کانادا در اوت ۲۰۲۶ بدون تغییر در ۳٪ باقی ماند. معیارهای تورم هسته‌ای بانک مرکزی کانادا در ۲٪ و ۱.۹٪ ثابت ماندند. بازارها در حال قیمت‌گذاری احتمال ۷۵٪ افزایش نرخ بهره توسط بانک مرکزی کانادا برای ماه آینده هستند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> For Canadian mortgage borrowers, this CPI print is a double-edged sword. On the surface, core inflation staying near the 2% target is reassuring — it means the Bank of Canada isn't facing an immediate crisis requiring aggressive action. But the 75% market odds of a rate hike next month are real, and if the BoC moves, variable-rate holders will feel it immediately. If you're renewing or purchasing in the next 90 days, don't let this \"steady\" headline lull you into assuming rates will fall anytime soon.</p><p>The most telling detail in today's data is the rise in energy cost pass-through — 37.3% of CPI components are now rising at 3% or above, up from 34.8% in July. Until oil prices and Middle East tensions ease, the path to rate cuts remains blocked. Plan your mortgage strategy around rates staying elevated through at least Q1 2027.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> برای وام‌گیرندگان مسکن کانادایی، این گزارش دو پهلو است. ثابت ماندن تورم هسته‌ای در نزدیکی هدف ۲٪ آرامش‌بخش است، اما احتمال ۷۵٪ افزایش نرخ توسط بانک مرکزی کانادا واقعی است. اگر بانک مرکزی اقدام کند، دارندگان وام‌های نرخ متغیر بلافاصله آن را احساس خواهند کرد.</p><p>۳۷.۳٪ از اجزای شاخص قیمت با نرخ ۳٪ یا بیشتر در حال افزایش هستند. تا زمانی که قیمت نفت کاهش نیابد، مسیر کاهش نرخ بهره مسدود خواهد ماند. برنامه‌ریزی وام خود را بر اساس بالا ماندن نرخ‌ها تا حداقل سه‌ماهه اول ۲۰۲۷ تنظیم کنید.</p>",
+      "seo_title": "Canada Inflation August 2026: CPI Holds at 3% — What It Means for Mortgage Rates",
+      "seo_description": "Canada's August 2026 CPI remained at 3% as gasoline price gains slowed. Bank of Canada rate hike odds rise to 75%. What this means for mortgage borrowers in Ontario.",
+      "keywords": [
+        "Canada inflation August 2026",
+        "CPI 3 percent",
+        "Bank of Canada rate hike",
+        "mortgage rates Canada",
+        "variable rate mortgage",
+        "Ontario mortgage broker"
+      ],
+      "tags": [
+        "inflation",
+        "Bank of Canada",
+        "CPI",
+        "mortgage rates",
+        "rate hike"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_dff6a8cd-e06b-4fb9-81a5-4cc681d0195d.jpg",
+      "image_alt_en": "Canadian grocery store interior with warm forest-green lighting",
+      "image_alt_fa": "داخل فروشگاه مواد غذایی کانادایی با نور گرم سبز جنگلی",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends / Bloomberg",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/canadian-inflation-holds-at-3-amid-slower-gasoline-price-growth/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-14",
+      "imported_date": "2026-09-14",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "inflation",
+        "Bank of Canada",
+        "fixed mortgage rates"
+      ],
+      "related_journeys": [
+        "renewal",
+        "purchase"
+      ],
+      "related_knowledge_blocks": []
+    },
+    {
+      "id": "news-2026-09-08-bond-yields-fixed-mortgage-rates-elevated",
+      "slug": "bond-yields-fixed-mortgage-rates-elevated",
+      "title_en": "Why Bond Yields — and Fixed Mortgage Rates — Are Staying High",
+      "title_fa": "چرا بازده اوراق قرضه — و نرخ وام‌های ثابت — بالا می‌مانند",
+      "summary_en": "Despite a slowing Canadian economy that would normally push bond yields lower, fixed mortgage rates remain stubbornly elevated. RMG Mortgages VP Bruno Valko explains that global forces — including energy-driven inflation, massive government deficit spending, and intensifying competition for investor capital — are keeping Canadian 5-year bond yields near multi-year highs. Between February and August 2026, Canada's 5-year bond yield climbed from 2.72% to 3.28%, mirroring a global sell-off in government debt. With U.S. Treasury yields and Japanese long-bond yields also surging, Canadian borrowers are being caught in an international rate tide largely outside Ottawa's control.",
+      "summary_fa": "علی‌رغم کند شدن اقتصاد کانادا، نرخ وام‌های ثابت همچنان بالا باقی می‌مانند. برونو والکو، معاون رئیس فروش ملی RMG Mortgages، توضیح می‌دهد که نیروهای جهانی — از جمله تورم ناشی از انرژی، کسری بودجه‌های دولتی عظیم — بازده اوراق ۵ ساله کانادا را بالا نگه داشته‌اند. بین فوریه تا اوت ۲۰۲۶، بازده از ۲.۷۲٪ به ۳.۲۸٪ افزایش یافت.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This analysis from Bruno Valko is one of the most important things a Canadian mortgage borrower can read right now. The traditional expectation — bad economic news brings lower rates — simply doesn't hold in 2026. Governments are borrowing at record levels, inflation expectations are sticky due to oil, and private investors demanding higher returns are replacing the central bank buyers who once kept yields anchored. Fixed mortgage rates have a structural floor that isn't going away quickly.</p><p>For clients debating fixed versus variable: a shorter fixed term (2–3 years) lets you capture a future rate drop without locking in at today's peak for five years. If your priority is payment certainty during a tight renewal cycle, discuss this trade-off with a broker who can model both scenarios against your specific amortization and cash-flow position.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این تحلیل یکی از مهم‌ترین مطالبی است که یک وام‌گیرنده مسکن کانادایی در حال حاضر می‌تواند بخواند. انتظار سنتی — اخبار بد اقتصادی نرخ‌های پایین‌تر می‌آورد — در ۲۰۲۶ دیگر صادق نیست. نرخ وام‌های ثابت یک کف ساختاری دارند که به سرعت از بین نمی‌رود.</p><p>برای مشتریانی که بین نرخ ثابت و متغیر در حال تصمیم‌گیری هستند: یک دوره ثابت کوتاه‌تر (۲ تا ۳ ساله) به شما اجازه می‌دهد از کاهش نرخ‌های آینده بهره‌مند شوید. این گزینه را با یک کارگزار وام مسکن مطرح کنید.</p>",
+      "seo_title": "Why Fixed Mortgage Rates Stay High in Canada Despite Slowdown — September 2026",
+      "seo_description": "RMG's Bruno Valko explains why Canadian 5-year bond yields remain elevated despite economic slowdown. What fixed mortgage borrowers need to know now.",
+      "keywords": [
+        "fixed mortgage rates Canada",
+        "5-year bond yield",
+        "mortgage rates September 2026",
+        "Bruno Valko",
+        "RMG Mortgages",
+        "variable vs fixed mortgage"
+      ],
+      "tags": [
+        "bond yields",
+        "fixed rates",
+        "RMG Mortgages",
+        "mortgage strategy",
+        "rate outlook"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_78c21a69-f95e-4e61-813b-7d400605f042.jpg",
+      "image_alt_en": "Canadian financial district glass towers at golden hour with warm lighting",
+      "image_alt_fa": "برج‌های شیشه‌ای ناحیه مالی کانادا در ساعت طلایی با نور گرم",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/whats-keeping-bond-yields-and-fixed-mortgage-rates-elevated/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-08",
+      "imported_date": "2026-09-14",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "bond yields",
+        "fixed mortgage rates",
+        "Bank of Canada"
+      ],
+      "related_journeys": [
+        "renewal",
+        "purchase",
+        "refinance"
+      ],
+      "related_knowledge_blocks": []
+    },
+    {
       "id": "news-2026-09-09-cmhc-variable-rate-exposure",
       "title": "CMHC: Variable-Rate Mortgages Rising as Canadians Bet on Lower Rates",
       "title_fa": "سی‌ام‌اچ‌سی: افزایش وام‌های متغیر با امید کانادایی‌ها به کاهش نرخ بهره",
@@ -41,7 +146,7 @@
       "source_name": "Canadian Mortgage Trends",
       "published_date": "2026-09-09",
       "category": "rates",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_2d1a9777-b4b9-4d2e-b654-20055cd5adfa.jpg"
     },
@@ -58,7 +163,7 @@
       "published_date": "2026-09-02",
       "category": "rates",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_7ac931e1-c9e0-46ef-9039-463c397b8c7c.jpg"
     },
     {
@@ -101,7 +206,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "renewal",
         "mortgage-renewal",
@@ -684,122 +789,6 @@
       ],
       "related_knowledge_blocks": [
         "gen-why-use-a-broker"
-      ]
-    },
-    {
-      "id": "news-2026-07-22-cmhc-forecast-price-declines-2026",
-      "slug": "cmhc-forecast-home-price-sales-declines-2026",
-      "title_en": "CMHC now expects home sales, prices and construction to fall in 2026 as the slowdown deepens",
-      "title_fa": "CMHC Ø§Ú©ÙÙÙ Ù¾ÛØ´âØ¨ÛÙÛ ÙÛâÚ©ÙØ¯ ÙØ±ÙØ´Ø ÙÛÙØª Ù Ø³Ø§Ø®ØªâÙØ³Ø§Ø² ÙØ³Ú©Ù Ø¯Ø± Ø³Ø§Ù Û²Û°Û²Û¶ Ø¨Ø§ ØªØ¹ÙÛÙ Ø±Ú©ÙØ¯ Ú©Ø§ÙØ´ ÛØ§Ø¨Ø¯",
-      "summary_en": "Canada Mortgage and Housing Corporation has downgraded its outlook, now expecting home sales, prices and housing starts to all decline in 2026 as demand stays weak. The agency points to economic uncertainty, slower population growth, high borrowing costs and only modest income gains as the forces keeping buyers on the sidelines, with CanadaâU.S. trade tensions weighing on business investment and hiring and geopolitical conflict adding temporarily to inflation. âPrice reductions have not yet been enough to bring demand back into the market,â said CMHC deputy chief economist Kevin Hughes. Housing starts are forecast to fall 6.8% to 241,400 units this year, down from 259,028 in 2025, as builders pull back amid elevated inventories and high construction costs â especially in Ontario and B.C. condo markets. CMHC expects a return to modest growth in 2027 and 2028, though sales are projected to stay below the average of the past decade, with the Prairies leading while Ontario and B.C. remain constrained by affordability.",
-      "summary_fa": "Ø´Ø±Ú©Øª ÙØ§Ù ÙØ³Ú©Ù Ù ÙØ³Ú©Ù Ú©Ø§ÙØ§Ø¯Ø§ (CMHC) ÚØ´ÙâØ§ÙØ¯Ø§Ø² Ø®ÙØ¯ Ø±Ø§ ØªØ¹Ø¯ÛÙ Ú©Ø±Ø¯Ù Ù Ø§Ú©ÙÙÙ Ù¾ÛØ´âØ¨ÛÙÛ ÙÛâÚ©ÙØ¯ Ú©Ù ÙØ±ÙØ´Ø ÙÛÙØª Ù Ø´Ø±ÙØ¹ Ø³Ø§Ø®Øª ÙØ³Ú©Ù Ø¯Ø± Ø³Ø§Ù Û²Û°Û²Û¶ Ø¨ÙâØ¯ÙÛÙ ØªØ¯Ø§ÙÙ Ø¶Ø¹Ù ØªÙØ§Ø¶Ø§ Ú©Ø§ÙØ´ ÛØ§Ø¨Ø¯. Ø§ÛÙ ÙÙØ§Ø¯Ø Ø¨ÛâØ«Ø¨Ø§ØªÛ Ø§ÙØªØµØ§Ø¯ÛØ Ø±Ø´Ø¯ Ú©ÙØ¯ØªØ± Ø¬ÙØ¹ÛØªØ ÙØ²ÛÙÙâÙØ§Û Ø¨Ø§ÙØ§Û ÙØ§Ù Ù Ø±Ø´Ø¯ Ø§ÙØ¯Ú© Ø¯Ø±Ø¢ÙØ¯ Ø±Ø§ Ø¹ÙØ§ÙÙÛ ÙÛâØ¯Ø§ÙØ¯ Ú©Ù Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø±Ø§ Ú©ÙØ§Ø± ÙÚ¯Ù Ø¯Ø§Ø´ØªÙ Ø§Ø³ØªØ Ø¶ÙÙ Ø¢ÙÚ©Ù ØªÙØ´âÙØ§Û ØªØ¬Ø§Ø±Û Ú©Ø§ÙØ§Ø¯Ø§ Ù Ø¢ÙØ±ÛÚ©Ø§ Ø¨Ø± Ø³Ø±ÙØ§ÛÙâÚ¯Ø°Ø§Ø±Û Ù Ø§Ø³ØªØ®Ø¯Ø§Ù ÙØ´Ø§Ø± ÙÛâØ¢ÙØ±Ø¯ Ù ØªÙØ´âÙØ§Û ÚØ¦ÙÙ¾ÙÛØªÛÚ© Ø¨ÙâØ·ÙØ± ÙÙÙØª Ø¨Ù ØªÙØ±Ù Ø¯Ø§ÙÙ ÙÛâØ²ÙØ¯. Ú©ÙÛÙ ÙÛÙØ²Ø ÙØ¹Ø§ÙÙ Ø§ÙØªØµØ§Ø¯Ø¯Ø§Ù Ø§Ø±Ø´Ø¯ CMHCØ Ú¯ÙØª: Â«Ú©Ø§ÙØ´ ÙÛÙØªâÙØ§ ÙÙÙØ² Ø¨Ø±Ø§Û Ø¨Ø§Ø²Ú¯Ø±Ø¯Ø§ÙØ¯Ù ØªÙØ§Ø¶Ø§ Ø¨Ù Ø¨Ø§Ø²Ø§Ø± Ú©Ø§ÙÛ ÙØ¨ÙØ¯Ù Ø§Ø³Øª.Â» Ù¾ÛØ´âØ¨ÛÙÛ ÙÛâØ´ÙØ¯ Ø´Ø±ÙØ¹ Ø³Ø§Ø®Øª ÙØ³Ú©Ù Ø§ÙØ³Ø§Ù Û¶Ù«Û¸Ùª Ú©Ø§ÙØ´ ÛØ§Ø¨Ø¯ Ù Ø§Ø² Û²ÛµÛ¹Ù¬Û°Û²Û¸ ÙØ§Ø­Ø¯ Ø¯Ø± Ø³Ø§Ù Û²Û°Û²Ûµ Ø¨Ù Û²Û´Û±Ù¬Û´Û°Û° ÙØ§Ø­Ø¯ Ø¨Ø±Ø³Ø¯. CMHC Ø§ÙØªØ¸Ø§Ø± Ø¨Ø§Ø²Ú¯Ø´Øª Ø¨Ù Ø±Ø´Ø¯ ÙÙØ§ÛÙ Ø¯Ø± Ø³Ø§ÙâÙØ§Û Û²Û°Û²Û· Ù Û²Û°Û²Û¸ Ø±Ø§ Ø¯Ø§Ø±Ø¯Ø ÙØ±ÚÙØ¯ ÙØ±ÙØ´ Ú©ÙØªØ± Ø§Ø² ÙÛØ§ÙÚ¯ÛÙ Ø¯ÙÙÙ Ú¯Ø°Ø´ØªÙ Ø¨Ø§ÙÛ Ø®ÙØ§ÙØ¯ ÙØ§ÙØ¯ Ù Ø§ÙØªØ§Ø±ÛÙ Ù Ø¨Ø±ÛØªÛØ´âÚ©ÙÙØ¨ÛØ§ ÙÙÚÙØ§Ù Ø¨Ø§ ÙØ­Ø¯ÙØ¯ÛØª Ø§Ø³ØªØ·Ø§Ø¹Øª ÙØ§ÙÛ Ø±ÙØ¨ÙâØ±Ù Ø®ÙØ§ÙÙØ¯ Ø¨ÙØ¯.",
-      "analysis_en": "<p><strong>Hamedâs take.</strong> A softer market is not automatically bad news for buyers â for some, itâs the opening theyâve been waiting for. When prices ease and homes sit longer, well-qualified buyers gain negotiating room they didnât have a couple of years ago. The catch is that borrowing is still expensive and lenders are cautious, so the buyers who win in this market are the ones who get their financing sorted first: know your true budget, get a real pre-qualification, and understand how todayâs rates affect the payment before you shop.</p><p>If you already own, a cooling forecast is a reminder to plan renewals early rather than react to them. Falling housing starts also point to tighter future supply, which tends to support prices down the road, so this isnât a signal to panic. Whether youâre buying, renewing or tapping equity, the right move depends on your own numbers, not the headline â and thatâs exactly the kind of scenario a proper mortgage review is built to work through.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> Ø¨Ø§Ø²Ø§Ø± Ø¢Ø±Ø§ÙâØªØ± ÙØ²ÙÙØ§Ù Ø®Ø¨Ø± Ø¨Ø¯Û Ø¨Ø±Ø§Û Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù ÙÛØ³Øª â Ø¨Ø±Ø§Û Ø¨Ø±Ø®ÛØ ÙÙØ§Ù ÙØ±ØµØªÛ Ø§Ø³Øª Ú©Ù ÙÙØªØ¸Ø±Ø´ Ø¨ÙØ¯ÙâØ§ÙØ¯. ÙÙØªÛ ÙÛÙØªâÙØ§ Ú©Ø§ÙØ´ ÙÛâÛØ§Ø¨Ø¯ Ù Ø®Ø§ÙÙâÙØ§ Ø¯ÛØ±ØªØ± ÙØ±ÙØ´ ÙÛâØ±ÙÙØ¯Ø Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù ÙØ§Ø¬Ø¯ Ø´Ø±Ø§ÛØ· ÙØ¯Ø±Øª ÚØ§ÙÙâØ²ÙÛ Ø¨ÛØ´ØªØ±Û Ù¾ÛØ¯Ø§ ÙÛâÚ©ÙÙØ¯. Ø§ÙØ§ ÙÚ©ØªÙ Ø§ÛÙ Ø§Ø³Øª Ú©Ù ÙØ²ÛÙÙÙ ÙØ§Ù ÙÙÙØ² Ø¨Ø§ÙØ§Ø³Øª Ù ÙØ§ÙâØ¯ÙÙØ¯Ú¯Ø§Ù ÙØ­ØªØ§Ø·âØ§ÙØ¯Ø Ù¾Ø³ Ø¨Ø±ÙØ¯ÙÙ Ø§ÛÙ Ø¨Ø§Ø²Ø§Ø± Ú©Ø³Û Ø§Ø³Øª Ú©Ù Ø§Ø¨ØªØ¯Ø§ ØªØ£ÙÛÙ ÙØ§ÙÛ Ø®ÙØ¯ Ø±Ø§ Ø³Ø§ÙØ§Ù Ø¯ÙØ¯: Ø¨ÙØ¯Ø¬ÙÙ ÙØ§ÙØ¹ÛâØªØ§Ù Ø±Ø§ Ø¨Ø¯Ø§ÙÛØ¯Ø ÛÚ© Ù¾ÛØ´âØ§Ø±Ø²ÛØ§Ø¨Û ÙØ§ÙØ¹Û Ø¨Ú¯ÛØ±ÛØ¯ Ù Ø¨Ø¯Ø§ÙÛØ¯ ÙØ±Ø®âÙØ§Û Ø§ÙØ±ÙØ² ÚÙ ØªØ£Ø«ÛØ±Û Ø¨Ø± ÙØ³Ø· Ø¯Ø§Ø±Ø¯.</p><p>Ø§Ú¯Ø± ØµØ§Ø­Ø¨ Ø®Ø§ÙÙ ÙØ³ØªÛØ¯Ø Ø§ÛÙ ÚØ´ÙâØ§ÙØ¯Ø§Ø² ÛØ§Ø¯Ø¢ÙØ±Û ÙÛâÚ©ÙØ¯ Ú©Ù ØªÙØ¯ÛØ¯ Ø±Ø§ Ø²ÙØ¯ØªØ± Ø¨Ø±ÙØ§ÙÙâØ±ÛØ²Û Ú©ÙÛØ¯. Ú©Ø§ÙØ´ Ø³Ø§Ø®ØªâÙØ³Ø§Ø² ÙÛØ² Ø¨Ù ÙØ¹ÙØ§Û Ø¹Ø±Ø¶ÙÙ ÙØ­Ø¯ÙØ¯ØªØ± Ø¯Ø± Ø¢ÛÙØ¯Ù Ø§Ø³Øª Ú©Ù ÙØ¹ÙÙÙØ§Ù Ø§Ø² ÙÛÙØªâÙØ§ Ø¯Ø± Ø¨ÙÙØ¯ÙØ¯Øª Ù¾Ø´ØªÛØ¨Ø§ÙÛ ÙÛâÚ©ÙØ¯Ø Ù¾Ø³ Ø¬Ø§Û ÙØ­Ø´Øª ÙÛØ³Øª. ÚÙ Ø¯Ø± Ø­Ø§Ù Ø®Ø±ÛØ¯Ø ØªÙØ¯ÛØ¯ ÛØ§ Ø§Ø³ØªÙØ§Ø¯Ù Ø§Ø² Ø§Ø±Ø²Ø´ ÙÛÚÙÙ Ø®Ø§ÙÙ Ø¨Ø§Ø´ÛØ¯Ø ØªØµÙÛÙ Ø¯Ø±Ø³Øª Ø¨Ù Ø§Ø¹Ø¯Ø§Ø¯ Ø´ÙØ§ Ø¨Ø³ØªÚ¯Û Ø¯Ø§Ø±Ø¯Ø ÙÙ Ø¨Ù ØªÛØªØ± Ø®Ø¨Ø±.</p>",
-      "seo_title": "CMHC forecasts 2026 home price and sales declines â what buyers should know",
-      "seo_description": "CMHC now expects Canadian home sales, prices and housing starts to fall in 2026. Hereâs what the deepening slowdown means for buyers, owners and renewals.",
-      "keywords": [
-        "CMHC 2026 forecast",
-        "Canada home prices 2026",
-        "housing market slowdown",
-        "housing starts 2026",
-        "home sales decline Canada",
-        "Kevin Hughes CMHC",
-        "Ontario housing market",
-        "mortgage renewal 2026"
-      ],
-      "tags": [
-        "cmhc",
-        "housing-market",
-        "home-prices",
-        "housing-starts",
-        "forecast",
-        "canada",
-        "affordability"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_38c1447a-537d-439b-b8c0-1acbc4d20632.jpg",
-      "image_alt_en": "A quiet Canadian suburban street of detached family homes under soft overcast late-afternoon light.",
-      "image_alt_fa": "Ø®ÛØ§Ø¨Ø§ÙÛ Ø¢Ø±Ø§Ù Ø¯Ø± Ø­ÙÙÙÙ Ø´ÙØ± Ú©Ø§ÙØ§Ø¯Ø§ Ø¨Ø§ Ø®Ø§ÙÙâÙØ§Û ÙØ³ØªÙÙ Ø®Ø§ÙÙØ§Ø¯Ú¯Û Ø²ÛØ± ÙÙØ± ÙÙØ§ÛÙ Ù Ø§Ø¨Ø±Û Ø¯Ø± Ø¨Ø¹Ø¯Ø§Ø²Ø¸ÙØ±.",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/cmhc-forecasts-home-price-declines-as-housing-slowdown-deepens/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-22",
-      "imported_date": "2026-07-24",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "housing-market",
-        "home-prices",
-        "affordability",
-        "mortgage-renewal"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-housing-market-basics"
-      ]
-    },
-    {
-      "id": "news-2026-07-22-us-30yr-yield-above-5",
-      "slug": "us-30-year-yield-longest-run-above-5-since-2007",
-      "title_en": "U.S. 30-year yield holds above 5% in its longest run since 2007 â why it matters for Canadian fixed rates",
-      "title_fa": "Ø¨Ø§Ø²Ø¯Ù Ø§ÙØ±Ø§Ù Û³Û° Ø³Ø§ÙÙ Ø¢ÙØ±ÛÚ©Ø§ Ø¯Ø± Ø·ÙÙØ§ÙÛâØªØ±ÛÙ Ø¯ÙØ±Ù Ø¨Ø§ÙØ§Û Ûµ Ø¯Ø±ØµØ¯ Ø§Ø² Ø³Ø§Ù Û²Û°Û°Û· â Ù ÚØ±Ø§ Ø¨Ø±Ø§Û ÙØ±Ø®âÙØ§Û Ø«Ø§Ø¨Øª Ú©Ø§ÙØ§Ø¯Ø§ ÙÙÙ Ø§Ø³Øª",
-      "summary_en": "The U.S. 30-year Treasury yield is trading above 5% for its longest sustained stretch since the dawn of the 2007â08 financial crisis, with roughly 27 sessions above that mark so far this year â about one session in five, the most since 2007. Investors are demanding more compensation to hold long-dated government debt as Washington's deficits swell, annual interest costs top US$1 trillion, and a wave of AI-infrastructure borrowing competes for the same pool of buyers. Tellingly, the Federal Reserve's policy rate now sits about 150 basis points below where it was in 2007, so the elevated long yield reflects fiscal and inflation worries rather than tight central-bank policy. Strategists quoted by Bloomberg warned the move looks structural â a possible return of the 1980s-style 'bond vigilantes' â and several are steering money into shorter maturities to limit losses from any further spike. For Canada, distant U.S. long yields still matter, because they help set the tone for the global bond market that Canadian fixed mortgage rates are ultimately priced from.",
-      "summary_fa": "Ø¨Ø§Ø²Ø¯Ù Ø§ÙØ±Ø§Ù Ø®Ø²Ø§ÙÙâØ¯Ø§Ø±Û Û³Û° Ø³Ø§ÙÙ Ø¢ÙØ±ÛÚ©Ø§ Ø¨Ø±Ø§Û Ø·ÙÙØ§ÙÛâØªØ±ÛÙ Ø¯ÙØ±Ù Ù¾ÛÙØ³ØªÙ Ø§Ø² Ø¢ØºØ§Ø² Ø¨Ø­Ø±Ø§Ù ÙØ§ÙÛ Û²Û°Û°Û·âÛ²Û°Û°Û¸ Ø¨Ø§ÙØ§Û Ûµ Ø¯Ø±ØµØ¯ ÙØ¹Ø§ÙÙÙ ÙÛâØ´ÙØ¯Ø Ø§ÙØ³Ø§Ù ØªØ§Ú©ÙÙÙ Ø­Ø¯ÙØ¯ Û²Û· Ø¬ÙØ³Ù ÙØ¹Ø§ÙÙØ§ØªÛ Ø¨Ø§ÙØ§Û Ø§ÛÙ Ø³Ø·Ø­ Ø¨ÙØ¯Ù â ØªÙØ±ÛØ¨Ø§Ù ÛÚ© Ø¬ÙØ³Ù Ø§Ø² ÙØ± Ù¾ÙØ¬ Ø¬ÙØ³ÙØ Ø¨ÛØ´ØªØ±ÛÙ ÙÛØ²Ø§Ù Ø§Ø² Ø³Ø§Ù Û²Û°Û°Û·. Ø³Ø±ÙØ§ÛÙâÚ¯Ø°Ø§Ø±Ø§Ù Ø¨Ø§ Ø§ÙØ²Ø§ÛØ´ Ú©Ø³Ø±Û Ø¨ÙØ¯Ø¬Ù ÙØ§Ø´ÙÚ¯ØªÙØ Ø¹Ø¨ÙØ± ÙØ²ÛÙÙ Ø³Ø§ÙØ§ÙÙ Ø¨ÙØ±Ù Ø§Ø² Û± ØªØ±ÛÙÛÙÙ Ø¯ÙØ§Ø± Ù ÙÙØ¬ Ø§Ø³ØªÙØ±Ø§Ø¶ Ø¨Ø±Ø§Û Ø²ÛØ±Ø³Ø§Ø®Øª ÙÙØ´ ÙØµÙÙØ¹Û Ú©Ù Ø¨Ø±Ø§Û ÙÙØ§Ù Ú¯Ø±ÙÙ Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø±ÙØ§Ø¨Øª ÙÛâÚ©ÙØ¯Ø Ø®ÙØ§ÙØ§Ù Ø¬Ø¨Ø±Ø§Ù Ø¨ÛØ´ØªØ±Û Ø¨Ø±Ø§Û ÙÚ¯ÙØ¯Ø§Ø±Û Ø¨Ø¯ÙÛ Ø¨ÙÙØ¯ÙØ¯Øª Ø¯ÙÙØªÛ ÙØ³ØªÙØ¯. ÙÚ©ØªÙ ÙÙÙ Ø§ÛÙÚ©Ù ÙØ±Ø® Ø³ÛØ§Ø³ØªÛ ÙØ¯Ø±Ø§ÙâØ±Ø²Ø±Ù Ø§Ú©ÙÙÙ Ø­Ø¯ÙØ¯ Û±ÛµÛ° ÙØ§Ø­Ø¯ Ù¾Ø§ÛÙ Ù¾Ø§ÛÛÙâØªØ± Ø§Ø² Ø³Ø§Ù Û²Û°Û°Û· Ø§Ø³ØªØ Ù¾Ø³ Ø§ÛÙ Ø¨Ø§Ø²Ø¯Ù Ø¨Ø§ÙØ§ Ø¨Ø§Ø²ØªØ§Ø¨ ÙÚ¯Ø±Ø§ÙÛâÙØ§Û ÙØ§ÙÛ Ù ØªÙØ±ÙÛ Ø§Ø³ØªØ ÙÙ Ø³ÛØ§Ø³Øª Ø§ÙÙØ¨Ø§Ø¶Û Ø¨Ø§ÙÚ© ÙØ±Ú©Ø²Û. ØªØ­ÙÛÙÚ¯Ø±Ø§Ù ÙÙÙâØ´Ø¯Ù ØªÙØ³Ø· Ø¨ÙÙÙØ¨Ø±Ú¯ ÙØ´Ø¯Ø§Ø± Ø¯Ø§Ø¯ÙØ¯ Ú©Ù Ø§ÛÙ Ø­Ø±Ú©Øª Ø³Ø§Ø®ØªØ§Ø±Û Ø¨Ù ÙØ¸Ø± ÙÛâØ±Ø³Ø¯ â Ø§Ø­ØªÙØ§Ù Ø¨Ø§Ø²Ú¯Ø´Øª Â«Ú¯Ø´ØªâÙØ§Û Ø§ÙØ±Ø§ÙÂ» Ø¨Ù Ø³Ø¨Ú© Ø¯ÙÙ Û±Û¹Û¸Û° â Ù Ø¨Ø±Ø®Û Ø³Ø±ÙØ§ÛÙ Ø±Ø§ Ø¨Ù Ø³Ø±Ø±Ø³ÛØ¯ÙØ§Û Ú©ÙØªØ§ÙâØªØ± ÙÙØªÙÙ ÙÛâÚ©ÙÙØ¯ ØªØ§ Ø²ÛØ§Ù ÛÚ© Ø¬ÙØ´ Ø¯ÛÚ¯Ø± Ø±Ø§ ÙØ­Ø¯ÙØ¯ Ú©ÙÙØ¯. Ø¨Ø±Ø§Û Ú©Ø§ÙØ§Ø¯Ø§Ø Ø¨Ø§Ø²Ø¯Ù Ø¨ÙÙØ¯ÙØ¯Øª Ø¢ÙØ±ÛÚ©Ø§ ÙØ±ÚÙØ¯ Ø¯ÙØ±Ø ÙÙÚÙØ§Ù Ø§ÙÙÛØª Ø¯Ø§Ø±Ø¯Ø ÚÙÙ ÙØ­Ù Ø¨Ø§Ø²Ø§Ø± Ø¬ÙØ§ÙÛ Ø§ÙØ±Ø§Ù Ø±Ø§ ØªØ¹ÛÛÙ ÙÛâÚ©ÙØ¯ Ú©Ù ÙØ±Ø®âÙØ§Û Ø«Ø§Ø¨Øª ÙØ§Ù ÙØ³Ú©Ù Ú©Ø§ÙØ§Ø¯Ø§ Ø¯Ø± ÙÙØ§ÛØª Ø§Ø² Ø±ÙÛ Ø¢Ù ÙÛÙØªâÚ¯Ø°Ø§Ø±Û ÙÛâØ´ÙÙØ¯.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is a U.S. story, but it lands on Canadian kitchen tables. Your five-year fixed mortgage rate is not set by the Bank of Canada's overnight rate â it takes its cue from the bond market, and Government of Canada yields move within the gravity of the much larger U.S. Treasury market. So even though the Bank of Canada is comfortably on hold at 2.25%, a long U.S. yield that refuses to fall back below 5% helps explain why fixed rates have stayed sticky instead of drifting lower. It is the clearest answer I can give to the question I hear most this month: 'rates are supposed to be coming down, so why is my fixed quote still up here?'</p><p>What I would actually do with this: don't try to trade the bond market, but don't wait passively either. If you are renewing in the next six to twelve months, lock a rate hold now so you are protected while this plays out, and have your broker price both a fixed and a shorter or variable option side by side so the decision rests on your own cash-flow and risk tolerance, not on a headline. None of this is a forecast or a promise about where rates go next â it is a reminder that fixed-rate borrowers are quietly exposed to what happens in Washington's debt market, and that a rate hold costs nothing to put in place.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> Ø§ÛÙ ÛÚ© Ø®Ø¨Ø± Ø¢ÙØ±ÛÚ©Ø§ÛÛ Ø§Ø³ØªØ Ø§ÙØ§ Ù¾Ø§Û Ø¢Ù Ø¨Ù ÙÛØ² Ø¢Ø´Ù¾Ø²Ø®Ø§ÙÙ Ú©Ø§ÙØ§Ø¯Ø§ÛÛâÙØ§ ÙÛâØ±Ø³Ø¯. ÙØ±Ø® Ø«Ø§Ø¨Øª Ù¾ÙØ¬âØ³Ø§ÙÙ ÙØ§Ù ÙØ³Ú©Ù Ø´ÙØ§ Ø±Ø§ ÙØ±Ø® Ø´Ø¨Ø§ÙÙ Ø¨Ø§ÙÚ© ÙØ±Ú©Ø²Û Ú©Ø§ÙØ§Ø¯Ø§ ØªØ¹ÛÛÙ ÙÙÛâÚ©ÙØ¯Ø Ø§ÛÙ ÙØ±Ø® Ø§Ø² Ø¨Ø§Ø²Ø§Ø± Ø§ÙØ±Ø§Ù ÙØ±Ø¶Ù Ø§ÙÙØ§Ù ÙÛâÚ¯ÛØ±Ø¯ Ù Ø¨Ø§Ø²Ø¯Ù Ø§ÙØ±Ø§Ù Ø¯ÙÙØª Ú©Ø§ÙØ§Ø¯Ø§ Ø¯Ø± ÙÛØ¯Ø§Ù Ø¬Ø§Ø°Ø¨Ù Ø¨Ø§Ø²Ø§Ø± Ø¨Ø³ÛØ§Ø± Ø¨Ø²Ø±Ú¯âØªØ± Ø§ÙØ±Ø§Ù Ø®Ø²Ø§ÙÙ Ø¢ÙØ±ÛÚ©Ø§ Ø­Ø±Ú©Øª ÙÛâÚ©ÙØ¯. Ù¾Ø³ Ø¨Ø§ Ø§ÛÙÚ©Ù Ø¨Ø§ÙÚ© ÙØ±Ú©Ø²Û Ú©Ø§ÙØ§Ø¯Ø§ Ø¨Ø§ Ø®ÛØ§Ù Ø±Ø§Ø­Øª ÙØ±Ø® Ø±Ø§ Ø¯Ø± Û².Û²Ûµ Ø¯Ø±ØµØ¯ ÙÚ¯Ù Ø¯Ø§Ø´ØªÙØ Ø¨Ø§Ø²Ø¯Ù Ø¨ÙÙØ¯ÙØ¯Øª Ø¢ÙØ±ÛÚ©Ø§ Ú©Ù Ø­Ø§Ø¶Ø± ÙÛØ³Øª Ø¨Ù Ø²ÛØ± Ûµ Ø¯Ø±ØµØ¯ Ø¨Ø±Ú¯Ø±Ø¯Ø¯Ø ØªÙØ¶ÛØ­ ÙÛâØ¯ÙØ¯ ÚØ±Ø§ ÙØ±Ø®âÙØ§Û Ø«Ø§Ø¨Øª Ø¨ÙâØ¬Ø§Û Ú©Ø§ÙØ´Ø ÚØ³Ø¨ÙØ¯Ù ÙØ§ÙØ¯ÙâØ§ÙØ¯. Ø§ÛÙ Ø±ÙØ´ÙâØªØ±ÛÙ Ù¾Ø§Ø³Ø® ÙÙ Ø¨Ù Ù¾Ø±Ø³Ø´Û Ø§Ø³Øª Ú©Ù Ø§ÛÙ ÙØ§Ù Ø¨ÛØ´ Ø§Ø² ÙÙÙ ÙÛâØ´ÙÙÙ: Â«ÙØ±Ø§Ø± Ø¨ÙØ¯ ÙØ±Ø®âÙØ§ Ù¾Ø§ÛÛÙ Ø¨ÛØ§ÛÙØ¯Ø Ù¾Ø³ ÚØ±Ø§ ÙØ±Ø® Ø«Ø§Ø¨Øª ÙÙ ÙÙÙØ² Ø§ÛÙâÙØ¯Ø± Ø¨Ø§ÙØ§Ø³ØªØÂ»</p><p>Ú©Ø§Ø±Û Ú©Ù ÙØ§ÙØ¹Ø§Ù Ù¾ÛØ´ÙÙØ§Ø¯ ÙÛâÚ©ÙÙ: Ø¨Ø§Ø²Ø§Ø± Ø§ÙØ±Ø§Ù Ø±Ø§ ÙØ¹Ø§ÙÙÙ ÙÚ©ÙÛØ¯Ø Ø§ÙØ§ ÙÙÙØ¹ÙØ§ÙÙ ÙÙ ÙÙØªØ¸Ø± ÙÙØ§ÙÛØ¯. Ø§Ú¯Ø± Ø¯Ø± Ø´Ø´ ØªØ§ Ø¯ÙØ§Ø²Ø¯Ù ÙØ§Ù Ø¢ÛÙØ¯Ù ØªÙØ¯ÛØ¯ Ø¯Ø§Ø±ÛØ¯Ø ÙÙÛÙ Ø­Ø§ÙØ§ ÛÚ© Â«ÙÚ¯ÙâØ¯Ø§Ø´Øª ÙØ±Ø®Â» Ø¨Ú¯ÛØ±ÛØ¯ ØªØ§ Ø¯Ø± Ø§ÛÙ Ø¯ÙØ±Ù ÙØ­Ø§ÙØ¸Øª Ø´ÙÛØ¯Ø Ù Ø§Ø² Ø¨Ø±ÙÚ©Ø± Ø®ÙØ¯ Ø¨Ø®ÙØ§ÙÛØ¯ Ú¯Ø²ÛÙÙ Ø«Ø§Ø¨Øª Ù Ú¯Ø²ÛÙÙ Ú©ÙØªØ§ÙâØªØ± ÛØ§ ÙØªØºÛØ± Ø±Ø§ Ú©ÙØ§Ø± ÙÙ ÙÛÙØªâÚ¯Ø°Ø§Ø±Û Ú©ÙØ¯ ØªØ§ ØªØµÙÛÙ Ø¨Ø± Ù¾Ø§ÛÙ Ø¬Ø±ÛØ§Ù ÙÙØ¯Û Ù ØªØ­ÙÙ Ø±ÛØ³Ú© Ø®ÙØ¯ØªØ§Ù Ø¨Ø§Ø´Ø¯Ø ÙÙ ÛÚ© ØªÛØªØ± Ø®Ø¨Ø±Û. ÙÛÚâÚ©Ø¯Ø§Ù Ø§Ø² Ø§ÛÙâÙØ§ Ù¾ÛØ´âØ¨ÛÙÛ ÛØ§ ÙØ¹Ø¯ÙâØ§Û Ø¯Ø±Ø¨Ø§Ø±Ù ÙØ³ÛØ± ÙØ±Ø®âÙØ§ ÙÛØ³Øª â ÙÙØ· ÛØ§Ø¯Ø¢ÙØ±Û Ø§ÛÙÚ©Ù ÙØ§ÙâÚ¯ÛØ±ÙØ¯Ú¯Ø§Ù ÙØ±Ø® Ø«Ø§Ø¨Øª Ø¨ÙâØ·ÙØ± Ù¾ÙÙØ§Ù Ø¯Ø± ÙØ¹Ø±Ø¶ Ø¢ÙÚÙ Ø¯Ø± Ø¨Ø§Ø²Ø§Ø± Ø¨Ø¯ÙÛ ÙØ§Ø´ÙÚ¯ØªÙ Ø±Ø® ÙÛâØ¯ÙØ¯ ÙØ±Ø§Ø± Ø¯Ø§Ø±ÙØ¯Ø Ù Ú¯Ø±ÙØªÙ ÛÚ© ÙÚ¯ÙâØ¯Ø§Ø´Øª ÙØ±Ø® ÙÛÚ ÙØ²ÛÙÙâØ§Û ÙØ¯Ø§Ø±Ø¯.</p>",
-      "seo_title": "U.S. 30-Year Yield Above 5%: What It Means for Canadian Fixed Mortgage Rates",
-      "seo_description": "The U.S. 30-year Treasury yield is in its longest run above 5% since 2007. Here's why that keeps Canadian fixed mortgage rates sticky â and what borrowers should do.",
-      "keywords": [
-        "US 30-year Treasury yield 2026",
-        "bond yields Canadian mortgage rates",
-        "why fixed mortgage rates not falling",
-        "Canada 5-year fixed mortgage rate",
-        "bond vigilantes 2026",
-        "mortgage rate hold renewal Canada",
-        "Bank of Canada 2.25 percent"
-      ],
-      "tags": [
-        "Bond Yields",
-        "Fixed Rates",
-        "US Treasury",
-        "Mortgage Strategy",
-        "Renewals"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_1408e67a-9d04-41fa-b4c3-269332accde6.jpg",
-      "image_alt_en": "A modern Canadian financial advisor's desk by a sunlit window overlooking suburban rooftops, warm gold and forest-green tones.",
-      "image_alt_fa": "ÙÛØ² ÛÚ© ÙØ´Ø§ÙØ± ÙØ§ÙÛ ÙØ¯Ø±Ù Ú©Ø§ÙØ§Ø¯Ø§ÛÛ Ú©ÙØ§Ø± Ù¾ÙØ¬Ø±ÙâØ§Û Ø¢ÙØªØ§Ø¨Û ÙØ´Ø±Ù Ø¨Ù Ø¨Ø§Ù Ø®Ø§ÙÙâÙØ§Û Ø­ÙÙÙ Ø´ÙØ±Ø Ø¨Ø§ ØªÙÙØ§ÙÛØªÙ Ú¯Ø±Ù Ø·ÙØ§ÛÛ Ù Ø³Ø¨Ø² Ø¬ÙÚ¯ÙÛ.",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/u-s-30-year-yield-raises-alarm-in-longest-run-above-5-since-2007/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-22",
-      "imported_date": "2026-07-23",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "renewal",
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
-        "gen-preapproval",
-        "renewal-checklist"
       ]
     }
   ]
