@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "module": "market-intelligence",
+  "updated_at": "2026-09-14",
+  "items": [],
+  "publishing": {
+    "status": "ready-for-content",
+    "compliance_required": true,
+    "human_review_required": true,
+    "source_links_required": true,
+    "rate_guarantees_allowed": false
+  }
+}
