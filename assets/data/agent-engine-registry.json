@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "baseline": {
+    "version": 26,
+    "source_commit": "a976bcd99ed7e93ea9d2457d4b97b1c80188ede5",
+    "production_url": "https://hamedmortgages.ca"
+  },
+  "execution_model": "event_driven_browser_runtime_with_external_adapters",
+  "agents": [
+    {
+      "id": "00",
+      "name": "Master Orchestrator",
+      "responsibility": "routes events, dependencies, retries, and gates",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "01",
+      "name": "Market Research",
+      "responsibility": "packages source-research tasks and evidence metadata",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "02",
+      "name": "Market Intelligence",
+      "responsibility": "converts verified facts into mortgage-relevant briefs",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "03",
+      "name": "Editorial Content",
+      "responsibility": "validates publish-ready content structure",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "04",
+      "name": "Education",
+      "responsibility": "structures learning content and next steps",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "05",
+      "name": "Localization",
+      "responsibility": "checks EN/FA parity and RTL requirements",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "06",
+      "name": "Visual Director",
+      "responsibility": "creates page asset briefs and crop requirements",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "07",
+      "name": "SEO & Discovery",
+      "responsibility": "checks canonical, alternate, metadata and intent fields",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "08",
+      "name": "Campaign & Landing Page",
+      "responsibility": "checks one-objective landing-page contracts",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "09",
+      "name": "Conversion",
+      "responsibility": "records CTA and funnel events without PII storage",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "10",
+      "name": "Calculator & Decision",
+      "responsibility": "routes deterministic calculator/decision events",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "11",
+      "name": "Lead Intake",
+      "responsibility": "normalizes submitted lead envelopes",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "12",
+      "name": "Lead Qualification",
+      "responsibility": "performs preliminary triage only, never underwriting",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "13",
+      "name": "CRM Routing",
+      "responsibility": "creates an auditable Zoho routing request; backend performs writes",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    },
+    {
+      "id": "14",
+      "name": "Compliance & QA",
+      "responsibility": "runs deterministic disclosure, identity and release checks",
+      "trigger": "event_routed",
+      "output": "structured_result"
+    }
+  ],
+  "engines": [
+    {
+      "id": "01",
+      "name": "Brand & Experience Engine",
+      "agents": [
+        "06",
+        "07",
+        "05"
+      ],
+      "responsibility": "brand, IA, bilingual and responsive consistency"
+    },
+    {
+      "id": "02",
+      "name": "Content & Education Engine",
+      "agents": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "responsibility": "research-to-content and education lifecycle"
+    },
+    {
+      "id": "03",
+      "name": "Market Intelligence Engine",
+      "agents": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "14"
+      ],
+      "responsibility": "verified market facts to insight"
+    },
+    {
+      "id": "04",
+      "name": "Decision & Calculator Engine",
+      "agents": [
+        "10",
+        "14"
+      ],
+      "responsibility": "deterministic calculation and explanation"
+    },
+    {
+      "id": "05",
+      "name": "Lead Generation & Conversion Engine",
+      "agents": [
+        "08",
+        "09",
+        "11",
+        "12"
+      ],
+      "responsibility": "traffic-to-qualified-intake flow"
+    },
+    {
+      "id": "06",
+      "name": "CRM & Mortgage AI OS Engine",
+      "agents": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "responsibility": "auditable handoff to Zoho/external OS"
+    }
+  ],
+  "event_routes": {
+    "page_view": [
+      "00",
+      "07",
+      "14"
+    ],
+    "content_research_requested": [
+      "00",
+      "01",
+      "02",
+      "03",
+      "05",
+      "14"
+    ],
+    "content_draft_submitted": [
+      "00",
+      "03",
+      "04",
+      "05",
+      "07",
+      "14"
+    ],
+    "visual_asset_requested": [
+      "00",
+      "06",
+      "14"
+    ],
+    "calculator_run": [
+      "00",
+      "10",
+      "14"
+    ],
+    "cta_clicked": [
+      "00",
+      "09"
+    ],
+    "lead_submitted": [
+      "00",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "release_candidate": [
+      "00",
+      "05",
+      "07",
+      "14"
+    ]
+  }
+}
