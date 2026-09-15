@@ -2,12 +2,10 @@
    Hamed Mortgages — main.js
    Vanilla JS only. No dependencies, no tracking, no network calls.
    Handles: mobile nav, News nav link, FAQ accordion, footer year.
-   (Calculator is in calculator.js)
    =================================================================== */
 (function () {
   "use strict";
 
-  /* ---------- Mobile navigation toggle ---------- */
   var nav = document.querySelector("[data-nav]");
   var toggle = document.querySelector("[data-nav-toggle]");
   if (nav && toggle) {
@@ -32,17 +30,9 @@
     a.textContent = lang === "fa" ? "اخبار" : "News";
     li.appendChild(a);
     var resLink = menu.querySelector('a[href="resources.html"]');
-    if (resLink && resLink.parentElement && resLink.parentElement.parentElement === menu) {
-      resLink.parentElement.insertAdjacentElement("afterend", li);
-    } else {
-      menu.appendChild(li);
-    }
-    if (nav && toggle) {
-      a.addEventListener("click", function () {
-        nav.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-      });
-    }
+    if (resLink && resLink.parentElement && resLink.parentElement.parentElement === menu) resLink.parentElement.insertAdjacentElement("afterend", li);
+    else menu.appendChild(li);
+    if (nav && toggle) a.addEventListener("click", function () { nav.classList.remove("is-open"); toggle.setAttribute("aria-expanded", "false"); });
   }
 
   document.querySelectorAll("[data-faq-q]").forEach(function (btn) {
@@ -56,11 +46,9 @@
 
   var y = document.querySelector("[data-year]");
   if (y) y.textContent = new Date().getFullYear();
-
-  /* Public pages carry their current legal identity in source. */
 })();
 
-/* ---------- Platform runtime loader: Agents 11/12/13 ---------- */
+/* Existing lead platform adapter: Agents 11/12/13. */
 (function () {
   try {
     var p = document.createElement("script");
@@ -70,7 +58,17 @@
   } catch (e) {}
 })();
 
-/* ---------- NILI widget loader (Track B) ---------- */
+/* Baseline V26 additive agent/engine workflow control plane. */
+(function () {
+  try {
+    var a = document.createElement("script");
+    a.defer = true;
+    a.src = "/assets/js/agent-runtime.js?v=20260915a";
+    document.head.appendChild(a);
+  } catch (e) {}
+})();
+
+/* NILI widget loader (Track B). */
 (function () {
   try {
     var s = document.createElement("script");
