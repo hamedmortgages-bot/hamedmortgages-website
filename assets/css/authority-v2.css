@@ -13,3 +13,36 @@
 .av1-brand{min-width:206px;padding:6px 10px;background:var(--paper);border:1px solid rgba(201,162,83,.55)}
 .av1-brand:before{width:186px;height:54px;background:url("../img/logo.png") center/contain no-repeat;filter:none;opacity:1}
 @media(max-width:620px){.av1-brand{min-width:152px;padding:5px 8px}.av1-brand:before{width:136px;height:43px}}
+
+/* Mobile navigation repair — keep all site navigation reachable without JS. */
+@media(max-width:620px){
+  .av1-nav{
+    flex-wrap:wrap;
+    align-items:center;
+    row-gap:8px;
+    padding:10px 0;
+  }
+  .av1-links{
+    order:3;
+    flex:1 1 100%;
+    width:100%;
+    min-width:0;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    gap:14px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding:2px 0 8px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+    white-space:nowrap;
+    text-transform:none;
+    letter-spacing:0;
+    font-size:11px;
+  }
+  .av1-links::-webkit-scrollbar{display:none}
+  .av1-links>a:not(.av1-cta){display:inline-flex!important;flex:0 0 auto}
+  .av1-lang{display:inline-flex!important;flex:0 0 auto;font-size:11px;letter-spacing:0}
+  .av1-links .av1-cta{flex:0 0 auto;min-height:40px;padding:0 14px;font-size:10px}
+}
