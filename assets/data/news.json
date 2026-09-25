@@ -1,6 +1,6 @@
 {
-  "version": 31,
-  "updated": "2026-09-14",
+  "version": 32,
+  "updated": "2026-09-25",
   "categories": [
     {
       "id": "rates",
@@ -29,6 +29,113 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-09-23-equifax-broker-report-soft-inquiry",
+      "slug": "equifax-broker-report-soft-inquiry",
+      "title_en": "Equifax overhauls its mortgage broker credit report and moves to a soft inquiry",
+      "title_fa": "اکوئیفکس گزارش اعتباری ویژه بروکرهای وام مسکن را بازطراحی می‌کند و به استعلام نرم (Soft Inquiry) می‌رود",
+      "summary_en": "Equifax Canada is redesigning the Mortgage Broker Report that brokers pull on almost every file, and says it will shortly move that report to a soft credit inquiry, so pulling it should no longer leave a hard hit on the borrower's credit file. The first page will now surface three headline risk areas: a fraud pre-screen indicator (green or yellow, shown to brokers only), overall consumer credit strength, and insolvency risk through an enhanced Bankruptcy Navigator Index that now factors in trended data and mortgage payment behaviour. A new verified-income flag will show when Equifax has already received a borrower's income directly from a payroll provider, which Equifax says applies to roughly one in ten files and which some connected lenders may be able to accept in place of traditional income documents. Equifax framed the changes against a shifting borrower profile: more first-time buyers relying on family co-borrowers, a large share of mortgages now variable or short-term, softer home prices, and rising stress showing up first in credit cards, lines of credit and auto loans, with insolvencies at their highest level since 2009. The company also said alternative lending could become a much larger share of a typical broker's business than in the past.",
+      "summary_fa": "اکوئیفکس کانادا در حال بازطراحی «گزارش بروکر وام مسکن» (Mortgage Broker Report) است که بروکرها تقریباً برای هر پرونده دریافت می‌کنند، و اعلام کرده به‌زودی این گزارش را به استعلام نرم (Soft Inquiry) منتقل می‌کند؛ یعنی دریافت آن دیگر نباید اثر استعلام سخت روی پرونده اعتباری متقاضی بگذارد. صفحه اول گزارش اکنون سه حوزه ریسک اصلی را نشان می‌دهد: یک شاخص پیش‌غربالگری تقلب (سبز یا زرد، فقط برای بروکر)، قدرت کلی اعتبار مصرف‌کننده، و ریسک ورشکستگی از طریق نسخه تقویت‌شده Bankruptcy Navigator Index که حالا داده‌های روندی و سابقه پرداخت وام مسکن را هم در نظر می‌گیرد. یک نشانگر جدید «درآمد تأییدشده» هم نشان می‌دهد که آیا اکوئیفکس درآمد متقاضی را مستقیماً از ارائه‌دهنده حقوق و دستمزد دریافت کرده است یا نه؛ به گفته اکوئیفکس این موضوع حدود یک پرونده از هر ده پرونده را شامل می‌شود و برخی وام‌دهندگان متصل ممکن است بتوانند آن را به‌جای مدارک سنتی درآمد بپذیرند. اکوئیفکس این تغییرات را در بستر تغییر پروفایل وام‌گیرندگان توضیح داد: خریداران اول بیشتری که به هم‌وام‌گیرنده خانوادگی تکیه می‌کنند، سهم بالای وام‌های متغیر یا کوتاه‌مدت، قیمت‌های نرم‌تر مسکن، و فشار مالی که ابتدا در کارت‌های اعتباری، خطوط اعتباری و وام خودرو ظاهر می‌شود؛ در حالی که ورشکستگی‌ها در بالاترین سطح از سال ۲۰۰۹ هستند. این شرکت همچنین گفت وام‌دهی جایگزین (Alternative Lending) ممکن است سهم بسیار بزرگ‌تری از کسب‌وکار یک بروکر نسبت به گذشته پیدا کند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> The soft-inquiry change is good news for clients who are shopping carefully: a pre-qualification conversation should not have to cost them a hard hit on their file. The bigger shift, though, is the fraud and insolvency indicators on page one. They let us spot a problem at intake — a mismatched address, an unusual payment pattern, a weak insolvency score — and talk it through with the client before a lender ever sees the file, instead of learning about it through a decline.</p><p>For borrowers, the practical lesson is simple: make sure the details you give your broker match your credit file, keep non-mortgage accounts current, and be upfront about any recent credit strain. Verified income may eventually reduce paperwork for some salaried clients, but until your lender confirms it accepts it, plan on providing your usual income documents. Every file is assessed individually, and approval always depends on the lender's own review.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> انتقال به استعلام نرم خبر خوبی برای مشتریانی است که با دقت بازار را بررسی می‌کنند: یک گفت‌وگوی پیش‌تأیید نباید به قیمت ثبت استعلام سخت در پرونده اعتباری آن‌ها تمام شود. اما تغییر مهم‌تر، شاخص‌های تقلب و ورشکستگی در صفحه اول گزارش است. این شاخص‌ها به ما اجازه می‌دهند مشکل را در همان مرحله دریافت پرونده ببینیم — آدرس ناهماهنگ، الگوی پرداخت غیرعادی یا امتیاز ضعیف ورشکستگی — و پیش از آنکه وام‌دهنده پرونده را ببیند با مشتری درباره‌اش صحبت کنیم، نه اینکه از طریق رد درخواست متوجه شویم.</p><p>درس عملی برای وام‌گیرندگان ساده است: مطمئن شوید اطلاعاتی که به بروکر می‌دهید با پرونده اعتباری‌تان هماهنگ است، حساب‌های غیر از وام مسکن را به‌روز نگه دارید و درباره هر فشار اعتباری اخیر شفاف باشید. «درآمد تأییدشده» ممکن است در آینده کاغذبازی را برای برخی حقوق‌بگیران کم کند، اما تا وقتی وام‌دهنده شما پذیرش آن را تأیید نکرده، مدارک معمول درآمد را آماده داشته باشید. هر پرونده به‌صورت جداگانه بررسی می‌شود و تأیید همیشه به ارزیابی خود وام‌دهنده بستگی دارد.</p>",
+      "seo_title": "Equifax Moves Broker Credit Report to Soft Inquiry | Hamed Ashouri",
+      "seo_description": "Equifax Canada is redesigning its Mortgage Broker Report with fraud, verified-income and insolvency indicators and moving to a soft credit inquiry. What it means for Ontario borrowers.",
+      "keywords": [
+        "Equifax Canada",
+        "soft credit inquiry",
+        "mortgage broker credit report",
+        "credit check mortgage Canada",
+        "verified income",
+        "Bankruptcy Navigator Index",
+        "mortgage fraud screening"
+      ],
+      "tags": [
+        "Equifax",
+        "credit",
+        "credit report",
+        "fraud",
+        "alternative lending"
+      ],
+      "category": "industry",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_04e0a76e-49f7-4f1e-937f-9d058883022e.jpg",
+      "image_alt_en": "Mortgage broker reviewing an abstract credit dashboard on a tablet in a Toronto office",
+      "image_alt_fa": "بروکر وام مسکن در حال بررسی داشبورد اعتباری روی تبلت در دفتری در تورنتو",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/equifax-overhauls-broker-credit-report-moves-to-soft-inquiry/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-23",
+      "imported_date": "2026-09-25",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "credit score",
+        "mortgage qualification",
+        "alternative lending"
+      ],
+      "related_journeys": [
+        "purchase",
+        "refinance",
+        "renewal"
+      ],
+      "related_knowledge_blocks": []
+    },
+    {
+      "id": "news-2026-09-21-macklem-rate-hike-risk",
+      "slug": "macklem-rate-hike-risk",
+      "title_en": "Bank of Canada's Macklem warns against moving too slowly if inflation proves stubborn",
+      "title_fa": "مکلم، رئیس بانک کانادا: اگر تورم ماندگار شود، نمی‌خواهیم در افزایش نرخ بهره دیر عمل کنیم",
+      "summary_en": "In a speech in Halifax, Bank of Canada Governor Tiff Macklem said the Bank does not want to raise rates and slow growth if inflation pressures stay contained, but also does not want to be late if those pressures become more persistent. He said the conflict in the Middle East has raised the risk that inflation stays elevated and spreads, noting annual CPI has hovered around 3% largely because of gasoline, and that inflation could edge higher in the coming months if oil stays near $100 a barrel. Macklem explained that moving too slowly would likely force the Bank to raise rates both faster and further later on, and said the central question is whether the current 2.25% policy rate is enough to bring inflation back to the 2% target. He described the direct effect of the latest U.S. tariffs as limited overall but painful for affected sectors, warning that fourth-quarter growth could be roughly halved to below 1% if they stay in place. The Bank will also debut a new forecasting model, called Prima, in its October Monetary Policy Report to help separate temporary price pressures from persistent ones.",
+      "summary_fa": "تیف مکلم، رئیس بانک کانادا، در سخنرانی خود در هالیفکس گفت بانک نمی‌خواهد در صورتی که فشارهای تورمی مهار شده باقی بمانند نرخ بهره را بالا ببرد و رشد اقتصادی را کند کند، اما در عین حال نمی‌خواهد اگر این فشارها ماندگارتر شوند دیر اقدام کند. او گفت درگیری در خاورمیانه ریسک بالا ماندن و گسترش تورم را افزایش داده است؛ تورم سالانه (CPI) عمدتاً به دلیل قیمت بنزین حدود ۳٪ باقی مانده و اگر نفت نزدیک ۱۰۰ دلار در هر بشکه بماند، ممکن است در ماه‌های آینده کمی بالاتر برود. مکلم توضیح داد که کندی در واکنش احتمالاً بانک را مجبور می‌کند بعداً نرخ را هم سریع‌تر و هم بیشتر افزایش دهد، و پرسش اصلی این است که آیا نرخ سیاستی فعلی ۲٫۲۵٪ برای بازگرداندن تورم به هدف ۲٪ کافی است یا نه. او اثر مستقیم تعرفه‌های جدید آمریکا را در کل محدود اما برای بخش‌های درگیر سنگین توصیف کرد و هشدار داد که اگر این تعرفه‌ها باقی بمانند، رشد فصل چهارم ممکن است تقریباً نصف شود و به زیر ۱٪ برسد. بانک کانادا همچنین مدل پیش‌بینی جدیدی به نام Prima را برای نخستین بار در گزارش سیاست پولی اکتبر به کار می‌گیرد تا فشارهای قیمتی موقت را از فشارهای ماندگار جدا کند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> The tone has clearly changed. A few months ago the conversation was about how many more cuts were coming; now the Governor is openly describing the conditions for a hike. Nothing has been decided, and a hold is still entirely possible, but variable-rate borrowers and anyone renewing in the next year should stop assuming rates only move in one direction from here.</p><p>If you are on a variable rate or an adjustable payment, it is worth checking how a rate increase would affect your payment and budget now, while you have time to plan. If you are renewing or buying, a pre-approval with a rate hold can give you a window of protection while the Bank decides. Every situation is different, so the right term and rate type depend on your own cash flow, timeline and comfort with risk — not on predictions.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> لحن به‌وضوح تغییر کرده است. چند ماه پیش بحث درباره این بود که چند کاهش نرخ دیگر در راه است؛ حالا رئیس بانک مرکزی آشکارا شرایط افزایش نرخ را توضیح می‌دهد. هنوز هیچ تصمیمی گرفته نشده و ثابت ماندن نرخ کاملاً ممکن است، اما وام‌گیرندگان با نرخ متغیر و کسانی که طی یک سال آینده تمدید دارند نباید فرض کنند که نرخ‌ها از اینجا فقط در یک جهت حرکت می‌کنند.</p><p>اگر وام شما نرخ متغیر یا قسط متغیر دارد، بهتر است همین حالا که فرصت برنامه‌ریزی دارید بررسی کنید افزایش نرخ چه اثری بر قسط و بودجه شما می‌گذارد. اگر در حال تمدید یا خرید هستید، پیش‌تأیید همراه با تضمین نرخ (Rate Hold) می‌تواند تا زمان تصمیم بانک، دوره‌ای از حفاظت به شما بدهد. هر وضعیت متفاوت است؛ بنابراین مدت و نوع نرخ مناسب به جریان نقدی، زمان‌بندی و میزان ریسک‌پذیری خود شما بستگی دارد، نه به پیش‌بینی‌ها.</p>",
+      "seo_title": "Macklem Flags Risk of Delaying a Rate Hike | Hamed Ashouri",
+      "seo_description": "Bank of Canada Governor Tiff Macklem says the Bank doesn't want to be late raising rates if inflation proves stubborn. What it means for variable-rate borrowers and renewals in Ontario.",
+      "keywords": [
+        "Bank of Canada",
+        "Tiff Macklem",
+        "interest rate hike",
+        "inflation Canada",
+        "variable rate mortgage",
+        "mortgage renewal",
+        "policy rate 2.25%"
+      ],
+      "tags": [
+        "Bank of Canada",
+        "rates",
+        "inflation",
+        "variable rate",
+        "renewals"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_ae26940b-e8f3-48dd-83d5-36d91355b5d7.jpg",
+      "image_alt_en": "Empty speaker's podium with microphones overlooking the Halifax harbourfront at dusk",
+      "image_alt_fa": "تریبون سخنرانی خالی با میکروفون‌ها رو به اسکله هالیفکس در غروب",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends / Bloomberg",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/bank-of-canadas-macklem-flags-risk-of-delaying-rate-hike-too-long/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-21",
+      "imported_date": "2026-09-25",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "Bank of Canada",
+        "inflation",
+        "variable mortgage rates"
+      ],
+      "related_journeys": [
+        "renewal",
+        "purchase"
+      ],
+      "related_knowledge_blocks": []
+    },
     {
       "id": "news-2026-09-14-canada-inflation-august-3-percent",
       "slug": "canada-inflation-august-3-percent",
@@ -68,7 +175,7 @@
       "imported_date": "2026-09-14",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "inflation",
@@ -121,7 +228,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "bond yields",
         "fixed mortgage rates",
@@ -147,7 +254,7 @@
       "published_date": "2026-09-09",
       "category": "rates",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "featured_image": "https://cdn2.deevid.ai/user-image/v2_2d1a9777-b4b9-4d2e-b654-20055cd5adfa.jpg"
     },
     {
@@ -674,121 +781,6 @@
         "gen-stress",
         "renewal-checklist",
         "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-22-canada-apartment-vacancy-falls-q2",
-      "slug": "canada-apartment-vacancy-falls-q2-2026-rental-market-stabilizing",
-      "title_en": "Apartment vacancy falls for the first time in over two years as Canada's rental market starts to stabilize",
-      "title_fa": "ÙØ±Ø® Ø®Ø§ÙÛâÙØ§ÙØ¯Ù Ø¢Ù¾Ø§Ø±ØªÙØ§ÙâÙØ§ Ø¨Ø±Ø§Û ÙØ®Ø³ØªÛÙ Ø¨Ø§Ø± Ø¯Ø± Ø¨ÛØ´ Ø§Ø² Ø¯Ù Ø³Ø§Ù Ú©Ø§ÙØ´ ÛØ§ÙØªØ Ø¨Ø§Ø²Ø§Ø± Ø§Ø¬Ø§Ø±Ù Ú©Ø§ÙØ§Ø¯Ø§ Ø±Ù Ø¨Ù ØªØ«Ø¨ÛØª Ø§Ø³Øª",
-      "summary_en": "Canada's national apartment vacancy rate fell 40 basis points to 4.7% in the second quarter â its first decline in more than two years and the end of nine straight quarters of increases â according to Yardi's Canadian National Multifamily Report. Vacancy still sits 60 basis points above the 4.1% recorded a year earlier, reflecting the wave of purpose-built rental supply that came online over the past year. Conditions vary widely by market, from tight readings of 2.4% in Halifax and 2.8% in Winnipeg to looser 6.8% in Calgary and 5.8% in Edmonton, though both Alberta cities improved from the prior quarter. Yardi expects the construction pipeline to slow after 2025's surge of completions, which could tighten supply further if demand strengthens. Even so, a separate Rentals.ca survey shows affordability remains a wall: nearly three-quarters of searchers want rent at or below $2,000, against a national average asking rent of $2,033.",
-      "summary_fa": "Ø¨Ø± Ù¾Ø§ÛÙ Ú¯Ø²Ø§Ø±Ø´ Â«ÚÙØ¯ÙØ§Ø­Ø¯Û ÙÙÛÂ» Ø´Ø±Ú©Øª ÛØ§Ø±Ø¯ÛØ ÙØ±Ø® ÙÙÛ Ø®Ø§ÙÛâÙØ§ÙØ¯Ù Ø¢Ù¾Ø§Ø±ØªÙØ§ÙâÙØ§ Ø¯Ø± Ø³ÙâÙØ§ÙÙ Ø¯ÙÙ Û´Û° ÙØ§Ø­Ø¯ Ù¾Ø§ÛÙ Ú©Ø§ÙØ´ ÛØ§ÙØª Ù Ø¨Ù Û´Ù«Û·Ùª Ø±Ø³ÛØ¯ â ÙØ®Ø³ØªÛÙ Ø§ÙØª Ø¯Ø± Ø¨ÛØ´ Ø§Ø² Ø¯Ù Ø³Ø§Ù Ù Ù¾Ø§ÛØ§Ù ÙÙ ÙØµÙ Ù¾ÛØ§Ù¾Û Ø§ÙØ²Ø§ÛØ´. Ø¨Ø§ Ø§ÛÙ Ø­Ø§Ù Ø§ÛÙ ÙØ±Ø® ÙÙÙØ² Û¶Û° ÙØ§Ø­Ø¯ Ù¾Ø§ÛÙ Ø¨Ø§ÙØ§ØªØ± Ø§Ø² Û´Ù«Û±Ùª Ø³Ø§Ù Ú¯Ø°Ø´ØªÙ Ø§Ø³Øª Ú©Ù Ø¨Ø§Ø²ØªØ§Ø¨ ÙÙØ¬ Ø¹Ø±Ø¶Ù ÙØ§Ø­Ø¯ÙØ§Û Ø§Ø¬Ø§Ø±ÙâØ§Û ÙÙØ³Ø§Ø² Ø·Û ÛÚ© Ø³Ø§Ù Ø§Ø®ÛØ± Ø§Ø³Øª. Ø´Ø±Ø§ÛØ· Ø§Ø² Ø¨Ø§Ø²Ø§Ø±Û Ø¨Ù Ø¨Ø§Ø²Ø§Ø± Ø¯ÛÚ¯Ø± Ø¨Ø³ÛØ§Ø± ÙØªÙØ§ÙØª Ø§Ø³ØªØ Ø§Ø² Ø§Ø±ÙØ§Ù Ú©Ù Û²Ù«Û´Ùª Ø¯Ø± ÙÙÛÙÚ©Ø³ Ù Û²Ù«Û¸Ùª Ø¯Ø± ÙÛÙÛÙ¾Ú¯ ØªØ§ Û¶Ù«Û¸Ùª Ø¯Ø± Ú©ÙÚ¯Ø±Û Ù ÛµÙ«Û¸Ùª Ø¯Ø± Ø§Ø¯ÙÙÙØªÙÙØ ÙØ±ÚÙØ¯ ÙØ± Ø¯Ù Ø´ÙØ± Ø¢ÙØ¨Ø±ØªØ§ ÙØ³Ø¨Øª Ø¨Ù ÙØµÙ ÙØ¨Ù Ø¨ÙØ¨ÙØ¯ ÛØ§ÙØªÙØ¯. ÛØ§Ø±Ø¯Û Ø§ÙØªØ¸Ø§Ø± Ø¯Ø§Ø±Ø¯ Ø®Ø· ØªÙÙÛØ¯ Ø³Ø§Ø®ØªâÙØ³Ø§Ø² Ù¾Ø³ Ø§Ø² ÙÙØ¬ ØªÚ©ÙÛÙ Ù¾Ø±ÙÚÙâÙØ§ Ø¯Ø± Û²Û°Û²Ûµ Ú©ÙØ¯ Ø´ÙØ¯ Ú©Ù Ø¯Ø± ØµÙØ±Øª ØªÙÙÛØª ØªÙØ§Ø¶Ø§ ÙÛâØªÙØ§ÙØ¯ Ø¹Ø±Ø¶Ù Ø±Ø§ ØªÙÚ¯âØªØ± Ú©ÙØ¯. Ø¨Ø§ Ø§ÛÙ ÙÙÙØ ÙØ¸Ø±Ø³ÙØ¬Û Ø¬Ø¯Ø§Ú¯Ø§ÙÙ Rentals.ca ÙØ´Ø§Ù ÙÛâØ¯ÙØ¯ Ø§Ø³ØªØ·Ø§Ø¹Øª ÙØ§ÙÛ ÙÙÚÙØ§Ù Ø¯ÛÙØ§Ø±Û Ø¨ÙÙØ¯ Ø§Ø³Øª: ÙØ²Ø¯ÛÚ© Ø³ÙâÚÙØ§Ø±Ù Ø¬ÙÛÙØ¯Ú¯Ø§Ù ÙØ³Ú©Ù Ø¯ÙØ¨Ø§Ù Ø§Ø¬Ø§Ø±Ù Û²Ù¬Û°Û°Û° Ø¯ÙØ§Ø± ÛØ§ Ú©ÙØªØ± ÙØ³ØªÙØ¯Ø Ø¯Ø± Ø¨Ø±Ø§Ø¨Ø± ÙÛØ§ÙÚ¯ÛÙ Ø§Ø¬Ø§Ø±Ù Ø¯Ø±Ø®ÙØ§Ø³ØªÛ ÙÙÛ Û²Ù¬Û°Û³Û³ Ø¯ÙØ§Ø±.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> A tightening rental market quietly strengthens the case for owning, especially for younger clients and their parents weighing whether to keep renting or buy. When the average asking rent ($2,033) already sits above what most people say they can afford, that gap doesn't disappear â it gets paid every month with no equity to show for it.</p><p>This is exactly the conversation I have with 55+ homeowners whose adult kids are stuck renting: sometimes a well-structured refinance or home-equity strategy on the family home does more than waiting for rents to fall. I'm not saying buying beats renting for everyone â it depends on your timeline, your down payment, and the numbers. But if rents keep climbing while vacancy tightens, it's worth pressure-testing the math rather than assuming renting is always cheaper.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> ØªÙÚ¯âØªØ± Ø´Ø¯Ù Ø¨Ø§Ø²Ø§Ø± Ø§Ø¬Ø§Ø±Ù Ø¨ÙâØ¢Ø±Ø§ÙÛ Ø§Ø³ØªØ¯ÙØ§Ù Ø¨ÙâÙÙØ¹ ÙØ§ÙÚ©ÛØª Ø±Ø§ ØªÙÙÛØª ÙÛâÚ©ÙØ¯Ø Ø¨ÙâÙÛÚÙ Ø¨Ø±Ø§Û ÙØ´ØªØ±ÛØ§Ù Ø¬ÙØ§ÙâØªØ± Ù ÙØ§ÙØ¯ÛÙØ´Ø§Ù Ú©Ù ÙÛØ§Ù Ø§Ø¯Ø§ÙÙ Ø§Ø¬Ø§Ø±ÙâÙØ´ÛÙÛ ÛØ§ Ø®Ø±ÛØ¯ ÙØ±Ø¯Ø¯ ÙØ³ØªÙØ¯. ÙÙØªÛ ÙÛØ§ÙÚ¯ÛÙ Ø§Ø¬Ø§Ø±Ù Ø¯Ø±Ø®ÙØ§Ø³ØªÛ (Û²Ù¬Û°Û³Û³ Ø¯ÙØ§Ø±) Ø§Ø² Ø¢ÙÚÙ Ø§ØºÙØ¨ ÙØ±Ø¯Ù ÙÛâÚ¯ÙÛÙØ¯ Ø§Ø² Ù¾Ø³ Ø¢Ù Ø¨Ø±ÙÛâØ¢ÛÙØ¯ Ø¨Ø§ÙØ§ØªØ± Ø§Ø³ØªØ Ø§ÛÙ Ø´Ú©Ø§Ù Ø§Ø² ÙÛØ§Ù ÙÙÛâØ±ÙØ¯ â ÙØ± ÙØ§Ù Ù¾Ø±Ø¯Ø§Ø®Øª ÙÛâØ´ÙØ¯ Ø¨ÛâØ¢ÙÚ©Ù Ø³Ø±ÙØ§ÛÙâØ§Û Ø¨Ø±Ø§ÛØªØ§Ù Ø¨ÙØ§ÙØ¯.</p><p>Ø§ÛÙ Ø¯ÙÛÙØ§Ù ÙÙØ§Ù Ú¯ÙØªâÙÚ¯ÙÛÛ Ø§Ø³Øª Ú©Ù Ø¨Ø§ ÙØ§ÙÚ©Ø§Ù Ø¨Ø§ÙØ§Û ÛµÛµ Ø³Ø§Ù Ø¯Ø§Ø±Ù Ú©Ù ÙØ±Ø²ÙØ¯Ø§Ù Ø¨Ø²Ø±Ú¯Ø³Ø§ÙØ´Ø§Ù Ú¯Ø±ÙØªØ§Ø± Ø§Ø¬Ø§Ø±ÙâÙØ´ÛÙÛâØ§ÙØ¯: Ú¯Ø§ÙÛ ÛÚ© Ø¨Ø§Ø²Ù¾Ø±Ø¯Ø§Ø®Øª (refinance) Ø®ÙØ´âØ³Ø§Ø®ØªØ§Ø± ÛØ§ Ø±Ø§ÙØ¨Ø±Ø¯ Ø¨ÙØ±ÙâÚ¯ÛØ±Û Ø§Ø² Ø§Ø±Ø²Ø´ ÙÛÚÙ Ø®Ø§ÙÙ Ø®Ø§ÙÙØ§Ø¯Ú¯ÛØ Ø¨ÛØ´ Ø§Ø² Ø§ÙØªØ¸Ø§Ø± Ø¨Ø±Ø§Û Ø§ÙØª Ø§Ø¬Ø§Ø±ÙâÙØ§ Ú©Ø§Ø±Ø³Ø§Ø² Ø§Ø³Øª. ÙÙÛâÚ¯ÙÛÙ Ø®Ø±ÛØ¯ Ø¨Ø±Ø§Û ÙÙÙ Ø¨ÙØªØ± Ø§Ø² Ø§Ø¬Ø§Ø±Ù Ø§Ø³Øª â Ø¨Ù Ø¨Ø§Ø²Ù Ø²ÙØ§ÙÛØ Ù¾ÛØ´âÙ¾Ø±Ø¯Ø§Ø®Øª Ù Ø§Ø¹Ø¯Ø§Ø¯ Ø´ÙØ§ Ø¨Ø³ØªÚ¯Û Ø¯Ø§Ø±Ø¯. Ø§ÙØ§ Ø§Ú¯Ø± Ø§Ø¬Ø§Ø±ÙâÙØ§ Ø¨Ø§ÙØ§ Ø¨Ø±ÙÙØ¯ Ù Ø®Ø§ÙÛâÙØ§ÙØ¯Ù ØªÙÚ¯âØªØ± Ø´ÙØ¯Ø Ø¨ÙâØ¬Ø§Û ÙØ±Ø¶ Ø§ÛÙÚ©Ù Ø§Ø¬Ø§Ø±Ù ÙÙÛØ´Ù Ø§Ø±Ø²Ø§ÙâØªØ± Ø§Ø³ØªØ Ø§Ø±Ø²Ø´ Ø¯Ø§Ø±Ø¯ Ø§Ø¹Ø¯Ø§Ø¯ Ø±Ø§ ÙØ­Ú© Ø¨Ø²ÙÛØ¯.</p>",
-      "seo_title": "Canada Apartment Vacancy Falls to 4.7% in Q2 2026 â Rental Market Stabilizing",
-      "seo_description": "Canada's apartment vacancy fell to 4.7% in Q2 2026, its first drop in over two years, while the average asking rent hit $2,033. A mortgage broker's take on rent vs. own.",
-      "keywords": [
-        "Canada apartment vacancy 2026",
-        "rental market Canada Q2 2026",
-        "average asking rent Canada",
-        "Yardi multifamily report",
-        "rent vs buy Canada",
-        "Toronto rent 2026",
-        "Vancouver rent 2026",
-        "housing affordability Canada"
-      ],
-      "tags": [
-        "housing-market",
-        "rental",
-        "affordability",
-        "first-time-buyer",
-        "refinance"
-      ],
-      "category": "housing-market",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_2bf6496f-2bfc-4571-bdbf-d2f3ddd7531c.jpg",
-      "image_alt_en": "Modern midrise apartment buildings under a warm Canadian evening sky along a quiet, tree-lined street.",
-      "image_alt_fa": "Ø³Ø§Ø®ØªÙØ§ÙâÙØ§Û Ø¢Ù¾Ø§Ø±ØªÙØ§ÙÛ ÙÛØ§ÙâÙØ±ØªØ¨Ù ÙØ¯Ø±Ù Ø²ÛØ± Ø¢Ø³ÙØ§Ù Ú¯Ø±Ù ØºØ±ÙØ¨ Ú©Ø§ÙØ§Ø¯Ø§ Ø¯Ø± Ø®ÛØ§Ø¨Ø§ÙÛ Ø¢Ø±Ø§Ù Ù Ø¯Ø±Ø®ØªâÚ©Ø§Ø±ÛâØ´Ø¯Ù.",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/apartment-vacancy-falls-as-canadas-rental-market-begins-to-stabilize/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-22",
-      "imported_date": "2026-07-25",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "housing-market",
-        "first-time-buyer",
-        "refinance"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-preapproval",
-        "gen-stress"
-      ]
-    },
-    {
-      "id": "news-2026-07-24-mpc-broker-share-38-percent",
-      "slug": "mortgage-broker-share-five-year-high-2025-mpc",
-      "title_en": "Broker use hits a five-year high: 38% of buyers â and 48% of first-timers â now use a mortgage broker",
-      "title_fa": "Ø§Ø³ØªÙØ§Ø¯Ù Ø§Ø² Ú©Ø§Ø±Ú¯Ø²Ø§Ø± ÙØ§Ù ÙØ³Ú©Ù Ø¨Ù Ø¨Ø§ÙØ§ØªØ±ÛÙ Ø­Ø¯ Ù¾ÙØ¬ Ø³Ø§Ù Ø§Ø®ÛØ± Ø±Ø³ÛØ¯: Ø§Ú©ÙÙÙ Û³Û¸Ùª Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ù Û´Û¸Ùª Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙ Ø§Ø² Ú©Ø§Ø±Ú¯Ø²Ø§Ø± Ø§Ø³ØªÙØ§Ø¯Ù ÙÛâÚ©ÙÙØ¯",
-      "summary_en": "Canadians are turning to mortgage brokers in record numbers as borrowing decisions grow more complicated. New consumer research from Mortgage Professionals Canada (MPC) found that 38% of recent homebuyers arranged their mortgage through a broker in 2025 â up six percentage points from 2024 and the highest share in five years. Among recent first-time buyers the figure climbed to 48% (up ten points), while broker use reached 42% among other recent buyers and jumped 14 points to 44% in Quebec. Access to the best rate remained the top reason for choosing a broker (cited by 54%), followed by getting multiple quotes (33%), but advice-driven reasons are rising fast: roughly a third of clients valued help understanding their options, 26% cited lender recommendations and 25% pointed to help with paperwork. Loyalty was strong too â 83% of broker clients said they would recommend their broker, the highest level in five years, and fixed-rate mortgages still dominated at 70% even as variable-rate borrowing edged up to 26%. The findings come from MPCâs report The Broker Advantage, based on a survey of nearly 2,000 Canadians conducted in February.",
-      "summary_fa": "Ú©Ø§ÙØ§Ø¯Ø§ÛÛâÙØ§ Ø¨Ø§ Ù¾ÛÚÛØ¯ÙâØªØ± Ø´Ø¯Ù ØªØµÙÛÙâÙØ§Û ÙØ§ÙØ Ø¨Ù ØªØ¹Ø¯Ø§Ø¯ Ø¨ÛâØ³Ø§Ø¨ÙÙâØ§Û Ø¨Ù Ø³Ø±Ø§Øº Ú©Ø§Ø±Ú¯Ø²Ø§Ø±Ø§Ù ÙØ§Ù ÙØ³Ú©Ù ÙÛâØ±ÙÙØ¯. Ù¾ÚÙÙØ´ ØªØ§Ø²ÙÙ Ø§ÙØ¬ÙÙ ÙØªØ®ØµØµØ§Ù ÙØ§Ù ÙØ³Ú©Ù Ú©Ø§ÙØ§Ø¯Ø§ (MPC) ÙØ´Ø§Ù ÙÛâØ¯ÙØ¯ Ú©Ù Ø¯Ø± Ø³Ø§Ù Û²Û°Û²ÛµØ Û³Û¸Ùª Ø§Ø² Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø§Ø®ÛØ± Ø®Ø§ÙÙ ÙØ§Ù Ø®ÙØ¯ Ø±Ø§ Ø§Ø² Ø·Ø±ÛÙ ÛÚ© Ú©Ø§Ø±Ú¯Ø²Ø§Ø± ØªÙØ¸ÛÙ Ú©Ø±Ø¯ÙâØ§ÙØ¯ â Ø´Ø´ ÙØ§Ø­Ø¯ Ø¯Ø±ØµØ¯ Ø¨ÛØ´ØªØ± Ø§Ø² Û²Û°Û²Û´ Ù Ø¨Ø§ÙØ§ØªØ±ÛÙ Ø³ÙÙ Ø¯Ø± Ù¾ÙØ¬ Ø³Ø§Ù Ú¯Ø°Ø´ØªÙ. Ø§ÛÙ Ø±ÙÙ Ø¯Ø± ÙÛØ§Ù Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙ Ø¨Ù Û´Û¸Ùª (Û±Û° ÙØ§Ø­Ø¯ Ø§ÙØ²Ø§ÛØ´)Ø Ø¯Ø± ÙÛØ§Ù Ø³Ø§ÛØ± Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ù Û´Û²Ùª Ù Ø¯Ø± Ú©Ø¨Ú© Ø¨Ø§ Û±Û´ ÙØ§Ø­Ø¯ Ø§ÙØ²Ø§ÛØ´ Ø¨Ù Û´Û´Ùª Ø±Ø³ÛØ¯. Ø¯Ø³ØªØ±Ø³Û Ø¨Ù Ø¨ÙØªØ±ÛÙ ÙØ±Ø® ÙÙÚÙØ§Ù ÙÙÙâØªØ±ÛÙ Ø¯ÙÛÙ Ø§ÙØªØ®Ø§Ø¨ Ú©Ø§Ø±Ú¯Ø²Ø§Ø± Ø¨ÙØ¯ (ÛµÛ´Ùª)Ø Ø§ÙØ§ Ø¯ÙØ§ÛÙ ÙØ±ØªØ¨Ø· Ø¨Ø§ ÙØ´Ø§ÙØ±Ù Ø¨ÙâØ³Ø±Ø¹Øª Ø¯Ø± Ø­Ø§Ù Ø±Ø´Ø¯ Ø§Ø³Øª: Ø­Ø¯ÙØ¯ ÛÚ©âØ³ÙÙ ÙØ´ØªØ±ÛØ§Ù Ø¨Ù Ú©ÙÚ© Ø¯Ø± Ø¯Ø±Ú© Ú¯Ø²ÛÙÙâÙØ§Ø Û²Û¶Ùª Ø¨Ù Ù¾ÛØ´ÙÙØ§Ø¯ ÙØ§ÙâØ¯ÙÙØ¯Ù Ù Û²ÛµÙª Ø¨Ù Ú©ÙÚ© Ø¯Ø± ÙØ¯Ø§Ø±Ú© Ø§Ø´Ø§Ø±Ù Ú©Ø±Ø¯ÙØ¯. ÙÙØ§Ø¯Ø§Ø±Û ÙÛØ² Ø¨Ø§ÙØ§ Ø¨ÙØ¯ â Û¸Û³Ùª Ø§Ø² ÙØ´ØªØ±ÛØ§Ù Ú¯ÙØªÙØ¯ Ú©Ø§Ø±Ú¯Ø²Ø§Ø± Ø®ÙØ¯ Ø±Ø§ ØªÙØµÛÙ ÙÛâÚ©ÙÙØ¯Ø Ø¨Ø§ÙØ§ØªØ±ÛÙ Ø³Ø·Ø­ Ø¯Ø± Ù¾ÙØ¬ Ø³Ø§Ù. Ø§ÛÙ ÛØ§ÙØªÙâÙØ§ Ø§Ø² Ú¯Ø²Ø§Ø±Ø´ Â«ÙØ²ÛØª Ú©Ø§Ø±Ú¯Ø²Ø§Ø±Â» MPCØ Ø¨Ø± Ù¾Ø§ÛÙÙ ÙØ¸Ø±Ø³ÙØ¬Û Ø§Ø² ÙØ²Ø¯ÛÚ© Ø¨Ù Û²Ù¬Û°Û°Û° Ú©Ø§ÙØ§Ø¯Ø§ÛÛ Ø¯Ø± ÙØ§Ù ÙÙØ±ÛÙØ Ø¨ÙâØ¯Ø³Øª Ø¢ÙØ¯Ù Ø§Ø³Øª.",
-      "analysis_en": "<p><strong>Hamedâs take.</strong> These numbers match what I see every week: as products, lenders and qualification rules get more complicated, more people want someone in their corner who can shop the whole market and explain the trade-offs in plain language. The most telling shift isnât the headline share â itâs why people are coming. Rate still matters most, but a growing number now name advice, lender fit and help with paperwork. Thatâs the real job: not just finding a number, but matching the right product and lender to your situation, especially for first-time buyers making one of the biggest decisions of their lives with unfamiliar rules in front of them.</p><p>If youâre buying or renewing in the next several months, the practical takeaway is that on most standard residential deals the lender pays the broker, so the advice typically costs you nothing â and it gives you access to multiple lenders from one conversation. Bring your questions about fixed versus variable, penalties, and how much youâll actually qualify for, and let the review do the heavy lifting before you commit. The goal isnât just the lowest rate on paper; itâs the mortgage that fits your life over the whole term.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> Ø§ÛÙ Ø¢ÙØ§Ø± Ø¯ÙÛÙØ§Ù ÙÙØ§Ù ÚÛØ²Û Ø§Ø³Øª Ú©Ù ÙÙ ÙØ± ÙÙØªÙ ÙÛâØ¨ÛÙÙ: Ø¨Ø§ Ù¾ÛÚÛØ¯ÙâØªØ± Ø´Ø¯Ù ÙØ­ØµÙÙØ§ØªØ ÙØ§ÙâØ¯ÙÙØ¯Ú¯Ø§Ù Ù ÙÙØ§ÙÛÙ ÙØ§Ø¬Ø¯ Ø´Ø±Ø§ÛØ· Ø¨ÙØ¯ÙØ Ø§ÙØ±Ø§Ø¯ Ø¨ÛØ´ØªØ±Û Ú©Ø³Û Ø±Ø§ ÙÛâØ®ÙØ§ÙÙØ¯ Ú©Ù Ø¨ØªÙØ§ÙØ¯ Ú©Ù Ø¨Ø§Ø²Ø§Ø± Ø±Ø§ Ø¨Ø±Ø§ÛØ´Ø§Ù Ø¨Ø±Ø±Ø³Û Ú©ÙØ¯ Ù Ø§ÙØªØ®Ø§Ø¨âÙØ§ Ø±Ø§ Ø¨Ù Ø²Ø¨Ø§Ù Ø³Ø§Ø¯Ù ØªÙØ¶ÛØ­ Ø¯ÙØ¯. ÙÚ©ØªÙÙ ÙÙÙâØªØ± Ø§ÛÙ Ø§Ø³Øª Ú©Ù ÙØ±Ø¯Ù Ø¯ÛÚ¯Ø± ÙÙØ· Ø¨Ù Ø¯ÙØ¨Ø§Ù ÙØ±Ø® ÙÛØ³ØªÙØ¯Ø ÙØ´Ø§ÙØ±ÙØ ØªØ·Ø¨ÛÙ ÙØ§ÙâØ¯ÙÙØ¯Ù Ù Ú©ÙÚ© Ø¯Ø± ÙØ¯Ø§Ø±Ú© Ø§ÙÙÛØª ÙØ²Ø§ÛÙØ¯ÙâØ§Û ÛØ§ÙØªÙ Ø§Ø³Øª. Ø§ÛÙ ÙÙØ§Ù Ú©Ø§Ø± Ø§ØµÙÛ ÙØ§Ø³Øª: ÙÙ ÙÙØ· Ù¾ÛØ¯Ø§ Ú©Ø±Ø¯Ù ÛÚ© Ø¹Ø¯Ø¯Ø Ø¨ÙÚ©Ù ØªØ·Ø¨ÛÙ ÙØ­ØµÙÙ Ù ÙØ§ÙâØ¯ÙÙØ¯ÙÙ Ø¯Ø±Ø³Øª Ø¨Ø§ Ø´Ø±Ø§ÛØ· Ø´ÙØ§Ø Ø¨ÙâÙÛÚÙ Ø¨Ø±Ø§Û Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙ.</p><p>Ø§Ú¯Ø± Ø¯Ø± ÚÙØ¯ ÙØ§Ù Ø¢ÛÙØ¯Ù ÙØµØ¯ Ø®Ø±ÛØ¯ ÛØ§ ØªÙØ¯ÛØ¯ Ø¯Ø§Ø±ÛØ¯Ø ÙÚ©ØªÙÙ Ø¹ÙÙÛ Ø§ÛÙ Ø§Ø³Øª Ú©Ù Ø¯Ø± Ø¨ÛØ´ØªØ± Ù¾Ø±ÙÙØ¯ÙâÙØ§Û ÙØ³Ú©ÙÙÛ Ø§Ø³ØªØ§ÙØ¯Ø§Ø±Ø¯ ÙØ²ÛÙÙÙ Ú©Ø§Ø±Ú¯Ø²Ø§Ø± Ø±Ø§ ÙØ§ÙâØ¯ÙÙØ¯Ù ÙÛâÙ¾Ø±Ø¯Ø§Ø²Ø¯Ø Ù¾Ø³ Ø§ÛÙ ÙØ´Ø§ÙØ±Ù ÙØ¹ÙÙÙØ§Ù Ø¨Ø±Ø§Û Ø´ÙØ§ Ø±Ø§ÛÚ¯Ø§Ù Ø§Ø³Øª Ù Ø§Ø² ÛÚ© Ú¯ÙØªÚ¯Ù Ø¨Ù ÚÙØ¯ ÙØ§ÙâØ¯ÙÙØ¯Ù Ø¯Ø³ØªØ±Ø³Û Ù¾ÛØ¯Ø§ ÙÛâÚ©ÙÛØ¯. Ù¾Ø±Ø³Ø´âÙØ§Û Ø®ÙØ¯ Ø¯Ø±Ø¨Ø§Ø±ÙÙ ÙØ±Ø® Ø«Ø§Ø¨Øª Ø¯Ø± Ø¨Ø±Ø§Ø¨Ø± ÙØªØºÛØ±Ø Ø¬Ø±ÛÙÙâÙØ§ Ù ÙÛØ²Ø§Ù ÙØ§ÙØ¹Û ÙØ§Ø¬Ø¯ Ø´Ø±Ø§ÛØ· Ø¨ÙØ¯Ù Ø±Ø§ ÙØ·Ø±Ø­ Ú©ÙÛØ¯ Ù Ø¨Ú¯Ø°Ø§Ø±ÛØ¯ Ø¨Ø±Ø±Ø³ÛØ Ú©Ø§Ø± Ø³ÙÚ¯ÛÙ Ø±Ø§ Ù¾ÛØ´ Ø§Ø² ØªØ¹ÙØ¯ Ø§ÙØ¬Ø§Ù Ø¯ÙØ¯.</p>",
-      "seo_title": "Mortgage broker use hits 5-year high in Canada â 2025 MPC report",
-      "seo_description": "MPCâs 2025 research shows 38% of Canadian homebuyers â and 48% of first-time buyers â used a mortgage broker, the highest in five years. Hereâs what it means for you.",
-      "keywords": [
-        "mortgage broker Canada 2025",
-        "MPC broker report",
-        "first-time homebuyer broker",
-        "broker vs bank mortgage",
-        "The Broker Advantage MPC",
-        "mortgage advice Canada",
-        "Ontario mortgage broker",
-        "fixed vs variable 2025"
-      ],
-      "tags": [
-        "mortgage-broker",
-        "first-time-buyers",
-        "mpc",
-        "industry",
-        "mortgage-advice",
-        "canada"
-      ],
-      "category": "industry",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_fce84d76-1d01-44be-9366-b3a85b560102.jpg",
-      "image_alt_en": "A Canadian mortgage broker advising a young first-time-homebuyer couple across a desk in a bright office.",
-      "image_alt_fa": "ÛÚ© Ú©Ø§Ø±Ú¯Ø²Ø§Ø± ÙØ§Ù ÙØ³Ú©Ù Ú©Ø§ÙØ§Ø¯Ø§ÛÛ Ø¯Ø± Ø­Ø§Ù ÙØ´Ø§ÙØ±Ù Ø¨Ù ÛÚ© Ø²ÙØ¬ Ø¬ÙØ§Ù Ø®Ø±ÛØ¯Ø§Ø± Ø®Ø§ÙÙ Ø¨Ø±Ø§Û Ø¨Ø§Ø± Ø§ÙÙ Ù¾Ø´Øª ÙÛØ² Ø¯Ø± Ø¯ÙØªØ±Û Ø±ÙØ´Ù.",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/mortgage-broker-share-rises-to-38-hits-48-among-recent-first-time-buyers-mpc/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-24",
-      "imported_date": "2026-07-24",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "mortgage-broker",
-        "first-time-buyer",
-        "home-financing",
-        "affordability"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-why-use-a-broker"
       ]
     }
   ]
