@@ -1,6 +1,6 @@
 {
-  "version": 32,
-  "updated": "2026-09-25",
+  "version": 33,
+  "updated": "2026-09-26",
   "categories": [
     {
       "id": "rates",
@@ -29,6 +29,120 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-09-25-manulife-boc-rate-hike-call",
+      "slug": "manulife-boc-rate-hike-call",
+      "title_en": "Manulife now expects the Bank of Canada to raise rates at its next two meetings",
+      "title_fa": "منولایف اکنون انتظار دارد بانک کانادا در دو جلسه آینده نرخ بهره را افزایش دهد",
+      "summary_en": "Manulife has abandoned its long-held view that the Bank of Canada would stay on hold through year-end, and now expects rate increases at the Bank's next two policy meetings. Strategist Dominique Lapointe pointed to core inflation measures that have run close to 3% on a month-over-month annualized basis for two straight months, and warned that a prolonged Middle East conflict makes it more likely that price pressures spread into core goods. Separately, economists in a Bloomberg survey pushed out their expected return to the 2% inflation target to the third quarter of next year. Bond markets are moving the same way: the two-year Government of Canada yield has climbed more than 30 basis points this month to its highest level since July 2024. The Bank's overnight rate has been 2.25% since October 2025, and not every forecaster agrees a hike is needed — TD's deputy chief economist, Derek Burleton, told brokers this week that the case for one is not that compelling.",
+      "summary_fa": "منولایف دیدگاه دیرینه خود مبنی بر ثابت ماندن نرخ بهره بانک کانادا تا پایان سال را کنار گذاشته و اکنون انتظار دارد نرخ بهره در دو جلسه آینده سیاست‌گذاری بانک افزایش یابد. دومینیک لاپوانت، استراتژیست این شرکت، به شاخص‌های تورم پایه اشاره کرد که دو ماه پیاپی با نرخ سالانه‌شده ماهانه نزدیک به ۳٪ رشد کرده‌اند، و هشدار داد که طولانی شدن درگیری در خاورمیانه احتمال سرایت فشار قیمت‌ها به کالاهای پایه را بیشتر می‌کند. جداگانه، اقتصاددانان در نظرسنجی بلومبرگ زمان بازگشت تورم به هدف ۲٪ را به سه‌ماهه سوم سال آینده موکول کرده‌اند. بازار اوراق قرضه نیز در همین مسیر حرکت می‌کند: بازده اوراق دوساله دولت کانادا در این ماه بیش از ۳۰ واحد پایه بالا رفته و به بالاترین سطح از ژوئیه ۲۰۲۴ رسیده است. نرخ بهره شبانه بانک کانادا از اکتبر ۲۰۲۵ در سطح ۲.۲۵٪ مانده است و همه پیش‌بینی‌کنندگان با ضرورت افزایش نرخ موافق نیستند — درک برلتون، معاون اقتصاددان ارشد TD، این هفته به کارگزاران گفت دلایل افزایش نرخ چندان قانع‌کننده نیست.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> When a major forecaster moves its first-hike call from mid-2027 to next month, it tells you how quickly the rate conversation has shifted. Nobody knows for certain what the Bank of Canada will do, and respected economists still disagree — but the two-year bond yield has already moved, and that is the market that feeds into shorter fixed terms and lender pricing.</p><p>If you are on a variable rate, now is a good time to check how your payment would change if the prime rate went up, and whether you would sleep better locking in. If you are renewing or buying in the next few months, ask about a rate hold so you are protected if offers rise. These are personal decisions with trade-offs either way, and I'm happy to run the numbers on your actual file.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> وقتی یک پیش‌بینی‌کننده بزرگ زمان اولین افزایش نرخ را از اواسط ۲۰۲۷ به ماه آینده جلو می‌آورد، نشان می‌دهد فضای بحث نرخ بهره چقدر سریع تغییر کرده است. هیچ‌کس با قطعیت نمی‌داند بانک کانادا چه خواهد کرد و اقتصاددانان معتبر هنوز اختلاف نظر دارند — اما بازده اوراق دوساله از قبل حرکت کرده و همین بازار است که روی قیمت‌گذاری وام‌های ثابت کوتاه‌مدت اثر می‌گذارد.</p><p>اگر وام شما با نرخ متغیر است، حالا زمان مناسبی است که بررسی کنید در صورت افزایش نرخ پرایم قسط شما چقدر تغییر می‌کند و آیا تثبیت نرخ به شما آرامش بیشتری می‌دهد. اگر در چند ماه آینده تمدید یا خرید دارید، درباره رزرو نرخ (rate hold) بپرسید تا در صورت بالا رفتن نرخ‌ها محافظت شوید. این تصمیم‌ها شخصی‌اند و هر گزینه مزایا و معایب خود را دارد؛ خوشحال می‌شوم اعداد را بر اساس پرونده واقعی شما بررسی کنم.</p>",
+      "seo_title": "Manulife Expects Bank of Canada Rate Hikes | Hamed Ashouri",
+      "seo_description": "Manulife now sees Bank of Canada rate hikes at the next two meetings as core inflation firms and bond yields rise. What it means for variable-rate borrowers and renewals in Ontario.",
+      "keywords": [
+        "Bank of Canada",
+        "rate hike",
+        "Manulife",
+        "inflation Canada",
+        "two-year bond yield",
+        "variable rate mortgage",
+        "mortgage renewal",
+        "rate hold"
+      ],
+      "tags": [
+        "Bank of Canada",
+        "rates",
+        "inflation",
+        "variable rate",
+        "renewals"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_51b16324-e335-4714-9cd2-13cfe688f49b.jpg",
+      "image_alt_en": "Quiet trading desk with coffee and glasses overlooking the Toronto skyline at sunrise",
+      "image_alt_fa": "میز کار آرام با فنجان قهوه و عینک رو به افق تورنتو در طلوع آفتاب",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends / Bloomberg",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/manulife-sees-bank-of-canada-rate-hike-next-month-as-inflation-pressures-build/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-25",
+      "imported_date": "2026-09-26",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "Bank of Canada",
+        "inflation",
+        "variable mortgage rates",
+        "bond yields"
+      ],
+      "related_journeys": [
+        "renewal",
+        "purchase"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
+    },
+    {
+      "id": "news-2026-09-24-alt-borrowers-staying-put",
+      "slug": "alt-borrowers-staying-put",
+      "title_en": "Alternative lenders say more borrowers now treat alt lending as a long-term home, not a stopgap",
+      "title_fa": "وام‌دهندگان جایگزین: وام‌گیرندگان بیشتری وام جایگزین را راه‌حل بلندمدت می‌دانند، نه موقت",
+      "summary_en": "At a Toronto industry panel this week, executives from EQ Bank, Haventree Bank, WealthONE Bank of Canada and MCAN Financial said the typical alternative-lending client has changed. Rather than borrowers with damaged credit waiting to move to a big bank, lenders described self-employed business owners, multi-property investors and asset-rich clients whose income simply doesn't fit the major banks' assessment rules. WealthONE said the average credit score in its portfolio is 763, and EQ Bank said very few of its alt clients chose long fixed terms, with most renewing with an alternative lender rather than graduating to a bank. Panellists urged brokers to focus on the most suitable solution rather than only the lowest rate, to plan an exit strategy from the start for clients who do want to move to prime, and to package files carefully — explaining how the business earns its income and fully documenting the source of the down payment.",
+      "summary_fa": "در یک پنل صنعتی در تورنتو در این هفته، مدیرانی از EQ Bank، Haventree Bank، WealthONE Bank of Canada و MCAN Financial گفتند که مشتری معمول وام‌دهی جایگزین تغییر کرده است. به‌جای وام‌گیرندگانی با اعتبار آسیب‌دیده که منتظر انتقال به بانک‌های بزرگ‌اند، این وام‌دهندگان از صاحبان کسب‌وکار خوداشتغال، سرمایه‌گذاران چندملکی و مشتریان دارای دارایی قابل توجه نام بردند که درآمدشان با قواعد ارزیابی بانک‌های بزرگ جور درنمی‌آید. WealthONE اعلام کرد میانگین امتیاز اعتباری در سبد وام‌هایش ۷۶۳ است و EQ Bank گفت تعداد بسیار کمی از مشتریان جایگزینش مدت ثابت طولانی انتخاب کرده‌اند و بیشترشان به‌جای انتقال به بانک، نزد یک وام‌دهنده جایگزین تمدید کرده‌اند. اعضای پنل به کارگزاران توصیه کردند بر مناسب‌ترین راه‌حل تمرکز کنند نه فقط پایین‌ترین نرخ، برای مشتریانی که می‌خواهند به وام‌دهی پرایم برسند از ابتدا استراتژی خروج طراحی کنند، و پرونده‌ها را با دقت آماده کنند — با توضیح اینکه کسب‌وکار چگونه درآمد کسب می‌کند و مستندسازی کامل منبع پیش‌پرداخت.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> This matches what I see every week. Many of my self-employed and investor clients are financially strong, but their tax returns don't tell the full story of what the business earns. For them, an alternative lender can be the right fit on its own merits — not a penalty box — as long as the terms, costs and renewal plan are clear from day one.</p><p>The practical lesson is preparation. Lenders want to understand how the business makes money, and they want a clean paper trail for the down payment, whether it comes from savings, a family gift or funds held abroad. If you run your own business, talk to a broker early so we can map out both the best path today and a realistic route to better pricing later. Every file is different and approval is never guaranteed, but good packaging makes a real difference.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> این دقیقاً همان چیزی است که هر هفته می‌بینم. بسیاری از مشتریان خوداشتغال و سرمایه‌گذار من از نظر مالی قوی هستند، اما اظهارنامه مالیاتی‌شان تمام درآمد واقعی کسب‌وکار را نشان نمی‌دهد. برای آن‌ها، یک وام‌دهنده جایگزین می‌تواند به‌خودی‌خود گزینه درستی باشد — نه جریمه — به شرطی که شرایط، هزینه‌ها و برنامه تمدید از روز اول روشن باشد.</p><p>درس عملی، آمادگی است. وام‌دهندگان می‌خواهند بفهمند کسب‌وکار چگونه پول درمی‌آورد و برای پیش‌پرداخت، سابقه مستند و شفاف می‌خواهند؛ چه از پس‌انداز باشد، چه هدیه خانوادگی و چه وجوهی که در خارج از کشور نگهداری می‌شود. اگر کسب‌وکار خودتان را دارید، زود با یک کارگزار صحبت کنید تا هم بهترین مسیر امروز و هم راهی واقع‌بینانه برای نرخ بهتر در آینده را طراحی کنیم. هر پرونده متفاوت است و تأیید وام هرگز تضمین‌شده نیست، اما آماده‌سازی خوب پرونده تفاوت واقعی ایجاد می‌کند.</p>",
+      "seo_title": "Why Alt Mortgage Borrowers Are Staying Put | Hamed Ashouri",
+      "seo_description": "Alternative lenders say today's alt borrowers are often self-employed and asset-rich, not credit-bruised. What it means for self-employed buyers and investors in Ontario.",
+      "keywords": [
+        "alternative lender",
+        "alt mortgage",
+        "self-employed mortgage",
+        "EQ Bank",
+        "Haventree Bank",
+        "MCAN",
+        "WealthONE",
+        "down payment documentation"
+      ],
+      "tags": [
+        "lenders",
+        "alternative lending",
+        "self-employed",
+        "investors"
+      ],
+      "category": "lenders",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_0e7a393d-a50a-4fa9-8f7c-b23d24c08ca9.png",
+      "image_alt_en": "Self-employed business owner standing in her bright Ontario workshop studio",
+      "image_alt_fa": "صاحب کسب‌وکار خوداشتغال در کارگاه روشن خود در انتاریو",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/the-alt-solution-is-the-prime-solution-alternative-borrowers-increasingly-staying-put/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-24",
+      "imported_date": "2026-09-26",
+      "status": "published",
+      "language": "both",
+      "featured": false,
+      "homepage": true,
+      "related_topics": [
+        "alternative lending",
+        "self-employed",
+        "mortgage qualification"
+      ],
+      "related_journeys": [
+        "purchase",
+        "refinance"
+      ],
+      "related_knowledge_blocks": [
+        "gen-why-use-a-broker",
+        "gen-downpayment"
+      ]
+    },
     {
       "id": "news-2026-09-23-equifax-broker-report-soft-inquiry",
       "slug": "equifax-broker-report-soft-inquiry",
@@ -69,7 +183,7 @@
       "imported_date": "2026-09-25",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "credit score",
@@ -124,7 +238,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "Bank of Canada",
         "inflation",
@@ -176,7 +290,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "inflation",
         "Bank of Canada",
@@ -664,122 +778,6 @@
       ],
       "related_knowledge_blocks": [
         "gen-why-use-a-broker",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-08-04-sagen-30yr-uptake-claims",
-      "slug": "sagen-q2-2026-30-year-uptake-claims-rise",
-      "title_en": "30-year insured mortgages go mainstream: Sagen results show first-time buyers choosing longer amortizations as claims tick up",
-      "title_fa": "ÙØ§ÙâÙØ§Û Ø¨ÛÙÙâØ´Ø¯Ù Û³Û° Ø³Ø§ÙÙ ÙØ±Ø§Ú¯ÛØ± ÙÛâØ´ÙÙØ¯Ø ÙØªØ§ÛØ¬ Sagen ÙØ´Ø§Ù ÙÛâØ¯ÙØ¯ Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙ Ø¯ÙØ±ÙâÙØ§Û Ø·ÙÙØ§ÙÛâØªØ± Ø±Ø§ Ø§ÙØªØ®Ø§Ø¨ ÙÛâÚ©ÙÙØ¯ Ù Ø®Ø³Ø§Ø±ØªâÙØ§ Ø±Ù Ø¨Ù Ø§ÙØ²Ø§ÛØ´ Ø§Ø³Øª",
-      "summary_en": "Mortgage insurer Sagen MI Canada says a growing share of insured borrowers are opting for 30-year amortizations, and it is showing up in the numbers: total premiums written climbed 8% year over year to $281 million in the second quarter, with the average transactional premium rate rising to 363 basis points from 354 a year earlier. The 30-year insured option â introduced for first-time buyers of newly built homes in August 2024 and expanded that December to all first-time buyers and all new-build purchasers â carries a higher insurance premium than the standard 25-year option but lowers the monthly payment. Sagen's new insured borrowers remain strong on paper, with an average credit score of 769, an average home price near $493,000 and an average gross debt service ratio of 28.8%. The quarter also carried a warning signal: new reported delinquencies rose 15% to 640, the portfolio delinquency rate moved up to 0.23% from 0.19%, and losses on claims jumped to $28 million from $2 million a year earlier as the housing market softened. Net income slipped 2% to $108 million, while Sagen's capital ratio held at 184% â well above OSFI's 150% supervisory target.",
-      "summary_fa": "Ø´Ø±Ú©Øª Ø¨ÛÙÙ ÙØ§Ù ÙØ³Ú©Ù Sagen MI Canada ÙÛâÚ¯ÙÛØ¯ Ø³ÙÙ Ø±Ù Ø¨Ù Ø±Ø´Ø¯Û Ø§Ø² ÙØ§ÙâÚ¯ÛØ±ÙØ¯Ú¯Ø§Ù Ø¨ÛÙÙâØ´Ø¯ÙØ Ø¯ÙØ±Ù Ø¨Ø§Ø²Ù¾Ø±Ø¯Ø§Ø®Øª (Amortization) Û³Û° Ø³Ø§ÙÙ Ø±Ø§ Ø§ÙØªØ®Ø§Ø¨ ÙÛâÚ©ÙÙØ¯ Ù Ø§ÛÙ Ø±ÙÙØ¯ Ø¯Ø± Ø§Ø¹Ø¯Ø§Ø¯ Ø¯ÛØ¯Ù ÙÛâØ´ÙØ¯: ÙØ¬ÙÙØ¹ Ø­Ù Ø¨ÛÙÙâÙØ§Û ØµØ§Ø¯Ø±Ø´Ø¯Ù Ø¯Ø± Ø³ÙâÙØ§ÙÙ Ø¯ÙÙ Ø¨Ø§ Ø±Ø´Ø¯ Û¸ Ø¯Ø±ØµØ¯Û Ø³Ø§ÙØ§ÙÙ Ø¨Ù Û²Û¸Û± ÙÛÙÛÙÙ Ø¯ÙØ§Ø± Ø±Ø³ÛØ¯ Ù ÙÛØ§ÙÚ¯ÛÙ ÙØ±Ø® Ø­Ù Ø¨ÛÙÙ ØªØ±Ø§Ú©ÙØ´Û Ø§Ø² Û³ÛµÛ´ Ø¨Ù Û³Û¶Û³ ÙØ§Ø­Ø¯ Ù¾Ø§ÛÙ Ø§ÙØ²Ø§ÛØ´ ÛØ§ÙØª. Ú¯Ø²ÛÙÙ Ø¨ÛÙÙâØ´Ø¯Ù Û³Û° Ø³Ø§ÙÙ â Ú©Ù Ø§ÙØª Û²Û°Û²Û´ Ø¨Ø±Ø§Û Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙÙ Ø®Ø§ÙÙâÙØ§Û ÙÙØ³Ø§Ø² ÙØ¹Ø±ÙÛ Ø´Ø¯ Ù Ø¯Ø³Ø§ÙØ¨Ø± ÙÙØ§Ù Ø³Ø§Ù Ø¨Ù ÙÙÙ Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙ Ù ÙÙÙ Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù ÙÙØ³Ø§Ø² Ú¯Ø³ØªØ±Ø´ ÛØ§ÙØª â Ø­Ù Ø¨ÛÙÙ Ø¨Ø§ÙØ§ØªØ±Û ÙØ³Ø¨Øª Ø¨Ù Ú¯Ø²ÛÙÙ Ø§Ø³ØªØ§ÙØ¯Ø§Ø±Ø¯ Û²Ûµ Ø³Ø§ÙÙ Ø¯Ø§Ø±Ø¯ Ø§ÙØ§ ÙØ³Ø· ÙØ§ÙØ§ÙÙ Ø±Ø§ Ú©Ø§ÙØ´ ÙÛâØ¯ÙØ¯. ÙØ§ÙâÚ¯ÛØ±ÙØ¯Ú¯Ø§Ù Ø¬Ø¯ÛØ¯ Sagen Ø±ÙÛ Ú©Ø§ØºØ° ÙÙÚÙØ§Ù ÙÙÛ ÙØ³ØªÙØ¯: ÙÛØ§ÙÚ¯ÛÙ Ø§ÙØªÛØ§Ø² Ø§Ø¹ØªØ¨Ø§Ø±Û Û·Û¶Û¹Ø ÙÛØ§ÙÚ¯ÛÙ ÙÛÙØª Ø®Ø§ÙÙ Ø­Ø¯ÙØ¯ Û´Û¹Û³ ÙØ²Ø§Ø± Ø¯ÙØ§Ø± Ù ÙÛØ§ÙÚ¯ÛÙ ÙØ³Ø¨Øª GDS Ø¨Ø±Ø§Ø¨Ø± Û²Û¸Ù«Û¸ Ø¯Ø±ØµØ¯. Ø§ÙØ§ Ø§ÛÙ ÙØµÙ ÛÚ© Ø¹ÙØ§ÙØª ÙØ´Ø¯Ø§Ø± ÙÙ Ø¯Ø§Ø´Øª: ÙÙØ§Ø±Ø¯ Ø¬Ø¯ÛØ¯ ØªØ£Ø®ÛØ± Ø¯Ø± Ù¾Ø±Ø¯Ø§Ø®Øª Ø¨Ø§ Û±Ûµ Ø¯Ø±ØµØ¯ Ø§ÙØ²Ø§ÛØ´ Ø¨Ù Û¶Û´Û° ÙÙØ±Ø¯ Ø±Ø³ÛØ¯Ø ÙØ±Ø® ÙØ¹ÙÙØ§Øª Ù¾Ø±ØªÙÙÛ Ø§Ø² Û°Ù«Û±Û¹ Ø¨Ù Û°Ù«Û²Û³ Ø¯Ø±ØµØ¯ Ø¨Ø§ÙØ§ Ø±ÙØª Ù Ø²ÛØ§Ù ÙØ§Ø´Û Ø§Ø² Ø®Ø³Ø§Ø±ØªâÙØ§ Ø§Ø² Û² ÙÛÙÛÙÙ Ø¯ÙØ§Ø± Ø³Ø§Ù Ú¯Ø°Ø´ØªÙ Ø¨Ù Û²Û¸ ÙÛÙÛÙÙ Ø¯ÙØ§Ø± Ø¬ÙØ´ Ú©Ø±Ø¯. Ø³ÙØ¯ Ø®Ø§ÙØµ Û² Ø¯Ø±ØµØ¯ Ú©Ø§ÙØ´ ÛØ§ÙØª Ù Ø¨Ù Û±Û°Û¸ ÙÛÙÛÙÙ Ø¯ÙØ§Ø± Ø±Ø³ÛØ¯ Ù ÙØ³Ø¨Øª Ø³Ø±ÙØ§ÛÙ Sagen Ø¯Ø± Ø³Ø·Ø­ Û±Û¸Û´ Ø¯Ø±ØµØ¯ â Ø¨Ø³ÛØ§Ø± Ø¨Ø§ÙØ§ØªØ± Ø§Ø² ÙØ¯Ù ÙØ¸Ø§Ø±ØªÛ Û±ÛµÛ° Ø¯Ø±ØµØ¯Û OSFI â Ø«Ø§Ø¨Øª ÙØ§ÙØ¯.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> Two stories are hiding in one earnings report. The first is that the 30-year insured amortization has quietly become a mainstream first-time buyer tool â enough buyers are choosing it to move an entire insurer's average premium rate. Used deliberately, it is a payment-management lever: you accept a modestly higher insurance premium and slower principal paydown in exchange for monthly breathing room, and prepayment privileges let you shorten the real life of the loan whenever your budget allows.</p><p>The second story is the rise in delinquencies and claim severity. The increase comes off a very low base â 0.23% is still historically healthy â but the direction matches what I see in files every week: budgets are tighter and equity cushions are thinner in a soft market. If your renewal is approaching or payments feel heavy, the time to restructure is before stress ever reaches your credit file. A well-structured file has options; a delinquent one has very few.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> Ø¯Ø± Ø§ÛÙ Ú¯Ø²Ø§Ø±Ø´ Ø¯Ù Ø¯Ø§Ø³ØªØ§Ù Ù¾ÙÙØ§Ù Ø§Ø³Øª. Ø§ÙÙ Ø§ÛÙÚ©Ù Ø¨Ø§Ø²Ù¾Ø±Ø¯Ø§Ø®Øª Û³Û° Ø³Ø§ÙÙ Ø¨ÛÙÙâØ´Ø¯Ù Ø¨ÛâØ³Ø±ÙØµØ¯Ø§ Ø¨Ù Ø§Ø¨Ø²Ø§Ø± Ø§ØµÙÛ Ø®Ø±ÛØ¯Ø§Ø±Ø§Ù Ø¨Ø§Ø± Ø§ÙÙ ØªØ¨Ø¯ÛÙ Ø´Ø¯Ù â Ø¢ÙâÙØ¯Ø± Ú©Ù ÙÛØ§ÙÚ¯ÛÙ ÙØ±Ø® Ø­Ù Ø¨ÛÙÙ ÛÚ© Ø¨ÛÙÙâÚ¯Ø± Ú©Ø§ÙÙ Ø±Ø§ Ø¬Ø§Ø¨ÙâØ¬Ø§ Ú©Ø±Ø¯Ù Ø§Ø³Øª. Ø§Ú¯Ø± Ø¢Ú¯Ø§ÙØ§ÙÙ Ø§Ø³ØªÙØ§Ø¯Ù Ø´ÙØ¯Ø ÛÚ© Ø§ÙØ±Ù ÙØ¯ÛØ±ÛØª ÙØ³Ø· Ø§Ø³Øª: Ø­Ù Ø¨ÛÙÙ Ú©ÙÛ Ø¨Ø§ÙØ§ØªØ± Ù Ø¨Ø§Ø²Ù¾Ø±Ø¯Ø§Ø®Øª Ú©ÙØ¯ØªØ± Ø§ØµÙ ÙØ§Ù Ø±Ø§ ÙÛâÙ¾Ø°ÛØ±ÛØ¯ Ù Ø¯Ø± Ø¹ÙØ¶ ÙØ¶Ø§Û ØªÙÙØ³ ÙØ§ÙØ§ÙÙ Ø¨Ù Ø¯Ø³Øª ÙÛâØ¢ÙØ±ÛØ¯Ø Ù Ø¨Ø§ Ø§Ø³ØªÙØ§Ø¯Ù Ø§Ø² Ø§ÙØªÛØ§Ø²ÙØ§Û Ù¾ÛØ´âÙ¾Ø±Ø¯Ø§Ø®Øª ÙÛâØªÙØ§ÙÛØ¯ ÙØ± Ø²ÙØ§Ù Ø¨ÙØ¯Ø¬Ù Ø§Ø¬Ø§Ø²Ù Ø¯Ø§Ø¯Ø Ø¹ÙØ± ÙØ§ÙØ¹Û ÙØ§Ù Ø±Ø§ Ú©ÙØªØ§Ù Ú©ÙÛØ¯.</p><p>Ø¯Ø§Ø³ØªØ§Ù Ø¯ÙÙ Ø§ÙØ²Ø§ÛØ´ ÙØ¹ÙÙØ§Øª Ù Ø´Ø¯Øª Ø®Ø³Ø§Ø±ØªâÙØ§Ø³Øª. Ø§ÛÙ Ø§ÙØ²Ø§ÛØ´ Ø§Ø² Ù¾Ø§ÛÙ Ø¨Ø³ÛØ§Ø± Ù¾Ø§ÛÛÙÛ Ø´Ø±ÙØ¹ Ø´Ø¯Ù â Û°Ù«Û²Û³ Ø¯Ø±ØµØ¯ ÙÙÙØ² Ø§Ø² ÙØ¸Ø± ØªØ§Ø±ÛØ®Û Ø³Ø§ÙÙ Ø§Ø³Øª â Ø§ÙØ§ Ø¬ÙØª Ø­Ø±Ú©Øª ÙÙØ§Ù ÚÛØ²Û Ø±Ø§ ØªØ£ÛÛØ¯ ÙÛâÚ©ÙØ¯ Ú©Ù ÙØ± ÙÙØªÙ Ø¯Ø± Ù¾Ø±ÙÙØ¯ÙâÙØ§ ÙÛâØ¨ÛÙÙ: Ø¨ÙØ¯Ø¬ÙâÙØ§ ÙØ´Ø±Ø¯ÙâØªØ± Ù Ø­Ø§Ø´ÛÙ Ø§Ø±Ø²Ø´ Ø®Ø§ÙÙ Ø¯Ø± Ø¨Ø§Ø²Ø§Ø± ÙØ±Ù ÙØ§Ø²Ú©âØªØ± Ø´Ø¯Ù Ø§Ø³Øª. Ø§Ú¯Ø± ØªÙØ¯ÛØ¯ ÙØ§Ù Ø´ÙØ§ ÙØ²Ø¯ÛÚ© Ø§Ø³Øª ÛØ§ ÙØ´Ø§Ø± Ø§ÙØ³Ø§Ø· Ø±Ø§ Ø­Ø³ ÙÛâÚ©ÙÛØ¯Ø Ø²ÙØ§Ù Ø¨Ø§Ø²Ø³Ø§Ø®ØªØ§Ø±Ø¯ÙÛ ÙØ¨Ù Ø§Ø² Ø±Ø³ÛØ¯Ù ÙØ´Ú©Ù Ø¨Ù Ù¾Ø±ÙÙØ¯Ù Ø§Ø¹ØªØ¨Ø§Ø±Û Ø´ÙØ§Ø³ØªØ ÙÙ Ø¨Ø¹Ø¯ Ø§Ø² Ø¢Ù. Ù¾Ø±ÙÙØ¯Ù Ø®ÙØ¨ Ø³Ø§Ø®ØªØ§Ø±ÛØ§ÙØªÙ Ú¯Ø²ÛÙÙ Ø¯Ø§Ø±Ø¯Ø Ù¾Ø±ÙÙØ¯Ù ÙØ¹ÙÙ ØªÙØ±ÛØ¨Ø§Ù ÙÛÚ.</p>",
-      "seo_title": "Sagen Q2 2026: 30-year insured mortgages lift premiums as claims rise",
-      "seo_description": "Sagen's Q2 2026 results show first-time buyers embracing 30-year insured amortizations while delinquencies tick up. Ontario broker Hamed Ashouri explains what it means for buyers and renewers.",
-      "keywords": [
-        "Sagen",
-        "mortgage insurance",
-        "30-year amortization",
-        "first-time home buyer",
-        "insured mortgage",
-        "mortgage delinquencies",
-        "mortgage default insurance",
-        "Canada housing market"
-      ],
-      "tags": [
-        "Sagen",
-        "30-year amortization",
-        "first-time buyers",
-        "mortgage insurance",
-        "delinquencies"
-      ],
-      "category": "lenders",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_f7ef4ac6-2722-48bc-b607-06f4436d1295.jpg",
-      "image_alt_en": "Young couple in front of a newly built suburban Canadian home at golden hour with moving boxes by the door",
-      "image_alt_fa": "Ø²ÙØ¬ Ø¬ÙØ§Ù ÙÙØ§Ø¨Ù Ø®Ø§ÙÙ ÙÙØ³Ø§Ø² Ø­ÙÙÙ Ø´ÙØ± Ø¯Ø± Ú©Ø§ÙØ§Ø¯Ø§ ÙÙÚ¯Ø§Ù ØºØ±ÙØ¨ Ø¨Ø§ Ø¬Ø¹Ø¨ÙâÙØ§Û Ø§Ø³Ø¨Ø§Ø¨âÚ©Ø´Û Ú©ÙØ§Ø± Ø¯Ø±",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/08/30-year-mortgage-uptake-lifts-sagen-business-but-claims-hit-earnings/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-08-04",
-      "imported_date": "2026-08-04",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "first-time-buyer",
-        "affordability",
-        "home-financing"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "ftb-roadmap",
-        "gen-downpayment",
-        "gen-preapproval"
-      ]
-    },
-    {
-      "id": "news-2026-07-23-canada-retail-sales-june-up-0-4",
-      "slug": "canada-retail-sales-june-2026-up-0-4-percent-consumer-resilience",
-      "title_en": "Canadian retail sales set to rise 0.4% in June as spending broadens beyond the gas pump",
-      "title_fa": "Ù¾ÛØ´âØ¨ÛÙÛ Ø±Ø´Ø¯ Û°Ù«Û´ Ø¯Ø±ØµØ¯Û Ø®Ø±Ø¯ÙâÙØ±ÙØ´Û Ú©Ø§ÙØ§Ø¯Ø§ Ø¯Ø± ÚÙØ¦ÙØ Ø®Ø±Ø¬âÚ©Ø±Ø¯ ÙØµØ±ÙâÚ©ÙÙØ¯Ù ÙØ±Ø§ØªØ± Ø§Ø² Ø¨ÙØ²ÛÙ Ú¯Ø³ØªØ±Ø¯ÙâØªØ± ÙÛâØ´ÙØ¯",
-      "summary_en": "Statistics Canada's advance estimate points to retail sales rising 0.4% in June, which would mark a sixth straight monthly increase after a 1.0% gain in May. Earlier gains had leaned heavily on higher gasoline prices tied to the Middle East conflict, but the June signal suggests Canadians are spending more broadly rather than simply paying more at the pump. In May, sales rose across every subsector, led by a 3.1% jump at gasoline stations and fuel dealers and a 0.7% rise at motor vehicle and parts sellers. More telling, retail volumes climbed 0.3% in May â the first real gain in three months â a sign household consumption is holding up rather than deteriorating. That resilience is showing up even as population growth slows sharply and U.S. trade disputes weigh on the wider economy.",
-      "summary_fa": "Ø¨Ø±Ø¢ÙØ±Ø¯ Ø§ÙÙÛÙ Ø¢ÙØ§Ø± Ú©Ø§ÙØ§Ø¯Ø§ ÙØ´Ø§Ù ÙÛâØ¯ÙØ¯ Ø®Ø±Ø¯ÙâÙØ±ÙØ´Û Ø¯Ø± ÚÙØ¦Ù Û°Ù«Û´Ùª Ø±Ø´Ø¯ Ø®ÙØ§ÙØ¯ Ú©Ø±Ø¯ Ú©Ù Ù¾Ø³ Ø§Ø² Ø±Ø´Ø¯ Û±Ù«Û° Ø¯Ø±ØµØ¯Û ÙØ§Ù ÙÙØ Ø´Ø´ÙÛÙ Ø§ÙØ²Ø§ÛØ´ ÙØ§ÙØ§ÙÙ Ù¾ÛØ§Ù¾Û Ø®ÙØ§ÙØ¯ Ø¨ÙØ¯. Ø§ÙØ²Ø§ÛØ´âÙØ§Û Ù¾ÛØ´ÛÙ Ø¹ÙØ¯ØªØ§Ù Ø¨Ù Ø¨Ø§ÙØ§ Ø±ÙØªÙ ÙÛÙØª Ø¨ÙØ²ÛÙ Ø¯Ø± Ù¾Û Ø¯Ø±Ú¯ÛØ±Û Ø®Ø§ÙØ±ÙÛØ§ÙÙ ÙØ§Ø¨Ø³ØªÙ Ø¨ÙØ¯Ø Ø§ÙØ§ Ø¯Ø§Ø¯ÙâÙØ§Û ÚÙØ¦Ù ÙØ´Ø§Ù ÙÛâØ¯ÙØ¯ Ú©Ø§ÙØ§Ø¯Ø§ÛÛâÙØ§ Ø¨ÙâØ¬Ø§Û ØµØ±ÙØ§Ù Ù¾Ø±Ø¯Ø§Ø®Øª Ø¨ÛØ´ØªØ± Ù¾Ø§Û Ù¾ÙÙ¾ Ø¨ÙØ²ÛÙØ Ø¯Ø± Ø¯Ø§ÙÙÙ Ú¯Ø³ØªØ±Ø¯ÙâØªØ±Û Ø®Ø±Ø¬ ÙÛâÚ©ÙÙØ¯. Ø¯Ø± ÙØ§Ù ÙÙ ÙØ±ÙØ´ Ø¯Ø± ÙÙÙ Ø¨Ø®Ø´âÙØ§ Ø§ÙØ²Ø§ÛØ´ ÛØ§ÙØªØ Ù¾ÛØ´ØªØ§Ø² Ø¢Ù Ø¬ÙØ´ Û³Ù«Û± Ø¯Ø±ØµØ¯Û Ù¾ÙÙ¾âØ¨ÙØ²ÛÙâÙØ§ Ù Û°Ù«Û· Ø¯Ø±ØµØ¯Û ÙØ±ÙØ´ÙØ¯Ú¯Ø§Ù Ø®ÙØ¯Ø±Ù Ù ÙØ·Ø¹Ø§Øª Ø¨ÙØ¯. ÙÙÙâØªØ± Ø¢ÙÚ©Ù Ø­Ø¬Ù ÙØ§ÙØ¹Û Ø®Ø±Ø¯ÙâÙØ±ÙØ´Û Ø¯Ø± ÙØ§Ù ÙÙ Û°Ù«Û³Ùª Ø¨Ø§ÙØ§ Ø±ÙØª â ÙØ®Ø³ØªÛÙ Ø±Ø´Ø¯ ÙØ§ÙØ¹Û Ø¯Ø± Ø³Ù ÙØ§Ù â ÙØ´Ø§ÙÙâØ§Û Ú©Ù ÙØµØ±Ù Ø®Ø§ÙÙØ§Ø± Ø±Ù Ø¨Ù ØªØ¶Ø¹ÛÙ ÙÛØ³Øª. Ø§ÛÙ ØªØ§Ø¨âØ¢ÙØ±Û Ø¯Ø± Ø­Ø§ÙÛ Ø¯ÛØ¯Ù ÙÛâØ´ÙØ¯ Ú©Ù Ø±Ø´Ø¯ Ø¬ÙØ¹ÛØª Ø¨ÙâØ´Ø¯Øª Ú©ÙØ¯ Ø´Ø¯Ù Ù Ø§Ø®ØªÙØ§ÙØ§Øª ØªØ¬Ø§Ø±Û Ø¨Ø§ Ø¢ÙØ±ÛÚ©Ø§ Ø¨Ø± Ú©Ù Ø§ÙØªØµØ§Ø¯ ÙØ´Ø§Ø± ÙÛâØ¢ÙØ±Ø¯.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> A resilient consumer is a double-edged sword for anyone with a mortgage decision to make. Steady spending tells the Bank of Canada it doesn't need to rush into rate cuts, and that's one more reason fixed and variable pricing has largely stayed put rather than falling the way many borrowers hoped earlier this year.</p><p>If you're renewing or shopping in the next few months, I'd plan around 'higher for a little longer' instead of betting on an imminent drop. That doesn't make fixed automatically the right answer â it means the gap between fixed and variable, and your own comfort with payment swings, matters more than any single forecast. Before you lock anything in, let's run your actual numbers together.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> ÙØµØ±ÙâÚ©ÙÙØ¯ÙâÛ ØªØ§Ø¨âØ¢ÙØ± Ø¨Ø±Ø§Û ÙØ±Ú©Ø³Û Ú©Ù ØªØµÙÛÙ ÙØ§Ù ÙØ³Ú©Ù Ø¯Ø§Ø±Ø¯Ø Ø´ÙØ´ÛØ± Ø¯ÙÙØ¨Ù Ø§Ø³Øª. Ø®Ø±Ø¬âÚ©Ø±Ø¯ Ù¾Ø§ÛØ¯Ø§Ø± Ø¨Ù Ø¨Ø§ÙÚ© ÙØ±Ú©Ø²Û Ú©Ø§ÙØ§Ø¯Ø§ ÙÛâÚ¯ÙÛØ¯ ÙÛØ§Ø²Û Ø¨Ù Ø´ØªØ§Ø¨ Ø¯Ø± Ú©Ø§ÙØ´ ÙØ±Ø®âÙØ§ ÙÛØ³ØªØ Ù ÙÙÛÙ ÛÚ©Û Ø§Ø² Ø¯ÙØ§ÛÙÛ Ø§Ø³Øª Ú©Ù ÙØ±Ø®âÙØ§Û Ø«Ø§Ø¨Øª Ù ÙØªØºÛØ± Ø¹ÙØ¯ØªØ§Ù Ø«Ø§Ø¨Øª ÙØ§ÙØ¯ÙâØ§ÙØ¯ ÙÙ Ø¢ÙÚ©Ù ÙØ·Ø§Ø¨Ù Ø§ÙÛØ¯ Ø¨Ø³ÛØ§Ø±Û Ø§Ø² ÙØ§ÙâÚ¯ÛØ±ÙØ¯Ú¯Ø§Ù Ø¯Ø± Ø§ÙØ§ÛÙ Ø§ÙØ³Ø§Ù Ù¾Ø§ÛÛÙ Ø¨ÛØ§ÛÙØ¯.</p><p>Ø§Ú¯Ø± Ø¯Ø± ÚÙØ¯ ÙØ§Ù Ø¢ÛÙØ¯Ù ØªÙØ¯ÛØ¯ ÛØ§ Ø®Ø±ÛØ¯ ÙÛâÚ©ÙÛØ¯Ø Ø¨ÙâØ¬Ø§Û Ø´Ø±Ø·âØ¨ÙØ¯Û Ø±ÙÛ Ø§ÙØª ÙØ±ÛØ¨âØ§ÙÙÙÙØ¹Ø Ø¨Ø±ÙØ§ÙÙâØ±ÛØ²Û Ø±Ø§ Ø¨Ø± Ù¾Ø§ÛÙ Â«Ú©ÙÛ Ø¨Ø§ÙØ§ØªØ± Ø¨Ø±Ø§Û ÙØ¯ØªÛ Ø·ÙÙØ§ÙÛâØªØ±Â» Ø¨Ú¯Ø°Ø§Ø±ÛØ¯. Ø§ÛÙ ÛØ¹ÙÛ ÙØ±Ø® Ø«Ø§Ø¨Øª Ø®ÙØ¯Ø¨ÙâØ®ÙØ¯ Ù¾Ø§Ø³Ø® Ø¯Ø±Ø³Øª ÙÛØ³ØªØ ÙØ§ØµÙÙ ÙÛØ§Ù Ø«Ø§Ø¨Øª Ù ÙØªØºÛØ± Ù ÙÛØ²Ø§Ù ØªØ­ÙÙ Ø´ÙØ§ ÙØ³Ø¨Øª Ø¨Ù ÙÙØ³Ø§Ù Ø§ÙØ³Ø§Ø·Ø Ø§Ø² ÙØ± Ù¾ÛØ´âØ¨ÛÙÛ ÙØ§Ø­Ø¯Û ÙÙÙâØªØ± Ø§Ø³Øª. Ù¾ÛØ´ Ø§Ø² ÙÙÙâÚ©Ø±Ø¯Ù ÙØ± ÙØ±Ø®ÛØ Ø¨ÛØ§ÛÛØ¯ Ø§Ø¹Ø¯Ø§Ø¯ ÙØ§ÙØ¹Û Ø´ÙØ§ Ø±Ø§ Ø¨Ø§ ÙÙ Ø¨Ø±Ø±Ø³Û Ú©ÙÛÙ.</p>",
-      "seo_title": "Canada Retail Sales June 2026: +0.4% â What Consumer Resilience Means for Mortgage Rates",
-      "seo_description": "Statistics Canada's advance estimate shows retail sales up 0.4% in June 2026, a sixth straight gain. A mortgage broker's read on what steady spending means for the Bank of Canada and your rate.",
-      "keywords": [
-        "Canada retail sales June 2026",
-        "consumer spending Canada",
-        "Bank of Canada rate outlook",
-        "retail sales advance estimate",
-        "fixed vs variable mortgage Canada",
-        "mortgage renewal Ontario 2026",
-        "Statistics Canada retail sales",
-        "policy rate 2.25%"
-      ],
-      "tags": [
-        "rates",
-        "economy",
-        "bank-of-canada",
-        "fixed-vs-variable",
-        "renewal"
-      ],
-      "category": "rates",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_b8abfe62-9b79-45b5-a913-ade08ec5f90b.jpg",
-      "image_alt_en": "A shopper carries paper bags past bright storefronts on a sunlit downtown Canadian street.",
-      "image_alt_fa": "Ø®Ø±ÛØ¯Ø§Ø±Û Ø¨Ø§ Ú©ÛØ³ÙâÙØ§Û Ú©Ø§ØºØ°Û Ø§Ø² Ú©ÙØ§Ø± ÙÛØªØ±ÛÙâÙØ§Û Ø±ÙØ´Ù Ø¯Ø± Ø®ÛØ§Ø¨Ø§ÙÛ Ø¢ÙØªØ§Ø¨Û Ø¯Ø± ÙØ±Ú©Ø² Ø´ÙØ± Ú©Ø§ÙØ§Ø¯Ø§ Ø¹Ø¨ÙØ± ÙÛâÚ©ÙØ¯.",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/07/canadian-retail-sales-to-rise-0-4-in-june-as-purchases-broaden/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-07-23",
-      "imported_date": "2026-07-25",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "rates",
-        "renewal",
-        "first-time-buyer"
-      ],
-      "related_journeys": [
-        "assessment",
-        "calculator"
-      ],
-      "related_knowledge_blocks": [
-        "gen-stress",
-        "renewal-checklist",
         "gen-preapproval"
       ]
     }
