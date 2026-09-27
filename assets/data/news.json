@@ -1,6 +1,6 @@
 {
-  "version": 33,
-  "updated": "2026-09-26",
+  "version": 34,
+  "updated": "2026-09-27",
   "categories": [
     {
       "id": "rates",
@@ -29,6 +29,65 @@
     }
   ],
   "articles": [
+    {
+      "id": "news-2026-09-23-td-burleton-boc-hike-case",
+      "slug": "td-burleton-boc-hike-case",
+      "title_en": "TD's Derek Burleton: the case for a Bank of Canada rate hike is 'not that compelling'",
+      "title_fa": "درک برلتون از TD: دلیل افزایش نرخ بهره توسط بانک کانادا «چندان قانع‌کننده نیست»",
+      "summary_en": "Speaking at MortgageFest Canada in Toronto, TD deputy chief economist Derek Burleton pushed back on market pricing that has the Bank of Canada following the U.S. Federal Reserve with several more rate hikes. His argument rests on an inflation gap: core inflation in the U.S. is running near 3%, while in Canada it is closer to the 2% target, and Canada still has slack in its job market. TD's baseline is that the Bank holds, but Burleton puts those odds at only about 50% and says one poor inflation print could change the picture, with an alternative scenario of one or at most two hikes. He noted that five-year Government of Canada yields have climbed close to a full percentage point from their February lows, which is already feeding into higher fixed mortgage rates, and that TD now expects yields to start easing next year. On housing, he believes the market has found its floor after a price correction of more than 20%, but expects a flat, slow recovery rather than a sharp rebound, with condos lagging and detached and semi-detached homes already stabilizing across the GTA.",
+      "summary_fa": "درک برلتون، معاون اقتصاددان ارشد TD، در همایش MortgageFest Canada در تورنتو با پیش‌بینی بازار مبنی بر اینکه بانک کانادا به دنبال فدرال رزرو آمریکا چندین بار نرخ بهره را افزایش خواهد داد، مخالفت کرد. استدلال او بر شکاف تورمی استوار است: تورم هسته‌ای در آمریکا نزدیک به ۳٪ است، در حالی که در کانادا به هدف ۲٪ نزدیک‌تر است و بازار کار کانادا هنوز ظرفیت خالی دارد. سناریوی پایه TD ثابت ماندن نرخ است، اما برلتون احتمال آن را تنها حدود ۵۰٪ می‌داند و می‌گوید یک گزارش تورمی نامناسب می‌تواند شرایط را تغییر دهد؛ سناریوی جایگزین یک و حداکثر دو افزایش نرخ است. او اشاره کرد که بازده اوراق پنج‌ساله دولت کانادا نسبت به کف ماه فوریه نزدیک به یک واحد درصد بالا رفته و این موضوع هم‌اکنون به نرخ‌های ثابت بالاتر وام مسکن منتقل می‌شود، و TD انتظار دارد بازده‌ها از سال آینده کاهش یابند. در مورد بازار مسکن، او معتقد است بازار پس از اصلاح بیش از ۲۰ درصدی قیمت‌ها به کف رسیده، اما انتظار بازیابی آرام و کند دارد، نه جهش سریع؛ بازار کاندو عقب‌تر است و خانه‌های مستقل و نیمه‌مستقل در منطقه تورنتو بزرگ (GTA) در حال تثبیت هستند.",
+      "analysis_en": "<p><strong>Hamed's take.</strong> Two days before this keynote, Manulife said it expects hikes at the next two meetings; TD says the Bank may well sit tight. When credible economists split this sharply, nobody — me included — can tell you where rates will be next month. What I can tell you is that fixed rates have already moved with bond yields, so the practical question is not \"will the Bank hike?\" but \"is my plan built to handle either outcome?\"</p><p>If your renewal or purchase closes in the next few months, a rate hold secured now costs nothing and protects you if the hawks are right. Variable-rate borrowers should check their payment room today rather than after a surprise announcement. And for buyers watching the GTA, a flat, stabilizing market favours careful preparation over rushing — get pre-approved, know your numbers, and move on your timeline, not the headlines'.</p>",
+      "analysis_fa": "<p><strong>دیدگاه حامد.</strong> دو روز پیش از این سخنرانی، منولایف گفته بود انتظار افزایش نرخ در دو جلسه آینده را دارد؛ TD می‌گوید بانک کانادا ممکن است دست نگه دارد. وقتی اقتصاددانان معتبر تا این حد اختلاف نظر دارند، هیچ‌کس — از جمله من — نمی‌تواند با اطمینان بگوید نرخ‌ها ماه آینده کجا خواهند بود. آنچه می‌توانم بگویم این است که نرخ‌های ثابت همین حالا همراه با بازده اوراق قرضه بالا رفته‌اند؛ پس سؤال عملی این نیست که «آیا بانک نرخ را بالا می‌برد؟» بلکه این است که «آیا برنامه من برای هر دو حالت آماده است؟»</p><p>اگر تمدید وام یا خرید شما در چند ماه آینده انجام می‌شود، گرفتن «رزرو نرخ» (Rate Hold) از همین حالا هزینه‌ای ندارد و اگر پیش‌بینی افزایش نرخ درست باشد از شما محافظت می‌کند. دارندگان وام با نرخ متغیر بهتر است همین امروز توان پرداخت خود را بررسی کنند، نه بعد از یک اعلامیه غیرمنتظره. و برای خریدارانی که بازار GTA را دنبال می‌کنند، بازاری آرام و در حال تثبیت به نفع آمادگی دقیق است نه عجله — پیش‌تأییدیه بگیرید، اعداد خود را بشناسید و بر اساس زمان‌بندی خودتان تصمیم بگیرید، نه تیترهای خبری.</p>",
+      "seo_title": "TD's Burleton: Bank of Canada Hike Case 'Not Compelling' | Hamed Ashouri",
+      "seo_description": "TD's Derek Burleton says markets are overpricing Bank of Canada rate hikes, sees a housing floor and a slow recovery. What it means for Ontario renewals, variable-rate borrowers and buyers.",
+      "keywords": [
+        "Bank of Canada",
+        "rate hike",
+        "TD Economics",
+        "Derek Burleton",
+        "bond yields",
+        "fixed mortgage rates",
+        "GTA housing market",
+        "mortgage renewal",
+        "rate hold"
+      ],
+      "tags": [
+        "Bank of Canada",
+        "rates",
+        "bond yields",
+        "housing market",
+        "renewals"
+      ],
+      "category": "rates",
+      "featured_image": "https://cdn2.deevid.ai/user-image/v2_eb087c49-5279-4f0a-a8fb-b55d14a2e4cb.jpg",
+      "image_alt_en": "Conference keynote stage in a Toronto convention hall with the city skyline visible through a large window",
+      "image_alt_fa": "سکوی سخنرانی یک همایش در سالن کنفرانس تورنتو با نمای افق شهر از پنجره‌ای بزرگ",
+      "caption_en": "Illustrative — AI-generated, brand-graded image.",
+      "caption_fa": "تصویری نمونه — تولیدشده با هوش مصنوعی و هماهنگ با برند.",
+      "source_name": "Canadian Mortgage Trends",
+      "source_url": "https://www.canadianmortgagetrends.com/2026/09/tds-burleton-says-case-for-bank-of-canada-rate-hike-not-that-compelling/",
+      "author": "Hamed Ashouri",
+      "published_date": "2026-09-23",
+      "imported_date": "2026-09-27",
+      "status": "published",
+      "language": "both",
+      "featured": true,
+      "homepage": true,
+      "related_topics": [
+        "Bank of Canada",
+        "bond yields",
+        "fixed mortgage rates",
+        "housing market outlook"
+      ],
+      "related_journeys": [
+        "renewal",
+        "purchase"
+      ],
+      "related_knowledge_blocks": [
+        "renewal-checklist",
+        "gen-stress"
+      ]
+    },
     {
       "id": "news-2026-09-25-manulife-boc-rate-hike-call",
       "slug": "manulife-boc-rate-hike-call",
@@ -70,7 +129,7 @@
       "imported_date": "2026-09-26",
       "status": "published",
       "language": "both",
-      "featured": true,
+      "featured": false,
       "homepage": true,
       "related_topics": [
         "Bank of Canada",
@@ -184,7 +243,7 @@
       "status": "published",
       "language": "both",
       "featured": false,
-      "homepage": true,
+      "homepage": false,
       "related_topics": [
         "credit score",
         "mortgage qualification",
@@ -724,61 +783,6 @@
         "ftb-roadmap",
         "gen-preapproval",
         "gen-downpayment"
-      ]
-    },
-    {
-      "id": "news-2026-08-04-dlc-acquires-filogix",
-      "slug": "dlc-acquires-filogix-58-5-million",
-      "title_en": "Dominion Lending Centres acquires Filogix for $58.5M, bringing Canada's two big broker platforms under one roof",
-      "title_fa": "Ø®Ø±ÛØ¯ Filogix ØªÙØ³Ø· Dominion Lending Centres Ø¨Ù Ø§Ø±Ø²Ø´ ÛµÛ¸Ù«Ûµ ÙÛÙÛÙÙ Ø¯ÙØ§Ø±Ø Ø¯Ù Ø´Ø§ÙØ±Ø§Ù ÙÙØ§ÙØ±Û Ø¨Ø±ÙÚ©Ø±ÙØ§Û Ú©Ø§ÙØ§Ø¯Ø§ Ø²ÛØ± ÛÚ© Ø³ÙÙ",
-      "summary_en": "Dominion Lending Centres Group has purchased mortgage technology firm Filogix from Finastra Holdings in an all-cash deal valued at $58.5 million. Filogix runs the Expert, Expert Plus and FXLink systems that route applications between more than 8,000 Canadian mortgage brokers and roughly 350 lenders and industry partners, supporting the process from submission through underwriting, workflow and compliance data. DLC says Filogix will be kept as a stand-alone, wholly owned subsidiary, operating separately from Newton Connectivity Systems â the DLC company behind the rival Velocity platform â with continued investment in its technology, infrastructure and data security. Filogix processed roughly $60 billion in funded mortgage volume over the twelve months ended May 31 and is expected to contribute $15 to $18 million in adjusted EBITDA in its first year under DLC ownership. The purchase was financed from existing liquidity and an amended credit agreement with TD Bank that includes a new $65-million term facility.",
-      "summary_fa": "Ú¯Ø±ÙÙ Dominion Lending Centres Ø´Ø±Ú©Øª ÙÙØ§ÙØ±Û ÙØ§Ù ÙØ³Ú©Ù Filogix Ø±Ø§ Ø¯Ø± ÛÚ© ÙØ¹Ø§ÙÙÙ Ú©Ø§ÙÙØ§Ù ÙÙØ¯Û Ø¨Ù Ø§Ø±Ø²Ø´ ÛµÛ¸Ù«Ûµ ÙÛÙÛÙÙ Ø¯ÙØ§Ø± Ø§Ø² Finastra Holdings Ø®Ø±ÛØ¯Ø§Ø±Û Ú©Ø±Ø¯. Filogix Ø³Ø§ÙØ§ÙÙâÙØ§Û ExpertØ Expert Plus Ù FXLink Ø±Ø§ Ø§Ø¯Ø§Ø±Ù ÙÛâÚ©ÙØ¯ Ú©Ù Ø¨ÛØ´ Ø§Ø² Û¸Ù¬Û°Û°Û° Ø¨Ø±ÙÚ©Ø± ÙØ§Ù ÙØ³Ú©Ù Ú©Ø§ÙØ§Ø¯Ø§ÛÛ Ø±Ø§ Ø¨Ù Ø­Ø¯ÙØ¯ Û³ÛµÛ° ÙØ§ÙâØ¯ÙÙØ¯Ù Ù Ø´Ø±ÛÚ© ØµÙØ¹ØªÛ ÙØªØµÙ ÙÛâÚ©ÙÙØ¯ Ù ÙØ±Ø§ÛÙØ¯ Ø¯Ø±Ø®ÙØ§Ø³Øª ÙØ§Ù Ø±Ø§ Ø§Ø² Ø§Ø±Ø³Ø§Ù ØªØ§ Ø¨Ø±Ø±Ø³Û Ø§Ø¹ØªØ¨Ø§Ø±Û (Underwriting)Ø Ú¯Ø±Ø¯Ø´ Ú©Ø§Ø± Ù Ø¯Ø§Ø¯ÙâÙØ§Û Ø§ÙØ·Ø¨Ø§Ù Ù¾ÙØ´Ø´ ÙÛâØ¯ÙÙØ¯. DLC Ø§Ø¹ÙØ§Ù Ú©Ø±Ø¯Ù Filogix Ø¨ÙâØµÙØ±Øª ÛÚ© Ø´Ø±Ú©Øª ØªØ§Ø¨Ø¹Ù ÙØ³ØªÙÙ Ù ØµØ¯Ø¯Ø±ØµØ¯Û Ø¨Ø§ÙÛ ÙÛâÙØ§ÙØ¯ Ù Ø§Ø² Newton Connectivity Systems â Ø´Ø±Ú©Øª DLC Ú©Ù Ù¾ÙØªÙØ±Ù Ø±ÙÛØ¨ Velocity Ø±Ø§ Ø§Ø¯Ø§Ø±Ù ÙÛâÚ©ÙØ¯ â Ø¬Ø¯Ø§ Ø®ÙØ§ÙØ¯ Ø¨ÙØ¯ Ù Ø³Ø±ÙØ§ÛÙâÚ¯Ø°Ø§Ø±Û Ø¯Ø± ÙÙØ§ÙØ±ÛØ Ø²ÛØ±Ø³Ø§Ø®Øª Ù Ø§ÙÙÛØª Ø¯Ø§Ø¯ÙâÙØ§ Ø§Ø¯Ø§ÙÙ ÙÛâÛØ§Ø¨Ø¯. Filogix Ø¯Ø± Ø¯ÙØ§Ø²Ø¯Ù ÙØ§Ù ÙÙØªÙÛ Ø¨Ù Û³Û± ÙÙ Ø­Ø¯ÙØ¯ Û¶Û° ÙÛÙÛØ§Ø±Ø¯ Ø¯ÙØ§Ø± Ø­Ø¬Ù ÙØ§Ù ÙÙØ§ÛÛâØ´Ø¯Ù Ø±Ø§ Ù¾Ø±Ø¯Ø§Ø²Ø´ Ú©Ø±Ø¯Ù Ù Ø§ÙØªØ¸Ø§Ø± ÙÛâØ±ÙØ¯ Ø¯Ø± ÙØ®Ø³ØªÛÙ Ø³Ø§Ù ÙØ§ÙÚ©ÛØª DLC Ø¨ÛÙ Û±Ûµ ØªØ§ Û±Û¸ ÙÛÙÛÙÙ Ø¯ÙØ§Ø± EBITDA ØªØ¹Ø¯ÛÙâØ´Ø¯Ù Ø§Ø¶Ø§ÙÙ Ú©ÙØ¯. Ø§ÛÙ Ø®Ø±ÛØ¯ Ø§Ø² ÙØ­Ù ÙÙØ¯ÛÙÚ¯Û ÙÙØ¬ÙØ¯ Ù ÙØ±Ø§Ø±Ø¯Ø§Ø¯ Ø§Ø¹ØªØ¨Ø§Ø±Û Ø§ØµÙØ§Ø­âØ´Ø¯Ù Ø¨Ø§ TD Bank Ø´Ø§ÙÙ ÛÚ© ØªØ³ÙÛÙØ§Øª ÙØ¯ØªâØ¯Ø§Ø± Ø¬Ø¯ÛØ¯ Û¶Ûµ ÙÛÙÛÙÙ Ø¯ÙØ§Ø±Û ØªØ£ÙÛÙ ÙØ§ÙÛ Ø´Ø¯Ù Ø§Ø³Øª.",
-      "analysis_en": "<p><strong>Hamed's take.</strong> This is one of the most consequential pieces of mortgage-industry news of 2026 for anyone who works with a broker in Canada. Nearly every brokered mortgage application in this country travels through either Filogix Expert or Newton's Velocity on its way to a lender â and both of those rails now sit inside the same corporate group. DLC has promised operational separation and continued investment, which matters, because brokers and lenders depend on these systems being fast, neutral and secure.</p><p>For my clients, nothing changes today: applications continue to flow, and added redundancy across connectivity infrastructure arguably reduces the risk of outages disrupting time-sensitive approvals. What I'll be watching over the next year is pricing, the pace of innovation, and how data is governed when one group has visibility into so much of the market's flow. Either way, your file goes through whichever channel serves your approval best.</p>",
-      "analysis_fa": "<p><strong>Ø¯ÛØ¯Ú¯Ø§Ù Ø­Ø§ÙØ¯.</strong> Ø§ÛÙ ÛÚ©Û Ø§Ø² ÙÙÙâØªØ±ÛÙ Ø®Ø¨Ø±ÙØ§Û ØµÙØ¹Øª ÙØ§Ù ÙØ³Ú©Ù Ú©Ø§ÙØ§Ø¯Ø§ Ø¯Ø± Ø³Ø§Ù Û²Û°Û²Û¶ Ø¨Ø±Ø§Û ÙØ± Ú©Ø³Û Ø§Ø³Øª Ú©Ù Ø¨Ø§ Ø¨Ø±ÙÚ©Ø± Ú©Ø§Ø± ÙÛâÚ©ÙØ¯. ØªÙØ±ÛØ¨Ø§Ù ÙØ± Ø¯Ø±Ø®ÙØ§Ø³Øª ÙØ§Ù ÙØ³Ú©ÙÛ Ú©Ù Ø§Ø² Ø·Ø±ÛÙ Ø¨Ø±ÙÚ©Ø± Ø§Ø±Ø³Ø§Ù ÙÛâØ´ÙØ¯Ø Ø§Ø² ÙØ³ÛØ± Filogix Expert ÛØ§ Velocity (ÙØªØ¹ÙÙ Ø¨Ù Newton) Ø¨Ù ÙØ§ÙâØ¯ÙÙØ¯Ù ÙÛâØ±Ø³Ø¯ â Ù Ø­Ø§ÙØ§ ÙØ± Ø¯ÙÛ Ø§ÛÙ Ø´Ø§ÙØ±Ø§ÙâÙØ§ Ø²ÛØ± ÙØ¬ÙÙØ¹Ù ÛÚ© Ú¯Ø±ÙÙ Ø´Ø±Ú©ØªÛ ÙØ±Ø§Ø± Ú¯Ø±ÙØªÙâØ§ÙØ¯. DLC ÙÙÙ Ø¬Ø¯Ø§ÛÛ Ø¹ÙÙÛØ§ØªÛ Ù Ø§Ø¯Ø§ÙÙ Ø³Ø±ÙØ§ÛÙâÚ¯Ø°Ø§Ø±Û Ø±Ø§ Ø¯Ø§Ø¯Ù Ù Ø§ÛÙ ÙÙÙ Ø§Ø³ØªØ ÚÙÙ Ø¨Ø±ÙÚ©Ø±ÙØ§ Ù ÙØ§ÙâØ¯ÙÙØ¯ÙâÙØ§ Ø¨Ù Ø³Ø±ÛØ¹Ø Ø¨ÛâØ·Ø±Ù Ù Ø§ÙÙ Ø¨ÙØ¯Ù Ø§ÛÙ Ø³Ø§ÙØ§ÙÙâÙØ§ ÙØ§Ø¨Ø³ØªÙâØ§ÙØ¯.</p><p>Ø¨Ø±Ø§Û ÙØ´ØªØ±ÛØ§Ù ÙÙ Ø§ÙØ±ÙØ² ÚÛØ²Û ØªØºÛÛØ± ÙÙÛâÚ©ÙØ¯: Ø¯Ø±Ø®ÙØ§Ø³ØªâÙØ§ ÙØ«Ù ÙÙÛØ´Ù Ø¬Ø±ÛØ§Ù Ø¯Ø§Ø±ÙØ¯ Ù Ø­ØªÛ Ø§ÙØ²ÙÙÚ¯Û Ø¨ÛØ´ØªØ± Ø¯Ø± Ø²ÛØ±Ø³Ø§Ø®Øª Ø§ØªØµØ§ÙØ Ø±ÛØ³Ú© Ø§Ø®ØªÙØ§Ù Ø¯Ø± ØªØ£ÛÛØ¯ÛÙâÙØ§Û Ø²ÙØ§ÙâØ­Ø³Ø§Ø³ Ø±Ø§ Ú©Ø§ÙØ´ ÙÛâØ¯ÙØ¯. Ø¢ÙÚÙ Ø¯Ø± ÛÚ© Ø³Ø§Ù Ø¢ÛÙØ¯Ù Ø²ÛØ± ÙØ¸Ø± Ø®ÙØ§ÙÙ Ø¯Ø§Ø´ØªØ ÙÛÙØªâÚ¯Ø°Ø§Ø±ÛØ Ø³Ø±Ø¹Øª ÙÙØ¢ÙØ±Û Ù ÙØ­ÙÙ Ø­Ø§Ú©ÙÛØª Ø¯Ø§Ø¯ÙâÙØ§Ø³Øª ÙÙØªÛ ÛÚ© Ú¯Ø±ÙÙ Ø¨Ù Ø¨Ø®Ø´ Ø¨Ø²Ø±Ú¯Û Ø§Ø² Ø¬Ø±ÛØ§Ù Ø¨Ø§Ø²Ø§Ø± Ø¯ÛØ¯ Ø¯Ø§Ø±Ø¯. Ø¯Ø± ÙØ± Ø­Ø§ÙØ Ù¾Ø±ÙÙØ¯Ù Ø´ÙØ§ ÙÙÛØ´Ù Ø§Ø² ÙØ³ÛØ±Û Ø§Ø±Ø³Ø§Ù ÙÛâØ´ÙØ¯ Ú©Ù Ø¨ÙØªØ±ÛÙ ÙØªÛØ¬Ù Ø±Ø§ Ø¨Ø±Ø§Û ØªØ£ÛÛØ¯ ÙØ§Ù Ø´ÙØ§ Ø¯Ø§Ø´ØªÙ Ø¨Ø§Ø´Ø¯.</p>",
-      "seo_title": "DLC acquires Filogix for $58.5M â what it means for Canadian mortgage brokers",
-      "seo_description": "Dominion Lending Centres buys Filogix from Finastra for $58.5M cash. Ontario broker Hamed Ashouri explains what consolidation of Canada's broker connectivity platforms means for borrowers.",
-      "keywords": [
-        "Dominion Lending Centres",
-        "Filogix",
-        "Finastra",
-        "mortgage technology",
-        "Canadian mortgage brokers",
-        "Velocity platform",
-        "Newton Connectivity Systems",
-        "mortgage industry consolidation"
-      ],
-      "tags": [
-        "DLC",
-        "Filogix",
-        "mortgage tech",
-        "industry consolidation",
-        "brokers"
-      ],
-      "category": "industry",
-      "featured_image": "https://cdn2.deevid.ai/user-image/v2_48b3bfe4-8955-4a06-ba89-8f45e77c9af5.jpg",
-      "image_alt_en": "Mortgage professional at a desk with abstract network connections on a monitor and the Toronto skyline at dusk",
-      "image_alt_fa": "Ú©Ø§Ø±Ø´ÙØ§Ø³ ÙØ§Ù ÙØ³Ú©Ù Ù¾Ø´Øª ÙÛØ² Ú©Ø§Ø± Ø¨Ø§ Ø®Ø·ÙØ· Ø§ØªØµØ§Ù Ø§ÙØªØ²Ø§Ø¹Û Ø±ÙÛ ÙÙØ§ÛØ´Ú¯Ø± Ù ÙÙØ¸Ø±Ù ØªÙØ±ÙØªÙ Ø¯Ø± ØºØ±ÙØ¨",
-      "caption_en": "Illustrative â AI-generated, brand-graded image.",
-      "caption_fa": "ØªØµÙÛØ±Û ÙÙÙÙÙ â ØªÙÙÛØ¯Ø´Ø¯Ù Ø¨Ø§ ÙÙØ´ ÙØµÙÙØ¹Û Ù ÙÙØ§ÙÙÚ¯ Ø¨Ø§ Ø¨Ø±ÙØ¯.",
-      "source_name": "Canadian Mortgage Trends",
-      "source_url": "https://www.canadianmortgagetrends.com/2026/08/dominion-lending-centres-acquires-filogix-for-58-5-million/",
-      "author": "Hamed Ashouri",
-      "published_date": "2026-08-04",
-      "imported_date": "2026-08-04",
-      "status": "published",
-      "language": "both",
-      "featured": false,
-      "homepage": false,
-      "related_topics": [
-        "mortgage-broker",
-        "home-financing"
-      ],
-      "related_journeys": [
-        "assessment"
-      ],
-      "related_knowledge_blocks": [
-        "gen-why-use-a-broker",
-        "gen-preapproval"
       ]
     }
   ]
