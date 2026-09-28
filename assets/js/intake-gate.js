@@ -194,11 +194,26 @@
   // POST one standard event to the single router endpoint.
   function emit(e) {
     var event = buildEvent(e);
+    var leadPayload = {
+      language: event.language || "en",
+      intent: event.action || "intake",
+      name: event.fullName || event.contact || "-",
+      email: event.email || "",
+      phone: event.phone || "",
+      timeline: event.currentStage || "Lead",
+      message: event.feature || "Website intake",
+      context: JSON.stringify(event),
+      marketingConsent: event.marketingConsent === true,
+      privacyConsent: true,
+      createdAt: event.timestamp || new Date().toISOString(),
+      idempotencyKey: event.idempotencyKey || event.requestId ||
+        (event.email + "|" + event.action + "|" + event.timestamp)
+    };
     return new Promise(function (resolve) {
       var done = false;
       function finish() { if (done) return; done = true; resolve(event); }
       try {
-        fetch(ENDPOINT, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(event) })
+        fetch(ENDPOINT, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(leadPayload) })
           .then(finish).catch(finish);
       } catch (err) { finish(); }
       setTimeout(finish, 2600);
