@@ -43,8 +43,8 @@
   var CFG = window.HM_INTAKE || {};
 
   /* ---------- the ONE router endpoint (single Make scenario) ---------- */
-  var ENDPOINT = (CFG.endpoint) || "https://hook.us2.make.com/p2jg76wu1f19or87ibptgs9l6m8ortu7";
-  var EVENT_VERSION = "1";
+  var ENDPOINT = (CFG.endpoint) || "/api/lead";
+  var EVENT_VERSION = "1.1";
 
   var STORE = "hm_intake_v1";   // canonical identity (localStorage)
   var COOKIE = "hm_intake";     // canonical identity (shared cookie)
@@ -198,7 +198,7 @@
       var done = false;
       function finish() { if (done) return; done = true; resolve(event); }
       try {
-        fetch(ENDPOINT, { method: "POST", mode: "no-cors", body: new URLSearchParams(event) })
+        fetch(ENDPOINT, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(event) })
           .then(finish).catch(finish);
       } catch (err) { finish(); }
       setTimeout(finish, 2600);
