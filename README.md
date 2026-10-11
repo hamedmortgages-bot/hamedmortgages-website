@@ -27,3 +27,7 @@ Bilingual (English / Persian) static website for Hamed Ashouri, Mortgage Broker,
 ## The previous site
 
 The site that was here until 2026-09-28 is kept on branch `archive/old-site-2026-09-28` and in the history of `main`.
+
+## Publishing check
+
+Git-connected publishing was set up and verified on 2026-10-11.
