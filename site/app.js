@@ -388,3 +388,9 @@ all("#nav a").forEach(function(a){ a.addEventListener("click",closeMenu); });
 frame();
 
 })();
+
+/* insights filter */
+(function(){ var f=document.getElementById("nFilter"), l=document.getElementById("nList"); if(!f||!l) return;
+ f.addEventListener("click",function(e){ var b=e.target.closest("button[data-cat]"); if(!b) return; var c=b.getAttribute("data-cat");
+  Array.prototype.forEach.call(f.querySelectorAll("button"),function(x){ x.setAttribute("aria-pressed",x===b?"true":"false"); });
+  Array.prototype.forEach.call(l.children,function(li){ li.hidden=!(c==="all"||li.getAttribute("data-cat")===c); }); }); })();
