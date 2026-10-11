@@ -629,3 +629,9 @@ html[lang="fa"] .closing.has-ph h2{font-size:clamp(2rem,4.6vw,4.2rem)}
   .closing.has-ph .frame img{object-position:50% 12%}
   .frame.band{aspect-ratio:16/10}
 }
+
+/* 2026-10-11 fixes */
+#intake[hidden]{display:none}
+.fine{font-size:.82rem;color:var(--dim)}
+.fine a{color:inherit;text-decoration:underline}
+@media (max-width:940px){.sub{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.nav .sub a{white-space:normal;overflow-wrap:anywhere}}

@@ -206,12 +206,12 @@
     },
     {
       "source": "/en/privacy.html",
-      "destination": "/",
+      "destination": "/privacy/",
       "permanent": true
     },
     {
       "source": "/fa/privacy.html",
-      "destination": "/fa/",
+      "destination": "/fa/privacy/",
       "permanent": true
     },
     {
