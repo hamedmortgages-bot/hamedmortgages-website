@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>شروع · حامد آشوری</title>
+<meta name="description" content="لطفاً شماره SIN، اطلاعات بانکی یا شماره مدارک شناسایی را اینجا وارد نکنید. این فرم اپلیکیشن یا تأیید وام نیست.">
+<meta name="theme-color" content="#000000">
+<link rel="alternate" hreflang="en" href="/start/">
+<link rel="alternate" hreflang="fa" href="/fa/start/">
+<link rel="icon" href="/assets/mark.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..700&family=Hanken+Grotesk:wght@300;400;500;600&family=Vazirmatn:wght@200;300;400;500;700&display=swap">
+<link rel="stylesheet" href="/site.css">
+</head>
+<body class="pg-start">
+<a class="skip" href="#main">رفتن به محتوا</a>
+<div class="bar" id="bar"></div>
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="brand" href="/fa/"><img src="/assets/mark.webp" width="300" height="70" alt="Hamed Ashouri"></a>
+  <nav class="nav" id="nav" aria-label="Main">
+   <div class="has-sub"><a href="/fa/services/">خدمات</a><div class="sub"><a href="/fa/services/buying/">خرید خانه</a><a href="/fa/services/refinance/">ریفاینانس</a><a href="/fa/services/equity-take-out/">برداشت اکوییتی</a><a href="/fa/services/renewal/">تمدید مورگیج</a><a href="/fa/services/reverse-mortgage/">ریورس مورگیج</a><a href="/fa/services/self-employed/">خویش‌فرما و پرونده‌های پیچیده</a><a href="/fa/services/private-lending/">وام پرایوت و آلترنتیو</a><a href="/fa/services/pre-construction/">پیش‌فروش</a></div></div>
+   <a href="/fa/calculators/">ماشین‌حساب‌ها</a><a href="/fa/knowledge/">دانشنامه</a><a href="/fa/insights/">تحلیل‌ها</a><a href="/fa/about/">درباره</a><a class="m-only" href="/fa/start/">شروع</a>
+  </nav>
+  <a class="lang" href="/start/" lang="en" hreflang="en">English</a>
+  <a class="pill light sm" href="/fa/start/"><span>شروع</span><span class="ar"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span></a>
+  <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+ </div>
+</header>
+<main id="main">
+<section class="phead"><div class="wrap"><div class="head split"><div><p class="eyebrow">شروع</p><h1>هشت سؤال. حدود یک دقیقه.</h1></div><div><p class="lede">لطفاً شماره SIN، اطلاعات بانکی یا شماره مدارک شناسایی را اینجا وارد نکنید. این فرم اپلیکیشن یا تأیید وام نیست.</p></div></div></div></section><section class="sec flat"><div class="wrap"><div class="start">
+ <div>
+  <form id="intake" novalidate>
+   <div class="two">
+    <div class="f"><label for="qName">نام و نام خانوادگی</label><input id="qName" autocomplete="name" required></div>
+    <div class="f"><label for="qMobile">موبایل</label><input id="qMobile" type="tel" autocomplete="tel" required></div>
+   </div>
+   <div class="f"><label for="qEmail">ایمیل</label><input id="qEmail" type="email" autocomplete="email" required></div>
+   <div class="two">
+    <div class="f"><label for="qNeed">چه چیزی لازم دارید؟</label><select id="qNeed"></select></div>
+    <div class="f"><label for="qTime">زمان‌بندی</label><select id="qTime"></select></div>
+   </div>
+   <div class="f" id="dateWrap" hidden><label for="qDate" id="qDateL">تاریخ کلوزینگ</label><input id="qDate" type="date"></div>
+   <div class="two">
+    <div class="f"><label for="qValue" id="qValueL">قیمت خرید</label><input id="qValue" type="number" min="0" step="1000" inputmode="numeric" required></div>
+    <div class="f"><label for="qDown" id="qDownL">پیش‌پرداخت</label><input id="qDown" type="number" min="0" step="1000" inputmode="numeric" required></div>
+   </div>
+   <div class="two">
+    <div class="f"><label for="qIncome">درآمد سالانه خانوار، قبل از مالیات</label><input id="qIncome" type="number" min="0" step="1000" inputmode="numeric" required></div>
+    <div class="f"><label for="qCredit">کردیت شما، به نظر خودتان</label><select id="qCredit"></select></div>
+   </div>
+   <div class="f"><label for="qRef">چه کسی شما را معرفی کرده؟ (اختیاری)</label><input id="qRef"></div>
+   <label class="check"><input type="checkbox" id="qConsent" required><span>موافقم که درباره این درخواست با من تماس گرفته شود. می‌دانم که این فرم اپلیکیشن یا تأیید وام نیست.</span></label>
+   <p class="err" id="formErr" hidden></p>
+   <div><button class="pill light" type="submit"><span>ارسال</span><span class="ar"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span></button></div>
+  </form>
+  <div class="done" id="done" hidden><h3>ممنون. پاسخ‌های شما ارسال شد.</h3><p>حامد آن‌ها را بررسی می‌کند و با شما تماس می‌گیرد. اگر کار فوری دارید، تماس بگیرید یا ایمیل بزنید.</p><p class="num" dir="ltr">(416) 856-8148 · info@hamedmortgages.ca</p></div>
+ </div>
+ <aside class="aside rv"><div class="frame aph"><img src="/assets/p-start.webp" width="960" height="1200" alt="Hamed Ashouri"></div><h3>بعد چه می‌شود</h3><ul><li>حامد جواب‌های شما را بررسی می‌کند و معمولاً همان روز کاری تماس می‌گیرد.</li><li>اگر ادامه دادن منطقی باشد، چک‌لیست مدارک مخصوص شرایط خودتان را دریافت می‌کنید.</li><li>بعد از بررسی مدارک، پری‌کوالیفیکیشن کتبی دریافت می‌کنید.</li></ul><p class="note">پری‌کوالیفیکیشن برآوردی است بر اساس اطلاعاتی که می‌دهید. پری‌اپروال یا تعهد لندر نیست.</p></aside>
+</div></div></section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <div>
+    <img class="flogo" src="/assets/logo.webp" width="440" height="129" alt="Hamed Ashouri — Mortgage Broker &amp; Financial Strategist" loading="lazy">
+    <span class="num flic">Mortgage Broker Licence M22004433</span>
+   </div>
+   <nav aria-label="Footer">
+    <span class="h">سایت</span>
+    <a href="/fa/services/">خدمات</a><a href="/fa/calculators/">ماشین‌حساب‌ها</a><a href="/fa/knowledge/">دانشنامه</a><a href="/fa/insights/">تحلیل‌ها</a><a href="/fa/about/">درباره</a><a href="/fa/start/">شروع</a>
+   </nav>
+   <div>
+    <span class="h">دفتر</span>
+    <span class="num">7030 Woodbine Ave, Markham, ON L3R 6G2</span>
+    <a class="num" href="tel:+14168568148">(416) 856-8148</a>
+    <a class="num" href="mailto:info@hamedmortgages.ca">info@hamedmortgages.ca</a>
+    <span>دوشنبه تا جمعه ۹ صبح تا ۹ شب · شنبه ۹ صبح تا ۲ بعدازظهر · یکشنبه تعطیل</span>
+   </div>
+   <div>
+    <span class="h">بروکریج</span>
+    <img class="flogo2" src="/assets/sherwood.webp" width="300" height="151" alt="Sherwood Mortgage Group" loading="lazy">
+    <span class="num">FSRA Brokerage Licence #12176</span>
+   </div>
+  </div>
+  <div class="legal">
+   <p>مطالب این سایت صرفاً اطلاعات عمومی است و مشاوره مالی، حقوقی یا تأیید وام محسوب نمی‌شود. نرخ، محصول و تأیید نهایی به شرایط و معیارهای وام‌دهنده بستگی دارد.</p>
+   <p class="num">Hamed Ashouri, Mortgage Broker, Licence M22004433 · Sherwood Mortgage Group · FSRA Brokerage Licence #12176 · Licensed in Ontario · © 2026</p>
+  </div>
+ </div>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+{
+  "framework": null,
+  "installCommand": "echo skip-install",
+  "buildCommand": "echo static-site",
+  "outputDirectory": "site",
+  "redirects": [
+    {
+      "source": "/en/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/index.html",
+      "destination": "/fa/",
+      "permanent": true
+    },
+    {
+      "source": "/en/about.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/about.html",
+      "destination": "/fa/about/",
+      "permanent": true
+    },
+    {
+      "source": "/en/start.html",
+      "destination": "/start/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/start.html",
+      "destination": "/fa/start/",
+      "permanent": true
+    },
+    {
+      "source": "/en/assessment.html",
+      "destination": "/start/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/assessment.html",
+      "destination": "/fa/start/",
+      "permanent": true
+    },
+    {
+      "source": "/en/contact.html",
+      "destination": "/start/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/contact.html",
+      "destination": "/fa/start/",
+      "permanent": true
+    },
+    {
+      "source": "/en/tools.html",
+      "destination": "/calculators/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/tools.html",
+      "destination": "/fa/calculators/",
+      "permanent": true
+    },
+    {
+      "source": "/en/learn.html",
+      "destination": "/knowledge/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/learn.html",
+      "destination": "/fa/knowledge/",
+      "permanent": true
+    },
+    {
+      "source": "/en/resources.html",
+      "destination": "/knowledge/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/resources.html",
+      "destination": "/fa/knowledge/",
+      "permanent": true
+    },
+    {
+      "source": "/en/news.html",
+      "destination": "/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/news.html",
+      "destination": "/fa/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/en/intelligence.html",
+      "destination": "/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/intelligence.html",
+      "destination": "/fa/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/en/news-article.html",
+      "destination": "/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/news-article.html",
+      "destination": "/fa/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/en/stories.html",
+      "destination": "/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/stories.html",
+      "destination": "/fa/insights/",
+      "permanent": true
+    },
+    {
+      "source": "/en/refinance.html",
+      "destination": "/services/refinance/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/refinance.html",
+      "destination": "/fa/services/refinance/",
+      "permanent": true
+    },
+    {
+      "source": "/en/mortgage-renewal-refinance-ontario.html",
+      "destination": "/services/renewal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/mortgage-renewal-refinance-ontario.html",
+      "destination": "/fa/services/renewal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/mortgage-pre-approval-ontario.html",
+      "destination": "/services/buying/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/mortgage-pre-approval-ontario.html",
+      "destination": "/fa/services/buying/",
+      "permanent": true
+    },
+    {
+      "source": "/en/self-employed-mortgage-ontario.html",
+      "destination": "/services/self-employed/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/self-employed-mortgage-ontario.html",
+      "destination": "/fa/services/self-employed/",
+      "permanent": true
+    },
+    {
+      "source": "/en/business-owners.html",
+      "destination": "/services/self-employed/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/business-owners.html",
+      "destination": "/fa/services/self-employed/",
+      "permanent": true
+    },
+    {
+      "source": "/en/investment.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/investment.html",
+      "destination": "/fa/services/",
+      "permanent": true
+    },
+    {
+      "source": "/en/solutions.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/solutions.html",
+      "destination": "/fa/services/",
+      "permanent": true
+    },
+    {
+      "source": "/en/strategy.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/strategy.html",
+      "destination": "/fa/services/",
+      "permanent": true
+    },
+    {
+      "source": "/en/privacy.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/privacy.html",
+      "destination": "/fa/",
+      "permanent": true
+    },
+    {
+      "source": "/en/workspace.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/workspace.html",
+      "destination": "/fa/",
+      "permanent": true
+    },
+    {
+      "source": "/en/workspace-dashboard.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/workspace-dashboard.html",
+      "destination": "/fa/",
+      "permanent": true
+    },
+    {
+      "source": "/strategy.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
+}

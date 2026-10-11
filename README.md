@@ -1,86 +1,29 @@
-# hamedmortgages.ca — Website
+# hamedmortgages.ca — Website (v2)
 
-Bilingual public website for **Hamed Ashouri — Mortgage Broker & Mortgage Strategist**, operating under **Sherwood Mortgage Group**.
+Bilingual (English / Persian) static website for Hamed Ashouri, Mortgage Broker, Sherwood Mortgage Group.
 
-## Current source of truth
+## How it goes live
 
-- Repository: `hamedmortgages-bot/hamedmortgages-website`
-- Branch: `main`
-- Live domain: https://hamedmortgages.ca
-- Deployment contract: `CNAME` → `hamedmortgages.ca`
-- Last repository audit: 2026-09-14
+- This repository, branch `main`, is the source of truth.
+- Vercel (team `hamed-27a7`) is connected to this repository. A push to `main` publishes to https://www.hamedmortgages.ca within a couple of minutes. A push to any other branch creates a preview address only.
+- DNS is at GoDaddy and points to Vercel. It does not need to change for content updates.
 
-## Stack
+## Layout
 
-This repository is intentionally lightweight:
+- `site/` — the website exactly as served. Static HTML, one `site.css`, one `app.js`, media in `site/assets/`. English at `/`, Persian (RTL) at `/fa/`.
+- `vercel.json` — tells Vercel to serve `site/` with no build step, and redirects the old site's addresses (`/en/*.html`, `/fa/*.html`) to the matching new pages.
+- `site/sitemap.xml`, `site/robots.txt` — search-engine files. Pages still awaiting Hamed's review carry `noindex` and are left out of the sitemap.
+- `site/google0acff6827b529d97.html` — Google Search Console verification file. Do not remove.
 
-- Static HTML
-- Shared CSS design system
-- Vanilla JavaScript
-- No framework
-- No package manager
-- No backend or database in this repository
-- No paid runtime dependency
+## Start form
 
-This keeps routine content and presentation updates low-cost. Dynamic integrations must remain separated from the public shell.
+`site/start/` and `site/fa/start/` post the eight answers to a Make webhook (scenario "Lead Engine v1.2 — Website Funnel to Zoho"), which creates or updates a Lead in Zoho CRM. The submit code is in `site/app.js` (search for `hook.us2.make.com`).
 
-## Website modules
+## Content still in draft
 
-- Language Gateway: `index.html`
-- English routes: `en/`
-- Persian RTL routes: `fa/`
-- Shared styles: `assets/css/`
-- Shared runtime: `assets/js/main.js`
-- Mortgage calculator: `assets/js/calculator.js`
-- Platform integration: `assets/js/platform-runtime.js`
-- NILI integration: `assets/js/concierge.js`
-- SEO integration: `assets/js/authority-seo.js`
-- News and intelligence routes: `intelligence.html` and related content assets
-- Verified architecture map: `docs/MODULE_MAP.md`
+- `site/knowledge/` and `site/fa/knowledge/` — awaiting review of the 22-entry knowledge sheet.
+- `site/insights/new-build-hst-rebates-ontario/` (both languages) — held until the Ontario regulation is confirmed. Not linked from the index pages.
 
-## Regulatory identity
+## The previous site
 
-The public footer must remain consistent with the current identity:
-
-- Hamed Ashouri — Mortgage Broker
-- Licence: M22004433
-- Sherwood Mortgage Group — FSRA Brokerage Licence #12176
-- Licensed in Ontario
-- Information-only disclaimer and Privacy Policy
-
-Never reintroduce historical Mortgage Alliance or FSRA #10530 details into public pages or documentation.
-
-## Data boundaries
-
-- Do not store client documents, personal information, credentials or secrets in GitHub.
-- Website input/output documentation and approved assets are archived in the Website Google Drive folder.
-- Zoho CRM, Zoho WorkDrive, forms and Mortgage Workspace remain external systems.
-- The calculator is illustrative only and runs client-side.
-- Dynamic publishing is not considered complete until it is verified end-to-end without requiring a full public-shell deployment.
-
-## Release rule
-
-For every completed stage:
-
-1. Run quality and bilingual/compliance checks.
-2. Commit the verified change to `main`.
-3. Publish to the production domain.
-4. Verify the live result.
-5. Archive the source snapshot, release notes, commit SHA and live URL in the Website Google Drive folder.
-6. Only then begin the next stage.
-
-## Current known gaps
-
-- News Engine exists in the source history but its independent runtime/publishing path requires verification.
-- English and Persian pages require a full parity audit.
-- Repository is static; independent dynamic content requires a low-cost external content boundary or generated content files.
-- Asset inventory and all route links require final QA.
-
-## Local preview
-
-```bash
-python3 -m http.server 8080
-```
-
-Open `http://localhost:8080/`.
-
+The site that was here until 2026-09-28 is kept on branch `archive/old-site-2026-09-28` and in the history of `main`.
