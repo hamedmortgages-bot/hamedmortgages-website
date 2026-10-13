@@ -17,17 +17,24 @@ Bilingual (English / Persian) static website for Hamed Ashouri, Mortgage Broker,
 
 ## Start form
 
-`site/start/` and `site/fa/start/` post the eight answers to a Make webhook (scenario "Lead Engine v1.2 — Website Funnel to Zoho"), which creates or updates a Lead in Zoho CRM. The submit code is in `site/app.js` (search for `hook.us2.make.com`).
+`site/start/` and `site/fa/start/` post the eight answers to a Make webhook (scenario 5728752 "[LIVE] Lead Engine v1.2 — Website Start form to Zoho"), which creates or updates a Lead in Zoho CRM (Lead_Source "Website Mortgage Strategy Funnel"). The submit code is in `site/app.js` (search for `hook.us2.make.com`). A Zoho workflow rule ("Website Start form - notify Hamed") then creates a same-day call task for Hamed with an email notification. Test submissions must use a name containing `[TEST-DELETE-OK]`.
 
-## Content still in draft
+## Insights
 
-- `site/knowledge/` and `site/fa/knowledge/` — awaiting review of the 22-entry knowledge sheet.
-- `site/insights/new-build-hst-rebates-ontario/` (both languages) — held until the Ontario regulation is confirmed. Not linked from the index pages.
+`site/insights/` is a curated news desk: rate strip (Bank of Canada policy rate and next decision date), a lead story, a dated list with a category filter, and one image plus headline number per post. A few analyses a month, each published only after Hamed approves it. The rate strip must be updated after every Bank of Canada decision.
+
+## Other
+
+- Privacy pages: `site/privacy/`, `site/fa/privacy/`.
+- Tab titles start with "Hamed Ashouri |" (English) or "حامد آشوری |" (Persian). Tab icon: `site/favicon.ico`, `site/assets/favicon-32.png`, `site/assets/icon-192.png`, `site/apple-touch-icon.png` (Hamed's real light-suit cutout on a gold circle).
+- Share tags (Open Graph, canonical) on every page; share image `site/assets/og.jpg`.
+- Vercel Web Analytics is on (cookieless).
+- Search Console: sitemap submitted on https://hamedmortgages.ca/ and https://www.hamedmortgages.ca/.
 
 ## The previous site
 
 The site that was here until 2026-09-28 is kept on branch `archive/old-site-2026-09-28` and in the history of `main`.
 
-## Publishing check
+## Locked baseline
 
-Git-connected publishing was set up and verified on 2026-10-11.
+Branch `locked/v2-2026-10-13` (commit 89b2fc1) is Hamed's approved, locked version of the site. See CLAUDE.md.

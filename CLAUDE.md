@@ -3,6 +3,9 @@
 ## What this is
 The live website of a licensed Ontario mortgage broker. Everything under `site/` is public the moment it reaches `main`.
 
+## Locked baseline (2026-10-13)
+Hamed has locked the site as it stands on branch `locked/v2-2026-10-13` (commit 89b2fc1). Do not change design, layout, text, images, the Start form, the Make scenario or the Zoho workflow unless Hamed asks for that specific change in the conversation. Routine exceptions he has already approved: drafting new Insights posts on a branch for his approval, and updating the Insights rate strip after a Bank of Canada decision (also via a branch and his approval). Never move or delete the locked branch.
+
 ## Rules
 1. `main` is production. Push to a branch first, check the Vercel preview, then merge. Never claim something is live without opening the live address and checking.
 2. Make the smallest change that solves the problem. Do not restructure or restyle pages that were not asked about.
