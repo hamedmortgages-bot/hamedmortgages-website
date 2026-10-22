@@ -289,6 +289,7 @@ $("intake").addEventListener("submit",function(ev){
   put("qualification_class","NOT_ASSESSED"); put("qualification_urgency","NOT_ASSESSED");
   put("underwriting_decision","NOT_PERFORMED"); put("service_inquiry_consent","true");
   fetch("https://hook.us2.make.com/9qpdbyg38vosk57dqrdm4eomajt1x8rr",{method:"POST",mode:"no-cors",body:p}).then(function(){
+    if(window.fbq) fbq("track","Lead",{},{eventID:sid});
     f.hidden=true; $("done").hidden=false; $("done").scrollIntoView({block:"center"});
   }).catch(function(){
     delete f.dataset.sending; if(btn) btn.disabled=false;
